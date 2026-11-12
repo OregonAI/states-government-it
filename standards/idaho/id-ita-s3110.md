@@ -1,0 +1,157 @@
+---
+schema_version: 1
+corpus: states-government-it
+jurisdiction: idaho
+id: id-ita-s3110
+title: S3110 – Network Services – Internet/Intranet Web Browser
+doc_type: standard
+citation: ITA Standard S3110
+authority_level: ''
+issuing_body: Idaho Technology Authority (ITA)
+source_url: https://ita.idaho.gov/wp-content/uploads/2025/07/s3110.pdf
+source_format: pdf
+retrieved: '2026-11-11'
+source_sha256: 7f566426f5c4256d6b46507e5be689338f27373528d8a8c16e94934e908ac266
+effective_date: '2001-10-02'
+source_version: ''
+status: current
+content_mode: verbatim
+conversion_notes: Text extracted with pdftotext -layout (page headers, footers and column layout kept
+  as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their
+  letters).
+last_verified: ''
+verified_by: ''
+maintainer: ''
+relationships:
+  implements: []
+  implemented_by: []
+  references_external: []
+  related: []
+  supersedes: []
+tags:
+- digital-services
+---
+
+> **NON-AUTHORITATIVE.** This is a convenience copy for machine reading. The official text is published at the source URL above. Verify at source before relying on it.
+
+# S3110 – Network Services – Internet/Intranet Web Browser (ITA Standard S3110)
+
+## At a glance
+
+Item of the ITA statewide policies, standards and guidelines library (ita.idaho.gov/policies), category '3000 - Network and Telecommunications, Standards', a standard. The library's own summary: "ITA Standard S3110 mandates security and operational protocols for web browsers to ensure safe and efficient internet/intranet access."
+
+## Full text
+
+Idaho Technology Authority (ITA)
+
+ENTERPRISE STANDARDS – S3000 NETWORK AND
+TELECOMMUNICATIONS
+
+Category:     S3110 – NETWORK SERVICES – INTERNET / INTRANET WEB BROWSER
+
+CONTENTS:
+I.    Definition
+II. Rationale
+III. Approved Standard(s)
+IV. Approved Product(s)
+V. Justification
+VI. Technical and Implementation Considerations
+VII. Emerging Trends and Architectural Directions
+VIII. Procedure Reference
+IX. Review Cycle
+X. Contact Information
+      Revision History
+
+I. DEFINITION
+
+   Client software, application used to interface with the World Wide Web, services, and
+   applications.
+
+II. RATIONALE
+
+   A standard browser minimizes requirements and resources for support, training, and
+   application development.
+
+III. APPROVED STANDARD(S)
+
+   World Wide Web Consortium (W3C) Standards
+
+IV. APPROVED PRODUCT(S)
+
+   Microsoft Internet Explorer vendor supported version(s)
+   Microsoft Edge vendor supported Chromium version(s)
+   Google Chrome vendor supported version(s)
+
+S3110 – Network Services – Internet / Intranet Web Browser                       Page 1 of 3
+
+V. JUSTIFICATION
+
+   The full integration of browser technology into the functionality of the approved office
+   suite indicates the adoption of a fully compatible product.
+
+VI. TECHNICAL AND IMPLEMENTATION CONSIDERATIONS
+
+   Web designers and developers should be cognizant of end users and not implement
+   proprietary browser features, especially since many web services are offered to the
+   public and are not limited to State government. Only vendor-supported browsers that are
+   designated as compatible will be used with agency applications.
+
+VII. EMERGING TRENDS AND ARCHITECTURAL DIRECTIONS
+
+   Microsoft Edge or Google Chrome are the standard browsers to be used within the State
+   Agencies. If employees are authorized to use another browser (Firefox, Safari, or other
+   browsers) they should be at the latest major release and must be patched regularly.
+
+   Agencies should consider moving to Microsoft Edge or Google Chrome to take
+   advantage of the additional security and feature enhancements. Prior to this transition,
+   agencies should test all critical applications and ensure compatibility with this new
+   version. Furthermore, agencies should test and update their web pages to render
+   properly in Microsoft Edge or Google Chrome.
+
+VIII. PROCEDURE REFERENCE
+
+   There are no procedure references for this standard.
+
+IX. REVIEW CYCLE
+
+   Six (6) Months
+
+X. CONTACT INFORMATION
+
+   For more information, contact the ITA Staff at (208) 605-4064.
+
+REVISION HISTORY
+
+   02/16/2021 –       Removed Internet Explorer and added Microsoft Edge and Google
+                      Chrome as recommended browsers.
+
+S3110 – Network Services – Internet / Intranet Web Browser                          Page 2 of 3
+
+   12/19/2017 –       Updated Section IV. Approved Products.
+
+   07/01/2013 –       Changed “ITRMC” to “ITA”.
+
+   04/02/2013 –       Removed version 6, added version 8, 9 and 10 as approved and modified
+                      the emerging trends to acknowledge the use of other browsers but no
+                      support for them.
+
+   06/16/2009 –       Added Procedure Reference and deleted Timeline.
+
+   01/23/2007 –       Updated Approved Standard to include IE7 and updated Emerging
+                      Trends and Architectural Directions section.
+
+   09/13/2006 –       Updated emerging trends to reflect the upcoming release of IE7.
+
+   04/25/2005 –       Updated emerging trends to reflect current market position and to
+                      emphasize need for patch and update management.
+
+   08/25/2004 –       Updated emerging trends to acknowledge security improvements
+                      available with future Microsoft Windows XP service packs.
+
+              Effective Date:       October 2, 2001
+
+S3110 – Network Services – Internet / Intranet Web Browser                         Page 3 of 3
+
+## Curator notes
+
+Text extracted with pdftotext -layout (page headers, footers and column layout kept as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their letters).

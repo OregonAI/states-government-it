@@ -1,0 +1,258 @@
+---
+schema_version: 1
+corpus: states-government-it
+jurisdiction: idaho
+id: id-ita-s4220
+title: S4220 – Geospatial Metadata
+doc_type: standard
+citation: ITA Standard S4220
+authority_level: ''
+issuing_body: Idaho Technology Authority (ITA)
+source_url: https://ita.idaho.gov/wp-content/uploads/2025/07/s4220.pdf
+source_format: pdf
+retrieved: '2026-11-11'
+source_sha256: 42751cd07702199410e3c90d9061f842fb2ae1387d3e34109d9bd24e30aa480d
+effective_date: '2005-07-20'
+source_version: ''
+status: current
+content_mode: verbatim
+conversion_notes: Text extracted with pdftotext -layout (page headers, footers and column layout kept
+  as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their
+  letters).
+last_verified: ''
+verified_by: ''
+maintainer: ''
+relationships:
+  implements: []
+  implemented_by: []
+  references_external: []
+  related: []
+  supersedes: []
+tags:
+- data
+---
+
+> **NON-AUTHORITATIVE.** This is a convenience copy for machine reading. The official text is published at the source URL above. Verify at source before relying on it.
+
+# S4220 – Geospatial Metadata (ITA Standard S4220)
+
+## At a glance
+
+Item of the ITA statewide policies, standards and guidelines library (ita.idaho.gov/policies), category '4000 - Information and Data, Standards', a standard. The library's own summary: "ITA Standard S4220 outlines requirements for geospatial metadata management, ensuring data accuracy, discoverability, and standardized spatial documentation."
+
+## Full text
+
+Idaho Technology Authority (ITA)
+
+ENTERPRISE STANDARDS – S4000 INFORMATION AND DATA
+
+Category:     S4220 – GEOSPATIAL METADATA
+
+CONTENTS:
+I.    Definitions
+II. Rationale
+III. Approved Standard(s)
+IV. Approved Product(s)
+V. Technical and Implementation Considerations
+VI. Emerging Trends and Architectural Directions
+VII. Procedure Reference
+VIII. Review Cycle
+IX. Contact Information
+X. Works Cited
+      Revision History
+
+I. DEFINITIONS
+
+   See ITA Guideline G105 (ITA Glossary of Terms) for definitions.
+
+II. RATIONALE
+
+   As personnel change in an organization, institutional knowledge leaves the organization.
+   Undocumented data can lose their value. Subsequent workers may have little
+   understanding of the contents and uses for a digital database and may find they can't
+   trust results generated from these data. [3]
+
+   Organizations can limit data liability by explicitly designating limits on the use of data.
+   Disclosing restrictions and use constraints as well as providing disclaimers is important
+   for both users and producers of data to limit liability.
+   Lack of knowledge about other organizations' data can lead to duplication of effort.
+   Metadata supports producers in locating and using their own data resources and data
+   consumers in locating and using data resources produced by others.
+
+   Creation and maintenance of metadata is critical for the discovery of geospatial
+   resources through the State and federal geospatial data clearinghouses.
+
+   The adoption of geospatial metadata standards endorsed by the FGDC puts data
+   producers in Idaho in harmony with Federal Government data producers and supports
+
+S4220 – Geospatial Metadata                                                          Page 1 of 5
+
+   state (see ITA Standard S4250 (GIS Data Sharing Standards)) and nationwide data
+   publishing efforts.
+
+III. APPROVED STANDARD(S)
+
+   Geospatial resources (any resource with a geographic component) must be documented
+   using a geospatial metadata standard endorsed by the Federal Geographic Data
+   Committee. (Geospatial Metadata Standards - Federal Geographic Data Committee) [4].
+
+IV. APPROVED PRODUCT(S)
+
+   Metadata can be created using widely available desktop, mobile, and web-based
+   software.
+
+V. TECHNICAL AND IMPLEMENTATION CONSIDERATIONS
+
+   There are currently two FGDC-endorsed geospatial metadata standards: CSDGM & ISO
+   19100-series. Additionally, ESRI software store data using a proprietary (however
+   publicly documented) schema commonly known as the ‘ArcGIS metadata format’. This
+   format supports documenting resources using several geospatial metadata standards.
+   Current industry standard is not yet settled on the transition to the production of ISO
+   metadata. It is recommended that Esri software user utilize the Esri ArcGIS metadata
+   format selecting the ‘FGDC CSDGM Metadata’ style.
+
+   Content Standard for Digital Geospatial Metadata (CSDGM)
+
+   The Content Standard for Digital Geospatial Metadata (CSDGM), Version 2 (FGDC-
+   STD-001-1998) is the current US Federal Metadata standard. The CSDGM was
+   developed by FGDC in support of the coordinated development, use, sharing, and
+   dissemination of geospatial data on a national basis. [4]
+
+   The CSDGM Version 2 (FGDC-STD-001-1998) Technical Specification is a helpful
+   reference for details about the standard.
+
+   The CSDGM Workbook and the CSDGM Graphical Representation are helpful for
+   implementing the standard as they describe mandatory and conditional sections and
+   elements.
+
+   International Organization for Standardization (ISO)
+
+   The International Organization for Standardization (ISO) developed a series of standards
+   to describe geographic information. International geospatial metadata standards are
+   found in the 19100-series ISO suite of standards and these are endorsed by FGDC.
+
+S4220 – Geospatial Metadata                                                     Page 2 of 5
+
+   Non-Federally authored standards that are endorsed by the FGDC have the same status
+   as FGDC developed standards.
+
+   Many geospatial metadata standards are produced by ISO committees. For example:
+   ISO 19115 Geographic information — Metadata and ISO 19110 Geographic information
+   — Feature Catalog, are two content standards. In contrast, ISO 19139 Geographic
+   information — Metadata — XML schema implementation, is a technical specification that
+   defines spatial metadata XML encoding. It provides a set of XML Schemas that define
+   the XML format in which ISO 19115 and ISO 19110 metadata content should be stored.
+   [5]
+
+   The ISO 19115-2:2009(E) workbook is helpful for implementing the standard as it
+   describes mandatory and conditional sections and elements. The ISO 19115 Standard
+   defines an extensive set of metadata elements however, it is essential that a basic
+   minimum number of core metadata elements be maintained for a dataset.
+
+   Additionally, the ISO Geospatial Metadata Implementation Webinar resulted in a number
+   of helpful resources that can help agencies move forward with implementation.
+
+   Esri ArcGIS Format Metadata
+
+   Esri’s ArcGIS Desktop, Server, and Online applications store metadata using a
+   proprietary (however publicly documented) schema. The software uses "styles" and
+   XSLT transformations to support importing, editing, synchronizing, and exporting
+   metadata conforming to multiple standards (FGDC CSDGM, ISO 19115, and others).
+
+   The current version of ArcGIS is designed to create, maintain, and use information
+   stored in the ArcGIS metadata format 1.0. When using Esri software to create
+   documentation for geospatial resources the “FGDC CSDGM Metadata” style” should be
+   selected. Selecting FGDC-style metadata does not preclude transition to ISO-style in
+   the future. If an organization decides to transition from FGDC-style metadata to ISO-
+   style metadata they are able to change the style in ArcGIS. When the style is changed,
+   all of the content previously entered remains. Metadata authors may be required to
+   provide some different information than before to comply with the new standard's rules.
+   [5]
+
+   Documentation can be created on resources in ArcGIS for Desktop, services in ArcGIS
+   for Server, and items in ArcGIS Online.
+
+VI. EMERGING TRENDS AND ARCHITECTURAL DIRECTIONS
+
+   While documentation for geospatial resources is essential, there is some lack of clarity in
+   the United States about which FGDC-endorsed geospatial metadata standard to
+   implement at the time of this writing. CSDGM is the current US Federal Metadata
+   standard however, “…federal agencies are encouraged to transition to ISO metadata as
+
+S4220 – Geospatial Metadata                                                        Page 3 of 5
+
+   their agencies are able to do so.” [4]. The CSDGM isn’t scheduled for update while the
+   ISO metadata standards continue to be updated. [6]
+
+   It is recommended that Esri software users document their geospatial assets using the
+   Esri ArcGIS metadata format. Given the current environment at the time of this writing,
+   the likely metadata standard to be used is the CSDGM.
+
+   As the ISO suite of geospatial metadata standards continue to evolve and their
+   implementation within geospatial software continues to mature their adoption will likely
+   expand due to their improved metadata development and management capabilities. [4].
+
+VII. PROCEDURE REFERENCE
+
+   ITA Policy P1070 (Geographic Information Systems)
+
+VIII. REVIEW CYCLE
+
+   Standard to be reviewed annually by the IGC-EC.
+
+IX. CONTACT INFORMATION
+
+   For more information, contact the ITA Staff at (208) 605-4064.
+
+X. WORKS CITED
+
+   [1] Federal Geospatial Data Committee. (2014). Geospatial Metadata - Federal
+   Geographic Data Committee. Retrieved March 3, 2016 from:
+   https://www.fgdc.gov/metadata
+
+   [2] Federal Geospatial Data Committee. (2015). The Federal Geographic Data
+   Committee - Federal Geographic Data Committee. Retrieved March 3, 2016 from:
+   https://www.fgdc.gov/
+
+   [3] Federal Geospatial Data Committee. (2012). Business Case for Metadata - Federal
+   Geographic Data Committee. Retrieved March 3, 2016 from:
+   https://www.fgdc.gov/metadata/metadata-business-case
+
+   [4] Federal Geospatial Data Committee. (2014). Geospatial Metadata Standards -
+   Federal Geographic Data Committee. Retrieved March 3, 2016 from:
+   https://www.fgdc.gov/metadata/geospatial-metadata-standards
+
+S4220 – Geospatial Metadata                                                       Page 4 of 5
+
+   [5] Esri. (2016). Metadata styles and standards - Help | ArcGIS for Desktop. Retrieved
+   March 8, 2016 from: http://desktop.arcgis.com/en/arcmap/10.3/manage-
+   data/metadata/metadata-standards-and-styles.htm
+
+   [6] Danko, D. (2015). ISO Metadata Standards Status [PowerPoint Slides]. Slide #7.
+   Retrieved March 3, 2016 from: https://www.fgdc.gov/organization/working-groups-
+   subcommittees/mwg/index_html
+
+REVISION HISTORY
+
+   5/6/19 -   Removed individual definitions and replaced with reference to ITA Guideline
+              G105 (ITA Glossary of Terms)
+
+   6/14/16 – Major revision to include ISO geospatial metadata standards and Esri
+             ArcGISmetadata format.
+
+   7/01/13 – Changed “ITRMC” to “ITA”.
+
+   2/02/11 – 4000 group title changed from “GIS (Geographic Information Systems) Data”.
+
+   6/16/09 – Added Justification and Procedure Reference to this standard and deleted
+             Timeline.
+
+   5/15/07 – Review cycle adjusted to 12 months.
+
+          Effective Date: July 20, 2005
+
+S4220 – Geospatial Metadata                                                      Page 5 of 5
+
+## Curator notes
+
+Text extracted with pdftotext -layout (page headers, footers and column layout kept as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their letters).

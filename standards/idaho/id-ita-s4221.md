@@ -1,0 +1,204 @@
+---
+schema_version: 1
+corpus: states-government-it
+jurisdiction: idaho
+id: id-ita-s4221
+title: S4221 – Metatags
+doc_type: standard
+citation: ITA Standard S4221
+authority_level: ''
+issuing_body: Idaho Technology Authority (ITA)
+source_url: https://ita.idaho.gov/wp-content/uploads/2025/07/s4221.pdf
+source_format: pdf
+retrieved: '2026-11-11'
+source_sha256: f3d5ec0dc8d0fcea34b687eb72c6a51b9ccec910097b8a5e09605413a6765e92
+effective_date: '2001-12-07'
+source_version: ''
+status: current
+content_mode: verbatim
+conversion_notes: Text extracted with pdftotext -layout (page headers, footers and column layout kept
+  as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their
+  letters).
+last_verified: ''
+verified_by: ''
+maintainer: ''
+relationships:
+  implements: []
+  implemented_by: []
+  references_external: []
+  related: []
+  supersedes: []
+tags:
+- data
+---
+
+> **NON-AUTHORITATIVE.** This is a convenience copy for machine reading. The official text is published at the source URL above. Verify at source before relying on it.
+
+# S4221 – Metatags (ITA Standard S4221)
+
+## At a glance
+
+Item of the ITA statewide policies, standards and guidelines library (ita.idaho.gov/policies), category '4000 - Information and Data, Standards', a standard. The library's own summary: "ITA Standard S4221 defines the use of metatags for state data, ensuring consistent metadata practices and improved data discoverability across state agencies."
+
+## Full text
+
+Idaho Technology Authority (ITA)
+
+ENTERPRISE STANDARDS – 4000 INFORMATION AND DATA
+
+Category:        S4221 – METATAGS
+
+CONTENTS:
+I.    Definitions
+II. Rationale
+III. Approved Standard(s)
+IV. Approved Product(s)
+V. Justification
+VI. Technical and Implementation Considerations
+VII. Emerging Trends and Architectural Directions
+VIII. Procedure Reference
+IX. Review Cycle
+X. Contact Information
+      Revision History
+
+I. DEFINITIONS
+
+   See ITA Guideline G105 (ITA Glossary of Terms) for definitions.
+
+II. RATIONALE
+
+   Metatags help citizens find specific pieces of information by improving the search
+   capabilities of the State’s search engine. By using a common standard, State agencies
+   can more easily reach their intended audiences, and citizens will have a better
+   experience in using the State's web pages and finding the information they need. Use of
+   metatags will allow the State's search engine to work to its full potential.
+
+III. APPROVED STANDARD(S)
+
+   NISO/ANSI Standard 39.85, also known as “Dublin Core,” is hereby adopted as the
+   metatag standard for Idaho State government web pages. This standard consists of the
+   following elements. Exact syntax, definitions, and usage guidelines will be developed as
+   supporting documentation. Elements marked with an asterisk (*) are recommended as
+   minimum-level metatags, while others may be used as appropriate.
+
+   1. Title; *
+
+   2. Publisher; *
+
+   3. Creator or author; *
+
+S4221 – Metatags                                                                 Page 1 of 4
+
+   4. Description; *
+
+   5. Subject; *
+
+   6. Date created; *
+
+   7. Date last modified; *
+
+   8. Format; *
+
+   9. Language; *
+
+   10. Identifier;
+
+   11. Rights;
+
+   12. Type;
+
+   13. Contributor;
+
+   14. Coverage;
+
+   15. Relation; and
+
+   16. Source.
+
+   The Dublin Core is specifically designed for indexing web pages. It is used in hundreds
+   of implementations worldwide, in both government and non-government settings, and
+   has been translated into twenty (20) languages. The National Information Standards
+   Organization and the American National Standards Institute have approved it. More
+   information on the Dublin Core is available on the Internet at http://dublincore.org.
+
+IV. APPROVED PRODUCT(S)
+
+   Software products to aid in the generation of the metatags are under review by the ITA
+   Metatag Task Force at this time.
+
+V. JUSTIFICATION
+
+   Products to aid in the generation of metatags will make it easier to apply metatags and
+   encourage faster adoption of the standard.
+
+VI. TECHNICAL AND IMPLEMENTATION CONSIDERATIONS
+
+   When metatags are in place, the State search software will be re-programmed to give
+   more weight to metatags. This will allow the search engine to work to its full potential and
+   deliver better search results.
+
+S4221 – Metatags                                                                    Page 2 of 4
+
+   The standard will be implemented on a voluntary basis, at the discretion of each agency.
+   Webmasters, web development staff, and web authors are likely to be the primary
+   implementers, with training and support provided by the Idaho Commission for Libraries,
+   the State Webmaster, ITA staff, and Access Idaho staff.
+
+   Adoption of the standard will be promoted through a variety of strategies, including
+   education, training, and software tools, that make it easier to apply metatags. Early
+   adopters are expected to see immediate benefits in reaching their intended audiences,
+   and this will encourage adoption by other agencies.
+
+VII. EMERGING TRENDS AND ARCHITECTURAL DIRECTIONS
+
+   Metatag standards are evolving at both the national and international levels. The
+   Metatag Task Force will monitor developments and may build on the metatag standard
+   as new information becomes available. Of special interest is a recently released draft of
+   a Government Application Profile for Dublin Core.
+
+   Metatags for web pages should ideally be seen as one component of a comprehensive
+   records management system. Standards and best practices for electronic records
+   management are emerging and will be considered by the State Records Management
+   Task Force, whose work will be coordinated with the work of the Metatag Task Force.
+
+   Resources for implementation and training are under review at this time and will be
+   incorporated into this standard as they become available.
+
+VIII. PROCEDURE REFERENCE
+
+   ITA Standard S4221 (Metatags) used on the State of Idaho’s Wide Area Network (WAN)
+   must comply with ITA Policies P1020 (Idaho.Gov Portal Privacy Notice) and P5010 (Web
+   Publishing).
+
+IX. REVIEW CYCLE
+
+    Twelve (12) months
+
+X. CONTACT INFORMATION
+
+   For more information, contact the ITA Staff at (208) 605-4064.
+
+REVISION HISTORY
+
+   5/6/19 – Removed individual definitions and replaced with reference to ITA Guideline
+            G105 (ITA Glossary of Terms)
+
+   7/01/13 – Changed “ITRMC” to “ITA”.
+
+S4221 – Metatags                                                                   Page 3 of 4
+
+   2/2/11 – Number changed from S5110, also 4000 group title changed from “GIS
+            (Geographic Information Systems) Data”.
+
+   3/7/07 – Review cycle adjusted to 12 months
+
+   9/13/06 – Section VI, Technical and Implementation Considerations, updated to reflect
+             an agency name change.
+
+          Effective Date: December 7, 2001
+
+S4221 – Metatags                                                                Page 4 of 4
+
+## Curator notes
+
+Text extracted with pdftotext -layout (page headers, footers and column layout kept as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their letters).

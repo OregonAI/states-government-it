@@ -1,0 +1,11 @@
+TITLE 67
+STATE GOVERNMENT AND STATE AFFAIRS
+CHAPTER 8
+EXECUTIVE AND ADMINISTRATIVE OFFICERS — GOVERNOR AND LIEUTENANT-GOVERNOR
+67-835. INTEGRATED PROPERTY RECORDS SYSTEM — TRANSFER OF RESPONSIBILITY. The office of information technology services shall:
+(1) Take possession and control of the state’s integrated property records system previously created pursuant to section 58-330, Idaho Code;
+(2) Manage the state’s integrated property records system;
+(3) Lead the establishment of a standard format, workflow and technical procedures to permit updating of the integrated property records system with geographic and other relevant data and information received from state agencies; and
+(4) Lead the planning and deployment of multiagency enterprise use of the integrated property records system.
+History:
+[67-835, added 2018, ch. 258, sec. 10, p. 614.]

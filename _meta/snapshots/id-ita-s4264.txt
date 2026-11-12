@@ -1,0 +1,444 @@
+Idaho Technology Authority (ITA)
+
+ENTERPRISE STANDARDS – S4000 – INFORMATION AND DATA
+
+Category:    S4264 – Standard for Historic Earthquakes Data
+
+CONTENTS:
+I.    Definition
+II. Rationale
+III. Approved Standard(s)
+IV. Approved Product(s)
+V. Justification
+VI. Technical and Implementation Considerations
+VII. Emerging Trends and Architectural Directions
+VIII. Procedure Reference
+IX. Review Cycle
+X. Contact Information
+XI. Additional Information (if any)
+      Revision History
+
+I. DEFINITION
+
+   See ITA Guideline G105 (ITA Glossary of Terms) for definitions.
+
+II. RATIONALE
+
+   A statewide Historic Earthquake layer and data standard, which is part of the
+   Hazards data theme is a critical source of information for resource land
+   management, community and economic development needs, infrastructure
+   maintenance, research and analysis, business development, public safety, and
+   more. This standard provides the foundation for aggregating historic earthquake
+   data for centralized access and stewardship information. This standard applies to
+   the Historic Earthquake element of The Idaho Map (TIM). When implemented, it will
+   enable access to geometry and attribute information about historic Idaho
+   earthquakes and earthquakes that occurred with 50 kilometers of the state border. It
+   will increase interoperability between automated geographic information systems
+   and enable sharing and efficient transfer of information for aggregation. Further, it
+   will encourage partnerships between government, the private sector, and the public
+
+  in order to avoid duplication of effort and ensure effective management of
+  information resources. It will help improve historic earthquake data quality as errors
+  are identified and resolved.
+
+III. APPROVED STANDARD(S)
+
+  See Attachment
+
+IV. APPROVED PRODUCTS(S)
+
+  Any GIS Software, either desktop or online, capable of ingesting and displaying
+  Open Geospatial Consortium (OGC) Web Map Standard (WMS) services.
+
+V. JUSTIFICATION
+
+  A statewide Historic Earthquake dataset is a critical source of information, as stated
+  under ‘II Rationale’ in this standard. A data exchange standard support the use of
+  the Historic Earthquake to facility a predictable format, improve collaboration and
+  encourage of this dataset.
+
+VI. TECHNICAL AND IMPLEMENTATION CONSIDERATIONS
+
+  Any GIS Software, either desktop or online, capable of ingesting and displaying
+  Open Geospatial Consortium (OGC) Web Map Standard (WMS) services.
+
+VII. EMERGING TRENDS AND ARCHITECTURAL DIRECTIONS
+
+  Data will be shared in accordance with ITA Standard S4250 –Geographic
+  Information System (GIS) Data Sharing Standards.
+
+VIII. PROCEDURE REFERENCE
+
+  The format, content, and development of this standard adhere to ITA Policy P5030 -
+  Framework Standards, ITA Standard S4250 - Data Sharing Standards and ITA
+  Standard S4220 - Geospatial Metadata.
+
+IX. REVIEW CYCLE
+
+  Review will occur at least annually.
+
+X. CONTACT INFORMATION
+                                                                                           2
+
+  For more information, contact the ITA Staff at (208) 605-4064.
+
+REVISION HISTORY
+
+  07/24/2025 - Revised for ADA compliance
+
+  07/20/2023 – Standard Presented to the IGC-EC
+
+                                                                   3
+
+                                  STATE OF IDAHO
+
+         Idaho Historic Earthquakes Data Standard
+                               Part of the Hazards Theme
+
+                                          Version 1
+                                   Effective July 20, 2023
+
+                    Developed by the Hazards Technical Working Group
+
+Contact
+ITA Staff
+Office of Information Technology Services
+(208) 605-4064
+contact@its.idaho.gov
+
+                                                                       4
+
+CONTENTS
+1. 6
+  1.1. 6
+  1.2. 7
+  1.3. 7
+  1.4. 7
+  1.5. 7
+  1.6. 8
+2. 8
+  2.1. 8
+  2.2. 8
+  2.3. 8
+  2.4. 8
+  2.5. 9
+     2.5.1. 9
+     2.5.2. 9
+     2.5.3. 9
+     2.5.4. 9
+     2.5.5. 9
+     2.5.6. 9
+     2.5.7. 10
+     2.5.8. 10
+     2.5.9. 10
+     2.5.10.  10
+     2.5.11.  10
+     2.5.12.  10
+     2.5.13.  10
+3. 11
+  3.1. 11
+  3.2. 11
+  3.3. Error! Bookmark not defined.
+  3.4. 12
+Appendix A: References .............................................................................................................. 11
+Appendix B: Glossary.................................................................................................................. 12
+
+                                                                                                                                       5
+
+1. Introduction to the Historic Earthquake Data Standard
+
+  A statewide Historic Earthquake layer is a critical source of information for resource land
+  management, community and economic development needs, infrastructure maintenance,
+  research and analysis, business development, public safety, and more. This standard provides
+  the foundation for aggregating historic earthquake data for centralized access and
+  stewardship information. This standard applies to the Historic Earthquake element of The
+  Idaho Map (TIM). When implemented, it will enable access to geometry and attribute
+  information about historic Idaho earthquakes and earthquakes that occurred with 50
+  kilometers of the state border. It will increase interoperability between automated geographic
+  information systems and enable sharing and efficient transfer of information for aggregation.
+  Further, it will encourage partnerships between government, the private sector, and the public
+  to avoid duplication of effort and ensure effective management of information resources. It
+  will help improve historic earthquake data quality as errors are identified and resolved. As
+  can be seen from the above examples, many private sector and local, state, and federal
+  government agencies have business needs for Historic Earthquake data.
+
+  A Historic Earthquake Standard is intended to facilitate integration and sharing of up-to-date
+  Historic Earthquake data and enhance the dissemination and use of Historic Earthquake
+  information. This standard does not instruct on how Historic Earthquake databases are
+  designed for internal use.
+
+  This standard was developed by the Hazards Technical Working Group, a subgroup of the
+  Idaho Geospatial Council – Executive Committee (IGC-EC). This standard will be reviewed
+  on a regular basis and updated as needed.
+
+  1.1. Mission and Goals of the Standard
+
+  The Historic Earthquake Standard supports a statewide dataset that is consistent with
+  applicable state and national standards. It establishes the minimum attributes and geospatial
+  database schema for the Historic Earthquake Framework. The Standard will communicate
+  with and may have similar attributes to other Idaho Framework data standards. It encourages
+  all Idaho-based agencies with geospatial Historic Earthquake data to contribute to Historic
+  Earthquake Framework.
+
+  The Historic Earthquake Framework will be appropriately shared and beneficial to all. The
+  fields in the Historic Earthquake Data Exchange Standard will be general enough to
+  incorporate basic information without requiring major changes in internal data models. This
+  standard allows for expansion to a more complex data structure and schema.
+
+                                                                                                6
+
+1.2. Relationship to Existing Standards
+
+This Historic Earthquake Exchange Standard relates to existing standards as follows:
+
+   ● No other standards apply.
+
+1.3. Description of the Standard
+This standard describes the vision and geospatial data structure of a Historic Earthquake
+Framework in the state of Idaho. This standard is devised to be:
+     ● Simple, easy to understand, and logical
+     ● Uniformly applicable, whenever possible
+     ● Flexible and capable of accommodating future expansions
+     ● Dynamic in terms of continuous review
+
+1.4. Applicability and Intended Uses
+
+This standard applies to the Historic Earthquake element of the Hazards theme of The Idaho
+Map (TIM).
+
+When implemented, this standard will enable access and exchange of the data. A predictable
+standard will support data collaboration, improve data collaboration, help identify and report
+errors, and allow agencies to incorporate this data into their own data products.
+
+This standard does not consider data sharing agreements, contracts, transactions, privacy
+concerns, or any other issues relating to the acquisition and dissemination of Historic
+Earthquake data.
+
+1.5. Standard Development Process
+
+The Hazards Technical Working Group is a voluntary group of private, city, county, tribal,
+state, and federal representatives. In 2023, the Historic Earthquake Lead began developing
+the standard for the Historic Earthquake Framework using the standard development
+automation tools developed by the IGC-EC to generate the first draft of the Standard. This
+standard was then reviewed and edited by the members of the Hazards Technical Working
+Group.
+After initial development, the draft standard document was shared with the Idaho Geospatial
+Council Executive Committee (IGC-EC) and the Idaho Geospatial Council (IGC) in
+accordance with the review and approval process described in ITA Policy P5030 Framework
+Standards Development.
+
+                                                                                             7
+
+   1.6. Maintenance of the Standard
+
+   This standard will be revised on an annual basis and in accordance with ITA Policy P5030 -
+   Framework Standards Development.
+
+2. Body of the Standard
+
+   2.1. Scope and Content
+
+   The scope of the Historic Earthquake Data Exchange Standard is to describe a statewide
+   layer which identifies the physical locations and attributes of Historic Earthquakes in Idaho.
+
+   2.2. Need
+
+   Historic Earthquake Layer is a key dataset needed for resource land management, community
+   and economic development needs, infrastructure maintenance, research and analysis,
+   business development, public safety, and more. This standard provides the foundation for
+   aggregating historic earthquake data for centralized access and stewardship information.
+
+   2.3. Participation in the Standard Development
+
+   The development of the Historic Earthquake Data Exchange Standard adheres to the ITA
+   Framework Standards Development Policy (P5030). The Hazards Standard Team tasked with
+   development, invite input and comments from private, county, state, and federal
+   organizations. As the standard is reviewed in accordance with Policy P5030 requirements,
+   there will be opportunity for broad participation and input by stakeholders. The process will
+   be equally broad for input on updates and enhancements to the standard. As with all Idaho
+   Framework standards, public review and comment on the Historic Earthquake Data
+   Exchange Standard are encouraged.
+
+   2.4. Integration with Other Standards
+
+   The Historic Earthquake Data Exchange Standard follows the same format as other Idaho
+   geospatial framework data standards. The Historic Earthquake standard may contain some of
+   the same attributes as other framework standards and may adopt the field name, definition,
+   and domain from the other standards to promote consistency.
+
+                                                                                                    8
+
+2.5. Technical and Operation Context
+
+   2.5.1. Data Environment
+
+   The data environment is a digital vector point with a specific, standardized set of
+   attributes pertinent to the Historic Earthquake Framework. Historic Earthquake data
+   shared under this standard must be in a format supporting vector points.
+
+   2.5.2. Reference Systems
+
+   The Historic Earthquake Framework will be published in the WGS 1984 Web Mercator
+   (auxiliary sphere) coordinate system, which is the State of Idaho’s single-zone coordinate
+   system.
+
+   2.5.3. Global Positioning Systems (GPS)
+
+   Some data provided might contain geometry from GPS methods, and the provided
+   metadata should describe this, if applicable. Some data provided might contain geometry
+   from GPS methods, and the provided metadata should describe this, if applicable.
+
+   2.5.4. Interdependence of Themes
+
+   The Historic Earthquake Standard follows the same format as other Idaho geospatial
+   framework data standards. The Historic Earthquake Standard may contain some of the
+   same attributes as other framework standards and may adopt the field name, definition,
+   and domain from the other standards to promote consistency.
+
+   2.5.5. Encoding
+
+   When data is imported into and exported from the Historic Earthquake Framework,
+   encoding will take place to convert data formats and attributes.
+
+   2.5.6. Resolution
+
+   No specific requirements for resolution are specified in this standard. Resolution will be
+   documented in the metadata. Resolution will be documented in the metadata.
+                                                                                                9
+
+2.5.7. Accuracy
+
+No specific requirements for accuracy are specified in this standard. Accuracy will be
+documented in the metadata.
+
+2.5.8. Edge Matching
+
+No edge matching is required between jurisdictions or between this and other framework
+layers.
+
+2.5.9. Unique Identifier
+
+The unique identifier is ‘id,’ which generally consists of a two-character network
+identifier and an eight-character network-assigned code.
+
+2.5.10. Attributes
+
+Attributes for public and intergovernmental distribution are described in Section 3 of this
+standard.
+
+2.5.11. Stewardship
+
+Perpetual maintenance and other aspects of lifecycle management are essential to
+Historic Earthquake Framework. Details of stewards, their roles and responsibilities, and
+processes are set forth, or are being planned to set forth in a Historic Earthquake
+Framework Stewardship Plan and related documents.
+
+2.5.12. Records Management and Archiving
+
+Details of records management and archiving for Historic Earthquake Framework should
+be set forth in a Historic Earthquake Framework Stewardship Plan and related
+documents.
+
+2.5.13. Metadata
+                                                                                         10
+
+        The Historic Earthquake Framework metadata will describe the methods used to update
+        and aggregate the individual Historic Earthquake data contributions, processes or
+        crosswalks performed, definition of attributes, and other required information. This
+        metadata will conform to the metadata standards as set out in ITA Standard S4220
+        Geospatial Metadata.
+
+3. Data Characteristics
+
+   3.1. Minimum Graphic Data Elements
+
+   The geometry of the features in Historic Earthquake Framework is vector point.
+
+   3.2. Optional Graphic Data Elements
+
+   Not applicable.
+
+   3.3. Standard Attribute Schema
+
+  Field Name      Data Type    Length              Description                     Examples
+                                         Date and time of earthquake
+                                         reported in milliseconds since       1998-08-
+ time             Text         30        epoch                                20T13:50:25.600Z
+ latitude         Double                 Decimal degrees latitude             41.898
+ longitude        Double                 Decimal degrees longitude            -111.816
+ depth            Double                 Depth of event in kilometers         10
+ mag              Double                 Magnitude for the event              5.02
+                                         Method or algorithm used to
+                                         calculate the preferred magnitude
+ magType          Text         30        for the event                        mw
+                                         Total number of seismic stations
+                                         used to determine earthquake
+ nst              Long                   location                             11
+                                         Largest azimuthal gap between
+                                         azimuthally adjacent stations in
+ gap              Double                 degrees                              201.6
+                                         Horizontal distance from epicenter
+ dmin             Double                 to nearest station in degrees        0.753687
+                                         Root-mean-square travel time
+                                         residual, in seconds, using all
+ rms              Double                 weights                              0.14
+ net              Text         30        The ID of the data contributor       iscgem
+
+                                                                                                 11
+
+  Field Name        Data Type     Length              Description                      Examples
+ id                 Text          30        Unique identifier for the event       iscgem863670
+                                            Time when the event was most          2022-04-
+ updated            Text          30        recently updated                      26T23:56:16.557Z
+                                            Textual description of named
+                                            geographic region near to the         3 km NNE of
+ place              Text          100       event                                 Hope, ID
+ type               Text          30        Type of seismic event                 earthquake
+                                            Uncertainty of reported location in
+ horizontalError    Double                  kilometers                            19.29
+                                            Uncertainty of reported depth in
+ depthError         Double                  kilometers                            31.61
+                                            Uncertainty of reported magnitude
+ magError           Double                  of the event                          0.013
+                                            Total number of seismic stations
+                                            used to calculate the magnitude for
+ magNst             Long                    the event                             2
+                                            Indicated whether the event has
+ status             Text          30        been reviewed by a human              reviewed
+                                            Network that originally authored
+ locationSource     Text          30        the reported location of the event    uw
+                                            Network that originally authored
+                                            the reported magnitude for the
+ magSource          Text          30        event                                 uw
+                                                                                  https://earthquake.u
+                                            url link to detailed information,     sgs.gov/earthquake
+                                            maps, and data downloads for the      s/eventpage/uu6053
+ url                Text          254       event                                 9831
+                                            If a ShakeMap of the event is
+ ShakeMap           Text          3         available                             Yes, No
+                                                                                  5/13/2023 6:45:38
+ Eqtime             Date                    Time field in Date format             PM
+
+      3.4. Data Quality
+
+      Data quality considerations for Historic Earthquakes include:
+          a) All Historic Earthquakes should have Historic Earthquake IDs.
+
+Appendix A: References
+
+Idaho Technology Authority (ITA). Information and Data Policy P5000, Category: P5030
+Framework Standards Development Policy. https://ita.idaho.gov/psg/P5030.pdf
+
+Idaho Technology Authority (ITA). Enterprise Standards S4000 Geographic Information
+Systems (GIS) Data, Category: S4220 Geospatial Metadata. https://ita.idaho.gov/psg/S4220.pdf
+                                                                                                      12
+
+U.S. Geological Survey, Earthquake Hazards Program, 2017, Advanced National Seismic
+System (ANSS) Comprehensive Catalog of Earthquake Events and Products: Various,
+https://doi.org/10.5066/F7MS3QZH.
+
+Appendix B: Glossary
+
+See ITA Guideline G105 (ITA Glossary of Terms) for definitions.
+
+                                                                                      13

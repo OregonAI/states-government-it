@@ -1,0 +1,330 @@
+Idaho Technology Authority (ITA)
+
+Enterprise Guidelines – G400 ARCHITECTURE AND DESIGN
+
+Category:     G410 – IDAHO.GOV, ID.GOV DOMAINS
+
+CONTENTS:
+I.   Definition
+II. Rationale
+III. Guideline
+IV. Procedure Reference
+V. Contact Information
+VI. Procedures and Rules
+VII. Registration Procedures
+     Revision History
+
+I. DEFINITION
+
+   This guideline is to provide criteria to Agencies, the State Domain Name
+   Server/Service (DNS) management staff, and the ITA Access Idaho Steering
+   Committee in the administration of ITA Policy P5020 (.Gov Domain).
+
+II. RATIONALE
+
+   The State of Idaho now has an opportunity to generate one (1) true enterprise-level
+   domain for all State of Idaho government entities to use.
+
+   State of Idaho government is an enterprise-level organization and, as such, should
+   not use non-standard domain names for its Internet web presences and e-mail
+   domains.
+
+   The current unchecked proliferation of State of Idaho government entities that are
+   using “.com,” “.org,” “.net,” and other non-standard domain names accomplishes
+   confusion within the general web population as to which sites are “official” State of
+   Idaho government web sites and which sites are not “officially” associated with the
+   State of Idaho government.
+
+   Understandably, the purchase of non-standard “.com,” “.org,” “.net,” and other types
+   of domain names, in an effort to prevent abuse of similar domain names (such as is
+   the case with “whitehouse.gov” and “whitehouse.com”), is still acceptable; however,
+   the marketing of these names creates confusion for citizens.
+
+III. GUIDELINE
+
+   There is no guideline for this guideline.
+
+G410 – Idaho.gov, Id.gov Domains                                                Page 1 of 7
+
+IV. PROCEDURE REFERENCE
+
+   Policies for Idaho.gov, Id.gov Domains are detailed in ITA Policy P5020 (.Gov
+   Domain)
+
+V. CONTACT INFORMATION
+
+   For more information, contact the ITA Staff at (208) 605-4064.
+
+VI. PROCEDURES AND RULES
+
+   The State of Idaho, Office of IT Services (ITS), currently owns two (2) enterprise-
+   level domains, “idaho.gov” and “id.gov.” These domains are managed by the ITS
+   DNS management staff. The “idaho.gov” second-level domain will be used for State
+   of Idaho government entities’ domain structures for all Internet websites and e-mail
+   domains. The “id.gov” second-level domain will be offered to other government and
+   tax-supported organizations, such as cities, counties, fire districts, boards,
+   commissions, and school districts that reside within the borders of the State of
+   Idaho.
+
+   1. Idaho.gov Domain – “Idaho.gov” domain rules for all State of Idaho government
+      entities (i.e., agencies, boards, bureaus, commissions, councils, departments,
+      divisions and/or offices).
+
+       All State of Idaho government entities shall utilize the enterprise domain name of
+       “idaho.gov” for resolution of their Internet web sites and e-mail domains.
+
+       Request for domain names are to be submitted to the state DNS management
+       staff for review, approval, and activation. Naming disputes will be handled in
+       accordance with the “idaho.gov” domain dispute resolution procedure in section
+       IV, subsection 8 of this guideline. The role of the State DNS management staff is
+       to review and give final approval for the following domain names:
+
+       A. “ ‘AgencyName’.idaho.gov”;
+
+       B. “ ‘RequestedName’.idaho.gov”;
+
+       C. “ ‘RequestedName’.gov”; and
+
+       D. “ ‘LocalGovernmentAgencyName’.id.gov.”
+
+       The State DNS management staff shall refer agency exemption requests from
+       ITA Policy P1010 (Information Technology Policies, Standards, and Guidelines
+       Framework) and, subsequently to ITA Guideline G120 (Exemption Process)
+       (such as using “.com,” “.org,” etc.), to the Idaho Technology Authority.
+
+G410 – Idaho.gov, Id.gov Domains                                                Page 2 of 7
+
+       The active use of the domain “state.id.us” or other domain names is being
+       phased out. Old “state.id.us” or other domain names will automatically be
+       resolved to the organization's “idaho.gov” domain name. This redirection of
+       current domain names will continue until the agency requests that it be
+       discontinued.
+
+       State of Idaho government entities may continue to purchase non-“idaho.gov”
+       domain names in an effort to prevent abuse of domain names by entities outside
+       the State structure. However, newly purchased non-“idaho.gov” domain names
+       shall not be advertised nor used for Internet web site and/or e-mail publication.
+       In addition, non-“idaho.gov” domain names that are currently owned and being
+       advertised must resolve to an “idaho.gov” domain name, and the active use and
+       publication of these non-“idaho.gov” domains must be discontinued within three
+       (3) years of ITA Policy P5020 (.Gov Domain) implementation.
+
+       The ITS DNS management staff shall operate and maintain all necessary
+       “idaho.gov” domain records, including but not limited to, DNS and WHOIS
+       database entries. (WHOIS, in this context, is an Internet directory service for
+       looking up ownership and contact information relating to a domain name.)
+
+       The ITS DNS management staff shall make every effort to ascertain that any
+       person submitting a request for a new “idaho.gov” domain record, or a
+       modification to an existing “idaho.gov” domain record, is authorized to make such
+       a request. In the event of a questionable request, ITS DNS management staff
+       may require a written request from the requesting entity’s top administrative
+       officer.
+
+   2. Id.gov Domain – Rules for naming conventions and third-level domain
+      registration within the “id.gov” domain structure.
+
+       The specific naming conventions, policies, and procedures for securing, using,
+       and managing third-level domains within the “id.gov” domain structure are
+       detailed below.
+
+       A. Naming Conventions
+
+          (1) No blank spaces or underscores may be used in any domain name;
+
+          (2) Dashes may be used in a domain name, except at the beginning or end of
+              a domain name;
+
+          (3) Cities may register for a domain in the form of [cityname].id.gov or
+              [citynamecity].id.gov (e.g., “boise.id.gov” or “boisecity.id.gov”);
+
+          (4) Counties may register for a domain in the form of
+              [countynamecounty].id.gov or [countyname-co].id.gov (e.g.,
+              “adacounty.id.gov” or “ada-co.id.gov”); and
+
+G410 – Idaho.gov, Id.gov Domains                                                 Page 3 of 7
+
+          (5) School districts may register for a domain in the form of
+              [schooldistrictnumber].id.gov or [schooldistrictname].id.gov (e.g.,
+              “sd412.id.gov” or “buhlschooldistrict.id.gov”).
+
+       B. Requirements:
+
+          Cities, counties, school districts, and other local government and tax-
+          supported entities within the boundaries of the State of Idaho may apply for a
+          third-level domain within the “id.gov” domain. All third-level domains within
+          the “id.gov” domain structure are intended for the official use of these entities
+          only. Commercial use of any third-level domain within the “id.gov” domain
+          structure will not be allowed. Commercial or non-official use of third-level
+          domain within the “id.gov” domain structure may result in revocation of all
+          rights associated with an issued third-level domain.
+
+          All third-level id.gov domain DNS management will be handled by the Idaho
+          ITS DNS Management staff, unless an entity requests otherwise and the
+          Idaho ITS DNS Management staff approves the request. If an entity requests
+          outside DNS management for their third-level id.gov domain, the DNS
+          provider MUST provide for DNSSEC signing of the domain and provide
+          necessary designate signer (DS) records to the Idaho ITS DNS Management
+          staff.
+
+          Once approved and established, the entity may have unrestricted use of their
+          assigned third-level domain within the id.gov domain structure for any valid
+          use by the entity. The entity may not use its control of a third-level domain
+          within the id.gov domain structure for commercial or non-government
+          purposes.
+
+          Examples: (in the examples below, “businessname” indicates the name of a
+          commercial business)
+
+          (1) The “boise.id.gov” domain manager could establish and manage a
+              “police.boise.id.gov” domain but not a “businessname.boise.id.gov”
+              domain;
+
+          (2) The “adacounty.id.gov” domain manager could establish and manage a
+              “sheriff.adacounty.id.gov” domain but not a
+              “businessname.adacounty.id.gov” domain; and
+
+          (3) The Boise Independent School District Number 1 could establish and
+              manage a “boisehighschool.sd1.id.gov” domain but not a
+              “businessname.sd1.id.gov” domain.
+
+G410 – Idaho.gov, Id.gov Domains                                                 Page 4 of 7
+
+VII.   REGISTRATION PROCEDURES
+
+   Requests to register any third-level (or deeper) domain within the “idaho.gov” or
+   “id.gov” namespace must be submitted by email to hostmaster@its.idaho.gov.
+
+   Requests for registration for any third-level domain within the “id.gov” domain
+   structure may be made by any city, county, school district employee, and/or other
+   qualifying entity, as well as any Internet service provider (ISP) and/or IT consultant
+   working with any such entity.
+
+   All registration requests will be validated by e-mail, phone, and/or regular postal
+   service contact with the duly elected city clerk, county clerk, school district
+   superintendent, and the head of other qualifying entities before being approved.
+
+   All registration requests for a third-level domain within the “id.gov” domain structure
+   must include the following information:
+   1. Domain name being requested;
+
+   2. Purpose for domain name request;
+
+   3. Administrative contact for domain;
+
+   4. Technical contact for domain;
+
+   5. Name and IP address of primary DNS server for domain;
+
+   6. Name and IP address of secondary DNS server for domain;
+
+   7. Name, address, phone, fax, and e-mail address of validating elected official; and
+
+       A. Validating elected officials are as follows:
+
+          (1) Cities – city clerk;
+
+          (2) Counties – county clerk;
+
+          (3) School districts – district superintendent; or
+
+          (4) Person of authority at other qualifying entities.
+
+   8. Dispute resolution procedure for “idaho.gov”/“id.gov” domains:
+
+       A. In the event of a dispute of a requested, or issued, domain name within the
+          “idaho.gov”/“id.gov” domain structures, the following dispute resolution
+          process will apply:
+
+          (1) Disputes of a requested, or issued, domain name within the
+              “idaho.gov”/“id.gov” domain structures must be made to the ITS DNS
+
+G410 – Idaho.gov, Id.gov Domains                                                 Page 5 of 7
+
+              management staff in writing or via the ITS’s DNS management staff’s
+              web-based dispute resolution form.
+
+          (2) Upon receipt of such a dispute notice, ITS DNS management staff will
+              directly contact all parties involved and gather all necessary information
+              for resolution of the dispute.
+
+          (3) ITS DNS management staff will then attempt to mediate the dispute directly
+              between all parties involved. If this mediation fails to reach a consensus
+              agreement, this dispute will then be given over to the ITA Access Idaho
+              Steering Committee that will have final say in any and all disputes of this
+              sort. The Access Idaho Steering Committee was chosen for dispute
+              resolution because the Committee, along with the ITA support staff,
+              manages the State’s Internet presence; the Committee provides a multi-
+              agency forum and has broad experience, allowing members to recognize
+              possible domain-name conflicts within the State.
+
+          (4) Any dispute forwarded to the ITA Access Idaho Steering Committee will
+              be acted upon in as timely a manner as possible but, in no circumstance
+              should the dispute remain open for this Committee’s decision for more
+              than six (6) months.
+
+       B. Disputes regarding domain names within the “id.gov” domain:
+
+          (1) By applying to register a third-level domain name within the “id.gov”
+              domain structure, or by asking ITS to maintain a third-level domain name
+              registration within the “id.gov” domain structure the qualifying entity
+              warrants to ITS that the statements made in the Registration Request are
+              complete and accurate and that the entity will not vend or generate any
+              other sub-level domains within a registered third-level domain that will be
+              used for non-government, non-city, non-county, non-school district, or
+              commercial purposes.
+
+          (2) ITS will cancel, transfer, or otherwise make changes to domain name
+              registrations under the following circumstances:
+
+              (a) ITS’s receipt of written or appropriate electronic instructions from the
+                  qualifying entity, or their authorized agent, to take such action;
+
+              (b) ITS’s receipt of an order from a court or arbitral tribunal, in each case
+                  of competent jurisdiction, requiring such action;
+
+              (c) ITS’s determination that a third-level domain within the “id.gov” domain
+                  is being used for non-government or commercial purposes; and/or
+
+              (d) ITS’s receipt of a decision of the ITA Access Idaho Steering Committee
+                  requiring such action in any dispute.
+
+G410 – Idaho.gov, Id.gov Domains                                                   Page 6 of 7
+
+       C. In the event of a dispute of a requested or issued, third-level domain name
+          within the “id.gov” domain structure, the following dispute resolution process
+          will apply.
+
+          (1) ITS will not cancel, transfer, activate, deactivate, or otherwise change the
+              status of any third-level domain name registration within the “id.gov”
+              domain structure under this policy except as provided above.
+
+   REVISION HISTORY
+
+   10/24/19 Updated examples of id.gov names
+
+   07/01/18 Changed “OCIO” to “ITS”.
+
+   07/01/13 Changed “ITRMC” to “ITA”.
+
+   04/02/13 Changes to wording in VI that allows the OCIO to host DNS for the id.gov
+            domain for local government and places requirements on local
+            government if they host their own id.gov domain.
+
+   06/16/09 Added Guideline, Procedure Reference, and Contact Information to this
+            guideline; changed the layout and deleted Timeline.
+
+   08/27/08 Changes made to support changes to Policy P5020, which changed the
+            current state e-mail naming convention from ‘recommended’ to ‘required.’
+            Changes also made to streamline the approval process for the “Idaho.gov”
+            and “id.gov” domains; the ITA would only be involved in the process in the
+            event of a dispute.
+
+   12/09/04 Changes made to streamline and expedite the process of getting new
+            “idaho.gov” and “id.gov” domains up and running. Also, the location of
+            State Domain Name Server/Service (DNS) management staff is defined,
+            making contact easier.
+
+               Effective Date:     August 20, 2003
+
+G410 – Idaho.gov, Id.gov Domains                                                 Page 7 of 7

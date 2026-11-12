@@ -1,0 +1,189 @@
+---
+schema_version: 1
+corpus: states-government-it
+jurisdiction: idaho
+id: id-ita-g225
+title: G225 – Cost-Benefit Analysis
+doc_type: standard
+citation: ITA Guideline G225
+authority_level: ''
+issuing_body: Idaho Technology Authority (ITA)
+source_url: https://ita.idaho.gov/wp-content/uploads/2025/07/g225-1.pdf
+source_format: pdf
+retrieved: '2026-11-11'
+source_sha256: ab772eec3f6c41702155236c2b223ed5a8198fa057ba1f7daf2474601d5a6c27
+effective_date: '2002-06-19'
+source_version: ''
+status: current
+content_mode: verbatim
+conversion_notes: Text extracted with pdftotext -layout (page headers, footers and column layout kept
+  as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their
+  letters).
+last_verified: ''
+verified_by: ''
+maintainer: ''
+relationships:
+  implements: []
+  implemented_by: []
+  references_external: []
+  related: []
+  supersedes: []
+tags:
+- oversight
+---
+
+> **NON-AUTHORITATIVE.** This is a convenience copy for machine reading. The official text is published at the source URL above. Verify at source before relying on it.
+
+# G225 – Cost-Benefit Analysis (ITA Guideline G225)
+
+## At a glance
+
+Item of the ITA statewide policies, standards and guidelines library (ita.idaho.gov/policies), category 'G200 - Project Profile, Guidelines', a guideline (advisory, filed as a standard because the corpus has no guideline type; see the left-out notes). The library's own summary: "ITA Guideline G225 outlines cost-benefit analysis requirements to help agencies evaluate IT investments and ensure strategic decision-making."
+
+## Full text
+
+Idaho Technology Authority (ITA)
+
+ENTERPRISE GUIDELINES – G200 PROJECT SUMMARY
+
+Category:     G225 – COST-BENEFIT ANALYSIS
+
+CONTENTS:
+I.   Definition
+II. Rationale
+III. Guideline
+IV. Procedure Reference
+V. Contact Information
+VI. Benefits
+     Revision History
+
+I. DEFINITION
+
+See ITA Guideline G105 (Glossary of Terms) for any definitions.
+
+II. RATIONALE
+
+These guidelines assist agencies in preparing an IT Project Cost-Benefit Analysis in
+compliance with ITA Policy P2030 – IT Large-Scale Project Review. The CBA provides
+a foundation for informed decision-making, budgeting, and project justification by
+comparing expected benefits against comprehensive lifecycle costs. Agencies should
+use CBA results for project planning, prioritization, and historical documentation.
+
+III. GUIDELINE
+
+The completion of a Cost-Benefit Analysis should be documented in the Cost-Benefit
+Analysis section of the Large-Scale Project Profile. A Summary of Key Findings should
+also be included to clearly present the results of the analysis. (see G210 – IT Project
+Profile).
+
+The Cost-Benefit Analysis should include projections of the Total Cost of Ownership
+(TCO) and cover all phases of the project lifecycle. Agencies should apply their existing
+business, budgeting, and financial planning methods—such as accounting for the time
+value of money—and adapt them as needed to capture intangible or qualitative factors.
+
+The analysis should compare the project’s expected benefits in meeting agency
+objectives against its full lifecycle costs.
+
+The following categories and related discussions can be used as a guideline for the
+preparation of an agency large-scale IT project Cost-Benefit Analysis.
+
+G225 – Cost-Benefit Analysis                                                    Page 1 of 3
+
+Costs associated with an IT project can include:
+
+   1. Software acquisition and maintenance
+
+   2. Software development and maintenance
+
+   3. Personnel (permanent, temporary, contract, etc.)
+
+   4. Legal/administrative
+
+   5. Systems integration
+
+   6. Supplies
+
+   7. Training
+
+   8. Operations
+
+   9. Documentation
+
+   10. Hardware purchase, lease, upgrade, maintenance
+
+   11. Telecommunications systems and services
+
+   12. Professional services
+
+   13. Opportunity costs (compared to other alternatives)
+
+   14. Intangible costs
+
+   15. Contingency / Escalation
+
+IV. PROCEDURE REFERENCE
+
+   Policies for cost-benefit analysis are detailed in ITA Information Technology
+   Enterprise Policies P2030 – Information Technology Large-Scale Project Review.
+
+V. CONTACT INFORMATION
+
+   For more information, contact the ITA Staff at (208) 605-4064.
+
+VI. BENEFITS
+
+   The benefits associated with an IT project can include:
+
+G225 – Cost-Benefit Analysis                                               Page 2 of 3
+
+   1. Support for Agency, Enterprise, or Government Strategic Goals - The project’s
+      expected benefits are clearly linked to defined success metrics or key
+      performance indicators (KPIs).
+
+   2. Cost Reduction / Avoidance / Redirection – Reduce costs or avoid an increase in
+      the costs of personnel, materials/supplies, workspace, maintenance, support,
+      training, utilities, avoid penalties, etc..
+
+   3. Enhanced Service Benefits – Increase citizen service availability and access,
+      reduce response time, improve delivery of services, better presentation of
+      information, etc..
+
+   4. Improved Operational Effectiveness – Reduce error rates, increase resource
+      efficiency/productivity, process improvement, expand capacity or capability,
+      improved management information systems, reporting, etc..
+
+   5. Enhanced Financial Benefits – Increases in charges/fees or additional fees
+      collected through enhanced collection efforts, grants, new or increased revenue
+      sources.
+
+   6. Compliance with Enterprise Technology Standards (ITA).
+
+   7. Compliance with Statute, Health, Safety or Security Requirements – State or
+      federal statutes, regulations, etc..
+
+   8. Risk Reduction and Improved Reliability – minimizing the likelihood of system
+      failure, security breaches, or operational disruptions.
+
+   9. Intangible Benefits – Improved reputation, stakeholder confidence and public
+      trust.
+
+REVISION HISTORY
+
+ 05/05/2026 – Updates emphasize lifecycle cost comparison, expand financial guidance,
+            and refine cost and benefit categories.
+
+ 07/01/13 – Changed “ITRMC” to “ITA”.
+
+  06/16/09 – Added Procedure Reference, Contact Information and Revision History to
+            this guideline; changed the layout and deleted Timeline.
+
+ 4/11/2007 – Replaced “Major Project” language with “Large-Scale Project” to remain
+            consistent with Idaho code.
+
+              Effective Date: June 19, 2002
+
+G225 – Cost-Benefit Analysis                                                 Page 3 of 3
+
+## Curator notes
+
+Text extracted with pdftotext -layout (page headers, footers and column layout kept as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their letters).

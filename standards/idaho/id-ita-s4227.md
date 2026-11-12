@@ -1,0 +1,459 @@
+---
+schema_version: 1
+corpus: states-government-it
+jurisdiction: idaho
+id: id-ita-s4227
+title: S4227 – Boat Ramp and Public Dock Layer and Data Standard
+doc_type: standard
+citation: ITA Standard S4227
+authority_level: ''
+issuing_body: Idaho Technology Authority (ITA)
+source_url: https://ita.idaho.gov/wp-content/uploads/2025/10/S4227_Book_Dock_and_Ramp_Standard_Update.pdf
+source_format: pdf
+retrieved: '2026-11-11'
+source_sha256: af866a924d52ca61805430cc489f6a33744d286a6b4df1c8d65cc64c4df581a2
+effective_date: '2025-05-15'
+source_version: ''
+status: current
+content_mode: verbatim
+conversion_notes: Text extracted with pdftotext -layout (page headers, footers and column layout kept
+  as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their
+  letters).
+last_verified: ''
+verified_by: ''
+maintainer: ''
+relationships:
+  implements: []
+  implemented_by: []
+  references_external: []
+  related: []
+  supersedes: []
+tags:
+- data
+---
+
+> **NON-AUTHORITATIVE.** This is a convenience copy for machine reading. The official text is published at the source URL above. Verify at source before relying on it.
+
+# S4227 – Boat Ramp and Public Dock Layer and Data Standard (ITA Standard S4227)
+
+## At a glance
+
+Item of the ITA statewide policies, standards and guidelines library (ita.idaho.gov/policies), category '', a standard. The library's own summary: "ITA Standard 4227 defines Idaho’s statewide Boat Ramp and Public Dock data, providing accurate water access locations for public, private, and government use."
+
+## Full text
+
+Idaho Technology Authority (ITA)
+
+ENTERPRISE STANDARDS – S4000 – INFORMATION AND DATA
+
+Category: S4227 – Boat Ramp and Public Dock Layer and Data Standard
+
+CONTENTS:
+I.    Definition
+II. Rationale
+III. Approved Standard(s)
+IV. Approved Product(s)
+V. Justification
+VI. Technical and Implementation Considerations
+VII. Emerging Trends and Architectural Directions
+VIII. Procedure Reference
+IX. Review Cycle
+X. Contact Information
+XI. Additional Information (if any)
+      Revision History
+
+I. DEFINITION
+
+   See ITA Guideline G105 (ITA Glossary of Terms) for definitions.
+
+II. RATIONALE
+
+   A statewide Boat Ramp and Public Dock layer and data standard, which is part of
+   the Transportation data theme is a critical source of information for the public in
+   general as well as government agencies and organizations throughout Idaho. Boat
+   Ramp and Public Dock data supports those groups by providing locations and
+   names for water access points.
+
+III. APPROVED STANDARD(S)
+
+   See Attachment
+
+IV. APPROVED PRODUCT(S)
+
+   Any GIS Software, either desktop or online, capable of processing and displaying
+   Open Geospatial Consortium (OGC) Web Map Standard (WMS) services.
+
+V. JUSTIFICATION
+
+A statewide Boat Ramp and Public Dock dataset is a critical source of information as
+stated under ‘II Rationale’ in this standard. A data standard supports the use of the Boat
+Ramp and Public Dock to facilitate a predictable format, improve collaboration and
+encourage use of this dataset.
+
+VI. TECHNICAL AND IMPLEMENTATION CONSIDERATIONS
+
+   Any GIS Software, either desktop or online, capable of processing and displaying
+   Open Geospatial Consortium (OGC) Web Map Standard (WMS) services.
+
+VII. EMERGING TRENDS AND ARCHITECTURAL DIRECTIONS
+
+   Data will be shared in accordance with ITA Standard S4250 – Enterprise
+   Geographic Information System (GIS) Data Sharing Standards.
+
+VIII. PROCEDURE REFERENCE
+
+   The format, content and development of this standard adhere to Policy P5030 -
+   Framework Standards, ITA Standard S4250 - Data Sharing Standards and ITA
+   Standard S4220 - Geospatial Metadata.
+
+IX. REVIEW CYCLE
+
+   Review of the standard will occur annually.
+
+X. CONTACT INFORMATION
+
+   For more information, contact the ITA Staff at (208) 605-4000.
+
+REVISION HISTORY
+
+   05/15/2025 – Standard Presented to the IGC-EC
+
+                                                                                         2
+
+                                    STATE OF IDAHO
+
+    Idaho Boat Ramp and Public Dock Data Standard
+                           Part of the Transportation Theme
+
+                                         Version 1
+                                  Effective May 15, 2025
+
+                 Developed by the Transportation Technical Working Group
+
+Contact
+ITA Staff
+Office of Information Technology Services
+(208) 605-4000
+contact@its.idaho.gov
+
+                                                                           3
+
+CONTENTS
+
+1.     Introduction to the Idaho Boat Ramp and Public Docks Data Standard........................ 6
+     1.1.     Mission and Goals of the Standard ............................................................................. 6
+     1.2.     Relationship to Existing Standards ............................................................................. 6
+     1.3.     Description of the Standard ......................................................................................... 7
+     1.4.     Applicability and Intended Uses .................................................................................. 7
+     1.5.     Standard Development Process ................................................................................... 7
+     1.6.     Maintenance of the Standard....................................................................................... 8
+2.     Body of the Standard ............................................................................................................ 8
+     2.1.     Scope and Content ........................................................................................................ 8
+     2.2.     Need ................................................................................................................................ 8
+     2.3.     Participation in the Standard Development ............................................................... 8
+     2.4.     Integration with Other Standards ............................................................................... 9
+     2.5.     Technical and Operation Context ............................................................................... 9
+       2.5.1.        Data Environment................................................................................................. 9
+       2.5.2.        Reference Systems ................................................................................................. 9
+       2.5.3.        Global Positioning Systems (GPS)....................................................................... 9
+       2.5.4.        Interdependence of Themes ................................................................................. 9
+       2.5.5.        Encoding ................................................................................................................ 9
+       2.5.6.        Resolution ............................................................................................................ 10
+       2.5.7.        Accuracy .............................................................................................................. 10
+       2.5.8.        Edge Matching .................................................................................................... 10
+       2.5.9.        Unique Identifier ................................................................................................. 10
+       2.5.10.       Attributes ............................................................................................................. 10
+       2.5.11.       Stewardship ......................................................................................................... 10
+       2.5.12.       Records Management and Archiving................................................................ 10
+       2.5.13.       Metadata .............................................................................................................. 11
+3.     Data Characteristics ........................................................................................................... 11
+     3.1.     Minimum Graphic Data Elements ............................................................................ 11
+     3.2.     Optional Graphic Data Elements .............................................................................. 11
+
+                                                                                                                                                   4
+
+   3.3.       Standard Attribute Schema ....................................................................................... 11
+   3.4.       Data Quality ................................................................................................................ 12
+Appendix A: References ............................................................................................................... 12
+Appendix B: Glossary ................................................................................................................... 12
+
+                                                                                                                                            5
+
+1. Introduction to the Idaho Boat Ramp and Public Docks Data Standard
+
+  A statewide Boat Ramp and Public Dock data layer is a critical source of information for the
+  public generally, government agencies and organizations throughout Idaho. These groups
+  will benefit from this data because it provides locations and names for water access points.
+  Many private sector organizations as well as local, state, and federal government agencies have a
+  business need for Boat Ramp and Public Dock data.
+
+  A Boat Ramp and Public Dock Standard is intended to facilitate integration and sharing of
+  up-to-date Boat Ramp and Public Dock data and enhance the dissemination and use of Boat
+  Ramp and Public Dock information. This standard does not instruct on how Boat Ramp and
+  Public Dock databases are designed for internal use.
+
+  This standard was developed by the Transportation Technical Working Group, a subgroup of
+  the Idaho Geospatial Council – Executive Committee (IGC-EC). This standard will be
+  reviewed on an annual basis and updated as needed.
+
+  1.1. Mission and Goals of the Standard
+
+  The Boat Ramp and Public Dock Standard supports a statewide dataset that is consistent with
+  applicable state and national standards. It establishes the minimum attributes and geospatial
+  database schema for the Boat Ramp and Public Dock Framework. The standard will
+  communicate with, and may have similar attributes to, other Idaho framework data standards.
+  It encourages all Idaho-based agencies with geospatial Boat Ramp and Public Dock data to
+  contribute to Boat Ramp and Public Dock Framework.
+
+  The Boat Ramp and Public Dock Framework will be appropriately shared and will be
+  beneficial to all. The fields in the Boat Ramp and Public Dock Data Exchange Standard will
+  be generalized to incorporate basic information without requiring major changes in internal
+  data models. This standard allows for expansion to a more complex data structure and
+  schema.
+
+  1.2. Relationship to Existing Standards
+
+  This Boat Ramp and Public Dock Exchange Standard relates to existing standards as
+  follows: Metadata is provided in accordance with ITA Standard S4220 - Geospatial
+  Metadata, and this standard is created and approved in accordance with ITA Policy P5030 -
+  Framework Standards Development Policy. Where possible, water body names should
+  match the names listed in ITA Standard S4233 - Hydrography Data Exchange Standard
+
+                                                                                                  6
+
+1.3. Description of the Standard
+This standard describes the vision and geospatial data structure of a Boat Ramp and Public
+Dock Framework in the state of Idaho. This standard is devised to be:
+     • Simple, easy to understand, and logical
+     • Uniformly applicable, whenever possible
+     • Flexible and capable of accommodating future expansions
+     • Dynamic in terms of continuous review
+
+1.4. Applicability and Intended Uses
+
+This standard applies to the Boat Ramp and Public Dock element of the Transportation theme
+of The Idaho Map (TIM).
+
+When implemented this standard will enable access and exchange of data. A predictable
+standard will support data collaboration, improve data collaboration, help identify and report
+errors and allow agencies to incorporate this data into their own data products.
+
+This standard does not consider data sharing agreements, contracts, transactions, privacy
+concerns, or any other issues relating to the acquisition and dissemination of Boat Ramp and
+Public Dock data.
+
+1.5. Standard Development Process
+
+The Transportation Technical Working Group is a voluntary group of private, city, county,
+tribal, state, and federal representatives. On 3/19/2025 the Boat Ramp and Public Dock Lead
+began developing the standard for the Boat Ramp and Public Dock Framework. This
+standard was then reviewed and edited by the members of the Transportation Technical
+Working Group.
+After initial development the draft standard document was shared with the Idaho Geospatial
+Council (IGC) in accordance with the review and approval process described in ITA Policy
+P5030 - Framework Standards Development.
+
+The standard was presented to the IGC-EC in May 2025
+
+                                                                                             7
+
+   1.6. Maintenance of the Standard
+
+   This standard will be reviewed yearly and in accordance with the ITA Policy (P5030) -
+   Framework Standards Development.
+
+2. Body of the Standard
+
+   2.1. Scope and Content
+
+   The scope of the Boat Ramp and Public Dock Data Exchange Standard is to describe a
+   statewide layer which identifies the physical locations and attributes of Boat Ramp and
+   Public Docks in Idaho.
+
+   2.2. Need
+
+   Boat Ramp and Public Docks are a key dataset needed for the public generally, government
+   agencies, and organizations throughout Idaho. This standard provides the foundation to
+   aggregate Boat Ramp and Public Dock data for centralized access and stewardship
+   information.
+
+   With Idaho having so many water bodies and waterways, boat ramp and public dock data is
+   critical. It is important for the public and government agencies to know the locations where
+   watercraft can enter and exit those water features.
+
+   2.3. Participation in Standard Development
+
+   The development of the Boat Ramp and Public Dock Data Exchange Standard adheres to the
+   ITA Policy (P5030) - Framework Standards Development. The Transportation Standard
+   Team tasked with developing this standard invite input and comments from private, county,
+   state, and federal organizations. As the standard is reviewed in accordance with ITS Policy
+   P5030 requirements, there will be an opportunity for broad participation and input by
+   stakeholders in the development of this standard. The process will be equally broad for input
+   on updates and enhancements to the standard. As with all Idaho Framework standards, public
+   review and comments on the Boat Ramp and Public Dock Data Exchange Standard is
+   encouraged.
+
+                                                                                                  8
+
+2.4. Integration with Other Standards
+
+The Boat Ramp and Public Dock Data Standard follows the same format as other Idaho
+geospatial framework data standards. The Boat Ramp and Public Dock standard may contain
+some of the same attributes as other framework standards and may adopt the field name,
+definition, and domain from the other standards to promote consistency.
+
+2.5. Technical and Operation Context
+
+   2.5.1. Data Environment
+
+   The data environment is a digital vector point with a specific, standardized set of
+   attributes pertinent to the Boat Ramp and Public Dock Framework. Boat Ramp and
+   Public Dock data shared under this standard must be in a format supporting vector points.
+
+   2.5.2. Reference Systems
+
+   The Boat Ramp and Public Dock Framework will be published in the IDTM83
+   coordinate system, which is the State of Idaho’s single zone coordinate system. Data is
+   not required to be submitted in the Idaho Transverse Mercator NAD83 (IDTM83)
+   coordinate system but must have a defined coordinate system clearly described in the
+   metadata.
+
+   2.5.3. Global Positioning Systems (GPS)
+
+   Some data provided might contain data collected using GNSS methods such as GPS, and
+   the provided metadata should describe this, if applicable. Geometry from GPS sources is
+   not required to meet this standard.
+
+   2.5.4. Interdependence of Themes
+
+   Attributes found in the Boat Ramp and Public Dock layer are related to the attributes
+   found in the published Hydrography and forthcoming County Boundary datasets.
+
+   2.5.5. Encoding
+
+   When data is imported into and exported from the Boat Ramp and Public Dock
+   Framework, encoding will take place to convert data formats and attributes.
+                                                                                             9
+
+2.5.6. Resolution
+
+No specific requirements for resolution are specified in this standard. Resolution will be
+documented in the metadata.
+
+2.5.7. Accuracy
+
+A framework layer for Boat Ramps and Public Docks should incorporate data from
+government organizations, including local, state and federal representation. All effort
+should be made to ensure the most accurate representation of the locations and names of
+features, but there is no definite accuracy standard required.
+
+2.5.8. Edge Matching
+
+No edge matching is required between jurisdictions, or between this and other framework
+layers.
+
+2.5.9. Unique Identifier
+
+The FIPS Asset ID field is the unique identifier for Boat Ramp and Public Dock data.
+This is a concatenation of the county FIPS code, a 2-digit type code, and a 4-digit
+alphanumeric identifier. This field should be unique to each item in the dataset.
+
+2.5.10. Attributes
+
+Attributes for public and intergovernmental distribution are described in Section 3 of this
+standard.
+
+2.5.11. Stewardship
+
+Perpetual maintenance and other aspects of lifecycle management are essential to Boat
+Ramp and Public Dock Framework. Details of stewards, their roles and responsibilities,
+and processes are set forth, or are being planned to set forth in a Boat Ramp and Public
+Dock Framework Stewardship Plan and related documents.
+
+2.5.12. Records Management and Archiving
+
+The dataset is hosted by the State of Idaho, and publicly available on the Open Data site.
+
+                                                                                         10
+
+         2.5.13. Metadata
+
+         The Boat Ramp and Public Dock Framework metadata will describe the methods used to
+         update and aggregate the individual Boat Ramp and Public Dock data contributions,
+         processes or crosswalks performed, definition of attributes, and other required
+         information. This metadata will conform to the metadata standards as set out in ITA
+         Standard S4220 - Geospatial Metadata.
+
+3. Data Characteristics
+
+   3.1. Minimum Graphic Data Elements
+
+   The geometry of the features in Boat Ramp and Public Dock Framework is vector point
+
+   3.2. Optional Graphic Data Elements
+
+   Not applicable.
+
+   3.3. Standard Attribute Schema
+
+        Field Name          Data Type    Length        Description            Examples
+ county                     Text        150         County Name         Ada
+                                                    Government Issued
+ FIPS                       Text        20          County Code         16001
+                                                    Unique ID field -
+                                                    FIPS Code, Type
+                                                    Code, and
+                                                    alphanumeric 4
+                                                    digit code
+ FIPS_asset_ID              Text        50          combined.           16001-BR-2d65
+ waterbody_type             Text        20          Waterbody Type      Lake/Reservoir
+ waterbody                  Text        150         Waterbody Name      Coeur d’Alene Lake
+                                                    Ramp or Dock
+ site_name                  Text        150         Name                Ahsahka
+                                                    Alternative
+ alternative_name           Text        150         Ramp/Dock Name      Ahsahka 1
+                                                    Site Manager
+ manager                    Text        150         Name/Agency         Corps of Engineers
+ boat_ramp                  Text        20          Ramp Material       Concrete
+ ramp_condition             Text        20          Ramp Condition      Good
+                                                    Number of Ramp
+ ramp_lanes                 Double                  Lanes               2
+
+                                                                                             11
+
+                                                    Watercraft Size
+ boat_ramp_suitability   Text          20           Limitation            Medium (12’-20’)
+ ramp_latitude           Double                     Latitude              47.67134275
+ ramp_longitude          Double                     Longitude             -116.78283481
+ Dock                    Text          10           Is a dock present?    Yes
+                                                    Number of Docks
+ dock_count              Double                     Present               1
+                                                    Amenities available
+ amenities               Text          150          at site.              Swimming
+                                                    ADA Accessible
+ ada_accessible          Text          150          Features              ADA Parking
+                                                                          Seasonal Site, Water
+ public_info_notes       Text          2000         Public Information    Level Fluctuates.
+
+   3.4. Data Quality
+
+   Data quality considerations for Boat Ramp and Public Docks include:
+       a) All Boat Ramp and Public Docks should have Boat Ramp and Public Dock IDs.
+
+Appendix A: References
+
+Idaho Technology Authority (ITA). Information and Data Policy P5000, Category: P5030
+Framework Standards Development Policy. https://ita.idaho.gov/psg/P5030.pdf
+
+Idaho Technology Authority (ITA). Enterprise Standards S4000 Geographic Information
+Systems (GIS) Data, Category: S4220 Geospatial Metadata. https://ita.idaho.gov/psg/S4220.pdf
+
+Appendix B: Glossary
+
+See ITA Guideline G105 - (ITA Glossary of Terms) for definitions.
+
+                                                                                                 12
+
+## Curator notes
+
+Text extracted with pdftotext -layout (page headers, footers and column layout kept as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their letters).

@@ -1,0 +1,63 @@
+Idaho Technology Authority (ITA)
+
+ENTERPRISE POLICY – P4500 SECURITY – COMPUTER AND
+OPERATIONS MANAGEMENT
+
+Category:    P4503 – IDENTITY AND ACCESS MANAGEMENT
+
+CONTENTS:
+I.   Authority
+II. Abstract
+III. Definitions
+IV. Policy
+V. Exemption Process
+VI. Procedure Reference
+VII. Contact Information
+     Revision History
+
+I. AUTHORITY
+
+   Authority: Idaho Code § 67-831 through 67-833
+
+II. ABSTRACT
+
+   The objective of this policy is to ensure state agency assets are protected with basic
+   identity management and authentication practices. This policy also strives to form a solid
+   foundation for current and future identity and access management (IAM) strategies.
+
+III. DEFINITIONS
+
+   See ITA Guideline G105 (ITA Glossary of Terms) for definitions.
+
+IV. POLICY
+
+   1. State agencies must protect all information technology accounts, devices, and
+      services with best practice authentication standards as described in ITA Enterprise
+      Standard S6030 (Identity and Authentication).
+
+   2. Software or services developed by, or procured by, State agencies must permit
+      identity verifiers (e.g. passwords) in accordance with ITA Enterprise Standard S6030
+      (Identity and Authentication).
+
+P4503 – Identity and Access Management                                            Page 1 of 2
+
+V. EXEMPTION PROCESS
+
+   Refer to ITA Enterprise Policy P1010 (Information Technology Policies, Standards, and
+   Guidelines Framework).
+
+VI. PROCEDURE REFERENCE
+
+   ITA Enterprise Standard S6030 (Identity and Authentication).
+
+VII. CONTACT INFORMATION
+
+   For more information, contact the ITA Staff at (208) 605-4064.
+
+REVISION HISTORY
+
+   08/20/2024 – Reviewed with no changes.
+
+   Effective Date: 12/14/2021
+
+P4503 – Identity and Access Management                                         Page 2 of 2

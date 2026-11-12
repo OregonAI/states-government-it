@@ -1,0 +1,736 @@
+Idaho Technology Authority (ITA)
+
+ENTERPRISE STANDARDS – S4000 – INFORMATION AND DATA
+
+Category:    S4XXX –Data Standard Geologic Map of Idaho Layer
+
+CONTENTS:
+I.    Definition
+II. Rationale
+III. Approved Standard(s)
+IV. Approved Product(s)
+V. Justification
+VI. Technical and Implementation Considerations
+VII. Emerging Trends and Architectural Directions
+VIII. Procedure Reference
+IX. Review Cycle
+X. Contact Information
+XI. Additional Information (if any)
+      Revision History
+
+I. DEFINITION
+
+   See ITA Guideline G105 (ITA Glossary of Terms) for definitions.
+
+II. RATIONALE
+
+   A statewide Geologic Map of Idaho layer and data standard, which is part of the
+   Geosciences data theme is a critical source of information for geologists,
+   hydrologists, engineers, forest and land managers, conservationists, and more.
+   Standardized Geologic Map of Idaho data supports those groups by providing easily
+   accessible data from an authoritative source.
+
+III. APPROVED STANDARD(S)
+
+   See Attachment
+
+IV. APPROVED PRODUCTS(S)
+
+  Any GIS Software, either desktop or online, capable of ingesting and displaying
+  Open Geospatial Consortium (OGC) Web Map Standard (WMS) services.
+
+V. JUSTIFICATION
+
+  A statewide Geologic Map of Idaho dataset is a critical source of information as
+  stated under ‘II Rationale’ in this standard. A data standard supports the use of the
+  Geologic Map of Idaho to facility a predictable format, improve collaboration and
+  encourage the use of this dataset.
+
+VI. TECHNICAL AND IMPLEMENTATION CONSIDERATIONS
+
+  Any GIS Software, either desktop or online, capable of ingesting and displaying
+  Open Geospatial Consortium (OGC) Web Map Standard (WMS) services.
+
+VII. EMERGING TRENDS AND ARCHITECTURAL DIRECTIONS
+
+  Data will be shared in accordance with ITA Standard S4250 Enterprise
+  Geographic Information System (GIS) Data Sharing Standards.
+
+VIII. PROCEDURE REFERENCE
+
+  The format, content and development of this standard adhere to ITA Policy P5030
+  Framework Standards Development, ITA Standard S4250 Data Sharing Standards
+  and ITA Standard S4220 Geospatial Metadata.
+
+IX. REVIEW CYCLE
+
+  Review will occur at least annually.
+
+X. CONTACT INFORMATION
+
+  For more information, contact the ITA Staff at (208) 605-4064.
+
+REVISION HISTORY
+
+  05/16/2024 – Standard Presented to the IGC-EC
+
+                                                                                          2
+
+                                  STATE OF IDAHO
+
+              Geologic Map of Idaho Data Standard
+                            Part of the Geosciences Theme
+
+                                         Version 1
+                                  Effective May 16, 2024
+
+                  Developed by the Geosciences Technical Working Group
+
+Contact
+ITA Staff
+Office of Information Technology Services
+(208) 605-4064
+contact@its.idaho.gov
+
+                                                                         3
+
+CONTENTS
+1. Introduction to the Geologic Map of Idaho Data Exchange Standard ............................ 5
+  1.1. Mission and Goals of the Standard............................................................................... 5
+  1.2. Relationship to Existing Standards .............................................................................. 5
+  1.3. Description of the Standard .......................................................................................... 5
+  1.4. Applicability and Intended Uses ................................................................................... 6
+  1.5. Standard Development Process..................................................................................... 6
+  1.6. Maintenance of the Standard ........................................................................................ 6
+2. Body of the Standard ............................................................................................................ 6
+  2.1. Scope and Content.......................................................................................................... 7
+  2.2. Need ................................................................................................................................. 7
+  2.3. Participation in the Standard Development ................................................................ 7
+  2.4. Integration with Other Standards ................................................................................ 7
+  2.5. Technical and Operation Context................................................................................. 7
+     2.5.1. Data Environment................................................................................................... 7
+     2.5.2. Reference Systems ................................................................................................... 7
+     2.5.3. Global Positioning Systems (GPS)......................................................................... 8
+     2.5.4. Interdependence of Themes ................................................................................... 8
+     2.5.5. Encoding .................................................................................................................. 8
+     2.5.6. Resolution ................................................................................................................ 8
+     2.5.7. Accuracy .................................................................................................................. 8
+     2.5.8. Edge Matching ........................................................................................................ 9
+     2.5.9. Unique Identifier ..................................................................................................... 9
+     2.5.10.  Attributes ............................................................................................................. 9
+     2.5.11.  Stewardship.......................................................................................................... 9
+     2.5.12.  Records Management and Archiving ................................................................ 9
+     2.5.13.  Metadata .............................................................................................................. 9
+3. Data Characteristics ............................................................................................................. 9
+  3.1. Minimum Graphic Data Elements.............................................................................. 10
+  3.2. Optional Graphic Data Elements................................................................................ 10
+  3.3. Standard Attribute Schema ........................................................................................ 10
+  3.4. Data Quality .................................................................................................................. 10
+Appendix A: References .............................................................................................................. 11
+Appendix B: Glossary .................................................................................................................. 11
+
+                                                                                                                                             4
+
+1. Introduction to the Geologic Map of Idaho Data Exchange Standard
+
+  A statewide Geologic Map of Idaho is a critical source of information for geologists,
+  hydrologists, engineers, forest and land managers, conservationists, and more. Those groups
+  will benefit because it provides easily accessible data from an authoritative source. As can be
+  seen from the above examples, many private sector and local, state, and federal government
+  agencies have business needs for Geologic Map of Idaho data.
+
+  A Geologic Map of Idaho Standard is intended to facilitate integration and sharing of up-to-
+  date data and enhance the dissemination and use of Geologic Map of Idaho information. This
+  standard does not instruct on how Geologic Map of Idaho databases are designed for internal
+  use.
+
+  This standard was developed by the Geosciences Technical Working Group, a subgroup of
+  the Idaho Geospatial Council – Executive Committee (IGC-EC). This standard will be
+  reviewed on an anual basis and updated as needed.
+
+  1.1. Mission and Goals of the Standard
+
+  The Geologic Map of Idaho Standard supports a statewide dataset that is consistent with
+  applicable state and national standards. It establishes the minimum attributes and geospatial
+  database schema for the Geologic Map of Idaho Framework. The Standard will communicate
+  with, and may have similar attributes to, other Idaho Framework data standards.
+
+  The Geologic Map of Idaho Framework will be appropriately shared and beneficial to all.
+  The fields in the Geologic Map of Idaho Data Standard will be general enough to incorporate
+  basic information without requiring major changes in internal data models. This standard
+  allows for expansion to a more complex data structure and schema.
+
+  1.2. Relationship to Existing Standards
+
+  This Geologic Map of Idaho Standard relates to existing standards as follows: ITA Standard
+  S4220 – Geospatial Metadata
+
+  1.3. Description of the Standard
+  This standard describes the vision and geospatial data structure of a Geologic Map of Idaho
+  Framework in the state of Idaho. This standard is devised to be:
+       • Simple, easy to understand, and logical
+       • Uniformly applicable, whenever possible
+                                                                                                5
+
+       •   Flexible and capable of accommodating future expansions
+       •   Dynamic in terms of continuous review
+
+   1.4. Applicability and Intended Uses
+
+   This standard applies to the Geologic Map of Idaho element of the Geosciences theme of The
+   Idaho Map (TIM).
+
+   When implemented, this standard will enable access to the data. A predictable standard will
+   support data collaboration and help identify and report errors. The standard will allow
+   agencies to incorporate this data into their own data products.
+
+   This standard does not consider data sharing agreements, contracts, transactions, privacy
+   concerns, or any other issues relating to the acquisition and dissemination of Geologic Map
+   of Idaho data.
+
+   1.5. Standard Development Process
+
+   The Geosciences Technical Working Group is a voluntary group of private, city, county,
+   tribal, state, and federal representatives. In 2023 the Geologic Map of Idaho Lead began
+   developing the standard for the Geologic Map of Idaho Framework using the standard
+   development automation tools developed by the IGC-EC to generate the first draft of the
+   Standard. This standard was then reviewed and edited by the members of the Geosciences
+   Technical Working Group.
+   After initial development the draft standard document was shared with the Idaho Geospatial
+   Council Executive Committee (IGC-EC) and the Idaho Geospatial Council (IGC) in
+   accordance with the review and approval process described in ITA Policy P5030 Framework
+   Standards Development.
+
+   1.6. Maintenance of the Standard
+
+   This standard will be revised on an annual basis and as needed and in accordance with the
+   ITA Policy P5030 Framework Standards Development.
+
+2. Body of the Standard
+
+                                                                                                 6
+
+2.1. Scope and Content
+
+The scope of the Geologic Map of Idaho Data Standard is to describe a statewide layer which
+identifies the physical locations and attributes of Geologic Map of Idaho in Idaho.
+
+2.2. Need
+
+Geologic Map of Idaho is a key dataset needed for geologists, hydrologists, engineers, forest
+and land managers, conservationists, and more. This standard provides the foundation to
+aggregate Geologic Map of Idaho data for centralized access and stewardship information.
+
+2.3. Participation in the Standard Development
+
+The development of the Geologic Map of Idaho Data Standard adheres to the ITA Policy
+P5030 Framework Standards Development. The Geosciences Standard Team tasked with
+developing this standard invite input and comments from private, county, state, and federal
+organizations. As the standard is reviewed in accordance with ITA Policy P5030 Framework
+Standards Development requirements, there will be opportunity for broad participation and
+input by stakeholders in the development of this standard. The process will be equally broad
+for input on updates and enhancements to the standard. As with all Idaho Framework
+standards, public review and comment on the Geologic Map of Idaho Data Standard is
+encouraged.
+
+2.4. Integration with Other Standards
+
+The Geologic Map of Idaho Data Standard may contain some of the same attributes as other
+standards and may adopt the field name, definition, and domain from the other standards to
+promote consistency.
+
+2.5. Technical and Operation Context
+
+   2.5.1. Data Environment
+
+   The data environment is a digital vector polygon with a specific, standardized set of
+   attributes pertinent to the Geologic Map of Idaho Framework. Geologic Map of Idaho
+   data shared under this standard must be in a format supporting vector polygons.
+
+   2.5.2. Reference Systems
+                                                                                             7
+
+The Geologic Map of Idaho Framework uses WGS 1984. Data is not required to be
+submitted in the Idaho Transverse Mercator NAD83 (IDTM83) coordinate system but
+must have a defined coordinate system clearly described in the metadata.
+
+2.5.3. Global Positioning Systems (GPS)
+
+Some data provided might contain geometry from GPS methods, and the provided
+metadata should describe this, if applicable.
+
+2.5.4. Interdependence of Themes
+
+Not Applicable.
+
+2.5.5. Encoding
+
+When data is imported into and exported from the Geologic Map of Idaho Framework,
+encoding will take place to convert data formats and attributes.
+
+2.5.6. Resolution
+
+Requirements for resolution are specified in this standard as 1:750,000
+
+2.5.7. Accuracy
+
+These data (geologic contacts) are highly simplified and generalized for the purposes of
+generating a published map at a scale of 1:750,000. This is NOT a geologic data set but
+rather data resulting from a process of compiling a map for publication at a small scale.
+Positional accuracy is hard to determine for these data. Error in positional location of
+geologic boundaries cannot be quantitatively determined. Rather, numerous factors need
+to be taken into account to judge the accuracy and reliability of these data. The geology is
+highly simplified. Also, the original compilation base (Lambert conformal conic,
+1:500.000) is not suited for regional compilation due to flaws in the topography and
+planimetrics (roads, boundary, streams, etc.), i.e., things don't fit well when compared to
+the real world. Efforts were made by the authors to resolve some of these issues and
+improve the overall quality and accuracy of the map data. One way to determine the best
+possible accuracy is to convert the linewidth of a polygon boundary (geologic contact) to
+real units. For example, a .25 mm (about .25 points) line at 1:500,000 converts to about
+410 feet (125 m). This represents the best possible accuracy. If the arguments above are
+                                                                                          8
+
+      added the positional accuracy must fall somewhere between 410-1000 feet 125-305 m).
+      Obviously, these data should not be used for analysis purposes.
+
+      2.5.8. Edge Matching
+
+      Not Applicable.
+
+      2.5.9. Unique Identifier
+
+      The unique identifier is the Id - Identifier
+
+      2.5.10. Attributes
+
+      Attributes for public and intergovernmental distribution are described in Section 3 of this
+      standard.
+
+      2.5.11. Stewardship
+
+      Perpetual maintenance and other aspects of lifecycle management are essential to
+      Geologic Map of Idaho Framework. Details of stewards, their roles and responsibilities,
+      and processes are set forth, or are being planned to set forth in a Geologic Map of Idaho
+      Framework Stewardship Plan and related documents.
+
+      2.5.12. Records Management and Archiving
+
+      Changes are rare but are documented in the "Lineage" section in the metadata.
+
+      2.5.13. Metadata
+
+      The Geologic Map of Idaho Framework metadata will describe the methods used to
+      update and aggregate the individual Geologic Map of Idaho data contributions, processes
+      or crosswalks performed, definition of attributes, and other required information. This
+      metadata will conform to the metadata standards as set out in ITA Standard S4220
+      Geospatial Metadata.
+
+3. Data Characteristics
+
+                                                                                                  9
+
+      3.1. Minimum Graphic Data Elements
+
+      The geometry of the features in Geologic Map of Idaho Framework is vector polygon.
+
+      3.2. Optional Graphic Data Elements
+
+      Not applicable.
+
+      3.3. Standard Attribute Schema
+
+           Field Name        Data Type      Length         Description              Examples
+ Shape                     Geometry
+                                                                             Alluvial deposits
+                                                                             (Quaternary)—Deposits
+                                                                             in valleys consisting of
+                                                                             gravel, sand, and silt.
+                                                                             Includes younger
+                                                                             terrace deposits. May
+                                                                             contain some glacial
+                                                                             deposits and colluvium
+ Description               Text           1,250                              in uplands.
+                                                       Rank, Coded Value
+ ranking                   Short                       Domain                Formation
+                                                       Geologic Unit Type,
+ unitType                  Short                       Coded Value Domain    Lithostratigraphic Unit
+                                                       Name, Coded Value     Alluvial Deposits
+ unitName                  Short                       Domain                (Quaternary)
+                                                       Unit Abbreviation,
+ abbr                      Short                       Coded Value Domain    Qa
+ id                        Short                       Identifier            57
+                                                       Geologic History,     Magma Cooling,
+ history                   Short                       Coded Value Domain    Mesoproterozoic
+                                                       Lithology, Coded      Biotite granite | augen
+ litholo                   Short                       Value Domain          gneiss
+
+See Appendix C for coded value domain description tables.
+
+      3.4. Data Quality
+
+      Data quality considerations for Geologic Map of Idaho include:
+           a) All Geologic Map of Idaho should have Geologic Map of Idaho IDs.
+
+                                                                                                       10
+
+Appendix A: References
+
+Idaho Technology Authority (ITA). Information and Data Policy P5000, Category: P5030
+Framework Standards Development Policy. https://its.idaho.gov/psg/P5030.pdf
+
+Idaho Technology Authority (ITA). Enterprise Standards S4000 Geographic Information
+Systems (GIS) Data, Category: S4220 Geospatial Metadata. https://its.idaho.gov/psg/S4220.pdf
+
+Idaho Geological Survey. Map units contacts (lines), faults (lines), and map unit polygons.
+Updated March 24, 2024. https://www.idahogeology.org/
+
+Appendix B: Glossary
+
+See ITA Guideline G105 - (ITA Glossary of Terms) for definitions.
+
+Appendix C: Domain Tables
+
+ Domain Name               Description             Field Type               Domain Type
+ History                   Geologic History        short                    Coded Value
+
+ Code      Description
+   1       Deposition, Quaternary
+   2       Flood plain deposition, Quaternary
+   3       Deposition, Mesoproterozoic | Metamorphism, Mesoproterozoic
+   4       Glacial deposition, Pleistocene
+   5       Magma cooling, Cretaceous
+   6       Deposition, Permian | Deposition, Pennsylvanian
+   7       Deposition, Pleistocene | Deposition, Pliocene
+   8       Basaltic volcanism, Pleistocene | Basaltic volcanism, Pliocene
+   9       Water bodies
+  10       Intrusion, Eocene
+  11       Volcanism, Eocene
+  12       Deposition, Devonian | Deposition, Ordovician
+
+                                                                                              11
+
+13   Deposition, Mississippian
+14   Basaltic volcanism, Pliocene | Basaltic volcanism, Miocene
+15   Deposition, Miocene
+16   Mass wasting, Quaternary
+17   Lake Bonneville sediments deposition, Pleistocene
+18   Rhyolite volcanism, Miocene
+19   Deposition, Cambrian | Deposition, Neoproterozoic
+20   Eruptive flooding basalt, Miocene
+21   Deposition, Ordovician | Deposition, Cambrian
+22   Deposition, Mesoproterozoic
+23   Rhyolite volcanism, Pliocene | Rhyolite volcanism, Miocene
+24   Deposition, Triassic
+25   Magma cooling, Cretaceous | Magma cooling, Jurassic
+26   Deposition, Oligocene | Deposition, Eocene
+27   Deposition, Jurassic
+28   Metamorphism, Paleoproterozoic
+29   Loess deposit, Pleistocene
+30   Rhyolite volcanism, Pleistocene
+31   Windblown sand deposition, Quaternary
+32   Deposition, Cretaceous | Deposition Permian | Metamorphism, Cretaceous
+33   Deposition, Eocene
+34   Deposition, Cretaceous
+35   Deposition, Paleozoic | Deposition, Mesoproterozoic | Metamorphism, Paleozoic
+36   Deposition, Jurassic | Deposition, Triassic | Volcanism, Jurassic |Volcanism, Triassic
+37   Magma cooling, Mesoproterozoic
+38   Intrusion, Triassic | Intrusion Permian
+39   Volcanism, Triassic | Volcanism, Permian
+40   Volcanism, Jurassic |Volcanism, Triassic
+41   Intrusion, Paleocene | Intrusion Cretaceous
+42   Missoula Flood sediments deposition, Pleistocene
+43   Deposition, Cretaceous | Deposition Jurassic
+44   Deposition, Permian | Deposition, Mississippian
+
+                                                                                              12
+
+ 45    Extrusion, Mesoproterozoic | Metamorphism, Mesoproterozoic
+ 46    Intrusion, Oligocene
+ 47    Deposition, Devonian | Deposition, Cambrian
+ 48    Intrusion, Ordovician | Intrusion, Cambrian
+ 49    Basalt flows, Quaternary
+ 50    Intrusion, Neoproterozoic
+ 51    Volcanism, Oligocene
+ 52    null
+ 53    Deposition, Mesozoic | Deposition, Paleozoic
+ 54    Magma cooling, Jurassic
+ 55    Deposition, Paleocene | Deposition, Cretaceous
+
+Domain Name             Description                Field Type                Domain Type
+Lithology               Lithology description      short                     Coded Value
+
+Code   Description
+  1    Alkali olivine basalt
+  2    Amphibolite
+  3    Anorthosite
+  4    Basaltic | rhyolitic
+  5    Basaltic volcaniclastic rock | rhyolitic volcaniclastic rock
+  6    Biotite | muscovite-biotite | muscovite granite
+  7    Biotite granite | augen gneiss
+  8    Biotite granite | granitic augen gneiss
+  9    Biotite tonalite gneiss | hornblende-biotite tonalite gneiss
+ 10    Biotite-rich paragneiss | schist | minor feldspathic quartzite
+ 11    Calcareous siltite | dolomitic siltite | quartzite |minor argillite
+ 12    Conglomerate | sandstone
+ 13    Conglomerate | sandstone | mudstone | tuff
+
+                                                                                           13
+
+14   Conglomerate | sandstone | shale | gravel
+15   Dacite | andesite | rhyolite tuffs
+16   Diorite | tonalite | granodiorite | gabbro | norite | quartz diorite| trondhjemite
+17   Dolostone | limestone | sandstone
+18   Dolostone | limestone | sandstone | minor shale | sandstone
+19   Feldspathic fine-grained quartzite
+20   Feldspathic fine-grained quartzite | siltite | minor argillite | carbonate-bearing rock
+21   Feldspathic quartzite | minor schist | calc-silicate rock
+22   Feldspathic quartzite | minor siltite | argillite
+23   Granodiorite | granite
+24   Granodiorite | quartz monzodiorite | minor diorite | granite | subvolcanic dacite
+25   Granodiorite | tonalite | quartz diorite
+26   Granodiorite gneiss | schist | gneiss |minor quartzite
+27   Gravel | sand | clay
+28   Gravel | sand | silt | clay
+29   Gravel | sand |silt
+30   Kyanite | sillimanite gneiss | schist | quartzite | amphibolite
+31   Limestone | dolomite | minor shale | sandstone
+32   Limestone | marble | calcareous mudstone | phyllite
+33   Limestone | turbiditic sandstone | mudstone | conglomerate
+34   Made structure
+35   Metasedimentary rock | metavolcanic schist | gneiss |amphibolite |marble
+36   Mudstone | Minor conglomerate | sandstone
+37   Olivine tholeiite basalt
+38   Olivine tholeiite basalt | minor latite | alkaline basalt
+39   Phosphorite | shale | chert
+40   Phosphorite | shale | chert |limestone | turbiditic sandstone | mudstone | conglomerate
+41   Quartz diorite
+42   Quartzite
+43   Quartzite | feldspathic quartzite | calc-silicate gneiss | biotite gneiss | schist |
+     amphibolite
+44   Quartzose sandstone | minor siltite |minor shale | limestone
+
+                                                                                               14
+
+ 45    Red mudrock | fine-grained sandstone | limestone
+ 46    Rhyolite
+ 47    Ribbon chert | phyllite | argillite | cherty limestone | limestone
+ 48    Sand
+ 49    Sandstone | limestone
+ 50    Sandstone | shale
+ 51    Sandstone |siltstone | arkose | conglomerate | claystone | tuffaceous sediment |minor
+       basalt |minor rhyolitic tuff
+ 52    Silt
+ 53    Silt | clay | sand
+ 54    Siltite | argillite | dolomitic siltite
+ 55    Siltite | calc-silicate rock | argillite | minor marble
+ 56    Siltite | quartzite | argillite
+ 57    Syenite | diorite
+ 58    Syenite | monzonite |quartz monzonite | minor pyroxenite
+ 59    Syenite | quartz syenite | alkali-feldspar granite | minor gabbro
+ 60    Tholeiitic basalt
+ 61    Tonalite
+ 62    Tonalite | granodiorite | quartz diorite
+ 63    Tonalite | trondhjemite
+ 64    Tonalitic orthogneiss | foliated granodiorite
+ 65    water
+
+Domain Name                 Description            Field Type               Domain Type
+Name                        Geologic unit name     short                    Coded Value
+
+Code   Description
+ 0     Alluvial-fan deposits (Quaternary)
+ 1     Alluvial deposits (Quaternary)
+
+                                                                                               15
+
+2    Amphibolite (Mesoproterozoic)
+3    Anorthosite (Paleoproterozoic)
+4    Augen gneiss (Mesoproterozoic)
+5    Baker Terrane (Mesozoic and Paleozoic)
+6    Basalt (Pleistocene and Pliocene)
+7    Basalt (Pliocene and Miocene)
+8    Basalt (Quaternary)
+9    Challis intrusive rocks (Eocene)
+10   Challis Volcanic Group (Eocene)
+11   Columbia River Basalt Group (Miocene)
+12   Coon Hollow and Weatherby formations (Cretaceous and Jurassic)
+13   dam
+14   Fluvial and lake sediment (Quaternary)
+15   Glacial deposits (Pleistocene)
+16   Gneiss, schist, and quartzite (Mesoproterozoic)
+17   Gneissic and schistose metasedimentary rocks (Mesoproterozoic)
+18   Granite (Oligocene)
+19   Granodiorite and granite (Paleocene and Cretaceous)
+20   Granodiorite and two-mica granite (Cretaceous)
+21   Hoodoo Quartzite and argillaceous quartzite (Mesoproterozoic)
+22   Intrusive rocks (Neoproterozoic)
+23   Intrusive rocks (Triassic and Permian)
+24   Laclede augen gneiss (Mesoproterozoic)
+25   Lake Bonneville deposits (Pleistocene)
+26   Landslide deposits (Quaternary)
+27   Lemhi Group (Mesoproterozoic)
+28   Loess deposits (Pleistocene)
+29   Lower Missoula Group (Mesoproterozoic)
+30   Metamorphic rocks (Paleoproterozoic and Archean)
+31   Metasedimentary rocks (Paleozoic to Mesoproterozoic)
+32   Missoula Flood deposits (Pleistocene)
+33   Older rhyolite, latite, and andesite (Miocene)
+
+                                                                      16
+
+34   Olds Ferry terrane (Jurassic and Triassic)
+35   Orthogneiss (Paleoproterozoic)
+36   Piegan Group (Mesoproterozoic)
+37   Plutonic rocks along the western Idaho shear zone (Cretaceous and Jurassic)
+38   Prichard Formation (Mesoproterozoic)
+39   Quartz diorite (Cretaceous and Jurassic)
+40   Quartzitic metamorphic rocks (Mesoproterozoic)
+41   Ravalli Group (Mesoproterozoic)
+42   Rhyolite (Miocene)
+43   Rhyolite (Pleistocene)
+44   Rhyolite (Pliocene and Miocene)
+45   Riggins Group, Orofino series, and related rocks (Cretaceous to Permian)
+46   Sedimentary and volcanic rocks (Jurassic and Triassic)
+47   Sedimentary rocks (Cretaceous)
+48   Sedimentary rocks (Devonian to Cambrian)
+49   Sedimentary rocks (Devonian to Ordovician)
+50   Sedimentary rocks (Eocene)
+51   Sedimentary rocks (Jurassic)
+52   Sedimentary rocks (Mississippian)
+53   Sedimentary rocks (Ordovician and Cambrian)
+54   Sedimentary rocks (Paleocene and Cretaceous)
+55   Sedimentary rocks (Permian and Pennsylvanian)
+56   Sedimentary rocks (Permian to Mississippian)
+57   Sedimentary rocks (Triassic)
+58   Sedimentary rocks and sediments (Oligocene and Eocene)
+59   Sedimentary rocks associated with Basin and Range extension (Quaternary, Pliocene,
+     and Miocene)
+60   Sedimentary rocks associated with flood basalts (Miocene)
+61   Sediments and sedimentary rocks (Pleistocene and Pliocene)
+62   Seven Devils Group (Triassic and Permian)
+63   Swauger and Lawson Creek formations (Mesoproterozoic)
+64   Syenite and related rocks (Cretaceous)
+
+                                                                                      17
+
+ 65    Syenitic intrusive rocks (Ordovician and Cambrian)
+ 66    Tonalite and trondhjemite (Cretaceous)
+ 67    Tonalite, granodiorite, and quartz diorite (Cretaceous)
+ 68    Tonalite, hornblendite, and gabbro (Jurassic)
+ 69    Tonalitic orthogneiss and foliated granodiorite (Cretaceous)
+ 70    Upper Missoula Group (Mesoproterozoic)
+ 71    Volcanic rocks (Oligocene)
+ 72    water bodies
+ 73    Windblown sand deposits (Quaternary)
+ 74    Windermere Supergroup (Cambrian and Neoproterozoic)
+ 75    Yellowjacket Formation (Mesoproterozoic)
+
+Domain Name            Description              Field Type            Domain Type
+Rank                   Geologic unit view       short                 Coded Value
+                       rank
+
+Code Description
+ 0     Not Specified
+ 1     Group
+ 2     Supergroup
+ 3     Formation
+
+Domain Name            Description              Field Type            Domain Type
+Unitabbr               Unit name                short                 Coded Value
+                       abbreviation
+
+                                                                                    18
+
+Code Description
+ 0    JT_of
+ 1    CZs
+ 2    dam
+ 3    DCs
+ 4    DSOs
+ 5    Ji
+ 6    Js
+ 7    JT_sv
+ 8    Kg
+ 9    Kis
+ 10   KJcw
+ 11   KJp
+ 12   KJqd
+ 13   Kog
+ 14   KPro
+ 15   Ks
+ 16   Ktg
+ 17   Ktt
+ 18   Ms
+ 19   MzPzb
+ 20   OCi
+ 21   OCs
+ 22   PMs
+ 23   PP_s
+ 24   PzYs
+ 25   Qa
+ 26   Qaf
+ 27   Qb
+ 28   Qbs
+ 29   Qg
+ 30   Ql
+
+                   19
+
+31   Qls
+32   Qm
+33   Qr
+34   Qs
+35   QTb
+36   QTpms
+37   QTs
+38   Qw
+39   T_Pi
+40   T_Psd
+41   T_s
+42   Tcr
+43   Tcv
+44   Tei
+45   Tes
+46   TKg
+47   TKs
+48   Tmfo
+49   Tmr
+50   Tms
+51   Toes
+52   Toi
+53   Tov
+54   Tpmb
+55   Tpmr
+56   water
+57   XAm
+58   Xan
+59   Xog
+60   Yag
+61   Yagl
+62   Yam
+
+             20
+
+    63   Ygs
+    64   Yha
+    65   Yl
+    66   Ym
+    67   Ymil
+    68   Ymiu
+    69   Yp
+    70   Ypi
+    71   Yq
+    72   Yra
+    73   Ysl
+    74   Yy
+    75   Zi
+
+Domain Name              Description          Field Type   Domain Type
+unitType                 Geologic unit type   short        Coded Value
+
+Code Description
+0        Lithostratigraphic Unit
+1        Water Body
+2        Artificial Ground
+
+                                                                         21

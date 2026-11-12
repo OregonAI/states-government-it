@@ -1,0 +1,217 @@
+---
+schema_version: 1
+corpus: states-government-it
+jurisdiction: idaho
+id: id-ita-p4520
+title: P4520 – Patching and Vulnerability Management
+doc_type: policy
+citation: ITA Policy P4520
+authority_level: ''
+issuing_body: Idaho Technology Authority (ITA)
+source_url: https://ita.idaho.gov/wp-content/uploads/2025/07/p4520.pdf
+source_format: pdf
+retrieved: '2026-11-11'
+source_sha256: 43ad5b7c55c5bad74f4877280a8729f5bae25e2637a5706c72d9cd1b2ef9adc1
+effective_date: '2006-05-16'
+source_version: ''
+status: current
+content_mode: verbatim
+conversion_notes: Text extracted with pdftotext -layout (page headers, footers and column layout kept
+  as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their
+  letters).
+last_verified: ''
+verified_by: ''
+maintainer: ''
+relationships:
+  implements: []
+  implemented_by: []
+  references_external: []
+  related: []
+  supersedes: []
+tags:
+- cybersecurity
+---
+
+> **NON-AUTHORITATIVE.** This is a convenience copy for machine reading. The official text is published at the source URL above. Verify at source before relying on it.
+
+# P4520 – Patching and Vulnerability Management (ITA Policy P4520)
+
+## At a glance
+
+Item of the ITA statewide policies, standards and guidelines library (ita.idaho.gov/policies), category '4500 - Security - Computer and Operations Management, Policies', a policy. The library's own summary: "ITA Policy P4520 establishes guidelines for managing IT vulnerabilities, ensuring timely deployment of patches to prevent exploitation."
+
+## Full text
+
+Idaho Technology Authority (ITA)
+
+ENTERPRISE POLICY – P4500 COMPUTER AND OPERATIONS
+MANAGEMENT
+Category:     P4520 – PATCHING & VULNERABILITY MANAGEMENT
+
+CONTENTS:
+I.   Authority
+II. Abstract
+III. Definitions
+IV. Policy
+V. Exemption Process
+VI. Procedure Reference
+VII. Contact Information
+     Revision History
+
+I. AUTHORITY
+
+   Authority: Idaho Code § 67-833
+
+II. ABSTRACT
+
+   Establish the policy for State government organizations to establish patch and
+   vulnerability management processes to proactively prevent the exploitation of IT
+   vulnerabilities. Most major attacks in the past few years have targeted known
+   vulnerabilities for which patches existed. To prevent such attacks from being
+   successful, agencies shall create a systematic, accountable, and documented process to
+   manage their exposure to vulnerabilities through the timely deployment of patches and
+   other means of remediation.
+
+III. DEFINITIONS
+
+   Agency – All State departments, boards, commissions, councils and institutions of
+   higher education; but not elected constitutional officers and their staffs, the
+   legislature and its staff, or the judiciary (per Idaho Code § 67-831).
+
+   Application – Any data entry, update, query, or report program that processes data
+   for a user.
+
+   Patch – Additional pieces of software code developed to address problems
+   (commonly called “bugs”) in software.
+
+   Remediation – The act of correcting a vulnerability or eliminating a threat. Three
+   possible types of remediation are: installing a patch, adjusting configuration settings,
+   or uninstalling a software application.
+
+P4520 – Patching & Vulnerability Management                                      Page 1 of 4
+
+   Risk – The probability that a particular threat will exploit a particular vulnerability.
+
+   Risk Management – The process of identifying, assessing, and reducing risk to an
+   acceptable level and implementing the right mechanisms to maintain that level of
+   risk.
+
+   System – A computer, server, or IT device (e.g. router, switch, gateway, firewall) to
+   include the hardware, operating system software, and installed applications.
+
+   Threat – Any circumstance or event, deliberate or unintentional, with the potential for
+   causing harm to a system.
+
+   Vulnerability – A flaw in the design or configuration of software that has security
+   implications. A vulnerability can be exploited by a malicious entity to gain greater
+   access or privileges than is authorized.
+
+IV. POLICY
+
+   1. Each agency shall establish a systematic patch and vulnerability management
+      process. At a minimum, this process, shall include the following:
+
+       A. Create and maintain an inventory of the agency’s IT systems to determine
+          which hardware equipment, operating systems, and software applications are
+          used and require protection;
+
+       B. Regularly monitor security resources for vulnerability announcements and
+          patch and non-patch remediations that correspond to the applicable operating
+          systems and software within the agency’s inventory;
+
+       C. Prioritize vulnerability remediation based upon the threat and potential impact
+          on the agency;
+
+       D. Mitigate vulnerabilities, using patch and/or non-patch remediation, in a timely
+          manner based upon the agency’s prioritization.
+
+           i. At a minimum, vulnerabilities must be mitigated no later than 10 business
+              days from the time the vendor announces a remediation method.
+
+              1. If an agency elects not to mitigate a known vulnerability within the 10-
+                 day time period, the agency’s IT management must evaluate the risk of
+                 delaying remediation and document the decision to delay or avoid
+                 remediation.
+
+          ii. Each agency shall review and implement remediation actions described in
+              the Multi-State Information Sharing and Analysis Center (MS-ISAC)
+              security bulletins.
+
+P4520 – Patching & Vulnerability Management                                          Page 2 of 4
+
+              1. These bulletins are sent on a timely basis to the primary and alternate
+                 Agency IT Security Coordinator from the Statewide Cyber Security
+                 Coordinator.
+
+              2. Agency IT Security Coordinators must report compliance with the
+                 recommended remediation actions to the Statewide Cyber Security
+                 Coordinator no later than 10 business days from the time the Agency
+                 IT Security Coordinator received the MS-ISAC advisory.
+
+                 a. If the agency elects not to implement the remediation actions due to
+                    extenuating circumstances (e.g. risk management decision, need
+                    for additional testing, etc.), this decision must be communicated to
+                    the Statewide Cyber Security Coordinator. The Statewide Cyber
+                    Security Coordinator will then work with the agency to ensure
+                    adequate protections are in place to minimize any risks resulting
+                    from such a decision, and will set a mutually agreed upon date for
+                    when said remediation actions will be completed (as applicable).
+
+       E. Confirm the remediation actions have been applied appropriately by using
+          one of the following methods:
+
+           i. Verify the files or configuration settings have been changed as stated in
+              the vendor’s documentation for the specific remediation;
+
+          ii. Scan the system with a vulnerability scanner that is capable of detecting
+              the known vulnerability;
+
+          iii. Verify whether the recommended patches were installed properly by
+               reviewing patch logs; or,
+
+          iv. Perform a penetration test to attempt to exploit the specified vulnerability.
+
+V. EXEMPTION PROCESS
+
+   Refer to ITA Policy P1010 (IT Policies, Standards, and Guidelines Framework).
+
+VI. PROCEDURE REFERENCE
+
+   Guidelines for Patching & Vulnerability Management are detailed in ITA Information
+   Technology: ITA Guideline G570 (Patching & Vulnerability Management) and ITA
+   Standard S6010 Cybersecurity Incident and Breach Response Management and
+   Reporting.
+
+   NIST Special Publication 800-40 (version 2.0), Creating a Patch and Vulnerability
+   Management Program
+
+P4520 – Patching & Vulnerability Management                                       Page 3 of 4
+
+   When implementing patching and vulnerability management processes, agencies
+   should consider the recommendations outlined within ITA Guideline G570 (Patching
+   and Vulnerability Management).
+
+VII. CONTACT INFORMATION
+
+   For more information, contact the ITA Staff at (208) 605-4064.
+
+REVISION HISTORY
+
+06/30/21 – Removed reference G50; added reference S6010
+
+05/30/19 – Revised to modernize Sections II; and III.
+
+07/01/18 – Updated Idaho statute references.
+
+07/01/13 – Changed “ITRMC” to “ITA”.
+
+6/16/09 – Added Exemption Process and Revision History to this policy, changed the
+          layout and deleted Reference and Timeline.
+
+          Effective Date: May 16, 2006
+
+P4520 – Patching & Vulnerability Management                               Page 4 of 4
+
+## Curator notes
+
+Text extracted with pdftotext -layout (page headers, footers and column layout kept as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their letters).

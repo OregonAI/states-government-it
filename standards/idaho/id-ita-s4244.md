@@ -1,0 +1,434 @@
+---
+schema_version: 1
+corpus: states-government-it
+jurisdiction: idaho
+id: id-ita-s4244
+title: S4244 – Species Ranges Layer and Data Standard
+doc_type: standard
+citation: ITA Standard S4244
+authority_level: ''
+issuing_body: Idaho Technology Authority (ITA)
+source_url: https://ita.idaho.gov/wp-content/uploads/2025/10/S4244.pdf
+source_format: pdf
+retrieved: '2026-11-11'
+source_sha256: 51dbf5e795500c17a202c8ba54630c2657da734a1abee6ecf46a582b5cdcfb38
+effective_date: '2025-05-15'
+source_version: ''
+status: current
+content_mode: verbatim
+conversion_notes: Text extracted with pdftotext -layout (page headers, footers and column layout kept
+  as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their
+  letters).
+last_verified: ''
+verified_by: ''
+maintainer: ''
+relationships:
+  implements: []
+  implemented_by: []
+  references_external: []
+  related: []
+  supersedes: []
+tags:
+- data
+---
+
+> **NON-AUTHORITATIVE.** This is a convenience copy for machine reading. The official text is published at the source URL above. Verify at source before relying on it.
+
+# S4244 – Species Ranges Layer and Data Standard (ITA Standard S4244)
+
+## At a glance
+
+Item of the ITA statewide policies, standards and guidelines library (ita.idaho.gov/policies), category '4000 - Information and Data, Standards', a standard. The library's own summary: "ITA Standard S4244 provides Idaho’s single source of truth for Species Ranges data, enabling consistent sharing and use across sectors statewide."
+
+## Full text
+
+Idaho Technology Authority (ITA)
+
+ENTERPRISE STANDARDS – S4000 – INFORMATION AND DATA
+
+Category: S4244 –Species Ranges Layer and Data Standard
+
+CONTENTS:
+I.    Definition
+II. Rationale
+III. Approved Standard(s)
+IV. Approved Product(s)
+V. Justification
+VI. Technical and Implementation Considerations
+VII. Emerging Trends and Architectural Directions
+VIII. Procedure Reference
+IX. Review Cycle
+X. Contact Information
+XI. Revision History
+
+I. DEFINITION
+
+   See ITA Guideline G105 (ITA Glossary of Terms) for definitions.
+
+II. RATIONALE
+
+   A statewide Species Ranges layer and data standard, which is part of the
+   Bioscience data theme is a critical source of information for Resource land
+   management, research and analysis. Standardized Species Ranges data supports
+   those groups by providing a single source of truth of species ranges in the state of
+   Idaho.
+
+III. APPROVED STANDARD(S)
+
+   See Attachment
+
+IV. APPROVED PRODUCT(S)
+
+  Any GIS Software, either desktop or online, capable of ingesting and displaying
+  Open Geospatial Consortium (OGC) Web Map Standard (WMS) services.
+
+V. JUSTIFICATION
+
+  A statewide Species Ranges dataset is a critical source of information as stated
+  under ‘II Rationale’ in this standard. A data exchange standard supports the use of
+  the Species Ranges to facility a predictable format, improve collaboration and
+  encourage use of this dataset.
+
+VI. TECHNICAL AND IMPLEMENTATION CONSIDERATIONS
+
+  Any GIS Software, either desktop or online, capable of ingesting and displaying
+  Open Geospatial Consortium (OGC) Web Map Standard (WMS) services.
+
+VII. EMERGING TRENDS AND ARCHITECTURAL DIRECTIONS
+
+  Data will be shared in accordance with ITA Standard S4250 – Enterprise
+  Geographic Information System (GIS) Data Sharing Standards.
+
+VIII. PROCEDURE REFERENCE
+
+  The format, content and development of this standard adhere to ITA Policy P5030 -
+  Framework Standards, ITA Standard S4250 - Data Sharing Standards and ITA
+  Standard S4220 - Geospatial Metadata.
+
+IX. REVIEW CYCLE
+
+  Reviews will occur at least annually.
+
+X. CONTACT INFORMATION
+
+  For more information, contact the ITA Staff at (208) 605-4000.
+
+REVISION HISTORY
+
+  05/15/2025 – Standard Presented to the IGC-EC
+
+                                                                                        2
+
+                                   STATE OF IDAHO
+
+           Species Ranges Layer and Data Standard
+                             Part of the Bioscience Theme
+
+                                         Version 1
+                                  Effective May 15, 2025
+
+                   Developed by the Bioscience Technical Working Group
+
+Contact
+ITA Staff
+Office of Information Technology Services
+(208) 605-4000
+contact@its.idaho.gov
+
+                                                                         3
+
+CONTENTS
+1. Introduction to the Species Ranges Data Exchange Standard ......................................... 5
+  1.1. Mission and Goals of the Standard............................................................................... 5
+  1.2. Relationship to Existing Standards .............................................................................. 5
+  1.3. Description of the Standard .......................................................................................... 5
+  1.4. Applicability and Intended Uses ................................................................................... 6
+  1.5. Standard Development Process..................................................................................... 6
+  1.6. Maintenance of the Standard ........................................................................................ 6
+2. Body of the Standard ............................................................................................................ 7
+  2.1. Scope and Content.......................................................................................................... 7
+  2.2. Need ................................................................................................................................. 7
+  2.3. Participation in the Standard Development ................................................................ 7
+  2.4. Integration with Other Standards ................................................................................ 7
+  2.5. Technical and Operation Context................................................................................. 7
+     2.5.1. Data Environment................................................................................................... 8
+     2.5.2. Reference Systems ................................................................................................... 8
+     2.5.3. Global Positioning Systems (GPS)......................................................................... 8
+     2.5.4. Interdependence of Themes ................................................................................... 8
+     2.5.5. Encoding .................................................................................................................. 8
+     2.5.6. Resolution ................................................................................................................ 8
+     2.5.7. Accuracy .................................................................................................................. 9
+     2.5.8. Edge Matching ........................................................................................................ 9
+     2.5.9. Unique Identifier ..................................................................................................... 9
+     2.5.10.  Attributes ............................................................................................................. 9
+     2.5.11.  Stewardship.......................................................................................................... 9
+     2.5.12.  Records Management and Archiving ................................................................ 9
+     2.5.13.  Metadata ............................................................................................................ 10
+3. Data Characteristics ........................................................................................................... 10
+  3.1. Minimum Graphic Data Elements.............................................................................. 10
+  3.2. Optional Graphic Data Elements................................................................................ 10
+  3.3. Standard Attribute Schema ........................................................................................ 10
+  3.4. Data Quality .................................................................................................................. 11
+Appendix A: References .............................................................................................................. 11
+Appendix B: Glossary .................................................................................................................. 11
+
+                                                                                                                                             4
+
+1. Introduction to the Species Ranges Data Exchange Standard
+
+  A statewide Species Ranges Standard is a critical source of information for Resource land
+  management, research and analysis. This standard provides a single source of truth of species
+  ranges in the State of Idaho. Many private sector and local, state, and federal government
+  agencies have a business need for Species Ranges data.
+
+  A Species Ranges Standard is intended to facilitate integration and sharing of up-to-date
+  Species Ranges data, and enhance the dissemination and use of Species Ranges information.
+  This standard does not instruct on how Species Ranges databases are designed for internal
+  use.
+
+  This standard was developed by the Bioscience Technical Working Group, a subgroup of the
+  Idaho Geospatial Council – Executive Committee (IGC-EC). This standard will be reviewed
+  on an annual basis and updated as needed.
+
+  1.1. Mission and Goals of the Standard
+
+  The Species Ranges Standard supports a statewide dataset that is consistent with applicable
+  state and national standards. It establishes the minimum attributes and geospatial database
+  schema for the Species Ranges Framework. The Standard will communicate with, and may
+  have similar attributes to, other Idaho Framework data standards. It encourages all Idaho-
+  based agencies with geospatial Species Ranges data to contribute to Species Ranges
+  Framework.
+
+  The Species Ranges Framework will be appropriately shared and beneficial to all. The fields
+  in the Species Ranges Data Exchange Standard will be general enough to incorporate basic
+  information without requiring major changes in internal data models. This standard allows
+  for expansion into a more complex data structure and schema.
+
+  1.2. Relationship with Existing Standards
+
+  This Species Ranges Exchange Standard relates to existing standards as follows: This
+  dataset is a compilation of species ranges gathered from various sources. Many of these
+  ranges were created by the Idaho Department of Fish and Game (IDFG) using
+  methodologies similar to those employed in the Northwest Regional Gap Analysis Project
+  (NW ReGAP) or the hydrologic boundaries (HUC5) observation effort. Species ranges
+  provide a general representation of where a species might occur during its lifetime. It's
+  important to distinguish these from species 'distribution models', which pinpoint potential
+  habitat within the range.
+                                                                                                5
+
+1.3. Description of the Standard
+This standard describes the vision and geospatial data structure of a Species Ranges
+Framework in the state of Idaho. This standard is devised to be:
+     • Simple, easy to understand, and logical
+     • Uniformly applicable, whenever possible
+     • Flexible and capable of accommodating future expansions
+     • Dynamic in terms of continuous review
+
+1.4. Applicability and Intended Uses
+
+This standard applies to the Species Ranges element of the Bioscience theme of Idaho Spatial
+Data Infrastructure also known as The Idaho Map (TIM).
+
+When implemented this standard will enable access and exchange of data. A predictable
+standard will support data collaboration, improve data collaboration, help identify and report
+errors and allow agencies to incorporate this data into their own data products.
+
+This standard does not consider data sharing agreements, contracts, transactions, privacy
+concerns, or any other issues relating to the acquisition and dissemination of Species Ranges
+data.
+
+1.5. Standard Development Process
+
+The Bioscience Technical Working Group is a voluntary group of private, city, county, tribal,
+state, and federal representatives. In 2025 the Species Ranges Lead began developing the
+standard for the Species Ranges Framework using the standard development to generate the
+first draft of the Standard. This standard was then reviewed and edited by the members of the
+Bioscience Technical Working Group.
+After initial development the draft standard document was shared with the Idaho Geospatial
+Council (IGC) in accordance with the review and approval process described in ITA Policy
+P5030 - Framework Standards Development.
+
+The standard was presented to the IGC-EC in May 2025.
+
+1.6. Maintenance of the Standard
+
+This standard will be revised as needed and in accordance with the ITA Policy (P5030) -
+Framework Standards Development.
+                                                                                             6
+
+2. Body of the Standard
+
+   2.1. Scope and Content
+
+   The scope of the Species Ranges Data Exchange Standard is to describe a statewide layer
+   which identifies the physical locations and attributes of Species Ranges in Idaho.
+
+   2.2. Need
+
+   Species Ranges are a key dataset needed for Resource land management, research and
+   analysis. This standard provides the foundation to aggregate Species Ranges data for
+   centralized access and stewardship information.
+
+   Species Ranges data is needed because prior to the creation of this standard, there is no single
+   source identified for species ranges in Idaho.
+
+   2.3. Participation in Standard Development
+
+   The development of the Species Ranges Data Exchange Standard adheres to the ITA Policy
+   P5030 - Framework Standards Development. The Bioscience Standard Team tasked with
+   developing this standard invite input and comments from private, county, state, and federal
+   organizations. As the standard is reviewed in accordance with ITS Policy P5030
+   requirements, there will be an opportunity for broad participation and input by stakeholders
+   in the development of this standard. The process will be equally broad for input on updates
+   and enhancements to the standard. As with all Idaho Framework standards, public review and
+   comments on the Species Ranges Data Exchange Standard is encouraged.
+
+   2.4. Integration with Other Standards
+
+   The Species Ranges Data Exchange Standard follows the same format as other Idaho
+   geospatial framework data standards. The Species Ranges standard may contain some of the
+   same attributes as other framework standards and may adopt the field name, definition, and
+   domain from the other standards to promote consistency.
+
+   2.5. Technical and Operation Context
+
+                                                                                                 7
+
+2.5.1. Data Environment
+
+The data environment is a digital vector polygon with a specific, standardized set of
+attributes pertinent to the Species Ranges Framework. Species Ranges data shared under
+this standard must be in a format supporting vector polygons.
+
+2.5.2. Reference Systems
+
+The Species Ranges Framework will be published in the WGS 1984 Web Mercator
+coordinate system, which is the State of Idaho’s single zone coordinate system. Data is
+not required to be submitted in the Idaho Transverse Mercator NAD83 (IDTM83)
+coordinate system but must have a defined coordinate system clearly described in the
+metadata.
+
+2.5.3. Global Positioning Systems (GPS)
+
+Some data provided might contain geometry from GPS methods, and the provided
+metadata should describe this, if applicable.
+
+2.5.4. Interdependence of Themes
+
+Species Ranges has geometry data that could be coincident with other framework data.
+
+2.5.5. Encoding
+
+When data is imported into and exported from the Species Ranges Framework, encoding
+will take place to convert data formats and attributes.
+
+2.5.6. Resolution
+
+No specific requirements for resolution are specified in this standard. Resolution will be
+documented in the metadata.
+
+                                                                                             8
+
+2.5.7. Accuracy
+
+No specific requirements for accuracy are specified in this standard. Accuracy will be
+documented in the metadata.
+
+2.5.8. Edge Matching
+
+No edge matching is required between jurisdictions, or between this and other framework
+layers
+
+2.5.9. Unique Identifier
+
+The unique ID for this data is the TaxonID. This is the taxonomical id for a given species
+found in Idaho.
+
+2.5.10. Attributes
+
+Attributes for public and intergovernmental distribution are described in Section 3 of this
+standard.
+
+2.5.11. Stewardship
+
+Perpetual maintenance and other aspects of lifecycle management are essential to Species
+Ranges Framework. Details of stewards, their roles and responsibilities, and processes are
+set forth, or are planned to set forth in a Species Ranges Framework Stewardship Plan
+and related documents.
+
+2.5.12. Records Management and Archiving
+
+Idaho species range models compiled and/or created by the Idaho Department of Fish and
+Game, Idaho Fish and Wildlife Information System. Data pulled 18 December 2023;
+edits are ongoing as needed.
+
+                                                                                          9
+
+        2.5.13. Metadata
+
+        The Species Ranges Framework metadata will describe the methods used to update and
+        aggregate the individual Species Ranges data contributions, processes or crosswalks
+        performed, definition of attributes, and other required information. This metadata will
+        conform to the metadata standards as set out in ITA Standard S4220 - Geospatial Metadata.
+
+3. Data Characteristics
+
+   3.1. Minimum Graphic Data Elements
+
+   The geometry of the features in Species Ranges Framework is vector polygon
+
+   3.2. Optional Graphic Data Elements
+
+   Not applicable.
+
+   3.3. Standard Attribute Schema
+
+     Field Name            Data Type      Length         Description                Examples
+                                                      Unique ID for the
+ OBJECTID                  ObjectID                   dataset.              1,5,8
+                                                      Numeric value for a
+ TaxonID                   Double                     single species.       19985
+                                                      Common name of        Long-toed
+ Common_Name               Text          100          species.              Salamander
+                                                      Scientific name of    Ambystoma
+ Scientific_Name           Text          255          species.              macrodactylum
+ Taxa_Order                Text          255          Taxonomical Order     Caudata
+                                                      The category of the
+ Category                  Text          255          species.              Amphibian
+                                                      The season that the
+                                                      species occupies
+ Season                    Text          255          the range.            Year-round
+                                                      Source from which     IDFG Biologists,
+                                                      species range is      Merge Huc5 w/
+ Data_Source               Text          255          derived.              ReGap Range
+                                                      Square kilometers
+ Sqkm                      Double                     of species range.     122228.30591676
+                                                      Native geometry
+ Shape.STArea()            Double                     area.                 56936127580.159393
+                                                      Native geometry
+ Shape.STLength()          Double                     length.               2508741.859893
+ Shape                     Geometry                   Polygon geometry      Polygon
+                                                                                               10
+
+   3.4. Data Quality
+
+   Data quality considerations for Species Ranges include:
+       a) All Species Ranges should have Species Ranges IDs.
+
+Appendix A: References
+
+Idaho Technology Authority (ITA). Information and Data Policy P5000, Category: P5030
+Framework Standards Development Policy. https://ita.idaho.gov/psg/P5030.pdf
+
+Idaho Technology Authority (ITA). Enterprise Standards S4000 Geographic Information
+Systems (GIS) Data, Category: S4220 Geospatial Metadata. https://ita.idaho.gov/psg/S4220.pdf
+
+Appendix B: Glossary
+
+See ITA Guideline G105 - (ITA Glossary of Terms) for definitions.
+
+                                                                                          11
+
+## Curator notes
+
+Text extracted with pdftotext -layout (page headers, footers and column layout kept as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their letters).

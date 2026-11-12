@@ -1,0 +1,216 @@
+---
+schema_version: 1
+corpus: states-government-it
+jurisdiction: idaho
+id: id-ita-p5010
+title: P5010 – Web Publishing
+doc_type: policy
+citation: ITA Policy P5010
+authority_level: ''
+issuing_body: Idaho Technology Authority (ITA)
+source_url: https://ita.idaho.gov/wp-content/uploads/2025/07/p5010.pdf
+source_format: pdf
+retrieved: '2026-11-11'
+source_sha256: f9ebe46841f0e02122ca465992d9e15c386f3b88bf322f5790d97c6bcfe4a0d8
+effective_date: null
+source_version: ''
+status: current
+content_mode: verbatim
+conversion_notes: Text extracted with pdftotext -layout (page headers, footers and column layout kept
+  as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their
+  letters).
+last_verified: ''
+verified_by: ''
+maintainer: ''
+relationships:
+  implements: []
+  implemented_by: []
+  references_external: []
+  related: []
+  supersedes: []
+tags:
+- digital-services
+---
+
+> **NON-AUTHORITATIVE.** This is a convenience copy for machine reading. The official text is published at the source URL above. Verify at source before relying on it.
+
+# P5010 – Web Publishing (ITA Policy P5010)
+
+## At a glance
+
+Item of the ITA statewide policies, standards and guidelines library (ita.idaho.gov/policies), category '5000 - Information and Data, Policies', a policy. The library's own summary: "ITA Policy P5010 mandates the use of the State Web Design Template, ensuring a consistent look and navigation experience across all State of Idaho websites."
+
+## Full text
+
+Idaho Technology Authority (ITA)
+
+ENTERPRISE POLICY – P5000 INFORMATION AND DATA
+
+Category:    P5010 – WEB PUBLISHING
+
+CONTENTS:
+I.    Authority
+II. Abstract
+III. Definitions
+IV. Policy
+V. Exemption Process
+VI. Procedure Reference
+VII. Contact Information
+VIII. Additional Resources
+      Revision History
+
+I. AUTHORITY
+
+   Authority: Idaho Code § 67-833
+
+II. ABSTRACT
+
+   The purpose of this policy is to ensure logical and consistent presentation of web-based
+   materials and services while conforming to federal standards for accessibility by users
+   with disabilities. The requirements of this policy apply to all public-facing web pages
+   registered under the idaho.gov domain.
+
+III. DEFINITIONS
+
+   See ITA Guideline G105 (Glossary of Terms) for any definitions.
+
+IV. POLICY
+
+   1. A Uniform Resource Locator (URL) registered under the Idaho.gov domain must use
+      the registration data of the State agency, and not information of an individual person.
+      The registrant’s name, address, telephone number and contact names must be
+      associated with the entity, not a person (e.g., hostmaster@idaho.gov).
+
+   2. All hosting services, cloud services, or other accounts used by a State agency must
+      use the registration data of the State agency, and not information of an individual
+      person. The registrant’s name, address, telephone number and contact names must
+      be associated with the agency, not a person (e.g., hostmaster@idaho.gov).
+
+P5010 – Web Publishing                                                             Page 1 of 4
+
+   3. State Web Design Template – Agencies are required to use the State Web Design
+      Template and adhere to ITA Standard S5120 (Web Publishing) to give all websites of
+      State of Idaho a consistent look and navigation experience.
+
+          A. Fully-coded template files and other online resources are available for the
+             development of agency websites at: https://training-
+             intranet.idaho.gov/webmaster-resources/
+
+   4. Compliance is required for the following:
+
+          A. Americans with Disabilities Act (ADA)
+
+          B. Section 508 of the Workforce Investment Act of 1998
+
+          C. Web Content Accessibility Guidelines (WCAG) – Most current enforceable
+             standards
+
+   5. Contact Information – Multi-channel contact information, or a link to such information,
+      shall be included on all web pages.
+
+   6. Paid Advertising – Paid advertising is not permitted on any State website.
+
+   7. Web Content – The State of Idaho internet and intranet servers may not be used for
+      storage and/or presentation of the following content:
+
+          A. Materials that promote illegal and/or harmful conduct, the use or availability of
+             illegal drugs, and/or pornography;
+
+          B. Political materials that have not been prepared by the appropriate State
+             agency; or
+
+          C. Materials specific to elective campaigns for any individual running for elective
+             office and/or for any political party.
+
+   8. Links to External Websites – Links to external websites must be used with caution.
+      The following rules apply:
+
+          A. When linking to an external website or website where the content is not under
+             agency control, notification must clearly indicate the user is leaving an Idaho
+             website;
+
+          B. No state of Idaho webpage shall contain links to websites that do any of the
+             following:
+
+                 I. Advocates or opposes any politically, environmentally, or socially
+                    controversial subjects, issues, political parties, or individual political
+                    candidates for any public office;
+
+                 II. Is disparaging to any person or class of persons;
+
+P5010 – Web Publishing                                                                 Page 2 of 4
+
+                III. Promotes or incites illegal, violent, and/or obscene conduct, the use or
+                     availability of illegal drugs, and/or pornography;
+
+                IV. Has content that knowingly infringes on any trademark, copyright, or
+                    patent right(s) of any other person or business; or
+
+                V. Link to an external website in exchange for any payment or thing of
+                   value.
+
+          C. Any link to a website containing the above material must be removed upon
+             discovery.
+
+V. EXEMPTION PROCESS
+
+   Refer to ITA Policy P1010 (Information Technology Policies, Standards, and Guidelines
+   Framework).
+
+VI. PROCEDURE REFERENCE
+
+   ITA Policy P1020 (Idaho.gov Portal Privacy Notice)
+
+   ITA Standard S4221 (Metatags)
+
+   ITA Standard S5120 (Web Publishing)
+
+   ITA Guideline G310 (Web Publishing)
+
+VII. CONTACT INFORMATION
+
+   For more information, contact the ITA Staff at (208) 605-4064.
+
+VIII. ADDITIONAL RESOURCES
+
+   Americans with Disabilities Act (ADA)
+
+   Section 508 of the Workforce Investment Act of 1998
+
+   Web Content Accessibility Guidelines (WCAG)
+
+REVISION HISTORY
+
+   02/18/25 – Fixed formatting. Moved definitions to G105. Added ITA S5120 as a
+              reference. Updated language around embedding content to allow for external
+              content and media within the policy specifications. Updated web reference for
+              templates. Removed references to duplicate web standards. Linked additional
+              resources.
+
+P5010 – Web Publishing                                                              Page 3 of 4
+
+   05/30/19 – Revised to modernize Sections II, III, and IV.
+
+   07/01/18 – Updated Idaho statute references.
+
+   05/15/15 – Revised to assure that URL ownership, hosting or services are under State
+              control.
+
+   07/22/14 – Updated Section I. Authority to be consistent with Idaho statute.
+
+   07/01/13 – Changes “ITRMC” to “ITA”
+
+   04/22/09 – Updated the policy section to require agencies to use the State Web Design
+              Template. Updated the Links to External Websites section to include Dot.Gov
+              policy language. Provided a list of cross-referenced documents. Added a
+              Review Cycle section. Adjusted the language so that it would be consistent
+              with the Web Publishing Standard (S5120) and Web Publishing Guideline
+              (G310).
+
+                                         DDate Established: April 24, 2002
+
+P5010 – Web Publishing                                                            Page 4 of 4
+
+## Curator notes
+
+Text extracted with pdftotext -layout (page headers, footers and column layout kept as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their letters).

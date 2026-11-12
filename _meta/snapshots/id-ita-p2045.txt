@@ -1,0 +1,89 @@
+Idaho Technology Authority (ITA)
+
+ENTERPRISE POLICY – P2000
+
+P2045 – IT RISK MANAGEMENT PROGRAM
+
+CONTENTS:
+I.   Authority
+II. Abstract
+III. Definitions
+IV. Policy
+V. Exemption Process
+VI. Procedure Reference
+VII. Contact
+     Information
+     Revision
+     History
+
+I. AUTHORITY
+
+   Authority: Idaho Code § 67-831 through § 67-833
+
+II. ABSTRACT
+
+   This policy requires state agencies to adopt a risk management program strategy to
+   manage risks to the State of Idaho that result from threats to the confidentiality,
+   integrity and availability of agency data and information systems.
+
+III. DEFINITIONS
+
+   See ITA Guideline G105 (Glossary of Terms) for any definitions.
+
+IV. POLICY
+
+   All agencies shall establish and maintain a Risk Management Program that
+   ensures:
+        1. Completion of risk and security assessments for all information systems and
+           infrastructure
+        2. Implementation of ongoing processes to evaluate and monitor the current
+           security posture of the environment
+
+P2045 – IT Risk Management Program                                         Page 1 of 2
+
+   Assessment Requirements
+
+   Risk assessments must be conducted for the following:
+       1. Cybersecurity threats
+       2. Planned agency projects, at key stages:
+             a. Concept phase
+             b. Design phase
+             c. Pre-launch (Go-live)
+       3. Emerging risks or areas of concerns identified by the agency
+       4. Audit findings requiring risk evaluation
+
+   Risk Response and Documentation
+
+   For each identified risk:
+       1. The risk must be formally acknowledged by the designated responsible parties
+          or accountable stakeholders
+       2. It must be documented in the agency’s risk register or equivalent system
+       3. A risk response strategy must be selected and recorded (e.g., mitigate,
+          transfer, accept, or avoid)
+
+   The date of each assessment must be included in the agency’s Annual IT Security
+   Plan.
+
+V. EXEMPTION PROCESS
+
+   Refer to ITA Policy P1010 (Information Technology Policies, Standards, and
+   Guidelines Framework).
+
+VI. PROCEDURE REFERENCE
+
+    G525: IT Risk Assessment and Response
+
+VII. CONTACT INFORMATION
+
+   For more information, contact the ITA Staff at (208) 605-4064.
+
+REVISION HISTORY
+
+      November 2025: Simplify requirements, shift from a fixed assessment cycle to a
+      more flexible, risk-based approach, and emphasize continuous evaluation,
+      documentation, and accountability through clearer risk response and tracking
+      processes
+
+      Date established:   July 7, 2023
+
+P2045 – IT Risk Management Program                                         Page 2 of 2

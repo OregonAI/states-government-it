@@ -1,0 +1,821 @@
+Idaho Technology Authority (ITA)
+
+ENTERPRISE STANDARDS – S4000 – INFORMATION AND DATA
+
+Category:      S4266 –Flood Hazard Layers Standard
+
+CONTENTS:
+I.    Definition
+II. Rationale
+III. Approved Standard(s)
+IV. Approved Product(s)
+V. Justification
+VI. Technical and Implementation Considerations
+VII. Emerging Trends and Architectural Directions
+VIII. Procedure Reference
+IX. Review Cycle
+X. Contact Information
+XI. Revision History
+
+I. DEFINITION
+
+   See ITA Guideline G105 (ITA Glossary of Terms) for definitions.
+
+II. RATIONALE
+
+   A statewide National Flood Hazard Layer and data standard, which is part of the
+   Hazards data theme is a critical source of information for State officials (e.g.,
+   emergency management and water resources), tribal partners, community officials
+   (planners, GIS professionals, emergency managers, engineers), private entities
+   (engineers, surveyors, architects, real estate professionals, lending, and insurance
+   professionals), homeowners, renters, and business owners.
+
+III. APPROVED STANDARD(S)
+
+   See Attachment
+
+IV. APPROVED PRODUCTS(S)
+
+   Any GIS Software, either desktop or online, capable of ingesting and displaying
+   Open Geospatial Consortium (OGC) Web Map Standard (WMS) services.
+
+Flood Layers
+
+V. JUSTIFICATION
+       A statewide National Flood Hazard Layer dataset is a critical source of information,
+       as stated under ‘II Rationale’ in this standard. A data exchange standard supports
+       the use of the National Flood Hazard Layer to facility a predictable format, improve
+       collaboration and encourage the use of this dataset.
+
+VI. TECHNICAL AND IMPLEMENTATION CONSIDERATIONS
+       Any GIS Software, either desktop or online, capable of ingesting and displaying
+       Open Geospatial Consortium (OGC) Web Map Standard (WMS) services.
+
+VII.     EMERGING TRENDS AND ARCHITECTURAL DIRECTIONS
+       Data will be shared in accordance with Enterprise Standard S4250 – Enterprise
+       Geographic Information System (GIS) Data Sharing Standards.
+
+VIII. PROCEDURE REFERENCE
+       The format, content, and development of this standard adhere to ITA Policy P5030 -
+       Framework Standards, ITA Standard S4250 - Data Sharing Standards and ITA
+       Standard S4220 - Geospatial Metadata.
+
+IX. REVIEW CYCLE
+
+       Review will occur at least annually.
+
+X. CONTACT INFORMATION
+
+       For more information, contact the ITA Staff at (208) 605-4064.
+
+XI. REVISION HISTORY
+
+       07/24/2025 - Revised for ADA compliance
+
+       07/20/2023 – Standard Presented to the IGC-EC
+
+                                                                                              2
+
+                                  STATE OF IDAHO
+
+  Idaho National Flood Hazard Layers Data Exchange
+                      Standard
+                               Part of the Hazards Theme
+
+                                          Version 1
+                                   Effective July 20, 2023
+
+                    Developed by the Hazards Technical Working Group
+
+Contact
+ITA Staff
+Office of Information Technology Services
+(208) 605-4064
+contact@its.idaho.gov
+
+                                                                       3
+
+CONTENTS
+1. 6
+     1.1.   7
+     1.2.   7
+     1.3.   7
+     1.4.   7
+     1.5.   8
+     1.6.   8
+2.     8
+     2.1.   8
+     2.2.   8
+     2.3.   9
+     2.4.   9
+     2.5.   9
+       2.5.1.    9
+       2.5.2.    9
+       2.5.3.    9
+       2.5.4.    10
+       2.5.5.    10
+       2.5.6.    10
+       2.5.7.    10
+       2.5.8.    10
+       2.5.9.    10
+       2.5.10.       11
+       2.5.11.       11
+       2.5.12.       11
+       2.5.13.       11
+3.     11
+     3.1.   11
+     3.2.   12
+     3.3.   12
+       3.3.1.    12
+                          4
+
+       3.3.2.      12
+       3.3.3.      13
+   3.4.     19
+Appendix A: References .............................................................................................................. 16
+Appendix B: Glossary.................................................................................................................. 16
+
+                                                                                                                                       5
+
+1. Introduction to the Flood Hazard Layers Standard
+
+  A statewide collection of Flood Hazard Layers is a critical source of information for State
+  officials (e.g., emergency management and water resources), tribal partners, community
+  officials (planners, GIS professionals, emergency managers, engineers), private entities
+  (engineers, surveyors, architects, real estate professionals, lending, and insurance
+  professionals), homeowners, renters, and business owners.
+
+  The standard described in this document is based on the National Flood Hazard Layer
+  (NFHL) published by the Federal Emergency Management Agency (FEMA). FEMA
+  provides flood hazard data to support the National Flood Insurance Program and the
+  information can be used to better understand the level of flood risk and type of flooding. The
+  NFHL is made from effective flood maps and Letters of Map Change delivered to
+  communities. NFHL digital data covers over 90 percent of the U.S. population. New and
+  revised data is being added continuously. Many private sector and local, state, and federal
+  government agencies have business needs for National Flood Hazard Layer data.
+
+  The NFHL comprises a collection of 33 layers, not all of them specific flood related data
+  created by FEMA or relevant to Idaho which does not have any coastal areas. The following
+  9 layers are included in this standard, because FEMA is the authoritative source, and the data
+  is relevant for Idaho:
+       1. NFHL Availability
+       2. FIRM Panels
+       3. Letter of Map Revisions (LOMR)
+       4. Letter of Map Amendments (LOMA)
+       5. Profile Baselines
+       6. Cross-Sections
+       7. Base Flood Elevations
+       8. Flood Hazard Boundaries
+       9. Flood Hazard Boundaries
+
+  The Idaho Flood Hazards standard is intended to promote and increase the use of NFHL data
+  for Idaho. This standard does not instruct on how National Flood Hazard Layer databases are
+  designed for internal use.
+
+  This standard was developed by the Hazards Technical Working Group, a subgroup of the
+  Idaho Geospatial Council – Executive Committee (IGC-EC). This standard will be reviewed
+  at least annually and updated as needed.
+
+                                                                                                6
+
+1.1. Mission and Goals of the Standard
+
+The National Flood Hazard Layer Standard supports a statewide dataset that is consistent
+with applicable state and national standards. It establishes the minimum attributes and
+geospatial database schema for the National Flood Hazard Layer Framework. The standard
+will communicate with, and may have similar attributes to, other Idaho Framework data
+standards.
+
+The National Flood Hazard Layer Framework will be appropriately shared and beneficial to
+all. The fields in the National Flood Hazard Layer Data Exchange Standard will be general
+enough to incorporate basic information without requiring major changes in internal data
+models. This standard allows for expansion to a more complex data structure and schema.
+
+1.2. Relationship to Existing Standards
+
+This National Flood Hazard Layer Exchange Standard relates to various existing standards
+and technical reference documents as described by FEMA in the Technical References for
+Flood Risk Analyses and Mapping.
+
+1.3. Description of the Standard
+
+This standard describes the vision and geospatial data structure of a National Flood Hazard
+Layer Framework in the state of Idaho. This standard is devised to be:
+    ● Simple, easy to understand, and logical.
+    ● Uniformly applicable, whenever possible
+    ● Flexible and capable of accommodating future expansions
+    ● Dynamic in terms of continuous review
+
+1.4. Applicability and Intended Uses
+
+This standard applies to the National Flood Hazard Layer element of the Hazards theme of
+The Idaho Map (TIM).
+
+When implemented, this standard will enable access to the National Flood Hazard Layer.
+When aligned with other hazard and risk products, the standard will provide users a more
+comprehensive view of natural hazard risk for decision making purposes.
+
+                                                                                              7
+
+  This standard does not consider data sharing agreements, contracts, transactions, privacy
+  concerns, or any other issues relating to the acquisition and dissemination of National Flood
+  Hazard Layer data.
+
+  1.5. Standard Development Process
+
+  The Hazards Technical Working Group is a voluntary group of private, city, county, tribal,
+  state, and federal representatives. In 2022 the National Flood Hazard Layer Lead began
+  developing the standard for the National Flood Hazard Layer Framework using the standard
+  development automation tools developed by the IGC-EC to generate the first draft of the
+  Standard. This standard was then reviewed and edited by the members of the Hazards
+  Technical Working Group.
+  After initial development the draft standard document was shared with the Idaho Geospatial
+  Council Executive Committee (IGC-EC) and the Idaho Geospatial Council (IGC) in
+  accordance with the review and approval process described in ITA Policy P5030 Framework
+  Standards Development.
+
+  1.6. Maintenance of the Standard
+
+  This standard will be revised on an annual basis and in accordance with ITA Policy P5030 -
+  Framework Standards Development.
+
+2. Body of the Standard
+
+  2.1. Scope and Content
+
+  The scope of the Flood Hazard Layers Standard is to describe a statewide layer which
+  identifies the physical locations and attributes of National Flood Hazard Layers in Idaho.
+
+  2.2. Need
+
+  Flood Hazard Layers are a key dataset needed for State officials (e.g., emergency
+  management and water resources), tribal partners, community officials (planners, GIS
+  professionals, emergency managers, engineers), private entities (engineers, surveyors,
+  architects, real estate professionals, lending, and insurance professionals), homeowners,
+  renters, and business owners. This standard provides the foundation to aggregate National
+  Flood Hazard Layer data for centralized access and stewardship information.
+
+                                                                                                  8
+
+National Flood Hazard Layer data is needed because it is intended to be a comprehensive
+dataset of flood hazards in Idaho.
+
+2.3. Participation in the Standard Development
+
+The development of the National Flood Hazard Layer Data Exchange Standard adheres to the
+ITA Policy P5030 - Framework Standards Development. The Hazards Standard Team tasked
+with development, invites input and comments from private, county, state, and federal
+organizations. As the standard is reviewed in accordance with Policy P5030 requirements,
+there will be opportunity for broad participation and input by stakeholders. The process will
+be equally broad for input on updates and enhancements to the standard. As with all Idaho
+Framework standards, public review and comment on the National Flood Hazard Layer Data
+Exchange Standard is encouraged.
+
+2.4. Integration with Other Standards
+
+The National Flood Hazard Layer Data Exchange Standard follows the same format as other
+Idaho geospatial framework data standards. The National Flood Hazard Layer standard may
+contain some of the same attributes as other framework standards and may adopt the field
+name, definition, and domain from the other standards to promote consistency.
+
+2.5. Technical and Operation Context
+
+   2.5.1. Data Environment
+
+   The data environment is a digital Map/App with a specific, standardized set of
+   attributes pertinent to the National Flood Hazard Layer Framework. National Flood
+   Hazard Layer data shared under this standard must be in a format supporting digital
+   Map/Apps.
+
+   2.5.2. Reference Systems
+
+   The National Flood Hazard Layer Framework is published in the NAD 1983 coordinate
+   system (WKID 4269).
+
+   2.5.3. Global Positioning Systems (GPS)
+
+                                                                                           9
+
+Some data provided might contain geometry from GPS methods, and the provided
+metadata should describe this, if applicable.
+
+2.5.4. Interdependence of Themes
+
+National Flood Hazard Layer is related to Hydrography and Elevation datasets.
+
+2.5.5. Encoding
+
+When data is imported into and exported from the National Flood Hazard Layer
+Framework, encoding will take place to convert data formats and attributes.
+
+2.5.6. Resolution
+
+Please see standards 47, 148, 149, 605, and 606 here: https://www.fema.gov/flood-
+maps/guidance-reports/guidelines-standards/standards-flood-risk-analysis-and-mapping-
+public-review. Resolution will be documented in the metadata.
+
+2.5.7. Accuracy
+
+Any new digitizing has to be done in conformance with FEMA’s accuracy standards and
+is further described in the Guidance for Flood Risk Analysis and Mapping – Flood
+Insurance Rate Map (FIRM) Database.
+
+2.5.8. Edge Matching
+
+No edge matching is required between jurisdictions, or between this and other framework
+layers.
+
+2.5.9. Unique Identifiers
+
+The unique identifier for each layer is assigned by FEMA and are as follows:
+
+ NFHL Availability                      STUDY_ID
+ FIRM Panels                            FIRM_ID
+ Letter of Map Revisions (LOMR)         LOMR_ID
+
+                                                                                    10
+
+      Letter of Map Amendments (LOMA)           CASENUMBER
+      Profile Baselines                         BASELN_ID
+      Cross-Sections                            XS_LN_ID
+      Base Flood Elevations                     BFE_LN_ID
+      Flood Hazard Boundaries                   FLD_LN_ID
+      Flood Hazard Zones                        FLD_AR_ID
+
+     2.5.10. Attributes
+
+     Attributes for public and intergovernmental distribution are described in Section 3 of this
+     standard.
+
+     2.5.11. Stewardship
+
+     Perpetual maintenance and other aspects of lifecycle management are essential to the
+     National Flood Hazard Layer Framework. Details of stewards, their roles and
+     responsibilities, and processes are set forth, or are being planned to set forth in a National
+     Flood Hazard Layer Framework Stewardship Plan and related documents.
+
+     2.5.12. Records Management and Archiving
+
+     Records management and archiving will be provided by FEMA contract support.
+
+     2.5.13. Metadata
+
+     The National Flood Hazard Layer Framework metadata will describe the methods used to
+     update and aggregate the individual National Flood Hazard Layer data contributions,
+     processes or crosswalks performed, definition of attributes, and other required
+     information. This metadata will conform to the metadata standards as set out in ITA
+     Standard S4220- Geospatial Metadata.
+
+3. Data Characteristics
+
+  3.1. Minimum Graphic Data Elements
+
+  The geometry of the features in National Flood Hazard Layer Framework is polygons.
+
+                                                                                                11
+
+ 3.2. Optional Graphic Data Elements
+
+ Not applicable.
+
+ 3.3. Standard Attribute Schema
+
+    3.3.1. NFHL Availability
+
+                   Data
+ Field Name               Length              Description                    Examples
+                   Type
+STUDY_ID       String     6        Equal to the DFIRM ID of the data     12127C
+
+    3.3.2. FIRM Panels
+
+                   Data
+ Field Name               Length              Description                    Examples
+                   Type
+                                   Study identifier, within each FIRM
+DFIRM_ID       Text       6        Database, the DFIRM_ID value will     16005C
+                                   be identical
+                                   Identifies the product version and
+VERSION_ID     Text       11       relates the features to standards     1.1.1.0
+                                   according to how it was created
+FIRM_ID        Text       32       Primary key for table lookup          16005C_1
+ST_FIPS        Text       2        State FIPS code                       16
+                                   Community or county identification
+PCOMM          Text       4        number (first two digits of panel     005C
+                                   number)
+                                   Panel number (7th – 10th digits in
+PANEL          Text       4                                              0410
+                                   complete panel number)
+                                   Map suffix (final digit in complete
+SUFFIX         Text       1                                              D
+                                   panel number)
+FIRM_PAN       Text       11       Complete FIRM panel number            16005C0565D
+                                   Whether panel is community-based
+                                                                         Countywide,
+PANEL_TYP      Text       30       of countywide, whether panel is
+                                                                         Panel Printed
+                                   printed or not
+                                   Preliminary release date of current
+PRE_DATE       Date       -                                              9/9/9999
+                                   map revision
+                                   Effective date of current map
+EFF_DATE       Date       -                                              7/7/2009
+                                   revision
+SCALE          Text       5        Denominator of map scale              6000, 12000
+                                                                         AREA OUTSIDE
+                                                                         COUNTY
+                                   Reason panels are not printed if      BOUNDARY,
+PNP_REASON     Text       254      hardcopy panel is not printed by      NO SPECIAL
+                                   FEMA                                  FLOOD
+                                                                         HAZARD
+                                                                         LAYERS
+                                                                                         12
+
+                 Data
+ Field Name                    Length             Description                     Examples
+                 Type
+                                        Type of basemap used for the FIRM
+BASE_TYP      Text         10                                                NP
+                                        panel
+                                        Abbreviation used in metadata file
+SOURCE_CIT    Text         21           when describing source information   16005C_BASE14
+                                        for the feature
+
+    3.3.3. Letters of Map Revisions
+
+                 Data
+ Field Name                    Length             Description                     Examples
+                 Type
+                                        Study identifier, within each FIRM
+DFIRM_ID      Text         6            Database, the DFIRM_ID value will    16005C
+                                        be identical
+                                        Identifies the product version and
+VERSION_ID    Text         11           relates the features to standards    1.1.1.0
+                                        according to how it was created
+LOMR_ID       Text         32           Primary key for table lookup         16005C_1
+EFF_DATE      Date         -            Effective date of the LOMR           3/2/2022
+                                        Case number of the LOMR
+CASE_NO       Text         13                                                21-10-0870P
+                                        assigned by FEMA
+SCALE         Text         5            Denominator of map scale             6000, 12000
+STATUS        Text         12           Status of the LOMR                   EFFECTIVE
+                                        Abbreviation used in metadata file
+SOURCE_CIT    Text         21           when describing source information   16005C_LOMC1
+                                        for the feature
+
+    3.3.4. Letters of Map Amendments
+
+                        Data       Lengt
+    Field Name                                      Description                   Examples
+                        Type         h
+CASENUMBER              Text      16       FEMA case number                  18-10-1607A
+
+                                                                                             13
+
+                    Data     Lengt
+      Field Name                              Description                    Examples
+                    Type       h
+                                     The status of the LOMA as it is
+                                     moved through the MIP
+                                     workflow. The LOMA point
+STATUS              Text     16      layer includes only LOMAs that       Completed
+                                     are marked as Complete in the
+                                     Mapping Information Platform
+                                     (MIP) workflow.
+                                     Information about the project,       FIRST
+                                     such as the                          ADDITION TO
+                                     Lot/Block/Subdivision                FERNWOOD,
+PROJECTNAME         Text     128     information and the street           BLOCK 8, LOTS
+                                     address of the subject property      1-2 – 23
+                                     for the LOMA is included when        PHEASANT
+                                     applicable.                          DRIVE
+                                     >Reflects the LOMC type. The
+                                     LOMA point layer only
+                                     includes Letters of Map
+                                     Amendments ('LOMA'), Letters
+PROJECTCATEGORY     Text     128     of Map Revision Based on Fill        LOMA
+                                     ('LOMR-F'), Letters of Map
+                                     Revision Floodway ('LOMR-
+                                     FW'), Letters of Map Revision
+                                     V Zone ('LOMR-VZ') cases.
+                                     Reflects the date of the LOMA
+                                     determination letter and is
+                                     populated in the MIP when            10/29/2018, 6:00
+DATEENDED           Text     8
+                                     FEMA approves the MT-                PM
+                                     1(amendments application)
+                                     docket for the case.
+                                     The value in the DATEENDED
+DATEENDEDSTR        Text     12
+                                     field converted to a string.
+                                     The CID in which the subject
+CID                 Text     6       property is shown on the             160014
+                                     effective FIRM.
+                                     The community name in which
+                                                                          BENEWAH
+COMMUNITYNAME       Text     50      the subject property is shown
+                                                                          COUNTY
+                                     on the effective FIRM.
+                                     The LOMC letter type. The
+                                     LOMA point layer only
+DETERMINATIONTYPE   Text     64                                           DetermLetter
+                                     includes cases that have a type
+                                     of “DeterminLetter” cases.
+LAT                 Double           Latitude of the subject structure.   47.11
+                                     Longitude of the subject
+LON                 Double                                                -116.39
+                                     structure.
+                                     The Case Number concatenated         18-10-1607A-
+PDFHYPERLINKID      Text     30
+                                     with the CID.                        160014
+
+                                                                                             14
+
+                          Data       Lengt
+    Field Name                                          Description                   Examples
+                          Type         h
+                                                                                   None,
+                                                                                   Incorporated, Not
+                                                                                   Incorporated,
+REVAL_STAT                Text      50        LOMA revalidation Status
+                                                                                   Reevaluated,
+                                                                                   Contact
+                                                                                   Community
+LOTTYPE                   Text      50        Lot Types and descriptions           Single lot
+                                                                                   Property out as
+OUTCOME                   Text      100       Outcome types and descriptions
+                                                                                   shown
+
+    3.3.5. Profile Baselines
+
+                   Data
+ Field Name                      Length               Description                     Examples
+                   Type
+                                          Study identifier, within each FIRM
+DFIRM_ID         Text        6            Database, the DFIRM_ID value will        16005C
+                                          be identical
+                                          Identifies the product version and
+VERSION_ID       Text        11           relates the features to standards        2.3.3.2
+                                          according to how it was created
+BASELN_ID        Text        25           Primary key for table lookup             16005C_1
+WTR_NM           Text        100          Surface Water Feature Name               LAKE FORK
+SEGMT_NAME       Text        254          Segment Name                             Main Channel
+                                          Surface Water Feature Type. The
+WATER_TYP        Text        38           type value describes the kind of         Profile Baseline
+                                          watercourse represented.
+                                          Study Type. This describes the type      SFHAs WITH
+STUDY_TYP        Text        38           of Flood Risk Project performed          LOW FLOOD
+                                          for flood hazard identification.         RISK
+SHOWN_FIRM       Text        1            Profile Baseline Shown on FIRM           T
+                                          Reach Name Start Description. This
+                                                                                   West Roseberry
+R_ST_DESC        Text        254          describes the location of the start of
+                                                                                   Road
+                                          the Flood Risk Project reach.
+                                          Reach Name End Description. This
+                                                                                   Confluence with
+R_END_DESC       Text        6            describes the location of the end of
+                                                                                   Tyee Creek
+                                          the Flood Risk Project reach.
+V_DATM_OFF       Text        16           Vertical Datum Offset                    -9999
+DATUM_UNIT       Text        254          Vertical Datum Offset Units              Feet
+
+                                                                                                      15
+
+                 Data
+ Field Name                 Length              Description                     Examples
+                 Type
+                                                                            RIVERINE
+                                                                            FLOODING
+                                                                            FROM STORM
+                                     Description of Flooding Problems
+FLD_PROB1      Text         254                                             AND
+                                     by flooding source
+                                                                            SEASONAL
+                                                                            HYDROLOGIC
+                                                                            EVENTS
+                                     Description of Flooding Problems
+                                     by flooding source, continued. Used
+FLD_PROB2      Text         254      when FLD_PRB1 field does not           -8888
+                                     have enough characters to hold the
+                                     flooding problem description.
+                                     Description of Flooding Problems
+                                     by flooding source, continued. Used
+                                     when FLD_PRB1 and FLD_PRB2
+FLD_PROB3      Text         254                                             -8888
+                                     fields do not have enough
+                                     characters to hold the flooding
+                                     problem description.
+                                     Special Considerations field for
+SPEC_CONS1     Text         254      describing the modeling                -8888
+                                     methodology used
+                                     Second Special Considerations field
+                                     for describing the modeling
+SPEC_CONS2     Text         254      methodology used. Used when the        -8888
+                                     description cannot be contained
+                                     within the SPEC_CONS1 field.
+START_ID       Text         25       Station Start Identification           16085C_9
+                                     Abbreviation used in metadata file
+SOURCE_CIT     Text         11       when describing source information     16085C_FIS1
+                                     for the feature
+
+    3.3.6. Cross-Sections
+
+                 Data
+ Field Name                 Length             Description                     Examples
+                 Type
+                                     Study identifier, within each FIRM
+DFIRM_ID       Text         6        Database, the DFIRM_ID value          16005C
+                                     will be identical
+                                     Identifies the product version and
+VERSION_ID     Text         11       relates the features to standards     1.1.1.0
+                                     according to how it was created
+XS_LN_ID       Text         25       Primary key for table lookup          16005C_1
+WTR_NM         Text         100      Surface Water Feature Name            LAKE FORK
+
+                                                                                           16
+
+                   Data
+ Field Name                 Length              Description                      Examples
+                   Type
+                                     Stream Station. This is the
+                                     measurement along the profile
+STREAM_STN       Double                                                     56633.00
+                                     baseline to the cross section
+                                     location.
+                                     Station Start Identification. The
+                                     station start describes the origin
+START_ID         Text       25                                              16001C_10
+                                     for the measurements in the
+                                     STREAM_STN field.
+                                     Cross Section Letter. This is the
+                                     letter or number that is assigned to
+XS_LTR           Text       12                                              DH
+                                     the cross section on the hardcopy
+                                     FIRM and in the FIS Report.
+                                                                            LETTERED,
+XS_LN_TYP        Text       24       Cross-Section Line Type
+                                                                            MAPPED
+                                     Regulatory Water Surface
+WSEL_REG         Double              Elevation for the 1-PercentAnnual-     2738.5
+                                     Chance Flood Event
+                                     Streambed Elevation. This is the
+                                     water-surface elevation for the
+STRMBED_EL       Double                                                     2316.70
+                                     thalweg or the lowest point in the
+                                     main channel.
+                                     Water-Surface and Streambed
+LEN_UNIT         Text       16                                              Feet
+                                     Elevation Units
+V_DATUM          Text       17       Vertical datum                         NAVD88
+PROFXS_TXT       Text       80       Profile Cross Section Text
+MODEL_ID         Text       100      Model Identifier                       NP
+                                     Sequence. This is the order in
+SEQ              Integer             which the cross sections plot on       -9999
+                                     the profile.
+                                     Abbreviation used in metadata file
+SOURCE_CIT       Text       11       when describing source                 16085C_STUDY1
+                                     information for the feature
+
+      3.3.7. Base Flood Elevation
+
+                  Data
+ Field Name                 Length              Description                        Examples
+                  Type
+                                     Study identifier, within each FIRM
+DFIRM_ID        Text        6        Database, the DFIRM_ID value           16005C
+                                     will be identical
+                                     Identifies the product version and
+VERSION_ID      Text        11       relates the features to standards      1.1.1.0
+                                     according to how it was created
+BFE_LN_ID       Text        25       Primary key for table lookup           16005C_1
+
+                                                                                              17
+
+                   Data
+ Field Name                 Length                Description                   Examples
+                   Type
+                                        The rounded, whole-foot elevation
+ELEV            Double                  of the 1-percent-annual chance       2521.00
+                                        flood
+LEN_UNIT        Text        16          Base flood elevation units           Feet
+V_DATUM         Text        17          Vertical datum                       NAVD88
+                                        Abbreviation used in metadata file
+SOURCE_CIT      Text        11          when describing source information   16005C_STUDY1
+                                        for the feature
+
+       3.3.8. Flood Hazard Boundaries
+
+                   Data
+ Field Name                 Length                Description                   Examples
+                   Type
+                                        Study identifier, within each FIRM
+DFIRM_ID        Text        6           Database, the DFIRM_ID value         16005C
+                                        will be identical
+                                        Identifies the product version and
+VERSION_ID      Text        11          relates the features to standards    1.1.1.0
+                                        according to how it was created
+FLD_LN_ID       Text        25          Primary key for table lookup         16005C_1
+                                        Line Type. These line types          SFHA / Flood
+LN_TYPE         Text        26
+                                        describe the flood boundary.         Zone Boundary
+                                        Abbreviation used in metadata file
+SOURCE_CIT      Text        11          when describing source information   16005C_LOMC1
+                                        for the feature
+
+       3.3.9. Flood Hazard Zones
+
+                   Data
+ Field Name                 Length                 Description                    Examples
+                   Type
+                                     Study identifier, within each FIRM
+DFIRM_ID        Text        6        Database, the DFIRM_ID value will be       16005C
+                                     identical
+                                     Identifies the product version and
+VERSION_ID      Text        11       relates the features to standards          1.1.1.0
+                                     according to how it was created
+FLD_AR_ID       Text        32       Primary key for table lookup               16005C_1
+                                     Describes the type of Flood Risk
+STUDY_TYP       Text        38       Project performed for flood hazard         NP
+                                     identification
+                                     Flood zone designation used by FEMA
+                                                                                A, AE, AO,
+FLD_ZONE        Text        17       to designate SFHAs and for insurance
+                                                                                AH, X, etc.
+                                     rating purposes
+                                                                                              18
+
+                  Data
+ Field Name                 Length                 Description                     Examples
+                  Type
+                                                                                 0.2 PCT
+                                      Captures additional information about      ANNUAL
+ZONE_SUBTY     Text         76        flood zones not related to insurance       CHANCE
+                                      rating purposes                            FLOOD
+                                                                                 HAZARD
+                                      If area is within a special flood hazard
+SFHA_TF        Text         1                                                    T, F
+                                      zone
+                                      Static base flood elevation for areas
+STATIC_BFE     Double       -         determined to have a constant BFE over     4526, -9999
+                                      a flood zone
+V_DATUM        Text         17        Vertical datum                             NAD88
+DEPTH          Double       -         Depth for Zone AO areas                    2, -9999
+                                      Measurement system used for BFEs
+LEN_UNIT       Text         16                                                   Feet
+                                      and/or depths
+                                      Velocity measurement of the flood flow
+VELOCITY       Double       -                                                    -9999
+                                      in the area
+VEL_UNIT       Text         20        Unit of measurement for VELOCITY
+                                      If area is Zone AR, this field holds the
+AR_REVERT      Text         17        zone the area would revert to if AR
+                                      zone were removed
+                                      If area is Zone AR, this field holds the
+AR_SUBTRV      Text         57        zone subtype the area would revert to if
+                                      AR zone were removed
+                                      If area is Zone AR, this field holds
+BFE_REVERT     Double       -                                                    -9999
+                                      STATIC_BFE for reverted zone
+                                      If area is Zone AR, this field holds
+DEP_REVERT     Double       -                                                    -9999
+                                      DEPTH for reverted zone
+                                      If area shall be designated as ‘dual’
+DUAL_ZONE      Text         1                                                    T, F
+                                      flood insurance rate zones
+                                      Abbreviation used in metadata file
+                                                                                 16005C_FIRM
+SOURCE_CIT     Text         21        when describing source information for
+                                                                                 1
+                                      the feature
+
+ 3.4. Data Quality
+
+ Data quality considerations for National Flood Hazard Layers include:
+    a) All National Flood Hazard Layers should have National Flood Hazard Layer IDs as
+       specified in section 2.5.9 of this Standard document.
+
+                                                                                               19
+
+Appendix A: References
+
+Federal Emergency Management Agency (FEMA). Technical References for Flood Risk
+Analysis and Mapping. Technical References for Flood Risk Analysis and Mapping | FEMA.gov
+
+Federal Emergency Management Agency (FEMA), 2020. Guidance for Flood Risk Analysis and
+Mapping. Floors Insurance Rate Map (FIRM) Database.
+https://www.fema.gov/sites/default/files/documents/fema_firm-database-guidance.pdf
+
+Idaho Technology Authority (ITA). Information and Data Policy P5000, Category: P5030
+Framework Standards Development Policy. https://ita.idaho.gov/psg/p5030.pdf
+
+Idaho Technology Authority (ITA). Enterprise Standards S4000 Geographic Information
+Systems (GIS) Data, Category: S4220 Geospatial Metadata. https://ita.idaho.gov/psg/s4220.pdf
+
+Appendix B: Glossary
+
+See ITA Guideline G105 (ITA Glossary of Terms) for definitions.
+
+                                                                                           20
+
+Flood Layers

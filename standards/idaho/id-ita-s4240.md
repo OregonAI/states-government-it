@@ -1,0 +1,517 @@
+---
+schema_version: 1
+corpus: states-government-it
+jurisdiction: idaho
+id: id-ita-s4240
+title: S4240 – Idaho Land Cover Dataset
+doc_type: standard
+citation: ITA Standard S4240
+authority_level: ''
+issuing_body: Idaho Technology Authority (ITA)
+source_url: https://ita.idaho.gov/wp-content/uploads/2025/07/s4240.pdf
+source_format: pdf
+retrieved: '2026-11-11'
+source_sha256: 13c6a48e6921378c3ba7ab04fe219d932b3aa5bf32074a02ea645e507969633a
+effective_date: '2011-08-25'
+source_version: ''
+status: current
+content_mode: verbatim
+conversion_notes: Text extracted with pdftotext -layout (page headers, footers and column layout kept
+  as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their
+  letters).
+last_verified: ''
+verified_by: ''
+maintainer: ''
+relationships:
+  implements: []
+  implemented_by: []
+  references_external: []
+  related: []
+  supersedes: []
+tags:
+- data
+---
+
+> **NON-AUTHORITATIVE.** This is a convenience copy for machine reading. The official text is published at the source URL above. Verify at source before relying on it.
+
+# S4240 – Idaho Land Cover Dataset (ITA Standard S4240)
+
+## At a glance
+
+Item of the ITA statewide policies, standards and guidelines library (ita.idaho.gov/policies), category '4000 - Information and Data, Standards', a standard. The library's own summary: "ITA Standard S4240 defines the standards for the Idaho Land Cover Dataset, ensuring consistent and accurate land cover data for state agencies."
+
+## Full text
+
+Idaho Technology Authority (ITA)
+
+ENTERPRISE STANDARDS – S4000 – INFORMATION AND DATA
+Category:       S4240 – Idaho Land Cover Dataset Standard
+
+CONTENTS:
+I.    Definition
+II. Rationale
+III. Approved Standard(s)
+IV. Approved Product(s)
+V. Justification
+VI. Technical and Implementation Considerations
+VII. Emerging Trends and Architectural Directions
+VIII. Procedure Reference
+IX. Review Cycle
+X. Contact Information
+XI. Additional Information (if any)
+      Revision History
+
+I.   DEFINITIONS
+
+     See ITA Guideline G105 (ITA Glossary of Terms) for definitions.
+
+II. RATIONALE
+     A statewide Land Cover Framework is a critical source of information for resource land
+     management, community and economic development needs, infrastructure maintenance,
+     research and analysis, homeland security, business location intelligence, public safety, and
+     more. Many private sector and public sector entities have business needs for Land Cover
+     Framework data.
+
+III. APPROVED STANDARD(S)
+
+     See Attachment.
+
+IV. APPROVED PRODUCT(S)
+
+     GIS software used in Idaho is capable of generating the specified file format.
+
+V. JUSTIFICATION
+
+     Experience in other states and countries have amply demonstrated that accessible statewide
+     land cover information is important to realizing substantial improvements in land
+     management, economic development, public safety, government efficiency, and citizen
+     empowerment. The return on investment is substantial, cumulative and perpetual.
+
+VI. TECHNICAL AND IMPLEMENTATION CONSIDERATIONS
+
+   This standard requires the development of no new datasets but rather the critical evaluation of
+   current and future land cover datasets in relation to the criteria described in this standard. Few
+   jurisdictions will have difficulty implementing the standard if they have GIS capability.
+
+VII. EMERGING TRENDS AND ARCHITECTURAL DIRECTIONS
+
+   The statewide dataset will be primarily available through Web map and image services.
+
+VIII. PROCEDURE REFERENCE
+
+   The format, content and development of this standard adhere to Policy P5030 for Framework
+   Standards.
+
+IX. REVIEW CYCLE
+
+   Review will occur at least annually.
+
+X. CONTACT INFORMATION
+
+   For more information, contact the ITA Staff at (208) 605-4064.
+
+REVISION HISTORY
+
+   05/16/2019 – Updated Section III. Definitions.
+
+   07/01/13 – Changed “ITRMC” to “ITA”.
+
+       Effective date is August 25, 2011.
+
+Land Cover Standard                                                                                ii
+
+                                  STATE OF IDAHO
+
+                 Idaho Land Cover Dataset Standard
+                         Part of the Land Use Land Cover Theme
+
+                                         Version 1.0
+                                  Effective August 25, 2011
+
+           Developed by the Land Use/Land Cover Technical Working Group (TWG)
+
+Revision History
+07/01/13 – Changed “ITRMC” to “ITA”.
+Established by IGC-EC August 18, 2011
+
+Contact
+Keith Weber
+Idaho State University
+208. 282.2757
+webekeit@isu.edu
+
+                                             1
+
+Table of Contents
+1.0 Introduction ............................................................................................................................. 4
+   1.1 Mission and Goals of Standard ........................................................................................... 4
+   1.2 Relationship to Existing Standards ..................................................................................... 4
+   1.3 Description of Standard ...................................................................................................... 4
+   1.4 Applicability and Intended Use of Standard ....................................................................... 5
+   1.5 Standard Development Procedures ..................................................................................... 5
+   1.6 Maintenance of the Standard............................................................................................... 5
+2.0 Body of the Standard .............................................................................................................. 6
+   2.1 Scope and Content of the Standard ..................................................................................... 6
+   2.2 Need for the Standard ......................................................................................................... 6
+   2.3 Participation in Standards Development ............................................................................. 6
+   2.4 Integration with Other Standards ........................................................................................ 6
+   2.5 Technical and Operational Context..................................................................................... 7
+       2.5.1 Data Environment ........................................................................................................ 7
+       2.5.2 Reference Systems ....................................................................................................... 7
+       2.5.3 Integration of Themes .................................................................................................. 7
+       2.5.4 Encoding ...................................................................................................................... 7
+       2.5.5 Resolution .................................................................................................................... 7
+       2.5.6 Accuracy ...................................................................................................................... 8
+       2.5.7 Edge Matching ............................................................................................................. 8
+       2.5.8 Feature Identifier .......................................................................................................... 8
+       2.5.9 Attributes...................................................................................................................... 8
+       2.5.11 Records Management................................................................................................. 8
+       2.5.12 Metadata ..................................................................................................................... 8
+3.0 Data Characteristics ................................................................................................................ 9
+   3.1 Minimum Graphic Data Elements ...................................................................................... 9
+   3.2 Minimum Attribute or Non-graphic Data Elements ........................................................... 9
+   3.3 Optional Graphic, Attribute or Non-graphic Data Elements............................................... 9
+   3.4 Raster Object Information................................................................................................... 9
+       3.4.1 Raster Object Type....................................................................................................... 9
+       3.4.2 Row Count ................................................................................................................... 9
+
+                                                                              2
+
+       3.4.3 Column Count .............................................................................................................. 9
+       3.4.4 Vertical Count .............................................................................................................. 9
+Definition of Terms..................................................................................................................... 10
+References ................................................................................................................................... 11
+
+                                                                               3
+
+1.0 Introduction
+Following the strategic plan for The Idaho Map (TIM), the Idaho Land use/Land cover technical working
+group (LULC TWG) was formed to establish the needs and requirements for a land cover framework
+dataset, review existing land cover datasets for possible adoption, and develop a land cover standard for the
+framework dataset. The LULC TWG focuses on land use, land cover, and land tenure datasets to support
+TIM.
+
+This document, the Idaho Land Cover Data Standard, describes the first component of a strategy to develop
+a statewide Land Cover Framework dataset, to assist with environmental and natural resource agency
+policy, management, and analysis.
+
+1.1 Mission and Goals of Standard
+The Idaho Land Cover Dataset Standard will provide a consistent and maintainable structure for land cover
+data producers and users, which will help to ensure the compatibility of datasets within and between other
+framework datasets. Specifically, this dataset standard will assist agencies responsible for the creation,
+maintenance, and distribution of land cover layers by reducing the costs of data sharing, data development,
+and data maintenance. It will also help to ensure that land cover attribution is as current as possible.
+
+The goal of the Land Cover Dataset Standard for Idaho is to ensure that land cover data applications are able
+to acquire data from disparate sources, use and display the results in an appropriate manner, and rely on
+local data-maintenance resources to assure that the most current dataset is available for all applications.
+This standard does not identify or endorse a single land cover layer, but rather specifies the minimum
+technical and operational requirements for a land cover dataset to be recommended as a TIM compliant
+dataset.
+
+1.2 Relationship to Existing Standards
+The Federal Geographic Data Committee (FGDC) has prepared a draft document entitled, The Earth Cover
+Classification Standard and subsequently, the National Vegetation Classification Standard (version 2.0),
+which served as the basis for the Idaho standard. In addition, all geospatial datasets developed under the
+Idaho Land Cover Dataset Standard must adhere to the Idaho Geospatial Metadata Standard. 1
+
+1.3 Description of Standard
+The Idaho Land Cover Data Standard describes the essential elements and data structure necessary to
+adequately describe, produce, and use land cover data in Idaho. The primary purpose of this document is to
+establish the core set of geospatial information for use as a source for land cover change evaluations and
+economic assets derived from the natural resources of Idaho. Unlike other states, Idaho has chosen to
+separate the concepts and standards for land cover from those associated with land use and land tenure.
+Therefore, the categories of land cover defined by land use will be minimized in this standard. For the
+purposes of this standard, the following definitions are used:
+
+1
+    http://ita.idaho.gov/psg/s4220.pdf
+
+                                                     4
+
+    •   Land cover is the physical material on the surface of the earth. Examples include grass, asphalt,
+        trees, bare ground, and water. There are two primary methods for capturing information on land
+        cover: field survey and analysis of remotely sensed imagery.
+
+    •   Land use is the physical utilization of land by people and is constrained by land tenure. At any one
+        point, there may be multiple land uses, which are regulated by local, state and federal land use law.
+        Land uses are difficult to discern by examining only land cover. For example, trees land cover
+        might indicate a land use type of plantation or a land use type of conservation, etc.
+
+    •   Land tenure is a legal term defined as land owned by an individual or corporation, who is said to
+        "hold" the land. Land tenure refers to how a society mediates or regulates land use. A land tenure
+        dataset may identify the owner, manager, and the applied management regime. Land under private
+        ownership may be identified simply as "private."
+
+1.4 Applicability and Intended Use of the Standard
+This standard is applicable to the geospatial feature set(s) that represent land cover.
+The intended use of this standard is: 1) enabling locally produced and maintained datasets to more easily be
+assembled into a statewide dataset, 2) guiding the accurate documentation of land cover datasets produced
+for Idaho, 3) providing guidance for the local GIS community to co-register, validate, and improve data
+models, and 4) facilitating the discussion of additional dependent and interdependent geospatial data.
+
+1.5 Standard Development Procedures
+The LULC TWG comprised of representatives from federal, state, regional, and local government agencies
+and universities developed this standard. The first draft, based upon the Oregon Land Cover standard
+version 1, was distributed for initial review in February, 2011. Subsequently, the standard was revised and
+submitted for peer review by stakeholders and the GIS community beginning June 1, 2011 with the
+comment period closing on July 18, 2011. Presentation and approval for endorsement by Idaho Geospatial
+Council followed. The resulting standard is described below.
+
+1.6 Maintenance of the Standard
+The Idaho Land Cover Dataset Standard will be revised as needed. Revisions can be initiated by members
+of the LULC TWG or through comments from the GIS community. It is anticipated that as land cover data
+are collected at improved spatial accuracies, as geospatial applications mature, and as technology for
+capturing higher spatiotemporal data improves, the standard will need to be updated. The update process
+could refine the range of attributes considered minimal or the quality of attributes as described in the
+existing standard.
+
+                                                     5
+
+2.0 Body of the Standard
+2.1 Scope and Content of the Standard
+While many of the standards developed are primarily for data exchange, this standard is focused equally on
+data development and data exchange. This is because land cover can change dramatically and quickly (e.g.,
+wildfires) and the technological means whereby land cover is captured also tends to change with the
+development of new satellite and computer technologies. In addition, few statewide land cover datasets
+have been developed which can support local decision making. Therefore, this standard is focused first on
+data development and secondly on data exchange. The objective of the Idaho Land Cover Dataset Standard
+is to recommend a publicly available, authoritative, statewide land cover raster dataset at 30-meter per pixel
+(mpp) spatial resolution, with future datasets available with improved spatial resolution (e.g. 10-mpp). This
+dataset will be made publicly available through the Idaho spatial data clearinghouse (i.e., InsideIdaho).
+
+The means whereby a candidate land cover dataset is recommended as an authoritative, statewide,
+framework dataset for The Idaho Map is through review by the LULC TWG. The LULC TWG shall
+evaluate each candidate land cover dataset for compliance with the minimum requirements set forth in this
+standard (cf. section 2.5). A recommendation for acceptance may then be made by the chair of the LULC
+TWG to the Idaho Geospatial Council for approval.
+
+The content of this standard is focused on essential data requirements and the accompanying geospatial
+metadata elements for the Land Cover Framework dataset.
+
+2.2 Need for the Standard
+Many state, federal, and local agencies depend on land cover data when conducting environmental
+analyses, determining the effectiveness of planning activities, and to understand how the landscape is
+changing. Currently, the lack of a standard prevents integration of locally collected data with regional and
+national datasets. The exchange of this valuable information will be greatly simplified through the adoption
+of a minimal data specification and content standard.
+
+2.3 Participation in Standards Development
+In 1976, Anderson et al. developed a broad scale land use/land cover standard classification, which has
+been and continues to be widely used in spite of the rapid expansion of higher resolution data available
+today. More recently, the Federal Geographic Data Committee completed the National Vegetation
+Classification Standard (version 2) which effectively supersedes earlier efforts to describe how vegetation
+resources should be documented to produce uniform statistics for the nation. As with all Idaho Framework
+standards, public review of and comment on the Idaho Land Cover Data Standard is encouraged.
+
+2.4 Integration with Other Standards
+The Idaho Land Cover Dataset Standard follows the same format as other Idaho Framework standards. The
+specifics of the standard are intimately related to land use which is described in parts of the Idaho Parcels
+Data Exchange standard
+(https://gis.idaho.gov/wp-content/uploads/2020/09/Parcels-Std_ver1-1_Nov26_2012.pdf )
+
+                                                      6
+
+2.5 Technical and Operational Context
+2.5.1 Data Environment
+The data environment for the land cover dataset is a raster file structure, stored in GeoTIFF format (or
+other non-proprietary raster format capable of storing multi-band data with 16-bit or great pixel depth) with
+30-mpp or better spatial resolution, projected into the Idaho state standard geographic reference system
+(e.g., IDTM NAD83). The preferred raster file format is GeoTIFF as all known raster processing software
+used in Idaho is capable of reading and writing the GeoTIFF format.
+
+2.5.2 Reference Systems
+Three coordinate reference systems are commonly used within Idaho: the Idaho State Plane Coordinate
+system (divided into State Plane East, West, and Central), Universal Transverse Mercator (divided into
+UTM Zone 11 and UTM Zone 12), and Idaho Transverse Mercator. For more details see
+http://ita.idaho.gov/psg/s4210.pdf. Idaho Transverse Mercator (NAD1983) is the required reference system
+for the Land Cover Framework dataset and has been recognized as the standard reference system in Idaho.
+The reference system and datum will be clearly documented in the metadata accompanying the dataset
+along with a fully defined projection file.
+
+2.5.3 Integration of Themes
+The primary Framework elements supported by the Land Cover Data Standard are land cover and
+vegetation.
+
+2.5.4 Encoding
+Encoding translates user formats into standard formats. These are not an issue for Land Cover Framework
+dataset.
+
+2.5.5 Resolution
+For the purposes of the Land Cover Framework, this standard recommends a spatial resolution no coarser
+than 30-mpp with a vision that future datasets will be available having improved spatial resolution (e.g.,
+10-mpp). A multi-resolution dataset may be used if that dataset satisfies all other aspects described within
+the technical and operational contexts of this standard.
+
+Related to spatial resolution is minimum mapping unit (MMU). An MMU is “the smallest size areal entity
+to be mapped as a discrete entity” (Lillesland and Kiefer 1994 as cited in Knight and Lunetta, 2003). A
+MMU is often applied to raster datasets to address random pixel clutter and salt-and-pepper noise,
+especially with finer spatial resolution datasets. Adopting a standard MMU has the potential to simplify
+integration of local and regional maps. The recommended MMU for statewide land cover mapping is 2 ha
+(approximately 20 adjacent pixels at 30-mpp).
+
+Another consideration related to resolution pertains specifically to the resolution of the land cover data
+itself. In other words, the granularity of land cover classification. The Idaho Land Cover Dataset standard
+stipulates a minimum granularity of land cover classification that is compliant and compatible with the
+current National Vegetation Classification Standard level 1- formation class (e.g.,. NVCS version 2.0
+[FGDC 2008]).
+
+                                                     7
+
+2.5.6 Accuracy
+It is essential that all aspects of the data be completely documented. Spatial products which conform to the
+National Standard for Spatial Data Accuracy should be used for source material in digital data capture if
+available and appropriate.
+
+The Idaho Land Cover Dataset Standard recommends a consistent (95% CI) horizontal positional accuracy
+not to exceed 0.50 of the raster layer's spatial resolution (e.g., +/- 15m based on 30-mpp spatial resolution)
+(Weber 2006; Weber et al., 2008). In addition, minimum overall land cover classification accuracy should
+exceed 75% overall accuracy. Classification accuracy should be established by ground validation of at least
+440 randomly located independent sample points (i.e., 10 points per county) used to generate a standard
+error matrix.
+
+2.5.7 Edge Matching
+This standard is intended to support a seamless dataset across Idaho. Similar datasets from adjacent states
+and adjacent mapping areas using the same reference system should merge without gaps. This can be
+facilitated by extending the mapped area up to a recommended 10 km beyond the Idaho state boundary. The
+LULC TWG shall recommend a decision on any classification or mapping issues within the overlapping
+area.
+
+2.5.8 Feature Identifier
+Feature identifiers are not relevant for raster datasets.
+
+2.5.9 Attributes
+Attributes are any of the additional information that is collected and shared in relation to the land cover
+classification, applied to each raster cell. See Section 3 for the specification of minimal and optional
+characteristics for land cover.
+
+2.5.11 Records Management
+The Land Cover Framework dataset will consist of a limited number of distinct editions. Earlier versions of
+the Idaho Land Cover Framework dataset may be tracked through the data portal at Inside Idaho
+(http://cloud.insideidaho.org/index.html) where archived datasets will remain available.
+
+2.5.12 Metadata
+Geospatial metadata will follow the ISO 19115-2 standard and comply to the Idaho enterprise standard for
+geospatial metadata (http://itrmc.idaho.gov/psg/s4220.pdf) . Metadata detailing the characteristics and
+quality of land cover data must accompany the data. These metadata must provide sufficient information to
+allow the user to determine whether the dataset is appropriate for their intended purpose, as well as inform
+the user how to access the data.
+
+                                                        8
+
+3.0 Data Characteristics
+The data characteristics specified below are subject to revision.
+
+3.1 Minimum Graphic Data Elements
+None specified at this time.
+
+3.2 Minimum Attribute or Non-graphic Data Elements
+None specified at this time.
+
+3.3 Optional Graphic, Attribute or Non-graphic Data Elements
+None specified at this time.
+
+3.4 Raster Object Information
+These are the types and numbers of raster spatial objects in the dataset.
+Type: compound
+Short Name: rastinfo
+
+        3.4.1 Raster Object Type
+        Raster spatial objects used to locate zero-, two-, or three-dimensional locations in the dataset.
+        Type: text
+        Domain: The domain is from "Spatial Data Concepts," chapter 2 of part 1 in Department of
+        Commerce, 1992, Spatial Data Transfer Standard (SDTS) (Federal Information Processing
+        Standard 173): Washington, Department of Commerce, National Institute of Standards and
+        Technology): "Pixel" "Grid Cell"
+        Short Name: rasttype
+
+        3.4.2 Row Count
+        The maximum number of raster objects along the ordinate (y) axis. For use with rectangular raster
+        objects.
+        Type: Integer
+        Domain: Row Count > 0
+        Short Name: rowcount
+
+        3.4.3 Column Count
+        The maximum number of raster objects along the abscissa (x) axis. For use with rectangular raster
+        objects.
+        Type: Integer
+        Domain: Column Count > 0
+        Short Name: colcount
+
+        3.4.4 Vertical Count
+        The maximum number of raster objects along the vertical (z) axis. For use with rectangular
+        volumetric raster objects (voxels).
+        Type: Integer
+        Domain: Depth Count > 0
+        Short Name: vrtcount
+
+                                                      9
+
+Definition of Terms
+Cover: the area of ground covered by the vertical projection of the aerial parts of plants of one or more
+species.
+
+Existing Vegetation: vegetation found at a given location at the time of observation.
+
+Land cover: is the physical material on the surface of the earth. Examples include grass, asphalt, trees, bare
+ground, water, etc. There are two primary methods for capturing information on land cover: field survey
+and analysis of remotely sensed imagery.
+
+Land use: is the physical utilization of land by people and is constrained by land tenure. At any one point,
+there may be multiple land uses, which are regulated by local, state and federal land use law. Land uses are
+difficult to discern by examining only land cover. For example, trees land cover might indicate a land use
+type of plantation or a land use type of conservation, etc.
+
+Land tenure: is a legal term defined as land owned by an individual or corporation, who is said to "hold"
+the land. Land tenure refers to how a society mediates or regulates land use. A land tenure dataset may
+identify the owner, manager, and the applied management regime. Land under private ownership may be
+identified simply as "private."
+
+Plant Community: a group of plant species living together and linked together by their effects on one
+another and their responses to the environment they share. Typically the plant species that co-occur in a
+plant community show a definite association or affinity with each other.
+
+Urban & other Developed Lands Class: see definitions for Urban/ Industrial / Extraction Areas and
+Transportation & Energy Linear Features formations.
+
+Urban Area: non-linear built up areas covered by impervious structures adjacent to or connected by
+streets. This cover is related to human population centers.
+
+Urban / Industrial / Extraction Areas Formation: includes areas where non-linear artificial
+constructions cover the surface and which have an impervious (e.g., concrete) surface. See additional
+individual category definitions. This category also includes small vegetated areas within the footprint of
+these urban / industrial areas.
+
+Vegetated: areas having equal to or greater than 1% or more of the land or water surface with live
+vegetation cover at the peak of the growing season.
+
+Vegetation Cover: vegetation that covers or is visible at or above the land or water surface. It is a
+sub-category of Earth cover. It is the percentage of the ground covered by a vertical projection of the
+outermost perimeter of the natural spread of the foliage of plants.
+
+                                                     10
+
+References
+Anderson, J. R., E. E. Hardy, J. T. Roach, and R. E. Witmer. 1976. A Land Use and Land Cover
+Classification System for Use with Remote Sensor Data. USGS Professional Paper 964, Reston, Virginia.
+http://www-nmd.usgs.gov/pub/ti/LULC/lulcpp964
+
+FGDC 2008. National Vegetation Classification Standard version 2.0. URL =
+http://www.fgdc.gov/standards/projects/FGDC-standards-projects/vegetation/NVCS_V2_FINAL_2008-0
+2.pdf visited 3-May-2011.
+
+Knight, J.F. and R.S. Lunetta. 2003. An experimental assessment of minimum mapping unit size. IEEE
+Transactions on Geoscience and Remote Sensing. (41):2132-2134
+
+Weber, K. T. 2006. Challenges of Integrating Geospatial Technologies into Rangeland Research and
+Management. Rangeland Ecology and Management 59:38-43.
+
+Weber, K. T., J. T. Theau, and K. Serr. 2008. Effect of Co-registration error on Patchy Target Detection
+using High-Resolution Imagery. Remote Sensing of Environment 112:845-850.
+
+                                                    11
+
+## Curator notes
+
+Text extracted with pdftotext -layout (page headers, footers and column layout kept as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their letters).

@@ -1,0 +1,166 @@
+---
+schema_version: 1
+corpus: states-government-it
+jurisdiction: idaho
+id: id-ita-p1030
+title: P1030 – Electronic Document Management
+doc_type: policy
+citation: ITA Policy P1030
+authority_level: ''
+issuing_body: Idaho Technology Authority (ITA)
+source_url: https://ita.idaho.gov/wp-content/uploads/2025/07/p1030-1.pdf
+source_format: pdf
+retrieved: '2026-11-11'
+source_sha256: 804611a3bd6e5dc26a2b9b0dbe46e97147efccd6ce72498c1e5a898f8413a182
+effective_date: null
+source_version: ''
+status: current
+content_mode: verbatim
+conversion_notes: Text extracted with pdftotext -layout (page headers, footers and column layout kept
+  as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their
+  letters).
+last_verified: ''
+verified_by: ''
+maintainer: ''
+relationships:
+  implements: []
+  implemented_by: []
+  references_external: []
+  related: []
+  supersedes: []
+tags:
+- data
+---
+
+> **NON-AUTHORITATIVE.** This is a convenience copy for machine reading. The official text is published at the source URL above. Verify at source before relying on it.
+
+# P1030 – Electronic Document Management (ITA Policy P1030)
+
+## At a glance
+
+Item of the ITA statewide policies, standards and guidelines library (ita.idaho.gov/policies), category '1000 - General, Policies', a policy. The library's own summary: "ITA Policy P1030 outlines the management of electronic documents, ensuring compliance with state records management policies and statutes."
+
+## Full text
+
+Idaho Technology Authority (ITA)
+
+ENTERPRISE POLICY – P1000 GENERAL POLICIES
+
+Category:     P1030 – ELECTRONIC CONTENT MANAGEMENT
+
+CONTENTS:
+I.    Authority
+II. Abstract
+III. Definitions
+IV. Policy
+V. Exemption Process
+VI. Procedure Reference
+VII. Contact Information
+VIII. Additional Information (if any)
+      Revision History
+
+I. AUTHORITY
+
+   Authority: Idaho Code § 67-831 through § 67-833
+
+II. ABSTRACT
+
+   This policy establishes state requirements for securely managing electronic
+   content throughout its lifecycle.
+
+III. DEFINITIONS
+
+   See G105 – ITA Glossary of Terms for related definitions.
+
+IV. POLICY
+
+   All electronic content management system (ECMS) implementations shall comply with
+   the State’s Records Management Policies and statutes. Records management
+   requirements can be found at: https://history.idaho.gov/idaho-records-center-retention-
+   schedules.
+
+   ECMS shall include role-based access restriction and controls to prevent the retrieval of
+   data or index information by unauthorized personnel.
+
+   ECMS shall provide the ability to review data access log information, including what,
+   when, and who.
+
+P1030 – Electronic Document Management                                            Page 1 of 3
+
+                                State of Idaho - Unrestricted/Public
+
+   1. Storage – Content of fiscal, administrative, legal, or long-term historic value must be
+      saved on at least two (2) separate storage devices and maintained in separate
+      locations.
+
+   2. Legal Issues – The media and system combined shall be able to show that the
+      electronic content:
+
+      A. Is authentic (is a true and accurate copy of the original);
+
+      B. Was created and maintained as a regular course of business; and
+
+      C. Can be verified for accuracy.
+
+   3. Annotation – A document imaging system shall support the ability to annotate an
+      image without physically modifying the original image.
+
+      The ECMS shall provide annotation security and multiple layers of annotations.
+
+   4. Image File Format – The ECMS shall use non-proprietary file header formats to label
+      digital images.
+
+   5. Indexing – The ECMS index shall be accessible and able to be modified through
+      user-written standard application development languages, subject to the appropriate
+      security considerations.
+
+   6. Media – Non-erasable media shall be utilized for permanent storage and comply with
+      industry standards
+
+V. EXEMPTION PROCESS
+
+     Refer to ITA Policy P1010 (Information Technology Policies, Standards, and
+     Guidelines Framework)
+
+VI. PROCEDURE REFERENCE
+
+    There are no procedure references for this policy.
+
+VII. CONTACT INFORMATION
+
+    For more information, contact the ITA Staff at (208) 605-4064.
+
+REVISION HISTORY
+
+   04/04/2025 – The updated policy broadens its scope from “Electronic Document
+   Management” to “Electronic Content” to better reflect modern terminology and
+   encompass all digital information types. Definitions were revised and relocated to G105
+
+P1030 – Electronic Document Management                                              Page 2 of 3
+
+                              State of Idaho - Unrestricted/Public
+
+   to align with industry standards. Key updates include new language to ensure both data
+   access protection and activity tracking, removal of outdated image compression
+   requirements, and elimination of references to ANSI SQL to allow agencies more
+   flexibility in how they index data.
+
+   05/30/19 – Modernized terminology and definitions.
+
+   07/01/18 – Updated Idaho statute references.
+
+   07/01/13 – Changed “ITRMC” to “ITA”.
+
+   6/16/09 –    Added Exemption Process, Procedure Reference and Revision History to
+          this policy, changed the layout and deleted Timeline.
+
+          Date Established:        May 1998
+          Revised:                 February 19, 2003
+
+P1030 – Electronic Document Management                                          Page 3 of 3
+
+                              State of Idaho - Unrestricted/Public
+
+## Curator notes
+
+Text extracted with pdftotext -layout (page headers, footers and column layout kept as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their letters).

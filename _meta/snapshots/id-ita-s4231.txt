@@ -1,0 +1,1394 @@
+                                     State of Idaho
+Structures and Landmarks Data Exchange Standard
+                             Part of the Public Safety Theme
+
+                                           Version 1.0
+                                     Effective May 1, 2011
+
+                    Developed by the Idaho Public Safety Technical Working Group
+
+Revision History
+5/6/19 - Removed individual definitions from the Glossary and replaced with reference to ITA
+           Guideline G105 (ITA Glossary of Terms)
+
+7/01/13 – Changed “ITRMC” to ITA”
+
+          Established by ITRMC April 27, 2011
+
+Contact
+Bill Reynolds, Public Safety Coordinator
+Nez Perce County
+billreynolds@co.nezperce.id.us
+
+                                                                            TABLE OF CONTENTS
+
+1.      INTRODUCTION .................................................................................................................................... 4
+     1.1.        Mission and Goals ......................................................................................................................................................... 4
+     1.2.        Description and Context of the Structures Element .................................................................................................... 6
+     1.3.        Relationship to Existing Standards ............................................................................................................................... 6
+     1.4.        Description of Standard ................................................................................................................................................ 6
+     1.5.        Applicability and Intended Use .................................................................................................................................... 7
+     1.6.        Standard Development Procedures ............................................................................................................................. 7
+     1.7.        Maintenance ................................................................................................................................................................. 7
+
+2.      BODY OF THE STANDARD..................................................................................................................... 7
+     2.1.        Scope and Content ........................................................................................................................................................ 7
+     2.2.        Need .............................................................................................................................................................................. 8
+     2.3.        Participation in Standard Development ....................................................................................................................... 8
+     2.4.        Integration with Other Standards ................................................................................................................................ 8
+     2.5.        Technical and Operation Context ................................................................................................................................. 8
+        2.5.1.            Data Environment ........................................................................................................................................ 8
+        2.5.2.            Reference Systems....................................................................................................................................... 8
+        2.5.3.            Global Positioning Systems .......................................................................................................................... 9
+        2.5.4.            Interdependence of Themes ........................................................................................................................ 9
+        2.5.5.            Encoding ...................................................................................................................................................... 9
+        2.5.6.            Resolution ................................................................................................................................................... 9
+        2.5.7.            Accuracy ...................................................................................................................................................... 9
+        2.5.8.            Edge Matching ............................................................................................................................................. 9
+        2.5.9.            Unique Identifier ......................................................................................................................................... 9
+        2.5.10.           Attributes .................................................................................................................................................... 9
+        2.5.11.           Stewardship ................................................................................................................................................. 9
+        2.5.12.           Records Management and Archiving ...........................................................................................................10
+        2.5.13.           Metadata ....................................................................................................................................................10
+
+3.      DATA CONTENT AND FORMAT .......................................................................................................... 10
+     3.1.        Minimum Graphic Data Elements .............................................................................................................................. 10
+     3.2.        Optional Graphic Elements ......................................................................................................................................... 10
+     3.3.        Minimum Attribute or Non-Graphic Elements .......................................................................................................... 10
+     3.4.        Optional Attribute and non-Graphic Elements .......................................................................................................... 11
+     3.5.        Attribute Domains and Examples ............................................................................................................................... 14
+
+Structures Standard                                                                                                                                                    Page 2 of 34
+
+4.      DATA COMPILATION PRACTICES AND MAPPING RULES .................................................................. 15
+     4.1.     Placement of Structure Point ..................................................................................................................................... 15
+     4.2.     Land Classification Codes for Single Structure ........................................................................................................... 15
+     4.3.     Multiple Address Points for a Single Structure .......................................................................................................... 15
+     4.4.     Multiple Structures Associated with a Single Address .............................................................................................. 16
+     4.5.     Data Quality ................................................................................................................................................................ 16
+
+APPENDIX A: References ........................................................................................................................... 17
+APPENDIX B: Glossary ............................................................................................................................... 19
+APPENDIX C: IDAHO STRUCTURES TYPE CODES ....................................................................................... 20
+
+Structures Standard                                                                                                                                             Page 3 of 34
+
+1. INTRODUCTION
+
+This document describes the specifications for the dataset referred to as “Structures Framework.” This
+standard is intended to facilitate integration and sharing of structures data across Idaho and to enhance
+dissemination and use of accurate, seamless, and up-to-date structure information. This standard is vital
+since many government and private entities have business needs for Structures Framework. Uses of
+Structures Framework include 911 support, disaster planning, building inspections/appraisals, economic
+analysis, and facilities management.
+
+The Structures Framework includes all structures and addresses, as well as landmarks; this includes all
+the parts of the Venn diagram shown in Figure 1.
+
+                   Structures                Structures             Address
+                   without an               that have an            without
+                    address                   address                  a
+                                                                   structure
+                                    Struct                    Addre
+                                    ures                      sses
+
+Figure 1: Venn diagram showing the intersection between Addresses and Structures. The scope of this
+standard indicated by the outline.
+
+Examples of features included under this Standard are:
+Structures with address: Residence on a street, business in a business park, courthouse
+Address without a structure: unimproved lot, pasture, brownfield
+Structures usually without an address: outbuildings (sheds, garages), seasonal roadside stands
+Landmarks: Cave opening, scenic overlook, folk sculpture, signage.
+
+The development of this standard was supported by Cooperative Agreement Number G09AC00411 from
+the United States Geological Survey.
+
+    1.1. Mission and Goals
+
+The Idaho Structures and Landmarks Data Exchange Standard (ISLDES) supports a statewide dataset that
+is consistent with applicable state and national standards, regularly updated, seamless, appropriately
+accessible, and mutually beneficial to both data producers and data consumers (referred to as
+Structures Framework). Structures Framework is designed to be broad enough to support a wide range
+of functions within government and the private sector but is sufficiently focused to facilitate emergency
+response and planning, and thereby enhance public safety.
+
+Structures Standard                                                                      Page 4 of 34
+
+Structures Standard   Page 5 of 34
+
+    1.2. Description and Context of the Structures Element
+
+Structures data is an element of the Public Safety Theme which also includes Emergency Service Zones
+and Critical Features (see https://gis.idaho.gov/public-safety-twg for more information).
+
+    1.3. Relationship to Existing Standards
+
+This standard relates to existing standards as follows:
+
+    •   Federal Geographic Data Committee (FGDC), the United States Thoroughfare, Landmark, and
+        Postal Address Standard (Draft, March 2010). This standard is an all-encompassing standard for
+        all types of addresses including international. This standard will be used as a touchstone to
+        evaluate the efficiency and effectiveness of the ISLDES. Review of Thoroughfare and Landmarks
+        will be included in the next version of this standard.
+    •   Oregon Geographic Information Council (OGIC), Geospatial Data Addressing Standard (v 1.0 Nov
+        5, 2004). This standard formed the starting point for the standards set out in this document and
+        will ensure that standards are consistent across Oregon-Idaho state boundary.
+    •   National Emergency Number Association (NENA) standards, including the NENA Standard Data
+        Formats for ALI Data Exchange & GIS Mapping (v 8.2, June 10, 2009). These publications explain
+        the standards used by 911 service providers in providing address information to public safety
+        answering points (PSAP’s)
+    •   United States Postal Service Postal Addressing Standards Publication 28 (Nov 2000). The USPS
+        publication 28 is the mailing standard that most communities in Idaho have followed or have
+        based their addressing updates, changes and projects on. This standard also has a list of
+        abbreviations and when how and where to use them.
+    •   American Planning Association (APA) Land Based Classification Standards for structure type and
+        function type codes. This standard provides the APA Codes that are used in the ISLDES.
+    •   National Structures Database (NSD). This standard provides the Feature Codes (FCODES) used
+        for the ISLDES.
+
+    1.4. Description of Standard
+
+This standard provides the foundation for the development, maintenance, and dissemination of
+structures data throughout the state of Idaho. This standard is devised to be:
+             •   Simple, easy to understand, and logical
+             •   Uniformly applicable, whenever possible
+             •   Flexible and capable of accommodating future expansions
+             •   Dynamic in terms of continuous review.
+
+Structures Standard                                                                     Page 6 of 34
+
+    1.5. Applicability and Intended Use
+
+This standard applies to the Structures element of the Public Safety theme of Idaho Framework. When
+followed, it will increase interoperability among automated geographic information systems, enable
+sharing and efficient transfer of data between producers and users, and build information partnerships
+among government institutions and the public and private sectors. This standard is intended to enable
+integration of structures data statewide, with special emphasis on supporting Next Generation 911
+(NG911) and related public safety purposes.
+
+    1.6. Standard Development Procedures
+
+Kootenai County, Teton County, the Coeur d’Alene Tribe and INSIDE Idaho drafted a basic data model
+and began collecting structure data prior to the formalization of the Public Safety Technical Working
+Group. The Structures workgroup has been meeting and discussing standards since March 2009. Efforts
+were made to identify existing Structure standards at the national level and a sampling of nearby states
+that would meet established objectives. Such standards were found to be either non-existent or
+rudimentary and not parallel to the scope of Structures Framework. However, many sources were used
+to develop aspects of this standard, including four different organizations’ methods of structure coding,
+namely: The United States Forest Service’s Cartographic Feature File (CFF); The International Building
+Codes structure type coding system; The Standard Land-Use Coding Manual (SLUCM); and the American
+Planning Association Land Based Classification Standards (LBCS).
+
+A straw man standard was drafted and submitted to the Public Safety TWG for review in June 2009. A
+second review was submitted to the Structures Workgroup in October 2009. Feedback was
+incorporated. The draft standard was then presented at the Forum in June 2010. There were no
+objections to advancing it to the Idaho Geospatial Council Executive Committee (IGC-EC). On June 17,
+IGC-EC approved the draft for consideration by ITRMC. Since then, the standard was presented to the
+Idaho Emergency Communications Commission. Following a comment period, significant input was
+provided which triggered further revisions to this standard. After a second comment period and further
+revisions, the standard is ready to be established. It was approved by IGC-EC and established by ITRMC
+in February and April 2011, respectively.
+
+    1.7. Maintenance
+
+This standard will be revised as needed and in accordance with Policy P5030.
+
+2. BODY OF THE STANDARD
+
+    2.1. Scope and Content
+
+The purpose of this standard is to establish the minimum requirements for the collection and
+integration of structures and landmark data and to facilitate the maintenance and use of that
+information. The content of this standard is focused on the essential data, data quality, and metadata
+elements required for structures data to be maintained and used locally as well as integrated for
+regional and statewide use. Supporting public safety uses is the principal focus when exploring new
+ideas and making determinations on future development.
+
+Structures Standard                                                                      Page 7 of 34
+
+    2.2. Need
+
+Structures and Landmarks are part of the foundation needed to support emergency services. In
+particular, these features support current and future 911 implementation, known as enhanced 911
+(e911) and NG911. As Idaho works to collect key datasets, this standard will provide the minimum
+specification by which the locally managed data can be integrated into regional and statewide datasets.
+In addition to supporting emergency services, this standard supports other uses in economic
+development, planning, and routine business processes.
+
+    2.3. Participation in Standard Development
+
+The development of the ISLDES adheres to the Framework Standards Development Policy (P5030). A
+USGS CAP Award has expedited efforts in Idaho to plan stewardship of Structures and develop this
+standard. Although key participants are few, they represent diverse stakeholder groups. Outreach
+efforts provide opportunity for broad input in the development of this standard. For example, drafts
+have been made available for review and comment by stakeholders identified in a series of regional
+meetings. In addition, it is posted on https://gis.idaho.gov/public-safety-twg . The process will be equally
+broad for updates and enhancements to the standard. As with all Idaho Framework standards, public
+review of and comments on the ISLDES is actively sought.
+
+    2.4. Integration with Other Standards
+
+This standard follows the same format as other Idaho Framework data standards. The specifics of this
+standard must integrate with the addressing, cadastral, road centerline standards. This standard
+includes type codes established by the American Planning Association and feature codes defined by the
+USGS in the National Structures Dataset.
+
+    2.5. Technical and Operation Context
+
+        2.5.1. Data Environment
+        The data environment for Structures is a vector model, comprised of points with associated
+        attribute information. The exchange format for structures data is the shapefile, which is an open
+        published format (see http://www.esri.com/library/whitepapers/pdfs/shapefile.pdf). In
+        designating the shapefile as the exchange format, this standard accommodates limitations
+        imposed by the shapefile model, such as keeping attribute (field) names to ten characters or
+        less. Alternatively, tabular data with latitude and longitude is acceptable in .dbf, .csv, or Access
+        database (ver. 2007 and higher) formats.
+
+        2.5.2. Reference Systems
+        Framework datasets are distributed in Idaho Transverse Mercator (IDTM83), Idaho’s single-zone
+        coordinate system. Data contributions may be in any coordinate system; however, converting
+        existing data to the most current realization of horizontal and vertical datums is encouraged
+        where such conversion is feasible. As of this writing, the most current realization for horizontal
+        coordinates is the North American Datum of 1983 (NSRS 2007); for vertical coordinates it is the
+        North American Vertical Datum of 1988. No matter what reference system is used, it must be
+
+Structures Standard                                                                        Page 8 of 34
+
+       clearly documented in the metadata accompanying the dataset and a projection must be
+       explicitly defined and included.
+
+       2.5.3. Global Positioning Systems
+       Structure Data can be collected using GPS, as long as the accuracy of the data falls within
+       accuracy specified in 2.5.7.
+
+       2.5.4. Interdependence of Themes
+       The primary interdependent Framework themes are Cadastral (parcels), Transportation (road
+       centerlines) and the Geographic Names Information Systems (GNIS) in the Reference category.
+       Several sources may be used for determining or quality checking locations and attributes,
+       including Cadastral (parcels and land-owner information), road centerlines and address ranges,
+       aerial imagery, zip code boundaries, and telephone records.
+
+       2.5.5. Encoding
+       All GIS software used in Idaho has the capability of encoding its format to the shapefile format.
+
+       2.5.6. Resolution
+       Not applicable.
+
+       2.5.7. Accuracy
+       Accuracy will vary across Structures Framework, primarily due to the variety of sources. For this
+       reason documentation of accuracy is crucial and must be documented in the metadata. The
+       target positional accuracy is 40 feet. As the effort matures and better data becomes available, a
+       tighter accuracy will be specified.
+
+       2.5.8. Edge Matching
+       Not applicable.
+
+       2.5.9. Unique Identifier
+       A unique identifier enhances stability and maximizes use for those organizations that opt to
+       maintain a local ID. This permits Structures Framework to be connected to current and future
+       databases without further conditioning. To support this potential, a unique identifier will be
+       maintained across the compiled database, consisting of the concatenation of GISSTEW and
+       LOCALID.
+
+       2.5.10. Attributes
+       The attributes included in this standard describe each structure or are required to manage the
+       data. See Section 3 for minimal and optional characteristics for Structure attributes.
+
+       2.5.11. Stewardship
+       Perpetual maintenance and other aspects of lifecycle management are essential to Structures
+       Framework. Details of stewardship partners, their roles and responsibilities, and stewardship
+       design and processes will be set forth in a charter, a plan, and related documents.
+
+Structures Standard                                                                      Page 9 of 34
+
+        2.5.12. Records Management and Archiving
+        Records management and archiving will be provided for with specificity in the stewardship
+        documents established for Structures Framework.
+
+        2.5.13. Metadata
+        Metadata will conform to the geospatial metadata standard(s) established by the State of Idaho
+        (S4420 Metadata Standard).
+
+3. DATA CONTENT AND FORMAT
+
+    3.1. Minimum Graphic Data Elements
+
+The graphic data for structures is modeled as a point feature class containing only an X and Y value.
+
+    3.2. Optional Graphic Elements
+
+Not applicable.
+
+    3.3. Minimum Attribute or Non-Graphic Elements
+
+The attributes required for source contributions are:
+
+  FIELD NAME      DATA TYPE     LENGTH   REQUIRED   SHORT DESCRIPTION           EXAMPLE
+  GISSTEW         TEXT/STRING   20       yes        The steward of the data     IDAHOGIS
+  APACODE         INTEGER       5        Yes        This code comes from the    1000; 2000; 3000; 4000; 4110; 4510;
+                                                    modified APA code – Idaho   4520; 4530; 4600; 5000; 6000; 6900;
+                                                    Structures Type Codes –     7000; 8000 Required: 4110
+                                                    Appendix C                  (hospital); 4200 (School); 4510 (Fire
+                                                                                Station); 4520 (Police Station); 4530
+                                                                                (Emergency Operation Center); 4600
+                                                                                (Jail, penitentiary, correctional
+                                                                                facility)
+
+This standard adapts the American Planning Association’s Land Based Classification Standards (LBCS)
+structure type codes (Appendix C). The structure type code is used to populate APACODE. This helps to
+fulfill mapping requirements at state and local agencies. A code is required when the point feature
+represents one of these structure types: Hospital, School, Fire Station, Police Station, Emergency
+Operations Center, or Jail, Penitentiary or Correctional Facility. It is optional but strongly encouraged on
+all other types. During aggregation, the corresponding USGS National Structures Dataset code will be
+assigned.
+
+Use of abbreviations in the FGDC standard is discouraged to avoid misinterpretation. However, the
+ISLDES does allow specific abbreviations. When and where abbreviations are permitted is explained in
+section 3.5. Abbreviations are acceptable until such time as this standard adopts the FGDC business
+rule.
+
+The following attributes are automatically calculated during horizontal integration:
+
+Structures Standard                                                                                 Page 10 of 34
+
+  FIELD NAME     DATA TYPE       LENGTH    REQUIRED    SHORT DESCRIPTION             EXAMPLE
+  FULLADDRESS    TEXT/STRING     75        no          Calculated during             89 N Main St; 455 N 5000 W;
+                                                       aggregation
+  CARTOTYPE      TEXT/STRING     15        no          Calculated during             Residential; Commercial; Public
+                                                       aggregation                   Assembly; Institutional or
+                                                                                     community facility; Transportation;
+                                                                                     Utility; Military; Agricultural
+  STRUCTTYPE     TEXT/STRING     15        no          Calculated during             Hospital; School; Fire Station; Police
+                                                       aggregation                   Station; Emergency Operation
+                                                                                     Center; Jail, detention, correctional
+                                                                                     facility; etc.
+  LAT                            11        no          Calculated during             47.123456
+                 TEXT/STRING                           aggregation
+  LONG                           11        no          Calculated during             -116.123456
+                 TEXT/STRING                           aggregation
+  FEATCODE       INTEGER         5         yes         NSD code generated from        USGS NSD codes
+                                                       Idaho-APA codes using a
+                                                       cross-walk table.
+  DATESUBMTD     INTEGER         8         yes         Calculated during              10302010
+                                                       aggregation
+
+    3.4. Optional Attribute and non-Graphic Elements
+
+A complete list of attributes is shown below. The attributes in shaded boxes are optional.
+
+  FIELD NAME       DATA TYPE          LENGTH     REQUIRED        SHORT DESCRIPTION                       EXAMPLE
+
+  GISSTEW          TEXT/STRING        20         yes         The steward of the data             IDAHOGIS
+
+  APACODE          INTEGER            5          yes         a) This field requires the          1000; 2000; 3000; 4000;
+                                                             following values when               4110; 4510; 4520; 4530;
+                                                             applicable: 4110 (hospital);        4600; 5000; 6000; 6900;
+                                                             4200 (School); 4510 (Fire           7000; 8000
+                                                             Station); 4520 (Police
+                                                             Station); 4530 (Emergency
+                                                             Operation Center); 4600 (Jail,
+                                                             penitentiary, correctional
+                                                             facility); 9999 (To be
+                                                             determined)
+
+  FEATCODE         INTEGER            5          yes         A complete list of FEATCODEs
+                                                             can be found on the
+                                                             Framework Web pages.
+                                                             Note that there are no
+                                                             FEATCODES for residential
+                                                             structures. FEATCODEs are
+                                                             specified in the National
+                                                             Structures Database.
+  ADDPFX           TEXT/STRING        3          NO          Address Prefix – rare               N,S,E,W,NE,NW,SE,SW, ½,
+                                                                                                 ¼ A, B, C, . . .
+
+  ADDNUM           LONG INTEGER                  no          Address number                      1; 26; 125; 1501; 10545
+
+  ADDSFX           TEXT/STRING        3          no          Address Suffix                      N,S,E,W,NE,NW,SE,SW, ½,
+                                                                                                 ¼ A, B, C, . . .
+
+Structures Standard                                                                                   Page 11 of 34
+
+  STPREMOD        TEXT/STRING    6    No   Street pre-modifier              Old, New
+
+  STPREDIR        TEXT/STRING    2    no   Street Pre direction             b) N,S,E,W, NE, NW, SE,
+
+                                                                            SW
+
+  STPREFIX        TEXT/STRING              Street PreType                   b) ST, RD, CIR, DR
+
+  STNAME          TEXT/STRING    40   no   Street name                      MAIN
+
+  STSUFFIX        TEXT/STRING    4    no   Street name suffix type          b) ST, RD, CIR, DR
+
+  STPOSTDIR       TEXT/STRING    2    NO   Street post directional          b) N,S,E,W, NE, NW, SE,
+
+                                                                            SW
+
+  STPOSTMOD       TEXT/STRING    6    NO   Street post modifier             Old, New, A, B, C, etc
+
+  PRUNITTYPE      TEXT/STRING    10   No   Pre Unit Type Building/Floor     b) BLDG,FLR, UNIT
+                                           c)
+
+  PRUNITID        TEXT/STRING    10   No   Pre Unit Identifier              1 ,2, A, B, 101, 201, 1 –
+                                           BLDG or FLOOR number or          12, etc.
+                                           letter. This can represent an
+                                           individual or range of
+                                           addresses
+  SBUNITTYPE      TEXT/STRING    10   no   Sub Unit Type                    **APT; STE; BLDG
+
+  SBUNITID        TEXT/STRING    10   no   Sub Unit. This could be used     # 10; 10, ½, A, B, C, 1 – 10,
+                                           to represent fractional          A – H, 100 – 220, etc
+                                           addresses if an entity doesn’t
+                                           have a cleaned postal
+                                           addressing scheme. This can
+                                           also be used to denote ranges
+                                           of addresses in the case of
+                                           multiple apartments (e.g. APT
+                                           1-35).
+
+  FLOORS          TEXT/STRING    10   NO   Number of Floors in building
+
+  COMMNAME        TEXT/STRING    20   no   Community, City, Postal          Rexburg; Boise; Moscow
+                                           Community
+
+  STATE           TEXT/STRING    2    no   State                            ID
+
+  ZIP             INTEGER/TEXT        NO   Zip Code (5 digit code)          83440
+
+  ZIP4            INTEGER/TEXT        no   Zip Code (+ 4 if needed)         1526
+
+  LANDMARK        TEXT/STRING    50   NO   Name of landmark/location        Dworshak Dam, Memorial
+                                                                            Bridge
+
+  LAANM           TEXT/STRING    25   No   Local Addressing Authority       City of Meridian, NPC, Ada
+                                           Name                             County, CDA Tribe, etc
+
+  PRIMSTRUCT      TEXT/STRING    5    No   d)                               Prim/Sec OR 1/0 OR
+                                                                            Yes/No
+
+  PRIMADD         TEXT/STRING    5    No   e)                               Prim/Sec OR 1/0 OR
+                                                                            Yes/No
+
+Structures Standard                                                                Page 12 of 34
+
+     LOCALID              TEXT/STRING       12           no             Local ID if used by contributor   1; ADA-1
+
+     PHOTO                RASTER                         no             Photo(s) of the structure for     server/structurepics/1234.
+                                                                        local use.                        jpg
+
+     COMMENTS             TEXT/STRING       250          no             Comments relevant to the          Jo's Auto Body; Pizza Hut
+                                                                        structure
+
+     GNISID               TEXT/STRING                    no             Obtained from USGS                22540
+
+     CRTEDATE             INTEGER           8            NO             Date structure point created:     20101212
+                                                                        GPS’ed, hand digitized, etc
+
+     CHNGDATE             INTEGER           8            NO             Date of last change to            20101212
+                                                                        structure status; address,
+                                                                        APACode, etc.
+
+     DATEBUILT            INTEGER           8            NO             Date structure was built          20101212
+
+     FULLADDRSS           TEXT/STRING       75           no             Calculated during                 89 N Main St; 455 N 5000
+                                                                        aggregation                       W;
+
+     CARTOTYPE            TEXT/STRING       15           no             Calculated during                 Residential; Commercial;
+                                                                        aggregation                       Public Assembly;
+                                                                                                          Institutional or community
+                                                                                                          facility; Transportation;
+                                                                                                          Utility; Military;
+                                                                                                          Agricultural
+
+     STRUCTTYPE           TEXT/STRING       15           no             Calculated during                 Hospital; School; Fire
+                                                                        aggregation                       Station; Police Station;
+                                                                                                          Emergency Operation
+                                                                                                          Center; Jail, detention,
+                                                                                                          correctional facility; etc.
+
+     LAT                  TEXT/STRING       11           no             Calculated during                 47.123456
+                                                                        aggregation
+
+     LONG                 TEXT/STRING       11           no             Calculated during                 -116.123456
+                                                                        aggregation
+
+a
+    ) APA: http://myapa.planning.org/LBCS/GeneralInfo/
+b) USPS Publication 28
+
+c) PRUNITTYPE: This field is used to handle addressing structures which incorporate several buildings or floors that also have
+
+       SUBUNITS (i.e. BLDG 1 UNIT 4, FLR 7, STE 16) otherwise just use the SUBUNIT (TYPE/ID) fields if there are no sub units to
+       the building or floors. The preferred method would be to incorporate the building/floor with the address. Such as: Unit 716
+       could mean 7th floor 16th unit. Unit A12 – Building A Room 12. We included this field to give entities the flexibility to
+       represent the address either way.
+d) PRIMSTRUCT: If multiple buildings share a common address, but are not the primary address, this field is used to denote this
+
+      relationship. For instance: The home on a piece of property has a detached garage and a shed. Each structure shares the
+      same address as the home, but it is not the primary structure for that address. Each structure would have its own unique
+      structure ID but share a common Address ID.
+e) PRIMADD: If multiple structure points are placed on top or adjacent to each other to represent multiple address for a single
+
+      structure this field is used to distinguish the primary address point. For instance if an apartment building has 35 units, 35
+      structure points would be place on each other or in the relative location of their entrances. One would be designated as the
+      primary address and the primary structure (the manager’s apt or apt offices).
+
+Structures Standard                                                                                             Page 13 of 34
+
+Consistent codes assure the resulting data set can be reliably queried and mapped. There are two
+accepted classification systems:
+   1) The American Planning Association’s (APA) Land–Based Classification Standard (LBCS) for
+      structures. A complete list of APA codes is available on the APA Web site. The modified version
+      used by this standard is attached as Appendix C.
+   2) The USGS has assigned feature codes for use in their National Structures Dataset. A complete list
+      of structures-related feature codes is available at https://gis.idaho.gov/public-safety-twg .
+The structures committee developed a modified APA code system. This system combines the two and
+adds additional codes as needed by the GIS community. For more detail, see Section 4.2.
+
+   3.5. Attribute Domains and Examples
+
+   1) ADDPFX: Can be used for fractional addresses, leading zeros, letters or other numbers when not
+       related to a multiple unit structure.
+   2) ADDSFX: Can be used for fractional addresses, letters or other numbers when not related to a
+       multiple unit structure.
+   3) STPREMOD: Street Name Modifier - Old, New, etc.
+   4) STPREDIR: Pre-directional based off of Geographical Directional abbreviation from USPS
+       Publication 28 standards Appendix B page 53 (April 2010).
+   5) STPRFX: Street Prefix: example Ave A, domain is the Street Abbreviations from USPS Publication
+       28 standards Appendix C, page 57 (April 2010).
+   6) STSFX: Street Suffix: example Grant Blvd, domain is the Street Abbreviations from USPS
+       Publication 28 standards Appendix C, page 57 (April 2010).
+   7) STPOSTDIR: Post Directional, based off of Geographical Directional abbreviation from USPS
+       Publication 28 standards Appendix B page 53 (April 2010).
+   8) PRUNITTYPE: The Sub address type represents the address when there are separate buildings or
+       floors with sub units in the building or floor. For instance: 1230 Main St Fl 6 Ste 10 or 510 Grant
+       St Bldg A, Rm 6. If the structure does not have a breakdown of this type, use only the Sub Unit
+       Type and Sub Unit ID to designate multiple units. The domain is the Secondary Unit Designators
+       from USPS Publication 28 standards Appendix C2 page 70 (April 2010).
+   9) PRUNITID: The Sub Address identifier is used to attribute the multiple floors or buildings of a
+       single address location. In the case of multiple buildings or floors, designate the range in its
+       entirety. Example Fl= 6 or Fl 1 – 8.
+   10) SUBUNITTYPE: Sub Unit type represents addresses for a multiunit structure or used where a
+       single address is used for a multiple lot/space location, such as a trailer park. The domain is the
+       Secondary Unit Designators from USPS Publication 28 standards Appendix C2 page 70 (April
+       2010).
+   11) SUBUNITID: The sub unit identifier this identifies the units in a multi unit structure or multiple
+       lot address location. In the case of the Multi-unit building the field can be used to designate the
+       range of applicable addresses. Example: Ste 101 or Ste 101–212.
+   12) STATE: Abbreviated as designated in the USPS Publication 28 standards Appendix B page 53
+       (April 2010).
+   13) LOCALID: This is a unique, persistent and consistent id assigned by the source stewards.
+       Otherwise it will be calculated at the time of aggregation.
+
+Structures Standard                                                                       Page 14 of 34
+
+    14) FEATCODE: This field has been added for entities that create their data and use the NSD for their
+        structure type domain. A crosswalk table (available at https://gis.idaho.gov/public-safety-twg )
+        defines the relationship with the APA structure type codes.
+
+4. DATA COMPILATION PRACTICES AND MAPPING RULES
+
+    4.1. Placement of Structure Point
+
+The preferred placement of a point is at the entrance of a structure, point of access to the location.
+However, different placement conventions are acceptable and must be described in the metadata.
+
+    4.2. Land Classification Codes for Single Structure
+
+Structure classification based on structure type and function indicates the use or usage of a structure at
+a location. Primary Activity codes, listed below, are the most general coding for structure type.
+    1000 Residential Buildings
+    2000 Commercial Buildings
+    3000 Public Assembly Structures
+    4000 Institutional or Community Facilities
+    5000 Transportation Facilities
+    6000 Utility and other Non-building Structures
+    7000 Military Structures
+    8000 Sheds, Farm Buildings, Agricultural Facilities
+    9000 No Structure
+The use of a more specific code is encouraged, such as 1121 for a duplex rather than 1000. If more than
+one code is indicated for a structure, additional fields may be added, such as APACODE2, APACODE3,
+etc. Structures Framework will reflect the primary structure code in the first position.
+
+This standard uses a modified LBCS to handle structure/functions not incorporated into the APA
+standard. New codes are generated by the APA code review committee (sub-committee of the
+Structures TWG). These new codes are passed to APA for review and incorporation into the LBCS. Codes
+can incorporate multiple uses for one structure. For example, APA code 2300 indicates an office or store
+building with a residence above.
+
+The codes for the structure types required to be attributed are as follows:
+
+    4110 Hospital
+    4200 School
+    4510 Fire Station
+    4520 Police Station
+    4530 Emergency Operation Center
+    4600 Jail, Penitentiary Correctional Facility
+Any features left blank will be populated with the null value 9999 to indicate “Unknown.”
+
+    4.3. Multiple Address Points for a Single Structure
+
+Structures Standard                                                                        Page 15 of 34
+
+Multiple points on a single structure are permitted as long as each of those points has a different
+address. For instance 101 N Front St (Primary Address), 101 N Front St Apt 1 (Secondary Address) 101 N
+Front St Apt 2 (Secondary Address) and so on. Use the PRIMADD attribute to indicate which one of
+those multiple point records should be considered the primary address point (PRIMADD = PRIM, yes or
+1); other structure points are secondary addresses (PRIMADD = SEC, no or 0).
+
+If a structure has multiple addresses, the addresses can be represented in a related table, while the
+structure dataset represent a range of addresses in that structure. Likewise if a structure has more than
+one distinct (unique) address, the same approach can be used, however Structures Framework would
+only show the ‘primary’ structure point and address.
+
+The PRUNITTYPE and PRUNITID can be used to handle addresses which incorporate multiple floors and
+units (as frequently found in apartment complexes). See paragraph 3.4 listing the Optional Attribute and
+non-Graphic Elements for details about each of the attributes. APA codes will be created as needed and
+documented in Appendix C.
+
+    4.4. Multiple Structures Associated with a Single Address
+
+Each structure should be a separate point feature, each with an identical address. For instance, a
+residential property may have multiple structures on a parcel, such as the home, detached garage and a
+shed. Likewise, a business may have several structures associated with it, the office and perhaps out
+buildings for storage or workshops. Use the PRIMSTRUCT attribute to indicate the primary structure
+point associated with the address (PRIMSTRUCT = PRIM, yes or 1); all other points are secondary
+structures (PRIMSTRUCT = SEC, no or 0).
+
+    4.5. Data Quality
+
+Data quality considerations for structures:
+    •   Structures should have addresses where applicable.
+    •   Structures should be up-to-date and reviewed regularly.
+    •   All applicable attribute values should be populated.
+
+Structures Standard                                                                      Page 16 of 34
+
+   APPENDIX A: References
+
+   1. American Planning Association (APA). Standard Land Use Coding Manual (SLUCM). Online,
+      http://myapa.planning.org/LBCS/OtherStandards/Downloads/slucm.pdf
+
+   2. American Planning Association (APA). Chicago, Illinois. Land Based Classification Standards
+      (LBCS) Categories. Online, http://www.planning.org/LBCS.
+
+   3. Environmental Systems Research Institute (ESRI). Online, http://www.esri.com
+
+   4. Federal Geographic Data Committee (FGDC). October 2009. Geographic Information Framework
+      Data Content Standard; Part 0: Base document. Online,
+      http://www.fgdc.gov/standards/projects/FGDC-standards-projects/framework-data-
+      standard/GI_FrameworkDataStandard_Part0_Base.pdf
+
+   5. Federal Geographic Data Committee (FGDC). United States Thoroughfare, Landmark, and Postal
+      Address Standard (Draft, Feb. 2010). Online, http://www.fgdc.gov/standards/projects/FGDC-
+      standards-projects/street-address.
+
+   6. Florida Division of Historical Resources, July 2004. October 2009. Metadata for Standing
+      Structure GIS Data Layer. Online, http://www.fnai.org/arrow/data/metadata/hist_bldg.htm
+
+   7. Idaho Geospatial Office. November 2009. Cadastral Reference TWG; “Parcels IGC June 2008”
+      slide presentation. Online, http://gis.idaho.gov/framework.htm.
+
+   8. Idaho Geospatial Office. October 2009. Draft Data Exchange Standard for Emergency Service
+      Zones. Online, http://gis.idaho.gov/igo/DraftDataExchangeStandardforESZrev4.pdf
+
+   9. Idaho Technology Authority (ITA), Enterprise Standards – S4000 Geographic Information Systems
+      (GIS) Data Category: S4220 – Geospatial Metadata. May 2007. Online,
+      http://ita.idaho.gov/psg/s4220.pdf
+
+   10. International Building Code, International Code Council, 2006, Section 302.1, pg 23.
+
+   11. National Emergency Number Association (NENA) Technical Committee Chairs. June 10, 2009.
+       NENA Standard Data Formats for ALI Data Exchange, MSAG & GIS. Online,
+       http://www.nena.org/sites/default/files/02-010_20080108_v8.2.pdf
+
+   12. National States Geographic Information Council (NSGIC). Sharing and Improving Critical
+       Infrastructure Data-December 18, 2006. Online,
+       http://www.nsgic.org/hottopics/hsip_ci_geospatial_data_sharing_program_121806.pdf
+
+   13. United States Postal Service. Publication 28. Online,
+       http://pe.usps.gov/cpim/ftp/pubs/Pub28/pub28.pdf
+
+   14. United States Geological Survey (USGS). Homeland Security Infrastructure Program (HSIP)
+       Freedom Initiative-June 2008. Online,
+
+Structures Standard                                                                     Page 17 of 34
+
+   15. United States Forest Service: Salt Lake City; Pacific Southwest Region. Table 121 - Cartographic
+       Feature File (CFF) Code. Updated March 6, 2002. Online,
+       http://www.fs.fed.us/r5/rsl/projects/frdb/tables/table121.html
+
+Structures Standard                                                                     Page 18 of 34
+
+APPENDIX B: Glossary
+
+See ITA Guideline G105 (ITA Glossary of Terms) for definitions.
+
+Structures Standard                                               Page 19 of 34
+
+APPENDIX C: IDAHO STRUCTURES TYPE CODES
+
+                           Modified from APA’s Land-Based Classification Standard
+
+  ID     STRUCTURE_TYPE
+  1000   Residential buildings
+  1100   Single-family buildings
+  1110   Detached units
+  1120   Attached units
+  1121   Duplex structures
+  1122   Zero lot line, row houses, etc.
+  1130   Accessory units
+  1131   Domestic Shelter / Gazebo, picnic shelter
+  1132   Domestic Shelter / Playhouse, Playground, Treehouse
+  1133   Domestic Shelter / detached carport
+  1134   Domestic Shelter / detached garage / pole building residential in nature
+  1140   Townhouses
+  1150   Manufactured housing
+  1151   Manufacture Housed (declared real property)
+  1152   Manufactured house (not declared real property)
+  1160   Recreational Vehicle / Travel Trailer
+  1161   Recreational Vehicle
+  1162   Travel Trailer
+  1200   Multifamily structures
+  1202   Two units
+  1203   Three units
+  1204   Four units
+  1205   Five units
+  1206   Six units
+  1207   Seven units
+  1208   Eight units
+  1209   Nine units
+  1210   Ten units
+  1211   Eleven units
+  1212   Twelve units
+  1213   Thirteen units
+  1214   Fourteen units
+  1215   Fifteen units
+  1216   Sixteen units
+  1217   Seventeen units
+  1218   Eighteen units
+  1219   Nineteen units
+  1220   Twenty units
+
+Structures Standard                                                                 Page 20 of 34
+
+  1221   Twenty-one units
+  1222   Twenty-two units
+  1223   Twenty-three units
+  1224   Twenty-four units
+  1225   Twenty-five units
+  1226   Twenty-six units
+  1227   Twenty-seven units
+  1228   Twenty-eight units
+  1229   Twenty-nine units
+  1230   Thirty units
+  1231   Thirty-one units
+  1232   Thirty-two units
+  1233   Thirty-three units
+  1234   Thirty-four units
+  1235   Thirty-five units
+  1236   Thirty-six units
+  1237   Thirty-seven units
+  1238   Thirty-eight units
+  1239   Thirty-nine units
+  1240   Forty units
+  1241   Forty-one units
+  1242   Forty-two units
+  1243   Forty-three units
+  1244   Forty-four units
+  1245   Forty-five units
+  1246   Forty-six units
+  1247   Forty-seven units
+  1248   Forty-eight units
+  1249   Forty-nine units
+  1250   Fifty units
+  1251   Fifty-one units
+  1252   Fifty-two units
+  1253   Fifty-three units
+  1254   Fifty-four units
+  1255   Fifty-five units
+  1256   Fifty-six units
+  1257   Fifty-seven units
+  1258   Fifty-eight units
+  1259   Fifty-nine units
+  1260   Sixty units
+  1261   Sixty-one units
+  1262   Sixty-two units
+  1263   Sixty-three units
+
+Structures Standard           Page 21 of 34
+
+  1264   Sixty-four units
+  1265   Sixty-five units
+  1266   Sixty-six units
+  1267   Sixty-seven units
+  1268   Sixty-eight units
+  1269   Sixty-nine units
+  1270   Seventy units
+  1271   Seventy-one units
+  1272   Seventy-two units
+  1273   Seventy-three units
+  1274   Seventy-four units
+  1275   Seventy-five units
+  1276   Seventy-six units
+  1277   Seventy-seven units
+  1278   Seventy-eight units
+  1279   Seventy-nine units
+  1280   Eighty units
+  1281   Eighty-one units
+  1282   Eighty-two units
+  1283   Eighty-three units
+  1284   Eighty-four units
+  1285   Eighty-five units
+  1286   Eighty-six units
+  1287   Eighty-seven units
+  1288   Eighty-eight units
+  1289   Eighty-nine units
+  1290   Ninety units
+  1291   Ninety-one units
+  1292   Ninety-two units
+  1293   Ninety-three units
+  1294   Ninety-four units
+  1295   Ninety-five units
+  1296   Ninety-six units
+  1297   Ninety-seven units
+  1298   Ninety-eight units
+  1299   Ninety-nine units and more
+  1300   Other specialized residential structures
+  1155   Mobile Home Park
+  1156   RV Park
+  1310   Barracks
+  1320   Dormitories
+  1330   Hotels, motels, and tourist courts
+  1340   Single room occupancy units
+
+Structures Standard                                 Page 22 of 34
+
+  1350   Temporary structures, tents, etc. for shelter
+  1360   Other structurally converted buildings
+  1370   Emergency Shelter
+  1380   Homeless Shelter
+  1400   Group Home (assisted living, retirement, long-term medical, 1/2 way house, or shelter)
+  2000   Commercial buildings and other specialized structures
+  2100   Office or bank building
+  2101   Office or bank building (zero lot line)
+  2110   Office building with drive-through facility
+  2200   Store or shop building
+  2201   Store or shop building (zero lot line)
+  2202   Store or shop building our door service / maintenance / work area
+  2210   Shop or store building with drive-through facility
+  2211   Drive-up store/building/hut: such as coffee/snack or other service (shaved ice, food)
+  2220   Restaurant building
+  2221   Restaurant w/ no drive thru (primarily sit down restaurant / café)
+  2222   Restaurant w/ drive thru (primarily fast food restaurant)
+  2223   Liquor store / (an establishment sells alcohol
+  2224   Alcohol serving establishment, which also served food (Tavern, Bar, Lounge)
+  2225   Alcohol serving establishment, which does not serve food
+  2230   Standalone store or shop building
+  2240   Department store building
+  2250   Warehouse discount store building
+  2260   Market shops including open markets
+  2270   Gasoline station
+  2280   Automobile repair and service structures
+  2300   Office or store building with residence on top
+  2400   Office building over storefronts
+  2500   Malls, shopping centers, or collection of shops
+  2510   Neighborhood center (convenience with one or more anchors)
+  2520   Community center (general merchandise with two or more anchors)
+  2530   Regional center (enclosed mall with two or more anchors)
+  2540   Superregional center (similar to regional, but has three or more anchors)
+  2550   Fashion/specialty center (higher end, fashion-oriented stores)
+  2560   Power center (category-dominated anchors with few small tenants)
+  2570   Theme or festival center (leisure, tourist-oriented, restaurants)
+  2580   Outlet or discount center (manufacturer outlet stores)
+  2590   Other kinds of shopping centers
+  2591   Convenience stores or centers
+  2592   Home improvement center
+  2593   Car care center
+  2594   Car wash (self, mechanical, or hand-wash)
+  2600   Industrial buildings and structures
+
+Structures Standard                                                                              Page 23 of 34
+
+  2610   Light industrial structures and facilities
+  2611   Loft building
+  2612   Mill-type factory structures
+  2613   One-story modern manufacturing plants
+  2614   Industrial parks
+  2615   Laboratory or specialized industrial facility
+  2616   Nuclear Research Facility
+  2620   Heavy industrial structures and facilities
+  2621   Assembly and construction-type plants
+  2622   Process plants (metals, chemicals, etc.)
+  2630   Oil refinery facility
+  2631   Refinery with anchored equipment < 100,000 barrels/day
+  2632   Refinery with unanchored equipment < 100,000 barrels/day
+  2633   Refinery with anchored equipment > 100,000 barrels/day
+  2634   Refinery with unanchored equipment > 100,000 barrels/day
+  2635   Refinery pumping plant with anchored equipment
+  2636   Refinery pumping plant with unanchored equipment
+  2700   Warehouse or storage facility
+  2710   Mini-warehouse
+  2720   High-rise mini-warehouse
+  2730   Warehouse structure
+  2740   Produce warehouse
+  2750   Refrigerated warehouse or cold storage
+  2760   Large area distribution or transit warehouse
+  2761   Food Distribution Center
+  2770   Wharf and dock shed
+  2771   Conex Box / RR shipping container
+  2772   Semi-truck trailer (anchored)
+  2773   Semi-truck trailer (not - anchored)
+  2780   Tank farms
+  2781   Tank farms with anchored tanks
+  2782   Tank farms with unanchored tanks
+  2790   Maintenance Yard
+  2800   Food Industry Production / Processing facilities
+  2810   Consumer food processing
+  2811   Bakery, Baked goods
+  2812   Cannery
+  2813   Grain Mill
+  2814   Meat Processing / Packaging Facility
+  2820   Beverage Production and Bottling
+  2821   Water, soft drinks
+  2822   Brewery / Distillery / Winery
+  3000   Public assembly structures
+
+Structures Standard                                                 Page 24 of 34
+
+  3100   Theater
+  3110   Performance theater
+  3120   Movie theater
+  3130   Amphitheater
+  3140   Drive-in theaters
+  3200   Indoor/Outdoor games facility / Amusement Parks / Water Parks
+  3210   Amusement / Water Park
+  3220   Casino / Bingo
+  3230   Ski Resort / Winter Park
+  3250   Racetrack - animal
+  3260   Racetrack / Drag strip - Auto
+  3270   Golf Facility
+  3280   Fair / Exhibition Grounds
+  3290   Rodeo Grounds
+  3300   Sports stadium or arena
+  3310   Ice Arena
+  3400   Exhibition, convention, or conference structure
+  3500   Churches, synagogues, temples, mosques, etc.
+  3600   Capitol buildings
+  3601   US Capitol
+  3602   State Capitol
+  3610   County / Parish Courthouse
+  3620   City Hall
+  3630   Public Administration (Executive / Legislative)
+  3640   Judicial Administration
+  3641   US Supreme Court
+  3642   Federal Court
+  3643   State Supreme Court
+  3644   State Court
+  3645   Local Court / Courthouse
+  3650   Public Administration Federal
+  3660   Public Administration State
+  3670   Public Administration (Local)
+  3680   Tribal Administration
+  3690   Governmental Residences
+  3691   White House
+  3692   Federal Residence
+  3693   Governor’s Residence
+  3694   Local Residence
+  3700   Covered or partially covered atriums and public enclosures
+  3800   Other community structures
+  3810   Mail or Shipping Facility
+  3811   Post Office
+
+Structures Standard                                                      Page 25 of 34
+
+  3811   Bulk Mail Center
+  3811   Private and Express Shipping
+  3820   Community / Recreation Center
+  3900   Passenger assembly
+  3910   Mixed mode terminal
+  3920   Airport terminal
+  3921   Air Passenger Hub
+  3922   Air Shipping Hub
+  3930   Bus terminal
+  3940   Train station
+  3950   Harbor or port terminal
+  4000   Institutional or community facilities
+  4001   Public Health Office
+  4100   Medical facility
+  4101   Nursing Home / Long Term Care
+  4102   Hospice
+  4110   Hospital building
+  4120   Medical clinic building
+  4121   Outpatient Clinic
+  4122   Psychiatric Facility
+  4123   Rehabilitation Center
+  4124   Substance Abuse Facility
+  4130   Medical Building (Doctors Office)
+  4150   Dental Office
+  4160   Medical Facilities
+  4161   Diagnostic Laboratory
+  4162   Medical Research Laboratory
+  4163   Medical Stockpile Facility
+  4164   Morgue
+  4170   Other Facilities Medical in Nature
+  4171   Blood Bank
+  4172   Pharmacy
+  4180   Day (Child) Care Facility
+  4190   Veterinary Hospital, Clinic, Facility or buildings
+  4200   School or university buildings
+  4210   Grade school
+  4211   Pre-School
+  4212   Elementary School
+  4213   Junior High / Middle School
+  4214   High School
+  4220   College or university facility
+  4230   Trade or specialty school facility
+  4300   Library building
+
+Structures Standard                                           Page 26 of 34
+
+  4400   Museum, exhibition, or similar facility
+  4410   Exhibitions and art galleries
+  4420   Planetarium
+  4430   Aquarium
+  4440   Outdoor facility, no major structure
+  4441   Marina
+  4450   Zoological parks
+  4460   Arboretum / Botanical Garden
+  4470   Historic Site / Point of Interest / Landmark
+  4471   Lighthouse / Light
+  4472   Lookout Tower
+  4473   National Symbol / Monument
+  4474   National Park Facility
+  4475   Visitor Center / Information Center
+  4476   State Park / Monument / Symbol
+  4477   Private Park / Monument / Symbol
+  4480   Campground Facility
+  4490   Park
+  4491   Picnic Area
+  4500   Public safety-related facility
+  4510   Fire and rescue station
+  4511   Fire training facility/academy
+  4520   Police station / Law Enforcement
+  4521   Federal Law Enforcement
+  4522   State Law Enforcement
+  4523   Local Law Enforcement
+  4530   Emergency operation center
+  4531   Civil Defense
+  4532   Federal Emergency Management
+  4540   Emergency Medical Services
+  4550   Emergency Assistance or Red Cross related facility
+  4600   Jails, penitentiaries, detention centers, and other correctional facilities
+  4610   Law Enforcement and jail, Penitentiary Correctional Facility with Law Enforcement Admin
+  4700   Cemetery, monument, tombstone, or mausoleum
+  4800   Funeral homes and cremation facilities
+  5000   Transportation-related facilities
+  5002   Weigh Station / Inspection Station
+  5003   Toll Booth / Plaza
+  5004   Truck Stop (non-commercial)
+  5005   Snow shed
+  5100   Linear or network feature
+  5110   Pedestrian trail, sidewalks, etc.
+  5111   Trailhead
+
+Structures Standard                                                                          Page 27 of 34
+
+  5120   Bicycle and other nonmotorized paths
+  5130   Highways and roads
+  5131   Principal arterial--interstate
+  5132   Principal arterial--freeway and expressway
+  5133   Other principal arterial
+  5134   Minor arterial
+  5135   Major collector
+  5136   Minor collector
+  5137   Local road
+  5138   Alley
+  5139   Other nonclassified road
+  5140   Highway bridges and tunnels
+  5141   Bridge: Road
+  5142   Tunnel: Road
+  5150   Railroads, including monorails, etc.
+  5151   Bridge: Railroad
+  5152   Tunnel: Railroad
+  5153   Bridge: Light Rail / Subway
+  5154   Tunnel: Light Rail / Subway
+  5160   Waterways
+  5200   Automobile parking facilities
+  5210   Surface parking, open
+  5211   Park and Ride / Commuter Parking, open
+  5220   Surface parking, covered
+  5221   Park and Ride / Commuter Parking, covered
+  5230   Multistoried parking structure with ramps
+  5240   Underground parking structure with ramps
+  5250   Rooftop parking facility
+  5300   Bus stop shelter
+  5400   Bus or truck maintenance facility
+  5500   Water transportation or marine related
+  5501   Boat Ramp / Dock
+  5502   Harbor / Marina
+  5510   Port fuel facility
+  5511   Port fuel facility with anchored tanks, with back-up power
+  5512   Port fuel facility with anchored tanks, without back-up power
+  5513   Port fuel facility with unanchored tanks, with back-up power
+  5514   Port fuel facility with unanchored tanks, without back-up power
+  5515   Port fuel facility with buried tanks
+  5520   Pier, dock, wharf, or jetty
+  5530   Lighthouse
+  5540   Riverboats and other anchored facilities
+  5550   Port storage or warehouse
+
+Structures Standard                                                        Page 28 of 34
+
+  5551   Stationary port handling equipment
+  5552   Rail mounted port handling equipment
+  5553   Port warehouses
+  5560   Port Facility
+  5561   Port Facility: Commercial Port
+  5562   Port Facility: Crane
+  5563   Port Facility: Maintenance and Fuel Facility
+  5564   Port Facility: Modal Transfer Facility
+  5565   Port Facility: Passenger Terminal
+  5566   Port Facility: Warehouse Storage / Container Yard
+  5600   Air and space transportation facility
+  5601   Airport Terminal
+  5610   Runway
+  5620   Airport maintenance and hangar facility
+  5630   Airport control tower
+  5640   Heliport facility
+  5650   Glideport, seaport, stolport, ultralight or baloonport facility
+  5700   Railroad facility
+  5701   Command / Control Facility
+  5702   Freight Loading Facility
+  5703   Roundhouse Turntable
+  5704   Station
+  5705   Light Rail Power Substation
+  5706   Light Rail Station
+  5707   Subway Station
+  5710   Railroad switching facility
+  5720   Railroad sheds and other support structures
+  5790   Space Transportation Facilities
+  5791   Launch Facility
+  5792   Launch Pad
+  6000   Utility and other nonbuilding structures
+  6100   Utility structures on right-of-way
+  6110   Electric lines, phone and cable lines, etc.
+  6111   Distribution circuits with seismically designed components
+  6112   Distribution circuits with standard components
+  6120   Gas and fuel lines
+  6130   Water supply lines
+  6131   Brittle pipelines
+  6132   Ductile pipelines
+  6140   Steam and air conditioning lines
+  6150   Irrigation channels
+  6160   Sewer and waste water lines
+  6161   Brittle pipelines
+
+Structures Standard                                                        Page 29 of 34
+
+  6162   Ductile pipelines
+  6200   Water-supply-related facility
+  6205   Fire hydrant
+  6210   Water supply pump station
+  6211   Pumping plant with anchored equipment < 10 MGD
+  6212   Pumping plant with unanchored equipment < 10 MGD
+  6213   Pumping plant with anchored equipment > 10 MGD
+  6214   Pumping plant with unanchored equipment >10 MGD
+  6220   Dam
+  6221   Earth dam, arch
+  6222   Earth dam, multi-arch
+  6223   Buttress dam
+  6224   Gravity dam, rock fill
+  6225   Gravity dam, concrete
+  6226   Gravity dam, masonry
+  6227   Gravity dam, stone
+  6228   Gravity dam, timber crib
+  6230   Levee
+  6240   Culvert
+  6250   Water tank (elevated, at grade, underground)
+  6251   On-ground anchored concrete tank
+  6252   On-ground unanchored concrete tank
+  6253   On-ground anchored steel tank
+  6254   On-ground unanchored steel tank
+  6255   Above ground steel tank
+  6256   On-ground wood tank
+  6257   Buried concrete tank
+  6260   Water Intake / Wells
+  6261   Well
+  6262   Public Water Supply Intake
+  6263   Public Water Supply Well
+  6264   Private Water Supply Intake
+  6265   Private Water Supply Well
+  6270   Water treatment and purification (WTP) facility
+  6271   WTP with anchored components < 50 MGD
+  6272   WTP with unanchored components < 50 MGD
+  6273   WTP with anchored components 50-200 MGD
+  6274   WTP with unanchored components 50-200 MGD
+  6275   WTP with anchored components > 200 MGD
+  6276   WTP with unanchored components > 200 MGD
+  6277   Pumping station
+  6278   Water System Control facility
+  6280   Water reservoir
+
+Structures Standard                                         Page 30 of 34
+
+  6290   Other irrigation facilities
+  6300   Sewer and waste-related facility
+  6310   Storage or pumping station facility
+  6311   Lift stations with anchored components < 10 MGD
+  6312   Lift stations with unanchored components < 10 MGD
+  6313   Lift stations with anchored components > 10 MGD
+  6314   Lift stations with unanchored components > 10 MGD
+  6320   Landfill facility
+  6321   Waste transfer facility
+  6330   Incinerator, composting, or similar facility
+  6340   Hazardous waste storage facility
+  6341   High-level waste facility
+  6342   Transuranic waste facility
+  6343   Spent fuel facility
+  6344   Low-level waste facility
+  6345   Hazardous materials facility
+  6346   Superfund Site
+  6350   Sewer treatment plant
+  6351   Wastewater Treatment Plant (WWTP) with anchored components < 50 MGD
+  6352   WWTP with unanchored components < 50 MGD
+  6353   WWTP with anchored components 50-200 MGD
+  6354   WWTP with unanchored components 50-200 MGD
+  6355   WWTP with anchored components > 200 MGD
+  6356   WWTP with unanchored components > 200 MGD
+  6400   Gas or electric power generation facility
+  6410   Gas storage and distribution facility
+  6411   Natural Gas Facility
+  6412   Oil/Gas Facility
+  6413   Oil/Gas Well or Field
+  6414   Oil/ Gas Extraction or Injection Well
+  6415   Oil / Gas Pumping Station
+  6416   Oil / Gas Refinery
+  6417   Oil / Gas Processing Plant
+  6418   Oil / Gas Storage Facility / Tank Farm
+  6419   POL Storage Tank
+  6420   Gas compressor stations
+  6421   Gas compressor stations with anchored components
+  6422   Gas compressor stations with unanchored components
+  6430   Power generation plants
+  6431   Power plants with anchored components < 100 MW
+  6432   Power plants with unanchored components < 100 MW
+  6433   Power plants with anchored components > 100 MW
+  6434   Power plants with unanchored components >100 MW
+
+Structures Standard                                                            Page 31 of 34
+
+  6440   Electric substation and distribution facility
+  6441   Low-voltage (115 KV) substation with anchored components
+  6442   Low-voltage (115 KV) substation with unanchored components
+  6443   Medium-voltage (230 KV) substation with anchored components
+  6444   Medium-voltage (230 KV) substation with unanchored components
+  6445   High-voltage (500 KV) substation with anchored components
+  6446   High-voltage (500 KV) substation with unanchored components
+  6450   Geothermal facility
+  6460   Solar and other forms of energy facility
+  6461   Hydroelectric Facility
+  6462   Waste / Biomass Facility
+  6463   Tidal Facility
+  6470   Nuclear Power Facility
+  6480   Wind Facility
+  6490   Coal Facility
+  6500   Communication Facility
+  6501   Radio / TV Broadcast facility
+  6502   Data Center
+  6503   Satellite Ground Station
+  6504   Telephone Facility
+  6505   Internet Service Provider
+  6510   Radio, TV, or wireless transmitter
+  6520   Weather stations or transmitters Facilities
+  6521   Warning Center
+  6522   Weather Data Center
+  6523   Weather Forecast Office
+  6524   Weather Radar Site
+  6525   Weather station or transmitter
+  6530   Communications Services
+  6531   Internet DNS Location / Other Node
+  6532   Internet Metro Area Exchange / Hub
+  6540   Other Communications Tower
+  6600   Environmental monitoring station (air, soil, etc.)
+  6700   Sign or billboard
+  6800   Mining and related activities
+  6810   Mine Waste Disposal Site
+  6820   Mine Uranium Facility
+  6830   Ore Processing Facility
+  6900   Other miscellaneous structures
+  6910   Kiosks
+  6920   Roadside stand, pushcarts, etc.
+  6930   Highway rest stops and welcome centers
+  6940   Playground equipment
+
+Structures Standard                                                      Page 32 of 34
+
+  6950   Fountain, sculpture, etc.
+  6970   Outdoor stage, bandstand, or similar structure
+  7000   Specialized military structures
+  7040   Military weapons station
+  7041   Nuclear Weapons Facility
+  7042   Nuclear Weapons Plant
+  7100   Joint services facility
+  7200   Air Force facility
+  7300   Army and marine corps facility
+  7400   Naval facility
+  7410   Naval installation
+  7420   Weapons station
+  7430   Submarine base
+  7450   Training center
+  7460   Communications station
+  7470   Supply center
+  7480   Reserve station
+  7500   Armory building
+  7600   Coast Guard Facility
+  7700   Homeland Security Facility
+  7800   National Guard Facility
+  7900   Strategic Petroleum Reserve
+  8000   Sheds, farm buildings, or agricultural facilities
+  8000   Sheds, farm buildings, or agricultural facilities
+  8000   Sheds, farm buildings, or agricultural facilities
+  8010   Agricultural Maintenance Facility
+  8020   Agricultural storage facility
+  8021   Agricultural storage / shed, not enclosed
+  8022   Agricultural storage / shed, enclosed
+  8100   Grain silos and other storage structure for grains and agricultural products
+  8200   Livestock facility
+  8200   Livestock facility
+  8210   Dairy facility
+  8220   Poultry facility
+  8230   Cattle facility
+  8240   Stables and other equine-related facilities
+  8241   Portable stable
+  8242   Indoor riding arena (facility which allows indoor equine riding, not necessarily events)
+  8300   Animal feed operations facility
+  8310   Confined feedlot facility
+  8400   Animal waste-handling facility
+  8410   In ground silos
+  8420   Waste lagoons
+
+Structures Standard                                                                                 Page 33 of 34
+
+  8430   Concrete storage units, covered
+  8440   Concrete storage units, uncovered
+  8450   Composting facility
+  8500   Greenhouses
+  8600   Hatcheries
+  8610   Fish Hatchery / Farm Buildings
+  8620   Fish Hatchery / Farm ponds
+  8630   Fish ladder
+  8700   Kennels and other canine-related facilities
+  8800   Apiary and other related structures
+  8900   Other farm and farming-related structures
+  9000   No structure
+  9100   Not applicable to this dimension
+  9200   Unclassifiable structure
+  9300   Subsurface structures
+  9900   To be determined
+  9990   To be determined
+  9999   To be determined
+
+Structures Standard                                    Page 34 of 34

@@ -1,0 +1,95 @@
+Idaho Technology Authority (ITA)
+
+ENTERPRISE STANDARDS – S3000 NETWORK AND
+TELECOMMUNICATIONS
+
+Category:    S3540 – NETWORK CONNECTIVITY AND TRANSPORT – LAN
+             BACKBONE
+
+CONTENTS:
+I.    Definition
+II. Rationale
+III. Approved Standard(s)
+IV. Approved Product(s)
+V. Justification
+VI. Technical and Implementation Considerations
+VII. Emerging Trends and Architectural Directions
+VIII. Procedure Reference
+IX. Review Cycle
+X. Contact Information
+      Revision History
+
+I. DEFINITION
+
+   A Local Area Network (LAN) backbone is the infrastructure used to support an extended
+   LAN campus. A LAN is used to link computers and/or peripherals in a limited area,
+   usually less than two (2) miles. A LAN allows users to communicate and share
+   information, data, and applications.
+
+II. RATIONALE
+
+   Idaho State government must be able to easily, reliably, and economically communicate
+   data and information to conduct State business. LAN backbones are endorsed by ITA
+   for use in State government local area network campuses. The standards
+   recommended by the Institute of Electrical and Electronics Engineers (IEEE) are
+   recognized as the primary standards for LAN backbones.
+
+III. APPROVED STANDARD(S)
+
+   1. 100BaseT – Ethernet (IEEE 802.3);
+
+   2. 1000BaseT – Ethernet (IEEE 802.3); and
+
+   3. ATM.
+
+S3540 – Network Connectivity and Transport – LAN Backbone                      Page 1 of 2
+
+IV. APPROVED PRODUCTS(S)
+
+   Standards-based products and architecture
+
+V. JUSTIFICATION
+
+   Products and LAN backbone implementations must conform to one of the approved
+   standards. Future products and LAN backbone implementations should conform to
+   Ethernet (IEEE 802.3) and ITA Standard 3510 – Network Connectivity and Transport –
+   Local Area Network.
+
+VI. TECHNICAL AND IMPLEMENTATION CONSIDERATIONS
+
+   The deployment of a Local Area Network Backbone is a complex task that requires
+   skilled resources. It is also important to carefully consider the security implications of the
+   deployment, administration, and operation of a LAN backbone.
+
+VII. EMERGING TRENDS AND ARCHITECTURAL DIRECTIONS
+
+   Recent trends indicate increasing use of Ethernet (IEEE 802.3) technologies in Local
+   Area Network backbone implementations.
+
+VIII. PROCEDURE REFERENCE
+
+   Network Connectivity and Transport – LAN Backbone used on the State of Idaho’s Wide
+   Area Network must comply with the Department of Administration’s “P3020 –
+   Connectivity and Transport Protocols.”
+
+IX. REVIEW CYCLE
+
+   Twelve (12) Months
+
+X. CONTACT INFORMATION
+
+   For more information, contact the ITA Staff at (208) 605-4064.
+
+REVISION HISTORY
+
+07/01/13 – Changed “ITRMC” to “ITA”.
+
+6/16/09 – Added Procedure Reference and deleted Timeline
+
+9/13/06 – Section VIII, Review Cycle, updated to reflect 12-month review rather than 6-
+          month review. Warranted due to well established industry standard that is not
+          likely to change in the near future.
+
+          Effective Date: April 24, 2002
+
+S3540 – Network Connectivity and Transport – LAN Backbone                             Page 2 of 2

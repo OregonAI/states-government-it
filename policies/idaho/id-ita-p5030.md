@@ -1,0 +1,978 @@
+---
+schema_version: 1
+corpus: states-government-it
+jurisdiction: idaho
+id: id-ita-p5030
+title: P5030 – Framework Standards Development Policy
+doc_type: policy
+citation: ITA Policy P5030
+authority_level: ''
+issuing_body: Idaho Technology Authority (ITA)
+source_url: https://ita.idaho.gov/wp-content/uploads/2025/07/p5030-ADA.pdf
+source_format: pdf
+retrieved: '2026-11-11'
+source_sha256: 8289c879808b3acf29868f00e31e98111812dea694d1707bc9479d1118bf17ba
+effective_date: '2009-09-01'
+source_version: ''
+status: current
+content_mode: verbatim
+conversion_notes: Text extracted with pdftotext -layout (page headers, footers and column layout kept
+  as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their
+  letters).
+last_verified: ''
+verified_by: ''
+maintainer: ''
+relationships:
+  implements: []
+  implemented_by: []
+  references_external: []
+  related: []
+  supersedes: []
+tags:
+- data
+---
+
+> **NON-AUTHORITATIVE.** This is a convenience copy for machine reading. The official text is published at the source URL above. Verify at source before relying on it.
+
+# P5030 – Framework Standards Development Policy (ITA Policy P5030)
+
+## At a glance
+
+Item of the ITA statewide policies, standards and guidelines library (ita.idaho.gov/policies), category '5000 - Information and Data, Policies', a policy. The library's own summary: "ITA Policy P5030 sets the process for developing framework standards, ensuring consistency and compliance across Idaho’s spatial data infrastructure."
+
+## Full text
+
+Idaho Technology Authority (ITA)
+
+INFORMATION AND DATA POLICY – P5000
+
+Category:     P5030 – Framework Standards Development Policy
+
+CONTENTS:
+I.   Authority
+II. Abstract
+III. Definitions
+IV. Policy
+V. Exemption Process
+VI. Procedure Reference
+VII. Contact Information
+     Revision History
+     Appendix A: Framework Technical Working Groups Evaluation Criteria
+     Appendix B: Standards Taxonomy
+     Appendix C: Standards Outline
+     Appendix D: Coordinating Groups Referenced and Defined
+
+I. AUTHORITY
+
+Authority: Idaho Code § 67-833
+
+Idaho statute states, in part, “the Idaho Technology Authority shall:
+
+   Within the context of its strategic plans, establish statewide information technology and
+   telecommunications policies, standards, guidelines, conventions and comprehensive risk
+   assessment criteria that will assure uniformity and compatibility of such systems within
+   state agencies;”
+
+II. ABSTRACT
+
+   This policy sets forth the process for development standards for Framework and a
+   template for those standards developed under this policy. This policy builds on ITA
+   Policy P1070 “Geographic Information Systems,” section IV(2).
+
+III. DEFINITIONS
+
+   See ITA Guidelines G105 (ITA Glossary of Terms) for definitions.
+
+P5030 – Framework Standards Development                                        Page 1 of 22
+
+IV. POLICY
+
+   1. Introduction
+      Idaho must develop and share commonly needed spatial information about
+      geographic features in our state. This base map information is called Framework. A
+      national program encourages the development of Framework by each state, along
+      with the ability to maintain and share it. Together, this capability is referred to as a
+      spatial data infrastructure (SDI). Idaho has developed strategic and business plans
+      for its SDI, and one of the initiatives is to establish a policy for developing Framework
+      standards. This policy provides a process and a template for Framework standards.
+      This process and the resulting standards will make the development, sharing and use
+      of Framework more efficient and less expensive.
+      Framework in Idaho will be a consistent, standardized set of digital spatial data that:
+       •   provides a general mapping platform to which additional attribute information can
+           be attached,
+       •   provides a stable mapping platform on which business processes can depend,
+       •   provides a base map on which an organization can accurately register and compile
+           other themes of data, such as zoning, delivery routes, business types, noxious
+           weeds, and
+       •   links the results of an application to the landscape.
+      Benefits from the development of Framework include reduced expenditures for data,
+      increased ease of obtaining and using data collected by others, accelerated
+      development of critical applications, more customers for data products linked to
+      Framework, and improved decision-making. Expected benefits are detailed in the
+      GIS Strategic Plan posted at https://gis.idaho.gov.
+      This policy is intended to direct the creation of standards for Framework that closely
+      parallels Framework development in the rest of the country. The national effort is
+      guided by the National Geospatial Program Office, which includes the Federal
+      Geographic Data Committee, The National Map and data.gov at
+      https://www.data.gov/geospatial/ working together to deliver the National Spatial Data
+      Infrastructure.
+
+   2. Framework Standards Goals
+      Framework standards increase interoperability among automated geographic
+      information systems. A major objective of these standards is the development of a
+      statewide digital spatial information resource (Idaho’s SDI) with the involvement of all
+      data users, including but not limited to, utilities, academia, private sector, federal,
+      state, tribal, regional, and local governments. Idaho’s Framework, integrated by
+      policies and standards, will enable sharing and efficient transfer of Framework
+      between producers and users. Enhanced coordination will build information
+      partnerships among government institutions and the public and private sectors,
+      avoiding wasteful duplication of effort and ensuring effective and economical
+      management of information resources in meeting essential user requirements.
+
+P5030 – Framework Standards Development                                           Page 2 of 22
+
+   3. Standards Development and Approval Process
+      To begin, each Framework Technical Working Group will conduct research to
+      determine if a national standard or other state standard exists that will serve as a
+      model for Idaho. Drafting and reviewing are iterative. A key element is the
+      presentation of each proposed standard to the GIS community at a semiannual Idaho
+      Geospatial Council Meeting.
+
+      The standards process will be inclusive, and the standards will be driven by the
+      needs of the business purposes they support. When the GIS community has
+      developed a standard using the process, and after it is established by the Idaho
+      Technology Authority (ITA), it will be mandated for state agencies and academic
+      institutions and strongly recommended for adoption and use by other levels of
+      government and the private sector.
+
+      The Idaho Geospatial Committee (IGC) is mandated by a Governor’s Executive
+      Order 2006-05 to develop geographic information guidelines and standards to be
+      approved by the ITA. This mandate is reiterated in ITA Enterprise Policy P1070
+      “Geographic Information Systems” and echoed in ITA Enterprise Guideline G420
+      “Roles of GIS Participants.” The following standards development and approval
+      process has been agreed upon by the IGC:
+
+      Formulation and Refinement
+      1. New Standards will be proposed by one of the following as the Initiating Authority:
+              a. A Framework TWG (if one exists) under its responsibility to identify existing
+                  standard(s) appropriate to its theme, or
+              b. In the absence of a relevant Framework TWG, an Authoritative Data
+                  Steward with authoritative control (ability to provide appropriate validation of
+                  data) over a relevant theme data set
+      2. The initial draft of a data standard will be written
+              a. TWG chair and members, or Data Steward, compiles the initial draft. The
+                  IGC-EC may recommend tools and/or templates to facilitate creation of the
+                  initial draft. Recommended tool(s) will help develop the required parts of the
+                  standard, will ensure they are captured correctly, and may provide standard
+                  verbiage around the different sections of the standard in its initial draft.
+              b. TWG leadership and members, or the Data Steward along with other
+                  interested parties, will meet to review the draft and provide input on the
+                  proposed data standard.
+              c. The Initiating Authority will ensure that the initial draft is as complete as
+                  possible, adhering to the approved guidelines and to the required tests for
+                  standards outlined in this document.
+              d. All drafts (and appropriate attachments) will be written and submitted as
+                  electronic files (MS Word, PDF, MS Excel (if needed), Publisher, etc.) that
+                  are readable on a standard State PC
+      3. The initial draft will be reviewed and approved by the Initiating Authority who will
+         move it forward to the Review and Approval phase
+P5030 – Framework Standards Development                                           Page 3 of 22
+
+      Review and Approval
+      1. The initial draft of the proposed standard will be sent to the IGC for a period of 14
+         days (2 weeks) for review
+        a. Comments and proposed edits will be sent to the Initiating Authority during the
+           review period
+      2. At the end of the review period, the Initiating Authority will assess all responses and
+         determine if the proposed edits are considered “minor” or “major”. Based on his/her
+         decision, the following steps will follow:
+        a. Major edits
+                 i. The Initiating Authority will return to the TWG or the interested parties who
+                    contributed to the initial draft, to review and consider the proposed edits.
+                    They will incorporate edits as appropriate and re-test to ensure all
+                    requirements and guidelines in this document are met
+                ii. The updated draft will again be sent to the IGC for 14 days (2 weeks) for
+                    review and comment. The process will continue again with step 2 above,
+                    and iteratively until it is determined that only “minor” edits (or no additional
+                    edits) are needed
+        b. Minor edits
+                 i. The Initiating Authority will apply the minor edits to the document and ask
+                    their draft team to review and approve
+      3. The Initiating Authority will send the final draft to the Chair of the IGC-EC for
+         presentation to the IGC-EC and for a vote to approve
+        a. Vote of “Not Approved”
+                 i. Should only result due to the need for major edits to the proposed standard
+                ii. The IGC-EC will provide the Initiating Authority with a written response of
+                    the reason(s) for the non-approval. This response should include details for
+                    the rejection and all proposed changes/updates to make the standard
+                    acceptable to be adopted as an approved data standard
+               iii. The draft is returned to the Initiating Authority for further work and review
+                    and the document is returned to step 2.b under “Formulation and
+                    Refinement” above
+        b. Vote of “Approved” (with or without minor edits)
+                 i. The new standard is presented to the ITA and is posted to the ITA
+                    documents site
+                ii. The new standard is announced to the State GIS community at large using
+                    the appropriate listserv(s) and recommended for adoption
+               iii. Response to questions and training are provided by the TWG or
+                    Authoritative Data Steward (as needed)
+      The flowchart below (Figure 1) depicts the drafting and approval phases.
+
+P5030 – Framework Standards Development                                            Page 4 of 22
+
+                                                           FIGURE 1
+
+                                                          Develop first draft
+                                                          of standard (tools/
+                                                          templates may be
+                                                           used if available)
+
+                                                                                            Initial draft of
+                                                                                          standard created
+
+                                                           Discuss & update
+                                                          standard in TWG or
+                                                            by Authoritative
+                                                             Data Steward
+
+                                                             Send draft of
+                                                          standard out to IGC
+                                                           for 2-week review
+                               No &
+                               Major
+                               Edits
+
+                                                             Edits required?
+
+                                                                  Major
+                                                                  Edits
+
+                                                                                 Minor
+                                                                 Next draft
+                                                                                 Edits
+                                                                 generated
+                                                                                Or None
+
+                                                         Draft presented and
+                            Approved?
+                                                         voted on by IGC-EC
+
+                               Yes
+
+•   New standard presented to the ITA and is posted to the ITA
+    documents site
+
+•   Announce new standard to GIS community at large and
+    recommend for adoption
+
+•   Respond to questions and/or provide training as needed
+
+P5030 – Framework Standards Development                                                                        Page 5 of 22
+
+4. Standards Classification
+The following table identifies the standards necessary for optimal Framework development. A few have been
+established; the balance will be developed.
+
+                                    Table of Standards Classification
+Data Usability and Transfer Standards
+                                                 Documents data sets, describing content, history,
+ Content Standard for Geospatial Metadata
+                                                 accuracy, quality, and other characteristics of data
+                                                 Defines a particular means for representing the three-
+ Projection and Datum Standard
+                                                 dimensional Earth on a two-dimensional map surface
+                                                 Defines a particular methodology and protocol for
+ Archival Standard
+                                                 archiving data as updates are made incrementally
+
+Data Content or Exchange Standards
+ Geodetic Control                              Basic reference for all spatial data
+
+                                               Positional reference and land ownership information
+ Cadastral (property ownership)
+                                               fundamental to a modern land records system
+
+ Governmental Units                            Widely used district, service, and government boundaries
+
+                                               Situs addresses, emergency service zones, critical
+ Public Safety
+                                               infrastructure
+                                               Statewide road centerline network and related features,
+ Transportation
+                                               trails, airports, railroads and intermodal transfer facilities
+                                               Georeferenced images from photography or remote
+ Digital Orthoimagery
+                                               sensing on a recurring schedule
+
+                                               Digital elevation model of referenced vertical positions
+ Elevation
+
+ Hydrography                                   Surface water network and other surface water features,
+                                               watersheds
+ Geoscience                                    Geology and soils
+
+ Bioscience                                    Wetlands, wildlife habitat, ecoregions, fish distribution
+
+                                               Generalized land cover, local land use, surface
+ Land Use / Land Cover
+                                               management
+                                               Floods, earthquakes, avalanches, wildfires
+ Hazards
+                                               Historic precipitation, snowfall, temperature ranges
+ Climate
+                                               Major facilitates and transmission lines for natural gas,
+ Utilities                                     electricity, fuel, broadband, service areas
+
+P5030 – Framework Standards Development                                                         Page 6 of 22
+
+5. Standards Development Format and Context
+       The objectives of this section of the Framework Standards Development Policy are threefold:
+       •   to guide the overall process for creating and adopting Framework standards
+       •   to further the Idaho Spatial Data Infrastructure vision for Framework development
+       •   to provide a template for the development of Framework standards.
+
+The remainder of this document offers specific guidance on the formulation of Framework standards. Each
+data standard may contain recommended data characteristics that vary from these Guidelines based on the
+theme expertise within the group tasked with developing a particular standard. Data content standards and
+data exchange standards are permissible. Appendix A contains evaluation criteria, Appendix B sets forth a
+standards taxonomy modified from the FGDC Standards Reference Model, Appendix C specifies an outline for
+standards documents, and Appendix D lists and briefly describes the entities referenced in this policy.
+
+       A. Expectations
+       Statewide standards support the Idaho Framework and the Idaho SDI vision. There are several
+       expectations for Framework standards:
+       Within SDI Scope – Framework standards will be within the scope of the vision and goals of the Idaho
+       Spatial Data Infrastructure Strategic Plan and the goals and objectives of the IGC. The standards
+       must relate to Framework, cover appropriate topical areas, and standardize either data or processes
+       to advance data sharing and minimize duplication of effort.
+       Future Focused – Future focused means that data standards are intended to remove impedances to
+       sharing information rather than changing existing successful data sharing arrangements. Framework
+       standards should be developed to promote new and enhanced interaction with existing coordinating
+       mechanisms, such as IGC, that have interest in the generation, collection, use, and transfer of spatial
+       data.
+       Structured – Framework standards need to be developed and presented in a structured manner that
+       will lead to understandability and usability. This guideline provides minimal guidance for
+       development and documentation of standards. There are many structured methodologies that can
+       be employed by standards developers that will lead to complete and understandable standards. This
+       guideline does not specify a development methodology.
+       Technology Independent – Framework standards will not be developed or implemented in a way
+       that limits the use of new and emerging technologies. To maximize use of the standard, they also will
+       not be written or implemented in a way that limits any vendor or technology.
+       Integrated – Framework standards will be integrated with one another and with related standards.
+       This means there will not be overlapping definitions, authorities or procedures. Standards
+       development will be coordinated to eliminate duplicate efforts and to maximize the efforts of the
+       volunteers contributing to and implementing standards. Framework standards will lead to an
+       integrated Framework for Idaho.
+       Evolving – Framework standards will be written to allow for evolution and will accommodate
+       backward compatibility for information gathered under previously known standards. Update and
+       maintenance procedures will be timely and responsive to changes. The procedures will be
+       documented as a part of the standards development process.
+
+P5030 – Framework Standards Development                                                        Page 7 of 22
+
+      Supportable – Framework standards must be supportable by the spatial vendor community. They will
+      be developed in a manner that is supportable by known or emerging technology.
+      Publicly Available – Framework standards will not be developed from copyrighted or proprietary
+      standards that would limit the ability of the final standard to be publicly available. They will not
+      contain any copyrights or other limitations on their use or reproduction. Framework standards will
+      be available digitally and via the Internet.
+      Complete and Consistent – Framework standards will be complete in terms of the standards
+      components and methodology described in this guideline. They will have a consistent form and
+      format.
+
+      B. Framework Standards Format
+      The following guidelines with regard to format will apply to all data standards developed and
+      promulgated through the activities of the Idaho Framework Team (IFT) and the Idaho Geospatial
+      Committee or its successor:
+          •   Framework standards will have a title page that includes the title of the standard, the
+              responsible Framework TWG or other subcommittee, and contact information including postal
+              and e-mail addresses.
+          •   Framework standards will have a table of contents. Pages will be numbered and dated.
+          •   Framework standards will contain an introduction that describes the following:
+               o   Mission and Goals of Standard
+               o   Relationship to Existing Standards
+               o   Description of Standard
+               o   Applicability and Intended Uses of Standard
+               o   Standard Development Procedures
+                     Participants
+                     Comments and Reviews
+               o   Maintenance of the Standard
+          •   The body of the standard will follow the introduction.
+               o   The body of the standard will address all topics in the technical/operational subsection of
+                   this guideline.
+               o   If specific topics are not applicable to an individual data theme, describe why that topic
+                   does not apply.
+               o   Individual standards may necessitate additional technical/operational topics not
+                   articulated in this guideline.
+               o   The data characteristics of any individual standard may vary from those indicated in the
+                   data characteristics subsection of this guideline.
+               o   Every standard should contain a minimum set of graphic and attribute data elements.
+               o   Each standard may include an optional set of graphic and attribute data elements.
+
+P5030 – Framework Standards Development                                                       Page 8 of 22
+
+          •   References will be listed in a separate section.
+          •   The Idaho Framework Team will receive digital copies of the standard from the working group
+              in Microsoft Word format. Digital versions shall be made available at the webpage maintained
+              by the Idaho Geospatial Office in PDF format at http://gis.idaho.gov.
+
+      Standards will also address the following topics:
+          •   Content
+              Identify what is being standardized and the scope of the standard.
+          •   Need
+              Identify why this standard is being proposed, describing as much as possible the benefits of
+              developing the standard and the consequences of not developing the standard.
+          •   Participation
+              Identify participating agencies or organizations and methods that were used to assure a
+              collaborative development process.
+          •   Integration
+              Describe the relationship of this standards proposal to ongoing data standards efforts and
+              existing data standards. If there are relationships with other existing standards, identify both
+              the standard and the relationship.
+
+      C. Framework Standards Technical and Operational Context
+      The following discussion establishes the context within which Framework standards for Idaho will be
+      developed. Each of the issues below plays an important role in the direction of standards
+      development and will be addressed as appropriate within the content of individual standards. At a
+      minimum, each standard should be checked against all of the following issues to ensure that each
+      issue has been addressed.
+
+      Data Environment
+      Access to a published version of data sets (current and past versions) by information networks and
+      digital media should be supported. Users will be able to find Framework data through Idaho’s spatial
+      data clearinghouse, INSIDE Idaho, where all Framework metadata will be accessible. It may be
+      appropriate for some data sets to be stored and maintained in a distributed environment. In that
+      case, appropriate arrangements must be made to provide real-time data access.
+
+      Reference Systems
+      Use of a common means of referencing coordinate positions on the Earth is essential to allow data
+      from various sources and different geographic locations to be integrated. In addition, to be used as
+      the locational framework for other thematic data, the reference system must be well established,
+      clearly specified, and consistent with national and world use. Framework will be available in Idaho’s
+      standard reference system, IDTM. Idaho Framework should support the use of a single consistent
+      datum for referencing horizontal coordinate information and a single consistent datum for
+      referencing vertical coordinate information. In addition, support should be given to efforts toward
+      converting existing data to the most current realization of horizontal and vertical datum where such
+      conversion is feasible and of value. As of this writing, the most current realization for horizontal
+
+P5030 – Framework Standards Development                                                        Page 9 of 22
+
+      coordinates is the North American Datum of 1983 (NSRS 2007); for vertical coordinates it is the North
+      American Vertical Datum of 1988.
+
+      Interdependence of Themes
+      Framework themes are often interdependent, and all Framework themes should spatially register
+      vertically and be able to be used together without additional processing. Making sure
+      interdependencies are identified and adequately treated in the standard will greatly assist vertical
+      integration and ultimate use.
+
+      Encoding
+      Framework should be encoded using vector or raster data models as appropriate to theme and
+      feature content. Raster data models are appropriate for image data; vector data models for geodetic
+      control, transportation, hydrography, governmental units, parcels, soils, geology, etc. Vector-based
+      spatial objects must conform to topological rules.
+
+      Resolution
+      To meet the different needs of users, Framework in Idaho should support data at varying resolutions.
+      Multiple resolutions of the same data theme (for example, land use data at different levels of
+      generalization and having positional accuracies of 50, 10, and 1 meter) may exist for any given
+      location. Where practical, and where suitable higher resolution data exist, the lower resolution data
+      may be generalized from the higher resolution data. The data should be generalized according to a
+      standardized set of rules for each theme. Alternate rule sets may be needed for a broad range of
+      generalization.
+
+      Accuracy
+      Accuracy considerations are critical for data interoperability. The accuracy of any particular dataset
+      should be appropriate for the applications for which it is used. The accuracy, at whatever level, must
+      be documented in the metadata according to the Geospatial Metadata Standard.
+
+      Edge Matching
+      As a general principle, metric seamlessness is highly desirable. However, the accuracy of metric
+      positions of data to be integrated from various sources should not be compromised to achieve metric
+      seamlessness. For example, if a road crosses the boundary of two (otherwise equivalent) data sets
+      from two different sources, the positions of the road at the common edge should be metrically
+      joined only if it can be achieved within the positional accuracy of the dataset and according to the
+      stewardship plan and standard operating procedures.
+      If it is not possible to achieve metric seamlessness within the positional accuracy of the datasets, the
+      disjoint lines that represent the location of the road should instead be associated through a common
+      attribute feature, resulting in "logical seamlessness." The coding schemas necessary for such logical
+      seamlessness should follow the schemas currently under development at the national level. Data
+      producers should be encouraged to work with those in adjoining jurisdictions to align their data, such
+      as agreement points for road networks.
+
+      Unique Identifier
+      To allow maintenance of users' existing data investments, to minimize the effort required to
+      integrate data from various sources, and to link data represented at different resolutions, a
+      consistent method of identifying units of data is needed. To achieve these advantages, Idaho
+
+P5030 – Framework Standards Development                                                        Page 10 of 22
+
+      Framework will employ a model of geographic reality that utilizes the concept of a 'feature,' which is
+      a geographic entity (for example, a road) at or near the Earth's surface. Each occurrence of a feature
+      will be assigned a unique, permanent feature identifier. A feature will be linked to spatial objects
+      (such as points, lines, and polygons) to identify its location.
+      The unique feature identifier:
+      •   provides users a "key" through which they can associate geographic data from various sources to
+          their own attribute data
+      •   serves as a tracking mechanism for performing transactional updates
+      •   provides a link among representations of a feature at different resolutions and across different
+          areal extents.
+      Once assigned, the permanent code will change only in extraordinary circumstances and following a
+      standardized, documented process.
+
+      Attributes
+      When a feature is captured in digital form, it may be further described by a set of attributes and
+      relationships. Attributes define the feature's characteristics; examples include name and function.
+      Relationships may be defined to express interactions that occur between features, such as flow in a
+      river system or connectivity in a transportation network.
+
+      Stewardship
+      Keeping Framework managed throughout its lifecycle is an essential component to Framework.
+      Include a summary of the stewardship approach. Reference a stewardship plan or include an
+      estimated timeline for plan completion.
+
+      Records Management and Archiving
+      Past versions of Framework datasets will be retained and made accessible so that information is
+      available for historical or process studies. Provide an approach for versioning or time-stamping past
+      versions and specify the entity responsible for storage and access. Details will be provided in the
+      stewardship plan.
+
+      Metadata
+      Metadata detailing the characteristics and quality of Framework must be provided with each dataset.
+      Metadata will conform to the Geospatial Metadata Standard, which follows the Federal Metadata
+      Content Standard, version 2. A user will be able to access metadata for all Framework datasets easily
+      and reliably.
+
+      D. Framework Standards Maintenance
+      As standards are endorsed and implemented, they become living documents needing periodic review
+      by the community of data sources and consumers. Each aspect must remain fully relevant, workable
+      and serving the intended purpose. Depending on the nature or number of changes identified, two
+      approaches are available.
+
+P5030 – Framework Standards Development                                                       Page 11 of 22
+
+      Minor Amendments
+      What is a minor amendment? Here are some examples:
+      1. Clerical changes providing clarity, correction, or consistency.
+      2. One or two details of process or data model designed to improve existing product orresult.
+      3. Changes in organization, paragraph headings, terminology or legal or bibliographic reference.
+      The process for a minor amendment is set forth below:
+      1. Discuss issues and proposed changes with the appropriate FTWG group.
+      2. Incorporate recommended changes into existing standard, indexing the version number (minor
+         update would index the number after the dot, e.g., v1.3 to v1.4), with a notation in the revision
+         history. Preserve changes or describe them with sufficient specificity.
+      3. The revised standard will then be published on IGO’s standards Web page. IGO and the relevant
+         FTWG will announce the publication by posting messages to all the relevant listservs for a period
+         of at least 30 days. During this period, comments and suggestions will be collected by the contact
+         listed on the standard, usually the FTWG Chair. If none are submitted, the standard will be posted
+         without further process.
+      4. If comments or suggestions are received, they will be brought to the relevant FTWG for
+         consideration and possible incorporation. Any changes trigger another publication and comment
+         period. Repeat as necessary until consensus is reached. At this time, the updated standard will be
+         posted without further process.
+
+      Major Amendments
+      A substantive update encompasses all updates that cannot be categorized as minor. Examples
+      include changing exchange formats, making significant changes to a data model, adding to the list of
+      minimum attributes or changing optional items to required items.
+      When making substantive changes to a standard, follow the process set forth below:
+
+      1. Discuss issues and proposed changes with the appropriate FTWG. Make an effort to include
+         additional participants from under-represented groups. This step will result in recommended
+         changes.
+      2. Incorporate changes into existing standard, indexing the version number (major update would
+         index the number before the dot, e.g., v1.3 to v2.0), with a notation in the revision history.
+         Preserve changes for ease of review.
+      3. Publish the revised standard on the GIS community standards Web page (http://gis.idaho.gov).
+      4. IGO and the appropriate FTWG will announce the publication by posting messages to all the
+         relevant listservs for a period of at least 45 days. During this period, comments and suggestions
+         will be collected by the contact listed on the standard, usually the FTWG chair.
+      5. Any comments or suggestions will be brought to the relevant FTWG for consideration and possible
+         incorporation. If further changes are made, this triggers another publication and comment period.
+         Repeat as necessary.
+      6. When consensus is reached, the updated standard will be presented to the GIS community for
+         consensus approval. Thereafter, it will be placed on the IGC agenda for approval and
+         recommended adoption at the next ITA meeting.
+
+P5030 – Framework Standards Development                                                     Page 12 of 22
+
+      Revision History
+      The practices below will assist the preservation of revision history and clarify the implementation
+      details.
+      Pre-approval Revision History
+      When developing a standard for the first time, track revisions to the draft on the title page. Begin
+      with version 0.1. Preface the revision history items with “Pre-approval Revision History” on the title
+      page. Whenever practicable, the list of revisions will coincide with the version number of the draft
+      standard document (0.2, 0.3, etc.). Use the pre-approval revision history to describe the
+      development of the standard in the appropriate paragraph of the document (usually section 1.5).
+      Post-approval Revision History
+      After ITA approves a standard for the first time, the version becomes 1.0. A statement reflecting that
+      fact replaces the pre-approval revision history on the title page: “Established by the Idaho
+      Technology Authority on [date].”
+      Subsequent amendments (minor or major) will index the version number as set forth in the
+      Framework Standards Maintenance section above. Capture the revision history for major updates on
+      the title page. Revision history for minor amendments may be captured on the title page but should
+      be identified as such. Add additional date(s) of establishment to the title page when appropriate.
+      Describe the process for major amendments in the standard development paragraph to keep it
+      current.
+      It may be necessary to sweep or consolidate revision history as histories lengthen. Alternatively,
+      revision history may be preserved in an appendix to the standard.
+
+V. EXEMPTION PROCESS
+
+   There is no exemption process. Other governments and stakeholder groups are strongly
+   encouraged to adhere to this policy.
+
+VI. PROCEDURE REFRENCE
+
+   Standards for GIS are contained in the ITA Enterprise Standards section 4000 – GIS
+   Data. ITA Guideline G420 outlines the roles of the various participants involved in
+   statewide GIS activities.
+
+VII. CONTACT INFORMATION
+
+   For more information, contact the Geospatial Information Officer at (208) 605-4052.
+
+REVISION HISTORY
+
+   03/31/2021 -       Created new process to develop, review, and approve GIS Data
+                      Standards; streamlined creation and approval process, removing
+                      redundant steps.
+
+   01/21/2020 -       Updated Section 3, Formulation & Refinement and Review &
+                      Approval. Updated Figure 1.
+
+   12/04/2019 –       Updated Section IV. Policy, Item 3 ‘Standards Development and
+P5030 – Framework Standards Development                                                        Page 13 of 22
+
+                    Approval Process’ with current terminology and the related flow chart
+                    named Figure 1. Updated Appendix D; removed obsolete groups
+                    (Idaho Framework Team); Updated Group Names and Descriptions;
+                    NGP, IGC, and IGC-EC.
+
+   05/16/19 –       Removed individual definitions and replaced with reference to ITA
+                    Guideline G105 (ITA Glossary of Terms)
+
+   07/01/18 –       Updated Idaho statute references; changed “OCIO” to “ITS”.
+                    07/22/14 – Updated Section I. Authority to be consistent with Idaho
+                    statute.
+
+      Effective date: September 1, 2009
+
+P5030 – Framework Standards Development                                        Page 14 of 22
+
+Appendix A – Framework Technical Working Groups (TWG) Evaluation Criteria
+
+The appropriate Framework TWG will test draft standards against the Step 2 of the standards formulation
+and refinement process, prior to release of the standards to the GIS community for the first time. The
+following describes the review criteria to be used at this stage.
+
+Within Framework TWG Scope
+  The standard topic is included in the Idaho Framework Standards Development Policy.
+  The type of standard proposed is a data usability standard or a content/exchange standard.
+  The proposed standard advances data sharing or minimizes duplication.
+  The proposed standard has a statewide scope.
+
+Future Focused
+  The proposed standard removes an impedance to data sharing.
+  The proposed standard promotes new or enhances existing coordination.
+  The standard does not re-formalize an existing standard or procedure.
+
+Structured
+  The proposed standard is easily understandable and useable.
+  The proposed standard follows the format in this policy.
+  The proposed standard contains all necessary documentation.
+
+Technology Independent
+  The proposed standard is independent of a specific technology solution.
+  The proposed standard does not limit any appropriate vendor from access.
+
+Integrated
+  The proposed standard does not already exist.
+  The standards development process does not duplicate a similar effort.
+  The proposed standard does not overlap with an existing standard.
+  The proposed standard coordinates with related standards.
+
+Evolving
+  The proposed standard specifies review and update of the standard.
+
+Supportable
+  The proposed standard can be implemented with known technology.
+  There is a constituency for the proposed standard.
+
+P5030 – Framework Standards Development                                                        Page 15 of 22
+
+   The financial impact is minimal or acceptable to the stakeholders.
+
+Publicly Available
+   The proposed standard is not developed from proprietary information.
+   The proposed standard does not carry any copyright or licensing limitation on use.
+   The proposed standard provides for making the standard available electronically.
+
+Complete and Consistent
+   The proposed standard has all the necessary components.
+   The proposed standard is achievable, although it may take multiple iterations.
+   The proposed standard is in a consistent and readable format and presentation.
+
+P5030 – Framework Standards Development                                                 Page 16 of 22
+
+Appendix B – Standards Taxonomy
+
+[NOTE: There are many different types of standards. To assist the GIS community in better understanding
+standards issues and to provide some context within which the work of the Idaho Framework Implementation
+Team can be placed, the following information was modified from the Federal Geographic Data Committee’s
+Standards Reference Model document.]
+
+The taxonomy of standards is derived from the principles of information engineering as modified by the
+FGDC Standards Working Group’s Technical Advisory Group. Information engineering is a design and
+standards development technique developed by IBM in the late 1970's and early 1980's. It is often applied to
+systems development and has been used for standards development and maintenance. An information
+engineering approach was selected because it provides minimal guidance on structure, yet allows for
+standards to achieve coordination and interoperability status. This approach does not dictate step-by-step
+processes.
+
+One way that information engineering provides a structured approach to standards development is by
+providing a method to describe different standards types. It also provides a means to describe the
+relationships among various standards of the same type. For example, two data standards can be related to
+one another, eliminating duplicate definitions and domains of values. In this manner it is well adapted to the
+diversity of the National Spatial Data Infrastructure and the FGDC.
+
+The four basic categories of information engineering standards are:
+        •   data
+        •   processes
+        •   organizations
+        •   technology
+
+One data standard may contain several categories of standards.
+
+Data Standards
+
+Data are the most widely recognized and documented component of standards and information technology.
+Data modeling describes how the bits of information are defined and structured so they can be applied in a
+meaningful way. Most data standards will be of this type.
+
+Data standards describe objects, features or items that are collected, automated, or affected by activities or
+functions of agencies. Data are organized and managed by institutions. Data standards are semantic
+definitions that are structured in a model.
+
+Data Classification - Data classification standards provide groups or categories of data that serve an
+application. Data classification standards are the attributes common to elements of a group. Examples are
+wetland and soil classifications. See process standards for standards on how to apply a data classification
+standard.
+
+Data Content - Data content standards provide semantic definitions of a set of objects. Data content
+standards may be organized and presented in a data model such as an entity-relationship model or an IDEF1X
+model.
+
+P5030 – Framework Standards Development                                                         Page 17 of 22
+
+Data Symbology or Presentation - Data symbology or presentation standards define graphic symbols. They
+standardize the language for describing those symbols. See process standards for methods for applying
+symbols and the rules for displaying them.
+
+Data Transfer - Data transfer standards are independent of technology and applications and facilitate moving
+data among systems, without prior specification of the intended end use of the data. The Spatial Data
+Transfer Standard (SDTS) is an example of a data transfer standard, which is endorsed by FGDC. SDTS is
+FIPSPUB 173. Profiles or domains of values for SDTS will be defined by FGDC Subcommittees and working
+groups. Transfer standards that are specific to a technology, such as the FTP (File Transfer Protocol) on the
+Internet, are outside the scope of the FGDC.
+
+Data Usability - Data usability standards describe how to express the applicability or essence of a data set or
+data element and include data quality, assessment, accuracy, and reporting or documentation standards.
+The FGDC Content Standard for Geospatial Metadata is an example of a data usability standard.
+
+Process Standards
+
+Processes or functions describe tasks and how information and technology are used to accomplish
+organizational goals. They describe how to do something, procedures to follow, methodologies to apply,
+procedures to present information, or business process rules to follow to implement other standards. A
+smaller portion of data standards will be process standards.
+
+The intents of data-related process standards are:
+    •   to establish a threshold for minimally acceptable data,
+    •   to determine the best data for an application, or
+    •   to promote interoperability and broad-based use of data.
+
+General Data Transfer Procedures - General data transfer procedure standards are the activities required to
+convert data to a general data format, such as SDTS, for general access.
+
+Specific Data Transfer Procedures - Specific data transfer procedure standards are the activities or
+requirements to fulfill a specific data request for a known activity in a known data structure.
+
+Existing Data Access Procedures - Existing data access procedure standards are the procedures required to
+gain access to an existing data set in a known data format, such as the methods and procedures required to
+access an existing data posting on the World Wide Web or a bulletin board.
+
+Classification Methodology - Classification methodology standards are the procedures to follow to implement
+a data classification standard. They describe how data are analyzed to produce a classification. The processes
+that are followed to achieve data precision are examples of classification methodologies.
+
+Data Collection - Data collection procedure standards are the methods and processes for the collection of
+new or conversion of existing data.
+
+Storage Procedures - Storage procedure standards address the mechanisms and schedules for archiving or
+backing up data. If appropriate, the storage procedures also address the storage media.
+
+P5030 – Framework Standards Development                                                          Page 18 of 22
+
+Presentation Standards - Presentation standards are the methods for displaying or formatting information
+from a data set or data standard.
+
+Data Analyzing Procedures - Analytical procedures include the methods for computing, comparing,
+contrasting, assembling, or evaluating a data set for an application or specified product.
+
+Data Integration - Data integration procedures are the methods for combining various data sets into a
+unified, geographically harmonious data set. Data generalization standards are a data integration process
+standard.
+
+Quality Control and Quality Assurance - Quality control and quality assurance processes are respectively the
+methods followed to achieve a specified quality and the methods to check the quality of an existing data set.
+Precision for measurements or other activities are included in these standards.
+
+Organizational Standards
+
+The organizational component of information engineering consists of the rules for assigning responsibilities
+and authorities for the people who perform tasks and use technology. These include things like who does
+which tasks, what data they need, and what attendant skills are required.
+
+Organizational or institutional standards are the specifications for communication among communities.
+These are the human and institutional interactions necessary to carry out data, activity, and technology
+standards. Ways to organize, communicate, identify responsible parties, and coordinate roles are examples
+of organizational standards.
+
+Technology Standards
+
+Technology includes things like software, hardware, and system protocols. In system design, the technology
+may be specifically described in terms of known application solutions such as computer-aided mass appraisal,
+topologic processing, or coordinate geometry computations.
+
+Technology standards relate to the tools, environment, and interfaces among systems and are often called
+information technology specifications. They are the tools to produce, manipulate, manage, organize,
+disseminate, or otherwise implement activity or data standards.
+
+P5030 – Framework Standards Development                                                        Page 19 of 22
+
+Appendix C – Standards Outline
+
+The following outline will be followed by all Framework Technical Working Groups in developing Framework-
+related standards.
+
+Title Page
+Introduction
+        Mission and Goals of Standard
+        Relationship to Existing Standards
+        Description of Standard
+        Applicability and Intended Use of Standard
+        Standard Development Procedures
+                Participants
+                Comment Opportunities and Reviews
+        Maintenance of the Standard
+Body of the Standard
+        Scope and Content of the Standard
+        Need for the Standard
+        Participation in Standards Development
+        Integration with Other Standards
+        Technical and Operational Context (elements included as appropriate)
+                Data Environment
+                Reference Systems
+                Global Positioning Systems
+                Interdependence of Themes
+                Encoding
+                Resolution
+                Accuracy
+                Edge Matching
+                Unique Identifier
+                Attributes
+                Stewardship
+                Records Management and Archiving
+                Metadata
+                Other Topics (optional)
+        Data Characteristics
+                Minimum Graphic Data Elements
+                Minimum Attribute or Non-Graphic Data Elements
+                Optional Graphic Data Elements
+                Optional Attribute or Non-Graphic Data Elements
+References
+Appendices
+
+P5030 – Framework Standards Development                                                    Page 20 of 22
+
+Appendix D – Coordinating Groups Referenced and Defined
+
+Federal Geographic Data Committee (FGDC)
+The Federal Geographic Data Committee coordinates the development of the National Spatial Data
+Infrastructure (NSDI). The NSDI encompasses policies, standards, and procedures for organizations
+to cooperatively produce and share geographic data. The 17 federal agencies that make up the
+FGDC are developing the NSDI in cooperation with organizations from state, local and tribal
+governments, the academic community, and the private sector. www.fgdc.gov
+
+National Geospatial Program (NGP)
+ The National Geospatial Program of the USGS office provides leadership for geospatial
+coordination, production and services (https://www.usgs.gov/core-science-systems/national-
+geospatial-program). The NGP provides a foundation of digital geospatial data representing the
+topography, natural landscape, and manmade environment of the United States. NGP data and
+derived products and services can be accessed through The National Map Data Download.
+Components of NGP include The National Map (nationalmap.gov), Geospatial One-Stop
+(geodata.gov), FGDC Secretariat, and The National Atlas working together to deliver the NSDI.
+http://www.usgs.gov/ngpo/
+
+Framework Leadership Team (FLT)
+Leaders of each Framework TWG and workgroup collectively act as a Framework management body
+to support and facilitate the day-to-day realization of Framework in Idaho. They are responsible for
+guiding and implementing standards and stewardship, and for addressing vertical data issues
+between and among Framework themes.
+
+Framework Technical Working Group (TWG)
+A technical working group established to focus on a particular Framework theme. Each TWG is a
+subcommittee of the IGC-EC and is tasked with developing a data standard and a plan for their
+Framework theme prior to developing the dataset itself and providing for its stewardship. Day-to-
+day management is provided by the Idaho Geospatial Office.
+
+Idaho Geospatial Office (IGO)
+The organizational home of the Geospatial Information Officer, within the Office of IT Services (ITS),
+Executive Office of the Governor, in Idaho state government. The GIO is responsible for coordinating
+geospatial activities for state agencies and provides leadership and continuity to statewide
+initiatives.
+
+Idaho Technology Authority (ITA)
+Created by statute (I.C. § 67-830 through 67-833), the Idaho Technology Authority (ITA) is the policy
+and planning body responsible for coordinating an approach to the design, procurement and
+
+P5030 – Framework Standards Development                                                 Page 21 of 22
+
+implementation of information technology and telecommunications systems for both state
+government and the public. The ITA membership is broad-based and includes members of the
+legislature. More specifically, ITA is empowered to:
+   •   Establish Strategic Plans, Policies, Standards, and Guidelines
+   •   Review and approve large-scale projects
+   •   Review state agency compliance with statewide plans
+   •   Recommend cost-efficient procedures for state agency acquisition and procurement
+   •   Encourage and promote cooperative efforts, public private partnerships and education and
+       training opportunities.
+
+Idaho Geospatial Council (IGC)
+The Idaho Geospatial Council develops policies, standards and guidelines for spatial data and
+provides coordination and leadership for the management and use of geographic information and
+geographic information systems (GIS) technology. It is a committee of the ITA. The IGC is comprised
+of members from all major stakeholder groups and includes the Geospatial Information Officer and
+the US Geological Survey’s liaison for Idaho. USGS acts as the “operating arm” of the NSDI.
+
+Idaho Geospatial Council – Executive Committee (IGC-EC)
+The Idaho Geospatial Council – Executive Committee provides policy-level direction and promotes efficient
+and effective use of resources for matters related to geographic information. The Executive Committee
+members consists of four standing members and twelve elected seats. The standing members include
+Idaho’s current Geospatial Information Officer (GIO) and representatives from INSIDE Geospatial
+Clearinghouse, USGS, and ISU’s GIS Training and Research Center. The elected seats include representatives
+from both government agencies and private industry – including: State, Federal, and Local Government,
+Tribal, Utility, Private Sector, two additional seats that are open to any agency or industry.
+
+Idaho GIS Community
+The Idaho GIS community includes everyone who works with GIS software, uses geographic
+information, or manages or coordinates a program or project that uses GIS software or geographic
+information.
+
+P5030 – Framework Standards Development                                                      Page 22 of 22
+
+## Curator notes
+
+Text extracted with pdftotext -layout (page headers, footers and column layout kept as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their letters).

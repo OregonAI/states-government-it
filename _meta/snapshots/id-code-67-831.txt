@@ -1,0 +1,14 @@
+TITLE 67
+STATE GOVERNMENT AND STATE AFFAIRS
+CHAPTER 8
+EXECUTIVE AND ADMINISTRATIVE OFFICERS — GOVERNOR AND LIEUTENANT-GOVERNOR
+67-831. DEFINITIONS. As used in this chapter:
+(1) "Information technology" means all present and future forms of computer hardware, computer software, and services used or required for automated data processing, computer-related office automation, or telecommunications.
+(2) "Multifactor identification" means using two (2) or more different types of identification credentials to achieve authentication. Acceptable identification credentials include any two (2) or more of the following:
+(a) Knowledge-based credentials that require a user to provide information that they know such as passwords or personal identification numbers;
+(b) Possession-based credentials that require an individual to have something specific in their possession such as security tokens, key fobs, SIM cards, or smartphone applications; or
+(c) Inherence-based credentials that require user-specific biological traits to confirm identity for login, such as fingerprints or facial recognition.
+(3) "State agencies" means all state agencies or departments, boards, commissions, councils, and institutions of higher education but shall not include the elected constitutional officers and their staffs, the legislature and its staffs, or the judiciary.
+(4) "Telecommunications" means all present and future forms of hardware, software or services used or required for transmitting voice, data, video, or images over a distance.
+History:
+[67-831, added 2018, ch. 258, sec. 6, p. 612; am. 2025, ch. 6, sec. 2, p. 11.]

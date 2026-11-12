@@ -1,0 +1,466 @@
+---
+schema_version: 1
+corpus: states-government-it
+jurisdiction: idaho
+id: id-ita-s4265
+title: S4265 – Idaho Radon Data
+doc_type: standard
+citation: ITA Standard S4265
+authority_level: ''
+issuing_body: Idaho Technology Authority (ITA)
+source_url: https://ita.idaho.gov/wp-content/uploads/2025/07/S4265-ADA.pdf
+source_format: pdf
+retrieved: '2026-11-11'
+source_sha256: d214732dec51c783b0d32e6286824dbf94feaa681587f1f3761fd50215edbe02
+effective_date: '2023-07-20'
+source_version: ''
+status: current
+content_mode: verbatim
+conversion_notes: Text extracted with pdftotext -layout (page headers, footers and column layout kept
+  as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their
+  letters).
+last_verified: ''
+verified_by: ''
+maintainer: ''
+relationships:
+  implements: []
+  implemented_by: []
+  references_external: []
+  related: []
+  supersedes: []
+tags:
+- data
+---
+
+> **NON-AUTHORITATIVE.** This is a convenience copy for machine reading. The official text is published at the source URL above. Verify at source before relying on it.
+
+# S4265 – Idaho Radon Data (ITA Standard S4265)
+
+## At a glance
+
+Item of the ITA statewide policies, standards and guidelines library (ita.idaho.gov/policies), category '4000 - Information and Data, Standards', a standard. The library's own summary: "ITA Standard S4265 provides guidelines for managing Idaho Radon data, ensuring state agencies maintain accurate radon information for public health and safety."
+
+## Full text
+
+Idaho Technology Authority (ITA)
+
+ENTERPRISE STANDARDS – S4000 – INFORMATION AND DATA
+
+Category:    S4265 –Standard for Radon Gas Data
+
+CONTENTS:
+I.    Definition
+II. Rationale
+III. Approved Standard(s)
+IV. Approved Product(s)
+V. Justification
+VI. Technical and Implementation Considerations
+VII. Emerging Trends and Architectural Directions
+VIII. Procedure Reference
+IX. Review Cycle
+X. Contact Information
+XI. Additional Information (if any)
+      Revision History
+
+I. DEFINITION
+
+   See ITA Guideline G105 (ITA Glossary of Terms) for definitions.
+
+II. RATIONALE
+
+   A statewide Radon layer and data standard, which is part of the Hazards data theme
+   is a critical source of information for the community, many of the trades (developers,
+   plumbers, builders, etc.), realtors and homebuyers, school officials, healthcare
+   professionals, and more. Standardized Radon data supports those groups by
+   showing the percentage of tests with radon results equal to or above the 4.0 pCI/L
+   guidance. This map gives individuals an idea of the radon levels throughout the
+   state.
+
+III. APPROVED STANDARD(S)
+
+   See Attachment
+
+Radon Gas
+
+IV. APPROVED PRODUCTS(S)
+
+   Any GIS Software, either desktop or online, capable of ingesting and displaying
+   Open Geospatial Consortium (OGC) Web Map Standard (WMS) services.
+
+V. JUSTIFICATION
+
+   A statewide Radon dataset is a critical source of information as stated under ‘II
+   Rationale’ in this standard. A data standard facilitates a predictable format, improves
+   collaboration and encourages use of this dataset.
+
+VI. TECHNICAL AND IMPLEMENTATION CONSIDERATIONS
+
+   Any GIS Software, either desktop or online, capable of ingesting and displaying
+   Open Geospatial Consortium (OGC) Web Map Standard (WMS) services.
+
+VII. EMERGING TRENDS AND ARCHITECTURAL DIRECTIONS
+
+   Data will be shared in accordance with ITA Standard S4250 –Geographic
+   Information System (GIS) Data Sharing Standards.
+
+VIII. PROCEDURE REFERENCE
+
+   The format, content, and development of this standard adhere to ITA Policy P5030 -
+   Framework Standards, ITA Standard S4250 - Data Sharing Standards and ITA
+   Standard S4220 - Geospatial Metadata.
+
+IX. REVIEW CYCLE
+
+   Review will occur at least annually.
+
+X. CONTACT INFORMATION
+
+   For more information, contact the ITA Staff at (208) 605-4064.
+
+REVISION HISTORY
+
+   07/24/2025 - Revised for ADA compliance
+
+   07/20/2023 – Standard Presented to the IGC-EC
+Radon Gas
+                                                                                         2
+
+                                  STATE OF IDAHO
+
+                      Idaho Radon Data Standard
+                               Part of the Hazards Theme
+
+                                          Version 1
+                                   Effective July 20, 2023
+
+                    Developed by the Hazards Technical Working Group
+
+Contact
+ITA Staff
+Office of Information Technology Services
+(208) 605-4064
+contact@its.idaho.gov
+
+Radon Gas
+                                                                       3
+
+CONTENTS
+1. 5
+  1.1. 5
+  1.2. 5
+  1.3. 5
+  1.4. 6
+  1.5. 6
+  1.6. 6
+2. 7
+  2.1. 7
+  2.2. 7
+  2.3. 7
+  2.4. 7
+  2.5. 7
+     2.5.1. 8
+     2.5.2. 8
+     2.5.3. 8
+     2.5.4. 8
+     2.5.5. 8
+     2.5.6. 8
+     2.5.7. 9
+     2.5.8. 9
+     2.5.9. 9
+     2.5.10.  9
+     2.5.11.  9
+     2.5.12.  9
+     2.5.13.  10
+3. 10
+  3.1. 10
+  3.2. 10
+  3.3. Error! Bookmark not defined.
+  3.4. 10
+
+Appendix A: References .............................................................................................................. 11
+Appendix B: Glossary.................................................................................................................. 12
+Radon Gas
+                                                                                                                                       4
+
+1. Introduction to the Radon Data Standard
+
+   Radon is a naturally occurring odorless, tasteless, and invisible radioactive gas that is
+   released when uranium breaks down in the soil. Two out of every five tested homes in Idaho
+   (DHW Radon & Lung Cancer Brochure) have a concentration of radon gas higher than the 4
+   pCi/L (picocuries 1) per liter), the concentration at which the EPA recommends homes be
+   fixed to lower exposure to Radon Gas (EPA Website). Because high levels of radon gas are
+   associated with lung cancer, a statewide radon dataset is a critical source of information for
+   the community, many of the trades (developers, plumbers, builders, etc.), realtors and
+   homebuyers, school officials, healthcare professionals, and more.
+
+   A Radon Data Standard is intended to facilitate integration and sharing of up-to-date Radon
+   data and enhance the dissemination and use of Radon information. This standard does not
+   instruct on how Radon databases are designed for internal use.
+
+   This standard was developed by the Hazards Technical Working Group, a subgroup of the
+   Idaho Geospatial Council – Executive Committee (IGC-EC). This standard will be reviewed
+   at least annually and updated as needed.
+
+   1.1. Mission and Goals of the Standard
+
+   The Radon Standard supports a statewide dataset that is consistent with applicable state and
+   national standards. It establishes the minimum attributes and geospatial database schema for
+   the Radon data schema. The Standard will communicate with, and may have similar
+   attributes to, other Idaho Framework data standards. It encourages all Idaho-based agencies
+   with geospatial Radon data to contribute to the Radon Framework.
+
+   The Radon Framework will be appropriately shared and beneficial to all. The fields in the
+   Radon Data Standard will be general enough to incorporate basic information without
+   requiring major changes in internal data models. This standard allows for expansion to a
+   more complex data structure and schema.
+
+   1.2. Relationship to Existing Standards
+
+   This Radon Standard relates to existing standards as follows:
+
+        ● No other standards apply.
+
+   1)
+        Picocuries refer to the number of radioactive decay events per minute unit per liter.
+Radon Gas
+                                                                                                  5
+
+   1.3. Description of the Standard
+
+   This standard describes the vision and geospatial data structure of a Radon Framework in the
+   state of Idaho. This standard is devised to be:
+        ● Simple, easy to understand, and logical
+        ● Uniformly applicable, whenever possible
+        ● Flexible and capable of accommodating future expansions
+        ● Dynamic in terms of continuous review
+
+   1.4. Applicability and Intended Uses
+
+   This standard applies to the Radon element of the Hazards theme of The Idaho Map (TIM).
+
+   When implemented this standard will enable access and use of the data. A predictable
+   standard will support data collection, improve data collaboration, help identify and report
+   errors and allow agencies to incorporate this data into their own data products.
+
+   This standard does not consider data sharing agreements, contracts, transactions, privacy
+   concerns, or any other issues relating to the acquisition and dissemination of Radon data.
+
+   1.5. Standard Development Process
+
+   The Hazards Technical Working Group is a voluntary group of private, city, county, tribal,
+   state, and federal representatives. In 2023 the Radon Lead began developing the standard for
+   the Radon Framework using the standard development automation tools developed by the
+   IGC-EC to generate the first draft of the Standard. This standard was then reviewed and
+   edited by the members of the Hazards Technical Working Group.
+   After initial development the draft standard document was shared with the Idaho Geospatial
+   Council Executive Committee (IGC-EC) and the Idaho Geospatial Council (IGC) in
+   accordance with the review and approval process described in ITA Policy P5030 Framework
+   Standards Development.
+
+   1.6. Maintenance of the Standard
+
+   This standard will be revised on an annual basis and in accordance with ITA Policy P5030 -
+   Framework Standards Development.
+Radon Gas
+                                                                                                 6
+
+2. Body of the Standard
+
+   2.1. Scope and Content
+
+   The scope of the Radon Data Standard is to describe a statewide layer which identifies the
+   physical locations and attributes of Radon in Idaho.
+
+   2.2. Need
+
+   Radon is a key dataset needed for community, real estate (buying and selling a home), and
+   safety. This standard provides the foundation to aggregate Radon data for centralized access
+   and stewardship information.
+
+   Radon data is needed to keep track of tests each year, and it helps the Idaho Department of
+   Health and Welfare Environmental Health Program pick areas of focus for outreach and
+   education.
+
+   2.3. Participation in the Standard Development
+
+   The development of the Radon Data Standard adheres to the ITA Policy P5030 - Framework
+   Standards Development. The Hazards Standard Team tasked with development, invite input
+   and comments from private, county, state, and federal organizations. As the standard is
+   reviewed in accordance with Policy P5030 requirements, there will be opportunity for broad
+   participation and input by stakeholders. The process will be equally broad for input on
+   updates and enhancements to the standard. As with all Idaho Framework standards, public
+   review and comment on the Radon Data Standard is encouraged.
+
+   2.4. Integration with Other Standards
+
+   The Radon Data Standard follows the same format as other Idaho geospatial framework data
+   standards. The Radon standard may contain some of the same attributes as other framework
+   standards and may adopt the field name, definition, and domain from the other standards to
+   promote consistency.
+
+   2.5. Technical and Operation Context
+
+Radon Gas
+                                                                                                  7
+
+      2.5.1. Data Environment
+
+      The data environment is a digital polygon with a specific, standardized set of attributes
+      pertinent to the Radon Framework. Radon data shared under this standard must be in a
+      format supporting polygons.
+
+      2.5.2. Reference Systems
+
+      The Radon Framework will be published in the Web Mercator coordinate system, which
+      is the State of Idaho’s single-zone coordinate system. Data is not required to be submitted
+      in the Idaho Transverse Mercator NAD83 (IDTM83) coordinate system but must have a
+      defined coordinate system clearly described in the metadata.
+
+      2.5.3. Global Positioning Systems (GPS)
+
+      Some data provided might contain geometry from GPS methods, and the provided
+      metadata should describe this, if applicable.
+
+      2.5.4. Interdependence of Themes
+
+      Radon gas concentrations are reported by zip code. Since at this point in time there is no
+      recognized authoritative zip code the current radon layer is currently based on U.S. Zip
+      Code Areas published by Esri and sourced from TomTom
+
+      2.5.5. Encoding
+
+      When data is imported into and exported from the Radon Framework, encoding will take
+      place to convert data formats and attributes.
+
+      2.5.6. Resolution
+
+      No specific requirements for resolution are specified in this standard. Resolution will be
+      documented in the metadata. Resolution will be documented in the metadata.
+
+Radon Gas
+                                                                                                   8
+
+      2.5.7. Accuracy
+
+      No specific requirements for accuracy are specified in this standard. Accuracy will be
+      documented in the metadata.
+
+      2.5.8. Edge Matching
+
+      No edge matching is required between jurisdictions, or between this and other framework
+      layers.
+
+      2.5.9. Unique Identifier
+
+      The unique identifier is ZIP_CODE.
+
+      2.5.10. Attributes
+
+      Attributes for public and intergovernmental distribution are described in Section 3 of this
+      standard.
+
+      2.5.11. Stewardship
+
+      Perpetual maintenance and other aspects of lifecycle management are essential to Radon
+      Framework. Details of stewards, their roles and responsibilities, and processes are set
+      forth, or are being planned to set forth in a Radon Framework Stewardship Plan and
+      related documents.
+
+      2.5.12. Records Management and Archiving
+
+      The Idaho Department of Health and Welfare Environmental Health Program keeps data
+      in an excel spreadsheet and updates the map annually. The program also keeps track on
+      how many tests are conducted annually.
+
+Radon Gas
+                                                                                                9
+
+        2.5.13. Metadata
+
+        The Radon Framework metadata will describe the methods used to update and aggregate
+        the individual Radon data contributions, processes or crosswalks performed, definition of
+        attributes, and other required information. This metadata will conform to the metadata
+        standards as set out in ITA Standard S4220 Geospatial Metadata.
+
+3. Data Characteristics
+
+     3.1. Minimum Graphic Data Elements
+
+     The geometry of the features in Radon Framework is polygon.
+
+     3.2. Optional Graphic Data Elements
+
+     Not applicable.
+
+     3.3. Standard Attribute Schema
+
+      Field Name         Data Type     Length          Description                   Examples
+ ZIP_CODE                String        10        Zip code of polygon           83201
+                                                 City associated with the
+ PO_NAME                 String        100       zip code                      Pocatello
+                                                 Number of radon test
+ N                       Integer                 results for that zip code     100
+                                                 The percentage of radon
+ Percent_High            Integer                 test results that were >3.9   50
+                                                 Number of radon test
+ NumTestOver3_9          Integer                 results that were >3.9        50
+
+     3.4. Data Quality
+
+     Data quality considerations for Radon include:
+        a) All records should have a ZIP_CODE.
+
+Appendix A: References
+Radon Gas
+                                                                                                10
+
+Esri, USA ZIP Code Boundaries. USA ZIP Code Boundaries - Overview (arcgis.com)
+
+Idaho Department of Health and Welfare. Radon & Lung Cancer. Radon & Lung Cancer
+Brochure (idaho.gov)
+
+Idaho Technology Authority (ITA). Enterprise Standards S4000 Geographic Information
+Systems (GIS) Data, Category: S4220 Geospatial Metadata. https://ita.idaho.gov/psg/S4220.pdf
+
+Idaho Technology Authority (ITA). Information and Data Policy P5000, Category: P5030
+Framework Standards Development Policy. https://ita.idaho.gov/psg/P5030.pdf
+
+United States Environmental Protection Agency (EPA). What is EPA’s Action Level for Radon
+and What Does it Mean? https://www.epa.gov/radon/what-epas-action-level-radon-and-what-
+does-it-mean
+
+Appendix B: Glossary
+
+See ITA Guideline G105 (ITA Glossary of Terms) for definitions.
+
+Radon Gas
+                                                                                            11
+
+                                     Radon Nomination
+
+Framework Data Theme: Hazards
+
+Framework Dataset: Radon
+Proposed Framework Dataset Name: Radon
+Link to Publication Dataset of Proposed Framework Dataset:
+https://services1.arcgis.com/CNPdEkvnGl65jCX8/arcgis/rest/services/ZIP_Codes_joined_to_Radon_
+Data/FeatureServer
+
+Link to Metadata of Proposed Framework Dataset:
+Authoritative Source(s) Description: Idaho Department of Health and Welfare
+Link to Data Standard: <Will be added when standard is approved>
+
+Trusted Source Description:
+Please attach copies of the agreements between Authoritative Source(s) and Trusted Source.
+Minimum Scale of Dataset:
+Please describe the proposed maintenance schedule for the dataset: data will be updated as
+needed.
+
+If this dataset is not a statewide coverage, please describe the methodology for developing or
+incorporating other data to make a statewide coverage: data coverage is statewide
+
+Radon Gas
+
+## Curator notes
+
+Text extracted with pdftotext -layout (page headers, footers and column layout kept as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their letters).
