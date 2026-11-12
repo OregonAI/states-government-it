@@ -1,0 +1,509 @@
+{
+  "agreement": 0.9264,
+  "dict_ratio": 0.924,
+  "disagreements": [
+    {
+      "before": [
+        "981",
+        "C",
+        "082998",
+        "FF"
+      ],
+      "paddle": "LOTS Page 6 of 21",
+      "tesseract": "S oTS wage sot"
+    },
+    {
+      "before": [
+        "unauthorized",
+        "vulnerability",
+        "scan",
+        "etc"
+      ],
+      "paddle": "or a",
+      "tesseract": "ora"
+    },
+    {
+      "before": [
+        "almost",
+        "certain",
+        "to",
+        "occur"
+      ],
+      "paddle": "Impact",
+      "tesseract": ""
+    },
+    {
+      "before": [
+        "certain",
+        "to",
+        "occur",
+        "Likelihood"
+      ],
+      "paddle": "Insignificant Minor Moderate Major Severe Almost Certain M H H E E Likely M M H H E Possible L M M H E Unlikely L M M M H Rare L L M M H",
+      "tesseract": ""
+    },
+    {
+      "before": [
+        "981",
+        "C",
+        "082998",
+        "FF"
+      ],
+      "paddle": "LOTS Page",
+      "tesseract": "S OTS oage"
+    },
+    {
+      "before": [
+        "S",
+        "OTS",
+        "oage",
+        "7"
+      ],
+      "paddle": "of 21",
+      "tesseract": "ot 2"
+    },
+    {
+      "before": [
+        "Team",
+        "Service",
+        "Level",
+        "Agreement"
+      ],
+      "paddle": "",
+      "tesseract": "e"
+    },
+    {
+      "before": [
+        "of",
+        "violation",
+        "Response",
+        "Severity"
+      ],
+      "paddle": "Service Level Objective",
+      "tesseract": ""
+    },
+    {
+      "before": [
+        "Severity",
+        "Description",
+        "Phase",
+        "Class"
+      ],
+      "paddle": "Emergency 1",
+      "tesseract": "auie reyg"
+    },
+    {
+      "before": [
+        "auie",
+        "reyg",
+        "hour",
+        "24"
+      ],
+      "paddle": "",
+      "tesseract": "x"
+    },
+    {
+      "before": [
+        "receipt",
+        "of",
+        "an",
+        "incident"
+      ],
+      "paddle": "High",
+      "tesseract": ""
+    },
+    {
+      "before": [
+        "the",
+        "IST",
+        "Acceptance",
+        "includes"
+      ],
+      "paddle": "Acceptance Medium assigning",
+      "tesseract": "lassigning"
+    },
+    {
+      "before": [
+        "level",
+        "to",
+        "the",
+        "Incident"
+      ],
+      "paddle": "2 business hours and",
+      "tesseract": "land"
+    },
+    {
+      "before": [
+        "initiating",
+        "the",
+        "formal",
+        "Incident"
+      ],
+      "paddle": "Low",
+      "tesseract": ""
+    },
+    {
+      "before": [
+        "Response",
+        "Policy",
+        "and",
+        "Procedure"
+      ],
+      "paddle": "Emergency",
+      "tesseract": ""
+    },
+    {
+      "before": [
+        "Procedure",
+        "3",
+        "hours",
+        "24"
+      ],
+      "paddle": "",
+      "tesseract": "x"
+    },
+    {
+      "before": [
+        "Containment",
+        "is",
+        "the",
+        "successful"
+      ],
+      "paddle": "High",
+      "tesseract": ""
+    },
+    {
+      "before": [
+        "is",
+        "the",
+        "successful",
+        "5"
+      ],
+      "paddle": "",
+      "tesseract": "S"
+    },
+    {
+      "before": [
+        "5",
+        "S",
+        "hours",
+        "24"
+      ],
+      "paddle": "",
+      "tesseract": "x"
+    },
+    {
+      "before": [
+        "of",
+        "mitigating",
+        "controls",
+        "to"
+      ],
+      "paddle": "Containment Medium 8 business hours",
+      "tesseract": ""
+    },
+    {
+      "before": [
+        "any",
+        "possibility",
+        "of",
+        "Propagation"
+      ],
+      "paddle": "Low",
+      "tesseract": "Service Level Objective 2 business hours Emergency 8 business hours"
+    },
+    {
+      "before": [
+        "hours",
+        "2",
+        "business",
+        "days"
+      ],
+      "paddle": "Emergency",
+      "tesseract": ""
+    },
+    {
+      "before": [
+        "is",
+        "the",
+        "successful",
+        "restoration"
+      ],
+      "paddle": "High 1 business",
+      "tesseract": "Emergency lbusiness"
+    },
+    {
+      "before": [
+        "restoration",
+        "Emergency",
+        "lbusiness",
+        "days"
+      ],
+      "paddle": "of",
+      "tesseract": "lof"
+    },
+    {
+      "before": [
+        "resource",
+        "to",
+        "production",
+        "Recovery"
+      ],
+      "paddle": "Medium",
+      "tesseract": ""
+    },
+    {
+      "before": [
+        "Recovery",
+        "3",
+        "business",
+        "days"
+      ],
+      "paddle": "use",
+      "tesseract": "luse"
+    },
+    {
+      "before": [
+        "after",
+        "implementing",
+        "long",
+        "term"
+      ],
+      "paddle": "Corrective",
+      "tesseract": "7 orrective"
+    },
+    {
+      "before": [
+        "term",
+        "7",
+        "orrective",
+        "actions"
+      ],
+      "paddle": "Low",
+      "tesseract": ""
+    },
+    {
+      "before": [
+        "Primary",
+        "Secondary",
+        "Security",
+        "Steering"
+      ],
+      "paddle": "CIO",
+      "tesseract": "ClO"
+    },
+    {
+      "before": [
+        "Allison",
+        "Group",
+        "SSG",
+        "Incident"
+      ],
+      "paddle": "CISO",
+      "tesseract": "CcISO"
+    },
+    {
+      "before": [
+        "981",
+        "C",
+        "082998",
+        "FF"
+      ],
+      "paddle": "LOTS Page 18 of 21",
+      "tesseract": "S OTS"
+    },
+    {
+      "before": [
+        "Response",
+        "Policy",
+        "and",
+        "Procedure"
+      ],
+      "paddle": "",
+      "tesseract": "Page 18 of 21"
+    },
+    {
+      "before": [
+        "Hymel",
+        "Authorization",
+        "Signed",
+        "by"
+      ],
+      "paddle": "Evelina",
+      "tesseract": "Ealing"
+    },
+    {
+      "before": [
+        "Officer",
+        "Date",
+        "DocuSigned",
+        "by"
+      ],
+      "paddle": "Chase Hymel",
+      "tesseract": ""
+    },
+    {
+      "before": [
+        "by",
+        "6",
+        "23",
+        "2025"
+      ],
+      "paddle": "",
+      "tesseract": "Chase Hymel 23"
+    },
+    {
+      "before": [
+        "675",
+        "CD",
+        "5",
+        "A"
+      ],
+      "paddle": "9734 DF",
+      "tesseract": "073408"
+    },
+    {
+      "before": [
+        "Appendix",
+        "Contacts",
+        "External",
+        "Agency"
+      ],
+      "paddle": "Name Phone Email",
+      "tesseract": ""
+    },
+    {
+      "before": [
+        "LA",
+        "SAFE",
+        "Fusion",
+        "Center"
+      ],
+      "paddle": "",
+      "tesseract": "LA State Police LA Office of Inspector General IRS P IRS S TIGTA P TIGTA S TIGTA S SSA P SSA S SSA T TSA P"
+    },
+    {
+      "before": [
+        "via",
+        "LA",
+        "SAFE",
+        "for"
+      ],
+      "paddle": "LA State Police",
+      "tesseract": ""
+    },
+    {
+      "before": [
+        "of",
+        "Louisiana",
+        "State",
+        "Police"
+      ],
+      "paddle": "LA Office of Inspector",
+      "tesseract": ""
+    },
+    {
+      "before": [
+        "involvement",
+        "of",
+        "Louisiana",
+        "s"
+      ],
+      "paddle": "General",
+      "tesseract": ""
+    },
+    {
+      "before": [
+        "Inspector",
+        "General",
+        "Federal",
+        "Agencies"
+      ],
+      "paddle": "IRS P",
+      "tesseract": ""
+    },
+    {
+      "before": [
+        "Agencies",
+        "Office",
+        "of",
+        "Safeguards"
+      ],
+      "paddle": "n a IRS S TIGTA P n a TIGTA S n a TIGTA S n a SSA P n a SSA S SSA T n a TSA P",
+      "tesseract": ""
+    },
+    {
+      "before": [
+        "S",
+        "Secondary",
+        "T",
+        "Tertiary"
+      ],
+      "paddle": "",
+      "tesseract": "I"
+    },
+    {
+      "before": [
+        "FF",
+        "Contacts",
+        "OTS",
+        "Internal"
+      ],
+      "paddle": "Name Title Phone Email",
+      "tesseract": ""
+    },
+    {
+      "before": [
+        "Eric",
+        "Cloud",
+        "Joe",
+        "Lee"
+      ],
+      "paddle": "MichaelAndresen",
+      "tesseract": "Michael Andresen"
+    },
+    {
+      "before": [
+        "082998",
+        "FF",
+        "Jolene",
+        "Ardoin"
+      ],
+      "paddle": "",
+      "tesseract": "Pe"
+    }
+  ],
+  "engines": [
+    "tesseract (ocrmypdf)",
+    "paddleocr PP-OCRv6"
+  ],
+  "figure_agreement": 0.9406,
+  "figures": 100,
+  "forced_rotation": false,
+  "glued": 0,
+  "ocr_page_texts": [
+    "Docusign Envelope ID: 54186D0F-4140-4F95-8326-981C082998FF\n\nS.oTS wage sot\n\nIncident Response Policy and Procedure Division of Administration\nOffice of Technology Services\n\nOnce the Incident Management Team Leader (IMTL) has declared a security incident and its severity\nlevel, the Incident Response Leader will initiate an appropriate response for the given incident.\n\nImpact - shall be determined by the associated criticality of affected resources and the following criteria\nfor determining the current or potential severity of the Incident:\n\n\u00a2 Low- One instance of potentially unfriendly activity (e.g., port scan, malware detection,\nunexpected performance peak, observation of potentially malicious user activity, theft of a\ndevice, etc.)\n\n\u00a2 Medium - One instance of a clear attempt to obtain unauthorized information or access (e.g.,\nattempted download of secure password files, attempt to access restricted areas, single\ncomputer infection on a non-critical system, successful unauthorized vulnerability scan, etc.) ora\nrepeated or persistent Low Incident. Incidents classified as Medium risk may also include the\nincidental internal exposure of one employee record. Medium incidents may also include\nvulnerabilities with a rare rate of occurrence on critical systems, due to either compensating\ncontrols, network isolation, or other factors.\n\n\u00b0 High - Serious attempt or actual interruption in availability, or negative impact to confidently or\nintegrity, or Data Breach. (e.g., multi-pronged attack, denial of service attempt, virus infection of\na critical system or the network, multiple concurrent infections of systems, successful\nbuffer/stack overflow, successful unauthorized access to systems hosting or transmitting\nConfidential or Restricted Data, broken lock, stolen papers, etc.) Or; a repeated or persistent\nMedium Incident. Incidents with a high criticality may include systems with low to moderate\ncriticalities, which are affected by vulnerabilities are most likely to be exploited.\n\n\u00a2 Emergency - Incidents that involve the potential breach of Restricted or Confidential Data.\nIncidents classified as Emergency risk require immediate attention including the engagement of\nData Owners and SMEs to perform short-term containment including taking down potentially\ncompromised systems and applications. Incidents with an emergency criticality are likely to be\nassets with high criticality to business functionality, affected by threats, and almost certain to\noccur.\n\nLikelihood\n\nData Classification Level: Confidential",
+    "Docusign Envelope ID: 54186D0F-4140-4F95-8326-981C082998FF\n\nS.OTS oage7ot2\n\nIncident Response Policy and Procedure Division of Administration\nOffice of Technology Services\n\nIncident Response Team\nService Level Agreement\ne Incident Management Service Level Agreements (SLAs) shall be based on the severity\nclassification.\nSLAs shall include metrics for acceptance, containment, and resolution phases of the Incident\nManagement process.\n\u00a2 The IRT leader shall remain aware of pending SLA violations by identifying when a metric is within\na specified threshold of violation.\n\nResponse _ Severity Description\nPhase Class\n\nauie(reyg hour (24x7) [Acceptance is the receipt of an incident\n1 business hours by the IST. Acceptance includes\nlassigning a criticality level to the Incident\n~ land initiating the formal Incident\n\n8 business hours Response Policy and Procedure.\n\n3 hours (24x7) [Containment is the successful\n\n5S hours (24x7) implementation of mitigating controls to\n|prevent any possibility of Propagation.\n\nService Level Objective\n\n2 business hours\n\nEmergency\n\n8 business hours\n2 business days\n8 business hours Resolution is the successful restoration\n\nEmergency\n\nlbusiness days lof an affected resource to production\nRecovery 3 business days luse after implementing long-term\n7 \u2018orrective actions.\n5 business days\nRoles\n\nIndividuals from applicable operational areas or sections within OTS and Agencies will have\nresponsibilities assigned as outlined below. This team may be use additional staff as warranted by\nthe specific circumstance of the incident.\n\nThe following table notes the individuals and roles comprising the Incident Response Team (IRT).\n\nGroup Roles Primary Secondary\n\nSecurity Steering | ClO, CISO, and Designees | Evelina Broussard Michael Allison\n\nGroup (SSG)\n\nIncident CcISO Chase Hymel Donny Brown\n\nManagement Barry Faulk\n\nTeam Lead\n\nIncident CISO, Data Center Joe Lee - DCO. Eric Grimmer - DCO\n\nManagement Operations (DCO), Michael Andresen - Tammy Stalsby - ADM\n\n(IMT) Applications and Data ADM Tonya Monette - DCO NS\nManagement (ADM), Catherine Shain - Debbie Griffith - EUC\nNetwork Services (NS), DCO Network Donna Roman - EUC Voice\nEnd User Computing Eric Cloud - EUC Brad Coney - ARM\n\nData Classification Level: Confidential",
+    "Docusign Envelope ID: 54186D0F-4140-4F95-8326-981C082998FF\n\nS.OTS\n\nIncident Response Policy and Procedure\n\nPage 18 of 21\nDivision of Administration\n\nOffice of Technology Services\n\n1.07 03/11/2024 Updated text and removed highlights. Susan Eversull\n1.07 04/03/2024 Change from Plan to Policy and Procedure Donny Brown\n2.00 04/17/2024 Updated to 2.0, corrected table of contacts, Susan Eversull\nfinalized document for signature\n2.00 07/17/2024 Reviewed and finalized document. Chase Hymel\n2.01 06/23/2025 Updated TSA and CIO information Chase Hymel\nAuthorization:\nSigned by\nEaling Broussard 6/23/2025\nEvelina Broussard, State Chief Information Officer Date\nDocuSigned by:\n6/23/2025\nChase Hymel, /23/\nFC675CD5A073408.\nChase Hymel, Chief Information Security Officer Date\n\nData Classification Level: Confidential",
+    "Docusign Envelope ID: 54186D0F-4140-4F95-8326-981C082998FF\n\nAppendix\n\nContacts (External)\n\nAgency\nLaw Enforcement\n\nFBI - Cyber Intrusion (P)\nFBI - Cyber Intrusion (S)\nFBI-CJIS\n\nLA-SAFE (Fusion Center)\n\nLA State Police\n\nLA Office of Inspector\nGeneral\n\nIRS (P)\nIRS (S)\n\nTIGTA (P)\nTIGTA (S)\n\nTIGTA (S)\n\nSSA (P)\nSSA (S)\n\nSSA (T)\nTSA (P)\n\nContact should be coordinated via OTS-ARM assigned to DPS or coordinated via LA-SAFE for\n\nincidents requiring escalation or involvement of Louisiana State Police.\n\nContact should be coordinated via the SSG for incidents requiring escalation to or involvement of Louisiana's\n\nOffice of Inspector General.\n\nFederal Agencies\n\nOffice of Safeguards\n\nNote: (P) - Primary, (S) - Secondary, (T) \u2014 Tertiary\n\nI |",
+    "Docusign Envelope ID: 54186D0F-4140-4F95-8326-981C082998FF\n\nContacts (OTS Internal)\nEvelina Broussard\nMichael Allison\nChase Hymel\nJeremy Deal\nThomas Allsup\nEric Cloud\n\nJoe Lee\n\nMichael Andresen\n\nCatherine Shain\n\nData Classification Level: Confidential",
+    "Docusign Envelope ID: 54186D0F-4140-4F95-8326-981C082998FF\n\nJolene Ardoin Pe\n\nData Classification Level: Confidential"
+  ],
+  "paddle_sha256": "ea69922318008c769aaca782ee68aaa609f8f6e49e031bf099f5554435bd0b68",
+  "pages": [
+    6,
+    7,
+    18,
+    19,
+    20,
+    21
+  ],
+  "pdf_sha256": "4ce0a870cce5a26431ba4f64e7d2d1ae0ca9884c0f1faf9394303898b7491169",
+  "psm": null,
+  "text_sha256": "7e49928293ce99bc75f0073483200d891c313a261a3d4e9e45a7abc79fb43f40",
+  "tools": {
+    "ocrmypdf": "15.2.0+dfsg1",
+    "tesseract": "tesseract 5.3.4"
+  },
+  "words": 855
+}

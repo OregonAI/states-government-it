@@ -1,0 +1,97 @@
+---
+schema_version: 1
+corpus: states-government-it
+jurisdiction: louisiana
+id: la-doa-policy-23
+title: Use of Smartphone Devices for Access to State Data
+doc_type: policy
+citation: DOA Policy No. 23
+authority_level: ''
+issuing_body: Division of Administration
+source_url: https://doa.la.gov/doa/hr/policies/doa-policies/23-use-of-smartphone-devices-for-access-to-state-data/
+source_format: html
+retrieved: '2026-11-12'
+source_sha256: 90b7eb137ff034dc3c826a56869224ec2e35a808e437a29bfe1238ed5db0e465
+effective_date: '2011-02-01'
+source_version: ''
+status: current
+content_mode: verbatim
+conversion_notes: 'Text taken from the Division of Administration''s web page: the policy body as the
+  page prints it (title, policy number, dates, sections), one line per paragraph or list item. The site
+  menus, the contact box, the footer and scripts removed; link addresses are not part of the text.'
+last_verified: ''
+verified_by: ''
+maintainer: ''
+relationships:
+  implements: []
+  implemented_by: []
+  references_external: []
+  related: []
+  supersedes: []
+tags:
+- cybersecurity
+- data
+---
+
+> **NON-AUTHORITATIVE.** This is a convenience copy for machine reading. The official text is published at the source URL above. Verify at source before relying on it.
+
+# Use of Smartphone Devices for Access to State Data (DOA Policy No. 23)
+
+## At a glance
+
+Conditions for using smartphones to access State data (effective February 1, 2011). Listed on the Division of Administration Office of Human Resources 'DOA Policies' page, which the OTS Policies and Forms page links as the overarching DOA policies.
+
+## Full text
+
+Use of Smartphone Devices for Access to State Data
+Division of Administration Policy No. 23
+EFFECTIVE DATE: February 1, 2011
+SUBJECT: Use of Smartphone Devices for Access to State Data
+AUTHORIZATION: Steven Procopio, Appointing Authority
+Policy Sections
+1. POLICY
+2. PURPOSE
+3. APPLICABILITY
+4. RESPONSIBILITIES
+5. VIOLATIONS
+6. EXCEPTIONS
+Policy Content
+I. POLICY:
+It is the policy of the Division of Administration (DOA) to comply with the rules established by the Office of Information Technology's IT Policy I-24, Use of Smartphone Devices when Accessing State Networks. The policy can be located at:
+http://www.doa.louisiana.gov/oit/pdf/IT_POL_I-24.pdf
+Employees are responsible for the security of devices that are used to access State email and/or applications/equipment that are on the DOA network.
+The following shall be required of all devices that are governed by this policy, whether they are State or privately owned devices:
+- Minimum 4-digit password.
+- Maximum security timeout shall be 10 minutes (idle time after which the device will automatically apply a screen lock).
+- After 10 unsuccessful password attempts, the wireless device shall be wiped (all data on the device, including personal data, will be erased).
+- Device must be compatible with Blackberry Enterprise Server or ActiveSync Enterprise Security Policies.
+- Devices which have access to network-connected equipment/data or house State data shall be physically secured by the owner at all times.
+Any device that is not capable of maintaining such restrictions shall not be allowed access to State data, including e-mail.
+II. PURPOSE:
+The purpose of this policy is to protect information technology systems and networks within the DOA.
+III. APPLICABILITY:
+This policy is applicable to all employees of the Division of Administration in all sections, both general and ancillary appropriations.
+IV. RESPONSIBILITIES:
+The Appointing Authority is responsible for:
+Holding section heads under his supervision accountable for adhering to all aspects of this policy.
+Section Heads are responsible for:
+Ensuring that each employee under his supervision is made aware of this policy and its contents.
+Managers/Supervisors are responsible for:
+Ensuring that each employee under his supervision is:
+1. made aware of this policy and its contents, as well as any forthcoming revisions.
+2. informed that he must abide by the terms of this policy as a condition of employment.
+3. informed of the consequences of violating this policy.
+Employees are responsible for:
+Following all rules outlined in this policy and ensuring that his supervisor is made aware of any lost or stolen device (State or privately owned).
+Ensuring security and service compatibility of privately owned devices.
+The Office of Computing Services is responsible for:
+Pushing down a Group Policy to connected devices to mandate password protection of devices.
+V. VIOLATIONS:
+Employees found to have violated this policy will be denied access to State data via Smartphone devices and may be subject to disciplinary action up to and including termination.
+VI. EXCEPTIONS:
+Requests for exceptions to this policy shall be justified, documented and submitted to the Appointing Authority for consideration.
+NOTE: This policy text is provided online for your convenience. The signed original policy document remains on file in the Division of Administration Office of Human Resources.
+
+## Curator notes
+
+Text taken from the Division of Administration's web page: the policy body as the page prints it (title, policy number, dates, sections), one line per paragraph or list item. The site menus, the contact box, the footer and scripts removed; link addresses are not part of the text.

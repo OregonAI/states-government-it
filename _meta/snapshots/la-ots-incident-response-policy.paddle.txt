@@ -1,0 +1,269 @@
+Docusign Envelope ID: 54186D0F-4140-4F95-8326-981C082998FF
+LOTS
+Page 6 of 21
+Incident Response Policy and Procedure
+Division of Administration
+Office of Technology Services
+Once the Incident Management Team Leader (IMTL) has declared a security incident and its severity
+level, the Incident Response Leader will initiate an appropriate response for the given incident.
+Impact - shall be determined by the associated criticality of affected resources and the following criteria
+for determining the current or potential severity of the Incident:
+Low – One instance of potentially unfriendly activity (e.g., port scan, malware detection,
+unexpected performance peak, observation of potentially malicious user activity, theft of a
+device, etc.)
+Medium – One instance of a clear attempt to obtain unauthorized information or access (e.g.,
+attempted download of secure password files, attempt to access restricted areas, single
+computer infection on a non-critical system, successful unauthorized vulnerability scan, etc.) or a
+repeated or persistent Low Incident. Incidents classified as Medium risk may also include the
+incidental internal exposure of one employee record. Medium incidents may also include
+vulnerabilities with a rare rate of occurrence on critical systems, due to either compensating
+controls, network isolation, or other factors.
+High - Serious attempt or actual interruption in availability, or negative impact to confidently or
+integrity, or Data Breach. (e.g., multi-pronged attack, denial of service attempt, virus infection of
+a critical system or the network, multiple concurrent infections of systems, successful
+buffer/stack overflow, successful unauthorized access to systems hosting or transmitting
+Confidential or Restricted Data, broken lock, stolen papers, etc.) Or; a repeated or persistent
+Medium Incident. Incidents with a high criticality may include systems with low to moderate
+criticalities, which are affected by vulnerabilities are most likely to be exploited.
+Emergency – Incidents that involve the potential breach of Restricted or Confidential Data.
+Incidents classified as Emergency risk require immediate attention including the engagement of
+Data Owners and SMEs to perform short-term containment including taking down potentially
+compromised systems and applications. Incidents with an emergency criticality are likely to be
+assets with high criticality to business functionality, affected by threats, and almost certain to
+occur.
+Impact
+Likelihood
+Insignificant
+Minor
+Moderate
+Major
+Severe
+Almost Certain
+M
+H
+H
+E
+E
+Likely
+M
+M
+H
+H
+E
+Possible
+L
+M
+M
+H
+E
+Unlikely
+L
+M
+M
+M
+H
+Rare
+L
+L
+M
+M
+H
+Data Classification Level: Confidential
+Docusign Envelope ID: 54186D0F-4140-4F95-8326-981C082998FF
+LOTS
+Page 7 of 21
+Incident Response Policy and Procedure
+Division of Administration
+Office of Technology Services
+Incident Response Team
+Service Level Agreement
+Incident Management Service Level Agreements (SLAs) shall be based on the severity
+classification.
+SLAs shall include metrics for acceptance, containment, and resolution phases of the Incident
+Management process.
+The IRT leader shall remain aware of pending SLA violations by identifying when a metric is within
+a specified threshold of violation.
+Response
+Severity
+Service Level Objective
+Description
+Phase
+Class
+Emergency
+1hour (24×7)
+Acceptance is the receipt of an incident
+High
+1 business hours
+by the IST. Acceptance includes
+Acceptance
+Medium
+assigning a criticality level to the Incident
+2 business hours
+and initiating the formal Incident
+Low
+8 business hours
+Response Policy and Procedure.
+Emergency
+3 hours (24×7)
+Containment is the successful
+High
+5 hours (24×7)
+implementation of mitigating controls to
+Containment
+Medium
+8 business hours
+prevent any possibility of Propagation.
+Low
+2 business days
+Emergency
+8 business hours
+Resolution is the successful restoration
+High
+1 business days
+of an affected resource to production
+Recovery
+Medium
+3 business days
+use after implementing long-term
+Corrective actions.
+Low
+5 business days
+Roles
+Individuals from applicable operational areas or sections within OTS and Agencies will have
+responsibilities assigned as outlined below. This team may be use additional staff as warranted by
+the specific circumstance of the incident.
+The following table notes the individuals and roles comprising the Incident Response Team (IRT).
+Group
+Roles
+Primary
+Secondary
+Security Steering
+CIO, CISO, and Designees
+Evelina Broussard
+Michael Allison
+Group (SSG)
+Incident
+CISO
+Chase Hymel
+Donny Brown
+Management
+Barry Faulk
+Team Lead
+Incident
+CISO, Data Center
+Joe Lee – DCO
+Eric Grimmer – DCO
+Management
+Operations (DCO),
+Michael Andresen –
+Tammy Stalsby – ADM
+(IMT)
+Applications and Data
+ADM
+Tonya Monette – DCO NS
+Management (ADM),
+Catherine Shain –
+Debbie Griffith – EUC
+Network Services (NS),
+DCO Network
+Donna Roman – EUC Voice
+End User Computing
+Eric Cloud - EUC
+Brad Coney - ARM
+Data Classification Level: Confidential
+Docusign Envelope ID: 54186D0F-4140-4F95-8326-981C082998FF
+LOTS
+Page 18 of 21
+Incident Response Policy and Procedure
+Division of Administration
+Office of Technology Services
+1.07
+03/11/2024
+Updated text and removed highlights.
+Susan Eversull
+1.07
+04/03/2024
+Change from Plan to Policy and Procedure
+Donny Brown
+2.00
+04/17/2024
+Updated to 2.0, corrected table of contacts,
+Susan Eversull
+finalized document for signature
+2.00
+07/17/2024
+Reviewed and finalized document.
+Chase Hymel
+2.01
+06/23/2025
+Updated TSA and CIO information
+Chase Hymel
+Authorization:
+Signed by:
+Evelina Broussard
+6/23/2025
+Evelina Broussard, State Chief Information Officer
+Date
+-DocuSigned by:
+Chase Hymel
+6/23/2025
+FC675CD5A9734DF.
+Chase Hymel, Chief Information Security Officer
+Date
+Data Classification Level: Confidential
+Docusign Envelope ID: 54186D0F-4140-4F95-8326-981C082998FF
+Appendix
+Contacts (External)
+Agency
+Name
+Phone
+Email
+Law Enforcement
+FBI – Cyber Intrusion (P)
+FBI – Cyber Intrusion (S)
+FBI - CJIS
+LA-SAFE (Fusion Center)
+Contact should be coordinated via OTS-ARM assigned to DPS or coordinated via LA-SAFE for
+LA State Police
+incidents requiring escalation or involvement of Louisiana State Police.
+LA Office of Inspector
+Contact should be coordinated via the SSG for incidents requiring escalation to or involvement of Louisiana's
+General
+Office of Inspector General.
+Federal Agencies
+IRS (P)
+Office of Safeguards
+n/a
+IRS (S)
+TIGTA (P)
+n\a
+TIGTA (S)
+n\a
+TIGTA (S)
+n\a
+SSA(P)
+n\a
+SSA (S)
+SSA(T)
+n\a
+TSA (P)
+Note: (P) - Primary, (S) - Secondary, (T) – Tertiary
+Docusign Envelope ID: 54186D0F-4140-4F95-8326-981C082998FF
+Contacts (OTS Internal)
+Name
+Title
+Phone #:
+Email
+Evelina Broussard
+Michael Allison
+Chase Hymel
+Jeremy Deal
+Thomas Allsup
+Eric Cloud
+Joe Lee
+MichaelAndresen
+Catherine Shain
+Data Classification Level: Confidential
+Docusign Envelope ID: 54186D0F-4140-4F95-8326-981C082998FF
+Jolene Ardoin
+Data Classification Level: Confidential

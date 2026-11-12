@@ -1,0 +1,1724 @@
+---
+schema_version: 1
+corpus: states-government-it
+jurisdiction: louisiana
+id: la-ots-information-security-policy
+title: Information Security Policy
+doc_type: policy
+citation: OTS Statewide Policy No. 1
+authority_level: ''
+issuing_body: Office of Technology Services, Division of Administration
+source_url: https://ots.la.gov/policies-forms/information-security
+source_format: html
+retrieved: '2026-11-12'
+source_sha256: 0044e2a6559148cfa5857f6eb31242862c89d926d5d5dff52de97e1209060e20
+effective_date: null
+source_version: ''
+status: current
+content_mode: verbatim
+conversion_notes: 'Text taken from the Office of Technology Services'' web page: the page title, its summary
+  line and the body, one line per paragraph, heading, list item (marked ''- '' or numbered, indented by
+  depth) or table row (cells separated by '' | ''). The site menus, banner, breadcrumb, footer and scripts
+  removed; link addresses are not part of the text. Words are joined exactly as the page''s HTML joins
+  them (a link followed by a word with no space between them prints as one word), and an e-mail address
+  the page hides behind Cloudflare prints as ''[email protected]'' in the page itself.'
+last_verified: ''
+verified_by: ''
+maintainer: ''
+relationships:
+  implements: []
+  implemented_by: []
+  references_external: []
+  related: []
+  supersedes: []
+tags:
+- cybersecurity
+- data
+- governance
+- cloud-resilience
+---
+
+> **NON-AUTHORITATIVE.** This is a convenience copy for machine reading. The official text is published at the source URL above. Verify at source before relying on it.
+
+# Information Security Policy (OTS Statewide Policy No. 1)
+
+## At a glance
+
+OTS Statewide Policy No. 1: the information security policy and procedures every entity under the authority of OTS must follow (access control, change and vulnerability management, incident management, encryption, risk management, third-party and contractor requirements), approved and published 12/22/2025 as the page prints. The Division of Administration's legacy page links a PDF copy of the same current policy, which is left out in favor of this page (see left_out).
+
+## Full text
+
+Information Security Policy
+Standards and requirements for protecting Louisiana state government information assets, systems, and data from security threats.
+Approval
+The Information Security Policy and Procedures were reviewed, approved, and published on 12/22/2025.
+Contact Information
+Information Security Team
+Information Security Hotline
+Call Toll-free: (844) 692-8019 Local: (225) 342-9288
+Email Information Security Team: [email protected] Chief Information Security Officer: [email protected]
+End User Support Services Team
+Call Toll-free: (844) 219-6900 Local: (225) 219-6900
+Email Office of Technology Services: [email protected]
+Information Compliance Team
+Email Compliance Team: [email protected]
+Introduction and Overview
+Purpose
+The State of Louisiana is committed to defining and managing the information security requirements for maintaining data privacy and protection. This document sets forth the information security policies and procedures for accessing, protecting, managing, storing, transmitting, sanitizing, and distributing data to ensure its availability, integrity, authenticity, non-repudiation and confidentiality.
+This Information Security Policy and Procedures (ISP) is designed to clearly inform State Agencies, Employees, third parties and applicable operational entities of their roles, responsibilities, and requirements. These elements are critical to the overall success of the State of Louisiana’s Information Security Program.
+This policy and procedures, when operationally implemented and adhered to, serves as a narrative for each Agency’s Cybersecurity Plan and Strategy for identifying and reducing risk to an acceptable operational level.
+Scope
+All entities under the authority of the Office of Technology Services (OTS), in accordance with the provisions of Act 712 of the 2014 Regular Legislative Session, shall comply with this policy. This includes the Office of Telecommunication Services and the Office of State Printing and State Mail which were moved into OTS pursuant to Act 241 and Act 46 respectively of the 2015 Regular Legislative Session.
+Definitions
+The terms and definitions below are listed for the purpose of this document.
+Agreement - A legally binding arrangement that is accepted by all parties to a transaction (e.g., Mutual Non-Disclosure Agreement (NDA), Business Associate Agreement (BAA), Data Sharing Agreement (DSA), Memorandum of Understanding (MOU), formal contract, etc.).
+Awareness - Efforts designed to remind, improve behavior, or reinforce proper information security practices and processes.
+Background Check - necessary investigations and checks required in order to obtain access to restricted data, including but not limited to CJIS, FTI, HIPAA, PII or other regulatory compliance. Checks must include, at a minimum, fingerprint checks (as permitted by the FBI), local law enforcement checks, and citizenship verification.
+Baseline - An approved system, application, or service configuration standard by which future changes can be measured or compared.
+Citizenship Requirement Check - validate an individual’s eligibility to work legally within the United States. Utilizes Form I-9. (e.g., a United States citizen or foreign citizen with the necessary authorization).
+Change - A functional or technical modification or patch, including changes in configuration, installation, maintenance or management, which could affect the security, accessibility, functionality or integrity of the State computing systems, applications, or service.
+Computing Systems - Includes all electronic systems, in addition to all computers, servers, network devices, and other computing devices.
+Control - The means of managing risk, including policies, procedures, guidelines, organizational structures, which can be of administrative, technical, management, or legal nature.
+Continuous Monitoring - A program that allows an organization to maintain the security authorization of an information system over time in a highly dynamic environment of operation with changing threats, vulnerabilities, technologies, and missions or business processes.
+Data - Includes all information in electronic or in paper format that can be created, stored, used, received or transmitted. Data may include data assets, data elements, data records, and information assets.
+Data Breach - The successful compromise of security, confidentiality, or integrity of electronic or physical data that results in, or there is a reasonable basis to conclude has resulted in, the unauthorized acquisition of and access to Confidential or Restricted Data maintained, managed, or held in trust by the State, its Agency, or Office.
+Data Center - Any State owned, managed, or leased facility, or area within, hosting one or more servers that store, transmit, or process data.
+Data Encryption - Refers to ciphers or algorithms utilized to modify data in such a way that it is unreadable to anyone without the specific key in order to protect its confidentiality. Data encryption can be required during data transmission or data storage depending on the level of protection required for data classification. Technical details and requirements for data encryption are located within the Encryption policy section.
+Data Storage - Refers to data at rest.
+Data Transmission - Refers to the methods and technologies used to transmit (i.e. move) data or copy (i.e. replicate) data between systems, applications, networks, and workstations.
+Device - Any device or system owned, managed, or utilized by the State, Agency, or the Office of Technology Services (OTS) to transmit, store, or process data. Examples include, but are not limited to, laptops, desktops, servers, routers, firewalls, smart phones, PDAs, tablets, USB drives, tablets, monitoring systems, printers, fax machines, copiers or network storage devices.
+DMZ - The outward (i.e. external or internet) facing level of the network architecture used to provide services to external users or systems without allowing direct access to data stores, protected services, or systems within the State’s internal network.
+Electronic Media - Includes electronic and storage media including tapes, disks, CDs, cassettes, DVDs, USB drives, removable storage devices, and portable computing equipment.
+Emergency - When there exists an unforeseen service outage or imminent threat related to the public health, welfare, safety, or public property under emergency conditions as defined in accordance with regulations.
+Employee - Any full-time, part-time, or temporary employee of the State, including interns and student workers employed by the State or its Agency.
+Eradication - Is the necessary action taken to eliminate technical components related to an incident.
+Federal Tax Information (FTI) – any return or return information received from the IRS or an IRS secondary source, including but not limited to; Federal Office of Child Support Enforcement, Bureau of Fiscal Services, or the Center of Medicare and Medicaid Services.
+Incident - An attempted, suspected, or successful unauthorized access, use, disclosure, modification or destruction of data; interference with information technology operations; or a violation of End User Agreement.
+Incident Response Team (IRT) - Lead by the Chief Information Security Officer (CISO), or designee, and further defined within the State’s Incident Response Plan.
+Independent Contractor - Any person or entity that is not an Employee of the State and who provides services to an Agency pursuant to an independent contractor or consulting agreement.
+Individual - Any State Employee, third party, independent contractor, consultant, partner, or supplier.
+Internal Systems - Network devices, workstations, systems, servers, or applications, directly connected to the State’s internal network.
+Least Privilege - The principle of least privilege (also known as the principle of least authority) is an important concept in information security, requiring minimal user profile privileges on systems and applications based on users' job necessities.
+Malware - Short for “malicious software”, which is any software used to disrupt computer operation, gather sensitive information, or gain unauthorized access to computing systems.
+Network - A group of interconnected computers and network devices.
+Network Devices - Include firewalls, routers, switches (managed or unmanaged), wireless routers, wireless access points (managed or unmanaged), wireless controllers, modems, physical taps, and intrusion prevention systems (IPS) or intrusion detection systems (IDS).
+Privileged User - An individual authorized to access the State’s enterprise technical resources and has the capability to alter the properties, behavior, or control of any information system(s), application(s), or network (e.g., a super user, root, or administrator). Additionally, an individual is a Privileged User if granted such elevated access to perform critical business or technical function(s).
+Remediation - Implementation of an information security control or set controls to any system(s) or application(s) when correctly applied will mitigate a specific vulnerability or reduce the impact of a vulnerability to an acceptable level of risk defined by the organization.
+Risk - The likelihood of a threat successfully leveraging an identified vulnerability and the level of negative impact on any asset, system, data, or operational process.
+Security Event - An observable event, or collection of events, that may indicate a potential incident and shall be reviewed or investigated and may or may not be required for promotion to an Incident.
+Separation of Duties - (SoD; also known as Segregation of Duties) is the concept of having more than one person required to complete a task. It is an administrative control used by organizations to prevent fraud, sabotage, theft, misuse of information, and other security compromises. The concept of having more than one person required to complete a task, which has a significant inherent risk.
+Server - A computer system that provides services to other client programs and their users, in the same or a different network. A physical or virtual system that provides a service is also a server.
+Service-Level Agreement (SLA) - An agreement related to the provision of goods or services that sets forth the terms, expected duties (typically including processing or response time), and responsibilities of the parties.
+System - A system may be either electronic or manual and refer to servers, network devices, data sources, network components, telecommunication components, data communication services, business processes and other applications. Systems include all computing systems.
+System Administrator - An individual responsible for the installation and maintenance of a System. The System Administrator is responsible for ensuring effective system utilization, adequate security parameters are incorporated in the System, and that the System complies with the Information Security Policy and procedures.
+Third Party - Any individual or entity that is not either the State Agency or an Employee of the State and is providing a good or service to an Agency.
+Threat - Any source of danger that can cause negative impact to an asset, data, and/or business operations (e.g., act of nature, system vulnerability, manmade disasters, hacker, Employee, etc.).
+Training - Efforts focused to review relevant security knowledge and improve or establish skill and competence. The most significant difference between training and awareness is that training seeks to teach skills that allow a person to perform a specific function, while awareness seeks to focus an individual’s attention on an issue or set of issues.
+User - Any Employee, independent contractor, or third party with authorized access to or that interacts with State data or data stored, processed, or transmitted by the State. The user is responsible for using the data in a manner that is consistent with the purpose intended and in compliance with the Information Security Policy and Procedures while also reporting any intentional or non-intentional violations of the Information Security Policy and Procedures.
+Visitor - An individual or entity that is visiting a State facility and is not the Agency, an Employee of the Agency, or a third party providing a good or service to an Agency.
+Virus - Any piece of code, or computer program that may be capable of propagating itself and typically has a detrimental effect, such as corrupting the system or destroying data.
+VoIP – (voice over Internet Protocol) the transmission of voice over packet-switched IP networks.
+Vulnerability - Any weakness or flaw in a system that results in the loss of confidentiality, integrity, accountability, or availability or any combination thereof if successfully exploited.
+Policy Enforcement
+Privacy and Security Audits
+The State may, from time to time, conduct audits and inspections of Agency privacy and security practices to confirm conformance with the Information Security Policy and Procedures. These audits may be scheduled or unscheduled, depending on the risk assessment and regulatory requirements. Agencies will be expected to cooperate fully during such audits and provide all relevant information, documents, and system access required to perform the audit. The results of audits will be used to identify areas for improvement, guide compliance efforts, and reinforce security practices across the State’s agencies.
+Complaints of Privacy Violations
+Any person may report suspected violations of the Information Security Policy and Procedures. Complaints may be lodged directly with the Chief Information Security Officer (CISO) or the Information Security Team (IST), and may be in writing, by telephone, or by email. Anonymous privacy complaints may be left on the Information Security Hotline or with the Office of Technology Services (OTS) End User Computing (EUC) Support Services Team.
+Reporting Obligations
+It is the duty of all State Employees to immediately report, using one of the methods described above, any known or suspected violations of the Information Security Policy and Procedures by an Agency, its Employees, third parties, and independent contractors. The intentional failure to report violations shall subject the non-reporting party to sanctions as outlined below.
+Investigation of Complaints
+All complaints regarding privacy and security policies and practices, and compliance therewith will be accepted and considered. Upon receipt of a privacy complaint, the Chief Information Security Officer (CISO), or a designee, shall investigate the allegations. In so doing, the CISO may interview Employees, collect documents, and review logs detailing access and use of data. All Employees shall cooperate fully with the CISO to ascertain all facts and circumstances regarding such complaints. The CISO shall create a report of findings in response to any privacy or security complaints, and shall include the proper assurance functions such as Human Resources (HR), Legal, and Compliance entities during the course of an investigation, as needed. The CISO shall ensure all complaints are reported to the Commissioner of Administration and CIO immediately as practical. In addition, the CISO shall produce periodic reports for the Office of Technology Services (OTS) Executive Leadership Team concerning the status of privacy and security complaint(s) involving an Agency, its Employees, third parties, or independent contractors.
+Non-Retaliation
+Neither an Agency nor any Employee(s) shall undertake any action to intimidate, threaten, coerce, discriminate against, or any other retaliatory action (“reprisal”) against persons who report a violation of the Information Security Policy and Procedures. Persons who engage in acts of reprisal shall be subject to sanctions as outlined below.
+Sanctions
+Violations of the Information Security Policy and Procedures may result in disciplinary action, up to and including dismissal. Accordingly, the State shall notify the appointing authority responsible for the individual that has violated this policy. In addition, if the State has a reasonable belief that the individual has violated the law, the State shall refer violators to the relevant entity for prosecution, as well as commence legal action to recover damages from the individual.
+Violators may also be required to complete remedial training.
+Policy Exceptions
+Except as otherwise stated in this policy, any Agency or individual may request an exception to this policy by having their section director (or higher) submit an Information Security Policy - Request for Exception ticket to the Chief Information Security Officer. The Agency or operational entity must receive documented authorization prior to taking any action that directly or indirectly conflicts with the requirements and responsibilities within this policy.
+Where an exception to the policy presents a risk that cannot be remediated or mitigated using alternative security measures, a Risk Acceptance Form shall be completed and signed by the Statewide Chief Information Officer (CIO), Chief Information Security Officer (CISO), and the Agency’s Executive Director for the purpose of setting forth a risk management strategy.
+In cases where the requester deems the CISO’s denial is unacceptable, the request may be appealed by the Secretary or Head of Agency to the OTS Executive management team.
+The CISO shall not, under any circumstance, approve any exception which violates or conflicts with any Federal or State law.
+The CISO may present the OTS Executive management team with a report of all current exceptions at least annually.
+Changes and Amendments
+The Information Security Policy and Procedures are reviewed annually by the CISO, taking into account any changes to environments, technology in use, operational objectives and processes, identified threats, effectiveness of implemented controls, and external events, such as changes in legal or regulatory environments, changed contractual obligations, and changes in the social climate. Any policy changes or amendments shall be proposed to the OTS executive management team for review and approval. Any amendments to this Policy may be proposed by any member of the Information Security Team (IST) for review and approval at any time.
+Roles and Support Functions
+Statewide Chief Information Security Officer (CISO)
+The CISO is responsible for the maintenance and implementation of the Information Security Policy and Procedures. The CISO will work with various operational sections, assurance functions, state agencies, and internal and external parties to implement, monitor, and evaluate the Information Security Policy and Procedures, while also leading Cybersecurity Incident Response activities for agencies or entities managed by OTS
+Information Security Team (IST)
+The Information Security Team is composed of the CISO and specifically selected OTS resources at various operational levels with the primary responsibility of performing operational information security functions. Led by the CISO, the IST works with applicable OTS, Agency, and Third-Party resources to develop, implement, communicate, and apply the Information Security Policy and Procedures to State systems, data, and processes.
+Information Compliance Team (ICT)
+The role of the Information Compliance Team (ICT) is to ensure State and Federal regulatory compliance requirements and controls are addressed and correctly implemented. The ICT works with applicable OTS, Agency, and Third-Party resources to develop, implement, communicate, apply, and ensure appropriate risk mitigations and security controls are properly applied. The Information Compliance Team works with applicable OTS, Agency, and Third-Party resources to ensure Plans of Action and Milestones (POA&M), Corrective Action Plans (CAP), and other documentation are reviewed, prioritized, and mitigated in a timely manner.
+Information Security Officers (ISO)
+The CISO will assign specific members of the IST to serve as an Information Security Officer. An ISO will assist in leading information security initiatives related to specific regulatory environments. An ISO will also function as a dedicated resource for agencies to assist with planning, audits, incident response, notifications, and ensure regulatory requirements are implemented in a verifiable manner.
+Compliance and Assurance Functions
+Legal, Compliance, and Regulatory The State’s legal, compliance, and regulatory departments or resources shall be engaged to provide the CISO and IST legal and regulatory compliance guidance and ongoing direction to support continuous improvement of the Information Security Policy and Procedures.
+Audit Assurance Groups The CISO, IST and ICT shall work with the Division of Administration Internal Auditors (IA), Louisiana Legislative Auditors (LLA), and third parties, where applicable, to monitor, develop, and assess the effectiveness of the Information Security Policy and Procedures.
+Internal Audit (IA) The assessments, risk ratings, audit findings and recommendations issued by the IA will assist the CISO, IST, and ICT in the annual review of the Information Security Policy and Procedures. The CISO, IST, and ICT may seek assistance from and cooperate with IA to help facilitate compliance with the Information Security Policy and Procedures, applicable regulations, standards, and best practices.
+Louisiana Legislative Audit (LLA) The CISO and IST working with IA, shall cooperate with LLA, as stated by State law [RS 24:513], to implement and maintain financial reporting controls, including key information technology general computer controls and access controls.
+Third Parties When deemed necessary by the Chief Information Security Officer (CISO), the Information Security Team (IST), and/or Information Compliance Team may contract with third parties for the following:
+- Recommendations, guidance, or creation of policies, processes, and procedures.
+- Formal Risk Assessments
+- Application Security or Penetration Testing
+- Industry certifications
+- Security Assessments
+- External Audits
+- Gap Analysis
+Third-party engagements help bring external expertise and an objective perspective to the state’s information security landscape. These assessments are critical to identifying vulnerabilities that might not be apparent internally and in ensuring that the state's policies are robust and future-proofed.
+Human Resources Due to agency HR personnel, which are in a direct and constant relationship with existing Employees, and its interaction with new and former State Employees, the IST and/or ICT shall work closely with the Human Resources group to confirm compliance with critical processes and procedures required by the Information Security Policy and Procedures.
+- The IST and/or ICT shall work with HR to develop policies and procedures to address any information security issues prior to employment, during onboarding, during employment, dismissal, or position changes.
+- The IST and/or ICT shall also work with HR to align Information Security awareness, education, and training with the Information Security Policy and Procedures.
+Office of Risk Management (ORM) The IST will coordinate with ORM to administer a cost-effective comprehensive risk management program for all information technology services in order to mitigate financial liability associated with the delivery of these services.
+Office of State Procurement (OSP) OSP is composed of three internal sections: Central Purchasing; Professional Contracts; and State Travel/Purchase Cards. Each section is responsible for providing timely and efficient procurement of goods and services.
+- The IST and/or ICT shall work with OSP to standardize, facilitate, and supervise the procurement of all information technology goods, services, and Professional Services (professional, personal, consulting) required by the State or its Agencies.
+- The IST and/or ICT shall review and approve RFPs and contracts for information technology related goods and services to ensure language provided meets or exceeds the standards required in the Information Security Policy and Procedures.
+- The IST and/or ICT shall ensure staff, contracted staff, augmentation personnel or their subcontractors, receive and meet Training and Awareness requirements for the protection of Agency data.
+- The IST and/or ICT will provide assistance and review of contracts related to information technology or information exchange to ensure compliance with Data Sanitization requirements.
+Change Management Team (CMT) The CMT is responsible for overseeing the change management process and confirming that the proper review, documentation, testing, approval, implementation and archival of changes is performed. The CMT is a group of change managers who attend all change control meetings, both at an enterprise level and vertical level. See the Change Management Policy, which is a separate policy for additional details.
+Agency Management Commitment
+The State of Louisiana is committed to ensuring compliance to the Information Security Policy and Procedures. Agency Executive Management shall be responsible for ensuring employees and partners have access to, able to review, and follow the Information Security Policy and Procedures.
+Data Classification and Handling
+Purpose and Scope
+This policy section provides definitions and responsibilities for classifying data according to the requirements and risks associated with the use, storage, transmission, or processing of data by an Agency or entity.
+This policy section applies to all data owned, maintained, processed, held in trust, or licensed to the State or its Agency.
+Data Handling
+Agencies shall appropriately appoint roles, responsibilities, operational processes, and classify data in accordance with the classification system defined within this policy.
+In addition to the responsibilities defined within this policy, all agencies shall comply with any applicable Federal and State regulations related to data protection.
+Data Roles and Responsibilities
+Data Owner The Data Owner is the individual, team, group, or section within an Agency or entity directly responsible for the data. The Data Owner shall be knowledgeable about how the data is used, acquired, transmitted, stored, deleted, and otherwise processed. Unless otherwise specified by the Agency or appointed by higher authority, the Data Owner is the leader of the operational area, group, or team that is responsible for the process or service requiring the data. The Data Owner is also referred to as the record “custodian” within the State’s Public Records Law La. R.S. 44:1(A)(3).
+The Data Owner, or authorized delegate, shall determine the appropriate Classification Level of the data and shall review the Classification Level periodically to verify it is still applicable and appropriate.
+The Data Owner shall be personally liable for the misuse, unauthorized use, or intentional disclosure of Restricted Data which shall result in actions by the State as defined in Policy Enforcement.
+Data Custodian The Data Custodian is an individualor group assigned by the Data Owner, responsible for implementing and maintaining the requirements for the data classified by the Data Owner. The Data Custodian ensures that data is properly stored, transmitted, and protected according to its classification, and may also be involved in implementing security measures and ensuring access controls are in place.
+Data Handler A Data Handler is anyone who has been authorized by the Data Owner to utilize the data in accordance with assigned duties or responsibilities. A Data Handler is responsible for understanding the data classification and requirements set forth by the Data Owner.
+Data Labeling Data must be labeled with the appropriate Classification Level where possible.
+For example, where possible, electronic documents should be labeled in the header or footer with the appropriate Classification Level; printed material should contain the Classification Level on the cover sheet, and system, database, or application entry points should display the Classification Level within the logon banner where deemed feasible by the Information Security Team (IST).
+Data Classification Levels
+Public (or Unrestricted) Public Data is data that does not qualify as Confidential or Restricted Data and is in the public domain or has been released for public use in accordance with applicable Federal, State, or Agency policy. Public Data is accessible to all users (i.e., general public) and distributed without the need for restriction. Release of this data has no measurable adverse impact on individuals, Agency, or the State of Louisiana.
+- Examples of Public Data:
+Include, but not limited to, approved press statements, louisiana.gov content, forms and templates used by workers or residents, marketing materials, etc.
+Uncategorized (or Internal) Uncategorized Data is data that is not actively published to the public; however, is subject to the State’s Public Records Law. Inadvertent disclosure would unlikely have an adverse effect on any individual, supplier, partner, Agency, or the State of Louisiana. Any data not classified as Restricted, Confidential, or Public shall be classified as Uncategorized Data.
+- Examples of Uncategorized Data:
+May include, but not limited to, Internal Memos not containing Confidential or Restricted, Meeting Minutes not containing Confidential or Restricted Data, Internal Project Reports, Departmental Operating Procedures, Business Contact information, etc.
+Confidential (or Sensitive) Confidential Data is data that the unauthorized disclosure of could seriously and adversely impact an Agency, third party, suppliers, individuals, or the State of Louisiana. Additionally, Confidential Datahas been specifically excluded or granted exemption within the State’s Public Records Law.
+- Examples of Confidential Data:
+Include, but not limited to, Source Code, Audit or Risk assessment reports, demographic research, strategic plans, employee performance reviews, etc.
+Restricted Restricted Data is data that requires strict adherence to legal obligations such as Federal, State, or local law, specific contractual agreements, or data specifically designated as Restricted Data in applicable state or Agency policy. The unauthorized disclosure of Restricted Data is expected to have a severe or catastrophic adverse effect on an Agency, partners, individuals, or the State of Louisiana. Additionally, Restricted Data has been specifically excluded or granted exemption within the State’s Public Records Law.
+- Examples of Restricted Data:
+Include, but not limited to, Usernames and Passwords, Federal Tax Information (FTI), Protected Health Information (PHI), Personally Identifiable Information (PII), education records, credit or payment card information (PCI), Criminal Justice Information (CJIS), employee payroll records, state tax payer data, etc.
+Requests for Public Records
+In order to ensure Confidential and Restricted Data is not unintentionally released, an Agency shall create, maintain, and disseminate procedures for processing Requests for Public Records. Agency procedures shall contain named individuals authorized by the appointed authority to release information once the request has been appropriately reviewed by the Agency’s Data Owner (or designee) and legal counsel.
+All Employees, when presented with a Request for Public Records, shall follow the Agency’s procedures for processing Requests for Public Records, regardless of the Classification Level assigned to the records being requested.
+Identification and Authentication (IA)
+Purpose:
+The purpose of this policy is to define the requirements for the identification and authentication of users, devices, and systemsaccessing State resources. These measures are essential to ensuring that only authorized individualsand devicescan gain access to restricted and confidential information and systems, thereby protecting the confidentiality, integrity, and availability of critical data. This policy establishes secure access practices that comply with federal regulations, including but not limited to; IRS Publication 1075, CJIS Security Policy, CMS requirements, and SSA security standards, which are designed to safeguard sensitive information from unauthorized access.
+Scope:
+This policy applies to all individuals, devices, and systems requiring access to the State's networks, applications, and sensitive data. It covers internal and external users, contractors, third-party vendors, and devicesinteracting with the State’sIT infrastructure. The policy mandates the use of unique identifiers and robust authentication methods, such as multi-factor authentication (MFA), to ensure secure access. Compliance with this policy is required for all personnel and systems, and it is designed to align with applicable federal regulatory requirements to mitigate the risk of unauthorized access and safeguard the State’s data.
+All systems, applications, and softwareutilized by an Agency or the Office of Technology Services (OTS) shall comply with the following list of requirements:
+Identification and Authentication (IA) Control Policy
+- Identification and Authentication Requirements (IA-1)
+  - All usersand devicesmust be uniquely identified before gaining access to any systemor data.
+  - Unique identifiers (e.g., usernames, device IDs) will be assigned to each useror devicerequiring access.
+  - Userand deviceidentifiers will be managed according to organizational policies, including creation, deactivation, and revocation processes.
+  - As required in PS-8 (Personnel Security Awareness and Training): Each user, including employees, independent contractors, and third-party users, shall complete the End User Agreement (EUA) training.
+- Identification and Authentication for Organizational Users (IA-2)
+  - All usersmust be authenticated before being granted access to any agency’s systems, applications, or data.
+■ User Identification: Ensures that individuals accessing an agency’s systemsare uniquely identified, which requires providing a government-issued ID as part of the process.
+- Authentication will include the use of strong methods, such as passwords, tokens, multi-factor authentication (MFA), or biometrics.
+■ Authentication: Requires that authentication methods (e.g., passwords, biometrics, tokens, or physical ID cards) be used in a secure manner to ensure that the individual is who they claim to be.
+- Authentication methods will be reviewed regularly to ensure they meet the latest security standards.
+- Verification of End User Agreement and Training Completion:
+■ HR, ICT, or IST shall ensure that employees, independent contractors, and third-party users have completed the End User Agreement (EUA) and any other required security training prior to granting access to information assets.
+- Record Maintenance and Confirmation:
+■ Human Resources (HR) will maintain employee-related records and serve as the appropriate process owner for tracking compliance with access requirements.
+■ Information Security Team (IST) and Information Compliance Team (ICT) will confirm that records for independent contractors and third-party users, as provided by the Office of Technology Services (OTS), reflect completion of the End User Agreement (EUA) and necessary security training.
+- Device Identification and Authentication (IA-3)
+  - All devicesaccessing the organization’s networkmust be authenticated to verify their legitimacy.
+  - Device authentication mechanisms (e.g., certificates, device registration systems) will be implemented and managed to ensure only trusted devices can connect to critical systems.
+- Identifier Management (IA-4)
+  - Unique identifiers will be assigned to all usersand devices, and these identifiers will be managed securely throughout their lifecycle.
+  - Identifiers will be deactivated immediately upon termination of useraccess, such as when an employee leaves the organization or when a device is no longer needed.
+  - Identifiers, where possible, shall be configured to automatically expire at the end of the contractor engagement date.
+  - Identifiers shall not be created locally within applications, devices, and systemsunless approved by the Information Security Team (IST) or the Information Compliance Team (ICT).
+- Authenticator Management (IA-5)
+  - Authenticator Protection:
+■ All authenticators (e.g., passwords, cryptographic tokens) used for systemaccess must be securely managed and protected against unauthorized access.
+- Password Storage and Transmission:
+■ Passwords must never be stored in clear text, digitally encoded, or using unauthorized encryptionmethods. All passwords must be stored using approved encryption techniques to ensure confidentiality and integrity.
+■ Passwords must be transmitted in compliance with the agency’s encryptionrequirements to protect their confidentiality during transmission.
+■ Passwords must never be transmitted in clear text or over insecure protocols(e.g., HTTP, FTP). Only secure communication protocols such as HTTPS or TLS 1.2 or higher should be used.
+- Compliance with Password Requirements:
+■ All passwords must comply with the agency’s established complexity and length requirements as outlined in the agency’s security policies. These requirements ensure that passwords are strong enough to resist common attacks.
+- Password Change Protocol:
+■ Usersare required to regularly change their passwords and other authenticators in accordance with established protocols, especially after any security incident, breach, or suspected compromise.
+- Multi-Factor Authentication (MFA):
+■ Multi-factor authentication (MFA) will be implemented wherever feasible to enhance the security of useraccess, ensuring that access is granted only after successful verification through at least two distinct factors.
+- User Responsibilities for Password Protection:
+■ Compromise Notification: Usersmust immediately notify the Information Security Team (IST) if they suspect or confirm their password or other state managed credential has been compromised.
+■ Password Sharing and Storage Prohibitions: Usersare strictly prohibited from sharing passwords with others or store passwords in easily accessible locations, including written formats, batch files, or in unsecured applications (e.g., automatic login scripts, macros, or terminal function keys).
+- Authentication Feedback (IA-8)
+  - Authentication mechanisms will be designed to prevent unauthorized individuals from gaining access through feedback mechanisms.
+  - Usersor systemswill not be provided with information that could aid in guessing or exploiting the authentication process, such as confirming the existence of accounts or invalid passwords.
+- Authentication and Authorization Monitoring (IA-9)
+  - All authentication attempts, whether successful or unsuccessful, must be logged and monitored to detect unauthorized access or security incidents.
+  - Logs will be regularly reviewed to identify suspicious activity or patterns that may indicate an attempt to compromise the security of the agency’s systems or data.
+  - Alerts will be triggered for unauthorized or anomalous access attempts, and these logs will be retained in accordance with the agency’s data retention and audit policies.
+- Publicly Accessible Authentication (IA-11)
+  - If authentication mechanisms are publicly accessible (e.g., through public-facing web portals), they must be secured using strong encryption(e.g., TLS 1.2 or higher) to prevent unauthorized interception or compromise of credentials.
+  - Where applicable, authentication processes for publicly accessible services must include multi-factor authentication (MFA) to reduce the risks of account compromises through remote or external access points.
+  - Any confidentialor restricted data transmitted during the authentication process must be encrypted in transit to ensure its confidentialityand integrity.
+- Authentication of Non-Organizational Users (IA-12)
+  - Non-organizational users, such as contractorsor third-party vendors, must undergo the same identification and authentication processes as internal users before being granted access to agency systems.
+  - Unique identifiers will be issued to external users, and they will be required to authenticate using strong authentication methods (e.g., passwords, MFA) to ensure only authorized individuals can access agency’s systems, applications, or data.
+  - Access for non-organizational users will be time-limited and automatically revoked upon the completion of the engagement or contractual obligation.
+Control Enhancements
+- CE-1: Automated Identity Management
+  - The agency shall implement automated identity management systemsto ensure that all user identifiers are created, modified, and deactivated according to predefined workflows and approval processes.
+  - Automated systems will assist in reducing human error and delays in managing user access and ensuring that access is revoked immediately when no longer necessary.
+- CE-2: Role-Based Authentication
+  - Authentication mechanisms will be tailored to usersbased on their role and level of access. More stringent authentication methods (e.g., MFA) will be required for individuals with access to sensitive or high-risk dataor systems.
+  - Role-based access controls (RBAC) will be enforced to ensure that usersare only granted the minimum necessary access required for their duties.
+- CE-3: Adaptive Authentication
+  - Adaptive authentication methods will be used to adjust the level of authentication required based on contextual factors, such as the user’s location, device, or behavior.
+  - For higher-risk scenarios, such as accessing critical systemsor logging in from an unrecognized device, additional verification steps (e.g., MFA or out-of-band verification) may be implemented to further harden the authentication process..
+- CE-5: Continuous Authentication Monitoring
+  - Continuous monitoring of user authentication will be implemented to detect and mitigate potential unauthorized access or malicious activities in real time.
+  - Behavioral analytics will be used to monitor user activity patterns, flagging any anomalous behavior that may indicate compromised credentials or other security threats.
+  - Alerts will be triggered for suspicious actions, and immediate actions will be taken to address any identified security concerns.
+  - Policy Requirement: Periodic reviews of identification and authentication procedures will be conducted to ensure they remain effective and compliant with regulatory requirements.
+  - Implementation: The state will evaluate and update authentication methods, technologies, and processes regularly to address evolving security threatsand to maintain compliance with federal and state regulations.
+Failure to comply with this policy will result in disciplinary action, which may include revocation of access privileges, termination of employment, and legal action if necessary. All personnel, contractors, and third-party vendors are responsible for adhering to the provisions set forth in this policy to ensure the security and integrity of sensitive information.
+Identification and Authentication (IA) Procedures Reference:
+To ensure compliance with the requirements outlined in this Identification and Authentication (IA) policy, all personnel and system owners must adhere to the specific procedures detailed in Identification and Authentication Procedures document. This document provides directives for the implementation and management of identification and authentication controls, including but not limited; to user account creation, password management, multi-factor authentication (MFA) implementation, and incidentreporting in the event of authentication-related compromises.
+The Identification and Authentication Procedures document is available to all relevant personnel and can be accessed through the OTS Intranet webpage. Abiding by the procedures set forth in this document is mandatory, and any deviations from the outlined procedures must be approved by the Chief Information Security Office (CISO) or delegate.
+Access Control
+Access to data and systems shall be configured based (1) on the Data Classification Level and (2) by the user’s job role or responsibility. All systems should be tailored to restrict access to users who need such information to perform their job function (least privilege). All data shall be protected via access controls so that data is not improperly accessed, disclosed, modified, deleted, or rendered unavailable.
+Default Minimum Access
+All users shall be allowed to have read access to systems, applications, and resources that contain solely Public Data.
+Access Based on Job Role
+Access to systems that contain Restricted, Confidential, or Uncategorized Data shall be granted based on job role or responsibility. The parameters of the access are based on user attributes proposed by the supervisor of the Agency section and will be subject to the additional approval of the IST or Data Owner. Reviews of users’ attributes with their access needs are to be performed by the application, system, or Data Owner on a periodic basis to confirm that the access is still necessary and required for that job role. The application, system, or Data Owner shall notify the Information Security Team (IST) if the role or access is no longer needed or appropriate.
+Elevated Access
+If access is required beyond the initially approved scope of the job role and is deemed necessary by the Data Owner, then the Data Owner or delegate must submit an access request and receive approval from the IST. Any extensions of temporary Elevated Access must be submitted to and approved by the IST. The IST shall keep all access request documentation of extensions on file in accordance with data retention policies. The Data Owner shall review users with Elevated Access at a minimum of annually, to confirm that the access is still necessary and required and shall notify the IST and the user (or the user’s manager, if appropriate) if the Elevated Access is no longer needed or appropriate. Users no longer needing Elevated Access shall have such access modified or removed.
+Third Party Access
+Third Party or independent contract users shall only be granted the access necessary to perform their contracted obligation as determined by the Data Owner and deemed appropriate by the IST.
+On an annual basis, the Data Owner, assisted by the IST, shall perform a review of third party access.
+Emergency Access
+In the event of an emergency requiring immediate access, the same access control processes shall be followed, except that if the Data Owner is not available and the need for additional access is critical for continued operations or to address an active incident, then the Chief Information Security Officer (CISO), Chief Information Officer (CIO), or Deputy CIO may authorize such access. The emergency access shall be documented with an access request and the emergency access shall be removed once the situation is resolved.
+Resolution of the emergency is determined by the Data Owner (or higher authority), CIO, and CISO.
+For additional detail and procedures, please refer to the “Access Control Policy and Procedures” internal document.
+Remote Access
+OTS and Agencies shall ensure:
+- Reasonable and appropriate technologies and measures to control remote access of systems.
+- Secure authentication and cryptographic technologies utilized comply with Password and Encryption requirements.
+- An additional factor of authentication (multi-factor) is required for privileged users, users accessing Restricted Data remotely, or for systems designated by the Data Owner or CISO to require multi-factor authentication.
+- System configurations maintain the latest antivirus updates and operating system updates pursuant to the requirements within System Configuration.
+- Third party access to systems is restricted, unless specifically required to fulfill services contained within a signed agreement.
+- Remote access is restricted in accordance with State and Federal regulatory compliance by the specific data type, per geographic location. This includes, but not limited to FTI data.
+  - Per IRS Publication 1075 requirements, FTI may not be stored at or be accessible from locations outside of Continental United States (CONUS).
+Removal or Suspension of Access
+Suspension of Access
+If the Information Security Team (IST) has evidence or suspicion that a user account or ID is being used in violation of a State policy or in a manner that may cause potential damage to Agency systems, then the IST may immediately suspend or disable the user or account ID. The IST shall provide notification of the suspended access to the user’s direct supervisor.
+Standard Removal of Access
+User-based accounts are defined as accounts that are created for use in agency processes or application systems, by the Agency or OTS. Upon dismissal, resignation, or transfer of an employee, these accounts shall be disabled or decommissioned. Independent contractor and/or third-party user-based accounts should be disabled or decommissioned upon dismissal or resignation of the contracted individual or no later than the termination of the contract.
+In some instances, security roles may be position based which reflect the job duties associated with the position and is referencing the HR employee record of the employee in that position. The user’s employee record is used to track an individual’s employment through the HR system. The user’s employee record within the HR system cannot be ended in many cases as the employee record is the official HR record of the State and must be in compliance with human resource, payroll requirements and other laws and regulations. When an employee leaves a position, they lose all security roles associated with that position. However, if the employee has left state government, they retain access to the HR system for their own record for 30 days. OTS will follow Human Resources direction on when to process actions which remove the employee from the position
+For unscheduled dismissals, Supervisors or responsible parties shall notify the assigned Human Resources contacts as soon as possible, but no later than two business days, following the decision to dismiss an Employee, date of the dismissal and identity of the user(s). For these purposes, dismissal is defined as a person’s employment being terminated at the initiative of the employer (state). For contractors, or third-party users, the responsible parties shall notify the Information Security Team and the assigned Office of State Procurement (OSP) contacts no later than two business days, following the decision to terminate a contract or services.
+For planned dismissals (as defined above), Human Resources, or any other responsible party shall notify the Information Security Team of the planned date of the dismissal and identity of the user(s). User-based account access shall be removed for the Employee, contractor, or third-party user as soon as possible, but no later than two business days after the date of dismissal. OTS will follow Human Resources direction on when to remove position-based account access.
+Sensitive Removal of Access
+Removal of access shall be considered sensitive when the user is being dismissed and:
+- Has access to systems containing Confidential or Restricted Data.
+- Has been granted privileged access.
+- May inappropriately use Agency data after dismissal.
+In the event that access requires sensitive removal, the user’s supervisor, the relevant Data Owner, or designee shall notify Human Resources and IST two business days prior to the date of the planned dismissal, or earlier if operationally possible.
+The IST shall work with the Data Owner, Agency Leadership, or designee, to coordinate the actions required for removing access at a time closely aligned with the dismissal of the user.
+In the event of an unscheduled sensitive removal of access, the individual’s access shall be removed before the close of business on the same day of notification or the morning of the next business day.
+Change in Role or Position
+In situations where the user has changed roles or positions and requires reduced or enhanced access, the user’s manager should notify the IST and work with the relevant Data Owner to provide the user with appropriate access that is consistent with his or her job responsibilities.
+Unnecessary or Inappropriate Access
+In situations where a user has received unnecessary or inappropriate access, is abusing access, or otherwise violating policy, the IST may remove, disable, or restrict access upon becoming aware of the situation or receiving a request from the relevant Data Owner or supervisor.
+Based on the potential operational impact, nature of the inappropriate access associated with the situations outlined above, or when deemed necessary by the Chief Information Security Officer (CISO), the IST shall further investigate the event. In instances where the CISO determines the actions by the Data Owner are clearly negligence or misuse, actions shall be taken in accordance with Policy Enforcement.
+System Configuration
+Purpose and Scope
+This policy section sets forth standards for all computing systems connected to the State’s network. All systems in production or intended for production use, whether managed by the Office of Technology Services (OTS), an Agency, or third party, must be built, deployed and configured in accordance with this policy section. The Information Security Team (IST) must perform pre and post evaluation and validation of the security configurations of all such systems. Computing systems that are not owned or leased by OTS or the Agency shall not be allowed to directly connect to the State’s network unless approved by the IST.
+For additional detail and procedures, please refer to the “Configuration Management Policy and Procedures” internal document.
+Computing System Build and Deployment
+All system deployments (client or server) or modifications must follow a documented system configuration process. The system configuration process must be documented and maintained by the appropriate technical owner and approved by the IST. Any request for an exception to this requirement must be submitted to the IST using the processes required by Policy Exceptions.
+Computing systems shall be built, configured, deployed, and maintained in compliance with the technical and non-technical requirements defined within the Information Security Policy and Procedures.
+System Configuration Record
+A System Configuration Record must be generated for all initial system baselines and changes to system baselines at the time of installation by the system developers, maintainers or administrators and maintained accordingly.
+Note: User-preference variables such as screen backgrounds, ring-tones, and other user-based settings are exempt from this requirement.
+Secure Baseline
+The IST, working with the appropriate operational OTS sections, shall document a secure baseline of the applicable security settings, controls, configurations of the operating system (OS) while including any additional application, hardware, or service settings specifically relied upon to address an identified risk.
+Patch Deployment
+All current patches, hot-fixes, and service packs shall be installed, when applicable on computing systems prior to deployment into the production environment. Any future patches, hot fixes, and service packs shall be installed in accordance with Vulnerability Management and Change Management.
+File Integrity Monitoring
+Where possible or deemed required by CISO, File Integrity Monitoring (FIM) solutions shall be implemented on systems storing or processing Confidential or Restricted Data to alert on unauthorized modification of critical system files (e.g., system and application executable), configuration and parameter files, and security event logs.
+Application Control
+Where possible or deemed required by CISO, application control solutions shall be implemented to ensure the computing system remains in compliance with the approved system configuration baseline.
+Computer Firewalls
+When applicable, computer (or Host) firewalls shall be utilized to address the risk of computing systems connecting to untrusted networks.
+Anti-virus Software
+Anti-virus software shall be applied to computing systems in accordance with Antivirus requirements.
+Encryption
+Encryption shall be applied to computing systems in accordance with Encryption.
+Network Time Protocol (NTP)
+All Office of Technology Services (OTS) and Agency systems shall be configured to use the NTP server(s), authorized by the Information Security Team (IST) to maintain time synchronization with other systems in the environment.
+Network Storage Configuration for Confidential Restricted Data
+Storage devices utilized by OTS or an Agency that store Confidential or Restricted Data must be on an internal network segregated from any DMZ. Access to storage devices must be configured in accordance with Access and Identity Management requirements.
+Configuration of local shares
+All shared resources (e.g., mapped folders, drives, and devices) must have permissions set to allow only those individual accounts or groups that require access to that resource. Sharing folder resources from a workstation is prohibited and server resources must be used for sharing purposes using the guidelines as described in Access and Identity Management.
+Where applicable, all approved shared files and folders must be configured to use NTFS (New Technology File System) sharing via Active Directory Groups with exceptions to approved Service or System accounts. Granting permissions to files and folders directly is allowed for service and system accounts only.
+Login Notice
+Any computing system owned, operated, leased or managed by OTS or an Agency shall be configured with login banners, where feasible, reminding users of the permissible and authorized uses of the computing system. Where applicable, warning banners should be used advising users of safeguarding requirements.
+Software Installation
+Users may not install software on computing systems operated within the State’s network. If the requested software is on the approved End User Facing Technologies List, OTS will obtain and track the licenses, test new software for conflict and compatibility, and perform the installation. If particular software is not on the End User Facing Technologies List, the appropriate Agency management must submit a request to OTS for review and approval prior to production installation.
+Change Management
+Purpose and Scope
+This policy section sets forth the policy under which a change to systems shall be proposed, reviewed, tested, and implemented. The purpose of this section is to minimize disruptions and mitigate risks associated with changes. A change is a functional or technical modification or patch, including changes in configurations, installation, maintenance or management, which could affect the security, accessibility, functionality or integrity of the Office of Technology Services (OTS) or Agency systems. See: https://www.doa.la.gov/media/lhibcody/ots_change_management_policy.pdf
+Network Devices and Communications
+Purpose and Scope
+This policy section clearly indicates the responsibilities and actions required to implement and maintain mechanisms that ensure communications and network segments that process or transfer Confidential or Restricted Data are adequately protected.
+All firewalls, routers, switches, wireless routers, intrusion detection systems, and other network devices on any Agency network, whether managed by the Office of Technology Services (OTS), Agency, or by a third party, shall comply with this section.
+For additional details please refer to the “System and Communications Protection Policy and Procedures” internal document.
+Network Device Management Responsibilities
+Network devices must be implemented, configured, maintained to effectively filter and protect against unauthorized access to OTS and Agency systems that store, process, or access Restricted and Confidential Data.
+Network device management responsibilities may be delegated to third parties, in accordance with this policy section, Third Party and Data Sharing Agreements, and written approval from the Information Security Team (IST).
+Device Management Responsibilities Include:
+- A list shall be created and maintained of all approved protocols and services permitted on firewalls, routers, switches, and other applicable network devices. Documentation for Approved Network Services, Protocols and Ports must contain a justification for business need and description of purpose.
+- Apply security access rules to firewalls, routers, and other network devices sufficient to protect OTS and Agency systems containingRestricted, Confidential, and Uncategorized Data from external Security Events from external Security Events and external attacks.
+- Source routing must be disabled on all firewalls and external routers.
+- Implement a network perimeter defense between trusted and untrusted environments.
+- Access control to network devices shall adhere to Access and Identity Management requirements.
+- Network devices shall not expose any management interface to any external network or the internet.
+- Document firewall and router security rule changes using the OTS standard ticketing system and referencing the Approved Network Services, Protocols and Ports.
+- All network devices must be capable of and configured to generate logs sufficient to address Audit Logging and Event Monitoring requirements.
+- Network diagrams must be created and maintained for the entire network, clearly labeling all network devices and protection mechanisms.
+- Ensure all routers, firewalls, and other network device configuration files are secured and synchronized properly.
+- Network device configuration backups shall be captured at a frequency that is operationally feasible and approved by the IST.
+- Manage and apply any patches or fixes for routing protocols or network devices in accordance with Change Management and Vulnerability Management.
+- Network diagrams shall be updated after any change affecting the environment and reviewed on a quarterly basis to confirm they are accurate and up to date.
+- Conduct bi-annual review of all network perimeter routers, firewall, IPS, and core network device configurations and record results of the review in the device’s System Configuration Record. The configuration baselines for Agency network devices are to be reviewed on an annual basis and updates to the System Configuration Record should be made when necessary.
+- Requests for internal systems or applications to establish direct connections to internet services must be submitted to the IST for review and approval. If approved, network devices will be configured to only permit sessions to the specific destination IP addresses and ports provided in the request.
+- Firewalls (Physical or Virtual) must be configured to prevent connectivity in either direction. Network traffic shall only be permitted when there is an operational need, and is whitelisted in an ACL with source address, destination address, and destination port.
+Authorized Services, Protocols, and Ports
+Approved services, protocols, and ports, with their corresponding justifications and purpose, are listed in the Approved Network Services, Protocols and Ports. Any changes to the list shall be made in accordance with Change Management.
+Every connectivity path (both inbound and outbound), protocols, and services that have not been approved and listed on Approved Network Services, Protocols and Ports shall be blocked by OTS or Agency firewalls, routers and network devices.
+Network Connection Paths and Configuration Requirements
+Each network path leading to Uncategorized, Confidential, or Restricted Data must utilize logical or physical network segregation using appropriate technologies (e.g., VLANs, IPsec, and VPN) and have a firewall installed at each Internet connection. A firewall shall be installed between any demilitarized zone (DMZ) network, public or untrusted network, third party networks, and where applicable for the internal network zones.
+For network connections directly connected to the internet, public network, or otherwise untrusted environment, requires all traffic to be filtered by a monitored intrusion detection/prevention system that is managed by the Information Security Team (IST), or IST approved resources.
+In no circumstance shall a network device be configured to allow systems within the internal network to be directly accessed from the internet or public network.
+Virtual Private Networks (VPN)
+VPN connections are utilized to ensure the privacy and integrity of the data passing over a public or untrusted network.
+VPN connections shall:
+- Be used for any external connections to internal systems.
+- Be used for any connection between firewalls over any public or untrusted network.
+- Be implemented in adherence to the configurations within Encryption Requirements.
+- Allow only authorized users and partners in accordance with Access and Identity Management requirements.
+- Be considered an extension of the trusted network, and as such, shall comply with the other applicable sections of the Information Security Policy and Procedures.
+Modem Connections
+- Where a modem line is used for call out purpose only, auto answer mode must be turned off.
+- Allow only authorized users and partners in accordance with Access and Identity Management requirements.
+- Where a modem is used to remotely access the network, the call-back function must be configured for authentication on dial-in.
+Wireless Network Requirements
+Only wireless routers or access points owned, managed, acquired, or configured by OTS and approved by the IST are permitted on Agency networks.
+The IST is authorized to perform periodic assessments of applicable State facilities to review wireless network configuration and attempt to identify unauthorized wireless routers or access points.
+- All wireless routers must be physically protected against theft, unauthorized use, or damage.
+- All wireless networks in production use must be protected using the requirements set forth in the Encryption Requirements.
+- Wireless networks with access to internal systems or applications, shall only be granted to users that have been previously authorized.
+- Wireless networks utilized by guests or public resources must be strictly isolated and prevent any access to internal systems, applications, resources, or data.
+Host or Personal Firewalls
+End User computing systems must incorporate host or personal firewall functionality where deemed technically feasible by the Information Security Team (IST). Applications or services providing such firewall functionality must be reviewed, configured, and approved by the IST.
+Additionally, all host or personal firewall solutions shall be implemented in such a way that prevents unauthorized changes.
+Voice over Internet Protocol (VoIP)
+VoIP is the transmission of voice over packet-switched IP networks. VoIP installation shall follow security and technical requirements as outlined within NIST 800-58 publication. The Information Security Team (IST) shall review and approve any VoIP technologies prior to acquisition and implementation.
+Network Administrators
+Individuals granted privileged user authorization to manage network devices shall maintain strict confidentiality regarding network infrastructure, including but not limited to, information regarding access, configuration, Agency communication systems, modem access, network diagrams. Any information regarding the configuration or communication of network devices or systems shall not be posted on any public bulletin boards, listed in telephone directories, placed on business cards, or made available to third parties without the written permission from the IST.
+Vulnerability Management
+Purpose and Scope
+The ability to manage vulnerabilities reliably is a crucial component of the Information Security Program. Vulnerability Management is the process of assessing, detecting, validating, documenting, and remediating vulnerabilities present on devices, systems, and applications, in a timely manner. This policy section establishes responsibilities and actions required to effectively manage vulnerabilities.
+All devices, systems, and applications owned, leased, managed, or utilized by the State or utilized by any individual conducting business on behalf of the State, shall be managed in accordance with this section.
+Additional details can be referenced in the “Risk Assessment Policy and Procedures” document.
+Identification and Notification
+User Identification
+If a user becomes aware of a vulnerability applicable to any Office of Technology Services (OTS) or Agency computing system, the user shall inform the Information Security Team (IST) of the vulnerability as soon as operationally feasible.
+Commercial Software Vendor or Third-Party Identification
+OTS and their partners shall subscribe or implement approaches to maintain awareness of potential vulnerabilities.
+Additionally, any third party hosting, managing, or maintaining any software, system, or process on behalf of the State shall contact the IST immediately as practical upon becoming aware of a vulnerability.
+Automated Identification
+OTS shall deploy and schedule technical solutions that assist in on-going detection and identification of system or application vulnerabilities.
+Continuous Assessment
+Scanning and Testing
+The IST, or approved designee, is responsible for conducting consistent internal and external vulnerability scans.
+Testing and Scanning after a Significant System Change
+Vulnerability testing shall be performed on all network devices, operating systems, databases, and applications which use, store, or transmit any Confidential or Restricted Data after any significant change (e.g., new system component installations, changes in network topology, firewall rule modifications, or product upgrades). Vulnerability scans shall be performed using credentialed scans. The credentials that are used for the credentialed scan, shall be updated no less than two (2) weeks prior to expiration, or as required.
+Penetration Testing or Ethical Hacking
+Only qualified resources approved by the Chief Information Security Officer (CISO), with the expertise required for penetration testing or ethical hacking may perform internal and external network or application assessments. The IST may perform this function as needed.
+Testing or Validation of Security Controls (Technical or Non-Technical)
+Only qualified resources approved by the Chief Information Security Officer (CISO), with the expertise required for testing of the security controls may be authorized to purposely “test” or “validate” the working status of any technical or non-technical security control. This includes, but is not limited to, emails crafted for the purposes of “Phishing Training” for end-users, “Red Teaming”, and Penetration Testing.
+Intrusion Detection Software
+Networks or systems that transmit, store, or process Confidential or Restricted Data shall be protected by a monitored host or network intrusion detection or prevention system that alerts personnel of potential risks. Event logs generated by Intrusion Detection or Prevention systems shall be monitored and managed in accordance with Audit logging and Event Monitoring.
+Risk Assessments
+As part of Risk Management, the Chief Information Security Officer (CISO) shall identify and assess any existing or new threats and vulnerabilities to verify that the Information Security Policy and Procedures are appropriately aligned with the Information Security Program and Strategy.
+Severity Ratings
+Each identified vulnerability shall be assigned one of the following ratings:
+Critical
+A vulnerability making it possible for an unauthorized individual to easily or remotely gain control at the administrator level of an affected system, application, device, or directly access Confidential or Restricted Data. Unless otherwise assessed by the CISO, this class of vulnerability is considered to introduce the highest risk level.
+High
+A vulnerability making it possible for an unauthorized individual to locally gain administrative access to a system or application or possibly gain access to Uncategorized Data.
+Medium
+A vulnerability that may allow an unauthorized individual to gain access to any information stored within a system or application.
+Low
+A vulnerability that while exists, does not pose an immediate threat to the system or application and poses no overall increase in risk to the State. Low vulnerabilities may be mitigated through firewalls and intrusion prevention systems that filter or block external access.
+Unless otherwise specified by the Information Security Team (IST), vulnerabilities identified by software vendors shall maintain their industry accepted (published) severity rating. Examples include, but are not limited to, CVSS or Microsoft Severity Rating.
+Remediation and Reporting
+Vulnerability Log
+The IST shall maintain a vulnerability log that contains all known vulnerabilities.
+Remediation and Response
+Installation of security updates should be tested prior to deployment to production systems and applications where the capability exists. Additionally, updates should be coordinated and applied during an established maintenance window.
+Vulnerability remediation actions shall be completed in compliance with Change Management.
+Reporting
+The IST shall develop aggregated reports and distribute quarterly to the Statewide CIO and applicable agency management resources.
+The IST shall share detailed vulnerability details quarterly to applicable technical owners. Report details must contain information required for the technical owner to confirm and mitigate, as required.
+Antivirus
+Purpose and Scope
+This policy section clearly defines the responsibilities and actions required to protect computing systems and networked resources against malicious software. All computing systems, whether managed by Office of Technology Services (OTS), Agency, or third party, that are capable of supporting anti-virus software, shall comply with this policy section.
+Signature Updates
+All computing systems with anti-virus software must be configured to receive signature and engine updates, at least daily.
+Software and Process Requirements
+Anti-virus software must be centrally managed and configured to alert the appropriate OTS resources. OTS resources receiving alerts generated from anti-virus software shall follow the procedures outlined in Incident Management.
+Anti-virus software logs shall be retained in accordance with record retention policies.
+End-User Responsibilities
+Users shall:
+- Take every precaution to ensure malicious software is not introduced into State environments.
+- Notify OTS End User Support Services of any actual or suspected malicious software and shall not attempt to remediate themselves.
+- Not attempt to disable or uninstall anti-virus protection on any computing system.
+- Not download personal anti-virus software, including evaluation software, public-domain software, or other unauthorized software, on computing systems.
+Computing systems shall only contain authorized software as installed, provided, or approved by OTS.
+Encryption
+Purpose and Scope
+In order to ensure Confidential and Restricted Data are adequately protected and compliant with regulatory requirements, it is imperative that only authorized data encryption methods shall be used. This policy section documents the standards for storing and transmitting Confidential and Restricted Data, whether managed by an Agency, the Office of Technology Services (OTS), or a third party. This section also provides policies for the management of encryption keys. This section does not intend to conflict with any Federal, State, or local law for use of encryption technologies outside of the United States.
+Encryption Standards
+Confidential and Restricted Data that will traverse the internet, public or untrusted networks, or transmitted wirelessly shall be encrypted in accordance with Encryption Requirements. In addition, Confidential and Restricted Data stored on laptops and other portable devices, shall be encrypted in accordance with Encryption Requirements. In the event technical or operational limitations are identified and cannot be addressed, which prevent the required use of encryption for laptops and other mobile devices, the Agency shall complete the Exception Request process. If Confidential and Restricted Data is accessible using a mobile device, that mobile device shall have a memory wipe initiated after ten (10) consecutive unsuccessful device logon attempts.
+The use of proprietary data encryption methods for Confidential and Restricted Data protection is strictly prohibited.
+Encryption Key Management
+Encryption keys must be generated, accessed, distributed and stored in a controlled and secured manner as specifically required below.
+Key Access
+Access to encryption keys used to encrypt and decrypt Restricted Data must strictly comply with Access and Identity Management. The Chief Information Security Officer (CISO) is the Data Owner of encryption keys. The CISO may perform periodic reviews of the users with access to encryption keys.
+Split Knowledge and Dual Control
+When required, a minimum of two encryption key users are required to perform any key action (such as key generation or loading the key). Additionally, no single user with encryption key access shall know or have access to all pieces of a data encryption key.
+Key Generation
+Creation of encryption keys must be accomplished using a random or pseudo-random number generation algorithm. Generating encryption keys must be accomplished by a minimum of two authorized users.
+Key Storage
+All encryption keys must be encrypted and stored in a secure location as determined by CISO. Key-encrypting keys must be stored separately from data-encrypting keys. Clear-text backups of encryption key components must be stored separately in tamper-evident storage in a secure location. Only users with access to encryption keys shall be authorized to retrieve key components from secure storage or distribute encryption keys. If possible and practical, hardware-based storage such as Trusted Platform Modules (TPMs) or smart cards should be used for storage of private or symmetric keys.
+Key Changes and Destruction
+An encryption key change is the process of generating a new key, decrypting the current production data and re-encrypting the Confidential and Restricted Data with the new encryption key.
+All data encryption keys must be changed when circumstances dictate a change by the Chief Information Security Officer (CISO) to maintain data encryption or key integrity. The following are circumstances that may dictate when an encryption key change is required:
+- Regular Rotation: Keys shall be changed at least annually, where applicable as determined by the CISO.
+- Incident Response: Any identified (actual or suspected) unauthorized access to or exposure of encryption keys, determined during the scope of actions performed in accordance with the Incident Management.
+- Suspicious Activity: Activity related to the encryption key process which raises concern regarding the exposure of the existing encryption key.
+- Resource Change: As deemed necessary by the CISO, a process shall begin to change encryption keys when a user with knowledge of the encryption keys ends employment or assumes a new job role that no longer requires access to an encryption process.
+- Technical Requirement: Encryption keys shall be changed if the encryption key has become questionable due to a technical issue such as corruption or instability.
+All data encryption key changes shall be documented as required in Encryption Requirements. Encryption keys no longer in service are to be disposed of in accordance with Data Sanitization.
+Transmission of Confidential and Restricted Data
+Confidential and Restricted Data must be encrypted when it is transmitted across public or untrusted networks, including but not limited to, email, or transmitted wirelessly. Encryption methods must be implemented in strict compliance with Encryption Requirements.
+Examples of acceptable encryption levels include:
+- Transport Layer Security (TLS)
+- Internet Protocol Security (IPSEC)
+All wireless devices and networks in use at OTS and Agency facilities must be configured in accordance with Network Devices and Communication and Encryption Requirements.
+Disk Encryption
+Electronic media or mobile computing systems storing Confidential and Restricted Data, where feasible, shall be rendered unusable, unreadable, or indecipherable by disk encryption implemented in compliance with Encryption Requirements. Feasibility will be determined based on technical functionality, a risk analysis performed by the IST, the applicable operational OTS section, and the Data Owner.
+Although the use of encryption may not be absolutely required in all instances, the intention of this policy is to require the use of encryption for all mobile devices and removable electronic media stores that
+potentially stores, processes, or used to access Confidential or Restricted Data.
+End User Facing Devices and Technologies
+Purpose and Scope
+End User Facing Devices and Technologies refers to all computing systems, devices, applications, and interfaces, including remote access technologies (VPN or dial-in modem access), wireless technologies, removable electronic media (USB drives, CD drives, external hard-drive, etc.), mobile computing devices (laptops, smartphones, tablet computers, PDAs, etc.), and e-mail, internet and instant message programs, that store, process, or transmit data. This policy section sets forth the requirements and approval process for End User Facing Devices. End User Facing Devices that are not owned, leased, or managed by an Agency or Office of Technology Services (OTS) shall not be allowed to directly connect to the State’s network unless prior approval is given by the Information Security Team (IST).
+Approved Devices and Inventory
+Any production, test, or pilot deployment of a new End User Facing Device or Technology shall be reviewed and approved by the IST prior to production implementation. The IST, working with the appropriate OTS operational sections, shall maintain a list of Approved End User Facing Technologies.
+Additionally, all End User Facing Devices and Technologies must be inventoried as required by Information Asset Management and must be configured and managed as required by System Configuration.
+Device Requirements
+Authentication
+All End User Facing Devices and Technologies shall be deployed and maintained with User authentication mechanisms, including usernames and passwords as required by Access and Identity Management.
+Remote Access
+All End User Facing Devices and Technologies with remote access to the State’s networks shall be accessed via secure authentication and data encryption technologies which comply with the State’s Password Requirements. Multi-factor authentication for privileged users or systems which require elevated security may be required in accordance with Access and Identity Management.
+Wireless Access Points
+The purchase and placement of any wireless access points within any Agency location shall be authorized by OTS and the IST prior to deployment. Additionally, all wireless access points shall be tracked by OTS Network Services using a wireless access point location tracking list.
+Acceptable Use
+Use of End User Facing Technologies is subject to the End User Agreement. See:
+https://doa.louisiana.gov/media/ifxpedx3/isp-enduseragreement.pdf
+Peripherals or Collaborative (Multi) Connections to Governed Systems
+Remote activation of various collaborative computing devices such as networked white boards, cameras, microphones, and video chat software is prohibited from use on systems that require governance for data outlined in the Data Classification Section of this policy.
+When peripherals or collaborative connections are on a system, the information system must provide an explicit indication to the users physically present at the devices that collaborative computing devices are enabled and in use. Explicit indication of use includes, for example, signals to users when collaborative computing devices are activated or connected.
+Personally Owned Devices
+When deemed necessary, Personally Owned Devices may be utilized with prior approval by the Agency Section Director, Data Owner, and the Information Security Team (IST).
+Storing Confidential or Restricted Data on Personally Owned Devices is strictly prohibited without the use of Encryption and prior approval of the IST.
+The CISO or Information Security Team (IST) shall not, under any circumstance, approve this usage of Personally Owned Devices, which violates or conflicts with any Federal or State law.
+Secure Software Development
+Purpose and Scope
+This policy section applies to all new custom software and updating of existing custom software developed by an Agency, the Office of Technology Services (OTS), or third party.
+The Information Security Team (IST) will support the appropriate teams developing, maintaining, and participating in the SSDLC process for the development, testing, and deployment of custom software.
+For additional details, refer to the “System Development Life Cycle Policy” internal document.
+Secure Software Development Life Cycle (SSDLC)
+Requirements Analysis
+A risk assessment shall be conducted by reviewing the documented operational requirements for the planned software or update.
+Design
+Any application developed by, or on behalf of the State must be planned, designed (and architected) in a manner that will verifiably comply with each applicable security control set and policy section contained within the State’s Information Security Policy and Procedures, including, but not limited to: Data Classification and Handling, Access and Identity Management, Audit Logging and Event Monitoring, Encryption Requirements, Data, and Network security best practices.
+Application Security Risk Assessment
+The IST, in coordination with the development team, will conduct an Application Security Risk Assessment for each application prior to deployment. The Application Security Risk Assessment will document the key risk areas as defined in Risk Assessment Standards and Requirements.
+Development
+Developers must consider application security vulnerabilities (e.g., memory bound issues, privilege and access bypass, input validation, etc.) as part of the development process.
+Additionally, any application developed by, or on behalf of, the State must be developed in a manner that will verifiably comply with each applicable Policy Section contained within the State’s Information Security Policy and Procedures, including, but not limited to: Data Classification and Handling, Access and Identity Management, Audit Logging and Event Monitoring, and Encryption Requirements.
+Static Code Security Analysis
+Developers shall use an IST approved method to perform Static Code Analysis during the development process.
+Code Review
+A second developer (Agency, OTS, or third party), other than the originating code author, must conduct a code review of all new and changed software. The review must minimally be an attempt to identify any previously undocumented security issues or risk. For web applications, code reviews must confirm that code is developed according to the Web-Based Applications requirements. Special care shall be given to any public or partner facing applications. System architects and developers who create or modify web-based and external facing applications shall receive training on secure coding practices and refresher training annually.
+Quality Assurance Implementation
+Implementation must not compromise security controls already in place, or introduce new security vulnerabilities.
+Quality Assurance Testing
+For new application development, in addition to standard testing, all security features of the application must be tested.
+The process of testing application security features or controls must be documented and presented to the Information Security Team (IST) as a part of the change management process.
+QA testing documentation for application security features or controls must include the following information: date and time of test, the test scenario, the test outcome (pass or fail), full name of tester, and screenshot of the test result.
+Documentation
+All application features and implementation documentation should include direction on proper security configurations.
+Production Implementation
+Implementation should not compromise security controls already in place, or introduce new security vulnerabilities.
+Production Validation
+In addition to standard and post implementation validation, any relevant application security feature or control shall be validated. When applicable, the IST shall work directly with application technical and business owners to conduct the required production validation.
+Maintenance
+In addition to standard testing, all new security features of the application shall be tested.
+Non-Production Environments
+A Non-Production Environment is simply any environment that is not the actual production environment.
+Examples of Non-Production Environments include, but are not limited to the following:
+- Development
+- Test (Quality Assurance or User Acceptance)
+- Staging
+- Pilot
+- Beta
+- Proof of Concept (PoC)
+Separation of Environments and Duties
+Non-Production Environments shall be separated from the Production application, system, and database.
+Individuals in development or testing roles shall not have access to production systems, unless approved by the IST.
+Access Controls
+Non-Production environments with access to an Agency’s production network(s) must have access controls pursuant to Access and Identity Management.
+Any data, accounts, or access used for testing must be removed from the production software candidate prior to production implementation. In addition, all vendor default supplied application accounts, user IDs and passwords must be changed or disabled prior to production utilization or released to end users.
+Confidential or Restricted Data
+Confidential or Restricted Data shall not be used for Non-Production Environments without sufficiently de-identifying and sanitizing, such that it cannot be recovered (e.g., use of encryption with sufficient key management controls). De-identification or sanitization must be completed in a temporary Production environment prior to transferring Confidential or Restricted Data to a Non-Production Environment.
+In instances where Confidential or Restricted Data absolutely must be used to support testing and development efforts and de-identification or sanitizing is not feasible, an Exception Request Form shall be submitted and approved by the Data Owner and the IST.
+Production Environments
+Production Environment management must include the necessary controls and processes to ensure proper separation of duties.
+Code Promotion
+Only authorized system administrators shall be responsible for any code promotion to a Production Environment.
+Access Management
+Individuals performing Software Development for an application shall not be granted any privileged (Read or Write) access to the corresponding Production application, system, or database. Under emergency situations, Software Development resources may assist in troubleshooting production applications through the use of an alternatively created ID or account in accordance with Access and Identity Management.
+Software Utilizing Restricted Data
+Displaying Restricted Data
+To the extent it is practical, any software processing Restricted Data must be designed in a manner which masks, truncates, or sanitizes the displayed Restricted Data to a subset of the information for reference purposes (e.g. last four digits of social security number, last four digits of the credit card number) and limits the display of Restricted Data to only one record at a time.
+If the full content of the Restricted Data must be displayed for the functionality of the software, approval must be provided by the Information Security Team (IST) during the Requirements Analysis Phase of the SSDLC.
+If the full set or Restricted Data must be displayed or more than one record must be displayed is required for the functionality of the software, approval must be provided by the Data Owner and the IST during the Requirements Analysis Phase of the SSDLC.
+Printing or Exporting Restricted Data
+To the extent possible, any software processing Restricted Data must be designed in a manner which masks, truncates, or sanitizes the exported or printed Restricted Data to a subset of the information for reference purposes (e.g. last four digits of social security number, last four digits of the credit card number) and limits the Restricted Data exported from the application.
+If exporting or printing full sets or Restricted Data is required for the functionality of the software, approval must be provided by the Data Owner and the IST during the Requirements Analysis Phase of the SSDLC.
+Additional requirements for printing Restricted Data are located within Agency Physical Data Security.
+Storing Restricted Data
+To the extent possible, any software storing Restricted Data must be designed in a manner that the software encrypts the Restricted Data at the database field level in order to provide adequate data protection. The methods utilized, including encryption key management, must comply with Encryption.
+If encrypting Restricted Data at the database field level is not technically possible or operationally feasible, approval must be provided by the Data Owner during the Requirements Analysis Phase of the SSDLC.
+Web Applications
+Any Web Application processing Restricted Data must be designed in a manner that ensures Restricted Data:
+- Is never stored in an URL.
+- Is never stored on the client.
+  - Including Browser Cache or User Cookie.
+- Is never accessible without proper authentication and authorization.
+In instances that require Web Application to process Restricted Data in a manner that conflicts with the requirements within this policy section, approval must be provided by the Data Owner and the IST during the Requirements Analysis Phase of the SSDLC.
+Passwords
+Software requiring the storage or utilization of passwords must be designed, developed, and implemented in accordance with Password Requirements.
+Incident Management
+Purpose and Scope
+The State of Louisiana recognizes the importance of establishing an Incident Management Program capable of timely actions and communications to ensure appropriate and consistent responses to each incident. This policy section clearly establishes the phases, actions, responsibilities, and documentation requirements for handling all incidents.
+This section applies to all efforts related to the detection, action, documentation, and communication of an Incident.
+The official Incident Response Policy can be referenced at:
+https://doa.louisiana.gov/media/f1hooo3l/incident_response_policy_and_procedure_redacted.pdf
+Incident Management Program
+All Incidents are handled in accordance with the following seven-phase Incident Management program:
+- Preparation
+- Identification and Classification
+- Containment
+- Eradication
+- Recovery and Remediation
+- Lessons Learned
+- Continuous Program Evaluation
+Preparation
+To ensure all Incidents are identified and consistently managed, meaning all formal policies, plans, and procedures shall be developed, implemented, maintained and executed in a timely manner. To facilitate accurate and timely Incident Management, a pre-defined course of action shall be created that will be followed during the course of each Incident.
+Additional Preparation requires, but is not limited to the following:
+- The development and implementation of a formal Incident Response Plan.
+- The creation and periodic evaluation of defined Incident Classifications.
+- The assignment of an Incident Response Team (IRT) with specific roles and responsibilities, relevant administrative personnel, and committed technical or process subject-matter experts.
+- The creation and periodic evaluation of specific communications channels.
+- Procurement of the required supplies, tools, technologies, and facilities to support IRT processes and actions.
+Identification and Classification
+To facilitate the timely identification of Security Events, a strategic combination of technical and non-technical controls shall be employed to collect events from appropriate sources.
+Event Types
+The following Security Events are both technical and non-technical events that individuals shall identify and report as potential Incidents.
+- Theft, Loss, or Damage of Asset
+Examples: lost or stolen device, electronic media, or physical documents; deleted or missing log files, or unscheduled/unauthorized physical entry.
+- Unauthorized Access
+Examples: Viewing PII or PHI without a need to know, operational requirement, or prior authorization; external source attempting to access internal resources.
+- Evidence of Fraud
+Examples: False information within databases, logs, files, or physical records.
+- Unauthorized Sharing or Exposure of Data
+Examples: Improper disposal of electronic media containing Confidential or Restricted Data.
+- Unexpected or Abnormal System Behavior
+Examples: Unscheduled reboot, unexpected messages, abnormal or suspicious errors in system or application log files, or attempted connections to undocumented external systems.
+- System Generated Alerts
+Examples: File integrity alerts, intrusion detection alerts, anti-virus software notifications, or physical security alarms.
+- Policy violations
+Examples: Violation of End User Agreement, including sharing usernames and passwords.
+Event Reporting
+Any individual, regardless of assigned duties or job function, has a responsibility to report any suspected, potential, or actual Security Event. Once an individual becomes aware of a suspected, potential, or actual Security Event, the individual shall report the Security Event as outlined below.
+Third parties shall report Security Events within the timeline and to the contact contained within the third party agreement.
+Employees shall report Security Events to their supervisor. End User Support Services, Agency Relationship Manager, or other OTS resource, upon identification or receiving notification of a Security Event, shall immediately notify the Information Security Team (IST).
+Evidence Preservation
+For Security Events involving a potentially compromised system or device, the user or system administrator, once aware, shall not tamper with, use, or take any other action, including login or turning it off, until advised by the Chief Information Security Officer (CISO), or designee, directly; as any action may indefinitely remove forensic evidence required to accurately assess the Security Event.
+A Chain of Custody form shall be created, maintained, and directly attached to any evidence.
+Event Evaluation
+Upon receipt of a Security Event notification, the Chief Information Security Officer (CISO), or designee, will assess, evaluate for legitimacy, and make final determination if the Security Event is promoted to an Incident.
+If the Security Event is declared an Incident, the Chief Information Officer (CIO) shall be notified and the Incident Response, Management, and remediation actions set forth in this policy shall be implemented.
+If the Security Event is not declared an Incident, the CISO, or Information Security Team (IST) will forward to the appropriate resource for operational analysis and disposition.
+Incident Classification
+The CISO, or designee, shall assess the severity of the Incident and provide a classification level as provided in the Incident Response Plan.
+Incident Response Team (IRT) Assignments
+Events determined to be Incidents must be assigned a dedicated incident handler and must be processed in accordance with the procedures defined in the Incident Response Plan.
+Additional IRT positions are assigned as applicable by Incident.
+Incidents involving the potential breach of Confidential or Restricted Data require Human Resources and the applicable Legal IRT member assignment.
+Incident Report and Documentation
+Upon the classification of an Incident, the assigned incident handler must initiate an incident report as outlined in the Incident Response Plan.
+Incident Communication
+Once an Incident has been classified, an incident handler has been assigned, and the incident report has been initiated, communication flow must begin.
+Incident communication must follow the guidelines established in the Incident Response Plan.
+The details of an evolving incident shall be communicated to as few people as possible without compromising the ability to successfully manage the incident.
+Chain of Custody
+A Chain of Custody must be established for all gathered evidence as required in the Incident Response Plan.
+Evidence Collection
+IRT shall collect, log, and retain evidence of the Incidentbased on severity.
+Evidence collected by IRT shall include but is not limited to system logs, reports, emails, and helpdesk tickets containing details of the Incident, and first-hand accounts.
+The IRT shall use forensic evidence collection and handling procedures, approved by the CISO, to determine the scope of the incident, the source of the Incident, and to determine the likelihood that Confidential or Restricted Data was compromised.
+Containment
+A strategy shall be employed, based on the results and details of the previous Identification and Classification phase that appropriately addresses both short-term and long-term containment. Additionally, during this phase, the IRT shall begin a root-cause analysis of the Incident prior to beginning the eradication phase.
+Short-Term Containment
+Based on the criticality of the affected system or source, and the likelihood of exploitation of the identified vulnerability, the IRT may work in accordance with Data Owners and identified Subject Matter Experts to achieve short-term containment.
+Examples include, but are not limited to, taking backups, shutting down systems, denying network traffic, and system isolation.
+The determination to remove a system from production use may be made by the IRT in conjunction with the affected Data Owners; however, the IRT maintains exclusive rights to remove an affected system from production depending on the identified or potential criticality of the Incident.
+Long-Term Containment
+After ensuring the identified Incident has been contained, the IRT shall work with Data Owners and Subject Matter Experts to devise a long-term strategy for containment.
+Examples include, but are not limited to, cloning an infected system into a quarantined network for analysis and restoring the compromised system to production use.
+The restoration of a system to production use must follow the Eradicationphase set forth in this policy.
+Root-Cause Analysis
+Upon completion of Short-term Containment, the IRT will work in conjunction with relevant Subject Matter Experts to identify the root-cause of the Incident.
+Root-cause analysis shall include but is not limited to the following: systemor application vulnerabilities, system or application misconfigurations, network misconfigurations, breachesof physical security, or other non-technical scenarios.
+The identified root-cause analysis must be included in the Incidentresponse report and must be specifically reviewed in the Eradicationand Lessons Learned phases set forth in this policy.
+Eradication
+The IRT, in conjunction with system or application owners and relevant subject matter experts, shall work through a formal process to identify and eliminate all components that may have led to the root cause of the Incidentprior to returning an affected system to production use.
+Eradication actions may include, but are not limited to the following:
+System and Application Patching
+If available, relevant systemand applicationpatches must be applied prior to restoring a system to production use.
+Resetting, Reconfiguring, or Removing User Accounts
+Compromised or potentially compromised network, system, or applicationaccount passwords shall be disabled until able to be reset.
+Re-Imaging Compromised Systems or Devices
+If determined to be compromised at the machine-level, the IRT may require that a systembe rebuilt to ensure that all vulnerabilities, unapproved software, or configuration are removed.
+Re-imaging may include a completely new server, instance of the operating system, and application software.
+Improving Network Defenses
+The IRT may require that network controls be re-evaluated depending on the results of the incident investigation.
+Additional controls may include, but are not limited to firewall rules, intrusion detection/prevention signatures, web application firewalls, web access filters, or host firewall rules.
+Recovery and Remediation
+Upon the completion of Containment and Eradication phases the IRT will evaluate the resulting security posture of the affected systems or resources prior to returning a system to production. The IRT may employ internal Subject Matter Experts or external parties to evaluate implemented remediation efforts. Where possible, the IRT shall implement additional monitoring controls of affected systems for an appropriate period of time after re-entry into production. Additionally, the Chief Information Security Officer (CISO), or designee, may periodically re-evaluate the security posture of the affected systems or resources.
+Long-Term Remediation
+Upon identification of the root-cause of the incident, the IRT and affected Data Owners must agree to a long-term resolution. Remediation actions which require further effort, such as the acquisition of new technology, reconfiguration of existing systems and networks, and additional logging, must be formally documented with reasonable timelines established. Such timelines may be dependent on the severity of the incident and the likelihood of re-exploitation. All incidents must be considered “open” until all members of the IRT and affected Data Owners agree that all identified corrective measures have been implemented.
+In the unlikely event that Long-Term remediation actions cannot be agreed upon, the Chief Information Security Officer (CIO), consulting with the CISO and Data Owners, shall determine the actions required for Long-Term remediation.
+Lessons Learned
+Following the Remediationand Recoveryphase, all members of the IRT, and any other affected/applicable parties will meet to review the results of the investigation to discuss the root cause of the Incident in accordance with the Incident Response Plan.
+The IRT shall evaluate the effectiveness of this Incident Management policy section and recommend any appropriate changes to the CISO or OTS executive management team.
+Objectives of the Lessons Learned phase require, but are not limited to, identify what happened (in addition to the root cause), identify if the Incident could have been prevented with existing controls, and to identify opportunities to improve the security posture of the affected system or resource.
+Continuous Program Evaluation
+In order to ensure the Incident Management Program maintains the appropriate support, preparedness, and awareness, a commitment for Continuous Program Evaluation efforts are required as outlined below.
+Testing and Training
+The OTS Incident Response Plan is tested during real life occurrences multiple times per year during OTS declared Incidents. Additionally, the OTS Information Security Team (OTS IST) is part of the State of Louisiana Emergency Support Functions (ESF-2) Cyber Function Team. The ESF-2 team is composed of Louisiana National Guard, Department of Homeland Security, Federal Bureau of Investigation,and OTS IST. The State of Louisiana Emergency Operations Plan (EOP) identifies State Emergency Support Functions (ESFs) as the structure for organizing and coordinating State resources by area of function. The ESF structure helps ensure efficient and timely delivery of needed assistance to disaster-impacted communities. Functions are categorized by the type of support or resource provided or managed within the National Incident Management System (NIMS) and its subcomponent the Incident Command System (ICS). In addition to ESFs identified within the NIMS structure, Louisiana has included Military Support as an ESF.
+All live incidents are fully documented according to the Incident Response Plan with After Action Reports, etc.
+All technical support staff responsible for maintaining the consolidated data center are trained annually and are involved in any Incident Response testing and live responses. See the Incident Response Policy and Procedures.
+Recurring IRT Communication
+The IRT shall remain informed of all currently open Incidents via the methods established in the Incident Response Plan.
+The IRT shall be notified of the status of Incidents that are currently being investigated.
+The IRT shall also be notified of the status of currently pending incident remediation efforts.
+Risk Management
+The Chief Information Security Officer (CISO), in consultation with the Chief Information Officer (CIO), shall periodically evaluate risk areas for potential security risks.
+To the extent necessary, the CISO shall assess the State’s technical environments to identify risks and assess the ability to prevent, measure, and respond to incidents.
+Where new potential risks are identified, the appropriate actions required to update Office of Risk Management (ORM) shall be taken.
+All risk assessment activities required within this policy section shall be completed in adherence to Risk Management.
+Data Center Security
+Purpose and Scope
+This policy section provides the policies for managing and monitoring the physical access of the State. Employees, third parties, and visitors to State owned, operated, or managed Data Center facilities.
+ID Badges
+As a vital part of Data Center security, State ID badges with an individual’s name, photo, and department shall be issued and maintained during the entire course of employment, assignment, or engagement. An ID badge shall serve as an electronic key to access a Data Center and other secured areas as needed.
+ID Badge Display Requirements
+Employees shall, at all times, clearly display their ID badges when present in Data Center facilities. Third parties and visitors shall, at all times, clearly display
+ID Badge Creation
+The Office of State Buildings (OSB) shall create Employee ID badges in a physically secure environment. Only designated personnel shall have access to the Employee ID badge creation system and the ability to create ID badges.
+Additionally, each ID Badge created shall be assigned a Unique ID. Unique IDs shall be recorded along with the full name, Agency or company, and job role or position.
+ID Badge Assignment
+ID Badges shall be assigned in the following manner:
+- New Employee ID Badge Administration
+Supervisors shall complete a request for an ID Badge & security access and submit the request to OSB. Data Center Operations (DCO) grants physical access after receiving an approved authorization request from OSB. Employee ID Badges shall clearly identify the Employee name, Agency, and Office or Section. All ID badges must contain a photograph of the Employee.
+- Third Party ID Badge Administration
+Upon request by an Employee, the Data Center receptionist or other individual designated by Data Center Operations (DCO) management, shall assign third parties a temporary ID badge.
+Third parties shall have no physical Data Center access privileges and shall be monitored or accompanied at all times by an Employee unless additional Data Center access was approved by the Director of Data Center Operations and the Information Security Team (IST). To obtain additional facility access for a third party, the requesting Employee must submit the request to Data Center Management.
+All third-party ID badges or stickers must be surrendered at the conclusion of the third party’s business with the State. The Employee responsible for the third party shall confirm that the third-party ID badge or sticker is returned to the receptionist, other office designee, or properly disposed of.
+- Visitor ID Badges and Stickers
+Upon request by an Employee, the Data Center receptionist or other individual designated by DCO management, shall provide visitors with a visitor ID badge or sticker.
+Visitors shall have no physical facility access privileges and shall be monitored or accompanied at all times by an Employee.
+All visitor ID badges and stickers must be surrendered at the conclusion of the visit.
+Changing ID Badge Access
+All requests for a change in physical access level through the use of an ID badge must be submitted by the Employee’s supervisor (Director or above) to Data Center Operations (DCO) management.
+Revoking ID Badges
+The Employee’s direct supervisor is primarily responsible for collecting the assigned ID Badge from the State Employee and notifying DCO when the Employee is no longer employed by the State; DCO management shall disable all badge access for the departed Employee in a timely manner.
+The Employee who initially requested the access for a third party’s ID Badges shall be responsible for contacting DCO for badge deactivation at the end of their contracted time period or when engagements have completed. Badge access duration for third parties shall not extend past 12 months without an additional request for extension.
+DCO shall monitor third party badge access to Data Centers by minimally reviewing access reports on a quarterly basis.
+The Information Compliance Team shall monitor third party badge access to Data Centers on a monthly basis.
+Lost or Stolen ID Badges
+Individuals shall notify the OSB and DCO management in the event that their ID Badge is lost or stolen. DCO shall remove access to the lost or stolen ID Badge immediately as practical.
+Facility Security
+Authorized Unescorted Access
+Only authorized individuals shall have unescorted access to Data Center facilities.
+Escorted Access
+All visitors not authorized for unescorted access shall be escorted at all times while in a Data Center facility by an OTS DCO authorized escort.
+Authorized Escort
+Only State employees authorized for unescorted access are authorized to escort visitors in Data Center facilities.
+Authorized escorts shall not escort more than two (2) individuals at a time. Additional authorized escorts are required for additional individuals beyond two (2) at a ratio of one (1) escort per two (2) visitors. Exceptions to escort ratios may be granted on a case by case basis by the Information Security Team (IST).
+Additionally, authorized escorts shall not escort visitors for any Data Center area that they have not been previously authorized to access.
+Escorted visitors shall be accompanied at all times and are not to be left unattended at any time while in a Data Center facility.
+Request for Authorized Unescorted Access
+Requests for authorized unescorted access to Data Center facilities shall be requested and processed in compliance with the Access and Identity Management.
+Prior to receiving authorization, individuals attest to acceptance and understanding of this policy by signing the End User Agreement.
+Note: Individuals shall complete any additional screening processes required by the Data Owner prior to gaining unescorted access to secured areas within a Data Center exposing the individual to Restricted Data (CJIS, PII, FTI, etc.). (Example: Fingerprint and Federal Criminal Background Check)
+Visitor Logs
+All third parties and visitors are required to enter through the primary entrance of the Data Center and check in with the Data Center receptionist upon their entrance unless the individual had previously been issued a State contractor ID badge. Third parties and visitors shall sign the visitor log or check-in using an electronic kiosk. The visitor log or kiosk must require the third party or visitor to provide his/her name and company (if applicable), time of entry and exit, date, and contact information.
+All third parties and visitors to Data Centers must sign an additional Data Center visitor log prior to gaining access to the primary data hosting areas.
+Visitor logs must be retained for a minimum of ten (10) years by DCO management, reviewed on a monthly basis, and disposed of in accordance with Data Sanitization Requirements.
+At a minimum, the visitor log must contain the following items:
+- Name and Organization of the individual visiting the facility
+- Visitor’s signature
+- Form of Identification checked
+- Date of the access
+- Time of entry, and time of departure
+- Purpose of the visit
+- Name and organization of the person visited/escort
+Facility Security
+Security perimeters (e.g., walls, card controlled entry gates, or manned reception desks) and controls (e.g., guards, access badges, or security cameras) shall be used, to the extent practicable, to protect Data Center facilities from unauthorized access or vandalism.
+External doors shall contain a locking mechanism to prevent unauthorized access and allow for the logging of the entry.
+Doors to internal secure areas shall lock automatically, implement a door delay alarm, and be equipped with electronic locks (e.g., keypad, card swipe), where practicable.
+Doors and windows shall be locked when unattended and external protection should be considered for any windows, particularly windows at ground level.
+Any repairs or modifications to the physical components of a Data Center which are related to security (e.g., hardware, walls, doors, and locks) shall be documented, retained for a minimum of seven years by Data Center Operations Management, and disposed of in accordance with Data Sanitization.
+Reception Area
+Data Center facilities must control physical access to the building to process visitors and third parties.
+Access to Data Center facilities from the reception areas is restricted to Employees and third parties which have been granted temporary access rights.
+Internal directories or documentation indicating Data Center areas containing Confidential or Restricted Data shall not be readily accessible to the public facing reception area or any other public areas.
+After Hours Security
+To the extent practicable, Data Center facilities shall maintain electronic security measures to prevent unauthorized entries during non-working hours. Where possible, the electronic security measures should be able to identify each person who enters the premises after-hours, as well as the time of entry and exit. If an electronic security system is not practicable, the facility should maintain a log of persons to whom keys, security alarm codes, and access codes are granted.
+System Security
+Entry controls, including ID Badge access or security cameras, shall be used to limit and monitor physical access to Data Center systems that store, process, or transmit Confidential or Restricted Data.
+Data Center Operations (DCO) shall ensure, when appropriate, that Data Center facilities segregate the State’s data from data provided by other non-State entities.
+Where applicable, facilities housing data processing activities shall give minimum indication of their purpose, with no obvious signs, outside or inside the building identifying the presence of information processing activities.
+Agency Physical Data Security
+Purpose and Scope
+This policy section provides the additional policies for securing physical data owned, managed, or held in trust by the State. This policy section applies to all State Employees, third parties, and visitors to State owned, operated, or managed facilities.
+Securing Confidential and Restricted Data
+Printed Materials
+Printed materials containing Confidential or Restricted Data should be secured when workforce members are away from the work space. Printers should be located in areas not easily accessible by the public. Printer controls shall be set so that pages will be printed face-down or with a cover sheet where technically possible.
+Telephonic Disclosures
+Prior to disclosing any Confidential or Restricted Data over the telephone, it is the obligation of the Employee to verify the identity of the person with whom they are speaking.
+Employees shall refrain from discussing or otherwise communicating Confidential or Restricted Data in the presence of persons not entitled to access such data.
+Voice Messages
+Employees shall refrain from disclosing Confidential or Restricted Data in any Voice Message, if possible. In the event that Confidential or Restricted Data must be disclosed, Employees should leave a message containing only the minimum amount of Confidential or Restricted Data necessary for the purpose of the disclosure.
+Facsimiles
+- Outgoing Facsimiles
+Confidential or Restricted Data may be faxed to persons or entities that are lawfully or contractually entitled to receive the data. Individuals should verify the number to which facsimiles will be transmitted prior to transmission. A copy of the facsimile transmission verification sheet should be retained and maintained by the Agency. All facsimile cover sheets shall contain an Agency approved disclaimer informing the recipient that the transmission includes Confidential or Restricted Data.
+- Incoming Facsimiles
+Agency fax machines shall be located in areas not accessible by the public. Where possible, fax machines must be set so that incoming pages will arrive face-down.
+Received facsimiles should only be initially read by the individual(s) to whom the transmission is directed such that only the designated recipient may ascertain any other person(s) with whom the transmission should be shared or directed.
+Clean Desk
+To the extent operationally possible, an Employee shall ensure all physical materials containing Confidential and Restricted Data are removed from a desk or common work area and adequately secured when items are not in use.
+Dry-Erase Boards, Bulletin Boards
+Dry-erase boards, bulletin boards, and similar modules on which Confidential or Restricted Data is written should not be placed in open areas or in locations that are easily visible or accessible to non-State employee personnel.
+Security of Data in Vehicles
+Employees using vehicles to transport Confidential or Restricted Data shall exercise the utmost caution in order to safeguard the privacy of and access to such material. Confidential or Restricted Data should be stored inside the vehicle’s trunk during transport, or in vehicles not having trunks, should be placed out of plain view. At no time should such materials be left on car seats or in unlocked vehicles. Confidential or Restricted Data shall not, to the extent possible, be stored in vehicles overnight.
+Offsite Working Environment
+Employees or contractors working offsite shall ensure appropriate physical safeguards are in place to protect Confidential and Restricted Data. When data is not being used, it shall be stored in locked filing cabinets, a separate home office with locking door, closets with locking doors, or other reasonable physical controls that prevent access by unauthorized individuals.
+Agency Cash Management Applications
+Purpose and Scope
+Act 66 (House Bill 128) of the 2021 Regular Session of the Legislature recognizes the need for cybersecurity of digital data on computer networks as it relates to the protection of cash assets of the state.
+This policy section clearly states the requirements, roles, and responsibilities when accessing online Agency cash assets.
+Furthermore, operating in compliance with the State’s Information Security Policy and Procedures ensure confidential cash management data and state networks are adequately protected from malicious attempts to access, change or delete cash management data or gain access to online banking modules for the purpose of stealing or manipulating cash assets.
+Roles and Responsibilities
+Agency Management
+- Designate a “Cash Management Application Administrator”.
+- Formalize detailed Agency Financial Security Procedures related to the use of Cash Management Applications.
+- Require applicable staff to attend bank provided security training for use of online banking modules.
+- Submit annual updates of the Agency Financial Security Procedures related to Cash Management Applications to the Cash Management Review Board for approval.
+- Determine business requirements for providing authorization for Agency online bank accounts.
+Cash Management Application Administrator
+- Implement Multi-Factor Authentication for Agency online bank accounts.
+- Ensure Agency operates in compliance with the Financial Security Procedures related to use of Cash Management Applications.
+- Assign and maintain authorization levels in Cash Management Applications based on the operational needs of the Agency.
+- Immediately notify Agency Executive Management and the State’s Information Security Team of Security incidents, including any recommended resolutions.
+- Provide Agency Executive Management with annual recommended updates to the Agency Financial Security Procedures related to use Cash Management Applications.
+- Complete a bank account profile form that identifies the anti-fraud measures incorporated in the setup of a new bank account or in the revision of an existing bank account to be submitted with the application to the CMRB. Anti-fraud measures shall include:
+a) Use of a secure token for sign on to online account
+b) ACH debit block for zero balance accounts
+c) Prohibit check writing on deposit only bank accounts
+d) Setup Positive Pay service on bank accounts disbursing funds via check
+- Require timely monthly reconciliation of bank account statements with explanation of any reconciling items and the review and approval of such statements.
+Audit Logging and Event Monitoring
+Purpose and Scope
+This policy section provides the policy for ensuring that procedures are in place for real time monitoring of access to Confidential and Restricted Data. All computing systems in production or intended for production use, whether managed by an Agency, The Office of Technology Services (OTS) or by third parties, must be built, deployed, and configured, and maintained in accordance with the requirements of this section.
+For specific detail on the audit procedures, refer to the “Audit and Accountability Procedures” internal document available on the OTS internal intranet website.
+Error Handling
+Systems and applications must be configured or developed in a manner to account for and generate a meaningful error message which provides information required for remediation without revealing any Confidential and Restricted Data.
+Event Logs
+Agency computing systems, network devices, or third party systems connected directly to any State network shall be configured to generate automated event logs in accordance with the Audit Logging Standards and Requirements. The event logs shall minimally account for all user access to Confidential and Restricted Data.
+Event Log Access and Retention
+Event logs, audit tools, and audit trails shall be stored in a centralized location and only be accessible to authorized users in accordance with Access and Identity Management. Additionally, event logs are to be maintained in accordance with Agency record retention policies and disposed of in accordance with Data Sanitization.
+Event Log Security
+A method for change detection shall be implemented for Event Logs to ensure that the Information Security Team (IST) is notified when changes are made to existing event log data.
+Event Log Reviews
+Event logs shall be reviewed by the Information Security Team (IST) in accordance with the Audit Logging Standards and Requirements. In the event of an exception alert, the IST shall respond to the event pursuant to Incident Management.
+Risk Management
+Purpose and Scope
+Risk Management is the ongoing process of assessing, identifying, documenting, prioritizing, responding, and monitoring potential or inherent risk associated with any device, system, application, network, service, third-party, data storage facility or information used to support or provide any operational or business process. Establishing a Risk Management framework is essential to maintaining and strengthening the security, reliability, resiliency, and recoverability of the State systems, services, and data.
+This policy section further defines the responsibilities, methods, and actions that shall be taken to effectively manage risk.
+Risk Ratings
+Using the detailed steps in Risk Assessment Standards and Requirements, any identified risk shall be assigned one of the following:
+Critical
+A Critical Risk is a risk that is certain to occur and will have a clear, catastrophic, or major impact to an Agency, individual, or the State as the result of loss of confidentiality, integrity, or availability due to absence of security controls.
+- Examples of Critical Risk
+Include, but not limited to: unauthorized use or disclosure of Restricted Data, unintended modification or corruption of data or systems utilized by critical Agency processes, unrecoverable failure of a system, device, or control providing or supporting a critical public service.
+High
+A High Risk is a risk that is possible or expected to occur and will have a clear moderate or major impact to an Agency, individual, or the State as the result of loss of confidentiality, integrity, or availability due to absence of security controls.
+- Examples of High Risk
+Include, but not limited to: unauthorized disclosure of Confidential Data, limited unauthorized disclosure of Restricted Data, unintended modification or corruption of large file server or data source, unintended or unplanned interruption of services utilized to provide critical public services.
+Moderate
+A Moderate Risk is a risk that can be improbable or unlikely to occur and have a moderate or major impact, or certain and have minor or insignificant impact to an Agency, individual, or the State as the result of loss of confidentiality, integrity, or availability due to absence of security controls.
+- Examples of Moderate Risk
+Include, but not limited to: unauthorized use, disclosure, or modification of Uncategorized Data, limited unauthorized disclosure of Confidential Data, unintentional modification or corruption of non-critical production devices, systems, or data sources; or unintended interruption in availability of a system, device, or control providing or supporting a critical public service.
+Low
+A Low Risk is a risk that signifies a risk that has limited impact or generally accepted risk to an Agency or the State as the result of loss of confidentiality, integrity, or availability.
+- Examples of Low Risk
+Include, but not limited to: unauthorized use or disclosure of Uncategorized Data, workstation failure, unintentional modification or corruption of test or development devices, systems, or data sources.
+Risk Assessments
+All formal and informal information security or technical risk assessments shall be performed as outlined in Risk Assessment Standards and Requirements.
+Responsibilities
+Agencies shall:
+- Ensure operational processes exist to ensure both formal and informal risk assessments are performed as specifically outlined in Risk Assessment Standards and Requirements.
+- Ensure any alternate risk mitigation recommendations are thoroughly evaluated prior to Risk Acceptance.
+The Information Security Team (IST) shall:
+- In accordance with previously defined responsibilities, ensure risk is assessed in accordance with Risk Assessment Standards and Requirements.
+The Chief Information Security Officer (CISO) shall:
+- Ensure formal internal and external final risk assessment reports are reviewed by the IST and OTS Executive Leadership, in addition to any affected Agency Leadership, Data Owner, or key stake holder.
+- Initiate Risk Acceptance Forms when required.
+- Retain record of all Risk Acceptance Forms.
+- Inform IST of any accepted risk.
+Risk Acceptance
+A Risk Acceptance Form must be completed by the CISO, acknowledged by the CIO, and requires the additional approval of the affected Data Owner and the Agency’s Executive Director in order to accept any identified risk for which mitigation, avoidance, or transference is not possible, preferred, or deemed unacceptable.
+Risk Assessment Standards and Requirements
+Purpose
+Risk is determined by understanding the likelihood of a given threat-source’s exercising a particular potential vulnerability, and the resulting impact of that adverse eventon the organization. To properly determine the likelihood of a future adverse event, threatsto a systemor an applicationmust be analyzed in conjunction with the potential vulnerabilities and the technical and non-technical controls in place. Impact refers to the magnitude of harm that could be caused by a threat’s exercise of a vulnerability. The level of impact is governed by the potential mission impacts and in turn produces a relative value for the IT assets and resources affected (e.g., the criticality and sensitivity of the IT system components and data).
+General Risk Assessment Requirements
+Risk Assessments are to include the following:
+- Identifying threatsto and vulnerabilities in the system;
+- Determining the likelihood and magnitude of harm from unauthorizedaccess, use, disclosure, disruption, modification, or destruction of the system, the information it processes, stores, or transmits, and any related information; and
+- Determining the likelihood and impact of adverse effects on individuals arising from the processing of personally identifiable information;
+- Notify the CISO of all vulnerabilitiesfound, along with riskcategorization in order to define the magnitude of the Risk.
+Integrate risk assessment results and risk management decisions from the divisions, and mission or business process perspectives with system-level risk assessments;
+Document risk assessment results in system security plans and risk assessment plans;
+Review risk assessment results at least annually;
+Disseminate risk assessment results to agency-defined personnel (e.g., AO, System Owner, system administrator) and;
+Update the risk assessment at least every three years or when there are significant changes to the system, its environment of operation, or other conditions that may impact the security or privacy state of the system
+System Characterization
+Identifying risk for an IT system requires a keen understanding of the system’s processing environment. The person or persons who conduct the risk assessment must therefore first collect system-related information, which is usually classified as follows:
+Threats and Vulnerabilities
+In assessing threat-sources, it is important to consider all potential threat-sources that could cause harm to an IT systemand its processing environment. For example, although the threat statement for an IT system located in a desert may not include “natural flood” because Common Threat-Sources of Natural Threats—Floods, earthquakes, tornadoes, landslides, avalanches, electrical storms, and other such events: of Human Threats—events that are either enabled by or caused by human beings, such as unintentional acts (inadvertent data entry) or deliberate actions (network based attacks, malicious software upload, unauthorizedaccess to confidential information); of Environmental Threats—Long-term power failure, pollution, chemicals, liquid leakage. of the low likelihood of such an event’s occurring, environmental threats such as a bursting pipe can quickly flood a computer room and cause damage to an organization’s IT assetsand resources. Humans can be threat-sources through intentional acts, such as deliberate attacks by malicious persons or disgruntled employees, or unintentional acts, such as negligence and errors. A deliberate attack can be either:
+- a malicious attempt to gain unauthorizedaccess to an IT system (e.g., via password guessing) in order to compromise system and data integrity, availability, or confidentiality or
+- a benign, but nonetheless purposeful, attempt to circumvent system security. One example of the latter type of deliberate attack is a programmer writing a Trojan horse program to bypass system security in order to “get the job done”.
+Threat Source and Motivation
+Motivation and the resources for carrying out an attack make humans potentially dangerous threat-sources. This information will be useful to organizations studying their human threat environments and customizing their human threat statements. In addition, reviews of the history of system break-ins; security violation reports; incident reports; and interviews with the system administrators, help desk personnel, and user community during information gathering will help identify human threat-sources that have the potential to harm an IT system and its data and that may be a concern where a vulnerability exists.
+Control Analysis
+Likelihood and Impact Determination
+Impact and likelihood ratings both range from 1 – 5 (shown below). Impact rating is based upon the magnitude of a potential loss, specifically on potential negative consequence to citizens, commercial organizations, the agency, the State, or Federal department. Likelihood rating is based upon the probability that the action would occur.
+Risk Calculation and Classification
+Risk Calculation (5-Box)
+Risk matrix showing likelihood and impact levels.
+Likelihood | Impact
+Insignificant | Minor | Moderate | Major | Severe
+Almost Certain | M | H | H | C | C
+Likely | M | M | H | H | C
+Possible | L | M | M | H | H
+Unlikely | L | M | M | M | H
+Rare | L | L | M | M | H
+Risk Acceptance Form
+A Risk Acceptance Form is primarily initiated by the Chief Information Security Officer (CISO) and submitted to the Agency or operational area for acknowledgement and acceptance. However, any individual who believes a Risk Acceptance Form should be initiated due to a recent increase in risk, may contact the CISO or Information Security Team(IST) using the Contact Information provided within the Information Security Policy and Procedures.
+Note: The CISO shall report all Risk Acceptance Forms, pending or accepted, directly to the Information Security Team and the OTS executive management staff.
+The Risk Acceptance Form is hosted as a separate file within the OTS policy library on the Division of Administration’s public website.
+Training and Awareness
+Purpose and Scope
+In order to ensure all individuals are properly educated and aware of Information Security policies, processes, procedures, and the requirements for data protection; the State of Louisiana must establish appropriate methods to provide Information Security Training and Awareness. This policy section clearly indicates the responsibilities and actions required to ensure Information Security Training and Awareness are properly provided to individuals before and during the course of their employment, contract, or engagement.
+Responsibilities
+Agencies shall establish operational processes to ensure Employees and partners receive initial and on-going training, including the capture and retention of the acknowledgement, in addition to supporting opportunities to improve awareness for the State’s Information Security Policy and Procedures, as outlined in this policy section.
+New Employee Training
+Upon hire, all Employees shall receive appropriate training on the policies and procedures regarding the privacy and security of data. At a minimum, all employees shall be required to complete the End User Agreement and Cybersecurity Awareness training courses.
+Annual Employee Training
+Each year, all Employees shall receive follow-up training on the policies and procedures regarding privacy and security. Some training components require successfully completing a post-test.
+Third Party and Independent Contractor Training
+Depending on the scope of work, the Information Security Team (IST) may require that certain third party employees and independent contractors complete privacy and security training, which must include the policy and procedures regarding privacy and security relevant to the current scope of work. In instances where third parties or independent contractors are required to complete Information Security Training, the third party or independent contractor shall provide the state with evidence of each successful individual completion with a post training certificate. Agencies should refer to their documented internal process for obtaining contractor “H-IDs”.
+Remedial Training
+In the event of a complaint, investigation, policy violation, or routine audit reveals that an Agency or any part thereof requires additional training, the Chief Information Security Officer (CISO) may require that all appropriate individuals complete remedial training, the receipt of which shall be conducted and documented in accordance with Office of Human Resources (OHR) Policy and processes or the partner’s contractual agreements.
+Specialized Training
+When an Agency requires specialized applications or hardware to its operational processes, the Agency shall also provide the training and awareness for applicable staff, as deemed necessary by the IST.
+Awareness Opportunities
+As part of Statewide, Regional, Agency, or Office communications or meeting(s), the CISO or designated Information Security Officer (ISO) shall be authorized and allowed the opportunity to utilize such opportunities to raise awareness of the State’s Information Security Policy and Procedures.
+Training Records
+Agencies shall use appropriate means to document and retain all training records for a minimum of 5 years. Additionally, training records shall be readily available to support any audit or review.
+Vulnerability Management
+Purpose
+The ability to manage vulnerabilities reliably is a crucial component of the Information Security Program. Vulnerability Management is the process of assessing, detecting, validating, documenting, and remediating vulnerabilities present on devices, systems, and applications, in a timely manner. This policy section establishes responsibilities and actions required to effectively manage and remediate security weaknesses and vulnerabilities along with meeting Federal requirements for vulnerability management.
+Scope
+The scope of this requirement applies to all but not limited to the state, shared devices, network devices, systems, applications, printers, web services, leased, managed, or utilized by the State or by any individual conducting business on behalf of the State, including interconnected devices managing shared data, shall be managed in accordance with the Vulnerability Management Procedures. The IST, or approved designee, is responsible for conducting consistent internal vulnerability scans every 30 days, external scans when assigned or needed.
+Vulnerability Scanning Requirements
+If a user becomes aware of a vulnerability applicable to any Office of Technology Services (OTS) or Agency computing system, the user shall inform the Information Security Team (IST) of the vulnerability as soon as operationally feasible. The IST will perform vulnerability scans on a monthly basis and will work with the Information Compliance Team to assign vulnerabilities to divisions for remediation.
+- OTS, agencies, third parties, contractors, and any other type of partner, shall subscribe or implement approaches to maintain awareness and be readily available to update for potential vulnerabilities.
+- Additionally, any third party hosting, managing, or maintaining any software, system, or process on behalf of the State shall contact the IST immediately as practical upon becoming aware of a vulnerability.
+- OTS shall deploy and schedule technical solutions that assist in on-going monitoring.
+Employ vulnerability monitoring tools and techniques that facilitate interoperability among tools and automate parts of the vulnerability management process by using standards for the following:
+- Enumerating platforms, software flaws and improper configurations;
+- Formatting checklists and test procedures; and
+- Measuring vulnerability impact.
+Vulnerability scans and data will produce valuable compliance and vulnerability reports. The reports are to be reviewed, analyzed, measured according to the risk likelihood, and then assigned to the appropriate division for remediation.
+- Remediate legitimate vulnerabilities in accordance with OTS’ assessment and measurement of risk, unless specified by the OTS CISO.
+- Share information obtained from the vulnerability monitoring process where possible, and control assessments with assigned personnel should help eliminate similar vulnerabilities in other systems and
+- Employ vulnerability monitoring tools that include the capability and are configured to update when required or needed.
+The vulnerability scans must be set to scan for improper system configurations, detection and identification of system or application flaws, and known vulnerabilities.
+Continuous Assessment
+Scanning system applications and equipment after a Significant System Change must be performed to reduce risk and exploit vulnerabilities in new changes, which is part of the continuous assessments. System changes include but not limited to all network devices, operating systems, databases, and applications which use, store, or transmit Confidential or Restricted Data after any significant change (e.g., new system component installations, changes in network topology, or product upgrades), or on a monthly basis; as required by regulatory compliance requirements per data type. Vulnerability scans that require authentication to function shall be credentialed and the credentials shall be updated no less than two weeks prior to expiration as needed.
+- Vulnerabilities found during a scan due to changes shall be reported and remediated.
+- If several vulnerabilities are found during a system change, including upgrades or change the IST shall notify Information Compliance and the state CISO.
+- The IST will save reports in a centralized, safe location. The IST will review the reports and assign out tasks to the respective teams for remediation.
+Penetration Testing or Ethical Hacking
+Only qualified resources approved by the Chief Information Security Officer(CISO), with the expertise required for penetration testing, fuzz testing, or ethical hacking may perform internal and external network or application assessments. The IST may perform this function every three years or as needed.
+Testing or Validation of Security Controls (Technical or Non-Technical)
+Only qualified resources approved by the Chief Information Security Officer (CISO), with the expertise required for testing of a security control. This includes, but is not limited to, emails crafted for the purposes of “Phishing Training” for end-users.
+Intrusion Detection Software
+Networks or systems that transmit, store, or process Confidential or Restricted Data shall be protected by a monitored host or network intrusion detection or prevention system that alerts personnel of potential risks. Event logs generated by Intrusion Detection or Prevention systems shall be monitored and managed in accordance with Audit logging and Event Monitoring.
+Risk Assessments
+As part of Risk Management, formal Risk Assessments will be performed, as the Chief Information Security Officer (CISO) shall identify and assess any existing or new threats and vulnerabilities to verify that the Information Security Policy and Procedures are appropriately aligned with the Information Security Program and Strategy.
+Criticality Rating and Measuring Risk
+Each identified vulnerability shall be assigned at least one of the following ratings listed below.
+Critical
+A vulnerability making it possible for an unauthorized individual to easily or remotely gain control at the administrator level of an affected system, application, device, or directly access Confidential or Restricted Data. Unless otherwise assessed by the CISO, this class of vulnerability is considered to introduce the highest level of risk. Critical vulnerabilities shall be remediated or compensated as soon as practical, but no later than 15 calendar days, unless otherwise directed by the Chief Information Security Officer(CISO).
+High
+A vulnerability making it possible for an unauthorized individual to locally gain administrative access to a system or application or possibly gain access to Uncategorized Data. High-level vulnerabilities shall be remediated no less than 30 calendar days from detection or notification, unless otherwise directed by the Chief Information Security Officer (CISO).
+Medium
+A vulnerability that may allow an unauthorized individual to gain access to any information stored within a system or application. Medium-level vulnerabilities shall be remediated within 90 calendar days of detection or notification, unless otherwise directed by the Chief Information Security Officer(CISO).
+Low
+A vulnerability that while exists, does not pose an immediate threat to the system or application and poses no overall increase in risk to the State. Low vulnerabilities may be mitigated through firewalls and intrusion prevention systems that filter or block external access. Low-level vulnerabilities shall be remediated within 365 calendar days of detection or notification, unless otherwise directed by the Chief Information Security Officer(CISO).
+Unless otherwise specified by the Information Security Team (IST), vulnerabilities identified by software vendors shall maintain their industry accepted (published) severity rating. Examples include, but are not limited to, CVSS or Microsoft Severity Rating.
+Remediation and Reporting
+Remediation and Response
+Installation of security updates should be tested prior to deployment to production systems and applications where the capability exists. Additionally, updates should be coordinated and applied during an established maintenance window.
+Vulnerability remediation actions shall be completed in compliance with Change Management.
+Reporting
+The IST shall develop aggregated reports and may distribute quarterly to the OTS Executive Office and applicable agency management resources.
+The IST shall share detailed vulnerability details quarterly to applicable technical owners. Report details must contain information required for technical owners to confirm and mitigate, as required.
+Security Assessments and Information System Authorization
+Purpose and Scope
+An OTS Agency Official or a designee is required to work with the Information Compliance Teamto manage, develop, update, and maintain the security and privacy assessment, authorization and monitoring policy and procedures related to Security Assessments and Authorization to Operate (ATO), when required. Information systemowners are required to perform self-Security Assessments on information systems within their business units on an annual basis. The System Owners must determine the degree to which their security controls are in place, they are operating as intended, and produce the desired level of security. This requirement is part of the continuous monitoring and system development life cycle (SDLC) activities and provides an Authorization to Operate annually. The Authorization to Operate qualifies the system to operate for a year from the date of the self-assessment. For additional information on SDLC, please refer to the SDLC internal policy.
+Responsibilities
+The Agency Official or SystemOwner should select the right team member to perform assessments who will work with them on developing a security assessment plan that describes the scope of the assessment, including the below:
+Control Assessment
+The Control Assessment Plan shall include the following:
+- Security Assessment Procedures should determine security control effectiveness within the information systems.
+- The scope of the Security Assessment Plan includes:
+  - Controls and control enhancements under assessment; Assessment team,
+  - Assessment procedures to be used to determine control effectiveness; and
+  - Assessment environment, assessment team, and assessment roles and responsibilities.
+- Ensure the control assessment plan is reviewed and approved by the authorizing official or designated representative prior to conducting the assessment;
+- Assess the controls in the system and its environment of operation annually to determine the extent to which the controls are implemented correctly,
+- Operating as intended, and producing the desired outcome with respect to meeting established security and privacy requirements;
+- Produce a control assessment report that document the results of the assessment; and
+- Provide the results of the control assessment to the agency's Authorizing Official (AO) or the Authorizing Official Designated Representative, or those required to authorize.
+Information Exchange
+OTS system owners shall work with the Information Compliance Teamon the following:
+- Approve and manage the exchange of information between the system and other systems using Interconnection Security Agreements (ISAs).
+- Document, as part of each exchange agreement, the interface characteristics, security and privacy requirements, controls, and responsibilities for each system, and the impact level of the information communicated; and
+- Review and update the system Interconnection Security Agreement annually.
+System Interconnections
+OTS system owners shall work with the Information Compliance Team on the following:
+- Authorize connections from the information system to other information systems through Interconnection Security Agreements that must be reviewed annually.
+- Document, for each interconnection, the interface characteristics, security requirements, and the nature of the information communicated.
+- Review and update Interconnection Security Agreements on an annual basis or before if needed].
+- Employ an allow-all, deny-by-exception, deny-all, permit-by-exception, policy for allowing [XXX information systems] to connect to external information systems.
+Third Party and Data Sharing Agreements
+Purpose and Scope
+This policy section sets forth the responsibilities and contractual requirements when third parties are utilized to provide goods or services to an Agency. This policy section applies to all third parties that store, process, or transmit Confidential and Restricted Data for an Agency, otherwise have access to such data, or require access to Agency systems.
+This policy section also speaks to the Information Security requirements and considerations taken when executing a Data Sharing Agreement (DSA) between two Agencies exchanging Uncategorized, Confidential, or Restricted Data.
+It is not the intent of this policy to needlessly increase the operational expense of any (current or potential) third party, but rather to ensure the controls and mechanisms required for data protection are implemented, managed, and monitored in order to prevent the loss or exposure of the State’s Confidential, or Restricted Data.
+Due Diligence
+Prior to contractually engaging any third party, the Information Security Team (IST) shall verify, through proper due diligence, that the third party has implemented reasonable measures to protect Confidential and Restricted Data from unauthorized access, acquisition, destruction, modification, and disclosure.
+The IST may rely upon any industry accepted certification obtained by the third party within the previous 12 months as validation of effective security controls. In the event the third party does not have any independent representation of effective security controls, or the evidence provided is deemed inadequate by the Data Owner or Chief Information Security Officer (CISO), the third party shall be required to complete the IST’s Third Party Information Security Questionnaire and make available the resources required for the IST the perform a review (of the third party) as outlined in Risk Assessment Standards and Requirements.
+Any identified and unmitigated risk to Confidential and Restricted Data shall be documented and require a Risk Acceptance Form by the Data Owner, containing the Agency Executive Director’s approval, prior to transferring data to the third party.
+Note: In instances where the State or its Agencies have signed a contractual agreement with a third party prior to the initial publication date of the Information Security Policy and Procedures, the third party shall not be held to the requirements stated within this policy section that were not previously contained or referenced within the executed agreement. However, the State and its Agencies shall ensure any new, renewed, or amended agreement directly comply with the processes and requirements for third parties contained within the Information Security Policy and Procedures.
+Prior to Exchange of Data
+Access to the Agency’s Confidential and Restricted Data shall not be provided until the third party has signed a contractual agreement minimally containing:
+- End User Agreement
+- Non-Disclosure and Confidentiality Requirements
+- Breach Notification Requirements
+- Responsible Parties and duration of agreement
+- Acceptable destruction methods for media in accordance to Data Sanitization
+- Information Asset Management requirements
+- The State’s right to audit compliance with the State’s privacy and security requirements
+Specific Restricted Data Requirements
+Agencies shall ensure the actions required below are successfully completed prior to allowing access or disclosing Restricted Data to a third party or independent contractor.
+Specific Restricted Data types have specific regulatory requirements as outlined:
+- Protected Health Information (PHI)
+  - Access to PHI shall not be granted until the third party has signed the Business Associate Agreement (BAA).
+- Federal Tax Information (FTI)
+  - Access to FTI shall not be granted until the Agency and designated Information Security Officer (ISO) has received written authorization from the IRS Office of Safeguards.
+  - Ensure the third party contractual agreement contains verbiage within Safeguarding Federal Tax Information.
+    - Any requested modifications to the verbiage within Safeguarding Federal Tax Information requires the review and approval of the assigned ISO and Data Owner.
+- Criminal Justice Information (CJI)
+  - Access to CJI shall not be granted until the processes, approvals, and agreements required in FBI’s Criminal Justice Information Security Policy (CJIS) (section 5.1) have been successfully completed.
+  - Once CJIS requirements are satisfied, an additional approval is required from the State’s assigned CJIS ISO, prior to sharing any CJI with a third party.
+- Personally Identifiable Information (PII)
+  - If the third party services requires the sharing of PII, the third party shall sign a contractual agreement that contains specific requirements for the third party to verifiably implement, maintain, and monitor security controls to protect Confidential and Restricted Data from unauthorized access, acquisition, destruction, use, modification, and disclosure prior to access to the PII.
+Providing Third Party Access
+Remote Access Connections
+All remote access connections between the State and third parties shall be secured in accordance with Network Devices and Communications and Access and Identity Management.
+Allowing remote access to Restricted Data, or systems containing Restricted Data, to third party resources physically located outside of the U.S. is strictly prohibited.
+Least Privileged Access Rights
+Third parties shall be granted the minimum access required (least privilege), in accordance with Access and Identity Management. In tailoring the amount of access necessary to fulfill the third party’s duties, the Information Security Team (IST) and the Data Owner responsible for the third party shall consider the following types of access:
+- Physical access (e.g., physical facilities, filing cabinets, data center facilities)
+- Logical access (e.g., to Agency systems and servers)
+- Remote access (e.g., VPN)
+Cross Audit Organizational Auditing
+It is the policy of the State of Louisiana, to respond to all internal and external audits and financial reviews of sponsored awards in a manner that is in compliance with all applicable Federal requirements, including the Federal Office of Management and Budget’s Uniform Guidance, as well as all other applicable sponsor, state and city requirements.
+Third Parties, along with vendors, contractors, and subcontractors, are subject to receive a cross organizational Audit. Cross-organizational auditing (e.g., the type of auditing capability provided by service-oriented architectures) can verify the identity of individuals working for the contractor, who is performing requests at the initial information system, and subsequent systems record that those requests are only granted to authorized individuals.
+The Information Security Team shall define the method for coordinating the collection of audit logsfrom the external agency, contractors, or vendors. Audit reviews are to be conducted according to the type of Information System or type of datastored within the particular information system. This section pertains to all agencies, contractors, or vendors where restricted data is processed, stored, or transmitted across the agency networkborders, information system configuration settings, and associated documentation; methods for coordinating audit information among external organizations including agencies, contractors, or vendor’s information system audit records; and other relevant documents or records.
+MOUs, memoranda of agreement (MOAs), and other data sharing agreements must address the protection of PHI, FTI, CJIS, or any other types of audit content confidentiality ensuring authorized disclosures; and assurance that the sharing agreement defines which audit events and results are both captured and shared.
+Data Transfer
+Any files containing Confidential or Restricted Data exchanged with a third party shall utilize file level encryption along with a secure file level protocol, in accordance with Encryption and Network Devices and Communications.
+Maintenance and Support
+VPNs, dial-in modems, systems and accounts used solely for the purpose of third party or vendor maintenance and support must remain disabled or disconnected until required and be disabled again directly after the successful completion of the required task. Passwords for such accounts shall be changed after each use.
+Third party accounts must be uniquely named to the individual user, or follow a check in\out process approved by the IST. Third party accounts shall never be shared, even among the assigned individuals within the third party.
+List of Third Parties and Review of Service-Level Agreements
+Agencies, assisted by OTS, shall create and maintain a list of all third parties with whom Confidential or Restricted Data is shared.
+Agencies shall conduct an audit of service-level agreements (SLAs) at least annually to confirm that third parties have satisfied their contractual requirements.
+The State may employ or rely on an independent third party to satisfy such a review or audit.
+Landlords
+Each lease of office space or facility shall contain an agreement obligating the landlord and its representatives to maintain and respect the confidentiality of Confidential or Restricted Data maintained by the Agency and inspecting, duplicating, or disseminating Confidential or Restricted Data is strictly prohibited.
+Agency to Agency Sharing
+A Data Sharing Agreement (DSA) is required when Uncategorized, Confidential, or Restricted Data is shared between Agencies. The DSA is a formal agreement which delineates the responsibilities of the involved parties, including the role of the Office of Technology Services (OTS) in providing information technology services and data security on behalf of the executive branch agencies. At a minimum, the following elements shall be included in the agreement:
+- Justification – Including the legal, business, or operational need for the data being shared;
+- Authority – Identify the law, regulation, or other source authorizing the data share;
+- Description – Provide a detailed description of the data, including the appropriate Data Classification level;
+- Access or Exchange Method – Describe how the data will be accessed or exchanged;
+- Custodians – Designate a Data Custodian for each principal party;
+- Authorized User – Identify the individuals or groups authorized to access the data;
+- Use – Describe how data will be utilized;
+- Retention – Clearly specify any applicable record retention or Data Classification requirements;
+- Confidentiality – Statement of any obligations by either party to maintain the appropriate level of confidentiality.
+The DSA is acknowledged and made effective by the signatures of the Agency Executive Directors, or designee, of the agreement party agencies. In addition, the Chief Information Officer (CIO) acknowledges the agreement’s confidentiality requirements on behalf of OTS.
+Information Asset Management
+Purpose and Scope
+This policy section establishes the requirements for the planning, procurement, deployment, management, support, and handling of an Agency’s Information Assets. Information Asset Management assists in confirming that the State’s systems and devices are protected according to their Data Classification Level. All Information Assets owned, leased, or managed by an Agency, the Office of Technology Services (OTS), or third party, used to store, transmit, or process an Agency’s information shall adhere to the requirements and responsibilities of this policy section.
+Inventory Management
+Asset Management Personnel
+Personnel with Information Asset Management roles and responsibilities are responsible for tracking the Information Asset Lifecycle. These personnel should be documented as such, and trained periodically. These individuals may be from one or many operational areas, as appropriate depending on the type of Information Asset or the Agency’s operational needs.
+For example, the management of software and hardware assets may be handled by OTS, but management and accountability of (non-technology) Employee assets or equipment shall be the responsibility of the Agency.
+Asset Identification and Handling
+All Agency Information Assets, owned or leased, shall be inventoried by their Data Classification Level, Data Owner, and assigned user. The inventory of all Information Assets shall be retained by the Agency or OTS on the Agency’s behalf. The inventory shall be accurately maintained and reviewed annually to identify any missing or no longer utilized Information Assets. Agencies shall confirm, to the extent possible, that Information Assets are tagged with an approved identification tag and a unique number for tracking purposes.
+System Identification for Business Continuity Management
+In the event of a disaster, the inventory maintained by an Agency shall be utilized to identify all Information Assets, the last location, back-up information, licensing information, and Information Asset’s value to support any operational impact analysis.
+Third Party Contractual Agreements
+When required, notice of Information Asset Management requirements are to be included in third party contracts. The agreement shall specify how and when the applicable Information Assets will be inventoried and include how Information Assets will be returned upon completion of the contract.
+Information Asset Lifecycle
+Planning and Procurement
+Personnel with Information Asset management roles and responsibilities shall receive timely notifications of Information Assets changes, updates, or new acquisitions in order to ensure inventories are updated.
+Deployment
+Information Assets are to be deployed following the policies outlined in this Information Security Policy and Procedures.
+Management and Support
+Information Assets are to be labeled, handled, supported, and returned following the policies outlined in this Information Security Policy and Procedures. To the extent possible, the assigned user’s supervisor or the assigned Data Owner shall provide the Human Resources personnel a list of the Information Assets an Employee retains in his/her possession upon the Employee’s departure, dismissal, or change in position. In addition, the user’s supervisor and the Data Owner shall assist HR with efforts to recoup information assets from former employees.
+Disposal
+All Information Assets shall be disposed of in accordance with Data Sanitization.
+Lost or Stolen
+Upon becoming aware of a lost or stolen Information Asset, an individual must report the event to the Information Security Team (IST) or OTS End User Support Services, as required by Incident Management.
+Data Sanitization
+Purpose and Scope
+This policy section clearly indicates the responsibilities and actions required to ensure data is properly removed prior to the release or disposal of equipment.
+This section applies to any and all electronic media or devices subject to surplus, disposal, transfer, or otherwise permanently leaving the possession of an Agency or its agents.
+Electronic media and devices shall be sanitized using approved equipment, techniques, and procedures as required by Data Sanitization Standards and Requirements.
+This section does not apply to any device or electronic media seized, confiscated, or requested as evidence to support any administrative, legal, or lawful action.
+Responsibilities
+¨
+- Review and ensure compliance with current data or record retention policies and directives prior to taking any approved actions to overwrite or destroy data.
+- Establish operational processes to ensure compliance with Data Sanitization Requirements.
+- Utilize the assigned data classification level, as required by Data Classification and Handling, to determine the required sanitization method.
+- Maintain sanitization log records, as defined in Data Sanitization Standards and Requirements, indefinitely.
+- Report any violation of this policy directly to the Information Security Team (IST) immediately as practical.
+Appendix Items
+General Overview
+The Information Security Policy and Procedures Appendix is structured predominantly to both, improve the usability of the Information Security Policy and Procedures, and ease the maintenance of updating technical specifications, which are expected to change over time.
+Appendix Requirements
+Item Location
+Depending on an Appendix Item’s format, operational need, or the sensitivity of the information contained within, an Appendix Item may be stored and maintained in one of the following locations:
+- Within the Information Security Policy and Procedures directly;
+- Within the OTS policy library located on the Division of Administration’s public facing website; or within the State’s internal network utilizing a secure file repository.
+The Chief Information Security Officer (CISO) or designee shall ensure that following Appendix sections are updated with accurate file locations or links.
+Updates to Items
+Updates made to an existing Appendix Item’s technical or procedural sections shall be logged and require written approval by the CISO prior to use or reference.
+Adding or Removing Items
+Adding or removing Appendix Items shall require the same process for Information Security Policy and Procedures Changes and Amendments.
+Exception Request Form
+Exception request forms must be completed by the Data Owner or Agency Leadership and must include the signature of the Agency’s Executive Director prior to submission to the Chief Information Security Officer (CISO).
+Completed forms are submitted to the CISO or IST using the Contact Information provided within the Information Security Policy and Procedures.
+Please feel free to contact the Information Security Team (IST) with any questions or comments you have about the Exception Request process.
+The Exception Request Form is hosted as a separate file within the OTS policy library on the Division of Administration’s public website.
+End User Agreement
+This appendix item will be hosted as a separate file within the OTS policy library on the Division of Administration’s public website.
+Password Requirements
+Purpose
+The purpose of this policy is to clearly inform all Agencies and third parties of the currently approved authentication methods in addition to the password policy required for all systems, domains, applications, and technical resources utilized by the State or its Agencies.
+In the event technical limitations limit the ability to achieve the requirements within this Appendix section, a Policy Exception must be requested for the system or application in addition to a Risk Acceptance Form approved by the Data Owner and Agency Executive Director.
+End User Account Password Requirements
+All general end user accounts shall require passwords that meet or exceed the below configurations, settings, or policies.
+Policy Configuration
+- Minimum Length - 14 characters
+- Full Character Set - (alphanumeric and all special characters)
+- Complex - By requiring 4 of the following 4:
+  - Numeric character (0-9)
+  - Special character (, !@#$%^&*()-_+{[=\|/:;}]<>)
+  - Uppercase (A-Z)
+  - Lowercase (a-z)
+- Maximum age - 90 days
+- Minimum age - 1 day (24hrs)
+  - Passwords set to force reset at next logon do not require the above mentioned minimum age.
+- No previous password: 24 passwords
+  - Meaning: a new password shall not be the same value of the User’s previous 24 passwords
+Account Lockout Policy shall be determined by Data Classification Levels
+Accounts with access to Confidential or Restricted Data shall be:
+- Locked or disabled and require administrative unlock upon 6 consecutive, unsuccessful login attempts in a 10-minute time period.
+Accounts without access to Confidential or Restricted Data shall be:
+- Temporarily locked out for 15 minutes upon 6 consecutive, unsuccessful login attempts in a 15-minute time period.
+Privileged User Account Password Requirements
+User accounts for privileged users shall require the more restrictive password configurations outlined below.
+Policy Configuration
+- Minimum Length - 15 characters
+- Full Character Set - (alphanumeric and all special characters)
+- Complex - By requiring 4 of the following 4:
+  - Numeric character (0-9)
+  - Special character (, !@#$%^&*()-_+{[=\|/:;}]<>)
+  - Uppercase (A-Z)
+  - Lowercase (a-z)
+- Maximum age - 90 days
+- Minimum age - 1 day (24hrs)
+  - Passwords set to force reset at next logon do not require the above-mentioned minimum age.
+- No previous password: 24 passwords
+  - Meaning: new passwords shall not be the same value of the previous 24 passwords
+Account Lockout Policy
+- Locked or disabled and require administrative unlock upon 3 consecutive, unsuccessful login attempts in a 10-minute time period.
+Service Account Password Requirements
+Service or System accounts require the explicit password configurations as outlined below.
+Policy Configuration
+- Minimum Length - 24 characters
+- Full Character Set - (alphanumeric and all special characters)
+- Complex - Required to use 4 of the 4 following:
+  - Numeric character (0-9)
+  - Special character (, !@#$%^&*()-_+{[=\|/:;}]<>)
+  - Uppercase (A-Z)
+  - Lowercase (a-z)
+  - Maximum age - Never Expire
+Account Lockout Policy
+- Locked or disabled and require administrative unlock upon 6 consecutive, unsuccessful login attempts in a 10-minute time period.
+Additional Service Account Requirements
+Once Service or System accounts have successfully been used to authenticate a service or application, all reasonable efforts shall be taken to restrict the service accounts from interactive logons.
+Single Sign-On (SSO) Requirements
+SSO for any system, service, website, portal, or application owned, managed, or utilized by an Agency shall be reviewed by the Information Security Team (IST) in addition to meeting the following requirements.
+The following are approved methods and requirements for SSO.
+SAML v2.0 Requirements
+- Validate Message Confidentiality and Integrity
+  - Utilize TLS v1.2 or higher or a digitally signed message with a certified key in compliance with Encryption Requirements.
+- Validate Protocol Usage
+  - SAML Response Data Element AuthnRequest (ID, SP)
+  - SAML Response Data Element Response (ID, SP, IdP, {AA} K -1/IdP)
+  - SAML Response Data Element AuthAssert (ID, C, IdP, SP)
+  - Always perform schema validation on the XML document
+  - Securely validate the digital signature
+- Validate Protocol Processing Rules
+  - Validate AuthnRequest processing rules
+  - Validate Response processing rules
+Kerberos Requirements
+- Kerberos is an approved authentication method for use both on and off domain or configured for SSO.
+- The IST strongly endorses the use of Kerberos whenever available.
+NTLM Requirements
+- NTLM v1 shall only be utilized when NTLMv2 or Kerberos is not available due to technical limitations and must be approved by the Chief Information Security Officer (CISO)
+- NTLM v2 is the recommended authentication protocol for domain SSO authentication.
+OpenID & OAuth
+Due to the highly decentralized nature and the historically flawed model, both OpenID and OAuth shall not be used for any Agency process or application without review and approval by the IST, on a case-by-case basis.
+OpenID Connect (OIDC) may be utilized when required if the implementation of OIDC meets the FAPI 2.0 Security Profile standard, which substantially reduces inherent security flaws of standard OIDC implementations. Specific exceptions for FAPI 2.0 requirements may be sent to the IST for review and approval.
+Password and Authentication Token Storage Requirement
+All passwords, authentication tokens, certificates, and encryption keys shall be encrypted, in accordance with Encryption Requirements, when stored on any client, server, or when embedded within any application, code, or script.
+Multi-Factor Authentication Requirements:
+Definition
+The classic paradigm for authentication systems identifies three factors as the cornerstone of authentication:
+- Something you know (for example, a password)
+- Something you have (for example, an ID badge or a cryptographic key)
+- Something you are (for example, a fingerprint or other biometric data)
+Multi-factor authentication refers to the use of more than one of the factors listed above. The strength of authentication systems is largely determined by the number of factors incorporated by the system. Implementations that use two factors are considered to be stronger than those that use only one factor; systems that incorporate all three factors are stronger than systems that only incorporate two of the factors.
+Approved Authentication Factors
+All Multi-Factor authentication systems shall be subject to a formal review by the Information Security Team (IST). The following types of Multi-Factor authentication types are approved.
+- Hardware Tokens
+  - Note: Lost physical tokens must be reported to the IST promptly and disabled.
+- Software Tokens
+  - TOTP / OTP
+- Certificates
+  - Private key must be non-exportable
+  - Key must not be subject to memorization
+  - Hardware-based private key storage is preferred
+Other Authentication Methods
+Device or Application PIN Requirements
+- PIN minimum length – 8 digits
+- Minimum Age – N/A
+- Maximum Age – 90 days
+Session Management Requirements
+All Session IDs (or Tokens) utilized to maintain the active authenticated state of an application or system user shall expire and reissue after a maximum of:
+- 15 minutes
+Any inactive authenticated user session of any externally accessible application or system shall be expired and require re-authentication after a maximum inactivity of:
+- 15 minutes
+Any active authenticated user session of any externally accessible application or system shall be expired and require re-authentication after a maximum active use of:
+- 24 hours
+Change Management Process
+The Change Management Team works with each operational section of the Office of Technology Services (OTS) and Agencies to document the Change Management Process which can accommodate the State’s consolidated IT environments.
+Each operational section of OTS and Agency shall utilize the published Change Management Process which is documented as a separate file within the OTS policy library on the Division of Administration’s public website.
+Approved Network Services, Protocols, and Ports
+The Office of Technology Services – Network Services, working with the Information Security Team (IST), shall create and maintain a list of approved network services, protocols, and ports that are maintained and operationally required by an Agency.
+The list of approved network services, protocols, and ports shall be updated with any newly provisioned services, protocols, and ports. Once approved and changed per the Network Devices and Communications in accordance with Change Management.
+The list of approved network services, protocols, and ports is to be reviewed on an annual basis to verify that insecure, unused or unauthorized services, protocols, and ports are not present in the State’s environment.
+Due to the potential risk associated and confidential nature of this content, access to this list shall be restricted and the list shall not be published or shared without prior approval from the CIO and CISO.
+Encryption Requirements
+Purpose
+The purpose of this policy is to clearly inform an Agency or third party of authorized cryptographic algorithms, methods, configurations, and secure protocols necessary for adequate data protection. The requirements in this Information Security Policy and Procedures Appendix section shall be referenced when data encryption methods are required for Agency systems, applications, workstations, mobile devices, file transfers, network connections, or digital signatures.
+In the event technical or operational limitations impact the ability to achieve the requirements within this Appendix section, a Policy Exception must be requested for the system or application in addition to a Risk Acceptance Form approved by the Data Owner and Agency Executive Director.
+Encryption Software
+Encryption standards and algorithms require intensive analysis prior to approval in addition to continued examination in order to determine that the standard or algorithm provides adequate security. For this reason, the Information Security Team (IST) relies upon the National Institute of Standards and Technologies (NIST) for maintaining the currently approved encryption standards, algorithms, and corresponding key lengths.
+Prior to production use of any software product or application (including any cryptographic library or module utilized during software development) used for data encryption, must have previously been submitted, tested, approved, and posted by NIST as a FIPS 140-3 compliant cryptographic module.
+In addition to using a FIPS 140-3 compliant cryptographic module, all encryption software used in production environments shall adhere to the additional requirements within this Appendix section.
+Please contact the IST with any questions about the requirements, use, or approval of encryption software.
+Encryption Algorithms
+Only currently approved encryption algorithms shall be used to provide confidentiality or protection for Confidential or Restricted Data.
+Symmetric Key Algorithms
+As provided in NIST SP 800-57, the following symmetric key algorithms are approved:
+- Triple DEA (TDEA, TDES, or 3DES) - Only allowed in support of legacy applications and decryption activities, but should be updated through modernization efforts. Not allowed for new applications.
+  - 56-bit keys only
+- Advanced Encryption Standard (AES)
+  - 128-bit keys, (not allowed)
+  - 192-bit keys (not allowed)
+  - 256-bit keys. (minimum required)
+Public Key Asymmetric Algorithms
+As compliant with FIPS 140-3, the following asymmetric key algorithms are approved:
+- RSA (2048 bit minimum required)
+- ECC (384 bit minimum required)
+- ML-KEM (ML-KEM-768 minimum parameter set required)
+  - ML-KEM-512 when ML-KEM-768 causes undue performance issues, but requires CISO approval prior to implementation
+Hash Functions
+A hash function is used to take an input of arbitrary length and output a fixed-length value. The output from a hash function may be commonly referred to as a hash value, hash, message digest, and digital fingerprint. Using a well-designed hash function means it is not feasible to find a message that will produce a given hash value (pre-image resistance), nor is it feasible to find two messages that produce the same hash value (collision resistance).
+As provided in FIPS 180, the following hash functions are approved:
+- SHA-1 (deprecated),
+- SHA-224,
+- SHA-512/224,
+- SHA-256,
+- SHA-512/256,
+- SHA-384, and
+- SHA-512
+Digital Signature Algorithms
+Digital signature algorithms are used with hash functions to provide authentication, integrity, and non-repudiation.
+As provided in FIPS 186-5, the following digital signature algorithms are approved:
+- RSA (2048 bit minimum) with SHA-256
+- ECDSA (384 bit minimum) with SHA-256
+- EdDSA
+  - For Ed25519/ph, SHA-256 shall be used
+  - Ed448/ph, SHAKE256 shall be used
+- DSA has been deprecated and may only be used for verification of existing signatures
+Key Exchange
+Key exchanges must use one of the following cryptographic protocols:
+- Diffie-Hellman
+- Internet Key Exchange (IKE)
+- Elliptic curve Diffie-Hellman (ECDH)
+Endpoints must be authenticated prior to the exchange or derivation of session keys.
+Certificates and Key Authentication
+All systems used for authentication (for example, RADIUS or TACACS) must have installed a valid certificate issued and signed by either the Agency’s internal certificate authority (CA) or a publicly trusted CA (provider).
+Any system or applications using TLS must have a certificate signed by the Agency’s internal certificate authority (CA), or a publicly trusted CA.
+Public keys used to establish trust must be authenticated prior to use. Examples of authentication include transmission via cryptographically signed message or manual verification of the public key hash.
+Certificates issued to users, workstations, or servers for the purpose of authentication must not allow the certificate to be exported.
+Hardware-based storage for private keys, such as smart cards or TPM, should be utilized when practical.
+An authorized certificate authority (CA) must issue all public key certificates used on all systems owned, leased or operated by the Office of Technology Services (OTS). Self-signed or automated self-generated certificates, including those generated by portable document format creators/readers for the purposes of digitally signing electronic documents, are not authorized for use.
+(EXCEPTION: Development and testing systems may use vendor self-generated certificates during initial configuration of the system. A certificate issued by an authorized CA must be installed prior to entering the operations and maintenance phase of the system lifecycle).
+Encryption for End User Devices
+Approved encryption software used to protect Confidential and Restricted Data on laptops, mobile devices, smart phones, workstations, and other end users devices that could potentially become lost or stolen shall be implemented in strict compliance with NIST SP 800-111.
+Encrypted Network Transmissions
+Confidential and Restricted Data must be encrypted during transmission over the internet, public network, or otherwise un-trusted environment.
+Restricted Data shall be encrypted even during transmission within an internal State, Agency, or authorized third party network; unless otherwise approved by the IST.
+Agencies with an operational need for transmitting Confidential and Restricted Data shall only use the following approved protocols:
+- TLS v1.2 or v1.3 (Transport Layer Security)
+- IPsec (Internet Protocol Security)
+  - IPsec Encryption Requirements
+    - IPsec requires the explicit use of Encapsulating Security Payload (ESP) to ensure data confidentiality and integrity. The following transform sets are approved for use:
+- ESP-AES-256-SHA-256
+  - Encryption: AES-256
+  - Integrity: SHA-256
+  - HMAC: esp-aes-256 esp-sha256-hmac
+- ESP-AES-192-SHA-256
+  - Encryption: AES-192
+  - Integrity: SHA-256
+  - HMAC: esp-aes-192 esp-sha256-hmac
+- ESP-AES-128-SHA-256
+  - Encryption: AES-128
+  - Integrity: SHA-256
+  - HMAC: esp-aes esp-sha256-hmac
+- ESP-AES-192-SHA-384
+  - Encryption: AES-192
+  - Integrity: SHA-384
+  - HMAC: esp-aes-192 esp-sha384-hmac
+- ESP-AES-128-SHA-512
+  - Encryption: AES-128
+  - Integrity: SHA-512
+  - HMAC: esp-aes esp-sha512-hmac
+- ESP-AES-256-SHA-512
+  - Encryption: AES-256
+  - Integrity: SHA-512
+  - HMAC: esp-aes-256 esp-sha512-hmac
+- Diffie-Hellman Groups (DH):
+  - Recommended: Use DH Group 14 or higher for key exchange to ensure strong security:
+    - DH Group 14 (2048-bit key)
+    - DH Group 15 (3072-bit key)
+    - DH Group 16 (4096-bit key)
+    - DH Group 19 (256-bit elliptic curve)
+    - DH Group 20 (384-bit elliptic curve)
+    - DH Group 21 (521-bit elliptic curve)
+Encrypted Wireless Networks
+All wireless networks in use within State facilities must be protected by encryption. Under no circumstances should the encryption be configured to be less than 256 bits in strength.
+- Wireless networks used by Employees or Third Parties to access internal systems shall be configured to specifically use WPA2 or WPA3 with Protected Extensible Authentication Protocol over TLS v1.2 (PEAP-TLS) or greater.
+- Wireless networks used by Employees or Third Parties with no access to any internal systems must be configured with WPA2 or WPA3 using AES with a Pre-Shared Key (PSK) of no less than 24 characters.
+- Wireless networks, used by guests, visitors, or the general public must strictly prohibit the access of any internal system and require users to complete a registration process prior to providing connectivity.
+  - In instances where guest or general public wireless access is needed to support an event scheduled for less than 48hrs, user registration is not required unless requested by the Agency assigned event coordinator.
+Restricted Data File Transfers
+File transfers to third parties that contain or may contain Restricted Data, shall be encrypted at file level (at rest) prior to being shared via an approved encrypted network transmission. Exceptions must be approved by the CISO.
+Continuous Review of Encryption Standards
+Due to the inherent depreciation of encryption standards, as well as the on-going focus to improve encryption technologies, the Information Security Team (IST), in conjunction with OTS operational sections, shall continuously review the acceptable encryption guidelines and requirements to ensure the State’s use of encryption maintain compliance with regulatory requirements and Restricted Data is adequately protected.
+Incident Response Plan
+This appendix item will be hosted as a separate file within the OTS policy library on the Division of Administration’s public website.
+Third Party Information Security Questionnaire
+The Third-Party Information Security Questionnaire appendix item will be hosted as a separate file within the OTS policy library on the Division of Administration’s public website.
+Audit Logging Standards and Requirements
+Purpose
+The purpose of this policy is to clearly inform all Agencies, third parties, and operational sections within the Office of Technology Services (OTS) of the audit logging requirements for all computing systems, network devices, servers, applications, and databases in production or intended for production use, whether managed by an Agency, OTS, or third party. For additional information on internal procedure, please refer to the “Audit and Accountability Procedures” document.
+General Logging Requirements
+Any log generated by a system, application, database, etc. should be configured to produce unfiltered logs in as much detail as possible.
+The following fields of information are required for all audit logs or system events:
+- Timestamp
+- Date
+- Username (if applicable)
+- Action Result
+  - Success
+  - Failure
+- Source - Client Information
+  - Hostname (if applicable)
+  - IP Address
+  - MAC Address
+  - Port
+- Destination - Client Information
+  - Hostname (if applicable)
+  - IP Address
+  - MAC Address
+  - Port
+- Protocol
+- Reason Code or Event Type
+- Message Details
+Operating System and Network Device Logging Requirements
+In addition to the previously listed General Logging Requirements, Operating Systems shall be configured to produce audit logs for the following event types:
+- Log Clearing or Deletion
+- Actions performed by OS components
+  - Startups and Shutdowns
+  - Service starts, stops, creation, deletion
+  - System Changes
+  - Script or Command execution details
+  - Errors (with error codes)
+- Account Information
+  - Authentication and Authorizations
+    - Logons
+    - Logoffs
+    - Password resets or changes
+  - Account Changes
+  - Account Creation
+- Policy Changes
+- Account Changes
+- Account Creation
+- Permission Changes
+- When required by Information Security Team File Access\Auditing for:
+  - Update\Write
+  - Read
+  - Delete
+  - Traverse
+Application Logging Requirements
+In addition to the both General Logging Requirements and Operating System Requirements, Applications shall be capable of generating and configured to produce the following event types (as relevant to the use, functionality, or scope of the application):
+- Log Clearing, Deletion, or Purging
+- Client Requests and Server Response
+  - URLs
+  - Status Code
+- User Account Information
+  - Authentication and Authorizations
+    - Logons
+    - Logoffs
+    - Password resets or changes
+  - Account Changes
+  - Account Creation
+- Operational
+  - Service level Starts and Stops
+  - Application Failures
+  - Policy or Configuration Changes
+  - Content Updates
+  - Critical Errors
+  - File or Message Transfer
+- End User Actions
+  - Access to any screen or menu containing Confidential or Restricted Data
+  - Initiated Reports (to include query executed) containing Confidential or Restricted Data
+Database Logging Requirements
+In addition to the General Logging Requirements, Operating System Requirements, and Applications Logging,Databases shall be capable and configured to produce the following event types:
+- Account Information
+  - Authentication and Authorizations
+    - Logons
+    - Logoffs
+    - Password resets or changes
+  - Account Changes
+  - Account Creation
+- Operational Actions
+  - Startup and Shutdown
+  - Configuration Changes
+  - Errors
+  - Log Cleared
+- Transactions (to include query string)
+  - User generated
+  - Stored procedures or Scripts
+  - Scheduled Jobs or Tasks
+Custom Application Logging Requirements
+In addition to the General Logging Requirements, Operating System Requirements, and Applications Logging,and Databases Logging Requirements, Custom Application shall be required to be developed and tested to ensure creation of the following event types:
+- Client Requests and Server Response
+  - URLs
+  - Status Code
+- Account Information
+  - Authentication and Authorizations
+    - Logons
+    - Logoffs
+    - Password resets or changes
+  - Account Changes
+  - Account Creation
+- Operational Actions
+  - Startup and Shutdown
+  - Application Failures
+  - Configuration Changes
+  - Updates
+  - Errors
+  - Log Cleared
+- End User Actions
+  - Access to any screen or menu containing Confidential or Restricted Data
+  - Initiated Reports (to include query executed) containing Confidential or Restricted Data
+  - File uploads
+  - Searches (including strings)
+Additional Requirements
+Syslog Protocol Requirements
+- Reliable Log Delivery
+  - TCP Support should be used when available
+- Transmission Confidentiality Protection
+  - TLS Support
+- Transmission Integrity Protection and Authentication
+  - Supports MD5 or SHA-1
+Log Collection and Event Forwarding
+- Security tools may be required to connect to log storage locations, including databases, or flat file storage locations for log collection and processing.
+  - In some situations, after approval from IST, security tools may delete original log files or entries after collection and processing of audit logs are complete.
+- When required by the CISO, Agency, or Data Owner, Event Logs shall be forwarded to a central location for secure storage and monitoring.
+Restricted Data Auditing Requirements
+Listed below are the regulatory requirements, which includes the events, information to be collected, and listed actions that must take place from logs generated from any Information Systemsused to process, transmit, or store Restricted Data, including but not limited to FTI. The eventtypes for logging within the system: requirements (e.g. Systems capable of required event types relevant to the use or administration of FTI). The below information shall be used, remain accessible to the IRT in order to identify after the fact investigations and analysis for security events. Due to these systems, containing restricted data. Regulatory Compliance Agencies may request the State of Louisiana to document and send any changes to the auditing, including but not limited to the Office of Safeguards SSR requirements.
+Content of Restricted Data Audit Events
+- All accesses or attempts to access a system, including the identity of each user and Device;
+- Logoff activities;
+- Activities that might modify, bypass, or negate IT security safeguards;
+- Security-relevant actions associated with processing
+- User generation of reports and extracts containing
+- Any interaction with FTI through an application;
+- Password changes;
+- Creation or modification of groups;
+- Privileged user actions;
+- Access to the system;
+- Creating and deleting files;
+- Change of permissions or privileges;
+- Command line changes and queries;
+- Changes made to an application or database;
+- System and data interactions;
+- Opening and/or closing of files; and
+- Program execution activities.
+Collected details audits should facilitate the IRT, or the assigned reviewer, the opportunity to recreate events that include but are not limited unauthorized access, re-occurring activity, or a system malfunction or suspected break in creating audit logs.
+Content of Restricted Data Audit Logs
+The information collected within the audit records contain the following information to establish enough information to provide an after the fact investigation:
+- That type of event occurred;
+- When the event occurred;
+- Where the event occurred;
+- Source of the event;
+- Outcome of the event; and
+- Identity of any individuals, subjects, or objects/entities associated with the event.
+Auto Generation, Collecting and Storing Logs Collected
+- Allocate audit log storage capacity to accommodate the retention of audit records for the retention period containing restricted data for the 7-year Regulatory Compliance Requirements and protected from authorized access, deletion, or damage.
+- Audit logging tools should protect the audit logs from unauthorized access, modification, and deletion; and send an alert to management staff members upon detection of unauthorized access, modification, or deletion of audit information
+- Auto generated alerts or notifications to be sent to the system administrator in the event audit logs fail to process. If errors are generated;
+- Provide audit record generation which are capable of setting up auditing as defined on all systems that receive, process, store, access, protect and/or transmit Restricted Data.
+- The system must;
+  - Allow SA and ISO to select the event types that are to be logged by specific components of the system; and
+  - Generate audit records for the event types defined in AU-2c that include the audit record content defined
+- Monitor the system and verify functions and performance of the system if problems occur.
+- Operating system or system audit logs should validate its performance of the system and operating systems for the administrator to identify where the system process failed and has taken place, then provide enough relative information to corrective actions to be taken by the system administrator
+- If logs are not available, shut down the system if necessary until the issue is resolved.
+Audit Logging Analysis and Reporting
+- Review and analyze system audit records weekly for the following indications of
+  - Inappropriate use
+  - Unusual activity
+- The Reviewer must measure the potential of impact from impact of inappropriate or unusual activity, and then report the incident to the individual(s) responsible to investigate the security event in accordance with Incident Response procedures and the measure of the security impact.
+- The CISO or designee will assign roles and responsibilities from someone in the IST who is associated with the review, analysis, and reporting of audit record information and remediation.
+- The system administrator must adjust the level of audit review, analysis, and reporting within the system when there is a change in risk based on “law enforcement information”, “intelligence information”, or other credible sources of information considered restricted data.
+- The state’s Information Systems must generate audit record review, analysis, and reporting in place with automated technology, which supports auto generated alerts, and processes for investigation response to suspicious activities.
+- Logs collected from other devices or software which contains restricted data should follow timeframes outlined in NIST 800-53 regulations
+Audit Reduction and Report Generation
+- If possible, the information system configured to collect audit logs should be capable of audit record reduction and report generation that:
+- Supports on-demand audit record review, analysis, and reporting requirements and after-the-fact investigations of incidents
+- Does not alter the original content or time ordering of audit records
+- The technology used to collect audit logs, review events, and provide reports, all auto-generated, and should give the System Administrator the ability to set up the event types outlined in General Information for State Information Systems Containing Restricted Data.
+- The system should allow the System Administrator to select the event types that are to be collected and logged by specific components of the system; and
+- Generate audit records for the event types defined in the Operating System and Network Device Logging Requirements
+Time Stamps for Restricted Data Audits
+- Use internal system clocks to generate time stamps for audit records; and
+- Record time stamps for audit records that meet agency-defined granularity and that use Coordinated Universal Time, have a fixed local time offset from Coordinated Universal Time, or that include the local time offset as part of the time stamp
+Data Sanitization Standards and Requirements
+The Office of Technology Services’ previously approved and published Data Sanitization Standards and Requirements shall continue to be used and temporarily serve as this appendix item.
+Background Check
+The State of Louisiana (Division of Administration, Office of Technology Services) is committed to protecting the data of its customer agencies, including Federal Tax Information (FTI). IRS Publication 1075 and RCW 41.04.821 requires that the department perform background checks on individuals who have access to Restricted Data. By performing background checks, it ensures the state of Louisiana complies with IRS standards for persons having access to all Restricted Data, including FTI.
+Purpose
+The purpose of this policy is to define and establish procedural guidelines, background check requirements, and timeframes and suitability standards for individuals who have access to Restricted Data.
+Scope
+This policy applies to all current employees, applicants for employment, volunteers, student workers, contractors and sub-contractors (“individuals”) who are or may be authorized by the department to access Restricted Data as part of their job duties. Included in that group are those who have access to the state’s datacenters and the state’s network, and considered to have access to the State's Restricted Data, including but not limited to FTI.
+Background Requirements
+In order for the State of Louisiana to remain in compliance with Federal and State Laws, background checks for individuals who have access all types of Restricted Data, , and Revised Statutes, RS 15:587, and RS 17:407.42 supports Information Security, Louisiana State Police (LSP), and Federal Bureau of Investigation (FBI). It remains the duty of the Appointing Official, or designee, to ensure that all necessary steps are complete before an employee receives access to Restricted Data. The state of Louisiana classifies all employees within the OTS, with the exception of administrative staff, to have access to Restricted Data.
+The individuals cannot access Restricted Data unless they have passed all required background checks with a favorable rating under the department’s standards. The department’s Standard Operating Procedures are listed as internal documentation and if approved, can be sent upon request. The department must complete a suitability background investigation that is favorable to the agency and every 5 years thereafter. All individuals who work with Restricted Data are required to go through, at minimum, the below background checks.
+Required Background Checks for Access to Restricted Data
+1. Federal Bureau of Investigation Fingerprint Check
+FBI fingerprinting (FD-258) - review of Federal Bureau of Investigation (FBI) fingerprint results conducted to identify possible suitability issues. (Contact the appropriate state identification bureau for the correct procedures to follow.) A listing of state identification bureaus listed on https://www.fbi.gov/about-us/cjis/identity-history-summarychecks/state-identification-bureau-listing. This national agency check is the key to evaluating the history of a prospective candidate for access to the states Restricted Data, and gives the state the ability to check the applicant’s criminal history in all 50 states, not only current or known past residences.
+1. Citizenship Requirement Check
+This check validates the employee’s eligibility to work in the United States legally (e.g., a United States citizen or foreign citizen with the necessary authorization). Employers must complete USCIS Form I-9 to document verification of the identity and employment authorization of each new employee hired after November 16, 1986, to work in the United States. Within 3 days of completion, a new employee should be validated using the E-Verify to assist with verification of his/her status and the documents provided with the `Form I-9. The E-Verify website is www.uscis.gov/e-verify, and can be used free of charge.
+This verification type is only used for new employees and employees with expiring employment eligibility should be documented, monitored, and reminded of their responsibilities to remain compliant.
+1. Local Law Enforcement Check
+Check of local law enforcement agencies where the subject has lived, worked, and/or attended school within the last 5 years, and if applicable, of the appropriate agency for any identified arrests. The local law enforcement check will assist agencies in identifying trends of misbehavior that may not rise to the criteria for reporting to the FBI database but is a good source of information regarding an applicant.
+Background Check Policy
+The criterion for required element +outlined within the Background Check Standard Operating Procedure (SOP), which outlines and defines what would result in preventing or removing an employee’s or contractor’s access to Restricted Data. Each required element defines what would result in preventing or removing an employee or contractor’s access to Restricted Data. The procedures are not public information, and are for internal use only.
+- All Employees and contractors’ duties that include access to Restricted Data must have a background check conducted. Employees, contractors and sub-contractors (if authorized), with access to Restricted Data must complete and pass a background investigation that is favorable towards the agency prior to allowing access to Restricted Data.
+- No employee or contractor shall be granted access to Restricted Data until the appropriate screenings have been conducted and the individual signs an access agreement.
+- A written copy of the Noncriminal Justice Applicant’s Privacy Rights and a summary of the Consumer Rights under the Fair Credit Reporting Act (FCRA) and related state laws are given to the applicant during the background check process.
+- All employees of the state, whose duties include access to Restricted Data, must complete updated re-investigation background checks at least every five years unless Rap Back checking is used.
+- The performance of background checks for contractors shall be in conformity with any applicable terms of the agreement between the contract worker or contract agency and OTS.
+- In the absence of participation in a Rap Back (Record of Arrest and Prosecution Back) program, a current employee who refuses to consent to the required re-investigation background check, and whose position necessitates access to Restricted Data, may be disqualified from continued employment in that position or have such duties and access revoked.
+- The cost of background checks conducted pursuant to this policy should be paid by the state or agency with whom the individual will be employed.
+The appointed Information Security Officer, and member of Risk Management, will review all pertinent information in reference to the individual for five years prior to the date of the original background application.
+- The state of Louisiana must comply with State laws, Privacy laws, Consumer Protection and Fair Credit Reporting Act (FCRA) Executive Laws and Orders, and Federal Regulatory Compliance requirements.
+- If an employee terminates or separates from the state, access to the state's information systems that include authenticators, attributes, and credentials associated with the employee must be revoked or disabled within two business days.
+- Reinvestigation of employee’s background should be at minimum within 10 years from the date of the previous investigation for anyone who has access to Restricted Data. Re-investigations will encompass the full 10-year period but be completed within five years.
+New Hire Background Check Language
+- When new positions become available that require access to FTI, the following statement shall be included in the job posting, “Prior to a new hire, a background check including criminal record history will be conducted. Information from the background check will not necessarily preclude employment but will be considered in determining the applicant’s suitability and competence to perform in the position.”
+Requirement to Comply with Investigation
+- Employees/individuals must comply with the investigation requirement as directed by their supervisor or, as a part of the onboarding process as justification for access to restricted data. Revocation of Restricted Data may result in reassignment or termination.
+- Employees who refuse to submit to the fingerprint background checks, or not fingerprinted during the allotted time, will face disciplinary action, up to and including termination.
+Results of Background Checks
+Results of background checks are to remain confidential, stored encrypted, and at rest on a secure drive. The results of an individual’s background check are confidential and must not be disclosed or discussed with anyone except decision makers in reference to the individual’s status of employment.
+Retention of Background Check Results
+The department must retain and store previous background check forms, result notifications, and information according to the department’s retention schedule or the Department’s Division Retention Schedule.
+Confidentiality of Records
+Except as otherwise required or expressly permitted by state or federal law, a criminal history obtained by either the agency or OTS, shall remain confidential and not disclosed to anyone, unless required by federal or state law. If an unauthorized disclosure occurs, (intentional or unintentional), it shall be reported to Human Resources immediately for proper action.
+- Anyone who discloses or uses background information other than its intended purpose may be subject to disciplinary action up to and including dismissal. Disclosures of individuals' background information that violate criminal laws may be sent to a prosecuting authority for further action.
+- Background check result documentation shall not be maintained as part of an employee’s personnel file but in a separate, confidential “background check file.”
+Employee Criminal Reporting Requirement
+- An employee with access to restricted data who is found guilty, or enters a plea of guilty of a crime after successfully completing their background check, must report his/her conviction to Human Resources. Human Resource shall work discretely with the Senior Information Security Officer from the Information Security Team or Information Compliance Team to discuss details of the incident with the employee.
+- Failure to report criminal convictions may result in disciplinary action.
+- The Department shall have the discretion on employee retention decisions based on the crime and circumstances of the underlying events leading to the guilty finding.
+Errors in Background Reporting
+If the result of a background check is returned to the Information Security Team with a mistake, unclear, or incorrect information, the employee may make a written request to the Information Security Team within five business days for a copy of the employee’s FBI criminal history record or county criminal court record for review and challenge if desired.
+- Upon receipt of such a written request, the IST can provide the employee with a copy of his/her FBI Criminal history record obtained based on positive fingerprint identification and/or county criminal court record obtained from a consumer-reporting agency.
+- Any individual who wishes to challenge the accuracy or completeness of his/her FBI criminal history record may send his/her challenge to the agency that contributed the questioned information to the FBI. Alternatively, they may send his/her challenge directly to the FBI. The FBI will then forward the challenge to the agency that contributed the questioned information and request the agency to verify or correct the challenged entry. Upon receipt of an official communication from the agency, the FBI will make any necessary changes/corrections to the record if required.
+- An employee who wishes to challenge the accuracy or completeness of his/her county criminal court history record may contact the reporting agency in the appropriate local judicial jurisdiction that provided the questioned information.
+- Upon receipt of a corrected criminal history record from the FBI and/or local jurisdiction, the Information Security Team will reevaluate the results to determine whether the employee may have access to Restricted Data, and generate a new letter with a cleared/not-cleared access to determination.
+Safeguarding Federal Tax Information
+Purpose
+This document clearly outlines the contract language required in a Third Party Agreement prior to sharing Federal Tax Information (FTI). The details must be directly included, without modification, in any Third Party Agreement prior to an Agency sharing Federal Tax Information. Including but not limited to contractors or vendors that perform maintenance, upgrades, or repairs on any of the state’s information systems or network which houses FTI data or which FTI data traverses.
+Downloading FTI files
+Only IRS approved software shall be used to download Federal Tax Information. Prior to installing and using software the proposed authorized software, it is required to check with the Information Compliance Team or Information Security Team prior to installing and using. The SDT server shall be kept hardened as fast and as quickly as possible.
+- Authorized software for downloading FTI must remain on a dedicated platform.
+- The internally hosted software's major release must remain supported by the vendor.
+- System patch levels must remain up to date.
+- Critical security patches must be applied as soon as released, but no later than 24 hours.
+- Procedures must be written for the use of the authorized software for IRS transmission.
+Deleting FTI files using Secure Delete Software
+Standard Operating Procedures (or equivalent document) must be created to ensure FTI is permanently deleted (including from the recycle bin) after being temporarily stored on the approved system when downloaded from the IRS Safe Data Transfer server. The files downloaded and stored on the states network, must be securely deleted within 30 days of downloading the files. Files must remain encrypted on the appropriate server using approved encryption methods.
+Reporting Information Spillage or Security Breaches
+Incidents that contain restricted data must follow the Incident Response Plan, The Incident Response Team will follow the Compliance Team as soon as possible and follow the procedures needed to notify TIGTA of any spillage or breach. Requirements for Information Spillage are as required:
+- Alerts agency officials of the information spill;
+- Isolates the contaminated information system or system component;
+- Follows proper sanitization procedures to remove the information from the contaminated information systems or component;
+- The Incident Response Team must be able to identify other information systems or system components that may have been contaminated for reporting to officials and TIGTA.
+Safeguarding Contract Language
+- The Contracts for the State of Louisiana includes Federal Tax Information State Contract Language direct from the Office of Safeguards. Language within the contract must not be modified in any way other than the agency or state department adding additional requirements required from the contractor for state or agency services.
+- Modifications to remove information from the language outlined below may cause the contract to become irrelevant and void contract services.
+- Agencies must include personnel security requirements in contracts. External providers may have personnel working at agency facilities with credentials, badges or system privileges.
+- Notifications of external personnel changes ensure appropriate termination of privileges and credentials.
+Louisiana State Confidentiality Contract Language
+All financial, statistical, personal, technical and other data and information relating to the state’s operation which are designated confidential by the State and which are made available to the Contractor in order to carry out the contract, or which becomes available to the Contractor in carrying out the contract, shall be protected by the Contractor from unauthorized use and disclosure through the observance of the same or more effective procedural requirements applicable to the State.
+In its handling of any returns of taxpayers or other records and files of the Department of Revenue, or information derived there from, the Contractor recognizes and acknowledges the confidential nature of said information, and shall comply with all the confidentiality restrictions embodied in La. R.S. 47:1508. Furthermore, the Contractor recognizes that La. R.S. 47:1508.1 imposes fines and/or imprisonment upon conviction for the disclosure of information in violation of La. R.S. 47:1508.
+The contractor shall disclose or make available said confidential information only to those of its employees, agents and representatives whose duties clearly justify the need to know or be exposed to such information, and then only on the basis of a clear understanding by said employees, agents and representatives of their obligation to maintain the confidential status of such information and to restrict its use in accordance with this contract.
+The Contractor agrees and assures that data, material, and information gathered based upon this contract or disclosed to the Contractor for the purpose of this contract will not be disclosed to other parties or discussed with other parties without the prior written consent of the State.
+Publication 1075 Safeguarding Contract Language
+I. PERFORMANCE
+In performance of this contract, the Contractor agrees to comply with and assume responsibility for compliance by officers or employees with the following requirements:
+(1) All work will be performed under the supervision of the contractor.
+(2) The contractor and contractor’s officers or employees to be authorized access to FTI must meet background check requirements defined in IRS Publication 1075. The contractor will maintain a list of officers or employees authorized access to FTI. Such list will be provided to the agency and, upon request, to the IRS.
+(3) FTI in hardcopy or electronic format shall be used only for the purpose of carrying out the provisions of this contract. FTI in any format shall be treated as confidential and shall not be divulged or made known in any manner to any person except as may be necessary in the performance of this contract. Inspection or disclosure of FTI to anyone other than the contractor or the contractor’s officers or employees authorized is prohibited.
+(4) FTI will be accounted for upon receipt and properly stored before, during, and after processing. In addition, any related output and products require the same level of protection as required for the source material.
+(5) The contractor will certify that FTI processed during the performance of this contract will be completely purged from all physical and electronic data storage with no output to be retained by the contractor at the time the work is completed. If immediate purging of physical and electronic data storage is not possible, the contractor will certify that any FTI in physical or electronic storage will remain safeguarded to prevent unauthorized disclosures.
+(6) Any spoilage or any intermediate hard copy printout that may result during the processing of FTI will be given to the agency. When this is not possible, the contractor will be responsible for the destruction of the spoilage or any intermediate hard copy printouts and will provide the agency with a statement containing the date of destruction, description of material destroyed, and the destruction method.
+(7) All computer systems receiving, processing, storing, or transmitting FTI must meet the requirements in IRS Publication 1075. To meet functional and assurance requirements, the security features of the environment must provide for the managerial, operational, and technical controls. All security features must be available and activated to protect against unauthorized use of and access to FTI.
+(8) No work involving FTI furnished under this contract will be subcontracted without the prior written approval of the IRS.
+(9) Contractor will ensure that the terms of FTI safeguards described herein are included, without modification, in any approved subcontract for work involving FTI.
+(10) To the extent the terms, provisions, duties, requirements, and obligations of this contract apply to performing services with FTI, the contractor shall assume toward the subcontractor all obligations, duties and responsibilities that the agency under this contract assumes toward the contractor, and the subcontractor shall assume toward the contractor all the same obligations, duties and responsibilities which the contractor assumes toward the agency under this contract.
+(11) In addition to the subcontractor’s obligations and duties under an approved subcontract, the terms and conditions of this contract apply to the subcontractor, and the subcontractor is bound and obligated to the contractor hereunder by the same terms and conditions by which the contractor is bound and obligated to the agency under this contract.
+(12) For purposes of this contract, the term “contractor” includes any officer or employee of the contractor with access to or who uses FTI, and the term “subcontractor” includes any officer or employee of the subcontractor with access to or who uses FTI.
+(13) The agency will have the right to void the contract if the contractor fails to meet the terms of FTI safeguards described herein.
+II. CRIMINAL/CIVIL SANCTIONS
+(1) Each officer or employee of a contractor to whom FTI is or may be disclosed shall be notified in writing that FTI disclosed to such officer or employee can be used only for a purpose and to the extent authorized herein, and that further disclosure of any FTI for a purpose not authorized herein constitutes a felony punishable upon conviction by a fine of as much as $5,000 or imprisonment for as long as 5 years, or both, together with the costs of prosecution.
+(2) Each officer or employee of a contractor to whom FTI is or may be accessible shall be notified in writing that FTI accessible to such officer or employee may be accessed only for a purpose and to the extent authorized herein, and that access/inspection of FTI without an official need-to-know for a purpose not authorized herein constitutes a criminal misdemeanor punishable upon conviction by a fine of as much as $1,000 or imprisonment for as long as 1 year, or both, together with the costs of prosecution.
+(3) Each officer or employee of a contractor to whom FTI is or may be disclosed shall be notified in writing that any such unauthorized access, inspection or disclosure of FTI may also result in an award of civil damages against the officer or employee in an amount equal to the sum of the greater of $1,000 for each unauthorized access, inspection, or disclosure, or the sum of actual damages sustained as a result of such unauthorized access, inspection, or disclosure, plus in the case of a willful unauthorized access, inspection, or disclosure or an unauthorized access/inspection or disclosure which is the result of gross negligence, punitive damages, plus the cost of the action. These penalties are prescribed by IRC sections 7213, 7213A and 7431 and set forth at 26 CFR 301.6103(n)-1.
+(3) Additionally, it is incumbent upon the contractor to inform its officers and employees of the penalties for improper disclosure imposed by the Privacy Act of 1974, 5 U.S.C. 552a. Specifically, 5 U.S.C. 552a(i)(1), which is made applicable to contractors by 5 U.S.C. 552a(m)(1), provides that any officer or employee of a contractor, who by virtue of his/her employment or official position, has possession of or access to agency records which contain individually identifiable information, the disclosure of which is prohibited by the Privacy Act or regulations established thereunder, and who knowing that disclosure of the specific material is so prohibited, willfully discloses the material in any manner to any person or agency not entitled to receive it, shall be guilty of a misdemeanor and fined not more than $5,000.
+(4) Granting a contractor access to FTI must be preceded by certifying that each officer or employee understands the agency’s security policy and procedures for safeguarding FTI. A contractor and each officer or employee must maintain their authorization to access FTI through annual recertification of their understanding of the agency’s security policy and procedures for safeguarding FTI. The initial certification and recertification must be documented and placed in the agency's files for review. As part of the certification and at least annually afterwards, a contractor and each officer or employee must be advised of the provisions of IRC sections 7213, 7213A, and 7431 (see Exhibit 4, Sanctions for Unauthorized Disclosure, and Exhibit 5, Civil Damages for Unauthorized Disclosure). The training on the agency’s security policy and procedures provided before the initial certification and annually thereafter must also cover the incident response policy and procedure for reporting unauthorized disclosures and data breaches. (See Section 10) For the initial certification and the annual recertification, the contractor and each officer or employee must sign, with either ink or electronic signature, a confidentiality statement certifying their understanding of the security requirements.
+III. INSPECTION
+The IRS and the Agency, with 24-hour notice, shall have the right to send its inspectors into the offices and plants of the contractor to inspect facilities and operations performing any work with FTI under this contract for compliance with requirements defined in IRS Publication 1075. The IRS’ right of inspection shall include the use of manual and/or automated scanning tools to perform compliance and vulnerability assessments of information technology (IT) assets that access, store, process or transmit FTI. Based on the inspection, corrective actions may be required in cases where the contractor is found to be noncompliant with FTI safeguard requirements.
+Chain of Custody
+The Chain of Custody appendix item will be hosted as a separate file within the OTS policy library on the Division of Administration’s public website.
+Owner
+Division of Administration, Office of Technology Services, Information Security
+Contact Information:
+OTS Information Security Team - [email protected]
+OTS Information Security Compliance Team – [email protected]
+OTS User Support - [email protected]
+
+## Curator notes
+
+Text taken from the Office of Technology Services' web page: the page title, its summary line and the body, one line per paragraph, heading, list item (marked '- ' or numbered, indented by depth) or table row (cells separated by ' | '). The site menus, banner, breadcrumb, footer and scripts removed; link addresses are not part of the text. Words are joined exactly as the page's HTML joins them (a link followed by a word with no space between them prints as one word), and an e-mail address the page hides behind Cloudflare prints as '[email protected]' in the page itself.
