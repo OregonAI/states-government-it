@@ -1,0 +1,91 @@
+                                     COMPLIANCE COMPONENT
+
+                                                       DEFINITION
+Name                   User Support
+                       User Support, often referred to as the Help Desk, is a designated organizational resource
+Description            that provides technical, functional, application and system problem-solving solutions to the
+                       agency.
+
+Rationale              Provides a common platform for fielding trouble calls.
+                       User support should:
+                          • Identify if a problem is security related
+Benefits                  • Initiate an appropriate response
+                          • Inform appropriate individuals
+
+                                       ASSOCIATED ARCHITECTURE LEVELS
+Specify the Domain Name         Security
+Specify the Discipline Name     Operational Controls
+Specify the Technology Area
+                                Production Input and Output Controls
+Name
+Specify the Product
+Component Name
+
+                                           COMPLIANCE COMPONENT TYPE
+Document the Compliance
+                                Guideline
+Component Type
+Component Sub-type
+
+                                                COMPLIANCE DETAIL
+                                In many agencies, User Support takes place through a Help Desk. Help Desks can
+                                support the entire agency, a division, a specific system, or a combination of these.
+
+                                The Help Desk is often the first line of defense in detecting and containing
+                                malicious computer attacks such as viruses, botnets and other unacceptable
+                                activities. Information sharing and notification to users, application and technical
+                                groups of strange activity, often originates at the user support level.
+
+State the Guideline, Standard   An important consideration for user support personnel is the ability to recognize
+or Legislation                  which problems are security related. The Help Desk must be able to determine if
+                                the problem is in some way related to a security issue and be prepared to respond
+                                to the issue immediately. They must also be able to recognize a more complicated
+                                situation that requires escalation to additional staff members.
+
+                                The Help Desk must employ a system to record calls or trouble tickets. The
+                                information gathered in both issue detail and resolution can provide valuable
+                                historic information.
+
+Document Source Reference #
+
+                                                 Compliance Sources
+                                National Institute of
+                                Standards and Technology
+Name                                                                Website        http://csrc.nist.gov/
+                                (NIST), Computer Security
+                                Resource Center (CSRC)
+Contact Information             inquiries@nist.gov
+Name                                                                Website
+Contact Information
+
+                                                        KEYWORDS
+List Keywords                   Help Desk, record calls, trouble tickets, resolution, historic information.
+
+                                            COMPONENT CLASSIFICATION
+Provide the Classification          Emerging                  Current                    Twilight             Sunset
+     Sunset Date
+
+                                         COMPONENT SUB-CLASSIFICATION
+ Sub-Classification          Date                          Additional Sub-Classification Information
+    Technology Watch
+    Variance
+    Conditional Use
+
+                                      Rationale for Component Classification
+Document the Rationale for
+Component Classification
+                                                     Migration Strategy
+Document the Migration
+Strategy
+                                               Impact Position Statement
+Document the Position
+Statement on Impact
+
+                                                     CURRENT STATUS
+Provide the Current Status          In Development            Under Review               Approved             Rejected
+
+                                                       AUDIT TRAIL
+Creation Date                   04/05/2007                    Date Approved / Rejected     11/20/07
+     Reason for Rejection
+Last Date Reviewed                                            Last Date Updated
+     Reason for Update

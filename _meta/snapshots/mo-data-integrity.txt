@@ -1,0 +1,38 @@
+                                             TECHNOLOGY AREA
+
+                                                        DEFINITION
+Name                     Data Integrity
+                         Data Integrity is the assurance that information is unchanged from its source, and has not
+Description              been accidentally or maliciously modified, altered or destroyed.
+                         Data integrity controls prevent, limit and deter authorized and unauthorized users from
+Rationale                deliberately or accidentally making erroneous modifications to or the destruction of
+                         sensitive and critical information.
+                              •   Data integrity controls provide assurance to the user the information meets
+Benefits                          expectations about its quality and integrity.
+
+                                          ASSOCIATED ARCHITECTURE LEVELS
+Specify the Domain Name           Security
+Specify the Discipline Name       Operational Controls
+
+                                                        KEYWORDS
+                                  Application, programming, software, system, reconciliation, verification, checksum,
+List Keywords
+                                  alteration
+
+                                      ASSOCIATED COMPLIANCE COMPONENTS
+List the Compliance
+                                  Data Integrity and Validation
+Component Names
+
+                                        ASSOCIATED PRODUCT COMPONENTS
+List the Product Component
+Names
+
+                                                      CURRENT STATUS
+Provide the Current Status           In Development         Under Review              Approved          Rejected
+
+                                                        AUDIT TRAIL
+Creation Date                     08/30/2007                      Date Approved / Rejected   10/16/07
+    Reason for Rejection
+Last Date Reviewed                                                Last Date Updated
+    Reason for Update

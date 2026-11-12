@@ -1,0 +1,128 @@
+                                              C
+                                              Coom
+                                                 mpplliiaannccee C
+                                                                 Coom
+                                                                    mppoonneenntt
+
+                                                   D
+                                                   DEEFFIIN
+                                                          NIITTIIO
+                                                                 ONN
+Name                   Incident Risk Level Awareness, Assessment and Countermeasures
+                       Actions to uniformly heighten or reduce defensive posture, to defend against
+                       computer network attacks, and to mitigate sustained damage to the State of
+                       Missouri information infrastructure, including computer and telecommunications
+Description
+                       networks and systems. This is a comprehensive defense posture and protocol
+                       based on the status of information systems, sustaining operations, and
+                       intelligence assessments of adversary capabilities and intent.
+                       Incidents impact all personnel who use State of Missouri information systems.
+                       Awareness, assessment, and countermeasures protect systems while supporting
+Rationale
+                       mission accomplishment, and coordinate the overall effort through adherence to
+                       guidelines.
+                       The State gains standard processes for assessing threats to the information
+                       infrastructure, and prescribes predictable responsive actions. When
+                       implemented consistently, each member of the State’s enterprise will have
+                       reasonable assurance that other members of the network present no greater
+                       vulnerability than the defined baseline standards.
+Benefits
+                       Provides an opportunity for the technology community to make senior
+                       management aware there is a constant battle to maintain network security, and
+                       that the entire State government is moving proactively to improve network
+                       assurance.
+                                  A
+                                  ASSSSO
+                                       OCCIIA
+                                            ATTEED
+                                                 DAARRC
+                                                      CHHIITTEEC
+                                                               CTTU
+                                                                  URREE LLEEVVEELLSS
+List the Domain Name            Security
+List the Discipline Name        Operational Controls
+List the Technology Area Name   Incident Response
+List the Product Component
+Name
+                                       C
+                                       COOM
+                                          MPPLLIIA
+                                                 ANNC
+                                                    CEE C
+                                                        COOM
+                                                           MPPO
+                                                              ONNEEN
+                                                                   NTT TTYYPPEE
+Document the Compliance
+                                Standard
+Component Type
+Component Sub-type
+                                              C
+                                              COOM
+                                                 MPPLLIIA
+                                                        ANNC
+                                                           CEE D
+                                                               DEETTA
+                                                                    AIILL
+State the Guideline, Standard   INFOCON (INFormation Operations CONdition) System for Missouri
+or Legislation                  State Agencies -- Nov 19, 2002
+Document Source Reference #     ITAB     or   http://www.oit.state.mo.us/
+                                               Standard Organization
+                                Information Technology                         http://www.oit.state.mo.us/ita
+Name                                                             Website
+                                Advisory Board (ITAB)                          b/itab.html
+Contact Information             Security Committee
+
+                                                  Government Body
+Name                           State of Missouri                   Website        http://www.oit.state.mo.us
+                               Office of Information Technology
+                               Room 560, 301 W. High
+Contact Information
+                               Jefferson City, MO 65101
+                               573.526.7741
+                                                    KKEEYYW
+                                                          WOORRD
+                                                               DSS
+                               INFOCON; countermeasure; incident reporting; intrusion detection;
+List all Keywords              exposure; vulnerability; attack; incident impacts; defense; threat; risk;
+                               alerts; risk level
+                                     C
+                                     COOM
+                                        MPPO
+                                           ONNEEN
+                                                NTT C
+                                                    CLLA
+                                                       ASSSSIIFFIIC
+                                                                  CAATTIIO
+                                                                         ONN
+Provide the Classification       Emerging                Current                Twilight         Sunset
+                                  Rationale for Component Classification
+                               Established by the State of Missouri Office of Information Technology
+Document the Rationale for     (OIT), with the consensus of the Missouri Office of Homeland Security
+Component Classification       (OHS), at the recommendation of the Information Technology Advisory
+                               Board (ITAB).
+                                        Conditional Use Restrictions
+Document the Conditional Use
+                               N/A
+Restrictions
+                                                  Migration Strategy
+Document the Migration
+                               N/A
+Strategy
+                                            Impact Position Statement
+Document the Position
+Statement on Impact
+                                              C
+                                              CUURRRREEN
+                                                       NTT SSTTA
+                                                               ATTU
+                                                                  USS
+Provide the Current Status)      In Development          Under Review           Approved         Rejected
+                                                   A
+                                                   AUUD
+                                                      DIITT TTRRA
+                                                                AIILL
+Creation Date                  12-19-2002                   Date Accepted / Rejected       01-21-2003
+     Reason for Rejection
+Last Date Reviewed                                          Last Date Updated
+     Reason for Update

@@ -1,0 +1,91 @@
+                                     COMPLIANCE COMPONENT
+
+                                                      DEFINITION
+Name                   Securing Web Browsers
+                       Securing Web Browsers refers to configuring the user interface to the World Wide Web in
+Description            order to minimize vulnerabilities and exposure from external threats.
+                       This document does not address securing the internal use of web browsers (Intranets).
+                       Securely configuring Web Browsers reduces risks to the agency network when accessing
+Rationale
+                       information on the World Wide Web.
+                           Protects the confidentiality, integrity and availability of the agency data and network
+Benefits                   Prevents the downloading of unauthorized software
+                           Provides options to preserve privacy
+
+                                       ASSOCIATED ARCHITECTURE LEVELS
+Specify the Domain Name         Security
+Specify the Discipline Name     Technical Controls
+Specify the Technology Area
+                                Remote Access Controls
+Name
+Specify the Product
+Component Name
+
+                                           COMPLIANCE COMPONENT TYPE
+Document the Compliance
+                                Guideline
+Component Type
+Component Sub-type
+
+                                                COMPLIANCE DETAIL
+                                Web Browsers must have the capability to configure the following options under
+                                the control of an administrator:
+                                       Manage pop-ups
+                                             o Filter advertisements
+                                       Manage ActiveX (with applicable browers)
+                                       Manage scripts
+                                       Manage plugins
+State the Guideline, Standard
+                                       Filter by content and zone
+or Legislation
+                                       Manage automatic installation of security updates
+                                       Manage cookies
+                                       Manage Browser History
+                                       Manage the cache
+                                       Manage certificates
+                                       Manage SSL (Secured Sockets Layer)
+                                       Manage password retention
+
+Document Source Reference #
+
+                                                 Compliance Sources
+
+Name                            Securing your Web Browser           Website        http://www.cert.org/tech_tips/securi
+                                US CERT                                            ng_browser/
+Contact Information
+                                National Institute for
+Name                                                                Website        http://csrc.nist.gov/publications
+                                Standards and Technology
+Contact Information
+
+                                                        KEYWORDS
+List Keywords                   Surf, browse, Internet Explorer, IE, Safari, Chrome, Opera, Firefox, SSL, ActiveX,
+
+                                             COMPONENT CLASSIFICATION
+Provide the Classification          Emerging                  Current                    Twilight            Sunset
+     Sunset Date
+
+                                           COMPONENT SUB-CLASSIFICATION
+ Sub-Classification          Date                          Additional Sub-Classification Information
+    Technology Watch
+    Variance
+    Conditional Use
+
+                                      Rationale for Component Classification
+Document the Rationale for
+Component Classification
+                                                     Migration Strategy
+Document the Migration
+Strategy
+                                               Impact Position Statement
+Document the Position
+Statement on Impact
+
+                                                     CURRENT STATUS
+Provide the Current Status          In Development            Under Review               Approved           Rejected
+
+                                                       AUDIT TRAIL
+Creation Date                                                 Date Approved / Rejected     12/13/2011
+     Reason for Rejection
+Last Date Reviewed              12/13/2011                    Last Date Updated            11/10/2011
+     Reason for Update          Vitality

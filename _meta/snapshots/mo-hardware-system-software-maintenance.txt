@@ -1,0 +1,88 @@
+                                                   TTeecchhnnoollooggyy A
+                                                                        Arreeaa
+
+                                                      D
+                                                      DEEFFIIN
+                                                             NIITTIIO
+                                                                    ONN
+Name                       Hardware and System Software Maintenance
+                           Hardware and System Software Maintenance controls are used to monitor the
+                           installation of, configuration and updates to, hardware and software to ensure
+Description                that the system functions as expected and that a historical record is
+                           maintained of changes.
+                           Implementing hardware and system software maintenance controls
+Rationale                  contributes to systems functioning as intended, in a secure manner.
+                              •   Establishes a change management system and managerial approval to
+                                  document:
+                                        o    Who will perform maintenance and repair activities
+                                        o    Who performed maintenance and repair activities
+                                        o    When maintenance and repair will be preformed
+                                        o    Procedures for performance of emergency repair and
+Benefits                                     maintenance
+                                        o    The monitoring of installations and updates to hardware and
+                                             software
+                                        o    Prevents unexpected changes that may cause security breaches
+
+                              •   Establishes management of hardware and system software warranties
+                                  and upgrade policies
+
+                                      A
+                                      ASSSSO
+                                           OCCIIA
+                                                ATTEED
+                                                     DAARRC
+                                                          CHHIITTEEC
+                                                                   CTTU
+                                                                      URREE LLEEVVEELLSS
+List the Domain Name              Security
+List the Discipline Name          Operational Controls
+                                        Associated Compliance Components
+                                  •    Configuration Management
+List the Compliance
+                                  •    Change/Configuration Management Discipline, Systems
+Component Names
+                                       Management Domain
+                                            Associated Product Components
+List the Product Component
+Names
+                                            TTEEC
+                                                CHHN
+                                                   NOOLLO
+                                                        OGGYY A
+                                                              ARREEA
+                                                                   ADDEETTA
+                                                                          AIILL
+                                  NIST SP 800-100
+Supporting Documentation
+                                  FIPS 200
+Document Source Reference #       www.csrc.nist.gov/publications/nistpubs
+
+                              Standard Organization / Government Body
+                             National Institute of
+                             Standards and Technology
+Name                         (NIST), Computer                 Website           http://csrc.nist.gov/
+                             Security Resource Center
+                             (CSRC)
+Contact Information          inquiries@nist.gov
+Name                                                          Website
+Contact Information
+                                                 KKEEYYW
+                                                       WOORRD
+                                                            DSS
+                             Controls, configuration, installation, updates, historical records, logs,
+List Keywords
+                             warranties,
+                                           C
+                                           CUURRRREEN
+                                                    NTT SSTTA
+                                                            ATTU
+                                                               USS
+Provide the Current Status     In Development         Under Review             Approved       Rejected
+                                                A
+                                                AUUD
+                                                   DIITT TTRRA
+                                                             AIILL
+Creation Date                03/08/07                      Date Accepted / Rejected       11/20/07
+    Reason for Rejection
+Last Date Reviewed                                         Last Date Updated
+    Reason for Update

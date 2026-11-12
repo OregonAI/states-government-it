@@ -1,0 +1,100 @@
+                                                  TTeecchhnnoollooggyy A
+                                                                       Arreeaa
+
+                                                     D
+                                                     DEEFFIIN
+                                                            NIITTIIO
+                                                                   ONN
+Name                       Cryptography
+                           Cryptography transforms data into a secured format. It is a critical tool for
+                           protecting information and is used to provide many security services, such as
+                           keeping data secret, enabling digital signatures, and ensuring that data has
+                           not been modified.
+Description
+                           Cryptography both depends on and supports other security controls, including
+                           physical security, identification and authentication, logical access controls, and
+                           audit trails.
+                           Data needs special protection if it is sensitive, has a high value, or is
+                           vulnerable to unauthorized disclosure or undetected modification.
+Rationale
+                           Cryptographic methods protect against intentional or accidental compromise
+                           and alteration of data.
+                           • Protects data confidentiality.
+                           • Protects data integrity.
+Benefits
+                           • Enables authentication of user identity.
+                           • Protects data during transmission and in storage.
+                                     A
+                                     ASSSSO
+                                          OCCIIA
+                                               ATTEED
+                                                    DAARRC
+                                                         CHHIITTEEC
+                                                                  CTTU
+                                                                     URREE LLEEVVEELLSS
+List the Domain Name             Security
+List the Discipline Name         Technical Controls
+                                       Associated Compliance Components
+                                 •    Secret Key Cryptography
+                                 •    Public Key Infrastructure
+                                 •    Hashing
+                                 •    Crytography Design/Implementation
+                                         o Hardware vs. Software Encryption
+                                         o Encryption Key Management
+List the Compliance
+                                 •    Cryptography Uses
+Component Names
+                                         o Digital Signature
+                                         o Cryptography for Stored Data
+                                         o Cryptography for VPN
+                                         o Cryptography for Email
+                                         o Cryptography for Wireless
+                                         o Cryptography for Web Servers
+                                         Associated Product Components
+List the Product Component       •    Entrust Secure Messaging Solution
+Names                            •    VeriSign Digital Certificates
+                                          TTEEC
+                                              CHHN
+                                                 NOOLLO
+                                                      OGGYY A
+                                                            ARREEA
+                                                                 ADDEETTA
+                                                                        AIILL
+                                 NIST SP 800-14, Generally Accepted Principles and Practices for
+                                 Securing Information Technology Systems, NIST SP 800-21, Guideline
+Supporting Documentation
+                                 for Implementing Cryptography in the Federal Government, FIPS 140-2,
+                                 Security Requirements for Cryptographic Modules
+
+Document Source Reference #   www.csrc.nist.gov/publications/nistpubs
+                               Standard Organization / Government Body
+                              National Institute of
+                              Standards and Technology
+Name                          (NIST), Computer                 Website           http://csrc.nist.gov/
+                              Security Resource Center
+                              (CSRC)
+Contact Information           inquiries@nist.gov
+Name                                                           Website
+Contact Information
+                                                  KKEEYYW
+                                                        WOORRD
+                                                             DSS
+                              PKI, encryption, digital certificate, AES, DES, Skipjack, block cipher,
+                              DSA, RSA, ECDSA, digital signature, SHA-1, SHA-256, SHA-384, SHA-
+List Keywords
+                              512, public key, secret key, symmetric key, asymmetric key, PRING,
+                              random number generator, DAC, MAC, HMAC
+                                            C
+                                            CUURRRREEN
+                                                     NTT SSTTA
+                                                             ATTU
+                                                                USS
+Provide the Current Status      In Development         Under Review             Approved       Rejected
+                                                 A
+                                                 AUUD
+                                                    DIITT TTRRA
+                                                              AIILL
+Creation Date                 04/13/2004                    Date Accepted / Rejected       4/13/04
+    Reason for Rejection
+Last Date Reviewed                                          Last Date Updated
+    Reason for Update

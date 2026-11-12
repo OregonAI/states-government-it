@@ -1,0 +1,35 @@
+                                              TECHNOLOGY AREA
+
+                                                         DEFINITION
+Name                       Review of Security Controls
+                           The review of Security Controls is the routine evaluation and response to identified
+Description
+                           vulnerabilities within systems or applications.
+                           The review of Security Controls is a critical component of an agency’s security plan that
+Rationale
+                           allows an agency to improve its security posture.
+                               • Highlights any new vulnerabilities and allows an agency the opportunity to
+                                   mitigate them before they are exploited
+Benefits
+                               •   Provides assurance that the controls in place are adequate
+
+                                          ASSOCIATED ARCHITECTURE LEVELS
+Specify the Domain Name            Security
+Specify the Discipline Name        Management Controls
+
+                                                         KEYWORDS
+List Keywords                      Scanning, vulnerability, hacking, log, wireless, penetration, audit
+
+                                       ASSOCIATED COMPLIANCE COMPONENTS
+List the Compliance
+                                   Security Testing
+Component Names
+
+                                                       CURRENT STATUS
+Provide the Current Status            In Development          Under Review           Approved            Rejected
+
+                                                         AUDIT TRAIL
+Creation Date                      04/05/2007                    Date Approved / Rejected   04/26/2018
+    Reason for Rejection
+Last Date Reviewed                 04/26/2018                    Last Date Updated          04/26/2018
+    Reason for Update              Vitality

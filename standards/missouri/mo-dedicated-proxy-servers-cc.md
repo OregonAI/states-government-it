@@ -1,0 +1,206 @@
+---
+schema_version: 1
+corpus: states-government-it
+jurisdiction: missouri
+id: mo-dedicated-proxy-servers-cc
+title: Dedicated Proxy Servers
+doc_type: standard
+citation: 'Security Domain Compliance Component: Dedicated Proxy Servers'
+authority_level: ''
+issuing_body: Office of Administration, Information Technology Services Division
+source_url: https://itsd.oa.mo.gov/sites/g/files/zuston256/files/media/pdf/2025/04/CC-FirewallsDedicatedProxyServersARC.pdf
+source_format: pdf
+retrieved: '2026-11-12'
+source_sha256: ab05fdeeea0955a4b286a72a54b3b956c1d7e362287f4ee309646de28514371f
+effective_date: null
+source_version: ''
+status: current
+content_mode: verbatim
+conversion_notes: Text extracted with pdftotext -layout (page headers, footers and column layout kept
+  as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their
+  letters).
+last_verified: ''
+verified_by: ''
+maintainer: ''
+relationships:
+  implements: []
+  implemented_by: []
+  references_external: []
+  related: []
+  supersedes: []
+tags:
+- cybersecurity
+---
+
+> **NON-AUTHORITATIVE.** This is a convenience copy for machine reading. The official text is published at the source URL above. Verify at source before relying on it.
+
+# Dedicated Proxy Servers (Security Domain Compliance Component: Dedicated Proxy Servers)
+
+## At a glance
+
+Row 'Dedicated Proxy Servers' of the Security Domain's Approved Standards page (https://itsd.oa.mo.gov/it-governance/enterprise-architecture/security-domain/approved-standards-security-domain), the statewide IT security standards library of ITSD's enterprise architecture. Its viewer page is https://itsd.oa.mo.gov/media/pdf/dedicated-proxy-servers-cc; the PDF address is the file that viewer page embeds. A 'Compliance Component' document of the Security Domain framework. Printed status (read by rendering the PDF page, because the check boxes are drawn marks with no text layer) is classification Current and status Approved, with Date Approved / Rejected 06/08/2004. The index lists it as an approved standard.
+
+## Full text
+
+                                             C
+                                             Coom
+                                                mpplliiaannccee C
+                                                                Coom
+                                                                   mppoonneenntt
+
+                                                    D
+                                                    DEEFFIIN
+                                                           NIITTIIO
+                                                                  ONN
+Name                   Dedicated Proxy Servers
+
+                       A Dedicated Proxy Server performs filtering or logging operations on inbound
+                       traffic and then forwards it to internal systems. A Dedicated Proxy Server could
+                       also accept outbound traffic directly from internal systems, filter or log the
+Description
+                       traffic, and then pass it to the firewall for outbound delivery.
+                       Dedicated Proxy Servers differ from Application-Proxy Gateway Firewalls in that
+                       they retain proxy control of traffic but they do not provide firewall capability.
+Rationale              Dedicated Proxy Servers add to defense in depth when used with a firewall.
+
+                       •   Decrease the work load on the firewall.
+                       •   Perform specialized filtering. An organization can restrict outbound traffic
+                           to certain locations, examine all outbound email for viruses, or restrict
+Benefits                   internal users from writing to the DMZ.
+                       •   Allow an organization to enforce user authentication requirements.
+                       •   Perform specialized logging.
+                       •   Assist in foiling internally based attacks or malicious behavior.
+                                    A
+                                    ASSSSO
+                                         OCCIIA
+                                              ATTEED
+                                                   DAARRC
+                                                        CHHIITTEEC
+                                                                 CTTU
+                                                                    URREE LLEEVVEELLSS
+List the Domain Name            Security
+List the Discipline Name        Technical Controls
+List the Technology Area Name   Secure Gateways and Firewalls
+List Product Component Name
+                                      C
+                                      COOM
+                                         MPPLLIIA
+                                                ANNC
+                                                   CEE C
+                                                       COOM
+                                                          MPPO
+                                                             ONNEEN
+                                                                  NTT TTYYPPEE
+Document the Compliance
+                                Guideline
+Component Type
+Component Sub-type
+                                              C
+                                              COOM
+                                                 MPPLLIIA
+                                                        ANNC
+                                                           CEE D
+                                                               DEETTA
+                                                                    AIILL
+                                •    Dedicated Proxy Servers shall be deployed behind traditional firewall
+                                     platforms.
+                                         o   A traditional firewall shall hand off the inbound traffic to the
+                                             appropriate proxy server.
+State the Guideline, Standard
+or Legislation                           o   A proxy server may be set up to accept outbound traffic
+                                             directly from internal systems and pass it to the firewall for
+                                             outbound delivery.
+                                •    The proxy server shall be capable of performing filtering operations
+                                     on all traffic before forwarding it.
+
+                              •   The proxy server shall be capable of performing logging operations
+                                  on all traffic.
+
+                              •   The proxy server shall have the ability to require authentication of
+                                  each individual network user. This user authentication may take one
+                                  or more of the following forms, depending on data or information
+                                  sensitivity:
+                                     o   User ID and Password Authentication
+                                     o   Hardware or Software Token Authentication
+                                     o   Biometric Authentication
+                              •   Dedicated Proxy Servers should perform web and email content
+                                  scanning, including but not limited to the following:
+                                     o   Java applet or application filtering (signed versus unsigned or
+                                         universal)
+                                     o   ActiveX control filtering (signed versus unsigned or universal)
+                                     o   JavaScript filtering
+                                     o   Blocking specific Multipurpose Internet Multimedia Extensions
+                                         (MIME) types
+                                     o   Virus scanning and removal
+                                     o   Macro virus scanning, filtering, and removal
+                                     o   Application-specific commands, for example, blocking the
+                                         HTTP delete command
+                                     o   User-specific controls, including blocking certain content
+                                         types for certain users
+                                     Note: This is not a recommendation to enable blocking of active
+                                     web content, but the proxy server should be capable of blocking
+                                     it if necessary. The decision to block active content, excluding
+                                     viruses, should be weighed carefully, as blocking active content
+                                     will render many websites unusable or difficult to use.
+                                     Organizations should not rely solely on the proxy server to
+                                     remove the above content.
+Document Source Reference #
+                                          Standard Organization
+                              NIST SP 800-41,
+                                                                        www.csrc.nist.gov/publications/
+Name                          Guideline for Firewalls and   Website
+                                                                        nistpubs
+                              Firewall Policy
+Contact Information
+                                             Government Body
+                              National Institute of
+Name                          Standards and Technology      Website     http://csrc.nist.gov/
+                              (NIST)
+Contact Information
+
+                                                    KKEEYYW
+                                                          WOORRD
+                                                               DSS
+                               Application-Proxy Firewall, proxy agent, block, packets, deny, ports,
+List all Keywords              protocols, logging, attacks, application layer, OSI, HTTP, ActiveX, Java,
+                               MIME, authentication, email, filtering, gateway
+                                     C
+                                     COOM
+                                        MPPO
+                                           ONNEEN
+                                                NTT C
+                                                    CLLA
+                                                       ASSSSIIFFIIC
+                                                                  CAATTIIO
+                                                                         ONN
+Provide the Classification       Emerging                Current                Twilight         Sunset
+                                  Rationale for Component Classification
+Document the Rationale for
+Component Classification
+                                        Conditional Use Restrictions
+Document the Conditional Use
+Restrictions
+                                                  Migration Strategy
+Document the Migration
+Strategy
+                                            Impact Position Statement
+Document the Position
+Statement on Impact
+                                              C
+                                              CUURRRREEN
+                                                       NTT SSTTA
+                                                               ATTU
+                                                                  USS
+Provide the Current Status)      In Development          Under Review           Approved         Rejected
+                                                   A
+                                                   AUUD
+                                                      DIITT TTRRA
+                                                                AIILL
+Creation Date                  06/08/2004                   Date Accepted / Rejected       06/08/2004
+     Reason for Rejection
+Last Date Reviewed                                          Last Date Updated
+     Reason for Update
+
+## Curator notes
+
+Text extracted with pdftotext -layout (page headers, footers and column layout kept as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their letters).

@@ -1,0 +1,40 @@
+                                          TECHNOLOGY AREA
+
+                                                      DEFINITION
+Name                    Remote Access Controls
+                        Remote Access Controls are a means of securely handling interactions between an
+Description             agency’s systems and remote users, systems and services.
+                        Remote access presents a unique set of vulnerabilities that require additional security
+Rationale               controls due to a different operational environment. Agencies must implement Remote
+                        Access Controls based on existing security policies and procedures.
+                        • Expands secure availability of state resources
+                        • Prevent unauthorized access
+Benefits                • Ensure authentication of users and systems
+                        • Ensure confidentiality of data
+                        • Ensure data integrity
+
+                                      ASSOCIATED ARCHITECTURE LEVELS
+Specify the Domain Name        Security
+Specify the Discipline Name    Technical Controls
+
+                                                      KEYWORDS
+List Keywords
+
+                                   ASSOCIATED COMPLIANCE COMPONENTS
+                               •    Security for Voice Over IP (VOIP)
+List the Compliance            •    Securing Web Browsers
+Component Names                •    Securing Remote Computers and Connections
+                               •    Virtual Private Networks (VPN)
+
+                                     ASSOCIATED PRODUCT COMPONENTS
+List the Product Component
+Names
+
+                                                    CURRENT STATUS
+Provide the Current Status         In Development         Under Review           Approved            Rejected
+
+                                                      AUDIT TRAIL
+Creation Date                                                Date Approved / Rejected   04/18/2019
+    Reason for Rejection
+Last Date Reviewed             02/27/2019                    Last Date Updated          03/21/2006
+    Reason for Update          Vitality

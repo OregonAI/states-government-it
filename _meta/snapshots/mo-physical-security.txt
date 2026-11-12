@@ -1,0 +1,79 @@
+                                                  TTeecchhnnoollooggyy A
+                                                                       Arreeaa
+
+                                                     D
+                                                     DEEFFIIN
+                                                            NIITTIIO
+                                                                   ONN
+Name                       Physical Security
+                           Physical Security is the application of physical barriers and control procedures
+Description                as preventive measures or countermeasures against threats to resources and
+                           sensitive information.
+                           Physical Security reduces the exposure of assets to physical perils. They are
+                           implemented to protect the system resources themselves, the facility housing
+Rationale                  the system resources, and the facilities used to support their operation (such
+                           as wiring, backup media, and electric power).
+                           Prevents:
+                           • Physical damage to assets
+                           • Interruptions in information technology services
+Benefits                   • Unauthorized disclosure of information
+                           • Corruption of system integrity
+                           • Theft
+
+                                     A
+                                     ASSSSO
+                                          OCCIIA
+                                               ATTEED
+                                                    DAARRC
+                                                         CHHIITTEEC
+                                                                  CTTU
+                                                                     URREE LLEEVVEELLSS
+List the Domain Name             Security
+List the Discipline Name         Operational Controls
+                                       Associated Compliance Components
+List the Compliance              •    Physical and Environmental Security Controls
+Component Names
+                                         Associated Product Components
+List the Product Component
+Names
+                                          TTEEC
+                                              CHHN
+                                                 NOOLLO
+                                                      OGGYY A
+                                                            ARREEA
+                                                                 ADDEETTA
+                                                                        AIILL
+                                 NIST (SP) 800-14 Generally Accepted Principles and Practices for
+Supporting Documentation
+                                 Securing Information Technology
+Document Source Reference #      www.csrc.nist.gov/publications/nistpubs
+                                     Standard Organization / Government Body
+                                 National Institute of
+                                 Standards and Technology
+Name                             (NIST), Computer                  Website        http://csrc.nist.gov/
+                                 Security Resource Center
+                                 (CSRC)
+Contact Information              inquiries@nist.gov
+Name                                                               Website
+Contact Information
+
+                                                 KKEEYYW
+                                                       WOORRD
+                                                            DSS
+                             Storage, power, utilities, fire, flood, natural disaster, generator, UPS,
+List Keywords
+                             keycard, Sonitrol, biometrics.
+                                           C
+                                           CUURRRREEN
+                                                    NTT SSTTA
+                                                            ATTU
+                                                               USS
+Provide the Current Status     In Development         Under Review             Approved       Rejected
+                                                A
+                                                AUUD
+                                                   DIITT TTRRA
+                                                             AIILL
+Creation Date                05/25/06                      Date Accepted / Rejected       06/13/06
+    Reason for Rejection
+Last Date Reviewed                                         Last Date Updated
+    Reason for Update

@@ -1,0 +1,60 @@
+                                            TECHNOLOGY AREA
+
+                                                      DEFINITION
+Name                    Identification and Authentication
+                        Identification and Authentication is a technical measure that prevents
+                        unauthorized people (or unauthorized processes) from accessing an IT
+                        system.
+
+                        Identification is a unique way of identifying each individual user or process
+                        (e.g., a unique user name or ID).
+Description
+                        Authentication is the mechanism that verifies that an individual is who they claim to be.
+                        Verification is based on one or more of the following:
+                                 • Something known (e.g., a password or pin);
+                                 • Something carried (e.g., a smart card or a token);
+                                 • Something the individual is (e.g., biometrics – like a fingerprint).
+
+                        State agencies have the responsibility of protecting confidential data and information
+                        systems. Identification and Authentication are the first lines of defense to protect
+                        enterprise system assets from unauthorized access, destruction or theft.
+
+                        Hardware platforms, operating systems, application-specific constraints, and overall
+                        financial or confidentiality risk are factors that influence the need for identification and
+Rationale               authentication controls.
+
+                        System and application developers are responsible for designing strong authentication
+                        into the systems they build, and individual users are responsible for assisting in the
+                        protection of the systems they use.
+
+                        •     Identification and authentication helps prevent unauthorized persons from entering
+                              enterprise IT systems. If identification and authentication are not handled correctly,
+                              they are the weakest link in the protection of enterprise systems and data.
+Benefits
+                        •     Identification and authentication provides user accountability and auditable trails of
+                              user access.
+
+                                        ASSOCIATED ARCHITECTURE LEVELS
+Specify the Domain Name          Security
+Specify the Discipline Name      Technical Controls
+
+                                                      KEYWORDS
+                                 Passwords, password controls, digital signatures, access controls, access cards,
+List Keywords                    smart cards, tokens, biometrics, user name, user ID, PIN, logon ID, 2FA
+
+                                 ASSOCIATED COMPLIANCE COMPONENTS
+List the Compliance          •    Password Controls
+Component Names              •    Access Controls
+
+                                   ASSOCIATED PRODUCT COMPONENTS
+List the Product Component
+Names
+
+                                                  CURRENT STATUS
+Provide the Current Status       In Development         Under Review           Approved           Rejected
+
+                                                    AUDIT TRAIL
+Creation Date                02/13/2003                    Date Approved / Rejected   4/18/2019
+    Reason for Rejection
+Last Date Reviewed           2/27/2019                     Last Date Updated
+    Reason for Update

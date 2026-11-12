@@ -1,0 +1,82 @@
+                                               TECHNOLOGY AREA
+
+                                                        DEFINITION
+Name                  System Life Cycle Security
+                      System Life Cycle Security is a methodology for addressing security in an information
+                      system through the following phases:
+                      •       Initiation Phase
+                      •       Acquisition and Development Phase
+Description           •       Implementation Phase
+                      •       Operation and Maintenance Phase (Enterprise Patch Management)
+                      •       Disposal Phase
+
+                      An information system refers to hardware, software, computer system connections and
+                      information, and the system’s housing.
+                      Security vulnerabilities can occur during any phase of the system life cycle process.
+Rationale             Addressing security in every phase gives an agency confidence that the system will function
+                      with a minimum of risk.
+                      System Security Life Cycle is important for the following reasons:
+
+                      •       System security is easier to achieve when security issues are considered as a part of a
+                              routine planning, development and implementation process, and security safeguards
+                              are integrated into the system during its design.
+Benefits
+                      •       Integrating security into an information system is generally less expensive than
+                              retrofitting security.
+                      •       When security safeguards are integral to a system, they are usually easier to use.
+
+                      •       Addresses critical business risk throughout the system life cycle.
+
+                                          ASSOCIATED ARCHITECTURE LEVELS
+Specify the Domain Name            Security
+Specify the Discipline Name        Management Controls
+Specify the Technology Area
+Name
+Specify the Product
+Component Name
+
+                                              COMPLIANCE COMPONENT TYPE
+Document the Compliance
+                                   Guideline
+Component Type
+Component Sub-type
+
+                                                COMPLIANCE DETAIL
+                                   NIST SP 800-12 Rev. 1, NIST SP 800-53 Rev. 5, NIST SP 800-37 Rev. 1, NIST
+Document Source Reference #
+                                   SP 800-39
+
+                                               Compliance Sources
+                             National Institute of
+                             Standards and Technology
+                                                                                  https://csrc.nist.gov/
+Name                         (NIST), Computer Security             Website
+                             Resource Center (CSRC)
+
+Contact Information          inquiries@nist.gov
+                                                                                  https://www.owasp.org/index.php/M
+                             Open Web Application Security
+Name                         Project(OWASP)                        Website        ain_Page
+
+                             https://www.owasp.org/index.php/Main_Page
+Contact Information
+
+                                                     KEYWORDS
+                             System Life Cycle, vulnerabilities, remediation, maintenance, monitor,
+                             management, procedures, planning, evaluate, certification,
+List Keywords
+                             accreditation, requirements, SDLC, risk, policy, assurance, cost, impact,
+                             performance.
+
+                                         COMPONENT CLASSIFICATION
+Provide the Classification      Emerging                     Current                    Twilight           Sunset
+     Sunset Date
+
+                                                 CURRENT STATUS
+Provide the Current Status      In Development               Under Review               Approved           Rejected
+
+                                                    AUDIT TRAIL
+Creation Date                09/07/06                        Date Approved / Rejected     02/13/2025
+     Reason for Rejection
+Last Date Reviewed           01/28/2025                      Last Date Updated            02/13/2025
+     Reason for Update       Vitality

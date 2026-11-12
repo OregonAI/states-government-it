@@ -1,0 +1,271 @@
+---
+schema_version: 1
+corpus: states-government-it
+jurisdiction: missouri
+id: mo-criteria-wireless-cc
+title: Criteria for Wireless
+doc_type: standard
+citation: 'Security Domain Compliance Component: Criteria for Wireless'
+authority_level: ''
+issuing_body: Office of Administration, Information Technology Services Division
+source_url: https://itsd.oa.mo.gov/sites/g/files/zuston256/files/media/pdf/2025/04/CC-VirusDetectionforWirelessCriteria020603.pdf
+source_format: pdf
+retrieved: '2026-11-12'
+source_sha256: d455bb7e62201794ec69da341eac5c86321c0af6760ed35c328528d1108dcc81
+effective_date: null
+source_version: ''
+status: current
+content_mode: verbatim
+conversion_notes: Text extracted with pdftotext -layout (page headers, footers and column layout kept
+  as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their
+  letters).
+last_verified: ''
+verified_by: ''
+maintainer: ''
+relationships:
+  implements: []
+  implemented_by: []
+  references_external: []
+  related: []
+  supersedes: []
+tags:
+- cybersecurity
+---
+
+> **NON-AUTHORITATIVE.** This is a convenience copy for machine reading. The official text is published at the source URL above. Verify at source before relying on it.
+
+# Criteria for Wireless (Security Domain Compliance Component: Criteria for Wireless)
+
+## At a glance
+
+Row 'Criteria for Wireless' of the Security Domain's Approved Standards page (https://itsd.oa.mo.gov/it-governance/enterprise-architecture/security-domain/approved-standards-security-domain), the statewide IT security standards library of ITSD's enterprise architecture. Its viewer page is https://itsd.oa.mo.gov/media/pdf/criteria-wireless-cc; the PDF address is the file that viewer page embeds. A 'Compliance Component' document of the Security Domain framework. Printed status (read by rendering the PDF page, because the check boxes are drawn marks with no text layer) is classification Emerging and status Approved, with Date Approved / Rejected 02-27-2003. The index lists it as an approved standard.
+
+## Full text
+
+                                            C
+                                            Coom
+                                               mpplliiaannccee C
+                                                               Coom
+                                                                  mppoonneenntt
+
+                                                  D
+                                                  DEEFFIIN
+                                                         NIITTIIO
+                                                                ONN
+Name                   Virus Detection and Elimination Criteria for Wireless Devices
+                       To make available to the State of Missouri Enterprise a set of minimum criteria
+                       for the selection of anti-virus software and products for security protection of
+                       Wireless Devices (e.g. PDAs) which connect directly (via a wireless adapter) or
+                       connect indirectly (via a cradle) to Missouri’s computer networks.
+Description
+                       All Wireless Devices used within the State of Missouri computer environments
+                       that are directly or indirectly connected to enterprise networks or computers
+                       shall execute an anti-virus security product that conforms to a minimum set of
+                       compliance criteria. These criteria shall serve as a checklist to help
+                       administrators choose the appropriate anti-virus solution for their environment.
+                       When using wireless devices there is a major security gap, as server and
+Rationale              workstation anti-virus applications can’t protect from a virus being introduced
+                       during a sync operation with the wireless device.
+                       To significantly improve wireless device trust and security through a set of
+                       criteria for the following security services:
+                           1. Protection to workstation computer systems and servers from computer
+Benefits                       virus intrusion transmitted via wireless devices.
+                           2. Detection and protection computer viruses on an wireless handheld
+                               system.
+                           3. Wireless handheld device recovery from a computer virus infection.
+                                  A
+                                  ASSSSO
+                                       OCCIIA
+                                            ATTEED
+                                                 DAARRC
+                                                      CHHIITTEEC
+                                                               CTTU
+                                                                  URREE LLEEVVEELLSS
+List the Domain Name            Security
+List the Discipline Name        Technical Controls
+List the Technology Area Name   Virus Detection and Elimination
+List Product Component Name
+                                     C
+                                     COOM
+                                        MPPLLIIA
+                                               ANNC
+                                                  CEE C
+                                                      COOM
+                                                         MPPO
+                                                            ONNEEN
+                                                                 NTT TTYYPPEE
+Document the Compliance
+                                Guideline
+Component Type
+Component Sub-type
+                                            C
+                                            COOM
+                                               MPPLLIIA
+                                                      ANNC
+                                                         CEE D
+                                                             DEETTA
+                                                                  AIILL
+                                Virus Detection and Elimination Criteria for Wireless Devices
+
+                                Wireless devices, which connect to State of Missouri systems or
+                                networks, shall be protected with anti-virus software and procedures
+State the Guideline, Standard
+                                that meet the checklist of criteria detailed in the following service areas.
+or Legislation
+                                General Wireless Handheld Anti-Virus Criteria
+                                • Wireless anti-virus software shall protect the sync operation and/or
+                                   the wireless device, even if the workstation and network perimeter
+
+    devices are scanning for viruses.
+•   Wireless handheld anti-virus software shall protect against malicious
+    data as transferred via:
+       o Sync operations with a workstation or network
+       o Infrared transfer with another handheld device, laptop, or
+           workstation
+       o Wireless network or Internet connections
+•   Wireless virus protection shall cover all major palm top operating
+    systems including:
+       o Palm OS
+       o Pocket PC
+       o Windows CE
+       o Symbian EPOC
+
+Virus Detection/Scanning Capabilities
+• Wireless device anti-virus software shall be capable of detecting
+    malicious software before it is transferred to workstations or
+    networks.
+• Shall provide detection for all “in the wild” virus types (boot viruses,
+    file viruses, macro viruses, and script viruses).
+• Shall provide detection for Zoo type viruses (file viruses, macro
+    viruses, script viruses, polymorphic viruses, other malware, false
+    positives).
+• Shall provide detection for archived and compressed file types (.ZIP,
+    TAR, LZH, recursive and self-extracting archives, runtime-
+    compressed files).
+• Shall provide scanning capabilities for all standard office file formats
+    (including embedded OLE objects and password protected files).
+• Shall provide for flexible configuration to include/exclude file types,
+    drives and directories from scans.
+• Shall provide Internet Download and Content scanning for protection
+    from suspicious web content, including:
+         o ActiveX filtering and scanning
+         o JavaScript filtering and scanning
+• Shall provide Heuristic-scanning capabilities (intelligent analysis of
+    unknown or suspicious sections of code).
+
+Post-Detection Anti-Virus Action Capabilities
+• If a virus is discovered, all synchronization between the wireless
+   device and the workstation or network shall be disabled until the
+   destructive code can be removed from the device.
+• It is highly desirable that anti-virus software be able to eradicate
+   malicious software and viruses detected through the following
+   means:
+       o Quarantine – moving the infected file into an area where it
+           cannot cause more harm.
+       o Virus Removal – allows for repair of the damage caused by
+           the virus.
+       o Deny Access – prohibits the file from being accessed once
+           infected.
+       o Delete – complete removal of the infected file from the
+           system.
+
+                              Virus Scan Engine Update Capabilities
+                              • Anti-virus signatures need to be updated, either through a manual
+                                  or automated process.
+                              • Shall provide a secure procedure for keeping the detection engine
+                                  up-to-date with the latest detection signatures & scan engine
+                                  techniques (new viruses are discovered daily).
+                              • Shall provide for automated updates of both scan engine and
+                                  signatures during synchronization processes.
+                              • Virus scan engine shall have the ability to stay up-to-date with the
+                                  latest developments in malicious software detection.
+
+                              Anti-Virus Installation Criteria
+                              • Anti-virus software shall be capable of flexible deployment
+                                 techniques.
+                              • Anti-virus software deployment (and updates) shall be transparent
+                                 to end-users.
+                              • Anti-virus software shall provide “Wizard-enabled” installation
+                                 routines to automate and expedite installation.
+
+                              Service and Support
+                              • State of Missouri virus protection products shall be backed by
+                                 vendors who offer 24 x 7, 365 days a year phone support.
+                              • Anti-virus vendors shall provide a comprehensive documentation
+                                 and assistance package, including a facility for pro-active timely
+                                 warnings of new malicious software and virus events.
+                              • Anti-virus vendors shall provide “Virus Catalog Support” including:
+                                     o A lexicon of known viruses detailing descriptions, how they
+                                        are spread, what they do, how they are recognized and how
+                                        to remove them.
+                                     o Downloads or links to disinfection tools.
+                                     o A clear and concise description of the anti-virus tools
+                                        functionality, including procedures for updating the product
+                                        with new detection signatures.
+                                     o General advice to end-users on attacks and avoidance
+                                        measures.
+Document Source Reference #   N/A
+                                          Standard Organization
+Name                          ICSA Labs                   Website     www.icsalabs.com
+                              ICSA Labs is a division of TruSecure Corporation and can be reached at
+Contact Information
+                              1-888-396-8348 (info@trusecure.com)
+                                            Government Body
+                              National Institute of
+                              Standards and Technology
+                                                                      http://csrc.nist.gov/
+Name                          (NIST), Computer            Website
+                              Security Resource Center
+                              (CSRC)
+Contact Information           inquiries@nist.gov
+
+                                                    KKEEYYW
+                                                          WOORRD
+                                                               DSS
+                               Virus, virus detection, malicious code, virus products, virus reporting,
+                               anti-virus vendors, anti-virus engine, zoo, trojan horse, backdoor,
+                               worm, stealth, blended threat, boot sector infector, companion, denial
+List all Keywords
+                               of service, dropper, file infector, logic bomb, malware, multi-partite,
+                               overwriting, parasitic, polymorphic, tunneling, variant, terminate and
+                               stay resident (tsr), management, palm top, palm pilot, handheld, PDA
+                                     C
+                                     COOM
+                                        MPPO
+                                           ONNEEN
+                                                NTT C
+                                                    CLLA
+                                                       ASSSSIIFFIIC
+                                                                  CAATTIIO
+                                                                         ONN
+Provide the Classification       Emerging                Current                Twilight         Sunset
+                                  Rationale for Component Classification
+Document the Rationale for
+Component Classification
+                                        Conditional Use Restrictions
+Document the Conditional Use
+Restrictions
+                                                  Migration Strategy
+Document the Migration
+Strategy
+                                            Impact Position Statement
+Document the Position
+Statement on Impact
+                                              C
+                                              CUURRRREEN
+                                                       NTT SSTTA
+                                                               ATTU
+                                                                  USS
+Provide the Current Status)      In Development          Under Review           Approved         Rejected
+                                                   A
+                                                   AUUD
+                                                      DIITT TTRRA
+                                                                AIILL
+Creation Date                  02-06-2003                   Date Accepted / Rejected       02-27-2003
+     Reason for Rejection
+Last Date Reviewed                                          Last Date Updated
+     Reason for Update
+
+## Curator notes
+
+Text extracted with pdftotext -layout (page headers, footers and column layout kept as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their letters).

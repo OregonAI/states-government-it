@@ -1,0 +1,222 @@
+---
+schema_version: 1
+corpus: states-government-it
+jurisdiction: missouri
+id: mo-itsd-change-control-policy
+title: ITSD Change Control Policy
+doc_type: policy
+citation: ITSD Change Control Policy
+authority_level: ''
+issuing_body: Office of Administration, Information Technology Services Division
+source_url: https://itsd.oa.mo.gov/sites/g/files/zuston256/files/media/pdf/2025/09/itsd-change-control-policy.pdf
+source_format: pdf
+retrieved: '2026-11-12'
+source_sha256: fa99922ade19444baad956879e8c13d40f4a0340a17bb2b7a694d3539f4918e4
+effective_date: null
+source_version: ''
+status: current
+content_mode: verbatim
+conversion_notes: Text extracted with pdftotext -layout (page headers, footers and column layout kept
+  as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their
+  letters).
+last_verified: ''
+verified_by: ''
+maintainer: ''
+relationships:
+  implements: []
+  implemented_by: []
+  references_external: []
+  related: []
+  supersedes: []
+tags:
+- oversight
+---
+
+> **NON-AUTHORITATIVE.** This is a convenience copy for machine reading. The official text is published at the source URL above. Verify at source before relying on it.
+
+# ITSD Change Control Policy (ITSD Change Control Policy)
+
+## At a glance
+
+Linked as 'ITSD Change Control Policy' from the Enterprise Project Management Office page (https://itsd.oa.mo.gov/it-governance/enterprise-project-management-office), whose viewer page is https://itsd.oa.mo.gov/media/pdf/change-control-policy; the PDF address is the file that viewer page embeds. How ITSD evaluates change requests to baselined IT projects (scope, cost, schedule) including contract-managed projects.
+
+## Full text
+
+                                ITSD Change Control Policy
+
+Background
+Each project change request is unique to project specifics and applies under this policy when an impact
+to project scope, cost, schedule, or combination thereof. When a Request for Proposal (RFP), Contract,
+or Project Assessment Quotation (PAQ) is involved, evaluating each change request is considered a
+contract management function and shall include additional vendor considerations in terms of mutual
+agreement to changes in cost, scope, and schedule.
+
+Once a project is baselined, the expectation is the project will stay within the scope, cost and schedule
+originally identified. A change to the contractual agreement will not be made without good cause,
+including a shared understanding of what the change is, and why it was not previously identified.
+
+Evaluation objectives address the following:
+         Due diligence has been exercised in the development of the Impact Analysis, alternatives
+            considered, and recommendation(s) supporting the Change Request
+         Impact analysis of the change on the project particularly as it relates to scope, cost and
+            schedule has been carefully evaluated
+         All possible alternatives are considered
+         Decisions are made in a timely fashion to mitigate potential negative impact
+         Appropriate project stakeholder communications have occurred regarding the change
+            control request
+
+Policy Overview
+The ITSD Change Control policy defines tracking and documentation required to effectively manage
+project change that impacts a contract from the earliest phases of the project lifecycle through
+warranty. Every change request must be:
+
+       Documented – using a change log (see ITSD Status Report)
+       Status Reporting – regularly updated and reported (see ITSD Status Report)
+       Reviewed – completed ITSD Change Control Workflow
+       Approved – updated PAQ is signed by CIO and vendor receives modified Purchase Order
+       Implemented – project plan is re-baselined
+
+In the event of an emergency or urgent situation, the CSM must contact the ITSD EPMO Office to
+proceed. Any deviation from the ITSD Change Control Policy shall occur on a case by case basis and only
+with approval from the CIO, and before any action is taken by the vendor or ITSD.
+
+The change request is not considered ‘Approved’ until the Change Request (CR) form and the
+corresponding modified PAQ have completed the workflow process. The modified PAQ must be signed
+by both the vendor and the CIO and an updated Purchase Order must have been received by the
+vendor.
+
+Work commenced by the vendor before being fully approved through the ITSD Change Control Process
+is work that the vendor is performing at their own risk.
+
+                                              1|Page
+
+                                 ITSD Change Control Policy
+
+State Responsibility
+The ITSD Change Control policy must be incorporated into the planning phase of every project and must
+be included in all Project Charters. The ITSD Project Manager will ensure the process is reviewed as an
+item of discussion in the Project Kick-off, this will ensure a firm understanding of the policy and process
+by the project sponsor, all project stakeholders, project team members, and vendors.
+
+If the Change Request impacts the project schedule the ITSD Project Manager must ensure that the
+Change Request Process has completed before the original PAQ end date has expired to ensure
+continuity of the contract.
+
+Vendor Responsibility
+Vendors must ensure that change is documented as soon as it is identified using the Project Change
+Control Log and regularly tracked, updated, and reported (weekly) using the ITSD Status Report.
+
+The vendor must provide an accurate assessment of the situation, including information to perform an
+impact analysis, the level of effort, and as requested, a firm fixed cost on the scope of work identified in
+the Change Request.
+
+The vendor is not authorized to perform work identified in the Change Request until the PAQ has been
+signed by the CIO and the vendor has received an updated Purchase Order.
+
+ITSD Change Request Process
+The ITSD Change Control process is mandatory for all ITSD projects.
+
+                                     CHANGE REQUEST PROCESS
+ Step                        Description
+ Change Identified           A change to the project’s current scope, schedule or cost is identified.
+                             This may be identified by a vendor, by a business customer, or by a
+                             member of internal ITSD.
+ Recommended Change          The recommended change to scope, schedule or cost (or perhaps a
+ Submitted                   combination) can be made to the ITSD PM by any project team member,
+                             or the ITSD PM may identify the need.
+ Change Logged               The ITSD PM logs the requested change request in the Change Request
+                             Log on the ITSD Status Report.
+ Initial Evaluation          The ITSD PM works with the project team to document the detailed
+                             specifics of the recommended change. Detailed alternative options are
+                             also documented. The ITSD PM works with the project team to agree on a
+                             final recommendation. For those change requests deemed necessary by
+                             the project team, the ITSD PM Shall:
+                                  Ensure the next Steering Committee meeting’s agenda includes
+                                      item noted to review potential change requests
+                                  Presents potential change requests to the Steering Committee
+                             NOTE: If no Steering Committee exists, the request must be reviewed by
+                             the CSM, the agency Project Sponsor, and potentially a key decision-
+                             maker from either ITSD Application Development and/or vendor
+                             management.
+
+                                                2|Page
+
+                             ITSD Change Control Policy
+
+                                CHANGE REQUEST PROCESS
+Step                     Description
+Impact Analysis Review   The Steering Committee members (or project decision makers identified
+                         in the project charter) will evaluate the detail of the recommended
+                         change and project impact analysis, and render a decision as to whether
+                         to move forward with a formal Change Request. If the change impacts
+                         the project budget the responsible fiscal parties must also agree to the
+                         budgetary change. If the change is not approved, the Steering Committee
+                         will provide direction to the project team as to which alternative option
+                         to proceed and the status report change log is updated.
+Develop the ITSD         For changes approved, the ITSD PM develops an ITSD Change Request
+Change Request Form      Form in the SharePoint Change Request Library. The Change Request
+                         Form summarizes:
+                               Description
+                               Reasons
+                               Benefits /Risks
+                               Costs
+                               Impacts /Other Options
+                               Any supporting documentation
+Agency Review and        The Agency reviews the Change Request Form as it starts the workflow
+Approval                 process. The Agency has already agreed to the change request as a
+                         Steering Committee member, so this step is the final review and
+                         approval. However, should new or additional information be available,
+                         the Agency will certainly review this information in context with the
+                         Impact Analysis, Alternatives Considered and Recommendation(s) to
+                         ensure that the Change Request is fully understood. If rejected, the
+                         Change Request is returned to the ITSD PM along with recommended
+                         next steps.
+ITSD EPMO/Fiscal         The ITSD EPMO reviews the Change Request and modified PAQ as the
+Evaluation and           request comes in through the workflow. The EPMO will review the Impact
+Approval                 Analysis provided by the ITSD PM which details the impact in terms of
+                         cost, scope or schedule or a combination of those, as well as alternatives
+                         considered along with the project team’s recommendation(s). If
+                         approved, the Change Request moves to the Legal department for
+                         review. If rejected, the Change Request is returned to the ITSD PM along
+                         with recommended next steps.
+Legal Evaluation and     The State Legal department reviews the Change Request and modified
+Approval                 PAQ as the request comes in through the workflow. A similar review of
+                         the Impact Analysis, Alternatives Considered and Recommendation(s) is
+                         approved from a legal aspect. If approved, the Change Request moves to
+                         the CIO for review.
+CIO Evaluation and       The CIO reviews the Change Request and modified PAQ as the request
+Approval                 comes in through the workflow. A similar review of the Impact Analysis,
+                         Alternatives Considered and Recommendation(s). If approved, the
+                         modified PAQ is signed by the CIO and the change becomes contractually
+                         binding. If rejected, the Change Request is returned to the ITSD PM.
+Notification             Notification of the approved change request is sent to the vendor. The PO
+
+                                           3|Page
+
+                              ITSD Change Control Policy
+
+                                 CHANGE REQUEST PROCESS
+ Step                     Description
+                          related to the PAQ is updated to reflect the requested change.
+ Update: Contract, Re-    The ITSD PM and Vendor, if applicable, will re-baseline the project’s Work
+ baseline Work Plan,      Plan and other pertinent project deliverables. The ITSD PM announces
+ Update Project           the approved change to all project stakeholders and updates reporting
+ Deliverables, Announce   mechanisms accordingly. The change request will be closed on the
+ Approved Change to all   Change Log.
+ Project Stakeholders
+ Receipt of Updated PO    The vendor may commence work per the re-baselined project plan.
+
+   The ITSD Change Request Form can be found here:
+   https://moitsd13.state.mo.us/itsd/PMO/PMODocuments/ITSD%20Change%20Request%20Form.do
+   cx
+
+Version History
+
+Version #   Updated by Revision Date      Approved By               Approval Date      Reason
+1.0                    10/12/2016         PMO                       01/30/2017         Policy Update
+
+                                            4|Page
+
+## Curator notes
+
+Text extracted with pdftotext -layout (page headers, footers and column layout kept as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their letters).

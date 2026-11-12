@@ -1,0 +1,174 @@
+---
+schema_version: 1
+corpus: states-government-it
+jurisdiction: missouri
+id: mo-configuration-management-cc
+title: Configuration Management
+doc_type: standard
+citation: 'Security Domain Compliance Component: Configuration Management'
+authority_level: ''
+issuing_body: Office of Administration, Information Technology Services Division
+source_url: https://itsd.oa.mo.gov/sites/g/files/zuston256/files/media/pdf/2025/04/CC-Configuration-Management.pdf
+source_format: pdf
+retrieved: '2026-11-12'
+source_sha256: 77504baeb478d377a9e7c5b9f2e9b23ba7eb9184617265d11c64ba7df4ffd82e
+effective_date: null
+source_version: ''
+status: current
+content_mode: verbatim
+conversion_notes: Text extracted with pdftotext -layout (page headers, footers and column layout kept
+  as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their
+  letters).
+last_verified: ''
+verified_by: ''
+maintainer: ''
+relationships:
+  implements: []
+  implemented_by: []
+  references_external: []
+  related: []
+  supersedes: []
+tags:
+- cybersecurity
+---
+
+> **NON-AUTHORITATIVE.** This is a convenience copy for machine reading. The official text is published at the source URL above. Verify at source before relying on it.
+
+# Configuration Management (Security Domain Compliance Component: Configuration Management)
+
+## At a glance
+
+Row 'Configuration Management' of the Security Domain's Approved Standards page (https://itsd.oa.mo.gov/it-governance/enterprise-architecture/security-domain/approved-standards-security-domain), the statewide IT security standards library of ITSD's enterprise architecture. Its viewer page is https://itsd.oa.mo.gov/media/pdf/configuration-management-cc; the PDF address is the file that viewer page embeds. A 'Compliance Component' document of the Security Domain framework. Printed status (read by rendering the PDF page, because the check boxes are drawn marks with no text layer) is classification Current and status Under Review, not Approved, with Date Approved / Rejected 11/19/2024. OWNER DECISION, see left_out. The index lists it under Approved Standards; it is kept as a document on the index label as the status of record, and the owner may treat it as an under-review revision instead.
+
+## Full text
+
+                                       COMPLIANCE COMPONENT
+
+                                                          DEFINITION
+Name                   Security-Focused Configuration Management
+                       Security-Focused Configuration Management (SecCM) enforces security configuration
+Description            settings, monitors and controls changes to the established baseline configuration of
+                       installed hardware and software.
+                       Documenting information system changes and assessing the potential impact of these
+Rationale              changes on the security of a system is essential for tracking changes and maintaining
+                       continuity.
+                       • Provides comprehensive and continuous documentation of hardware and software
+                            changes.
+Benefits
+                       •      Provides a list of changes to be used when identifying security-related problems.
+                       •      Provides a means of recovery in case of a malfunction.
+
+                                          ASSOCIATED ARCHITECTURE LEVELS
+Specify the Domain Name            Security
+Specify the Discipline Name        Operational Controls
+Specify the Technology Area
+                                   Hardware & Software Maintenance
+Name
+Specify the Product
+Component Name
+
+                                              COMPLIANCE COMPONENT TYPE
+Document the Compliance
+                                   Guideline
+Component Type
+Component Sub-type
+
+                                                   COMPLIANCE DETAIL
+                                   SecCM involves documentation of the configuration of installed hardware and
+                                   software at given points in time, systematically controlling changes to the
+                                   configuration, and maintaining the integrity and traceability of the configuration
+                                   throughout the system lifecycle.
+
+                                   SecCM is a five step process:
+
+                                       1. Planning – Planning includes developing policy and procedures to
+State the Guideline, Standard             incorporate SecCM into existing information technology and security
+or Legislation                            programs, and then disseminating the policy throughout the organization.
+
+                                       2. Identifying and Implementing Configurations – After the planning and
+                                          preparation activities are completed, a secure baseline configuration for
+                                          the information system is developed, reviewed, approved, and
+                                          implemented. The approved baseline configuration for an information
+                                          system and associated components represents the most secure state
+                                          consistent with operational requirements and constraints. For a typical
+                                          information system, the secure baseline may address configuration
+
+                                         settings, software loads, patch levels, how the information system is
+                                         physically or logically arranged, how various security controls are
+                                         implemented, and documentation.
+
+                                    3. Controlling Configuration Changes – In this phase of SecCM, the
+                                       emphasis is put on the management of change to maintain the secure,
+                                       approved baseline of the information system. Through the use of SecCM
+                                       practices, organizations ensure that changes are formally identified,
+                                       proposed, reviewed, analyzed for security impact, tested, and approved
+                                       prior to implementation.
+
+                                    4. Monitoring – Validates that the information system is adhering to
+                                       organizational policies, procedures, and the approved secure baseline
+                                       configuration. Monitoring identifies undiscovered/undocumented system
+                                       components, misconfigurations, vulnerabilities, and unauthorized changes,
+                                       all of which, if not addressed, can expose organizations to increased risk.
+
+                                    5. Using Security Content Automation Protocol - Security Content
+                                       Automation Protocol (SCAP) is a suite of specifications that standardize
+                                       the format and nomenclature by which information about software flaws
+                                       and secure configurations can be communicated. SCAP-enabled tools can
+                                       be used for maintaining the security of enterprise systems, such as
+                                       automatically verifying the installation of patches, checking system security
+                                       configuration settings against an expected baseline, and examining
+                                       systems for signs of compromise.
+
+                                This document will be reviewed at least annually or as needed.
+
+                                NIST SP 800-128, Guide for Security-Focused Configuration Management of
+Document Source Reference #
+                                Information Systems (October 2019)
+                                                 Compliance Sources
+                                National Institute of
+                                Standards and Technology                        http://csrc.nist.gov/
+Name                                                               Website
+                                (NIST), Computer
+
+Contact Information             http://csrc.nist.gov/
+Name                                                               Website
+Contact Information
+
+                                                        KEYWORDS
+                                Change, installation, validation, baseline, testing, deployment, evaluation,
+List Keywords                   planning, identifying, implementing, monitoring, configuration, controlling, SecCM,
+                                SCAP
+
+                                           COMPONENT CLASSIFICATION
+Provide the Classification          Emerging                 Current                Twilight             Sunset
+     Sunset Date
+
+                                        COMPONENT SUB-CLASSIFICATION
+ Sub-Classification          Date                         Additional Sub-Classification Information
+    Technology Watch
+    Variance
+
+    Conditional Use
+
+                                   Rationale for Component Classification
+Document the Rationale for
+Component Classification
+                                                 Migration Strategy
+Document the Migration
+Strategy
+                                          Impact Position Statement
+Document the Position
+Statement on Impact
+
+                                                 CURRENT STATUS
+Provide the Current Status      In Development            Under Review               Approved       Rejected
+
+                                                   AUDIT TRAIL
+Creation Date                04/05/2007                   Date Approved / Rejected     11/19/2024
+    Reason for Rejection
+Last Date Reviewed           09/19/2024                   Last Date Updated            11/19/2024
+    Reason for Update        Vitality
+
+## Curator notes
+
+Text extracted with pdftotext -layout (page headers, footers and column layout kept as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their letters).

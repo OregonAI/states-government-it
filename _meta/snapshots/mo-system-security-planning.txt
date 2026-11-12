@@ -1,0 +1,42 @@
+                                             TECHNOLOGY AREA
+
+                                                         DEFINITION
+Name                       System Security Planning
+                           System Security Planning provides an overview of the security requirements of systems
+                           and describes the security controls in place or planned for meeting those requirements.
+                           The system security plan documents the protection of the system, and delineates
+Description                responsibilities and expected behavior of all individuals who access the system. The
+                           system security plan reflects input from various individuals with responsibilities concerning
+                           the system, including information owners, the system operator, and the system security
+                           manager.
+                           The objective of system security planning is to improve protection of information
+Rationale                  resources. All state agency systems have some level of sensitivity, and require protection
+                           as part of good management practice.
+                           • The system security plan facilitates adequate, cost-effective security protection by
+Benefits
+                               assessing the security controls and documenting the authorization by management.
+
+                                         ASSOCIATED ARCHITECTURE LEVELS
+Specify the Domain Name           Security
+Specify the Discipline Name       Management Controls
+
+                                                         KEYWORDS
+List Keywords                     Planning, system, management, authorization, certification, risk assessment
+
+                                       ASSOCIATED COMPLIANCE COMPONENTS
+List the Compliance
+                                  •    System Security Planning Procedure
+Component Names
+
+                                         ASSOCIATED PRODUCT COMPONENTS
+List the Product Component
+Names
+
+                                                       CURRENT STATUS
+Provide the Current Status            In Development         Under Review           Approved            Rejected
+
+                                                         AUDIT TRAIL
+Creation Date                     02/24/06                      Date Approved / Rejected   07/28/2021
+    Reason for Rejection
+Last Date Reviewed                07/13/2021                    Last Date Updated
+    Reason for Update

@@ -1,0 +1,27 @@
+EXECUTIVE ORDER 03-26
+WHEREAS, the State of Missouri recognizes the critical importance of technology to its government, industry, and economy; and
+WHEREAS, information technology has emerged as a significant business enabler for the State of Missouri; and
+WHEREAS, Missouri is recognized nationally as having a progressive information technology program; and
+WHEREAS, the National Association of State Chief Information Officers has testified before Congress on the merits of a federal chief information officer and recognized Missouri as the preeminent model in the nation for such a position; and
+WHEREAS, the State of Missouri is the only state to have had its Chief Information Officers elected as president to lead the National Association of State Chief Information Officers twice in its 30 year history; and
+WHEREAS, Missouri has benefited from the existence of an Office of Information Technology and the service of a Chief Information Officer; and
+WHEREAS, the Office of Information Technology has been successful in developing strategies and policies to improve existing information technology investments and create a plan to establish an infrastructure which supports innovative government management solutions; and
+WHEREAS, the Chief Information Officer has served Missouri well in addressing statewide and national issues such as e-government, homeland security, HIPAA, software piracy, justice integration, digital signature, data center consolidation and Y2K; and
+WHEREAS, the Office of Information Technology and the Chief Information Officer are referenced in a variety of state statutes and Executive Orders; and
+WHEREAS, there is a continuing need to incorporate information technology in state plans as high technology has made enormous contributions to the state's economic growth and competitiveness and the high technology industry is one of the most vibrant sectors of Missouri's economy and high technology extends benefits to Missouri businesses and Missouri citizens:
+NOW, THEREFORE, I, BOB HOLDEN, GOVERNOR OF THE STATE OF MISSOURI, by virtue of the authority vested in me by the constitution and the laws of the State of Missouri, do hereby reestablish the Office of Information Technology. The Office of Information Technology shall serve as the mechanism to coordinate information technology initiatives for the state, particularly with respect to inter-agency initiatives, between executive agencies and local political subdivisions and for the effective development, coordination and adoption of information technology policies. For administrative purposes, the Office of Information Technology shall be located within the Office of Administration; and
+The Office of Information Technology shall have and be directed by a Chief Information Officer. The Chief Information Officer shall serve at the will of the Governor; and
+The Chief Information Officer will convene an Information Technology Advisory Board made up of the Chief Information Officers of each Executive Branch department or agency and other such members as deemed appropriate to develop recommendations and coordinate programs with information technology elements; and
+The Chief Information Officer shall have authority to establish a state enterprise information technology architecture that addresses the technology environment for the State of Missouri with respect to information technology principles, governance, technology and standards; and
+The Chief Information Officer shall have authority to establish state-wide policies with respect to information technology that will contribute to the effective use of information technology within the State of Missouri; and
+The Chief Information Officer shall annually produce an Information Technology Strategic Plan to serve as a guide for enabling state business program efficiencies where appropriate; and
+The Chief Information Officer shall annually prepare a report, the State of Information Technology in Missouri, and submit the report by December 1 of each year to the Governor, the Chief Justice of the Supreme Court and the Senate Appropriation and House Budget Chairs for consideration in the state's budget process; and
+This order shall not be construed to alter the existing authorities of any executive agency or department, except that all executive departments and agencies are directed to assist the Chief Information Officer in carrying out the purposes of this order.
+IN WITNESS WHEREOF, I have hereunto set my hand and caused to be affixed the Great Seal of the State of Missouri, in the City of Jefferson on this 10th day of December, 2003.
+[Bob Holden's signature]
+Bob Holden
+Governor
+ATTEST:
+[Matt Blunt's signature]
+Matt Blunt
+Secretary of State

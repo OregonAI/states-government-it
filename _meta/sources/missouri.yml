@@ -1,0 +1,1784 @@
+# Missouri seed list: every instrument this state's part of the corpus holds or knows about.
+# Key reference: _meta/sources/README.md. Rules: _meta/CLAUDE.md.
+# Discovery 2026-11-12 through the toolkit Fetcher: the ITSD site (itsd.oa.mo.gov: IT governance, enterprise architecture,
+# Security Domain Approved Standards, EPMO, MITAC, cost allocation plans, application portfolio, information security,
+# CIO pages), the Office of Administration's Statewide Policies and OA Administrative Policies pages (oa.mo.gov), the
+# Revisor of Statutes (chapter 37 and 41 section lists and the section pages seeded), the Secretary of State's Code of
+# State Regulations (Title 1) and executive-order pages, the Governor's executive-order list, cybersecurity.mo.gov.
+sources:
+- id: mo-rsmo-37-005
+  sha256: "695d8ac185681ca074bc90c580981617d8c612ac9f597543f545aa663c020d2d"
+  url: https://revisor.mo.gov/main/OneSection.aspx?section=37.005
+  format: html
+  citation: Section 37.005, RSMo
+  title: 'Section 37.005, RSMo: Office of administration, powers and duties, generally'
+  doc_type: statute
+  jurisdiction: missouri
+  issuing_body: Missouri General Assembly (Revisor of Statutes)
+  tags:
+  - governance
+  - oversight
+  - procurement
+  - data
+  recheck: monthly
+  why_relevant: 'A section of the Office of Administration''s general powers (Chapter 37) that carries the statutory authority over state IT. The Revisor''s page serves the whole section, so the non-IT subsections ride along. Subsection 8 authorizes the commissioner of administration to coordinate and control the acquisition and use of network, telecommunications and data processing services in the executive branch: a long-range computer facilities plan, approval of additions and deletions of hardware, software and support services, standards for annual data processing application plans, review of applications against the state information systems plan, procurement procedures, and an inventory with an annual report to the General Assembly; the commissioner also adopts rules protecting the privacy of citizens and the confidentiality of information on computer storage. The authority section cited by 1 CSR 10-2.'
+- id: mo-rsmo-37-110
+  sha256: "b9e89f47c7f20ffa83ed0d3b2312a6d8ad805b136aff54c45ac4b01956662925"
+  url: https://revisor.mo.gov/main/OneSection.aspx?section=37.110
+  format: html
+  citation: Section 37.110, RSMo
+  title: 'Section 37.110, RSMo: Information technology services division established'
+  doc_type: statute
+  jurisdiction: missouri
+  issuing_body: Missouri General Assembly (Revisor of Statutes)
+  tags:
+  - governance
+  - oversight
+  recheck: monthly
+  why_relevant: 'The enabling statute for the Information Technology Services Division of the Office of Administration, the state''s central IT body (the division''s head is the state Chief Information Officer, a title the statute does not print): it requires the commissioner of administration to establish the division, which makes recommendations to all agencies and departments and to the General Assembly, and bars any agency from adding or disposing of state data processing equipment without the division''s approval. The Chief Information Officer is not named in any section found; the ITSD page ''Chief Information Officer'' (https://itsd.oa.mo.gov/chief-information-officer) describes the office.'
+- id: mo-rsmo-37-920
+  sha256: "55ba3b0fb4976dc0d780cc526c7e320ed919dd7c6225941eefba1a04b363256b"
+  url: https://revisor.mo.gov/main/OneSection.aspx?section=37.920
+  format: html
+  citation: Section 37.920, RSMo
+  title: 'Section 37.920, RSMo: Trust fund created for information technology expenses, use of moneys'
+  doc_type: statute
+  jurisdiction: missouri
+  issuing_body: Missouri General Assembly (Revisor of Statutes)
+  tags:
+  - funding
+  recheck: monthly
+  why_relevant: Creates the Missouri Revolving Information Technology Trust Fund in the state treasury, to hold moneys transferred or paid to the Office of Administration by any state agency for information technology expenses to ensure the proper use and operation of IT equipment, software or systems; the funding model for ITSD charge-back.
+- id: mo-rsmo-41-1015
+  sha256: "16e3c0525d125f23621742c8a2e6b3e279297d9d4c8056ce51764b343d593d44"
+  url: https://revisor.mo.gov/main/OneSection.aspx?section=41.1015
+  format: html
+  citation: Section 41.1015, RSMo
+  title: 'Section 41.1015, RSMo: Citation of law (Cybersecurity Mission Act)'
+  doc_type: statute
+  jurisdiction: missouri
+  issuing_body: Missouri General Assembly (Revisor of Statutes)
+  tags:
+  - cybersecurity
+  recheck: monthly
+  why_relevant: Names the Cybersecurity Mission Act (sections 41.1015 to 41.1018, Chapter 41, effective 28 August 2026, L. 2026 H.B. 2593), the statute under which the Missouri National Guard may render cybersecurity aid to the state and to political subdivisions, public colleges and universities, law enforcement agencies, utility companies and critical infrastructure facilities.
+- id: mo-rsmo-41-1016
+  sha256: "ea7708bb9a9b0505659d87da712a83e54a743f861c9534b30eaa72631389fc03"
+  url: https://revisor.mo.gov/main/OneSection.aspx?section=41.1016
+  format: html
+  citation: Section 41.1016, RSMo
+  title: 'Section 41.1016, RSMo: Definitions (Cybersecurity Mission Act)'
+  doc_type: statute
+  jurisdiction: missouri
+  issuing_body: Missouri General Assembly (Revisor of Statutes)
+  tags:
+  - cybersecurity
+  recheck: monthly
+  why_relevant: 'Definitions for the Cybersecurity Mission Act (sections 41.1015 to 41.1018, Chapter 41, effective 28 August 2026, L. 2026 H.B. 2593): cybersecurity, cyber-attack prevention, response and support, among others.'
+- id: mo-rsmo-41-1017
+  sha256: "3eb77bd74ad383e24766261a2e2bf5a13234906be3825f8279e6759e1d9c6160"
+  url: https://revisor.mo.gov/main/OneSection.aspx?section=41.1017
+  format: html
+  citation: Section 41.1017, RSMo
+  title: 'Section 41.1017, RSMo: Cybersecurity and cyber attacks, agreements to render aid, expenses, fund created, use of moneys'
+  doc_type: statute
+  jurisdiction: missouri
+  issuing_body: Missouri General Assembly (Revisor of Statutes)
+  tags:
+  - cybersecurity
+  - funding
+  recheck: monthly
+  why_relevant: 'The operative section of the Cybersecurity Mission Act (sections 41.1015 to 41.1018, Chapter 41, effective 28 August 2026, L. 2026 H.B. 2593): on request of the director of the Department of Public Safety the Missouri National Guard may agree to render cybersecurity aid to the state and to local and public entities, the adjutant general may activate members on state orders and charge for expenses, and the Missouri National Guard Cybersecurity Revolving Fund is created. It binds a state entity (the Guard) and covers state systems among others; it is the only cybersecurity statute found for state systems.'
+- id: mo-rsmo-41-1018
+  sha256: "d7cf40443bf8c4014ebc66b8a99fb5a019a8b86581632d90e80b47f1337762fb"
+  url: https://revisor.mo.gov/main/OneSection.aspx?section=41.1018
+  format: html
+  citation: Section 41.1018, RSMo
+  title: 'Section 41.1018, RSMo: Rulemaking authority (Cybersecurity Mission Act)'
+  doc_type: statute
+  jurisdiction: missouri
+  issuing_body: Missouri General Assembly (Revisor of Statutes)
+  tags:
+  - cybersecurity
+  recheck: monthly
+  why_relevant: The adjutant general administers the Cybersecurity Mission Act (sections 41.1015 to 41.1018, Chapter 41, effective 28 August 2026, L. 2026 H.B. 2593) and may adopt rules under Chapter 536.
+- id: mo-rsmo-37-1300
+  sha256: "e3972fa06a13e06d1b7635f48c89be82180bf834e95f8e40df36987aa9571949"
+  url: https://revisor.mo.gov/main/OneSection.aspx?section=37.1300
+  format: html
+  citation: Section 37.1300, RSMo
+  title: 'Section 37.1300, RSMo: GIS advisory council, definitions'
+  doc_type: statute
+  jurisdiction: missouri
+  issuing_body: Missouri General Assembly (Revisor of Statutes)
+  tags:
+  - governance
+  - data
+  recheck: monthly
+  why_relevant: 'Definitions for the Missouri GIS Advisory Council (sections 37.1300 to 37.1320, Chapter 37, effective 28 August 2026, L. 2026 S.B. 959): council, geographic information system, geospatial and the Missouri spatial data information service (MSDIS). OWNER DECISION: geospatial data infrastructure is seeded as state data governance housed in ITSD; see left_out.'
+- id: mo-rsmo-37-1310
+  sha256: "d26fc73f9febc23c8c73d6eba5c4e652090f9c58a3b973261f006a53164fd4dc"
+  url: https://revisor.mo.gov/main/OneSection.aspx?section=37.1310
+  format: html
+  citation: Section 37.1310, RSMo
+  title: 'Section 37.1310, RSMo: GIS advisory council established, duties'
+  doc_type: statute
+  jurisdiction: missouri
+  issuing_body: Missouri General Assembly (Revisor of Statutes)
+  tags:
+  - governance
+  - data
+  recheck: monthly
+  why_relevant: 'Establishes the Missouri GIS Advisory Council (sections 37.1300 to 37.1320, Chapter 37, effective 28 August 2026, L. 2026 S.B. 959) within the information technology services division of the Office of Administration, to assist and advise the state on a statewide geospatial data infrastructure. OWNER DECISION: see left_out.'
+- id: mo-rsmo-37-1320
+  sha256: "7bcec4b1c64569a466bc8ff7e616151828fef67de582c3ff1aa2684734c62c1e"
+  url: https://revisor.mo.gov/main/OneSection.aspx?section=37.1320
+  format: html
+  citation: Section 37.1320, RSMo
+  title: 'Section 37.1320, RSMo: Council members, terms, meetings, officers, expenses, personally identifiable information collection prohibited'
+  doc_type: statute
+  jurisdiction: missouri
+  issuing_body: Missouri General Assembly (Revisor of Statutes)
+  tags:
+  - governance
+  - data
+  recheck: monthly
+  why_relevant: 'Membership, terms and meetings of the Missouri GIS Advisory Council (sections 37.1300 to 37.1320, Chapter 37, effective 28 August 2026, L. 2026 S.B. 959), and its bar on collecting personally identifiable information. OWNER DECISION: see left_out.'
+- id: mo-rsmo-407-1500
+  sha256: "112766097dc9950d297409d48fecb6e179990c3d5921b599a9fd4253472dcbdb"
+  url: https://revisor.mo.gov/main/OneSection.aspx?section=407.1500
+  format: html
+  citation: Section 407.1500, RSMo
+  title: 'Section 407.1500, RSMo: Definitions, notice to consumer for breach of security, procedure, attorney general may bring action for damages'
+  doc_type: statute
+  jurisdiction: missouri
+  issuing_body: Missouri General Assembly (Revisor of Statutes)
+  tags:
+  - data
+  - cybersecurity
+  recheck: monthly
+  why_relevant: Missouri's breach-notification statute. It is seeded because its definition of 'person' includes 'government, governmental subdivision, governmental agency, governmental instrumentality', so it binds state agencies that own or license personal information of Missouri residents (notice to the affected consumer, to the attorney general and to consumer reporting agencies, after a breach of computerized personal information). The same section binds private persons; the page serves the whole section.
+- id: mo-1-csr-10-2
+  sha256: ''
+  url: https://www.sos.mo.gov/cmsimages/adrules/csr/current/1csr/1c10-2.pdf
+  format: pdf
+  citation: 1 CSR 10-2
+  title: 'Chapter 2: Privacy of Computer-accessible, Confidential Personal Information (1 CSR 10-2.010 and 1 CSR 10-2.020)'
+  doc_type: rule
+  jurisdiction: missouri
+  issuing_body: Office of Administration (Commissioner of Administration), published in the Code of State Regulations
+  tags:
+  - data
+  recheck: monthly
+  stub: true
+  stub_reason: The Secretary of State's file for the chapter (linked from https://www.sos.mo.gov/adrules/csr/current/1csr/1csr, Division 10, Chapter 2) is a 2-page, 62,312-byte PDF (HTTP 200, application/pdf, fetched through the toolkit Fetcher on 2026-11-12) set in two columns. The shared reader (pdftotext -layout) prints the two columns side by side on every line, so each printed line mixes a sentence of the left column with a sentence of the right one (for example '(1) Individual is any man, woman or child     (3) A written agreement to protect the right to'), and the extracted text is not the rule's text in reading order. Nothing could be committed as verbatim. The needed change is in the shared PDF reader (see shared_changes_needed); a Missouri module cannot override the PDF path.
+  why_relevant: The Commissioner of Administration's rules (authority section 37.005.7, RSMo) requiring executive-branch agencies to keep a policy and procedure protecting computer-accessible, confidential personal information, to describe the information and who has access, to sign a written agreement before sharing it, and to certify annually. The chapter is two rules (definitions; privacy).
+- id: mo-itps-001
+  sha256: "61c36368b45e70b6d35c2f25785bf740a77c9bb7d1d5fff1f2d5d6f243375295"
+  url: https://oa.mo.gov/sites/default/files/ITPS-001.pdf
+  format: pdf
+  citation: ITPS-001
+  title: Laptop Encryption
+  doc_type: policy
+  jurisdiction: missouri
+  issuing_body: Office of Administration, Information Technology Services Division
+  tags:
+  - cybersecurity
+  - data
+  recheck: monthly
+  why_relevant: Row 'ITPS-001 Laptop Encryption' of the Statewide Policies page (https://oa.mo.gov/commissioners-office/policies/statewide). The administrative policy, category Information Technology Security, originating unit OA ITSD ISMO, requires whole disk encryption on state-owned laptops and other portable computers. The PDF prints ISSUED 10/27/2008 and REVISED 10/5/2012. KNOWN TEXT-LAYER DEFECT of the official PDF. pdftotext reports a non-embedded font using identity encoding (TimesNewRoman,Bold), and the first section heading reads 'I. General StatemenW' both in the text layer and in a poppler rendering of the page, where the word is presumably Statement; a viewer with that font installed may show it differently (not checked). The committed text keeps the defect as extracted; the other section headings (II to V) read correctly. OWNER DECISION, see left_out. Keep as a document with the defect recorded, or make it a stub.
+- id: mo-sp-18
+  sha256: "0627691e4beed751a1ac3c9e32b257b05c3ecaf2dc2c19fa20f44a3a0dfbcf39"
+  url: https://oa.mo.gov/sites/default/files/SP-18.pdf
+  format: pdf
+  citation: SP-18
+  title: Electronic Data Security Training
+  doc_type: policy
+  jurisdiction: missouri
+  issuing_body: Office of Administration
+  tags:
+  - cybersecurity
+  recheck: monthly
+  why_relevant: Row 'SP-18 Electronic Data Security Training' of the Statewide Policies page. Requires monthly security awareness training, role-based training for cybersecurity staff and core training for new employees of the consolidated executive branch agencies that ITSD serves. The PDF prints ISSUED July 15, 2025.
+- id: mo-sp-19
+  sha256: "964f36a1d6894dc347d67f0547ffd8ea3aceb6d12264ccf6adb7e782c44a857b"
+  url: https://oa.mo.gov/sites/default/files/SP-19%20Acceptable%20Use%20for%20Artificial%20Intelligence.pdf
+  format: pdf
+  citation: SP-19
+  title: Acceptable Use for Artificial Intelligence
+  doc_type: policy
+  jurisdiction: missouri
+  issuing_body: Office of Administration
+  tags:
+  - ai
+  - governance
+  recheck: monthly
+  why_relevant: Row 'SP-19 Acceptable Use for Artificial Intelligence' of the Statewide Policies page. The statewide policy on how state employees, contractors and third-party vendors accessing state networks or resources may use AI, including the NIST AI Risk Management Framework assessment before deployment by agencies with ITSD. The PDF prints ISSUED July 15, 2026. The only instrument found that sets rules for state-agency AI use.
+- id: mo-c-09
+  sha256: "17d596763f9819eaa5f7d4336f44fec9fdd7bb52a24697c93bf80c2cc4217179"
+  url: https://oa.mo.gov/sites/default/files/OA-HR-Policy-C-09.pdf
+  format: pdf
+  citation: C-9
+  title: Software Use and Piracy
+  doc_type: policy
+  jurisdiction: missouri
+  issuing_body: Office of Administration
+  tags:
+  - governance
+  recheck: monthly
+  why_relevant: Row 'C-09 Software Use and Piracy' of the OA Administrative Policies page (https://oa.mo.gov/commissioners-office/policies/administrative). OA policy on licensed software installed on Office of Administration computers. The PDF prints ISSUED February 1, 1993, REVISED October 2003. It binds the Office of Administration only.
+- id: mo-c-12
+  sha256: "c6b5122dafd737161caab63af60724b186d9725b81475d705319dfd2697d7212"
+  url: https://oa.mo.gov/sites/default/files/OA-HR-Policy-C-12.pdf
+  format: pdf
+  citation: C-12
+  title: Internet Acceptable Use
+  doc_type: policy
+  jurisdiction: missouri
+  issuing_body: Office of Administration
+  tags:
+  - governance
+  - cybersecurity
+  recheck: monthly
+  why_relevant: Row 'C-12 Internet Acceptable Use' of the OA Administrative Policies page. OA employees' use of the Internet for state business and the MOREnet Acceptable Use Policy. The PDF prints ISSUED January 1, 1997, REVISED July 1, 1999. It binds the Office of Administration only.
+- id: mo-c-16
+  sha256: "e4d8940cc6faed653ae882dda6c9cc521c2e41ec91f857ac2a91a77c7a9423bd"
+  url: https://oa.mo.gov/sites/default/files/OA-HR-Policy-C-16.pdf
+  format: pdf
+  citation: C-16
+  title: Information Technology Projects
+  doc_type: policy
+  jurisdiction: missouri
+  issuing_body: Office of Administration
+  tags:
+  - oversight
+  recheck: monthly
+  why_relevant: Row 'C-16 Information Technology Projects' of the OA Administrative Policies page. The approval and review process for IT hardware, software and network projects within the Office of Administration, with an annual technology plan. The PDF prints ISSUED October 26, 2000. It binds the Office of Administration only.
+- id: mo-c-19
+  sha256: "40c763582b43de41c30da3b59b82a36eb55b779bdd024c5c4658e364b75e71e1"
+  url: https://oa.mo.gov/sites/default/files/OA-HR-Policy-C-19.pdf
+  format: pdf
+  citation: C-19
+  title: Breach Policy
+  doc_type: policy
+  jurisdiction: missouri
+  issuing_body: Office of Administration
+  tags:
+  - cybersecurity
+  - data
+  recheck: monthly
+  why_relevant: Row 'C-19 Breach Policy' of the OA Administrative Policies page. How the Office of Administration classifies its data and responds to a data breach. The PDF prints ISSUED October 2018. It binds the Office of Administration only.
+- id: mo-itsd-change-control-policy
+  sha256: "fa99922ade19444baad956879e8c13d40f4a0340a17bb2b7a694d3539f4918e4"
+  url: https://itsd.oa.mo.gov/sites/g/files/zuston256/files/media/pdf/2025/09/itsd-change-control-policy.pdf
+  format: pdf
+  citation: ITSD Change Control Policy
+  title: ITSD Change Control Policy
+  doc_type: policy
+  jurisdiction: missouri
+  issuing_body: Office of Administration, Information Technology Services Division
+  tags:
+  - oversight
+  recheck: monthly
+  why_relevant: Linked as 'ITSD Change Control Policy' from the Enterprise Project Management Office page (https://itsd.oa.mo.gov/it-governance/enterprise-project-management-office), whose viewer page is https://itsd.oa.mo.gov/media/pdf/change-control-policy; the PDF address is the file that viewer page embeds. How ITSD evaluates change requests to baselined IT projects (scope, cost, schedule) including contract-managed projects.
+- id: mo-management-controls
+  sha256: "a001515a2bcd05904adf7c63ae66a698c960ef9de091805246bd4a7874387490"
+  url: https://itsd.oa.mo.gov/sites/g/files/zuston256/files/media/pdf/2025/04/dsp-management-controls-12-31-02.pdf.pdf
+  format: pdf
+  citation: 'Security Domain Discipline: Management Controls'
+  title: Management Controls
+  doc_type: standard
+  jurisdiction: missouri
+  issuing_body: Office of Administration, Information Technology Services Division
+  tags:
+  - cybersecurity
+  recheck: monthly
+  why_relevant: Row 'Management Controls' of the Security Domain's Approved Standards page (https://itsd.oa.mo.gov/it-governance/enterprise-architecture/security-domain/approved-standards-security-domain), the statewide IT security standards library of ITSD's enterprise architecture. Its viewer page is https://itsd.oa.mo.gov/media/pdf/management-controls; the PDF address is the file that viewer page embeds. A 'Discipline' document of the Security Domain framework. Printed status (read by rendering the PDF page, because the check boxes are drawn marks with no text layer) is status Approved (this document form has no classification row), with Date Approved / Rejected 01-21-2003. The index lists it as an approved standard. The published PDF prints unaccepted Word tracked changes (margin balloons headed Deleted and red underlined insertions on page 2); they ride along in the text as the token Deleted followed by a colon (twice), and the file may be a draft or redline copy (see left_out).
+- id: mo-information-security-policy-cc
+  sha256: "da51c108bad4b914b8c724696a1f641fa8aefebfe5162a7142e0191da0a18382"
+  url: https://itsd.oa.mo.gov/sites/g/files/zuston256/files/media/pdf/2025/04/CC-Information-Security-Policy.pdf
+  format: pdf
+  citation: 'Security Domain Compliance Component: Information Security Policy'
+  title: Information Security Policy
+  doc_type: standard
+  jurisdiction: missouri
+  issuing_body: Office of Administration, Information Technology Services Division
+  tags:
+  - cybersecurity
+  recheck: monthly
+  why_relevant: Row 'Information Security Policy' of the Security Domain's Approved Standards page (https://itsd.oa.mo.gov/it-governance/enterprise-architecture/security-domain/approved-standards-security-domain), the statewide IT security standards library of ITSD's enterprise architecture. Its viewer page is https://itsd.oa.mo.gov/media/pdf/information-security-policy-cc; the PDF address is the file that viewer page embeds. A 'Compliance Component' document of the Security Domain framework. Printed status (read by rendering the PDF page, because the check boxes are drawn marks with no text layer) is classification Current and status Under Review, not Approved, with Date Approved / Rejected 02/13/2025. OWNER DECISION, see left_out. The index lists it under Approved Standards; it is kept as a document on the index label as the status of record, and the owner may treat it as an under-review revision instead.
+- id: mo-personnel-security
+  sha256: "ba35544b045a2cd63f3d861c9acd7094e61947e224c0005c7199c87ad3b9d295"
+  url: https://itsd.oa.mo.gov/sites/g/files/zuston256/files/media/pdf/2025/04/ta-personnel-security-06-13-06-arc.pdf
+  format: pdf
+  citation: 'Security Domain Technology Area: Personnel Security'
+  title: Personnel Security
+  doc_type: standard
+  jurisdiction: missouri
+  issuing_body: Office of Administration, Information Technology Services Division
+  tags:
+  - cybersecurity
+  recheck: monthly
+  why_relevant: Row 'Personnel Security' of the Security Domain's Approved Standards page (https://itsd.oa.mo.gov/it-governance/enterprise-architecture/security-domain/approved-standards-security-domain), the statewide IT security standards library of ITSD's enterprise architecture. Its viewer page is https://itsd.oa.mo.gov/media/pdf/personnel-security; the PDF address is the file that viewer page embeds. A 'Technology Area' document of the Security Domain framework. Printed status (read by rendering the PDF page, because the check boxes are drawn marks with no text layer) is status Approved (this document form has no classification row), with Date Approved / Rejected 06/13/06. The index lists it as an approved standard.
+- id: mo-agency-security-roles-and-responsibilities-cc
+  sha256: "b090ae0eb44f9601aa114aafd7d3a0064bc85b51cced106850bd1014d0222db3"
+  url: https://itsd.oa.mo.gov/sites/g/files/zuston256/files/media/pdf/2025/04/CC-Agency-Security-Roles-and-Responsibilities.pdf
+  format: pdf
+  citation: 'Security Domain Compliance Component: Agency Security Roles and Responsibilities'
+  title: Agency Security Roles and Responsibilities
+  doc_type: standard
+  jurisdiction: missouri
+  issuing_body: Office of Administration, Information Technology Services Division
+  tags:
+  - cybersecurity
+  recheck: monthly
+  why_relevant: Row 'Agency Security Roles and Responsibilities' of the Security Domain's Approved Standards page (https://itsd.oa.mo.gov/it-governance/enterprise-architecture/security-domain/approved-standards-security-domain), the statewide IT security standards library of ITSD's enterprise architecture. Its viewer page is https://itsd.oa.mo.gov/media/pdf/agency-security-roles-and-responsibilities-cc; the PDF address is the file that viewer page embeds. A 'Compliance Component' document of the Security Domain framework. Printed status (read by rendering the PDF page, because the check boxes are drawn marks with no text layer) is classification Current and status Approved, with Date Approved / Rejected 06/14/2018. The index lists it as an approved standard.
+- id: mo-background-screening-cc
+  sha256: "74c4ef8b91d3ad6ea28e38f41e76aadb8863f7339d08367d7364a9f11a59c75e"
+  url: https://itsd.oa.mo.gov/sites/g/files/zuston256/files/media/pdf/2025/04/CC-Background-Screening.pdf
+  format: pdf
+  citation: 'Security Domain Compliance Component: Background Screening'
+  title: Background Screening
+  doc_type: standard
+  jurisdiction: missouri
+  issuing_body: Office of Administration, Information Technology Services Division
+  tags:
+  - cybersecurity
+  recheck: monthly
+  why_relevant: Row 'Background Screening' of the Security Domain's Approved Standards page (https://itsd.oa.mo.gov/it-governance/enterprise-architecture/security-domain/approved-standards-security-domain), the statewide IT security standards library of ITSD's enterprise architecture. Its viewer page is https://itsd.oa.mo.gov/media/pdf/background-screening-cc; the PDF address is the file that viewer page embeds. A 'Compliance Component' document of the Security Domain framework. Printed status (read by rendering the PDF page, because the check boxes are drawn marks with no text layer) is classification Current and status both Under Review and Approved marked, with Date Approved / Rejected 06/13/06. OWNER DECISION, see left_out. The index lists it under Approved Standards; it is kept as a document on the index label as the status of record, and the owner may treat it as an under-review revision instead.
+- id: mo-maintaining-user-accounts-cc
+  sha256: "27b84c80aa532ad3dbacd200dd851aedc207b26a1a2cc8cec06bbb53c887652e"
+  url: https://itsd.oa.mo.gov/sites/g/files/zuston256/files/media/pdf/2025/04/CC-Maintaining-User-Accounts.pdf
+  format: pdf
+  citation: 'Security Domain Compliance Component: Maintaining User Accounts'
+  title: Maintaining User Accounts
+  doc_type: standard
+  jurisdiction: missouri
+  issuing_body: Office of Administration, Information Technology Services Division
+  tags:
+  - cybersecurity
+  recheck: monthly
+  why_relevant: Row 'Maintaining User Accounts' of the Security Domain's Approved Standards page (https://itsd.oa.mo.gov/it-governance/enterprise-architecture/security-domain/approved-standards-security-domain), the statewide IT security standards library of ITSD's enterprise architecture. Its viewer page is https://itsd.oa.mo.gov/media/pdf/maintaining-user-accounts-cc; the PDF address is the file that viewer page embeds. A 'Compliance Component' document of the Security Domain framework. Printed status (read by rendering the PDF page, because the check boxes are drawn marks with no text layer) is classification Current and status Approved, with Date Approved / Rejected 02/19/2025. The index lists it as an approved standard.
+- id: mo-review-security-controls
+  sha256: "0743dbb4f1f8820a714196863bae46690e464a3477907e7d0d403e05d0efa7cf"
+  url: https://itsd.oa.mo.gov/sites/g/files/zuston256/files/media/pdf/2025/04/ta-review-of-security-controls.pdf
+  format: pdf
+  citation: 'Security Domain Technology Area: Review of Security Controls'
+  title: Review of Security Controls
+  doc_type: standard
+  jurisdiction: missouri
+  issuing_body: Office of Administration, Information Technology Services Division
+  tags:
+  - cybersecurity
+  recheck: monthly
+  why_relevant: Row 'Review of Security Controls' of the Security Domain's Approved Standards page (https://itsd.oa.mo.gov/it-governance/enterprise-architecture/security-domain/approved-standards-security-domain), the statewide IT security standards library of ITSD's enterprise architecture. Its viewer page is https://itsd.oa.mo.gov/media/pdf/review-security-controls; the PDF address is the file that viewer page embeds. A 'Technology Area' document of the Security Domain framework. Printed status (read by rendering the PDF page, because the check boxes are drawn marks with no text layer) is status Approved (this document form has no classification row), with Date Approved / Rejected 04/26/2018. The index lists it as an approved standard.
+- id: mo-separation-duties-cc
+  sha256: "b5c92ae7179b117382203c8030a46c80090b22b808a05f63fd4e10ff3217cc7c"
+  url: https://itsd.oa.mo.gov/sites/g/files/zuston256/files/media/pdf/2025/12/CC-Separation-of-Duties.pdf
+  format: pdf
+  citation: 'Security Domain Compliance Component: Separation of Duties'
+  title: Separation of Duties
+  doc_type: standard
+  jurisdiction: missouri
+  issuing_body: Office of Administration, Information Technology Services Division
+  tags:
+  - cybersecurity
+  recheck: monthly
+  why_relevant: Row 'Separation of Duties' of the Security Domain's Approved Standards page (https://itsd.oa.mo.gov/it-governance/enterprise-architecture/security-domain/approved-standards-security-domain), the statewide IT security standards library of ITSD's enterprise architecture. Its viewer page is https://itsd.oa.mo.gov/media/pdf/separation-duties-cc; the PDF address is the file that viewer page embeds. A 'Compliance Component' document of the Security Domain framework. Printed status (read by rendering the PDF page, because the check boxes are drawn marks with no text layer) is classification Current and status Under Review, not Approved, with Date Approved / Rejected 12/18/2025. OWNER DECISION, see left_out. The index lists it under Approved Standards; it is kept as a document on the index label as the status of record, and the owner may treat it as an under-review revision instead.
+- id: mo-system-life-cycle-security
+  sha256: "bb317ff97c064db0c4066b52a1429b32e303dd7a0b8c5f4e44a9b36ad533ceec"
+  url: https://itsd.oa.mo.gov/sites/g/files/zuston256/files/media/pdf/2025/04/ta-system-life-cycle-security.pdf
+  format: pdf
+  citation: 'Security Domain Technology Area: System Life Cycle Security'
+  title: System Life Cycle Security
+  doc_type: standard
+  jurisdiction: missouri
+  issuing_body: Office of Administration, Information Technology Services Division
+  tags:
+  - cybersecurity
+  recheck: monthly
+  why_relevant: Row 'System Life Cycle Security' of the Security Domain's Approved Standards page (https://itsd.oa.mo.gov/it-governance/enterprise-architecture/security-domain/approved-standards-security-domain), the statewide IT security standards library of ITSD's enterprise architecture. Its viewer page is https://itsd.oa.mo.gov/media/pdf/system-life-cycle-security; the PDF address is the file that viewer page embeds. A 'Technology Area' document of the Security Domain framework. Printed status (read by rendering the PDF page, because the check boxes are drawn marks with no text layer) is classification Current and status Under Review, not Approved, with Date Approved / Rejected 02/13/2025. OWNER DECISION, see left_out. The index lists it under Approved Standards; it is kept as a document on the index label as the status of record, and the owner may treat it as an under-review revision instead.
+- id: mo-acquisition-and-development-phase-cc
+  sha256: "4e41e487cb8f26dd4677ab8b610d9308bb4d5685799a9f378d38b549d6cc3e34"
+  url: https://itsd.oa.mo.gov/sites/g/files/zuston256/files/media/pdf/2025/04/CC-Acquisition-and-Development-Phase.pdf
+  format: pdf
+  citation: 'Security Domain Compliance Component: Acquisition and Development Phase'
+  title: Acquisition and Development Phase
+  doc_type: standard
+  jurisdiction: missouri
+  issuing_body: Office of Administration, Information Technology Services Division
+  tags:
+  - cybersecurity
+  recheck: monthly
+  why_relevant: Row 'Acquisition and Development Phase' of the Security Domain's Approved Standards page (https://itsd.oa.mo.gov/it-governance/enterprise-architecture/security-domain/approved-standards-security-domain), the statewide IT security standards library of ITSD's enterprise architecture. Its viewer page is https://itsd.oa.mo.gov/media/pdf/acquisition-and-development-phase-cc; the PDF address is the file that viewer page embeds. A 'Compliance Component' document of the Security Domain framework. Printed status (read by rendering the PDF page, because the check boxes are drawn marks with no text layer) is classification Current and status Approved, with Date Approved / Rejected 04/26/2018. The index lists it as an approved standard.
+- id: mo-disposal-phase-cc
+  sha256: "7ef1e5b75d7a575164f69797dfcee870a896b4861d21e80e484492b22c57815b"
+  url: https://itsd.oa.mo.gov/sites/g/files/zuston256/files/media/pdf/2025/04/CC-System-Life-Cycle-Disposal-Phase.pdf
+  format: pdf
+  citation: 'Security Domain Compliance Component: Disposal Phase'
+  title: Disposal Phase
+  doc_type: standard
+  jurisdiction: missouri
+  issuing_body: Office of Administration, Information Technology Services Division
+  tags:
+  - cybersecurity
+  recheck: monthly
+  why_relevant: Row 'Disposal Phase' of the Security Domain's Approved Standards page (https://itsd.oa.mo.gov/it-governance/enterprise-architecture/security-domain/approved-standards-security-domain), the statewide IT security standards library of ITSD's enterprise architecture. Its viewer page is https://itsd.oa.mo.gov/media/pdf/disposal-phase-cc; the PDF address is the file that viewer page embeds. A 'Compliance Component' document of the Security Domain framework. Printed status (read by rendering the PDF page, because the check boxes are drawn marks with no text layer) is classification Current and status Under Review, not Approved, with Date Approved / Rejected 02/13/2025. OWNER DECISION, see left_out. The index lists it under Approved Standards; it is kept as a document on the index label as the status of record, and the owner may treat it as an under-review revision instead.
+- id: mo-implementation-phase-cc
+  sha256: "e1af5bb69aa27c0700cf1d098ab1da209ecdbecce32f5c43036e57f8782bd0bc"
+  url: https://itsd.oa.mo.gov/sites/g/files/zuston256/files/media/pdf/2025/04/CC-ImplementationPhase082406.pdf
+  format: pdf
+  citation: 'Security Domain Compliance Component: Implementation Phase'
+  title: Implementation Phase
+  doc_type: standard
+  jurisdiction: missouri
+  issuing_body: Office of Administration, Information Technology Services Division
+  tags:
+  - cybersecurity
+  recheck: monthly
+  why_relevant: Row 'Implementation Phase' of the Security Domain's Approved Standards page (https://itsd.oa.mo.gov/it-governance/enterprise-architecture/security-domain/approved-standards-security-domain), the statewide IT security standards library of ITSD's enterprise architecture. Its viewer page is https://itsd.oa.mo.gov/media/pdf/implementation-phase-cc; the PDF address is the file that viewer page embeds. A 'Compliance Component' document of the Security Domain framework. Printed status (read by rendering the PDF page, because the check boxes are drawn marks with no text layer) is classification Current and status Approved, with no Date Approved / Rejected printed. The index lists it as an approved standard.
+- id: mo-initiation-phase-cc
+  sha256: "c6ef7dc2c2bf491d511d342020ce3678e1b779311597b40814d2f0874789ef8c"
+  url: https://itsd.oa.mo.gov/sites/g/files/zuston256/files/media/pdf/2025/04/CC-InitiationPhase090706.pdf
+  format: pdf
+  citation: 'Security Domain Compliance Component: Initiation Phase'
+  title: Initiation Phase
+  doc_type: standard
+  jurisdiction: missouri
+  issuing_body: Office of Administration, Information Technology Services Division
+  tags:
+  - cybersecurity
+  recheck: monthly
+  why_relevant: Row 'Initiation Phase' of the Security Domain's Approved Standards page (https://itsd.oa.mo.gov/it-governance/enterprise-architecture/security-domain/approved-standards-security-domain), the statewide IT security standards library of ITSD's enterprise architecture. Its viewer page is https://itsd.oa.mo.gov/media/pdf/initiation-phase-cc; the PDF address is the file that viewer page embeds. A 'Compliance Component' document of the Security Domain framework. Printed status (read by rendering the PDF page, because the check boxes are drawn marks with no text layer) is classification Current and status Approved, with no Date Approved / Rejected printed. The index lists it as an approved standard.
+- id: mo-enterprise-patch-management-cc
+  sha256: "24a8ef257bd7f1e2a68fb10e9ff811e346a70ea30f39981029828f2493494cad"
+  url: https://itsd.oa.mo.gov/sites/g/files/zuston256/files/media/pdf/2025/04/CC-Enterprise-Patch-Management.pdf
+  format: pdf
+  citation: 'Security Domain Compliance Component: Enterprise Patch Management'
+  title: Enterprise Patch Management
+  doc_type: standard
+  jurisdiction: missouri
+  issuing_body: Office of Administration, Information Technology Services Division
+  tags:
+  - cybersecurity
+  recheck: monthly
+  why_relevant: Row 'Enterprise Patch Management' of the Security Domain's Approved Standards page (https://itsd.oa.mo.gov/it-governance/enterprise-architecture/security-domain/approved-standards-security-domain), the statewide IT security standards library of ITSD's enterprise architecture. Its viewer page is https://itsd.oa.mo.gov/media/pdf/enterprise-patch-management-cc; the PDF address is the file that viewer page embeds. A 'Compliance Component' document of the Security Domain framework. Printed status (read by rendering the PDF page, because the check boxes are drawn marks with no text layer) is classification Current and status Under Review, not Approved, with Date Approved / Rejected 02/19/2025. OWNER DECISION, see left_out. The index lists it under Approved Standards; it is kept as a document on the index label as the status of record, and the owner may treat it as an under-review revision instead.
+- id: mo-security-risk-management
+  sha256: "6131ad513d40819eb01d84f83c99af989e03a306ff123b791538799795558993"
+  url: https://itsd.oa.mo.gov/sites/g/files/zuston256/files/media/pdf/2025/04/ta-security-risk-management.pdf
+  format: pdf
+  citation: 'Security Domain Technology Area: Security Risk Management'
+  title: Security Risk Management
+  doc_type: standard
+  jurisdiction: missouri
+  issuing_body: Office of Administration, Information Technology Services Division
+  tags:
+  - cybersecurity
+  recheck: monthly
+  why_relevant: Row 'Security Risk Management' of the Security Domain's Approved Standards page (https://itsd.oa.mo.gov/it-governance/enterprise-architecture/security-domain/approved-standards-security-domain), the statewide IT security standards library of ITSD's enterprise architecture. Its viewer page is https://itsd.oa.mo.gov/media/pdf/security-risk-management; the PDF address is the file that viewer page embeds. A 'Technology Area' document of the Security Domain framework. Printed status (read by rendering the PDF page, because the check boxes are drawn marks with no text layer) is status Approved (this document form has no classification row), with Date Approved / Rejected 10/31/2023. The index lists it as an approved standard.
+- id: mo-risk-assessment-cc
+  sha256: "a5781053ca9f0241c323e05d71a7905a7887ebe856b1630816f5f44952913bbb"
+  url: https://itsd.oa.mo.gov/sites/g/files/zuston256/files/media/pdf/2025/12/CC-Risk-Assessment.pdf
+  format: pdf
+  citation: 'Security Domain Compliance Component: Risk Assessment'
+  title: Risk Assessment
+  doc_type: standard
+  jurisdiction: missouri
+  issuing_body: Office of Administration, Information Technology Services Division
+  tags:
+  - cybersecurity
+  recheck: monthly
+  why_relevant: Row 'Risk Assessment' of the Security Domain's Approved Standards page (https://itsd.oa.mo.gov/it-governance/enterprise-architecture/security-domain/approved-standards-security-domain), the statewide IT security standards library of ITSD's enterprise architecture. Its viewer page is https://itsd.oa.mo.gov/media/pdf/risk-assessment-cc; the PDF address is the file that viewer page embeds. A 'Compliance Component' document of the Security Domain framework. Printed status (read by rendering the PDF page, because the check boxes are drawn marks with no text layer) is classification Current and status Approved, with Date Approved / Rejected 12/18/2025. The index lists it as an approved standard.
+- id: mo-risk-framework-cc
+  sha256: "218c94f3128c45f76a26e9e3ca4558dde7dcb638b5133be226fe34a4049d235f"
+  url: https://itsd.oa.mo.gov/sites/g/files/zuston256/files/media/pdf/2025/04/CC-Risk-Framework.pdf
+  format: pdf
+  citation: 'Security Domain Compliance Component: Risk Framework'
+  title: Risk Framework
+  doc_type: standard
+  jurisdiction: missouri
+  issuing_body: Office of Administration, Information Technology Services Division
+  tags:
+  - cybersecurity
+  recheck: monthly
+  why_relevant: Row 'Risk Framework' of the Security Domain's Approved Standards page (https://itsd.oa.mo.gov/it-governance/enterprise-architecture/security-domain/approved-standards-security-domain), the statewide IT security standards library of ITSD's enterprise architecture. Its viewer page is https://itsd.oa.mo.gov/media/pdf/risk-framework-cc; the PDF address is the file that viewer page embeds. A 'Compliance Component' document of the Security Domain framework. Printed status (read by rendering the PDF page, because the check boxes are drawn marks with no text layer) is classification Current and status Approved, with Date Approved / Rejected 10/31/2023. The index lists it as an approved standard.
+- id: mo-risk-monitoring-cc
+  sha256: "fce8bdfa40452360c6e2f32d1a163f677d5103aca6060c9198fccf730ad50c14"
+  url: https://itsd.oa.mo.gov/sites/g/files/zuston256/files/media/pdf/2025/04/CC-Risk-Monitoring_0.pdf
+  format: pdf
+  citation: 'Security Domain Compliance Component: Risk Monitoring'
+  title: Risk Monitoring
+  doc_type: standard
+  jurisdiction: missouri
+  issuing_body: Office of Administration, Information Technology Services Division
+  tags:
+  - cybersecurity
+  recheck: monthly
+  why_relevant: Row 'Risk Monitoring' of the Security Domain's Approved Standards page (https://itsd.oa.mo.gov/it-governance/enterprise-architecture/security-domain/approved-standards-security-domain), the statewide IT security standards library of ITSD's enterprise architecture. Its viewer page is https://itsd.oa.mo.gov/media/pdf/risk-monitoring-cc; the PDF address is the file that viewer page embeds. A 'Compliance Component' document of the Security Domain framework. Printed status (read by rendering the PDF page, because the check boxes are drawn marks with no text layer) is classification Current and status Approved, with Date Approved / Rejected 10/31/2023. The index lists it as an approved standard.
+- id: mo-risk-response-cc
+  sha256: "2ad6a4033aeda0838cb291947d6114bb2c46a494f883a0976d5689aa4d2f8d4f"
+  url: https://itsd.oa.mo.gov/sites/g/files/zuston256/files/media/pdf/2025/04/CC-Risk-Response.pdf
+  format: pdf
+  citation: 'Security Domain Compliance Component: Risk Response'
+  title: Risk Response
+  doc_type: standard
+  jurisdiction: missouri
+  issuing_body: Office of Administration, Information Technology Services Division
+  tags:
+  - cybersecurity
+  recheck: monthly
+  why_relevant: Row 'Risk Response' of the Security Domain's Approved Standards page (https://itsd.oa.mo.gov/it-governance/enterprise-architecture/security-domain/approved-standards-security-domain), the statewide IT security standards library of ITSD's enterprise architecture. Its viewer page is https://itsd.oa.mo.gov/media/pdf/risk-response-cc; the PDF address is the file that viewer page embeds. A 'Compliance Component' document of the Security Domain framework. Printed status (read by rendering the PDF page, because the check boxes are drawn marks with no text layer) is classification Current and status Approved, with Date Approved / Rejected 10/31/2023. The index lists it as an approved standard.
+- id: mo-system-security-certification-and-accreditation
+  sha256: "9f1b459e26a1e681301f2791341445c58a3ebf0d94cd3beba4ad32e5e3ae07b4"
+  url: https://itsd.oa.mo.gov/sites/g/files/zuston256/files/media/pdf/2025/04/ta-system-security-certification-accreditation.pdf
+  format: pdf
+  citation: 'Security Domain Technology Area: System Security Certification and Accreditation'
+  title: System Security Certification and Accreditation
+  doc_type: standard
+  jurisdiction: missouri
+  issuing_body: Office of Administration, Information Technology Services Division
+  tags:
+  - cybersecurity
+  recheck: monthly
+  why_relevant: 'Row ''System Security Certification and Accreditation'' of the Security Domain''s Approved Standards page (https://itsd.oa.mo.gov/it-governance/enterprise-architecture/security-domain/approved-standards-security-domain), the statewide IT security standards library of ITSD''s enterprise architecture. Its viewer page is https://itsd.oa.mo.gov/media/pdf/system-security-certification-and-accreditation; the PDF address is the file that viewer page embeds. A ''Technology Area'' document of the Security Domain framework. Printed status (read by rendering the PDF page, because the check boxes are drawn marks with no text layer) is status Approved (this document form has no classification row), with Date Approved / Rejected 07/28/2021. The index lists it as an approved standard. Page(s) 2 of the PDF are blank (looked at: rendered white, no image, no text); listed in no_text_pages.'
+  no_text_pages:
+  - 2
+- id: mo-system-security-certification-and-accreditation-process
+  sha256: "7d1a0b66d9e5f672e0595fdb2e380f952e5e3725bd921770a477760d3aa2e94f"
+  url: https://itsd.oa.mo.gov/sites/g/files/zuston256/files/media/pdf/2025/04/CC-System-Security-Certification-and-Accreditation-Process.pdf
+  format: pdf
+  citation: 'Security Domain Compliance Component: System Security Certification and Accreditation Process'
+  title: System Security Certification and Accreditation Process
+  doc_type: standard
+  jurisdiction: missouri
+  issuing_body: Office of Administration, Information Technology Services Division
+  tags:
+  - cybersecurity
+  recheck: monthly
+  why_relevant: Row 'System Security Certification and Accreditation Process' of the Security Domain's Approved Standards page (https://itsd.oa.mo.gov/it-governance/enterprise-architecture/security-domain/approved-standards-security-domain), the statewide IT security standards library of ITSD's enterprise architecture. Its viewer page is https://itsd.oa.mo.gov/media/pdf/system-security-certification-and-accreditation-process; the PDF address is the file that viewer page embeds. A 'Compliance Component' document of the Security Domain framework. Printed status (read by rendering the PDF page, because the check boxes are drawn marks with no text layer) is classification Current and status Approved, with Date Approved / Rejected 07/28/2021. The index lists it as an approved standard.
+- id: mo-system-security-planning
+  sha256: "6a7380bc9d499a5ff7e7fe503521c53d8cefdb028df00a56e79c973fcc037c6a"
+  url: https://itsd.oa.mo.gov/sites/g/files/zuston256/files/media/pdf/2025/04/ta-system-security-planning_0.pdf
+  format: pdf
+  citation: 'Security Domain Technology Area: System Security Planning'
+  title: System Security Planning
+  doc_type: standard
+  jurisdiction: missouri
+  issuing_body: Office of Administration, Information Technology Services Division
+  tags:
+  - cybersecurity
+  recheck: monthly
+  why_relevant: Row 'System Security Planning' of the Security Domain's Approved Standards page (https://itsd.oa.mo.gov/it-governance/enterprise-architecture/security-domain/approved-standards-security-domain), the statewide IT security standards library of ITSD's enterprise architecture. Its viewer page is https://itsd.oa.mo.gov/media/pdf/system-security-planning; the PDF address is the file that viewer page embeds. A 'Technology Area' document of the Security Domain framework. Printed status (read by rendering the PDF page, because the check boxes are drawn marks with no text layer) is status Approved (this document form has no classification row), with Date Approved / Rejected 07/28/2021. The index lists it as an approved standard.
+- id: mo-system-security-planning-procedure-cc
+  sha256: "2cf949e7f97b73c985f640b615be89727ca50c63cc84450ef18c9ee917b7ee62"
+  url: https://itsd.oa.mo.gov/sites/g/files/zuston256/files/media/pdf/2025/04/CC-System-Security-Planning-Procedure.pdf
+  format: pdf
+  citation: 'Security Domain Compliance Component: System Security Planning Procedure'
+  title: System Security Planning Procedure
+  doc_type: standard
+  jurisdiction: missouri
+  issuing_body: Office of Administration, Information Technology Services Division
+  tags:
+  - cybersecurity
+  recheck: monthly
+  why_relevant: Row 'System Security Planning Procedure' of the Security Domain's Approved Standards page (https://itsd.oa.mo.gov/it-governance/enterprise-architecture/security-domain/approved-standards-security-domain), the statewide IT security standards library of ITSD's enterprise architecture. Its viewer page is https://itsd.oa.mo.gov/media/pdf/system-security-planning-procedure-cc; the PDF address is the file that viewer page embeds. A 'Compliance Component' document of the Security Domain framework. Printed status (read by rendering the PDF page, because the check boxes are drawn marks with no text layer) is classification Current and status Under Review, not Approved, with Date Approved / Rejected 02/13/2025. OWNER DECISION, see left_out. The index lists it under Approved Standards; it is kept as a document on the index label as the status of record, and the owner may treat it as an under-review revision instead.
+- id: mo-data-integrity
+  sha256: "dd133799171c80fac6ab3bef667c6ba02fdb7b470b2a52c45d5dcafe0010aee3"
+  url: https://itsd.oa.mo.gov/sites/g/files/zuston256/files/media/pdf/2025/04/ta-data-integrity-08-30-07.pdf
+  format: pdf
+  citation: 'Security Domain Technology Area: Data Integrity'
+  title: Data Integrity
+  doc_type: standard
+  jurisdiction: missouri
+  issuing_body: Office of Administration, Information Technology Services Division
+  tags:
+  - cybersecurity
+  recheck: monthly
+  why_relevant: Row 'Data Integrity' of the Security Domain's Approved Standards page (https://itsd.oa.mo.gov/it-governance/enterprise-architecture/security-domain/approved-standards-security-domain), the statewide IT security standards library of ITSD's enterprise architecture. Its viewer page is https://itsd.oa.mo.gov/media/pdf/data-integrity; the PDF address is the file that viewer page embeds. A 'Technology Area' document of the Security Domain framework. Printed status (read by rendering the PDF page, because the check boxes are drawn marks with no text layer) is status Approved (this document form has no classification row), with Date Approved / Rejected 10/16/07. The index lists it as an approved standard.
+- id: mo-data-integrity-and-validation-cc
+  sha256: "c40099ea9ba21d850d2413e059920fc9044e6b02f65cab30384e3f302eb87150"
+  url: https://itsd.oa.mo.gov/sites/g/files/zuston256/files/media/pdf/2025/04/CC-DataIntegrityandValidation.pdf
+  format: pdf
+  citation: 'Security Domain Compliance Component: Data Integrity and Validation'
+  title: Data Integrity and Validation
+  doc_type: standard
+  jurisdiction: missouri
+  issuing_body: Office of Administration, Information Technology Services Division
+  tags:
+  - cybersecurity
+  recheck: monthly
+  why_relevant: Row 'Data Integrity and Validation' of the Security Domain's Approved Standards page (https://itsd.oa.mo.gov/it-governance/enterprise-architecture/security-domain/approved-standards-security-domain), the statewide IT security standards library of ITSD's enterprise architecture. Its viewer page is https://itsd.oa.mo.gov/media/pdf/data-integrity-and-validation-cc; the PDF address is the file that viewer page embeds. A 'Compliance Component' document of the Security Domain framework. Printed status (read by rendering the PDF page, because the check boxes are drawn marks with no text layer) is classification Current and status Approved, with Date Approved / Rejected 10/16/07. The index lists it as an approved standard.
+- id: mo-hardware-system-software-maintenance
+  sha256: "299aae2822fe6c3b97ab11977e010a81c519e793c4000e54a62f83c2a18c1993"
+  url: https://itsd.oa.mo.gov/sites/g/files/zuston256/files/media/pdf/2025/04/ta-hardware-system-software-maintenance.pdf
+  format: pdf
+  citation: 'Security Domain Technology Area: Hardware & System Software Maintenance'
+  title: Hardware & System Software Maintenance
+  doc_type: standard
+  jurisdiction: missouri
+  issuing_body: Office of Administration, Information Technology Services Division
+  tags:
+  - cybersecurity
+  recheck: monthly
+  why_relevant: Row 'Hardware & System Software Maintenance' of the Security Domain's Approved Standards page (https://itsd.oa.mo.gov/it-governance/enterprise-architecture/security-domain/approved-standards-security-domain), the statewide IT security standards library of ITSD's enterprise architecture. Its viewer page is https://itsd.oa.mo.gov/media/pdf/hardware-system-software-maintenance; the PDF address is the file that viewer page embeds. A 'Technology Area' document of the Security Domain framework. Printed status (read by rendering the PDF page, because the check boxes are drawn marks with no text layer) is status Approved (this document form has no classification row), with Date Approved / Rejected 11/20/07. The index lists it as an approved standard.
+  identity_text: Hardware and System Software Maintenance
+- id: mo-configuration-management-cc
+  sha256: "77504baeb478d377a9e7c5b9f2e9b23ba7eb9184617265d11c64ba7df4ffd82e"
+  url: https://itsd.oa.mo.gov/sites/g/files/zuston256/files/media/pdf/2025/04/CC-Configuration-Management.pdf
+  format: pdf
+  citation: 'Security Domain Compliance Component: Configuration Management'
+  title: Configuration Management
+  doc_type: standard
+  jurisdiction: missouri
+  issuing_body: Office of Administration, Information Technology Services Division
+  tags:
+  - cybersecurity
+  recheck: monthly
+  why_relevant: Row 'Configuration Management' of the Security Domain's Approved Standards page (https://itsd.oa.mo.gov/it-governance/enterprise-architecture/security-domain/approved-standards-security-domain), the statewide IT security standards library of ITSD's enterprise architecture. Its viewer page is https://itsd.oa.mo.gov/media/pdf/configuration-management-cc; the PDF address is the file that viewer page embeds. A 'Compliance Component' document of the Security Domain framework. Printed status (read by rendering the PDF page, because the check boxes are drawn marks with no text layer) is classification Current and status Under Review, not Approved, with Date Approved / Rejected 11/19/2024. OWNER DECISION, see left_out. The index lists it under Approved Standards; it is kept as a document on the index label as the status of record, and the owner may treat it as an under-review revision instead.
+- id: mo-incident-response
+  sha256: "ba90861ba79b83359bdd7341ea4ac0a094868f8221a50ab8c6f07ea39c4a5726"
+  url: https://itsd.oa.mo.gov/sites/g/files/zuston256/files/media/pdf/2025/04/ta-incident-response.pdf
+  format: pdf
+  citation: 'Security Domain Technology Area: Incident Response'
+  title: Incident Response
+  doc_type: standard
+  jurisdiction: missouri
+  issuing_body: Office of Administration, Information Technology Services Division
+  tags:
+  - cybersecurity
+  recheck: monthly
+  why_relevant: Row 'Incident Response' of the Security Domain's Approved Standards page (https://itsd.oa.mo.gov/it-governance/enterprise-architecture/security-domain/approved-standards-security-domain), the statewide IT security standards library of ITSD's enterprise architecture. Its viewer page is https://itsd.oa.mo.gov/media/pdf/incident-response; the PDF address is the file that viewer page embeds. A 'Technology Area' document of the Security Domain framework. Printed status (read by rendering the PDF page, because the check boxes are drawn marks with no text layer) is classification Current and status Approved, with Date Approved / Rejected 7/17/2018. The index lists it as an approved standard.
+- id: mo-incident-response-reporting-cc
+  sha256: "a9edc1e5c0330d842b314ec3009d2f39c0c2a60d8e2c083433afc09000750f53"
+  url: https://itsd.oa.mo.gov/sites/g/files/zuston256/files/media/pdf/2025/12/CC-Incident-Response-Reporting.pdf
+  format: pdf
+  citation: 'Security Domain Compliance Component: Incident Response Reporting'
+  title: Incident Response Reporting
+  doc_type: standard
+  jurisdiction: missouri
+  issuing_body: Office of Administration, Information Technology Services Division
+  tags:
+  - cybersecurity
+  recheck: monthly
+  why_relevant: Row 'Incident Response Reporting' of the Security Domain's Approved Standards page (https://itsd.oa.mo.gov/it-governance/enterprise-architecture/security-domain/approved-standards-security-domain), the statewide IT security standards library of ITSD's enterprise architecture. Its viewer page is https://itsd.oa.mo.gov/media/pdf/incident-response-reporting-cc; the PDF address is the file that viewer page embeds. A 'Compliance Component' document of the Security Domain framework. Printed status (read by rendering the PDF page, because the check boxes are drawn marks with no text layer) is classification Current and status Approved, with Date Approved / Rejected 12/18/2025. The index lists it as an approved standard.
+  identity_text: Incident Response Policies, Procedures and Training
+- id: mo-risk-level-awareness-countermeasures-cc
+  sha256: "6253789df57e4f03aaa41bdc5f530f34c21a4330839575ba5cf5f1617c27ad97"
+  url: https://itsd.oa.mo.gov/sites/g/files/zuston256/files/media/pdf/2025/04/CC-IncidentRiskLevelAwarenessAssessCountermeasures123102.pdf
+  format: pdf
+  citation: 'Security Domain Compliance Component: Risk Level Awareness - Countermeasures'
+  title: Risk Level Awareness - Countermeasures
+  doc_type: standard
+  jurisdiction: missouri
+  issuing_body: Office of Administration, Information Technology Services Division
+  tags:
+  - cybersecurity
+  recheck: monthly
+  why_relevant: Row 'Risk Level Awareness - Countermeasures' of the Security Domain's Approved Standards page (https://itsd.oa.mo.gov/it-governance/enterprise-architecture/security-domain/approved-standards-security-domain), the statewide IT security standards library of ITSD's enterprise architecture. Its viewer page is https://itsd.oa.mo.gov/media/pdf/risk-level-awareness-countermeasures-cc; the PDF address is the file that viewer page embeds. A 'Compliance Component' document of the Security Domain framework. Printed status (read by rendering the PDF page, because the check boxes are drawn marks with no text layer) is classification Current and status Approved, with Date Approved / Rejected 01-21-2003. The index lists it as an approved standard.
+  identity_text: Incident Risk Level Awareness, Assessment and Countermeasures
+- id: mo-physical-security
+  sha256: "30dbe37d833d896fbb91e94b364bd8de6a96f0cc3b3875d96f0509bd6894dd18"
+  url: https://itsd.oa.mo.gov/sites/g/files/zuston256/files/media/pdf/2025/04/ta-physical-security-06-13-06-arc.pdf
+  format: pdf
+  citation: 'Security Domain Technology Area: Physical Security'
+  title: Physical Security
+  doc_type: standard
+  jurisdiction: missouri
+  issuing_body: Office of Administration, Information Technology Services Division
+  tags:
+  - cybersecurity
+  recheck: monthly
+  why_relevant: Row 'Physical Security' of the Security Domain's Approved Standards page (https://itsd.oa.mo.gov/it-governance/enterprise-architecture/security-domain/approved-standards-security-domain), the statewide IT security standards library of ITSD's enterprise architecture. Its viewer page is https://itsd.oa.mo.gov/media/pdf/physical-security; the PDF address is the file that viewer page embeds. A 'Technology Area' document of the Security Domain framework. Printed status (read by rendering the PDF page, because the check boxes are drawn marks with no text layer) is status Approved (this document form has no classification row), with Date Approved / Rejected 06/13/06. The index lists it as an approved standard.
+- id: mo-physical-and-environmental-protection-controls-cc
+  sha256: "252d3bf5c2b409107dcc3cbe1818c1c3dedb42595c38e57f653b8eed7b20016b"
+  url: https://itsd.oa.mo.gov/sites/g/files/zuston256/files/media/pdf/2025/12/CC-Physical-and-Environmental-Protection-Controls.pdf
+  format: pdf
+  citation: 'Security Domain Compliance Component: Physical and Environmental Protection Controls'
+  title: Physical and Environmental Protection Controls
+  doc_type: standard
+  jurisdiction: missouri
+  issuing_body: Office of Administration, Information Technology Services Division
+  tags:
+  - cybersecurity
+  recheck: monthly
+  why_relevant: Row 'Physical and Environmental Protection Controls' of the Security Domain's Approved Standards page (https://itsd.oa.mo.gov/it-governance/enterprise-architecture/security-domain/approved-standards-security-domain), the statewide IT security standards library of ITSD's enterprise architecture. Its viewer page is https://itsd.oa.mo.gov/media/pdf/physical-and-environmental-protection-controls-cc; the PDF address is the file that viewer page embeds. A 'Compliance Component' document of the Security Domain framework. Printed status (read by rendering the PDF page, because the check boxes are drawn marks with no text layer) is classification Current and status Under Review, not Approved, with Date Approved / Rejected 12/18/2025. OWNER DECISION, see left_out. The index lists it under Approved Standards; it is kept as a document on the index label as the status of record, and the owner may treat it as an under-review revision instead.
+- id: mo-production-input-and-output-controls
+  sha256: "cee17198fcad3fe23f7e3ef2eeeff7866e4e6517d1f43e8aa5b25e9a166544cf"
+  url: https://itsd.oa.mo.gov/sites/g/files/zuston256/files/media/pdf/2025/04/ta-production-input-output-controls-09-06-07.pdf
+  format: pdf
+  citation: 'Security Domain Technology Area: Production, Input and Output Controls'
+  title: Production, Input and Output Controls
+  doc_type: standard
+  jurisdiction: missouri
+  issuing_body: Office of Administration, Information Technology Services Division
+  tags:
+  - cybersecurity
+  recheck: monthly
+  why_relevant: Row 'Production, Input and Output Controls' of the Security Domain's Approved Standards page (https://itsd.oa.mo.gov/it-governance/enterprise-architecture/security-domain/approved-standards-security-domain), the statewide IT security standards library of ITSD's enterprise architecture. Its viewer page is https://itsd.oa.mo.gov/media/pdf/production-input-and-output-controls; the PDF address is the file that viewer page embeds. A 'Technology Area' document of the Security Domain framework. Printed status (read by rendering the PDF page, because the check boxes are drawn marks with no text layer) is status Approved (this document form has no classification row), with Date Approved / Rejected 10/16/07. The index lists it as an approved standard.
+- id: mo-user-support-cc
+  sha256: "64c4e5671ae09f63e647b926dc316c4b4a7b48f02d55eed99582261e24d1a0c9"
+  url: https://itsd.oa.mo.gov/sites/g/files/zuston256/files/media/pdf/2025/04/CC-UserSupport.pdf
+  format: pdf
+  citation: 'Security Domain Compliance Component: User Support'
+  title: User Support
+  doc_type: standard
+  jurisdiction: missouri
+  issuing_body: Office of Administration, Information Technology Services Division
+  tags:
+  - cybersecurity
+  recheck: monthly
+  why_relevant: Row 'User Support' of the Security Domain's Approved Standards page (https://itsd.oa.mo.gov/it-governance/enterprise-architecture/security-domain/approved-standards-security-domain), the statewide IT security standards library of ITSD's enterprise architecture. Its viewer page is https://itsd.oa.mo.gov/media/pdf/user-support-cc; the PDF address is the file that viewer page embeds. A 'Compliance Component' document of the Security Domain framework. Printed status (read by rendering the PDF page, because the check boxes are drawn marks with no text layer) is classification Current and status Approved, with Date Approved / Rejected 11/20/07. The index lists it as an approved standard.
+- id: mo-security-awareness-training-and-education
+  sha256: "169ab2544425220a1d06dc87e5f7d67a4570ca1e91aa75530da9a64c896ecde2"
+  url: https://itsd.oa.mo.gov/sites/g/files/zuston256/files/media/pdf/2025/04/ta-security-awareness-training.pdf
+  format: pdf
+  citation: 'Security Domain Technology Area: Security Awareness Training and Education'
+  title: Security Awareness Training and Education
+  doc_type: standard
+  jurisdiction: missouri
+  issuing_body: Office of Administration, Information Technology Services Division
+  tags:
+  - cybersecurity
+  recheck: monthly
+  why_relevant: Row 'Security Awareness Training and Education' of the Security Domain's Approved Standards page (https://itsd.oa.mo.gov/it-governance/enterprise-architecture/security-domain/approved-standards-security-domain), the statewide IT security standards library of ITSD's enterprise architecture. Its viewer page is https://itsd.oa.mo.gov/media/pdf/security-awareness-training-and-education; the PDF address is the file that viewer page embeds. A 'Technology Area' document of the Security Domain framework. Printed status (read by rendering the PDF page, because the check boxes are drawn marks with no text layer) is classification Current and status Under Review, not Approved, with Date Approved / Rejected 05/16/2019. OWNER DECISION, see left_out. The index lists it under Approved Standards; it is kept as a document on the index label as the status of record, and the owner may treat it as an under-review revision instead.
+  identity_text: Security Awareness Training
+- id: mo-cyber-security-awareness-trainingcc
+  sha256: "007b31af9cdd53edb2369bf0ec9a3db82e5b042eaa7fa3618ef99e003fcbbdf3"
+  url: https://itsd.oa.mo.gov/sites/g/files/zuston256/files/media/pdf/2025/04/CC-Cyber-Security-User-Awareness.pdf
+  format: pdf
+  citation: 'Security Domain Compliance Component: Cyber Security Awareness Training'
+  title: Cyber Security Awareness Training
+  doc_type: standard
+  jurisdiction: missouri
+  issuing_body: Office of Administration, Information Technology Services Division
+  tags:
+  - cybersecurity
+  recheck: monthly
+  why_relevant: Row 'Cyber Security Awareness Training' of the Security Domain's Approved Standards page (https://itsd.oa.mo.gov/it-governance/enterprise-architecture/security-domain/approved-standards-security-domain), the statewide IT security standards library of ITSD's enterprise architecture. Its viewer page is https://itsd.oa.mo.gov/media/pdf/cyber-security-awareness-trainingcc; the PDF address is the file that viewer page embeds. A 'Compliance Component' document of the Security Domain framework. Printed status (read by rendering the PDF page, because the check boxes are drawn marks with no text layer) is classification Current and status Approved, with Date Approved / Rejected 09/27/2007. The index lists it as an approved standard.
+  identity_text: Cyber Security User Awareness
+- id: mo-security-documentation
+  sha256: "cee4957d6febe391b2021d035cc843d9585fd06bf30f84ce895b49c18c48a089"
+  url: https://itsd.oa.mo.gov/sites/g/files/zuston256/files/media/pdf/2025/04/ta-security-documentation-06-22-06.pdf
+  format: pdf
+  citation: 'Security Domain Technology Area: Security Documentation'
+  title: Security Documentation
+  doc_type: standard
+  jurisdiction: missouri
+  issuing_body: Office of Administration, Information Technology Services Division
+  tags:
+  - cybersecurity
+  recheck: monthly
+  why_relevant: Row 'Security Documentation' of the Security Domain's Approved Standards page (https://itsd.oa.mo.gov/it-governance/enterprise-architecture/security-domain/approved-standards-security-domain), the statewide IT security standards library of ITSD's enterprise architecture. Its viewer page is https://itsd.oa.mo.gov/media/pdf/security-documentation; the PDF address is the file that viewer page embeds. A 'Technology Area' document of the Security Domain framework. Printed status (read by rendering the PDF page, because the check boxes are drawn marks with no text layer) is status Approved (this document form has no classification row), with Date Approved / Rejected 7/11/06. The index lists it as an approved standard.
+- id: mo-minimum-system-security-documentation-cc
+  sha256: "73bcee6728d4ef2fb6a76077e19da0d1124fea6a70cc611ec93c16430593984d"
+  url: https://itsd.oa.mo.gov/sites/g/files/zuston256/files/media/pdf/2025/04/CC-MinimumSystemSecurityDocumentation03-23-07ARC.pdf
+  format: pdf
+  citation: 'Security Domain Compliance Component: Minimum System Security Documentation'
+  title: Minimum System Security Documentation
+  doc_type: standard
+  jurisdiction: missouri
+  issuing_body: Office of Administration, Information Technology Services Division
+  tags:
+  - cybersecurity
+  recheck: monthly
+  why_relevant: Row 'Minimum System Security Documentation' of the Security Domain's Approved Standards page (https://itsd.oa.mo.gov/it-governance/enterprise-architecture/security-domain/approved-standards-security-domain), the statewide IT security standards library of ITSD's enterprise architecture. Its viewer page is https://itsd.oa.mo.gov/media/pdf/minimum-system-security-documentation-cc; the PDF address is the file that viewer page embeds. A 'Compliance Component' document of the Security Domain framework. Printed status (read by rendering the PDF page, because the check boxes are drawn marks with no text layer) is classification Current and status Approved, with Date Approved / Rejected 03/23/2007. The index lists it as an approved standard.
+- id: mo-supply-chain-risk-management
+  sha256: "07db211ebb89d0876578828da159e48fff7f5a61fd5bb919b7152fbe5c621e49"
+  url: https://itsd.oa.mo.gov/sites/g/files/zuston256/files/media/pdf/2025/04/ta-supply-chain-risk-management.pdf
+  format: pdf
+  citation: 'Security Domain Technology Area: Supply Chain Risk Management'
+  title: Supply Chain Risk Management
+  doc_type: standard
+  jurisdiction: missouri
+  issuing_body: Office of Administration, Information Technology Services Division
+  tags:
+  - cybersecurity
+  recheck: monthly
+  why_relevant: Row 'Supply Chain Risk Management' of the Security Domain's Approved Standards page (https://itsd.oa.mo.gov/it-governance/enterprise-architecture/security-domain/approved-standards-security-domain), the statewide IT security standards library of ITSD's enterprise architecture. Its viewer page is https://itsd.oa.mo.gov/media/pdf/supply-chain-risk-management; the PDF address is the file that viewer page embeds. A 'Technology Area' document of the Security Domain framework. Printed status (read by rendering the PDF page, because the check boxes are drawn marks with no text layer) is classification Current and status Approved, with Date Approved / Rejected 10/03/2024. The index lists it as an approved standard.
+- id: mo-supply-chain-risk-management-acquisition-cc
+  sha256: "7242cc6b8875721ee8c9bbd10f2f1c83831351dab1251836cc2fc86e03e0e308"
+  url: https://itsd.oa.mo.gov/sites/g/files/zuston256/files/media/pdf/2025/04/CC-Supply-Chain-Risk-Management-Acquisition.pdf
+  format: pdf
+  citation: 'Security Domain Compliance Component: Supply Chain Risk Management Acquisition'
+  title: Supply Chain Risk Management Acquisition
+  doc_type: standard
+  jurisdiction: missouri
+  issuing_body: Office of Administration, Information Technology Services Division
+  tags:
+  - cybersecurity
+  recheck: monthly
+  why_relevant: Row 'Supply Chain Risk Management Acquisition' of the Security Domain's Approved Standards page (https://itsd.oa.mo.gov/it-governance/enterprise-architecture/security-domain/approved-standards-security-domain), the statewide IT security standards library of ITSD's enterprise architecture. Its viewer page is https://itsd.oa.mo.gov/media/pdf/supply-chain-risk-management-acquisition-cc; the PDF address is the file that viewer page embeds. A 'Compliance Component' document of the Security Domain framework. Printed status (read by rendering the PDF page, because the check boxes are drawn marks with no text layer) is classification Current and status Approved, with Date Approved / Rejected 10/03/2024. The index lists it as an approved standard.
+- id: mo-supply-chain-risk-management-plan-cc
+  sha256: "822cfe49e2405de6dac117cc8607ba71917471607d096e9f32033213f07f3708"
+  url: https://itsd.oa.mo.gov/sites/g/files/zuston256/files/media/pdf/2025/04/CC-Supply-Chain-Risk-Management-Plan.pdf
+  format: pdf
+  citation: 'Security Domain Compliance Component: Supply Chain Risk Management Plan'
+  title: Supply Chain Risk Management Plan
+  doc_type: standard
+  jurisdiction: missouri
+  issuing_body: Office of Administration, Information Technology Services Division
+  tags:
+  - cybersecurity
+  recheck: monthly
+  why_relevant: Row 'Supply Chain Risk Management Plan' of the Security Domain's Approved Standards page (https://itsd.oa.mo.gov/it-governance/enterprise-architecture/security-domain/approved-standards-security-domain), the statewide IT security standards library of ITSD's enterprise architecture. Its viewer page is https://itsd.oa.mo.gov/media/pdf/supply-chain-risk-management-plan-cc; the PDF address is the file that viewer page embeds. A 'Compliance Component' document of the Security Domain framework. Printed status (read by rendering the PDF page, because the check boxes are drawn marks with no text layer) is classification Current and status Approved, with Date Approved / Rejected 10/03/2024. The index lists it as an approved standard.
+- id: mo-operational-controls
+  sha256: "b168f4f595863a5eee289d4a4c5af56d149d5bc20a52f8ae9907a4f52de658c2"
+  url: https://itsd.oa.mo.gov/sites/g/files/zuston256/files/media/pdf/2025/04/dsp-operational-controls-12-31-02.pdf
+  format: pdf
+  citation: 'Security Domain Discipline: Operational Controls'
+  title: Operational Controls
+  doc_type: standard
+  jurisdiction: missouri
+  issuing_body: Office of Administration, Information Technology Services Division
+  tags:
+  - cybersecurity
+  recheck: monthly
+  why_relevant: 'Row ''Operational Controls'' of the Security Domain''s Approved Standards page (https://itsd.oa.mo.gov/it-governance/enterprise-architecture/security-domain/approved-standards-security-domain), the statewide IT security standards library of ITSD''s enterprise architecture. Its viewer page is https://itsd.oa.mo.gov/media/pdf/operational-controls; the PDF address is the file that viewer page embeds. A ''Discipline'' document of the Security Domain framework. Printed status (read by rendering the PDF page, because the check boxes are drawn marks with no text layer) is status Approved (this document form has no classification row), with Date Approved / Rejected 01-21-2003. The index lists it as an approved standard. Page(s) 3 of the PDF are blank (looked at: rendered white, no image, no text); listed in no_text_pages.'
+  no_text_pages:
+  - 3
+- id: mo-contingency-planning
+  sha256: "306529e6ff2069fde92939de0d94f5566a226a5865db595df81e2bfa17969651"
+  url: https://itsd.oa.mo.gov/sites/g/files/zuston256/files/media/pdf/2025/04/ta-contingency-planning.pdf
+  format: pdf
+  citation: 'Security Domain Technology Area: Contingency Planning'
+  title: Contingency Planning
+  doc_type: standard
+  jurisdiction: missouri
+  issuing_body: Office of Administration, Information Technology Services Division
+  tags:
+  - cybersecurity
+  recheck: monthly
+  why_relevant: Row 'Contingency Planning' of the Security Domain's Approved Standards page (https://itsd.oa.mo.gov/it-governance/enterprise-architecture/security-domain/approved-standards-security-domain), the statewide IT security standards library of ITSD's enterprise architecture. Its viewer page is https://itsd.oa.mo.gov/media/pdf/contingency-planning; the PDF address is the file that viewer page embeds. A 'Technology Area' document of the Security Domain framework. Printed status (read by rendering the PDF page, because the check boxes are drawn marks with no text layer) is classification Current and status Approved, with Date Approved / Rejected 11/28/2006. The index lists it as an approved standard.
+- id: mo-contingency-plan-development-documentation-and-technical-considerations-cc
+  sha256: "383361e2015097c025185e321f4f355ce3b7ce5c0d4a0ef907bdbee000c5f48d"
+  url: https://itsd.oa.mo.gov/sites/g/files/zuston256/files/media/pdf/2025/04/CC-Contingency-Planning-Process.pdf
+  format: pdf
+  citation: 'Security Domain Compliance Component: Contingency Plan Development, Documentation and Technical Considerations'
+  title: Contingency Plan Development, Documentation and Technical Considerations
+  doc_type: standard
+  jurisdiction: missouri
+  issuing_body: Office of Administration, Information Technology Services Division
+  tags:
+  - cybersecurity
+  recheck: monthly
+  why_relevant: Row 'Contingency Plan Development, Documentation and Technical Considerations' of the Security Domain's Approved Standards page (https://itsd.oa.mo.gov/it-governance/enterprise-architecture/security-domain/approved-standards-security-domain), the statewide IT security standards library of ITSD's enterprise architecture. Its viewer page is https://itsd.oa.mo.gov/media/pdf/contingency-plan-development-documentation-and-technical-considerations-cc; the PDF address is the file that viewer page embeds. A 'Compliance Component' document of the Security Domain framework. Printed status (read by rendering the PDF page, because the check boxes are drawn marks with no text layer) is classification Current and status Approved, with Date Approved / Rejected 11/28/2006. The index lists it as an approved standard.
+  identity_text: Contingency Planning Process
+- id: mo-contingency-plan-testing-training-exercises-and-maintenance-cc
+  sha256: "29d5db794d1ba7c755d0f4f8dab0b2f62668bff6da55635a3d463ec88084d3db"
+  url: https://itsd.oa.mo.gov/sites/g/files/zuston256/files/media/pdf/2025/04/CC-Contingency-Planning-Testing.pdf
+  format: pdf
+  citation: 'Security Domain Compliance Component: Contingency Plan Testing, Training, Exercises and Maintenance'
+  title: Contingency Plan Testing, Training, Exercises and Maintenance
+  doc_type: standard
+  jurisdiction: missouri
+  issuing_body: Office of Administration, Information Technology Services Division
+  tags:
+  - cybersecurity
+  recheck: monthly
+  why_relevant: Row 'Contingency Plan Testing, Training, Exercises and Maintenance' of the Security Domain's Approved Standards page (https://itsd.oa.mo.gov/it-governance/enterprise-architecture/security-domain/approved-standards-security-domain), the statewide IT security standards library of ITSD's enterprise architecture. Its viewer page is https://itsd.oa.mo.gov/media/pdf/contingency-plan-testing-training-exercises-and-maintenance-cc; the PDF address is the file that viewer page embeds. A 'Compliance Component' document of the Security Domain framework. Printed status (read by rendering the PDF page, because the check boxes are drawn marks with no text layer) is classification Current and status Under Review, not Approved, with Date Approved / Rejected 11/28/2006. OWNER DECISION, see left_out. The index lists it under Approved Standards; it is kept as a document on the index label as the status of record, and the owner may treat it as an under-review revision instead.
+- id: mo-technical-controls
+  sha256: "eabc83407490f9f2c639faf36c1ac4f345fc8f661611cd05403f676870f90c2a"
+  url: https://itsd.oa.mo.gov/sites/g/files/zuston256/files/media/pdf/2025/04/dsp-technical-controls-12-31-02.pdf
+  format: pdf
+  citation: 'Security Domain Discipline: Technical Controls'
+  title: Technical Controls
+  doc_type: standard
+  jurisdiction: missouri
+  issuing_body: Office of Administration, Information Technology Services Division
+  tags:
+  - cybersecurity
+  recheck: monthly
+  why_relevant: Row 'Technical Controls' of the Security Domain's Approved Standards page (https://itsd.oa.mo.gov/it-governance/enterprise-architecture/security-domain/approved-standards-security-domain), the statewide IT security standards library of ITSD's enterprise architecture. Its viewer page is https://itsd.oa.mo.gov/media/pdf/technical-controls; the PDF address is the file that viewer page embeds. A 'Discipline' document of the Security Domain framework. Printed status (read by rendering the PDF page, because the check boxes are drawn marks with no text layer) is status Approved (this document form has no classification row), with Date Approved / Rejected 01-21-2003. The index lists it as an approved standard.
+- id: mo-cryptography
+  sha256: "59dcde872fac403bbbdbf18f100edaff9f38ef060d34755d2448146da5a877f9"
+  url: https://itsd.oa.mo.gov/sites/g/files/zuston256/files/media/pdf/2025/04/ta-cryptography-arc-approved.pdf
+  format: pdf
+  citation: 'Security Domain Technology Area: Cryptography'
+  title: Cryptography
+  doc_type: standard
+  jurisdiction: missouri
+  issuing_body: Office of Administration, Information Technology Services Division
+  tags:
+  - cybersecurity
+  recheck: monthly
+  why_relevant: Row 'Cryptography' of the Security Domain's Approved Standards page (https://itsd.oa.mo.gov/it-governance/enterprise-architecture/security-domain/approved-standards-security-domain), the statewide IT security standards library of ITSD's enterprise architecture. Its viewer page is https://itsd.oa.mo.gov/media/pdf/cryptography; the PDF address is the file that viewer page embeds. A 'Technology Area' document of the Security Domain framework. Printed status (read by rendering the PDF page, because the check boxes are drawn marks with no text layer) is status Approved (this document form has no classification row), with Date Approved / Rejected 4/13/04. The index lists it as an approved standard.
+- id: mo-cryptography-cc
+  sha256: "e9bb1fb387bc67b3e23931685e13849999bca5e07a67c2c7265abc9318c69ec9"
+  url: https://itsd.oa.mo.gov/sites/g/files/zuston256/files/media/pdf/2025/04/CC-Cryptography.pdf
+  format: pdf
+  citation: 'Security Domain Compliance Component: Cryptography'
+  title: Cryptography
+  doc_type: standard
+  jurisdiction: missouri
+  issuing_body: Office of Administration, Information Technology Services Division
+  tags:
+  - cybersecurity
+  recheck: monthly
+  why_relevant: Row 'Cryptography' of the Security Domain's Approved Standards page (https://itsd.oa.mo.gov/it-governance/enterprise-architecture/security-domain/approved-standards-security-domain), the statewide IT security standards library of ITSD's enterprise architecture. Its viewer page is https://itsd.oa.mo.gov/media/pdf/cryptography-cc; the PDF address is the file that viewer page embeds. A 'Compliance Component' document of the Security Domain framework. Printed status (read by rendering the PDF page, because the check boxes are drawn marks with no text layer) is classification Current and status Under Review, not Approved, with Date Approved / Rejected 02/13/2025. OWNER DECISION, see left_out. The index lists it under Approved Standards; it is kept as a document on the index label as the status of record, and the owner may treat it as an under-review revision instead.
+- id: mo-digital-signature-cc
+  sha256: "f3978a7e7d676d25c4ed58faa1a5f71511ff426a4c04bc3b0b70b84e422333d9"
+  url: https://itsd.oa.mo.gov/sites/g/files/zuston256/files/media/pdf/2025/04/CC-DigitalSignatures.pdf
+  format: pdf
+  citation: 'Security Domain Compliance Component: Digital Signature'
+  title: Digital Signature
+  doc_type: standard
+  jurisdiction: missouri
+  issuing_body: Office of Administration, Information Technology Services Division
+  tags:
+  - cybersecurity
+  recheck: monthly
+  why_relevant: Row 'Digital Signature' of the Security Domain's Approved Standards page (https://itsd.oa.mo.gov/it-governance/enterprise-architecture/security-domain/approved-standards-security-domain), the statewide IT security standards library of ITSD's enterprise architecture. Its viewer page is https://itsd.oa.mo.gov/media/pdf/digital-signature-cc; the PDF address is the file that viewer page embeds. A 'Compliance Component' document of the Security Domain framework. Printed status (read by rendering the PDF page, because the check boxes are drawn marks with no text layer) is classification Current and status both Under Review and Approved marked, with Date Approved / Rejected 04/13/2004. OWNER DECISION, see left_out. The index lists it under Approved Standards; it is kept as a document on the index label as the status of record, and the owner may treat it as an under-review revision instead.
+- id: mo-encryption-key-management-cc
+  sha256: "4a50bbc90c8c04b6737b4af7c88437fcdf073e1543aecac8e6bcb4093aa77eaa"
+  url: https://itsd.oa.mo.gov/sites/g/files/zuston256/files/media/pdf/2025/04/CC-CryptoEncryptionKeyMgmt041304ARCapp.pdf
+  format: pdf
+  citation: 'Security Domain Compliance Component: Encryption Key Management'
+  title: Encryption Key Management
+  doc_type: standard
+  jurisdiction: missouri
+  issuing_body: Office of Administration, Information Technology Services Division
+  tags:
+  - cybersecurity
+  recheck: monthly
+  why_relevant: Row 'Encryption Key Management' of the Security Domain's Approved Standards page (https://itsd.oa.mo.gov/it-governance/enterprise-architecture/security-domain/approved-standards-security-domain), the statewide IT security standards library of ITSD's enterprise architecture. Its viewer page is https://itsd.oa.mo.gov/media/pdf/encryption-key-management-cc; the PDF address is the file that viewer page embeds. A 'Compliance Component' document of the Security Domain framework. Printed status (read by rendering the PDF page, because the check boxes are drawn marks with no text layer) is classification Current and status Approved, with Date Approved / Rejected 4/13/2004. The index lists it as an approved standard.
+- id: mo-hardware-vs-software-encryption-cc
+  sha256: "d5e6d01dc3bdc748824f7cfaa3703d1d543b7237530154332c0ad8179626691b"
+  url: https://itsd.oa.mo.gov/sites/g/files/zuston256/files/media/pdf/2025/04/CC-CryptoHardwarevsSoftwareEncryption041304ARCapp.pdf
+  format: pdf
+  citation: 'Security Domain Compliance Component: Hardware vs Software Encryption'
+  title: Hardware vs Software Encryption
+  doc_type: standard
+  jurisdiction: missouri
+  issuing_body: Office of Administration, Information Technology Services Division
+  tags:
+  - cybersecurity
+  recheck: monthly
+  why_relevant: Row 'Hardware vs Software Encryption' of the Security Domain's Approved Standards page (https://itsd.oa.mo.gov/it-governance/enterprise-architecture/security-domain/approved-standards-security-domain), the statewide IT security standards library of ITSD's enterprise architecture. Its viewer page is https://itsd.oa.mo.gov/media/pdf/hardware-vs-software-encryption-cc; the PDF address is the file that viewer page embeds. A 'Compliance Component' document of the Security Domain framework. Printed status (read by rendering the PDF page, because the check boxes are drawn marks with no text layer) is classification Current and status Approved, with Date Approved / Rejected 4/13/04. The index lists it as an approved standard.
+  identity_text: Hardware vs. Software Encryption
+- id: mo-hashing-cc
+  sha256: "ef1fc32f842cbd5e659768abf37e16e141aaae0a17ae18788bb74f5b8caa8e7b"
+  url: https://itsd.oa.mo.gov/sites/g/files/zuston256/files/media/pdf/2025/04/CC-CryptoHashing041304ARCapp.pdf
+  format: pdf
+  citation: 'Security Domain Compliance Component: Hashing'
+  title: Hashing
+  doc_type: standard
+  jurisdiction: missouri
+  issuing_body: Office of Administration, Information Technology Services Division
+  tags:
+  - cybersecurity
+  recheck: monthly
+  why_relevant: Row 'Hashing' of the Security Domain's Approved Standards page (https://itsd.oa.mo.gov/it-governance/enterprise-architecture/security-domain/approved-standards-security-domain), the statewide IT security standards library of ITSD's enterprise architecture. Its viewer page is https://itsd.oa.mo.gov/media/pdf/hashing-cc; the PDF address is the file that viewer page embeds. A 'Compliance Component' document of the Security Domain framework. Printed status (read by rendering the PDF page, because the check boxes are drawn marks with no text layer) is classification Current and status Approved, with Date Approved / Rejected 4/13/04. The index lists it as an approved standard.
+- id: mo-public-key-infrastructure-cc
+  sha256: "75a23e52c5615247c5f4a0c47fe615331e5584e914e2aad0cf68b89d76f0f03a"
+  url: https://itsd.oa.mo.gov/sites/g/files/zuston256/files/media/pdf/2025/04/CC-CryptoPublicKeyInfrastructure041304ARCapp.pdf
+  format: pdf
+  citation: 'Security Domain Compliance Component: Public Key Infrastructure'
+  title: Public Key Infrastructure
+  doc_type: standard
+  jurisdiction: missouri
+  issuing_body: Office of Administration, Information Technology Services Division
+  tags:
+  - cybersecurity
+  recheck: monthly
+  why_relevant: Row 'Public Key Infrastructure' of the Security Domain's Approved Standards page (https://itsd.oa.mo.gov/it-governance/enterprise-architecture/security-domain/approved-standards-security-domain), the statewide IT security standards library of ITSD's enterprise architecture. Its viewer page is https://itsd.oa.mo.gov/media/pdf/public-key-infrastructure-cc; the PDF address is the file that viewer page embeds. A 'Compliance Component' document of the Security Domain framework. Printed status (read by rendering the PDF page, because the check boxes are drawn marks with no text layer) is classification Current and status Approved, with Date Approved / Rejected 4/13/04. The index lists it as an approved standard.
+- id: mo-secret-key-cryptography-cc
+  sha256: "2f107c4400e1b0a9a64e9ea7cfca0c59e37e69f1a1c5fe23f212884e64e1ff74"
+  url: https://itsd.oa.mo.gov/sites/g/files/zuston256/files/media/pdf/2025/04/CC-CryptoSecretKeyCryptography041304ARCapp.pdf
+  format: pdf
+  citation: 'Security Domain Compliance Component: Secret Key Cryptography'
+  title: Secret Key Cryptography
+  doc_type: standard
+  jurisdiction: missouri
+  issuing_body: Office of Administration, Information Technology Services Division
+  tags:
+  - cybersecurity
+  recheck: monthly
+  why_relevant: Row 'Secret Key Cryptography' of the Security Domain's Approved Standards page (https://itsd.oa.mo.gov/it-governance/enterprise-architecture/security-domain/approved-standards-security-domain), the statewide IT security standards library of ITSD's enterprise architecture. Its viewer page is https://itsd.oa.mo.gov/media/pdf/secret-key-cryptography-cc; the PDF address is the file that viewer page embeds. A 'Compliance Component' document of the Security Domain framework. Printed status (read by rendering the PDF page, because the check boxes are drawn marks with no text layer) is classification Current and status Approved, with Date Approved / Rejected 4/13/04. The index lists it as an approved standard.
+- id: mo-identification-authentication
+  sha256: "ff97eb2fc6accea5a96e008898f11c06610c92b870edb110a1f41bea112309b1"
+  url: https://itsd.oa.mo.gov/sites/g/files/zuston256/files/media/pdf/2025/04/ta-identification-authentication.pdf
+  format: pdf
+  citation: 'Security Domain Technology Area: Identification / Authentication'
+  title: Identification / Authentication
+  doc_type: standard
+  jurisdiction: missouri
+  issuing_body: Office of Administration, Information Technology Services Division
+  tags:
+  - cybersecurity
+  recheck: monthly
+  why_relevant: Row 'Identification / Authentication' of the Security Domain's Approved Standards page (https://itsd.oa.mo.gov/it-governance/enterprise-architecture/security-domain/approved-standards-security-domain), the statewide IT security standards library of ITSD's enterprise architecture. Its viewer page is https://itsd.oa.mo.gov/media/pdf/identification-authentication; the PDF address is the file that viewer page embeds. A 'Technology Area' document of the Security Domain framework. Printed status (read by rendering the PDF page, because the check boxes are drawn marks with no text layer) is status Approved (this document form has no classification row), with Date Approved / Rejected 4/18/2019. The index lists it as an approved standard.
+  identity_text: Identification and Authentication
+- id: mo-entity-authentication-cc
+  sha256: "388c85798f3b5842753ebdb33165baa2d478f2e15032b77b07959ce5ed2f549c"
+  url: https://itsd.oa.mo.gov/sites/g/files/zuston256/files/media/pdf/2025/04/CC-EntityAuthentication03-23-07ARC.pdf
+  format: pdf
+  citation: 'Security Domain Compliance Component: Entity Authentication'
+  title: Entity Authentication
+  doc_type: standard
+  jurisdiction: missouri
+  issuing_body: Office of Administration, Information Technology Services Division
+  tags:
+  - cybersecurity
+  recheck: monthly
+  why_relevant: Row 'Entity Authentication' of the Security Domain's Approved Standards page (https://itsd.oa.mo.gov/it-governance/enterprise-architecture/security-domain/approved-standards-security-domain), the statewide IT security standards library of ITSD's enterprise architecture. Its viewer page is https://itsd.oa.mo.gov/media/pdf/entity-authentication-cc; the PDF address is the file that viewer page embeds. A 'Compliance Component' document of the Security Domain framework. Printed status (read by rendering the PDF page, because the check boxes are drawn marks with no text layer) is classification Current and status Approved, with Date Approved / Rejected 03/23/2007. The index lists it as an approved standard.
+- id: mo-electronic-signatures-cc
+  sha256: "7d314defa72d3c6e52d16fe1af773e8413c0f1fa16ed25f812ed982638e4be65"
+  url: https://itsd.oa.mo.gov/sites/g/files/zuston256/files/media/pdf/2025/04/CC-ElectronicSignatures090105.pdf
+  format: pdf
+  citation: 'Security Domain Compliance Component: Electronic Signatures'
+  title: Electronic Signatures
+  doc_type: standard
+  jurisdiction: missouri
+  issuing_body: Office of Administration, Information Technology Services Division
+  tags:
+  - cybersecurity
+  recheck: monthly
+  why_relevant: Row 'Electronic Signatures' of the Security Domain's Approved Standards page (https://itsd.oa.mo.gov/it-governance/enterprise-architecture/security-domain/approved-standards-security-domain), the statewide IT security standards library of ITSD's enterprise architecture. Its viewer page is https://itsd.oa.mo.gov/media/pdf/electronic-signatures-cc; the PDF address is the file that viewer page embeds. A 'Compliance Component' document of the Security Domain framework. Printed status (read by rendering the PDF page, because the check boxes are drawn marks with no text layer) is classification Current and status Approved, with Date Approved / Rejected 11/8/05. The index lists it as an approved standard.
+- id: mo-message-authentication-cc
+  sha256: "e38f8ef97843290b1a26af9eafdc6c91e2c80501f32efd5ae47af1eb37769f15"
+  url: https://itsd.oa.mo.gov/sites/g/files/zuston256/files/media/pdf/2025/04/CC-MessageAuthentication03-23-07ARC.pdf
+  format: pdf
+  citation: 'Security Domain Compliance Component: Message Authentication'
+  title: Message Authentication
+  doc_type: standard
+  jurisdiction: missouri
+  issuing_body: Office of Administration, Information Technology Services Division
+  tags:
+  - cybersecurity
+  recheck: monthly
+  why_relevant: Row 'Message Authentication' of the Security Domain's Approved Standards page (https://itsd.oa.mo.gov/it-governance/enterprise-architecture/security-domain/approved-standards-security-domain), the statewide IT security standards library of ITSD's enterprise architecture. Its viewer page is https://itsd.oa.mo.gov/media/pdf/message-authentication-cc; the PDF address is the file that viewer page embeds. A 'Compliance Component' document of the Security Domain framework. Printed status (read by rendering the PDF page, because the check boxes are drawn marks with no text layer) is classification Current and status Approved, with Date Approved / Rejected 03/23/2007. The index lists it as an approved standard.
+- id: mo-password-controls-cc
+  sha256: "4c910f75e383e5395372a933d58cbb6d8749c2d2e174396e839e5e69646d6219"
+  url: https://itsd.oa.mo.gov/sites/g/files/zuston256/files/media/pdf/2025/12/CC-Password-Controls.pdf
+  format: pdf
+  citation: 'Security Domain Compliance Component: Password Controls'
+  title: Password Controls
+  doc_type: standard
+  jurisdiction: missouri
+  issuing_body: Office of Administration, Information Technology Services Division
+  tags:
+  - cybersecurity
+  recheck: monthly
+  why_relevant: Row 'Password Controls' of the Security Domain's Approved Standards page (https://itsd.oa.mo.gov/it-governance/enterprise-architecture/security-domain/approved-standards-security-domain), the statewide IT security standards library of ITSD's enterprise architecture. Its viewer page is https://itsd.oa.mo.gov/media/pdf/password-controls-cc; the PDF address is the file that viewer page embeds. A 'Compliance Component' document of the Security Domain framework. Printed status (read by rendering the PDF page, because the check boxes are drawn marks with no text layer) is classification Current and status Under Review, not Approved, with Date Approved / Rejected 12/18/2025. OWNER DECISION, see left_out. The index lists it under Approved Standards; it is kept as a document on the index label as the status of record, and the owner may treat it as an under-review revision instead.
+- id: mo-securing-electronic-transactions-cc
+  sha256: "a34bf935ceb38f7d90e75b75d17441d16daeed3f1b4ff4c01eab805c4935395d"
+  url: https://itsd.oa.mo.gov/sites/g/files/zuston256/files/media/pdf/2025/04/CC-ElectronicTransaction090706.pdf
+  format: pdf
+  citation: 'Security Domain Compliance Component: Securing Electronic Transactions'
+  title: Securing Electronic Transactions
+  doc_type: standard
+  jurisdiction: missouri
+  issuing_body: Office of Administration, Information Technology Services Division
+  tags:
+  - cybersecurity
+  recheck: monthly
+  why_relevant: Row 'Securing Electronic Transactions' of the Security Domain's Approved Standards page (https://itsd.oa.mo.gov/it-governance/enterprise-architecture/security-domain/approved-standards-security-domain), the statewide IT security standards library of ITSD's enterprise architecture. Its viewer page is https://itsd.oa.mo.gov/media/pdf/securing-electronic-transactions-cc; the PDF address is the file that viewer page embeds. A 'Compliance Component' document of the Security Domain framework. Printed status (read by rendering the PDF page, because the check boxes are drawn marks with no text layer) is classification Current and status Approved, with Date Approved / Rejected 9/12/06. The index lists it as an approved standard.
+- id: mo-strong-authentication-cc
+  sha256: "f10d0b6b9e260192e3042a551812cb4bc02e7d332941188dbba8e16015de68dc"
+  url: https://itsd.oa.mo.gov/sites/g/files/zuston256/files/media/pdf/2025/04/CC-StrongAuthentication092705ARC.pdf
+  format: pdf
+  citation: 'Security Domain Compliance Component: Strong Authentication'
+  title: Strong Authentication
+  doc_type: standard
+  jurisdiction: missouri
+  issuing_body: Office of Administration, Information Technology Services Division
+  tags:
+  - cybersecurity
+  recheck: monthly
+  why_relevant: Row 'Strong Authentication' of the Security Domain's Approved Standards page (https://itsd.oa.mo.gov/it-governance/enterprise-architecture/security-domain/approved-standards-security-domain), the statewide IT security standards library of ITSD's enterprise architecture. Its viewer page is https://itsd.oa.mo.gov/media/pdf/strong-authentication-cc; the PDF address is the file that viewer page embeds. A 'Compliance Component' document of the Security Domain framework. Printed status (read by rendering the PDF page, because the check boxes are drawn marks with no text layer) is classification Current and status Approved, with no Date Approved / Rejected printed. The index lists it as an approved standard.
+- id: mo-user-authorization-cc
+  sha256: "bb864cdc351f7495d5c80f95994ccabd672c8d839685c096806d4da0c884b40a"
+  url: https://itsd.oa.mo.gov/sites/g/files/zuston256/files/media/pdf/2025/04/CC-UserAuthorization03-23-07ARC.pdf
+  format: pdf
+  citation: 'Security Domain Compliance Component: User Authorization'
+  title: User Authorization
+  doc_type: standard
+  jurisdiction: missouri
+  issuing_body: Office of Administration, Information Technology Services Division
+  tags:
+  - cybersecurity
+  recheck: monthly
+  why_relevant: Row 'User Authorization' of the Security Domain's Approved Standards page (https://itsd.oa.mo.gov/it-governance/enterprise-architecture/security-domain/approved-standards-security-domain), the statewide IT security standards library of ITSD's enterprise architecture. Its viewer page is https://itsd.oa.mo.gov/media/pdf/user-authorization-cc; the PDF address is the file that viewer page embeds. A 'Compliance Component' document of the Security Domain framework. Printed status (read by rendering the PDF page, because the check boxes are drawn marks with no text layer) is classification Current and status Approved, with Date Approved / Rejected 03/23/2007. The index lists it as an approved standard.
+- id: mo-intrusion-detection-systems
+  sha256: "a3b685ca7e821058586cb03c25f111552f1c7093788be06227b8db1f30e51c61"
+  url: https://itsd.oa.mo.gov/sites/g/files/zuston256/files/media/pdf/2025/04/ta-ids-032703.pdf
+  format: pdf
+  citation: 'Security Domain Technology Area: Intrusion Detection Systems'
+  title: Intrusion Detection Systems
+  doc_type: standard
+  jurisdiction: missouri
+  issuing_body: Office of Administration, Information Technology Services Division
+  tags:
+  - cybersecurity
+  recheck: monthly
+  why_relevant: Row 'Intrusion Detection Systems' of the Security Domain's Approved Standards page (https://itsd.oa.mo.gov/it-governance/enterprise-architecture/security-domain/approved-standards-security-domain), the statewide IT security standards library of ITSD's enterprise architecture. Its viewer page is https://itsd.oa.mo.gov/media/pdf/intrusion-detection-systems; the PDF address is the file that viewer page embeds. A 'Technology Area' document of the Security Domain framework. Printed status (read by rendering the PDF page, because the check boxes are drawn marks with no text layer) is status Approved (this document form has no classification row), with Date Approved / Rejected 05/14/2003. The index lists it as an approved standard.
+- id: mo-application-based-ids-cc
+  sha256: "4547a4b92199bc24c131c84f139895208ed287f219468bb157c3339164b31dc8"
+  url: https://itsd.oa.mo.gov/sites/g/files/zuston256/files/media/pdf/2025/04/CC-ApplicationBasedIDS040303.pdf
+  format: pdf
+  citation: 'Security Domain Compliance Component: Application Based IDS'
+  title: Application Based IDS
+  doc_type: standard
+  jurisdiction: missouri
+  issuing_body: Office of Administration, Information Technology Services Division
+  tags:
+  - cybersecurity
+  recheck: monthly
+  why_relevant: Row 'Application Based IDS' of the Security Domain's Approved Standards page (https://itsd.oa.mo.gov/it-governance/enterprise-architecture/security-domain/approved-standards-security-domain), the statewide IT security standards library of ITSD's enterprise architecture. Its viewer page is https://itsd.oa.mo.gov/media/pdf/application-based-ids-cc; the PDF address is the file that viewer page embeds. A 'Compliance Component' document of the Security Domain framework. Printed status (read by rendering the PDF page, because the check boxes are drawn marks with no text layer) is classification Current and status Approved, with Date Approved / Rejected 05/14/2003. The index lists it as an approved standard.
+  identity_text: Application-Based Intrusion Detection Systems (IDS)
+- id: mo-encryption-laptops-cc
+  sha256: "b5d4767e7cd39c141c6a28c11cf39bf77e88fe16fefda8ad1d3318258f7bf6a2"
+  url: https://itsd.oa.mo.gov/sites/g/files/zuston256/files/media/pdf/2025/04/CC-EncryptionForLaptops09-28-2011ARC.pdf
+  format: pdf
+  citation: 'Security Domain Compliance Component: Encryption for Laptops'
+  title: Encryption for Laptops
+  doc_type: standard
+  jurisdiction: missouri
+  issuing_body: Office of Administration, Information Technology Services Division
+  tags:
+  - cybersecurity
+  recheck: monthly
+  why_relevant: Row 'Encryption for Laptops' of the Security Domain's Approved Standards page (https://itsd.oa.mo.gov/it-governance/enterprise-architecture/security-domain/approved-standards-security-domain), the statewide IT security standards library of ITSD's enterprise architecture. Its viewer page is https://itsd.oa.mo.gov/media/pdf/encryption-laptops-cc; the PDF address is the file that viewer page embeds. A 'Compliance Component' document of the Security Domain framework. Printed status (read by rendering the PDF page, because the check boxes are drawn marks with no text layer) is classification Current and status Approved, with Date Approved / Rejected 09/28/2011. The index lists it as an approved standard.
+- id: mo-host-based-ids-cc
+  sha256: "182be6c99e5547bf61d03ff4664282e826aab31f50678984f9509931f30d726f"
+  url: https://itsd.oa.mo.gov/sites/g/files/zuston256/files/media/pdf/2025/04/CC-HostBasedIDS040303.pdf
+  format: pdf
+  citation: 'Security Domain Compliance Component: Host Based IDS'
+  title: Host Based IDS
+  doc_type: standard
+  jurisdiction: missouri
+  issuing_body: Office of Administration, Information Technology Services Division
+  tags:
+  - cybersecurity
+  recheck: monthly
+  why_relevant: Row 'Host Based IDS' of the Security Domain's Approved Standards page (https://itsd.oa.mo.gov/it-governance/enterprise-architecture/security-domain/approved-standards-security-domain), the statewide IT security standards library of ITSD's enterprise architecture. Its viewer page is https://itsd.oa.mo.gov/media/pdf/host-based-ids-cc; the PDF address is the file that viewer page embeds. A 'Compliance Component' document of the Security Domain framework. Printed status (read by rendering the PDF page, because the check boxes are drawn marks with no text layer) is classification Current and status Approved, with Date Approved / Rejected 05/14/2003. The index lists it as an approved standard.
+  identity_text: Host-Based Intrusion Detection Systems (HIDS)
+- id: mo-network-based-ids-cc
+  sha256: "6e68c63a844ca771cb9f61412e73021b33faada96398492824557fbbabee705f"
+  url: https://itsd.oa.mo.gov/sites/g/files/zuston256/files/media/pdf/2025/04/CC-NetworkBasedIDS.pdf
+  format: pdf
+  citation: 'Security Domain Compliance Component: Network Based IDS'
+  title: Network Based IDS
+  doc_type: standard
+  jurisdiction: missouri
+  issuing_body: Office of Administration, Information Technology Services Division
+  tags:
+  - cybersecurity
+  recheck: monthly
+  why_relevant: Row 'Network Based IDS' of the Security Domain's Approved Standards page (https://itsd.oa.mo.gov/it-governance/enterprise-architecture/security-domain/approved-standards-security-domain), the statewide IT security standards library of ITSD's enterprise architecture. Its viewer page is https://itsd.oa.mo.gov/media/pdf/network-based-ids-cc; the PDF address is the file that viewer page embeds. A 'Compliance Component' document of the Security Domain framework. Printed status (read by rendering the PDF page, because the check boxes are drawn marks with no text layer) is classification Current and status Approved, with Date Approved / Rejected 5/14/2003. The index lists it as an approved standard.
+  identity_text: Network-Based Intrusion Detection Systems (NIDS)
+- id: mo-network-intrusion-prevention-systems-ips-cc
+  sha256: "6a6c4d82306733ce6be9352affe0361ea3e281db1d0656816d5004bc30f5ae31"
+  url: https://itsd.oa.mo.gov/sites/g/files/zuston256/files/media/pdf/2025/04/CC-Network-IPS.pdf
+  format: pdf
+  citation: 'Security Domain Compliance Component: Network Intrusion Prevention Systems (IPS)'
+  title: Network Intrusion Prevention Systems (IPS)
+  doc_type: standard
+  jurisdiction: missouri
+  issuing_body: Office of Administration, Information Technology Services Division
+  tags:
+  - cybersecurity
+  recheck: monthly
+  why_relevant: Row 'Network Intrusion Prevention Systems (IPS)' of the Security Domain's Approved Standards page (https://itsd.oa.mo.gov/it-governance/enterprise-architecture/security-domain/approved-standards-security-domain), the statewide IT security standards library of ITSD's enterprise architecture. Its viewer page is https://itsd.oa.mo.gov/media/pdf/network-intrusion-prevention-systems-ips-cc; the PDF address is the file that viewer page embeds. A 'Compliance Component' document of the Security Domain framework. Printed status (read by rendering the PDF page, because the check boxes are drawn marks with no text layer) is classification Current and status Approved, with Date Approved / Rejected 5/14/2003. The index lists it as an approved standard.
+  identity_text: Intrusion Prevention Systems (IPS)
+- id: mo-logical-access-controls
+  sha256: "b7cddbb091f4ba275b2c87c0c6045f28392c28280d6d3e96c0c32c7d1432c569"
+  url: https://itsd.oa.mo.gov/sites/g/files/zuston256/files/media/pdf/2025/04/ta-logical-access-controls-03-06-03_0.pdf
+  format: pdf
+  citation: 'Security Domain Technology Area: Logical Access Controls'
+  title: Logical Access Controls
+  doc_type: standard
+  jurisdiction: missouri
+  issuing_body: Office of Administration, Information Technology Services Division
+  tags:
+  - cybersecurity
+  recheck: monthly
+  why_relevant: Row 'Logical Access Controls' of the Security Domain's Approved Standards page (https://itsd.oa.mo.gov/it-governance/enterprise-architecture/security-domain/approved-standards-security-domain), the statewide IT security standards library of ITSD's enterprise architecture. Its viewer page is https://itsd.oa.mo.gov/media/pdf/logical-access-controls; the PDF address is the file that viewer page embeds. A 'Technology Area' document of the Security Domain framework. Printed status (read by rendering the PDF page, because the check boxes are drawn marks with no text layer) is status Approved (this document form has no classification row), with Date Approved / Rejected 03/24/2003. The index lists it as an approved standard.
+- id: mo-access-controls-cc
+  sha256: "3fd1d77c41051da3cd61c894744d56d631e6f9d6048ff1ce6b490522f63078b2"
+  url: https://itsd.oa.mo.gov/sites/g/files/zuston256/files/media/pdf/2025/12/CC-Access-Controls.pdf
+  format: pdf
+  citation: 'Security Domain Compliance Component: Access Controls'
+  title: Access Controls
+  doc_type: standard
+  jurisdiction: missouri
+  issuing_body: Office of Administration, Information Technology Services Division
+  tags:
+  - cybersecurity
+  recheck: monthly
+  why_relevant: Row 'Access Controls' of the Security Domain's Approved Standards page (https://itsd.oa.mo.gov/it-governance/enterprise-architecture/security-domain/approved-standards-security-domain), the statewide IT security standards library of ITSD's enterprise architecture. Its viewer page is https://itsd.oa.mo.gov/media/pdf/access-controls-cc; the PDF address is the file that viewer page embeds. A 'Compliance Component' document of the Security Domain framework. Printed status (read by rendering the PDF page, because the check boxes are drawn marks with no text layer) is classification Current and status Under Review, not Approved, with Date Approved / Rejected 12/18/2025. OWNER DECISION, see left_out. The index lists it under Approved Standards; it is kept as a document on the index label as the status of record, and the owner may treat it as an under-review revision instead.
+- id: mo-datetime-controls-cc
+  sha256: "f8b1ced3df71b943b3a818958571c35590fc224d35c8947162d848912231987a"
+  url: https://itsd.oa.mo.gov/sites/g/files/zuston256/files/media/pdf/2025/04/CC-DateTimeControls030603.pdf
+  format: pdf
+  citation: 'Security Domain Compliance Component: Date/Time Controls'
+  title: Date/Time Controls
+  doc_type: standard
+  jurisdiction: missouri
+  issuing_body: Office of Administration, Information Technology Services Division
+  tags:
+  - cybersecurity
+  recheck: monthly
+  why_relevant: Row 'Date/Time Controls' of the Security Domain's Approved Standards page (https://itsd.oa.mo.gov/it-governance/enterprise-architecture/security-domain/approved-standards-security-domain), the statewide IT security standards library of ITSD's enterprise architecture. Its viewer page is https://itsd.oa.mo.gov/media/pdf/datetime-controls-cc; the PDF address is the file that viewer page embeds. A 'Compliance Component' document of the Security Domain framework. Printed status (read by rendering the PDF page, because the check boxes are drawn marks with no text layer) is classification Current and status Approved, with Date Approved / Rejected 03/24/2003. The index lists it as an approved standard.
+- id: mo-inactivity-controls-cc
+  sha256: "e4927d4dc8f69861f88a989c792e30b3a80a711c4d4a0f3e4b51af9440453410"
+  url: https://itsd.oa.mo.gov/sites/g/files/zuston256/files/media/pdf/2025/04/CC-Inactivity-Controls.pdf
+  format: pdf
+  citation: 'Security Domain Compliance Component: Inactivity Controls'
+  title: Inactivity Controls
+  doc_type: standard
+  jurisdiction: missouri
+  issuing_body: Office of Administration, Information Technology Services Division
+  tags:
+  - cybersecurity
+  recheck: monthly
+  why_relevant: Row 'Inactivity Controls' of the Security Domain's Approved Standards page (https://itsd.oa.mo.gov/it-governance/enterprise-architecture/security-domain/approved-standards-security-domain), the statewide IT security standards library of ITSD's enterprise architecture. Its viewer page is https://itsd.oa.mo.gov/media/pdf/inactivity-controls-cc; the PDF address is the file that viewer page embeds. A 'Compliance Component' document of the Security Domain framework. Printed status (read by rendering the PDF page, because the check boxes are drawn marks with no text layer) is classification Current and status Approved, with Date Approved / Rejected 03/24/2003. The index lists it as an approved standard.
+- id: mo-logon-banners-cc
+  sha256: "24912b12f98f7b4f69461da96b06b34b23e7e0060116ae88a4bcc392246d9e32"
+  url: https://itsd.oa.mo.gov/sites/g/files/zuston256/files/media/pdf/2025/04/CC-LogonBannersARC.pdf
+  format: pdf
+  citation: 'Security Domain Compliance Component: Logon Banners'
+  title: Logon Banners
+  doc_type: standard
+  jurisdiction: missouri
+  issuing_body: Office of Administration, Information Technology Services Division
+  tags:
+  - cybersecurity
+  recheck: monthly
+  why_relevant: Row 'Logon Banners' of the Security Domain's Approved Standards page (https://itsd.oa.mo.gov/it-governance/enterprise-architecture/security-domain/approved-standards-security-domain), the statewide IT security standards library of ITSD's enterprise architecture. Its viewer page is https://itsd.oa.mo.gov/media/pdf/logon-banners-cc; the PDF address is the file that viewer page embeds. A 'Compliance Component' document of the Security Domain framework. Printed status (read by rendering the PDF page, because the check boxes are drawn marks with no text layer) is classification Current and status Approved, with Date Approved / Rejected 03/24/2003. The index lists it as an approved standard.
+- id: mo-remote-access-controls
+  sha256: "4d03e977e9b3bccf55b9484aab4ecf3a386297bdbb8cf424253da3871ca727de"
+  url: https://itsd.oa.mo.gov/sites/g/files/zuston256/files/media/pdf/2025/04/ta-remote-access-controls.pdf
+  format: pdf
+  citation: 'Security Domain Technology Area: Remote Access Controls'
+  title: Remote Access Controls
+  doc_type: standard
+  jurisdiction: missouri
+  issuing_body: Office of Administration, Information Technology Services Division
+  tags:
+  - cybersecurity
+  recheck: monthly
+  why_relevant: Row 'Remote Access Controls' of the Security Domain's Approved Standards page (https://itsd.oa.mo.gov/it-governance/enterprise-architecture/security-domain/approved-standards-security-domain), the statewide IT security standards library of ITSD's enterprise architecture. Its viewer page is https://itsd.oa.mo.gov/media/pdf/remote-access-controls; the PDF address is the file that viewer page embeds. A 'Technology Area' document of the Security Domain framework. Printed status (read by rendering the PDF page, because the check boxes are drawn marks with no text layer) is status Approved (this document form has no classification row), with Date Approved / Rejected 04/18/2019. The index lists it as an approved standard.
+- id: mo-securing-remote-connections-cc
+  sha256: "ed9604e926652c4f6ef9a4be2b280ee775b9c464a5de8d1b8691679a15039996"
+  url: https://itsd.oa.mo.gov/sites/g/files/zuston256/files/media/pdf/2025/04/CC-Securing-Remote-Connections.pdf
+  format: pdf
+  citation: 'Security Domain Compliance Component: Securing Remote Connections'
+  title: Securing Remote Connections
+  doc_type: standard
+  jurisdiction: missouri
+  issuing_body: Office of Administration, Information Technology Services Division
+  tags:
+  - cybersecurity
+  recheck: monthly
+  why_relevant: Row 'Securing Remote Connections' of the Security Domain's Approved Standards page (https://itsd.oa.mo.gov/it-governance/enterprise-architecture/security-domain/approved-standards-security-domain), the statewide IT security standards library of ITSD's enterprise architecture. Its viewer page is https://itsd.oa.mo.gov/media/pdf/securing-remote-connections-cc; the PDF address is the file that viewer page embeds. A 'Compliance Component' document of the Security Domain framework. Printed status (read by rendering the PDF page, because the check boxes are drawn marks with no text layer) is classification Current and status Under Review, not Approved, with Date Approved / Rejected 11/08/05. OWNER DECISION, see left_out. The index lists it under Approved Standards; it is kept as a document on the index label as the status of record, and the owner may treat it as an under-review revision instead.
+- id: mo-securing-mobile-devices-cc
+  sha256: "a81fd7d8d1c1ef01462073ad1cd61a73a21016df2f87289008a3d4283bc02212"
+  url: https://itsd.oa.mo.gov/sites/g/files/zuston256/files/media/pdf/2025/04/CC-Mobile-Device-Management.pdf
+  format: pdf
+  citation: 'Security Domain Compliance Component: Securing Mobile Devices'
+  title: Securing Mobile Devices
+  doc_type: standard
+  jurisdiction: missouri
+  issuing_body: Office of Administration, Information Technology Services Division
+  tags:
+  - cybersecurity
+  recheck: monthly
+  why_relevant: Row 'Securing Mobile Devices' of the Security Domain's Approved Standards page (https://itsd.oa.mo.gov/it-governance/enterprise-architecture/security-domain/approved-standards-security-domain), the statewide IT security standards library of ITSD's enterprise architecture. Its viewer page is https://itsd.oa.mo.gov/media/pdf/securing-mobile-devices-cc; the PDF address is the file that viewer page embeds. A 'Compliance Component' document of the Security Domain framework. Printed status (read by rendering the PDF page, because the check boxes are drawn marks with no text layer) is classification Current and status Under Review, not Approved, with Date Approved / Rejected 02/13/2025. OWNER DECISION, see left_out. The index lists it under Approved Standards; it is kept as a document on the index label as the status of record, and the owner may treat it as an under-review revision instead.
+  identity_text: Mobile Device Security Management
+- id: mo-security-voice-over-internet-protocol-voip-cc
+  sha256: "9da57dfc2055432ce829dfbf808239611bad0e386355a3ca7642f7d6499017cb"
+  url: https://itsd.oa.mo.gov/sites/g/files/zuston256/files/media/pdf/2025/04/CC-Security-for-VOIP.pdf
+  format: pdf
+  citation: 'Security Domain Compliance Component: Security for Voice Over Internet Protocol (VOIP)'
+  title: Security for Voice Over Internet Protocol (VOIP)
+  doc_type: standard
+  jurisdiction: missouri
+  issuing_body: Office of Administration, Information Technology Services Division
+  tags:
+  - cybersecurity
+  recheck: monthly
+  why_relevant: Row 'Security for Voice Over Internet Protocol (VOIP)' of the Security Domain's Approved Standards page (https://itsd.oa.mo.gov/it-governance/enterprise-architecture/security-domain/approved-standards-security-domain), the statewide IT security standards library of ITSD's enterprise architecture. Its viewer page is https://itsd.oa.mo.gov/media/pdf/security-voice-over-internet-protocol-voip-cc; the PDF address is the file that viewer page embeds. A 'Compliance Component' document of the Security Domain framework. Printed status (read by rendering the PDF page, because the check boxes are drawn marks with no text layer) is classification Current and status Under Review, not Approved, with Date Approved / Rejected 02/13/2025. OWNER DECISION, see left_out. The index lists it under Approved Standards; it is kept as a document on the index label as the status of record, and the owner may treat it as an under-review revision instead.
+- id: mo-securing-web-browsers-cc
+  sha256: "d3432280be70a057635e6f770e2d5f48cd2a562f8c67b450b992928f8fe9e1b8"
+  url: https://itsd.oa.mo.gov/sites/g/files/zuston256/files/media/pdf/2025/04/CC-SecuringWebBrowsers.pdf
+  format: pdf
+  citation: 'Security Domain Compliance Component: Securing Web Browsers'
+  title: Securing Web Browsers
+  doc_type: standard
+  jurisdiction: missouri
+  issuing_body: Office of Administration, Information Technology Services Division
+  tags:
+  - cybersecurity
+  recheck: monthly
+  why_relevant: Row 'Securing Web Browsers' of the Security Domain's Approved Standards page (https://itsd.oa.mo.gov/it-governance/enterprise-architecture/security-domain/approved-standards-security-domain), the statewide IT security standards library of ITSD's enterprise architecture. Its viewer page is https://itsd.oa.mo.gov/media/pdf/securing-web-browsers-cc; the PDF address is the file that viewer page embeds. A 'Compliance Component' document of the Security Domain framework. Printed status (read by rendering the PDF page, because the check boxes are drawn marks with no text layer) is classification Current and status Approved, with Date Approved / Rejected 12/13/2011. The index lists it as an approved standard.
+- id: mo-virtual-private-networks-vpns-cc
+  sha256: "727216e1474e7f6873b9811eaeec7e5db0ca4597043aa4b2203bdf8e3c20ad73"
+  url: https://itsd.oa.mo.gov/sites/g/files/zuston256/files/media/pdf/2025/04/CC-VPNs.pdf
+  format: pdf
+  citation: 'Security Domain Compliance Component: Virtual Private Networks (VPNs)'
+  title: Virtual Private Networks (VPNs)
+  doc_type: standard
+  jurisdiction: missouri
+  issuing_body: Office of Administration, Information Technology Services Division
+  tags:
+  - cybersecurity
+  recheck: monthly
+  why_relevant: Row 'Virtual Private Networks (VPNs)' of the Security Domain's Approved Standards page (https://itsd.oa.mo.gov/it-governance/enterprise-architecture/security-domain/approved-standards-security-domain), the statewide IT security standards library of ITSD's enterprise architecture. Its viewer page is https://itsd.oa.mo.gov/media/pdf/virtual-private-networks-vpns-cc; the PDF address is the file that viewer page embeds. A 'Compliance Component' document of the Security Domain framework. Printed status (read by rendering the PDF page, because the check boxes are drawn marks with no text layer) is classification Current and status Approved, with Date Approved / Rejected 10/04/2016. The index lists it as an approved standard.
+  identity_text: Virtual Private Network (VPN)
+- id: mo-secure-gateways-firewalls
+  sha256: "757f1ccfff15d9bcd68a8c927ba274c135543890ee882637f80bf000ab2b0ad8"
+  url: https://itsd.oa.mo.gov/sites/g/files/zuston256/files/media/pdf/2025/04/ta-secure-gateways-firewalls-arc-app.pdf
+  format: pdf
+  citation: 'Security Domain Technology Area: Secure Gateways & Firewalls'
+  title: Secure Gateways & Firewalls
+  doc_type: standard
+  jurisdiction: missouri
+  issuing_body: Office of Administration, Information Technology Services Division
+  tags:
+  - cybersecurity
+  recheck: monthly
+  why_relevant: Row 'Secure Gateways & Firewalls' of the Security Domain's Approved Standards page (https://itsd.oa.mo.gov/it-governance/enterprise-architecture/security-domain/approved-standards-security-domain), the statewide IT security standards library of ITSD's enterprise architecture. Its viewer page is https://itsd.oa.mo.gov/media/pdf/secure-gateways-firewalls; the PDF address is the file that viewer page embeds. A 'Technology Area' document of the Security Domain framework. Printed status (read by rendering the PDF page, because the check boxes are drawn marks with no text layer) is status Approved (this document form has no classification row), with Date Approved / Rejected 06/08/2004. The index lists it as an approved standard.
+  identity_text: Secure Gateways and Firewalls
+- id: mo-application-proxy-gateway-firewalls-cc
+  sha256: "afb9b19ad6cc90233d06305d907f29d5217c9d4d495cd764b756e08034ea9854"
+  url: https://itsd.oa.mo.gov/sites/g/files/zuston256/files/media/pdf/2025/04/CC-FirewallsApplicationProxyGatewayARC.pdf
+  format: pdf
+  citation: 'Security Domain Compliance Component: Application - Proxy Gateway Firewalls'
+  title: Application - Proxy Gateway Firewalls
+  doc_type: standard
+  jurisdiction: missouri
+  issuing_body: Office of Administration, Information Technology Services Division
+  tags:
+  - cybersecurity
+  recheck: monthly
+  why_relevant: Row 'Application - Proxy Gateway Firewalls' of the Security Domain's Approved Standards page (https://itsd.oa.mo.gov/it-governance/enterprise-architecture/security-domain/approved-standards-security-domain), the statewide IT security standards library of ITSD's enterprise architecture. Its viewer page is https://itsd.oa.mo.gov/media/pdf/application-proxy-gateway-firewalls-cc; the PDF address is the file that viewer page embeds. A 'Compliance Component' document of the Security Domain framework. Printed status (read by rendering the PDF page, because the check boxes are drawn marks with no text layer) is classification Current and status Approved, with Date Approved / Rejected 06/08/2004. The index lists it as an approved standard.
+  identity_text: Application-Proxy Gateway Firewalls
+- id: mo-firewall-administration-cc
+  sha256: "86303261325f1bd27643ff3c7a4dde11a59aa264dece357213956e27249dc3b9"
+  url: https://itsd.oa.mo.gov/sites/g/files/zuston256/files/media/pdf/2025/04/CC-FirewallAdminARCApp.pdf
+  format: pdf
+  citation: 'Security Domain Compliance Component: Firewall Administration'
+  title: Firewall Administration
+  doc_type: standard
+  jurisdiction: missouri
+  issuing_body: Office of Administration, Information Technology Services Division
+  tags:
+  - cybersecurity
+  recheck: monthly
+  why_relevant: Row 'Firewall Administration' of the Security Domain's Approved Standards page (https://itsd.oa.mo.gov/it-governance/enterprise-architecture/security-domain/approved-standards-security-domain), the statewide IT security standards library of ITSD's enterprise architecture. Its viewer page is https://itsd.oa.mo.gov/media/pdf/firewall-administration-cc; the PDF address is the file that viewer page embeds. A 'Compliance Component' document of the Security Domain framework. Printed status (read by rendering the PDF page, because the check boxes are drawn marks with no text layer) is classification Current and status Approved, with Date Approved / Rejected 06/08/2004. The index lists it as an approved standard.
+- id: mo-dedicated-proxy-servers-cc
+  sha256: "ab05fdeeea0955a4b286a72a54b3b956c1d7e362287f4ee309646de28514371f"
+  url: https://itsd.oa.mo.gov/sites/g/files/zuston256/files/media/pdf/2025/04/CC-FirewallsDedicatedProxyServersARC.pdf
+  format: pdf
+  citation: 'Security Domain Compliance Component: Dedicated Proxy Servers'
+  title: Dedicated Proxy Servers
+  doc_type: standard
+  jurisdiction: missouri
+  issuing_body: Office of Administration, Information Technology Services Division
+  tags:
+  - cybersecurity
+  recheck: monthly
+  why_relevant: Row 'Dedicated Proxy Servers' of the Security Domain's Approved Standards page (https://itsd.oa.mo.gov/it-governance/enterprise-architecture/security-domain/approved-standards-security-domain), the statewide IT security standards library of ITSD's enterprise architecture. Its viewer page is https://itsd.oa.mo.gov/media/pdf/dedicated-proxy-servers-cc; the PDF address is the file that viewer page embeds. A 'Compliance Component' document of the Security Domain framework. Printed status (read by rendering the PDF page, because the check boxes are drawn marks with no text layer) is classification Current and status Approved, with Date Approved / Rejected 06/08/2004. The index lists it as an approved standard.
+- id: mo-firewall-environments-cc
+  sha256: "20173a1e8294400cf6cc79a6f2dc108a66004299cb6a45533414687ae14c3179"
+  url: https://itsd.oa.mo.gov/sites/g/files/zuston256/files/media/pdf/2025/04/CC-Firewall-Environments.pdf
+  format: pdf
+  citation: 'Security Domain Compliance Component: Firewall Environments'
+  title: Firewall Environments
+  doc_type: standard
+  jurisdiction: missouri
+  issuing_body: Office of Administration, Information Technology Services Division
+  tags:
+  - cybersecurity
+  recheck: monthly
+  why_relevant: Row 'Firewall Environments' of the Security Domain's Approved Standards page (https://itsd.oa.mo.gov/it-governance/enterprise-architecture/security-domain/approved-standards-security-domain), the statewide IT security standards library of ITSD's enterprise architecture. Its viewer page is https://itsd.oa.mo.gov/media/pdf/firewall-environments-cc; the PDF address is the file that viewer page embeds. A 'Compliance Component' document of the Security Domain framework. Printed status (read by rendering the PDF page, because the check boxes are drawn marks with no text layer) is status Approved with no classification box marked, with Date Approved / Rejected 3-29-2017. The index lists it as an approved standard.
+- id: mo-firewall-rules-cc
+  sha256: "6116422ce4366bc219eab4c7258ddb99cb1a68f6c96e9bda0b5de50d713ca3b4"
+  url: https://itsd.oa.mo.gov/sites/g/files/zuston256/files/media/pdf/2025/04/CC-FirewallRulesARC.pdf
+  format: pdf
+  citation: 'Security Domain Compliance Component: Firewall Rules'
+  title: Firewall Rules
+  doc_type: standard
+  jurisdiction: missouri
+  issuing_body: Office of Administration, Information Technology Services Division
+  tags:
+  - cybersecurity
+  recheck: monthly
+  why_relevant: Row 'Firewall Rules' of the Security Domain's Approved Standards page (https://itsd.oa.mo.gov/it-governance/enterprise-architecture/security-domain/approved-standards-security-domain), the statewide IT security standards library of ITSD's enterprise architecture. Its viewer page is https://itsd.oa.mo.gov/media/pdf/firewall-rules-cc; the PDF address is the file that viewer page embeds. A 'Compliance Component' document of the Security Domain framework. Printed status (read by rendering the PDF page, because the check boxes are drawn marks with no text layer) is classification Current and status Approved, with Date Approved / Rejected 06/08/2004. The index lists it as an approved standard.
+- id: mo-firewall-selection-cc
+  sha256: "6527e1bce4f96aac4a615929f3eef3d9f4edc14e1b3f4328db114785b3b2ca71"
+  url: https://itsd.oa.mo.gov/sites/g/files/zuston256/files/media/pdf/2025/04/CC-FirewallSelectionARCApp.pdf
+  format: pdf
+  citation: 'Security Domain Compliance Component: Firewall Selection'
+  title: Firewall Selection
+  doc_type: standard
+  jurisdiction: missouri
+  issuing_body: Office of Administration, Information Technology Services Division
+  tags:
+  - cybersecurity
+  recheck: monthly
+  why_relevant: Row 'Firewall Selection' of the Security Domain's Approved Standards page (https://itsd.oa.mo.gov/it-governance/enterprise-architecture/security-domain/approved-standards-security-domain), the statewide IT security standards library of ITSD's enterprise architecture. Its viewer page is https://itsd.oa.mo.gov/media/pdf/firewall-selection-cc; the PDF address is the file that viewer page embeds. A 'Compliance Component' document of the Security Domain framework. Printed status (read by rendering the PDF page, because the check boxes are drawn marks with no text layer) is classification Current and status Approved, with Date Approved / Rejected 06/08/2004. The index lists it as an approved standard.
+- id: mo-packet-filter-firewalls-cc
+  sha256: "0817639fe1d8651e909b3db75122db810b3653be3cfaf96f5fd3f219f5f257bf"
+  url: https://itsd.oa.mo.gov/sites/g/files/zuston256/files/media/pdf/2025/04/CC-FirewallsPacketFilterARCApp.pdf
+  format: pdf
+  citation: 'Security Domain Compliance Component: Packet Filter Firewalls'
+  title: Packet Filter Firewalls
+  doc_type: standard
+  jurisdiction: missouri
+  issuing_body: Office of Administration, Information Technology Services Division
+  tags:
+  - cybersecurity
+  recheck: monthly
+  why_relevant: Row 'Packet Filter Firewalls' of the Security Domain's Approved Standards page (https://itsd.oa.mo.gov/it-governance/enterprise-architecture/security-domain/approved-standards-security-domain), the statewide IT security standards library of ITSD's enterprise architecture. Its viewer page is https://itsd.oa.mo.gov/media/pdf/packet-filter-firewalls-cc; the PDF address is the file that viewer page embeds. A 'Compliance Component' document of the Security Domain framework. Printed status (read by rendering the PDF page, because the check boxes are drawn marks with no text layer) is classification Current and status Approved, with Date Approved / Rejected 06/08/2004. The index lists it as an approved standard.
+- id: mo-personal-firewalls-cc
+  sha256: "953850ed911a185784d0df430b695301e42146fa6e7f8b8c18cd676ad6fbdf14"
+  url: https://itsd.oa.mo.gov/sites/g/files/zuston256/files/media/pdf/2025/04/CC-FirewallsPersonalARC.pdf
+  format: pdf
+  citation: 'Security Domain Compliance Component: Personal Firewalls'
+  title: Personal Firewalls
+  doc_type: standard
+  jurisdiction: missouri
+  issuing_body: Office of Administration, Information Technology Services Division
+  tags:
+  - cybersecurity
+  recheck: monthly
+  why_relevant: Row 'Personal Firewalls' of the Security Domain's Approved Standards page (https://itsd.oa.mo.gov/it-governance/enterprise-architecture/security-domain/approved-standards-security-domain), the statewide IT security standards library of ITSD's enterprise architecture. Its viewer page is https://itsd.oa.mo.gov/media/pdf/personal-firewalls-cc; the PDF address is the file that viewer page embeds. A 'Compliance Component' document of the Security Domain framework. Printed status (read by rendering the PDF page, because the check boxes are drawn marks with no text layer) is classification Current and status Approved, with Date Approved / Rejected 06/24/2004. The index lists it as an approved standard.
+- id: mo-stateful-inspection-firewalls-cc
+  sha256: "1a6cefb90a1c8abed18eeadc2b3ef306be376a0b1c48c1b9f3325d13bc1b895b"
+  url: https://itsd.oa.mo.gov/sites/g/files/zuston256/files/media/pdf/2025/04/CC-FirewallsStatefulInspectionARC.pdf
+  format: pdf
+  citation: 'Security Domain Compliance Component: Stateful Inspection Firewalls'
+  title: Stateful Inspection Firewalls
+  doc_type: standard
+  jurisdiction: missouri
+  issuing_body: Office of Administration, Information Technology Services Division
+  tags:
+  - cybersecurity
+  recheck: monthly
+  why_relevant: Row 'Stateful Inspection Firewalls' of the Security Domain's Approved Standards page (https://itsd.oa.mo.gov/it-governance/enterprise-architecture/security-domain/approved-standards-security-domain), the statewide IT security standards library of ITSD's enterprise architecture. Its viewer page is https://itsd.oa.mo.gov/media/pdf/stateful-inspection-firewalls-cc; the PDF address is the file that viewer page embeds. A 'Compliance Component' document of the Security Domain framework. Printed status (read by rendering the PDF page, because the check boxes are drawn marks with no text layer) is classification Current and status Approved, with Date Approved / Rejected 06/08/2004. The index lists it as an approved standard.
+- id: mo-virus-detection-eliminations
+  sha256: "a18ad06e706da99c6af15611ae391c2f3b81c86377256da18cd840a2d1e30270"
+  url: https://itsd.oa.mo.gov/sites/g/files/zuston256/files/media/pdf/2025/04/ta-virus-detectionand-elimination-02-06-03.pdf
+  format: pdf
+  citation: 'Security Domain Technology Area: Virus Detection & Eliminations'
+  title: Virus Detection & Eliminations
+  doc_type: standard
+  jurisdiction: missouri
+  issuing_body: Office of Administration, Information Technology Services Division
+  tags:
+  - cybersecurity
+  recheck: monthly
+  why_relevant: Row 'Virus Detection & Eliminations' of the Security Domain's Approved Standards page (https://itsd.oa.mo.gov/it-governance/enterprise-architecture/security-domain/approved-standards-security-domain), the statewide IT security standards library of ITSD's enterprise architecture. Its viewer page is https://itsd.oa.mo.gov/media/pdf/virus-detection-eliminations; the PDF address is the file that viewer page embeds. A 'Technology Area' document of the Security Domain framework. Printed status (read by rendering the PDF page, because the check boxes are drawn marks with no text layer) is status Approved (this document form has no classification row), with Date Approved / Rejected 02-27-2003. The index lists it as an approved standard.
+  identity_text: Virus Detection and Elimination
+- id: mo-criteria-e-mail-cc
+  sha256: "01d778c3e04f1f057e143a458084483d88cbe1fdbfdda90fab06032a97773756"
+  url: https://itsd.oa.mo.gov/sites/g/files/zuston256/files/media/pdf/2025/04/CC-VirusDetectionforEMailCriteria020603.pdf
+  format: pdf
+  citation: 'Security Domain Compliance Component: Criteria for E-mail'
+  title: Criteria for E-mail
+  doc_type: standard
+  jurisdiction: missouri
+  issuing_body: Office of Administration, Information Technology Services Division
+  tags:
+  - cybersecurity
+  recheck: monthly
+  why_relevant: Row 'Criteria for E-mail' of the Security Domain's Approved Standards page (https://itsd.oa.mo.gov/it-governance/enterprise-architecture/security-domain/approved-standards-security-domain), the statewide IT security standards library of ITSD's enterprise architecture. Its viewer page is https://itsd.oa.mo.gov/media/pdf/criteria-e-mail-cc; the PDF address is the file that viewer page embeds. A 'Compliance Component' document of the Security Domain framework. Printed status (read by rendering the PDF page, because the check boxes are drawn marks with no text layer) is classification Current and status Approved, with Date Approved / Rejected 02-27-2003. The index lists it as an approved standard.
+- id: mo-criteria-gateways-cc
+  sha256: "b1b50d562b2c6126cf42c36036c79f4ed95947200b577b0fb907285b41f21877"
+  url: https://itsd.oa.mo.gov/sites/g/files/zuston256/files/media/pdf/2025/04/CC-VirusDetectionforGatewayCriteria020603.pdf
+  format: pdf
+  citation: 'Security Domain Compliance Component: Criteria for Gateways'
+  title: Criteria for Gateways
+  doc_type: standard
+  jurisdiction: missouri
+  issuing_body: Office of Administration, Information Technology Services Division
+  tags:
+  - cybersecurity
+  recheck: monthly
+  why_relevant: Row 'Criteria for Gateways' of the Security Domain's Approved Standards page (https://itsd.oa.mo.gov/it-governance/enterprise-architecture/security-domain/approved-standards-security-domain), the statewide IT security standards library of ITSD's enterprise architecture. Its viewer page is https://itsd.oa.mo.gov/media/pdf/criteria-gateways-cc; the PDF address is the file that viewer page embeds. A 'Compliance Component' document of the Security Domain framework. Printed status (read by rendering the PDF page, because the check boxes are drawn marks with no text layer) is classification Current and status Approved, with Date Approved / Rejected 02-27-2003. The index lists it as an approved standard.
+- id: mo-criteria-server-cc
+  sha256: "3baf4f43894a1fd16b759160c0342c4fd04e270902910103cbe3a33c8f8477b8"
+  url: https://itsd.oa.mo.gov/sites/g/files/zuston256/files/media/pdf/2025/04/CC-VirusDetectionforServerCriteria020603.pdf
+  format: pdf
+  citation: 'Security Domain Compliance Component: Criteria for Server'
+  title: Criteria for Server
+  doc_type: standard
+  jurisdiction: missouri
+  issuing_body: Office of Administration, Information Technology Services Division
+  tags:
+  - cybersecurity
+  recheck: monthly
+  why_relevant: Row 'Criteria for Server' of the Security Domain's Approved Standards page (https://itsd.oa.mo.gov/it-governance/enterprise-architecture/security-domain/approved-standards-security-domain), the statewide IT security standards library of ITSD's enterprise architecture. Its viewer page is https://itsd.oa.mo.gov/media/pdf/criteria-server-cc; the PDF address is the file that viewer page embeds. A 'Compliance Component' document of the Security Domain framework. Printed status (read by rendering the PDF page, because the check boxes are drawn marks with no text layer) is classification Current and status Approved, with Date Approved / Rejected 02-27-2003. The index lists it as an approved standard.
+- id: mo-criteria-wireless-cc
+  sha256: "d455bb7e62201794ec69da341eac5c86321c0af6760ed35c328528d1108dcc81"
+  url: https://itsd.oa.mo.gov/sites/g/files/zuston256/files/media/pdf/2025/04/CC-VirusDetectionforWirelessCriteria020603.pdf
+  format: pdf
+  citation: 'Security Domain Compliance Component: Criteria for Wireless'
+  title: Criteria for Wireless
+  doc_type: standard
+  jurisdiction: missouri
+  issuing_body: Office of Administration, Information Technology Services Division
+  tags:
+  - cybersecurity
+  recheck: monthly
+  why_relevant: Row 'Criteria for Wireless' of the Security Domain's Approved Standards page (https://itsd.oa.mo.gov/it-governance/enterprise-architecture/security-domain/approved-standards-security-domain), the statewide IT security standards library of ITSD's enterprise architecture. Its viewer page is https://itsd.oa.mo.gov/media/pdf/criteria-wireless-cc; the PDF address is the file that viewer page embeds. A 'Compliance Component' document of the Security Domain framework. Printed status (read by rendering the PDF page, because the check boxes are drawn marks with no text layer) is classification Emerging and status Approved, with Date Approved / Rejected 02-27-2003. The index lists it as an approved standard.
+- id: mo-criteria-workstation-cc
+  sha256: "383974de023797ab4669742ad5fdd9b7f7ed4a2b4bb6a8b5fb8d537a8430a701"
+  url: https://itsd.oa.mo.gov/sites/g/files/zuston256/files/media/pdf/2025/04/CC-VirusDetectionforWorkstationCriteria020603.pdf
+  format: pdf
+  citation: 'Security Domain Compliance Component: Criteria for Workstation'
+  title: Criteria for Workstation
+  doc_type: standard
+  jurisdiction: missouri
+  issuing_body: Office of Administration, Information Technology Services Division
+  tags:
+  - cybersecurity
+  recheck: monthly
+  why_relevant: Row 'Criteria for Workstation' of the Security Domain's Approved Standards page (https://itsd.oa.mo.gov/it-governance/enterprise-architecture/security-domain/approved-standards-security-domain), the statewide IT security standards library of ITSD's enterprise architecture. Its viewer page is https://itsd.oa.mo.gov/media/pdf/criteria-workstation-cc; the PDF address is the file that viewer page embeds. A 'Compliance Component' document of the Security Domain framework. Printed status (read by rendering the PDF page, because the check boxes are drawn marks with no text layer) is classification Current and status Approved, with Date Approved / Rejected 02-27-2003. The index lists it as an approved standard.
+- id: mo-virus-management-tools-criteria-cc
+  sha256: "6d973160a1fcacbc88855594c55617e21f221600d92744934688e32a06fd3409"
+  url: https://itsd.oa.mo.gov/sites/g/files/zuston256/files/media/pdf/2025/04/CC-VirusManagementToolsCriteriaARCApp.pdf
+  format: pdf
+  citation: 'Security Domain Compliance Component: Virus Management Tools Criteria'
+  title: Virus Management Tools Criteria
+  doc_type: standard
+  jurisdiction: missouri
+  issuing_body: Office of Administration, Information Technology Services Division
+  tags:
+  - cybersecurity
+  recheck: monthly
+  why_relevant: Row 'Virus Management Tools Criteria' of the Security Domain's Approved Standards page (https://itsd.oa.mo.gov/it-governance/enterprise-architecture/security-domain/approved-standards-security-domain), the statewide IT security standards library of ITSD's enterprise architecture. Its viewer page is https://itsd.oa.mo.gov/media/pdf/virus-management-tools-criteria-cc; the PDF address is the file that viewer page embeds. A 'Compliance Component' document of the Security Domain framework. Printed status (read by rendering the PDF page, because the check boxes are drawn marks with no text layer) is classification Current and status Approved, with Date Approved / Rejected 02-27-03. The index lists it as an approved standard.
+  identity_text: Virus Detection and Elimination Criteria for Anti-Virus Management Tools
+- id: mo-virus-policy-best-practices-cc
+  sha256: "57ed60ac924279d7eb8a3b442a0b9907ff6a82ac123e00a8a394a53b11085c5c"
+  url: https://itsd.oa.mo.gov/sites/g/files/zuston256/files/media/pdf/2025/04/CC-VirusPolicyandBestPracticesARCApp.pdf
+  format: pdf
+  citation: 'Security Domain Compliance Component: Virus Policy & Best Practices'
+  title: Virus Policy & Best Practices
+  doc_type: standard
+  jurisdiction: missouri
+  issuing_body: Office of Administration, Information Technology Services Division
+  tags:
+  - cybersecurity
+  recheck: monthly
+  why_relevant: Row 'Virus Policy & Best Practices' of the Security Domain's Approved Standards page (https://itsd.oa.mo.gov/it-governance/enterprise-architecture/security-domain/approved-standards-security-domain), the statewide IT security standards library of ITSD's enterprise architecture. Its viewer page is https://itsd.oa.mo.gov/media/pdf/virus-policy-best-practices-cc; the PDF address is the file that viewer page embeds. A 'Compliance Component' document of the Security Domain framework. Printed status (read by rendering the PDF page, because the check boxes are drawn marks with no text layer) is classification Current and status Approved, with Date Approved / Rejected 02-27-2003. The index lists it as an approved standard.
+  identity_text: Virus Detection and Elimination Policies and Best Practices
+- id: mo-eo-03-26
+  sha256: "33c6af5b8b56a08b2a007bdee88fb80f09e9131f11685553da11e71a27ae595f"
+  url: https://www.sos.mo.gov/library/reference/orders/2003/eo03_026
+  format: html
+  citation: Executive Order 03-26
+  title: 'Executive Order 03-26: reestablishes the Office of Information Technology and its Chief Information Officer'
+  doc_type: executive_order
+  jurisdiction: missouri
+  issuing_body: Office of the Governor (Governor Bob Holden)
+  tags:
+  - governance
+  - oversight
+  recheck: monthly
+  why_relevant: 'Found on the Secretary of State''s year index for 2003 (https://www.sos.mo.gov/library/reference/orders/2003) and read as a candidate among the orders whose text names information technology. It reestablishes the Office of Information Technology, located in the Office of Administration and directed by a Chief Information Officer who serves at the will of the Governor, convenes an Information Technology Advisory Board, may establish a state enterprise IT architecture and state-wide IT policies, and files an annual ''State of Information Technology in Missouri'' report. In force: the page prints no rescission (the same office''s order 24-11 rescinded 177 orders and does not list 03-26); amended by Executive Order 06-34, and the office it created was assigned to the Division of Information Services by 05-07.'
+- id: mo-eo-05-07
+  sha256: "41ccfda50a0f89301fec02a8095bc24925f68757d1710b91e8227f02ad3942ba"
+  url: https://www.sos.mo.gov/library/reference/orders/2005/eo05_007
+  format: html
+  citation: Executive Order 05-07
+  title: 'Executive Order 05-07: assigns the Office of Information Technology to the Division of Information Services, whose head is the Chief Information Officer'
+  doc_type: executive_order
+  jurisdiction: missouri
+  issuing_body: Office of the Governor (Governor Matt Blunt)
+  tags:
+  - governance
+  recheck: monthly
+  why_relevant: Found on the Secretary of State's year index for 2005 and read as a candidate. It consolidates the Office of Information Technology into the Office of Administration's Division of Information Services (the division that became the Information Technology Services Division of section 37.110) and gives the head of the consolidated office the title Chief Information Officer and Director of the Division of Information Services. The page prints no rescission and Executive Order 24-11 does not list 05-07.
+- id: mo-eo-06-34
+  sha256: "c739139172f9026a4e85ef3e64c734a6362c542f0d62aef94b5f825356734a04"
+  url: https://www.sos.mo.gov/library/reference/orders/2006/eo06_034
+  format: html
+  citation: Executive Order 06-34
+  title: 'Executive Order 06-34: amends Executive Order 03-26 on the duties of the Information Technology Services Division and the Information Technology Advisory Board'
+  doc_type: executive_order
+  jurisdiction: missouri
+  issuing_body: Office of the Governor (Governor Matt Blunt)
+  tags:
+  - governance
+  - oversight
+  - cybersecurity
+  recheck: monthly
+  why_relevant: Found on the Secretary of State's year index for 2006 and read as a candidate (its text names the Chief Information Officer; the page prints no rescission and Executive Order 24-11 does not list 06-34). It directs that the Information Technology Services Division be directed by a Chief Information Officer designated by the Commissioner of Administration, reorganizes the technology board (focus includes cyber security and information security, data management and network operations), and restates the CIO's authority over the state enterprise IT and communication architecture, state-wide IT policies, the annual strategic plan and the annual report.
+- id: mo-eo-26-02
+  sha256: "da0c10c54e195222347b4f4662fc0c2120ce9e545be614afa4890987c33960dc"
+  url: https://www.sos.mo.gov/library/reference/orders/2026/eo2
+  format: html
+  citation: Executive Order 26-02
+  title: 'Executive Order 26-02: strategic framework for the integration of Artificial Intelligence within state government operations'
+  doc_type: executive_order
+  jurisdiction: missouri
+  issuing_body: Office of the Governor (Governor Mike Kehoe)
+  tags:
+  - ai
+  - governance
+  recheck: monthly
+  why_relevant: Listed on the Governor's executive-order list (https://governor.mo.gov/actions/executive-orders, 01/13/2026) and on the Secretary of State's 2026 index; the text is the Secretary of State's page (the page also links a scan of the signed order). Directs the Office of Administration to develop a strategic framework for the safe and effective integration of AI into state government operations, with the Departments of Economic Development and of Higher Education and Workforce Development reviewing the business environment, energy and workforce effects; reports are due to the Governor's Office by November 30, 2026, so the order is in force.
+- id: mo-watch-itsd-approved-standards
+  sha256: ''
+  url: https://itsd.oa.mo.gov/it-governance/enterprise-architecture/security-domain/approved-standards-security-domain
+  format: html
+  citation: 'ITSD page: Approved Standards (Security Domain)'
+  title: 'ITSD: Approved Standards, Security Domain (index)'
+  doc_type: standard
+  jurisdiction: missouri
+  issuing_body: Office of Administration, Information Technology Services Division
+  tags:
+  - cybersecurity
+  recheck: monthly
+  watch_only: true
+  why_relevant: 'The statewide IT standards library: 97 viewer-page links (3 disciplines, 22 technology areas and 72 compliance components) grouped by discipline. A standard added, replaced or removed raises a review-the-seed-list report.'
+- id: mo-watch-itsd-epmo
+  sha256: ''
+  url: https://itsd.oa.mo.gov/it-governance/enterprise-project-management-office
+  format: html
+  citation: 'ITSD page: Enterprise Project Management Office'
+  title: 'ITSD: Enterprise Project Management Office (index)'
+  doc_type: policy
+  jurisdiction: missouri
+  issuing_body: Office of Administration, Information Technology Services Division
+  tags:
+  - oversight
+  recheck: monthly
+  watch_only: true
+  why_relevant: EPMO's helpful links, which hold the ITSD Change Control Policy and the project forms. A policy added or removed raises a review-the-seed-list report.
+- id: mo-watch-statewide-policies
+  sha256: ''
+  url: https://oa.mo.gov/commissioners-office/policies/statewide
+  format: html
+  citation: 'OA page: Statewide Policies'
+  title: 'Office of Administration: Statewide Policies (index)'
+  doc_type: policy
+  jurisdiction: missouri
+  issuing_body: Office of Administration
+  tags:
+  - governance
+  recheck: monthly
+  watch_only: true
+  why_relevant: The statewide administrative policies (ITPS-001, SP-01 to SP-19 and the Purchasing Card manual). The IT rows are ITPS-001, SP-03, SP-18 and SP-19. A policy added, replaced or removed raises a review-the-seed-list report.
+- id: mo-watch-oa-administrative-policies
+  sha256: ''
+  url: https://oa.mo.gov/commissioners-office/policies/administrative
+  format: html
+  citation: 'OA page: OA Administrative Policies'
+  title: 'Office of Administration: OA Administrative Policies (index)'
+  doc_type: policy
+  jurisdiction: missouri
+  issuing_body: Office of Administration
+  tags:
+  - governance
+  recheck: monthly
+  watch_only: true
+  why_relevant: The Office of Administration's own policies (B, C and OA series). The IT rows are C-09, C-12, C-16, C-17 and C-19. A policy added or removed raises a review-the-seed-list report.
+- id: mo-watch-eo-secretary-of-state
+  sha256: ''
+  url: https://www.sos.mo.gov/library/reference/orders
+  format: html
+  citation: 'Secretary of State page: Governor''s Executive Orders'
+  title: 'Secretary of State: Governor''s Executive Orders (index by year)'
+  doc_type: executive_order
+  jurisdiction: missouri
+  issuing_body: Missouri Secretary of State
+  tags:
+  - governance
+  recheck: monthly
+  watch_only: true
+  why_relevant: The index of every executive order by year, 1980 to 2026, all governors. An order added raises a review-the-seed-list report.
+- id: mo-watch-eo-governor
+  sha256: ''
+  url: https://governor.mo.gov/actions/executive-orders
+  format: html
+  citation: 'Governor''s page: Executive Orders'
+  title: 'Governor: Executive Orders (current administration, with titles)'
+  doc_type: executive_order
+  jurisdiction: missouri
+  issuing_body: Office of the Governor
+  tags:
+  - governance
+  recheck: monthly
+  watch_only: true
+  why_relevant: The governor's list of orders with one-line summaries, newest first. An order added raises a review-the-seed-list report.
+- id: mo-watch-csr-title-1
+  sha256: ''
+  url: https://www.sos.mo.gov/adrules/csr/current/1csr/1csr
+  format: html
+  citation: 'Secretary of State page: Code of State Regulations, Title 1'
+  title: 'Secretary of State: Code of State Regulations, Title 1, Office of Administration (index)'
+  doc_type: rule
+  jurisdiction: missouri
+  issuing_body: Missouri Secretary of State
+  tags:
+  - governance
+  recheck: monthly
+  watch_only: true
+  why_relevant: The chapter list of Title 1 (Office of Administration), which holds 1 CSR 10-2. A chapter added or removed raises a review-the-seed-list report.
+- id: mo-watch-revisor-chapter-37
+  sha256: ''
+  url: https://revisor.mo.gov/main/OneChapter.aspx?chapter=37
+  format: html
+  citation: 'Revisor page: Chapter 37, Office of Administration'
+  title: 'Revisor of Statutes: Chapter 37, Office of Administration (section list)'
+  doc_type: statute
+  jurisdiction: missouri
+  issuing_body: Missouri General Assembly (Revisor of Statutes)
+  tags:
+  - governance
+  recheck: monthly
+  watch_only: true
+  why_relevant: The section list of RSMo Chapter 37, which holds 37.005, 37.110 and 37.920. A section added or removed raises a review-the-seed-list report.
+- id: mo-watch-revisor-chapter-41
+  sha256: ''
+  url: https://revisor.mo.gov/main/OneChapter.aspx?chapter=41
+  format: html
+  citation: 'Revisor page: Chapter 41, Military Forces'
+  title: 'Revisor of Statutes: Chapter 41, Military Forces (section list)'
+  doc_type: statute
+  jurisdiction: missouri
+  issuing_body: Missouri General Assembly (Revisor of Statutes)
+  tags:
+  - cybersecurity
+  recheck: monthly
+  watch_only: true
+  why_relevant: The section list of RSMo Chapter 41, which holds the Cybersecurity Mission Act (41.1015 to 41.1018). A section added or removed raises a review-the-seed-list report.
+
+left_out:
+- text: '---- Missouri: found and left out (each was seen on an official page on 2026-11-12 and read through the Fetcher; the reason is recorded here). ''Not found'' statements name the list that was read.'
+- text: |-
+    Central IT body, CIO and statutes. The statute pages seeded are the Revisor of Statutes' one-section pages (revisor.mo.gov OneSection). The section lists of Chapter 37 (Office of Administration) and Chapter 41 (Military Forces) were read whole (https://revisor.mo.gov/main/OneChapter.aspx?chapter=37 and ?chapter=41) and are watched. No section names a 'chief information officer' or 'state CIO': the enabling statute is 37.110 (the information technology services division); the CIO is named only on the ITSD page https://itsd.oa.mo.gov/chief-information-officer. Found and left out:
+     - Section 37.010 (the commissioner of administration heads the information technology services division among other divisions): the section is the commissioner's appointment, oath, bond and duties; its one IT clause repeats 37.110. Left out as a non-IT section (playbook: statute sections inside non-IT chapters are left out pending an owner decision on section-level slicing); 37.005 is seeded because its subsection 8 is the IT authority.
+     - Sections 37.070 (Departmental transparency) and 37.850 (Missouri accountability portal), and 1 CSR 10-7 (Missouri Accountability Portal rules): financial transparency and public spending data, not IT governance. OWNER DECISION: the portal is a state data system; the owner may want these seeded as data governance.
+     - Sections 37.1090 to 37.1098 (the local government expenditure database on the Missouri accountability portal: definitions, database creation and availability on the portal and the department website, contents, downloadable record of expenditures, local government participation, public comment, confidential information excluded from the database with state immunity, an internet link on local government websites, rulemaking), read in the Chapter 37 section list and not fetched as pages: financial transparency and public spending data, as 37.850. OWNER DECISION, together with 37.070, 37.850 and 1 CSR 10-7: the portal is a state data system and the owner may want these seeded as data governance.
+     - Section 37.007 (credit card, debit card and other electronic payments, statewide system): payment processing for state revenue, not IT governance. Left out.
+     - Section 37.710 (access to information, authority of the office, confidentiality of information): sits in the child advocate office sections (37.700 to 37.730) and gives that office access to records and confidentiality duties. Left out as not IT.
+     - Chapter 34 (state purchasing) and other procurement sections that buy IT: procurement law of general scope, not read for IT sections; left out under the playbook's rule on non-IT chapters.
+     - Sections 375.1400 to 375.1427 (Insurance Data Security Act, seen in search results only, not fetched): bind insurance licensees, not state agencies.
+     - Artificial intelligence: no enacted Missouri statute on state-agency AI use was found. The section lists of Chapters 37 and 41 were read; the Revisor's keyword search endpoint was not used (it is an internal search form, not a link a visitor follows). Web search (discovery only, nothing in the repo from it) reported 2026 bills (SB 1012, SB 1324, SB 1474 among them) that are not enacted law; bills not yet enacted are out of scope. The AI instruments seeded are Executive Order 26-02 and statewide policy SP-19.
+- text: 'OWNER DECISION, Missouri GIS Advisory Council (sections 37.1300, 37.1310, 37.1320, effective 28 August 2026, L. 2026 S.B. 959): seeded as documents. The council is established within ITSD to advise on a statewide geospatial data infrastructure, which is state data governance, but it also names NG9-1-1 life-safety users and a Missouri 911 service board member, and domain.yml scopes out 911. The owner may prefer them left out as GIS rather than IT; section 37.1330 is cited by 37.1300 and the page says it does not exist.'
+- text: Mixed sections seeded whole. Section 37.005 (Office of Administration powers, generally) and section 407.1500 (breach notification) are served by the Revisor one section per page, so non-IT subsections of 37.005 and the private-sector duties of 407.1500 ride along; recorded here for the owner (section-level slicing is not available from the page).
+- text: 'Rules. https://www.sos.mo.gov/adrules/csr/current/1csr/1csr (Code of State Regulations Title 1, Office of Administration) was read whole: Division 10 (Commissioner of Administration, 16 chapters), Division 15 (Administrative Hearing Commission), Division 20 (Personnel Advisory Board and Division of Personnel), Divisions 30 and 35 (facilities), Division 40 (Purchasing and Materials Management, Chapter 1 Procurement), Division 50 (Missouri Ethics Commission), Division 60 (Joint Oversight Task Force for Prescription Drug Monitoring), Division 70 (Assistive Technology Advisory Council, moved to 5 CSR 110-1). The IT agency''s own rules are one chapter: 1 CSR 10-2 Privacy of Computer-accessible, Confidential Personal Information, a STUB (two-column PDF the shared reader cannot put in reading order; see its stub_reason). No rule of Division 10 is issued by ITSD as such; the rest of the title is left out as not IT: Division 10 chapters 1, 3, 4, 5, 8, 9, 10, 11, 12, 13, 15, 16, 17 and 18 (organization, claims, payroll, parking, direct deposit, shared leave, travel, social security, lottery prizes, cafeteria plan, convention complex, equal opportunity, retirement) and Divisions 15 to 70, and Division 10 Chapter 7 (see the accountability portal item above). Other agencies'' rules on IT are out of this seed''s reach: the Code was not searched across titles (it has no static index of subjects).'
+- text: 'Statewide Policies page (https://oa.mo.gov/commissioners-office/policies/statewide), reconciled row by row: 18 rows (ITPS-001, SP-01, SP-02, SP-03, SP-04, SP-05, SP-06, SP-08, SP-09, SP-10, SP-11, SP-12, SP-13, SP-14, SP-17, SP-18, SP-19 and the State of MO Purchasing Card Policy and Procedure Manual; the page prints no SP-07, SP-15 or SP-16). 3 are seeded (ITPS-001, SP-18, SP-19), 15 are left out: SP-03 ''Wireless Telephone Equipment and Services Usage'' (policy on buying and monitoring state wireless telephone service and the cost of personal calls: telecom, which domain.yml scopes out); SP-01, SP-02, SP-04, SP-05, SP-06, SP-08, SP-09, SP-10, SP-11, SP-12, SP-13, SP-14 and SP-17 (tuition and dues reimbursement, vehicles, food, travel, aircraft, background checks, smoking, code of conduct, direct deposit, debt issuance: not IT); and the Purchasing Card manual (a card-program manual for purchases, not IT). The page marks no row as rescinded or superseded. ITPS-001 and SP-18 and SP-19 PDFs were read through the Fetcher (pdftotext, text layer present).'
+- text: 'OA Administrative Policies page (https://oa.mo.gov/commissioners-office/policies/administrative), reconciled row by row: 51 rows (B-02 to B-40, C-01 to C-20 and the OA series). 4 are seeded (C-09 Software Use and Piracy, C-12 Internet Acceptable Use, C-16 Information Technology Projects, C-19 Breach Policy), 47 are left out: C-17 ''Wireless Telephone Equipment and Services'' (telecom, as SP-03); and 46 human resources, vehicle, travel, safety, property, ethics and work-schedule policies (for example B-36 Open Records, B-38 Background Checks, C-05 Code of Ethics, C-06 State Property, C-11 Travel, OA-32 Alternative Work Location), none about IT. These policies bind the Office of Administration''s own staff, as each seeded entry says. The page also links the ''OA Periodic Rule Review'' PDF (the Office''s rule-review plan under section 536.021, not an instrument: left out).'
+- text: 'ITSD Approved Standards page (https://itsd.oa.mo.gov/it-governance/enterprise-architecture/security-domain/approved-standards-security-domain), reconciled row by row: 97 viewer-page links (3 disciplines: Management Controls, Operational Controls, Technical Controls; 22 technology areas; 72 compliance components), all 97 seeded and none left out. The Security Domain page (https://itsd.oa.mo.gov/it-governance/enterprise-architecture/security-domain) lists only the domain''s disciplines and technology areas; no other architecture domain page exists on the ITSD site (the Enterprise Architecture page links only the Security Domain). Two rows are titled ''Cryptography'' (a technology area and a compliance component): both are seeded under their own addresses. Where the PDF''s printed ''Name'' row differs from the index title (19 rows) the entry sets identity_text to the printed name. The compliance components print a creation date, review dates and an approval date in an audit-trail table, and their Emerging/Current/Twilight/Sunset and In Development/Under Review/Approved/Rejected check boxes are drawn marks with no text layer; they were read by rendering the classification and status rows of each committed PDF (pdftoppm, then a check of the drawn marks, with the unclear ones looked at by eye). Result for the 97 PDFs: none is marked Twilight or Sunset; each entry records its printed classification and status. 81 are marked Approved, two of them also Under Review (Current and Approved for most; the technology-area and discipline documents carry a status row only; mo-criteria-wireless-cc is Emerging and Approved; mo-firewall-environments-cc has no classification marked and is Approved); 16 are marked Under Review and not Approved (see the next item); the page lists all 97 as approved standards. The reading of the marks is by rendering and by eye, not by the text layer.'
+- text: 'OWNER DECISION, Approved Standards marked Under Review. 16 standards print the status Under Review and not Approved: mo-information-security-policy-cc, mo-separation-duties-cc, mo-system-life-cycle-security, mo-disposal-phase-cc, mo-enterprise-patch-management-cc, mo-system-security-planning-procedure-cc, mo-configuration-management-cc, mo-physical-and-environmental-protection-controls-cc, mo-security-awareness-training-and-education, mo-contingency-plan-testing-training-exercises-and-maintenance-cc, mo-cryptography-cc, mo-password-controls-cc, mo-access-controls-cc, mo-securing-remote-connections-cc, mo-securing-mobile-devices-cc, mo-security-voice-over-internet-protocol-voip-cc. 2 print both Under Review and Approved marked: mo-background-screening-cc, mo-digital-signature-cc. For example mo-separation-duties-cc prints Under Review although its Date Approved / Rejected reads 12/18/2025. All are listed on the index page as Approved Standards and are kept as documents on that label as the status of record, and each entry says so; the owner may instead treat the 16 as under-review revisions and drop them, and decide for the 2 double-marked ones which mark governs.'
+- text: 'OWNER DECISION, two published PDFs with a defective text layer or redline. (1) mo-management-controls (dsp-management-controls-12-31-02.pdf.pdf) prints unaccepted Word tracked changes, with Deleted margin balloons and red underlined insertions on page 2; the token Deleted followed by a colon rides along twice in the committed text (snapshot lines 127 and 133), and the file may be a draft or redline copy. (2) mo-itps-001 (ITPS-001, Laptop Encryption): the bold heading font is not embedded (pdftotext reports a non-embedded font using identity encoding, TimesNewRoman,Bold), so the heading reads ''I. General StatemenW'' in the text layer and in a poppler rendering; the committed text keeps the defect. Both are kept as documents with the defect recorded in the entry; the owner may prefer a stub for either (North Carolina precedent for a damaged text layer).'
+- text: 'ITSD Enterprise Project Management Office page (https://itsd.oa.mo.gov/it-governance/enterprise-project-management-office): 6 links. 1 seeded (ITSD Change Control Policy). 5 left out as forms, templates and instructions: ''State of Missouri Fingerprint Background Screening Instructions'' (instructions for contractor fingerprinting), ''Contractor Agreement Form'', ''Project Deliverable Acceptance Form (PDAF)'', ''SOW FAQs (Project Based IT Consulting QVL)'' (FAQ for a vendor qualified list) and ''Status Report Template'' (a download).'
+- text: 'ITSD Cost Allocation Plans page (https://itsd.oa.mo.gov/it-governance/cost-allocation-plans): 10 plans (Telecommunications and State Data Center, each FY23 to FY27), the billing-rate methodologies for ITSD services under section 37.005. Left out: financial plans and reports, not instruments (playbook: reports are not instruments). OWNER DECISION: the owner may want the current-year (FY27) plans as funding documents.'
+- text: 'Pages read that carry no instrument and are left out: ITSD home, About ITSD, Chief Information Officer, IT Governance, Information Security (describes the Office of Cyber Security), Enterprise Architecture, Application Portfolio Management, Contracts & Bidding (points to the Division of Purchasing), Missouri Information Technology Advisory Council (MITAC) page and its linked ''Agenda for the August 2026 MITAC meeting'' (a meeting agenda); cybersecurity.mo.gov (public security-awareness tips and a travel checklist for employees, not an instrument); https://www.mo.gov/data-policy/ (the terms on which the public may reuse the site''s data, which binds the public).'
+- text: |-
+    Executive orders. The Governor's list (https://governor.mo.gov/actions/executive-orders, 4 pages, 25-02 to 26-22; its year filter offers 2024 to 2026) and the Secretary of State's year pages for 1980 to 2026 (https://www.sos.mo.gov/library/reference/orders and one page per year, all governors) were read. The Secretary of State's pages carry no summary, so every order page they link that the Fetcher returned (HTTP 200) was fetched and searched for information technology, cyber, artificial intelligence, computer, software, network, internet, data, privacy, e-government and technology; every order with a hit was read. 4 are seeded: 03-26, 05-07, 06-34 and 26-02. Left out:
+     - OWNER DECISION: Executive Order 26-03 (Missouri GREAT initiative and operational task force, 01/13/2026): a government-efficiency order; one clause tells departments to explore modernized software and AI applications 'provided that any such initiative adheres strictly to the safety and security standards established in Executive Order 26-02'. Not an IT order; the owner may want it as a cross-reference to 26-02.
+     - OWNER DECISION: Executive Order 26-18 (Automated License Plate Reader minimum standards, 09/16/2026): sets 30-day deletion, government ownership of data, vendor certification, search logging and a ban on AI facial-recognition integration for state agencies and state-funded local law enforcement using ALPR. It binds state entities and governs government-held data, but ALPR is law-enforcement technology, which domain.yml scopes out.
+     - Executive Order 07-24 (Missouri Accountability Portal): financial transparency, with section 37.850 and 1 CSR 10-7 (see above).
+     - Executive Order 07-31 (Rural High-Speed Internet Access Task Force): broadband, scoped out.
+     - Executive Order 04-09 (certification of the location of vendors' work, offshore outsourcing, in bids): general procurement, with a recital on privacy of residents' personal information; not an IT order.
+     - Executive Order 05-20 (Homeland Security Advisory Council, which lists the Chief Information Officer among its members) and Executive Order 18-03 (the same council): homeland security.
+     - Executive Order 24-11 (rescinds 177 earlier orders, 80-11 to 18-12): a housekeeping order. It rescinded the IT orders 02-11 (state software piracy policy), 03-25 (cyber security policy), 06-03 and 09-27 (health information technology, health information exchange), which are therefore not in force; 02-15 (Missouri Security Council with a Cyber Security Committee) was rescinded by 05-20 and 03-18 (interoperable communications) by 24-11. None is seeded.
+     - Every other order read has no information technology subject: emergencies and extensions, disaster declarations, boards, task forces, reorganization plans (the 1980 personnel plan 80-6 names the Department of Revenue's Information Systems Division only as an employer), closures of state offices, pardons and clemency, appointments.
+     - Reading limits: 1,039 order pages (every order link on the 47 year pages, 1980 to 2026) were fetched through the Fetcher; for 164 of them the heading or layout is not one the Missouri reader accepts (1980 to 1996 notices, plans and brief orders, headings such as 'EXECUTIVE ORDER NO96-04', and several 2003 and 2021 pages), so they were searched with tags stripped. The search is by keyword: an order about IT that uses none of those words would be missed. Not verified: whether a later order amended 03-26, 05-07 or 06-34 without the page saying so (06-34 amends 03-26 expressly); the pages print 'Rescinded by' lines and none is printed on the four seeded orders.

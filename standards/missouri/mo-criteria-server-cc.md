@@ -1,0 +1,285 @@
+---
+schema_version: 1
+corpus: states-government-it
+jurisdiction: missouri
+id: mo-criteria-server-cc
+title: Criteria for Server
+doc_type: standard
+citation: 'Security Domain Compliance Component: Criteria for Server'
+authority_level: ''
+issuing_body: Office of Administration, Information Technology Services Division
+source_url: https://itsd.oa.mo.gov/sites/g/files/zuston256/files/media/pdf/2025/04/CC-VirusDetectionforServerCriteria020603.pdf
+source_format: pdf
+retrieved: '2026-11-12'
+source_sha256: 3baf4f43894a1fd16b759160c0342c4fd04e270902910103cbe3a33c8f8477b8
+effective_date: null
+source_version: ''
+status: current
+content_mode: verbatim
+conversion_notes: Text extracted with pdftotext -layout (page headers, footers and column layout kept
+  as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their
+  letters).
+last_verified: ''
+verified_by: ''
+maintainer: ''
+relationships:
+  implements: []
+  implemented_by: []
+  references_external: []
+  related: []
+  supersedes: []
+tags:
+- cybersecurity
+---
+
+> **NON-AUTHORITATIVE.** This is a convenience copy for machine reading. The official text is published at the source URL above. Verify at source before relying on it.
+
+# Criteria for Server (Security Domain Compliance Component: Criteria for Server)
+
+## At a glance
+
+Row 'Criteria for Server' of the Security Domain's Approved Standards page (https://itsd.oa.mo.gov/it-governance/enterprise-architecture/security-domain/approved-standards-security-domain), the statewide IT security standards library of ITSD's enterprise architecture. Its viewer page is https://itsd.oa.mo.gov/media/pdf/criteria-server-cc; the PDF address is the file that viewer page embeds. A 'Compliance Component' document of the Security Domain framework. Printed status (read by rendering the PDF page, because the check boxes are drawn marks with no text layer) is classification Current and status Approved, with Date Approved / Rejected 02-27-2003. The index lists it as an approved standard.
+
+## Full text
+
+                                            C
+                                            Coom
+                                               mpplliiaannccee C
+                                                               Coom
+                                                                  mppoonneenntt
+
+                                                  D
+                                                  DEEFFIIN
+                                                         NIITTIIO
+                                                                ONN
+Name                   Virus Detection and Elimination Criteria for Servers
+                       To make available to the State of Missouri Enterprise a set of minimum criteria
+                       for the selection of anti-virus software and products for security protection of
+Description
+                       servers.
+
+                       All servers within the State of Missouri computer environment shall execute an
+                       anti-virus security product that conforms to a minimum set of compliance
+Rationale
+                       criteria. These criteria shall serve as a checklist to help administrators choose
+                       the appropriate anti-virus solution for their environment.
+                       To significantly improve server trust and security through a set of criteria for the
+                       following security services:
+Benefits                   1. Protection to servers and media from computer virus intrusion.
+                           2. Detection of computer viruses on an infected server system or media.
+                           3. Server recovery from a computer virus infection.
+                                  A
+                                  ASSSSO
+                                       OCCIIA
+                                            ATTEED
+                                                 DAARRC
+                                                      CHHIITTEEC
+                                                               CTTU
+                                                                  URREE LLEEVVEELLSS
+List the Domain Name            Security
+List the Discipline Name        Technical Controls
+List the Technology Area Name   Virus Detection and Elimination
+List Product Component Name
+                                    C
+                                    COOM
+                                       MPPLLIIA
+                                              ANNC
+                                                 CEE C
+                                                     COOM
+                                                        MPPO
+                                                           ONNEEN
+                                                                NTT TTYYPPEE
+Document the Compliance
+                                Guideline
+Component Type
+Component Sub-type
+                                            C
+                                            COOM
+                                               MPPLLIIA
+                                                      ANNC
+                                                         CEE D
+                                                             DEETTA
+                                                                  AIILL
+                                Virus Detection and Elimination Criteria for Servers
+
+                                State of Missouri servers shall be protected with anti-virus software and
+                                procedures that meet the checklist of criteria detailed in the following
+                                service areas.
+
+                                General Server Anti-Virus Criteria
+State the Guideline, Standard   • Anti-virus scanner software shall be run on all servers even if the
+or Legislation                     networks perimeter devices are scanning for viruses.
+                                • All servers shall be scanned for viruses at least once a day.
+                                • Server anti-virus software shall provide integration capabilities with
+                                   an enterprise anti-virus policy management suite.
+                                • All State of Missouri servers shall execute a virus scan product
+                                   certified by the ICSA Labs (http://www.icsalabs.com). ICSA Labs
+                                   certification requires anti-virus products to detect 100% of all
+                                   viruses “in the wild” as captured by the WildList Organization
+
+   International (http://www.wildlist.org).
+
+Virus Detection/Scanning Capabilities
+• Anti-virus software shall be capable of detecting malicious software
+    before it is executed.
+• Shall support both On-Access (real-time) and On-Demand (flexible)
+    scanning capabilities.
+• Shall provide detection for all “in the wild” virus types (boot viruses,
+    file viruses, macro viruses, and script viruses).
+• Shall provide detection for Zoo type viruses (file viruses, macro
+    viruses, script viruses, polymorphic viruses, other malware, false
+    positives).
+• Shall provide detection for archived and compressed file types (.ZIP,
+    TAR, LZH, recursive and self-extracting archives, runtime-
+    compressed files).
+• Shall provide scanning capabilities for all standard office file formats
+    (including embedded OLE objects and password protected files).
+• Shall provide for flexible configuration to include/exclude file types,
+    drives and directories from scans.
+• Shall support both Inbound and Outbound real-time scan protection.
+• Shall provide Internet Download and Content scanning for protection
+    from suspicious web content, including:
+         o ActiveX filtering and scanning
+         o JavaScript filtering and scanning
+• Shall provide Heuristic-scanning capabilities (intelligent analysis of
+    unknown or suspicious sections of code).
+
+Virus Reporting Capabilities
+• Anti-virus software shall provide the ability for detection notification
+    via both audio and visual alerts.
+• Anti-virus software shall provide remote notification of
+    administrative alerts via the following methods:
+        o SMTP/E-Mail
+        o SNMP Alerts
+        o Log to a file
+        o Log to an Enterprise Repository
+
+Post-Detection Virus Action Capabilities
+• It is highly desirable that Anti-virus software be able to eradicate
+   malicious software and viruses detected through the following
+   means:
+       o Quarantine – moving the infected file into an area where it
+           cannot cause more harm.
+       o Virus Removal – allows for repair of the damage caused by
+           the virus.
+       o Deny Access – prohibits the file from being accessed once
+           infected.
+       o Delete – complete removal of the infected file from the
+           system.
+
+Virus Scan Engine Update Capabilities
+• Anti-virus signatures need to be updated continuously, either
+
+                                  through a manual or automated process.
+                              •   Shall provide a secure procedure for keeping the detection engine
+                                  up-to-date with the latest detection signatures & scan engine
+                                  techniques (new viruses are discovered daily)
+                              •   Shall provide for automated updates of both scan engine and
+                                  signatures on a scheduled interval or as needed.
+                              •   Virus scan engine shall have the ability to stay up-to-date with the
+                                  latest developments in malicious software detection.
+
+                              Anti-Virus Software Configuration Security
+                              • Anti-virus product configurations and settings shall be able to be
+                                 password protected to prevent misuse and disablement.
+                              • Anti-virus software shall support multiple & customizable definitions
+                                 of security rights to various levels of the software configuration
+                                 settings.
+
+                              Anti-Virus Installation Criteria
+                              • Anti-virus software shall be capable of installation on clustered
+                                 servers.
+                              • Anti-virus software shall be capable of automatic deployment and
+                                 installation via the following:
+                                     o Installation via image – anti-virus software shall be able to be
+                                         included in the standard file server images deployed within
+                                         the enterprise.
+                                     o Remote installation – anti-virus software shall support
+                                         deployment to remote systems (not locally-connected)
+                                         providing the same level of protection to these devices.
+                              • Anti-virus software shall provide “Wizard-enabled” installation
+                                 routines to automate and expedite installation.
+
+                              Service and Support
+                              • Virus protection for servers shall support full virus protection in
+                                 clustered server environments.
+                              • State of Missouri virus protection products shall be backed by
+                                 vendors who offer 24 x 7, 365 days a year phone support.
+                              • Anti-virus vendors shall provide a comprehensive documentation
+                                 and assistance package, including a facility for pro-active timely
+                                 warnings of new malicious software and virus events.
+                              • Anti-virus vendors shall provide “Virus Catalog Support” including:
+                                     o A lexicon of known viruses detailing descriptions, how they
+                                        are spread, what they do, how they are recognized and how
+                                        to remove them.
+                                     o Downloads or links to disinfection tools.
+                                     o A clear and concise description of the anti-virus tools
+                                        functionality, including procedures for updating the product
+                                        with new detection signatures.
+                                     o General advice to end-users on attacks and avoidance
+                                        measures.
+Document Source Reference #   N/A
+                                          Standard Organization
+Name                          ICSA Labs                    Website      www.icsalabs.com
+
+                               ICSA Labs is a division of TruSecure Corporation and can be reached at
+Contact Information
+                               1-888-396-8348 (info@trusecure.com)
+                                                  Government Body
+                               National Institute of
+                               Standards and Technology
+                                                                                  http://csrc.nist.gov/
+Name                           (NIST), Computer                    Website
+                               Security Resource Center
+                               (CSRC)
+Contact Information            inquiries@nist.gov
+                                                    KKEEYYW
+                                                          WOORRD
+                                                               DSS
+                               Virus, virus detection, malicious code, virus products, virus reporting,
+                               anti-virus vendors, anti-virus engine, zoo, trojan horse, backdoor,
+                               worm, stealth, blended threat, boot sector infector, companion, denial
+List all Keywords
+                               of service, dropper, file infector, logic bomb, malware, multi-partite,
+                               overwriting, parasitic, polymorphic, tunneling, variant, terminate and
+                               stay resident (tsr), management, server
+                                     C
+                                     COOM
+                                        MPPO
+                                           ONNEEN
+                                                NTT C
+                                                    CLLA
+                                                       ASSSSIIFFIIC
+                                                                  CAATTIIO
+                                                                         ONN
+Provide the Classification       Emerging                Current                Twilight         Sunset
+                                  Rationale for Component Classification
+Document the Rationale for
+Component Classification
+                                        Conditional Use Restrictions
+Document the Conditional Use
+Restrictions
+                                                  Migration Strategy
+Document the Migration
+Strategy
+                                            Impact Position Statement
+Document the Position
+Statement on Impact
+                                              C
+                                              CUURRRREEN
+                                                       NTT SSTTA
+                                                               ATTU
+                                                                  USS
+Provide the Current Status)      In Development          Under Review           Approved         Rejected
+                                                   A
+                                                   AUUD
+                                                      DIITT TTRRA
+                                                                AIILL
+Creation Date                  02-06-2003                   Date Accepted / Rejected       02-27-2003
+     Reason for Rejection
+Last Date Reviewed                                          Last Date Updated
+     Reason for Update
+
+## Curator notes
+
+Text extracted with pdftotext -layout (page headers, footers and column layout kept as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their letters).

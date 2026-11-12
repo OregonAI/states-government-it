@@ -1,0 +1,91 @@
+                                                  TTeecchhnnoollooggyy A
+                                                                       Arreeaa
+
+                                                     D
+                                                     DEEFFIIN
+                                                            NIITTIIO
+                                                                   ONN
+Name                       Secure Gateways and Firewalls
+                           Secure gateways and firewalls are devices or systems that control the flow of
+                           traffic between networks employing differing security postures. There are
+                           several types of secure gateways and firewalls, ranging from boundary routers
+Description
+                           that can provide access control, to even more powerful systems that can filter
+                           on the content of the traffic.
+
+                           Secure gateways and firewalls are standard equipment for Internet and
+                           boundary connections, and protect sites from exploitation of inherent
+                           vulnerabilities. Additionally, they help mitigate problems associated with
+Rationale
+                           unsecured systems and the problems inherent in providing robust security for
+                           large numbers of systems.
+
+                           •   Secure gateway and firewall technologies can integrate with other security
+                               and intrusion detection systems.
+                           •   Secure gateways can scan for viruses and malicious code in electronic mail
+Benefits                       and web pages.
+                           •   Secured gateways and firewalls are used to restrict connectivity to and
+                               from internal networks servicing more sensitive functions.
+
+                                     A
+                                     ASSSSO
+                                          OCCIIA
+                                               ATTEED
+                                                    DAARRC
+                                                         CHHIITTEEC
+                                                                  CTTU
+                                                                     URREE LLEEVVEELLSS
+List the Domain Name             Security
+List the Discipline Name         Technical Controls
+                                       Associated Compliance Components
+                                 •    Firewall Selection
+                                          o Stateful Inspection Firewalls
+                                          o Packet Filter Firewalls
+                                          o Application-Proxy Gateway Firewalls
+List the Compliance
+                                          o Personal Firewalls
+Component Names
+                                          o Dedicated Proxy Servers
+                                 •    Firewall Environments
+                                 •    Firewall Administration
+                                 •    Firewall Rules
+                                         Associated Product Components
+List the Product Component
+Names
+                                          TTEEC
+                                              CHHN
+                                                 NOOLLO
+                                                      OGGYY A
+                                                            ARREEA
+                                                                 ADDEETTA
+                                                                        AIILL
+Supporting Documentation         NIST SP 800-41, Guideline for Firewalls and Firewall Policy
+Document Source Reference #      www.csrc.nist.gov/publications/nistpubs
+
+                              Standard Organization / Government Body
+                             National Institute of
+                             Standards and Technology
+Name                         (NIST), Computer                 Website           http://csrc.nist.gov/
+                             Security Resource Center
+                             (CSRC)
+Contact Information          inquiries@nist.gov
+                                                 KKEEYYW
+                                                       WOORRD
+                                                            DSS
+                             Stateful inspection, packet filter, application proxy, dedicated proxy,
+List Keywords
+                             personal firewall
+                                           C
+                                           CUURRRREEN
+                                                    NTT SSTTA
+                                                            ATTU
+                                                               USS
+Provide the Current Status     In Development         Under Review             Approved       Rejected
+                                                A
+                                                AUUD
+                                                   DIITT TTRRA
+                                                             AIILL
+Creation Date                5/27/2004                     Date Accepted / Rejected       06/08/2004
+    Reason for Rejection
+Last Date Reviewed                                         Last Date Updated
+    Reason for Update

@@ -1,0 +1,125 @@
+                                             C
+                                             Coom
+                                                mpplliiaannccee C
+                                                                Coom
+                                                                   mppoonneenntt
+
+                                                    D
+                                                    DEEFFIIN
+                                                           NIITTIIO
+                                                                  ONN
+Name                   Date/Time Controls
+                       Restrictions based on time and day bolsters the control environment. The intent
+Description            is to require more than simple access controls, normally based on user-IDs and
+                       passwords.
+                       Hackers are most active at night, just when systems are sparsely staffed, if
+Rationale              staffed at all. If users stay logged on, hackers can attack their network assets
+                       and use them to attack other systems.
+Benefits               •   Reduces the amount of time the account is open to unauthorized access.
+                                    A
+                                    ASSSSO
+                                         OCCIIA
+                                              ATTEED
+                                                   DAARRC
+                                                        CHHIITTEEC
+                                                                 CTTU
+                                                                    URREE LLEEVVEELLSS
+List the Domain Name            Security
+List the Discipline Name        Technical Controls
+List the Technology Area Name   Logical Access Controls
+List Product Component Name
+                                      C
+                                      COOM
+                                         MPPLLIIA
+                                                ANNC
+                                                   CEE C
+                                                       COOM
+                                                          MPPO
+                                                             ONNEEN
+                                                                  NTT TTYYPPEE
+Document the Compliance
+                                Guideline
+Component Type
+Component Sub-type
+                                              C
+                                              COOM
+                                                 MPPLLIIA
+                                                        ANNC
+                                                           CEE D
+                                                               DEETTA
+                                                                    AIILL
+                                •  Whenever possible access control should constrain the user to use of
+                                   the system within a limited working day and only on normal working
+                                   days of the week (some systems even make allowances for denying
+                                   access on public holidays). Such a restriction helps prevent misuse
+                                   of the system out of hours by an employee (a cleaner, perhaps) or
+                                   by a hacker (who often rely on out-of-hours access to avoid
+State the Guideline, Standard
+                                   detection by legitimate users).
+or Legislation
+                                • Similarly, restrictions should be placed on the workstations the user
+                                   can employ and on the applications that can be run on a particular
+                                   workstation. This measure is particularly useful in limiting very
+                                   privileged activities (system support, security administration, for
+                                   example) to certain workstations and thus putting a physical barrier
+                                   in the way of a would-be attacker.
+                                NIST SP 800-18 (www.csrc.nist.gov/publications/nistpubs)
+                                CERT Guide to System and Network Security Practices
+Document Source Reference #
+                                (www.cert.org/security-improvement/)
+
+                                               Standard Organization
+                               Carnegie Mellon
+                               University,
+Name                                                               Website        www.cert.org
+                               CERT/Coordination Center
+                               (CERT/CC)
+Contact Information            cert@cert.org
+                                                  Government Body
+                               National Institute of
+                               Standards and Technology
+                                                                                  http://csrc.nist.gov/
+Name                           (NIST), Computer                    Website
+                               Security Resource Center
+                               (CSRC)
+Contact Information            inquiries@nist.gov
+                                                    KKEEYYW
+                                                          WOORRD
+                                                               DSS
+List all Keywords              Access, times, work schedule, hours, system availability, after hours
+                                     C
+                                     COOM
+                                        MPPO
+                                           ONNEEN
+                                                NTT C
+                                                    CLLA
+                                                       ASSSSIIFFIIC
+                                                                  CAATTIIO
+                                                                         ONN
+Provide the Classification       Emerging                Current                Twilight         Sunset
+                                  Rationale for Component Classification
+Document the Rationale for
+Component Classification
+                                        Conditional Use Restrictions
+Document the Conditional Use
+Restrictions
+                                                  Migration Strategy
+Document the Migration
+Strategy
+                                            Impact Position Statement
+Document the Position
+Statement on Impact
+                                               C
+                                               CUURRRREEN
+                                                        NTT SSTTA
+                                                                ATTU
+                                                                   USS
+Provide the Current Status)      In Development          Under Review           Approved         Rejected
+                                                   A
+                                                   AUUD
+                                                      DIITT TTRRA
+                                                                AIILL
+Creation Date                  3/6/2003                     Date Accepted / Rejected       03/24/2003
+     Reason for Rejection
+Last Date Reviewed                                          Last Date Updated
+     Reason for Update
