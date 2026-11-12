@@ -1,0 +1,736 @@
+# New Mexico seed list: every instrument this state's part of the corpus holds or knows about.
+# Key reference: _meta/sources/README.md. Rules: _meta/CLAUDE.md. Proposed 2026-11-12 from bytes fetched through the toolkit
+# Fetcher that day (DoIT, State Records Center and Archives, NMOneSource, Governor's site, nmlegis.gov).
+sources:
+# ---- Statutes: NMSA 1978 Chapter 9, Articles 27 and 27A (document = one article cut from the Compilation Commission's whole-chapter PDF)
+# Each statute entry's url is the whole-chapter PDF (Chapter 9, 476 pages) while its sha256 is the hash of the entry's JSON slice bundle, which is what is committed. The monthly
+# drift run (corpus-detect-changes, which GETs each entry's url whole and compares a hash of the body with the entry's `sha256`) will download that PDF once per entry (twice) and
+# cannot compare it with a baseline taken over a slice: expect both entries to be reported as changed every month, and treat that as noise until corpus-toolkit can recheck a sliced
+# source (`recheck:` is not honoured by the toolkit, so it cannot route these entries elsewhere). Drift is the toolkit's; this repo has not run it for these entries.
+- id: nm-nmsa-9-27
+  sha256: "4612ba87ab10c57a61af2441e5cb6707b3db08a95143f98a2e23c502c1506ce9"
+  url: https://nmonesource.com/nmos/nmsa/en/4357/1/document.do
+  format: json
+  citation: NMSA 1978, chapter 9, article 27
+  title: Department of Information Technology
+  doc_type: statute
+  jurisdiction: new-mexico
+  issuing_body: New Mexico Legislature; published by the New Mexico Compilation Commission (NMOneSource.com)
+  tags:
+  - governance
+  - oversight
+  - procurement
+  - funding
+  - cybersecurity
+  - data
+  recheck: monthly
+  slice:
+    article: '27'
+  found_via: Linked from DoIT's 'DoIT ACT, Policies & Rules' page (the DoIT Act row opens NMOneSource item 4357, Chapter 9); the whole-chapter PDF address is the 'Chapter 9 NMSA 1978' document link printed on that item's page.
+  why_relevant: 'The Department of Information Technology Act: creates the department and the cabinet secretary who is the state chief information officer, and sets the department''s powers and duties over executive-agency information technology (9-27-5 and 9-27-6), including its rulemaking power (9-27-6) under which the 1.12 NMAC rules are issued. The source serves the whole of Chapter 9 as one PDF; this document is Article 27 of it, with the Compilation Commission''s annotations. Out-of-scope sections ride along with the slice (broadband and telecom, domain.yml): 9-27-13 (telecommunications services), 9-27-14, 9-27-15 and 9-27-15.1 (radio communications, the leased radio network and its report), 9-27-20 to 9-27-22 (telecommunications duties, the central telecommunication network and its charges), 9-27-25 (participation in the central telecommunication network), 9-27-26 (Indian nations, tribes and pueblos on the agency-owned statewide broadband network) and 9-27-27 (library broadband infrastructure fund). The governance sections are 9-27-4 to 9-27-6.'
+- id: nm-nmsa-9-27a
+  sha256: "08b6c93b74e28a36964d9caac74b731f9dc4d9bc22c8ffc8c40097eb2e1ed6a9"
+  url: https://nmonesource.com/nmos/nmsa/en/4357/1/document.do
+  format: json
+  citation: NMSA 1978, chapter 9, article 27A
+  title: Cybersecurity
+  doc_type: statute
+  jurisdiction: new-mexico
+  issuing_body: New Mexico Legislature; published by the New Mexico Compilation Commission (NMOneSource.com)
+  tags:
+  - cybersecurity
+  - governance
+  - data
+  recheck: monthly
+  slice:
+    article: 27A
+  found_via: Named on DoIT's cybersecurity program page ('Cybersecurity Act, Sections 9-27A-1 to 9-27A-5, NMSA 1978'); text read in the same Chapter 9 PDF as the DoIT Act.
+  why_relevant: 'The Cybersecurity Act (2023): creates the Office of Cybersecurity and the state chief information security officer, its powers and duties including a centralized cybersecurity and data breach reporting process for agencies and political subdivisions (9-27A-3), and the cybersecurity advisory committee (9-27A-5). The source serves the whole of Chapter 9 as one PDF; this document is Article 27A of it, with the Compilation Commission''s annotations.'
+- id: nm-nmac-1-12-1
+  sha256: "c49399450a0ef63429431ca1ee572f63c09213013a78f1238a2a5acd8e74d326"
+  url: https://www.doit.nm.gov/files/docs/1.12.1-GeneralProvisions.pdf
+  format: pdf
+  citation: 1.12.1 NMAC
+  title: General Provisions
+  doc_type: rule
+  jurisdiction: new-mexico
+  issuing_body: Information Technology Commission (1.12 NMAC; now the Department of Information Technology)
+  tags:
+  - governance
+  recheck: monthly
+  found_via: Linked from the 'NMAC DoIT Rules' table of DoIT's 'DoIT ACT, Policies & Rules' page; the PDF is the NMAC text the Department publishes. Word-for-word equal (modulo punctuation spacing) to the State Records Center and Archives page of the part.
+  why_relevant: Provisions that apply to all the rules adopted by the information technology commission (1.12 NMAC), the body the Department of Information Technology succeeded. The rule still names the commission as its issuing agency.
+- id: nm-nmac-1-12-3
+  sha256: "f90c573bbe908c43e0448432a57034bbfb99e37a45e952882fdfcd0e12fe9609"
+  url: https://www.doit.nm.gov/files/docs/1.12.3-ElectronicMailRelay.pdf
+  format: pdf
+  citation: 1.12.3 NMAC
+  title: Electronic Mail Third-Party Relay
+  doc_type: rule
+  jurisdiction: new-mexico
+  issuing_body: Information Technology Commission (1.12 NMAC; now the Department of Information Technology)
+  tags:
+  - cybersecurity
+  recheck: monthly
+  found_via: Linked from the 'NMAC DoIT Rules' table of DoIT's 'DoIT ACT, Policies & Rules' page; the PDF is the NMAC text the Department publishes. Word-for-word equal (modulo punctuation spacing) to the State Records Center and Archives page of the part.
+  why_relevant: Establishes requirements for the electronic mail systems of executive state agencies, defining and addressing third-party relay (the feature that lets any sender on the Internet transfer messages through a mail server).
+- id: nm-nmac-1-12-4
+  sha256: "53d10134ee8a8524a5a294ff5ddc6c5f9a2ff563216a6770b011d05580bc0d93"
+  url: https://www.doit.nm.gov/files/docs/1.12.4-MAGnetNetworkAggregation.pdf
+  format: pdf
+  citation: 1.12.4 NMAC
+  title: MAGnet Network Aggregation
+  doc_type: rule
+  jurisdiction: new-mexico
+  issuing_body: Information Technology Commission (1.12 NMAC; now the Department of Information Technology)
+  tags:
+  - cloud-resilience
+  recheck: monthly
+  found_via: Linked from the 'NMAC DoIT Rules' table of DoIT's 'DoIT ACT, Policies & Rules' page; the PDF is the NMAC text the Department publishes. Word-for-word equal (modulo punctuation spacing) to the State Records Center and Archives page of the part.
+  why_relevant: 'Applies to executive state agencies that lease broadband circuit service: its objective is a shared, centrally managed statewide network infrastructure, by aggregating broadband circuit service to state agencies when that is to the state''s economic and operational advantage. State agency network infrastructure, not the public broadband program.'
+- id: nm-nmac-1-12-5
+  sha256: "6cd6ff1f3f77465506a63e41c15e2e9d52cc589f3793c2599ccb6af5a7bf6b22"
+  url: https://www.doit.nm.gov/files/docs/1.12.5-OversightOfITProjects.pdf
+  format: pdf
+  citation: 1.12.5 NMAC
+  title: Oversight of Information Technology Projects
+  doc_type: rule
+  jurisdiction: new-mexico
+  issuing_body: Information Technology Commission (1.12 NMAC; now the Department of Information Technology)
+  tags:
+  - oversight
+  - governance
+  recheck: monthly
+  found_via: Linked from the 'NMAC DoIT Rules' table of DoIT's 'DoIT ACT, Policies & Rules' page; the PDF is the NMAC text the Department publishes. Word-for-word equal (modulo punctuation spacing) to the State Records Center and Archives page of the part.
+  why_relevant: Oversight of information technology projects undertaken by executive agencies. DoIT's rulemaking page records that the Department adopted a repeal and replacement of this part on 2026-10-30, to be published in the New Mexico Register and to take effect on 2026-12-08; until then this text is the rule in force, and the replacement is not yet an instrument.
+- id: nm-nmac-1-12-6
+  sha256: "f714840d861f71c1b4ae5863340c39abbae7cf62a36a1ad7172176c173e77144"
+  url: https://www.doit.nm.gov/files/docs/1.12.6-ArchitecturalConfigurationRequirements.pdf
+  format: pdf
+  citation: 1.12.6 NMAC
+  title: Architectural Configuration Requirements
+  doc_type: rule
+  jurisdiction: new-mexico
+  issuing_body: Information Technology Commission (1.12 NMAC; now the Department of Information Technology)
+  tags:
+  - cloud-resilience
+  - governance
+  recheck: monthly
+  found_via: Linked from the 'NMAC DoIT Rules' table of DoIT's 'DoIT ACT, Policies & Rules' page; the PDF is the NMAC text the Department publishes. Word-for-word equal (modulo punctuation spacing) to the State Records Center and Archives page of the part.
+  why_relevant: Sets out the procedures for establishing architectural configuration requirements (ACRs), the technical specifications for information architecture and computer system purchases of executive agencies; the ACR standards, guidelines and policies of the DoIT index (the S- and N- documents also held here) are issued under it.
+- id: nm-nmac-1-12-8
+  sha256: "b1fc2ce60d86a853e3c2a5649394243a83f12afbff7b3f95f44839713bfef14e"
+  url: https://www.doit.nm.gov/files/docs/1.12.8-NotificationOfIPAddresses.pdf
+  format: pdf
+  citation: 1.12.8 NMAC
+  title: Notification of Internet Protocol Addresses
+  doc_type: rule
+  jurisdiction: new-mexico
+  issuing_body: Information Technology Commission (1.12 NMAC; now the Department of Information Technology)
+  tags:
+  - cloud-resilience
+  recheck: monthly
+  found_via: Linked from the 'NMAC DoIT Rules' table of DoIT's 'DoIT ACT, Policies & Rules' page; the PDF is the NMAC text the Department publishes. Word-for-word equal (modulo punctuation spacing) to the State Records Center and Archives page of the part.
+  why_relevant: Applies to the state agencies, boards and commissions to which the General Services Department provides Internet access; its objective is to provide the underlying data necessary for Internet security for them (notification of the Internet Protocol addresses they use).
+- id: nm-nmac-1-12-9
+  sha256: "c3113a6433c654af6301ab3b8d84995b0f54f4dea9ae07eb4cd323ef5ad1f2f6"
+  url: https://www.doit.nm.gov/files/docs/1.12.9-ProjectCertification.pdf
+  format: pdf
+  citation: 1.12.9 NMAC
+  title: Project Certification of Technology Projects
+  doc_type: rule
+  jurisdiction: new-mexico
+  issuing_body: Information Technology Commission (1.12 NMAC; now the Department of Information Technology)
+  tags:
+  - oversight
+  - funding
+  recheck: monthly
+  found_via: Linked from the 'NMAC DoIT Rules' table of DoIT's 'DoIT ACT, Policies & Rules' page; the PDF is the NMAC text the Department publishes. Word-for-word equal (modulo punctuation spacing) to the State Records Center and Archives page of the part.
+  why_relevant: Certification of information technology projects of executive agencies. DoIT's rulemaking page records that the Department adopted a repeal and replacement of this part on 2026-10-30, to be published in the New Mexico Register and to take effect on 2026-12-08; until then this text is the rule in force, and the replacement is not yet an instrument.
+- id: nm-nmac-1-12-10
+  sha256: "38b4f3b8b1c6ff6583b1ee28d625b5ac8e01ff79cbe3101c2a268e78acb9b688"
+  url: https://www.doit.nm.gov/files/docs/1.12.10-InternetIntranetEmail.pdf
+  format: pdf
+  citation: 1.12.10 NMAC
+  title: Internet, Intranet, Email, and Digital Network Usage
+  doc_type: rule
+  jurisdiction: new-mexico
+  issuing_body: Information Technology Commission (1.12 NMAC; now the Department of Information Technology)
+  tags:
+  - governance
+  - cybersecurity
+  recheck: monthly
+  found_via: Linked from the 'NMAC DoIT Rules' table of DoIT's 'DoIT ACT, Policies & Rules' page; the PDF is the NMAC text the Department publishes. Word-for-word equal (modulo punctuation spacing) to the State Records Center and Archives page of the part.
+  why_relevant: 'The state''s policy on the use of its information technology and data telecommunications resources by staff: internet, intranet, email and the digital network.'
+- id: nm-nmac-1-12-11
+  sha256: "d154bf64d5fed881116dedaf2738a6499beef19caf4161222f0003a68dcd7207"
+  url: https://www.doit.nm.gov/files/docs/1.12.11-EnterpriseArchitecture.pdf
+  format: pdf
+  citation: 1.12.11 NMAC
+  title: Enterprise Architecture
+  doc_type: rule
+  jurisdiction: new-mexico
+  issuing_body: Information Technology Commission (1.12 NMAC; now the Department of Information Technology)
+  tags:
+  - cloud-resilience
+  - governance
+  recheck: monthly
+  found_via: Linked from the 'NMAC DoIT Rules' table of DoIT's 'DoIT ACT, Policies & Rules' page; the PDF is the NMAC text the Department publishes. Word-for-word equal (modulo punctuation spacing) to the State Records Center and Archives page of the part.
+  why_relevant: Enterprise architecture rules for the state of New Mexico, covering all IT projects and programs of agencies and any public entity using the enterprise data center; the DoIT index notes that it includes the password policy.
+- id: nm-nmac-1-12-12
+  sha256: "fd3a307fadd27ba886bc8f6c48a8a8021fd386b606cbd5bd5259bf89ff435ef5"
+  url: https://www.doit.nm.gov/files/docs/1.12.12-ApplicationSoftwareSelection.pdf
+  format: pdf
+  citation: 1.12.12 NMAC
+  title: Application Software Selection
+  doc_type: rule
+  jurisdiction: new-mexico
+  issuing_body: Information Technology Commission (1.12 NMAC; now the Department of Information Technology)
+  tags:
+  - procurement
+  - cloud-resilience
+  recheck: monthly
+  found_via: Linked from the 'NMAC DoIT Rules' table of DoIT's 'DoIT ACT, Policies & Rules' page; the PDF is the NMAC text the Department publishes. Word-for-word equal (modulo punctuation spacing) to the State Records Center and Archives page of the part.
+  why_relevant: Rule on selecting enterprise-wide programs, applications and application systems for executive agencies, so that they do not create barriers to interaction and information sharing among agencies.
+- id: nm-nmac-1-12-20
+  sha256: "4414ac7feac6ffe173e00f7fb198e6ec7d1db947715e26718135e394c2cb5d89"
+  url: https://www.doit.nm.gov/files/docs/1.12.20-InfoSecOperationMgmt.pdf
+  format: pdf
+  citation: 1.12.20 NMAC
+  title: Information Security Operation Management
+  doc_type: rule
+  jurisdiction: new-mexico
+  issuing_body: Department of Information Technology
+  tags:
+  - cybersecurity
+  recheck: monthly
+  found_via: Linked from the 'NMAC DoIT Rules' table of DoIT's 'DoIT ACT, Policies & Rules' page; the PDF is the NMAC text the Department publishes. Word-for-word equal (modulo punctuation spacing) to the State Records Center and Archives page of the part.
+  why_relevant: 'Information security operation management rule of the Department of Information Technology for all executive branch agencies and any other state entity using the state IT infrastructure, with their contractors: the state''s information security practices.'
+- id: nm-nmac-1-12-7
+  sha256: "3ea195be52f17127677255a55b83782c563d8c4a6b31123ff41e1bebbdd9365f"
+  url: https://www.srca.nm.gov/parts/title01/01.012.0007.html
+  format: html
+  citation: 1.12.7 NMAC
+  title: Digital / Electronic Signature
+  doc_type: rule
+  jurisdiction: new-mexico
+  issuing_body: State Commission of Public Records and State Records Administrator
+  tags:
+  - digital-services
+  - data
+  recheck: monthly
+  found_via: URL built from the State Records Center and Archives' pattern (srca.nm.gov/parts/title01/01.012.00NN.html, the form its search results give for every part of 1.12 NMAC), NOT copied from an index; the title block in the fetched bytes reads 'PART 7 DIGITAL / ELECTRONIC SIGNATURE'. DoIT's table row for 1.12.7 ('Electronic Authentication') links a different, older text (see left_out).
+  why_relevant: Standards for state agencies' use of electronic signatures for legal signing under the Uniform Electronic Transactions Act, issued by the State Records Administrator and filed in the Information Technology chapter of the NMAC (replaced the 1997 Electronic Authentication rule, repealed 6/30/15). Held because it is the text in force in the part DoIT's page lists as 1.12.7.
+- id: nm-nmac-1-12-2
+  sha256: "70d27ee70c40628fbf4ec7921297b63c774a7a6c1c0a706d1183606d62ceaede"
+  url: https://www.srca.nm.gov/parts/title01/01.012.0002.html
+  format: html
+  citation: 1.12.2 NMAC
+  title: Commission Operating Procedures
+  doc_type: rule
+  jurisdiction: new-mexico
+  issuing_body: Information Technology Commission
+  tags:
+  - governance
+  - oversight
+  recheck: monthly
+  found_via: 'Found by reconciling DoIT''s index against the State Records Center and Archives'' pages of 1.12 NMAC: DoIT''s table has no row for Part 2. URL built from the SRCA pattern (srca.nm.gov/parts/title01/01.012.00NN.html), NOT copied from an index; the title block in the fetched bytes reads ''PART 2 COMMISSION OPERATING PROCEDURES''.'
+  why_relevant: 'The operating procedures of the Information Technology Commission (meetings, plans, funding recommendations). The commission''s statute (the Information Technology Management Act, 15-1C) is repealed, and DoIT''s index omits this part, but the SRCA prints the part with no repeal marker, so it is held as printed. OWNER DECISION: a rule for a body that no longer exists.'
+- id: nm-doit-s-std-001
+  sha256: "ad3fef9b80210c7e6141eb503a86591eec9cf66d07e4bab1442fc71e4ec258e8"
+  url: https://www.doit.nm.gov/files/docs/S-STD-001.pdf
+  format: pdf
+  citation: S-STD-001
+  title: Authentication and Directory Services Standard
+  doc_type: standard
+  jurisdiction: new-mexico
+  issuing_body: Department of Information Technology (Architectural Configuration Requirements, 1.12.6 NMAC)
+  tags:
+  - cybersecurity
+  recheck: monthly
+  found_via: Linked from the 'Architectural Configuration Regulations (ACRs)' table of DoIT's 'DoIT ACT, Policies & Rules' page, row 'S-STD-001 – Authentication and Directory Services'.
+  why_relevant: 'Statewide architectural configuration requirement of the Department of Information Technology (the page''s ACR table): Authentication and Directory Services Standard. The file prints its own effective date; it is one of the DoIT standards, guidelines and policies issued under the Department of Information Technology Act and 1.12.6 NMAC.'
+- id: nm-doit-s-std-002
+  sha256: "a310969c375d636111b22029e35440c86c74c2408fc42336c6a8fd6c5771abf3"
+  url: https://www.doit.nm.gov/files/docs/S-STD-002.pdf
+  format: pdf
+  citation: S-STD-002
+  title: Configuration Management Standard
+  doc_type: standard
+  jurisdiction: new-mexico
+  issuing_body: Department of Information Technology (Architectural Configuration Requirements, 1.12.6 NMAC)
+  tags:
+  - cybersecurity
+  - cloud-resilience
+  recheck: monthly
+  found_via: Linked from the 'Architectural Configuration Regulations (ACRs)' table of DoIT's 'DoIT ACT, Policies & Rules' page, row 'S-STD-002 – Configuration Management'.
+  why_relevant: 'Statewide architectural configuration requirement of the Department of Information Technology (the page''s ACR table): Configuration Management Standard. The file prints its own effective date; it is one of the DoIT standards, guidelines and policies issued under the Department of Information Technology Act and 1.12.6 NMAC.'
+- id: nm-doit-s-std-003
+  sha256: "eb78628d88d403bc983f934c2e140c5c2d30c96ab3f1a17ce3d32d931408f3c4"
+  url: https://www.doit.nm.gov/files/docs/S-STD-003.pdf
+  format: pdf
+  citation: S-STD-003
+  title: IT Risk Management Standard
+  doc_type: standard
+  jurisdiction: new-mexico
+  issuing_body: Department of Information Technology (Architectural Configuration Requirements, 1.12.6 NMAC)
+  tags:
+  - cybersecurity
+  - oversight
+  recheck: monthly
+  found_via: Linked from the 'Architectural Configuration Regulations (ACRs)' table of DoIT's 'DoIT ACT, Policies & Rules' page, row 'S-STD-003 – IT Risk Management'.
+  why_relevant: 'Statewide architectural configuration requirement of the Department of Information Technology (the page''s ACR table): IT Risk Management Standard. The file prints its own effective date; it is one of the DoIT standards, guidelines and policies issued under the Department of Information Technology Act and 1.12.6 NMAC.'
+- id: nm-doit-s-pol-003
+  sha256: "3fd1007707ab0554ee464d528d070f1fa4afa56d418be75dc8587d92991d9292"
+  url: https://www.doit.nm.gov/files/docs/S-POL-003.pdf
+  format: pdf
+  citation: S-POL-003
+  title: Security Training and Awareness Standard
+  doc_type: policy
+  jurisdiction: new-mexico
+  issuing_body: Department of Information Technology (Architectural Configuration Requirements, 1.12.6 NMAC)
+  tags:
+  - cybersecurity
+  recheck: monthly
+  found_via: Linked from the 'Architectural Configuration Regulations (ACRs)' table of DoIT's 'DoIT ACT, Policies & Rules' page, row 'S-POL-003 – Security Training and Awareness'.
+  why_relevant: 'Statewide architectural configuration requirement of the Department of Information Technology (the page''s ACR table): Security Training and Awareness Standard. The file prints its own effective date; it is one of the DoIT standards, guidelines and policies issued under the Department of Information Technology Act and 1.12.6 NMAC. Its code says policy (POL) although the file''s title calls it a standard.'
+- id: nm-doit-n-std-004
+  sha256: "a75aced9f956e07781209fb4d6eddbf24c07d3c37d0ed17b3a6c98f133722728"
+  url: https://www.doit.nm.gov/files/docs/N-STD-004.pdf
+  format: pdf
+  citation: N-STD-004
+  title: Firewall Functionality Standard
+  doc_type: standard
+  jurisdiction: new-mexico
+  issuing_body: Department of Information Technology (Architectural Configuration Requirements, 1.12.6 NMAC)
+  tags:
+  - cybersecurity
+  - cloud-resilience
+  recheck: monthly
+  found_via: Linked from the 'Architectural Configuration Regulations (ACRs)' table of DoIT's 'DoIT ACT, Policies & Rules' page, row 'N-STD-004 – Firewall'.
+  why_relevant: 'Statewide architectural configuration requirement of the Department of Information Technology (the page''s ACR table): Firewall Functionality Standard. The file prints its own effective date; it is one of the DoIT standards, guidelines and policies issued under the Department of Information Technology Act and 1.12.6 NMAC.'
+- id: nm-doit-s-std-004
+  sha256: "4c026e20fca252c88db8558aae2e02773956b19a4f519eacdf7cad94ca3ae3a1"
+  url: https://www.doit.nm.gov/files/docs/S-STD-004.pdf
+  format: pdf
+  citation: S-STD-004
+  title: Account Management Standard
+  doc_type: standard
+  jurisdiction: new-mexico
+  issuing_body: Department of Information Technology (Architectural Configuration Requirements, 1.12.6 NMAC)
+  tags:
+  - cybersecurity
+  recheck: monthly
+  found_via: Linked from the 'Architectural Configuration Regulations (ACRs)' table of DoIT's 'DoIT ACT, Policies & Rules' page, row 'S-STD-004 – Account Management'.
+  why_relevant: 'Statewide architectural configuration requirement of the Department of Information Technology (the page''s ACR table): Account Management Standard. The file prints its own effective date; it is one of the DoIT standards, guidelines and policies issued under the Department of Information Technology Act and 1.12.6 NMAC.'
+- id: nm-doit-s-std-005
+  sha256: "bb1c5e108fe2bdd82e518a40aed64de3b0acbc880e97a1284035da5b05830e1f"
+  url: https://www.doit.nm.gov/files/docs/S-STD-005.pdf
+  format: pdf
+  citation: S-STD-005
+  title: Network Security Standard
+  doc_type: standard
+  jurisdiction: new-mexico
+  issuing_body: Department of Information Technology (Architectural Configuration Requirements, 1.12.6 NMAC)
+  tags:
+  - cybersecurity
+  recheck: monthly
+  found_via: Linked from the 'Architectural Configuration Regulations (ACRs)' table of DoIT's 'DoIT ACT, Policies & Rules' page, row 'S-STD-005 – Network Security'.
+  why_relevant: 'Statewide architectural configuration requirement of the Department of Information Technology (the page''s ACR table): Network Security Standard. The file prints its own effective date; it is one of the DoIT standards, guidelines and policies issued under the Department of Information Technology Act and 1.12.6 NMAC.'
+- id: nm-doit-s-std-006
+  sha256: "b8ee0ad8a963407acc873c826bf4334bc5db8c5f0ee88a6a5dba4ac8c341beb1"
+  url: https://www.doit.nm.gov/files/docs/S-STD-006.pdf
+  format: pdf
+  citation: S-STD-006
+  title: Virus and Malicious Code Standard
+  doc_type: standard
+  jurisdiction: new-mexico
+  issuing_body: Department of Information Technology (Architectural Configuration Requirements, 1.12.6 NMAC)
+  tags:
+  - cybersecurity
+  recheck: monthly
+  found_via: Linked from the 'Architectural Configuration Regulations (ACRs)' table of DoIT's 'DoIT ACT, Policies & Rules' page, row 'S-STD-006 – Virus and Malicious Code'.
+  why_relevant: 'Statewide architectural configuration requirement of the Department of Information Technology (the page''s ACR table): Virus and Malicious Code Standard. The file prints its own effective date; it is one of the DoIT standards, guidelines and policies issued under the Department of Information Technology Act and 1.12.6 NMAC.'
+- id: nm-doit-s-std-007
+  sha256: "6f41014743a4a1bac2c7281c732e7e4e277a982ca6830e30fe2e4178da0b5074"
+  url: https://www.doit.nm.gov/files/docs/S-STD-007.pdf
+  format: pdf
+  citation: S-STD-007
+  title: Session Controls Standard
+  doc_type: standard
+  jurisdiction: new-mexico
+  issuing_body: Department of Information Technology (Architectural Configuration Requirements, 1.12.6 NMAC)
+  tags:
+  - cybersecurity
+  recheck: monthly
+  found_via: Linked from the 'Architectural Configuration Regulations (ACRs)' table of DoIT's 'DoIT ACT, Policies & Rules' page, row 'S-STD-007 – Session Controls'.
+  why_relevant: 'Statewide architectural configuration requirement of the Department of Information Technology (the page''s ACR table): Session Controls Standard. The file prints its own effective date; it is one of the DoIT standards, guidelines and policies issued under the Department of Information Technology Act and 1.12.6 NMAC.'
+- id: nm-doit-n-std-008
+  sha256: "a713fb78aa047c672817ded5eadb9c32b3a70443db01b47b2790913bc0338775"
+  url: https://www.doit.nm.gov/files/docs/N-STD-008.pdf
+  format: pdf
+  citation: N-STD-008
+  title: Wireless Access Point Hardware
+  doc_type: standard
+  jurisdiction: new-mexico
+  issuing_body: Department of Information Technology (Architectural Configuration Requirements, 1.12.6 NMAC)
+  tags:
+  - cloud-resilience
+  - cybersecurity
+  recheck: monthly
+  found_via: Linked from the 'Architectural Configuration Regulations (ACRs)' table of DoIT's 'DoIT ACT, Policies & Rules' page, row 'N-STD-008 – Wireless Access Point Hardware'.
+  why_relevant: 'Statewide architectural configuration requirement of the Department of Information Technology (the page''s ACR table): Wireless Access Point Hardware. The file prints its own effective date; it is one of the DoIT standards, guidelines and policies issued under the Department of Information Technology Act and 1.12.6 NMAC.'
+- id: nm-doit-s-std-009
+  sha256: "da6bfbfa9443fa926e41162f99fe2a0cd2577aa434a8349b081c4a908de0a26f"
+  url: https://www.doit.nm.gov/files/docs/S-STD-009.pdf
+  format: pdf
+  citation: S-STD-009
+  title: IT Physical Security Standard
+  doc_type: standard
+  jurisdiction: new-mexico
+  issuing_body: Department of Information Technology (Architectural Configuration Requirements, 1.12.6 NMAC)
+  tags:
+  - cybersecurity
+  recheck: monthly
+  found_via: Linked from the 'Architectural Configuration Regulations (ACRs)' table of DoIT's 'DoIT ACT, Policies & Rules' page, row 'S-STD-009 – IT Physical Security'.
+  why_relevant: 'Statewide architectural configuration requirement of the Department of Information Technology (the page''s ACR table): IT Physical Security Standard. The file prints its own effective date; it is one of the DoIT standards, guidelines and policies issued under the Department of Information Technology Act and 1.12.6 NMAC.'
+- id: nm-doit-s-std-010
+  sha256: "3eb7787c89c0cb407472debfe555c393efc2bfed23f661d0d96419e7b53670e9"
+  url: https://www.doit.nm.gov/files/docs/S-STD-010.pdf
+  format: pdf
+  citation: S-STD-010
+  title: Backups
+  doc_type: standard
+  jurisdiction: new-mexico
+  issuing_body: Department of Information Technology (Architectural Configuration Requirements, 1.12.6 NMAC)
+  tags:
+  - cybersecurity
+  - cloud-resilience
+  recheck: monthly
+  found_via: Linked from the 'Architectural Configuration Regulations (ACRs)' table of DoIT's 'DoIT ACT, Policies & Rules' page, row 'S-STD-010 – Backups'.
+  why_relevant: 'Statewide architectural configuration requirement of the Department of Information Technology (the page''s ACR table): Backups. The file prints its own effective date; it is one of the DoIT standards, guidelines and policies issued under the Department of Information Technology Act and 1.12.6 NMAC.'
+- id: nm-doit-s-std-011
+  sha256: "326dac9eafe541d77d5ce95cd0ab4c4215bf396771048a3d58e59d07fc8429f1"
+  url: https://www.doit.nm.gov/files/docs/S-STD-011.pdf
+  format: pdf
+  citation: S-STD-011
+  title: Personnel Security Standard
+  doc_type: standard
+  jurisdiction: new-mexico
+  issuing_body: Department of Information Technology (Architectural Configuration Requirements, 1.12.6 NMAC)
+  tags:
+  - cybersecurity
+  recheck: monthly
+  found_via: Linked from the 'Architectural Configuration Regulations (ACRs)' table of DoIT's 'DoIT ACT, Policies & Rules' page, row 'S-STD-011 – Personnel Security'.
+  why_relevant: 'Statewide architectural configuration requirement of the Department of Information Technology (the page''s ACR table): Personnel Security Standard. The file prints its own effective date; it is one of the DoIT standards, guidelines and policies issued under the Department of Information Technology Act and 1.12.6 NMAC.'
+- id: nm-doit-s-std-012
+  sha256: "86d265beb1178d1d28ad32ad36f426e4498ba9336aab68c8412a5ca6fc8f253b"
+  url: https://www.doit.nm.gov/files/docs/S-STD-012.pdf
+  format: pdf
+  citation: S-STD-012
+  title: Incident Response and Reporting Standard
+  doc_type: standard
+  jurisdiction: new-mexico
+  issuing_body: Department of Information Technology (Architectural Configuration Requirements, 1.12.6 NMAC)
+  tags:
+  - cybersecurity
+  recheck: monthly
+  found_via: Linked from the 'Architectural Configuration Regulations (ACRs)' table of DoIT's 'DoIT ACT, Policies & Rules' page, row 'S-STD-012 – Incident Response and Reporting'.
+  why_relevant: 'Statewide architectural configuration requirement of the Department of Information Technology (the page''s ACR table): Incident Response and Reporting Standard. The file prints its own effective date; it is one of the DoIT standards, guidelines and policies issued under the Department of Information Technology Act and 1.12.6 NMAC.'
+- id: nm-doit-n-guide-001
+  sha256: "21ae891d5b91c873a08a0fcaf780a17df824694ced66391d4a5f7281dea82e9b"
+  url: https://www.doit.nm.gov/files/docs/N-GUIDE-001.pdf
+  format: pdf
+  citation: N-GUIDE-001
+  title: Network Guideline
+  doc_type: policy
+  jurisdiction: new-mexico
+  issuing_body: Department of Information Technology (Architectural Configuration Requirements, 1.12.6 NMAC)
+  tags:
+  - cloud-resilience
+  recheck: monthly
+  found_via: Linked from the 'Architectural Configuration Regulations (ACRs)' table of DoIT's 'DoIT ACT, Policies & Rules' page, row 'N-GUIDE-001 – Network Guidelines'.
+  why_relevant: 'Statewide architectural configuration requirement of the Department of Information Technology (the page''s ACR table): Network Guideline. The file prints its own effective date; it is one of the DoIT standards, guidelines and policies issued under the Department of Information Technology Act and 1.12.6 NMAC. A guideline, listed in the same table.'
+- id: nm-doit-s-guide-002
+  sha256: "1d389bfea622215243fd7aa513edf3ae1a4d0bd08ed042948c4e7a09b6d18ea5"
+  url: https://www.doit.nm.gov/files/docs/S-GUIDE-002.pdf
+  format: pdf
+  citation: S-GUIDE-002
+  title: Enterprise IT Security Guidelines
+  doc_type: policy
+  jurisdiction: new-mexico
+  issuing_body: Department of Information Technology (Architectural Configuration Requirements, 1.12.6 NMAC)
+  tags:
+  - cybersecurity
+  recheck: monthly
+  found_via: Linked from the 'Architectural Configuration Regulations (ACRs)' table of DoIT's 'DoIT ACT, Policies & Rules' page, row 'S-GUIDE-002 – Enterprise IT Security'.
+  why_relevant: 'Statewide architectural configuration requirement of the Department of Information Technology (the page''s ACR table): Enterprise IT Security Guidelines. The file prints its own effective date; it is one of the DoIT standards, guidelines and policies issued under the Department of Information Technology Act and 1.12.6 NMAC. A guideline, listed in the same table.'
+- id: nm-doit-n-glossary
+  sha256: "745b469a95e9ab81bae10cc765e0da63ff3720d3106d93b117ce3c69e83c7481"
+  url: https://www.doit.nm.gov/files/docs/N-GLOSSARY.pdf
+  format: pdf
+  citation: N-DEF001
+  title: Glossary of Terms
+  doc_type: standard
+  jurisdiction: new-mexico
+  issuing_body: Department of Information Technology (Architectural Configuration Requirements, 1.12.6 NMAC)
+  tags:
+  - cloud-resilience
+  recheck: monthly
+  found_via: Linked from the 'Architectural Configuration Regulations (ACRs)' table of DoIT's 'DoIT ACT, Policies & Rules' page, row 'Glossary of Terms'.
+  why_relevant: 'Statewide architectural configuration requirement of the Department of Information Technology (the page''s ACR table): Glossary of Terms. The file prints its own effective date; it is one of the DoIT standards, guidelines and policies issued under the Department of Information Technology Act and 1.12.6 NMAC. A one-page glossary of the terms the requirements use, printed as an ACR document (N-DEF001.001); a reference table of external glossary links.'
+- id: nm-doit-gen-ai-policy
+  sha256: "c72ec6f1207203ea031df27744e13b39b3d1d72197445fe8a2241915c4cc89e2"
+  url: https://www.doit.nm.gov/files/docs/Generative_AI_Use_Guidelines_Policy_Signed.pdf
+  format: pdf
+  citation: Generative AI Use Guidelines Policy, version 1.0 (6/2025)
+  title: Generative AI Use Guidelines Policy
+  doc_type: policy
+  jurisdiction: new-mexico
+  issuing_body: Department of Information Technology; Office of Cybersecurity
+  tags:
+  - ai
+  - governance
+  - data
+  - cybersecurity
+  recheck: monthly
+  found_via: Linked from the 'Artificial Intelligence' table of DoIT's Resource Library page. Row 'Generative AI Policy'.
+  why_relevant: 'The state''s policy for executive agencies'' use of generative AI: definitions, the NIST AI Risk Management Framework as its basis, review and fact-checking of outputs, labelling of public-facing AI content, protection of non-public data in prompts. It describes itself as requiring self-regulation. Signed by the Secretary of Information Technology and the State CISO.'
+- id: nm-doit-gen-ai-quick-guide
+  sha256: "81c3236b7e3a76317c86f6a952aeda9350312f476eddfc128758cac41bed3256"
+  url: https://www.doit.nm.gov/files/docs/Gen-AI_Quick_Guide-Dos_and_Don
+  format: pdf
+  citation: Generative AI Use Guidelines Policy Quick Guide
+  title: Generative AI Use Guidelines Policy Quick Guide
+  doc_type: policy
+  jurisdiction: new-mexico
+  issuing_body: Department of Information Technology; Office of Cybersecurity
+  tags:
+  - ai
+  - governance
+  recheck: monthly
+  found_via: 'Linked from the ''Artificial Intelligence'' table of DoIT''s Resource Library page. Row ''Quick Guide: Dos and Don''ts''; the page''s link has no file extension (the bytes are a PDF).'
+  why_relevant: 'Companion to the Generative AI Use Guidelines Policy: example scenarios with do''s and don''ts for state personnel using generative AI. Borderline instrument (guidance); held as the page lists it with the policy. OWNER DECISION.'
+- id: nm-doit-data-policy
+  sha256: "96b5ce5418b9b6f5288b3cdd1b0df2db3c1da01c2d772d5ca89de71a978f3a92"
+  url: https://www.doit.nm.gov/files/docs/Data-Policy-v1.0-Signed.pdf
+  format: pdf
+  citation: Data Policy, version 1.0 (3/2026)
+  title: Data Policy
+  doc_type: policy
+  jurisdiction: new-mexico
+  issuing_body: Department of Information Technology
+  tags:
+  - data
+  - governance
+  - cybersecurity
+  recheck: monthly
+  identity_text: 'State of New Mexico: Data Policy'
+  found_via: Linked from the 'Data Classification' table of DoIT's Resource Library page (row 'Data Policy v1.0').
+  why_relevant: 'The state''s data policy for agencies: common guidelines for data quality, privacy, classification and retention management, with a Data Governance Council. Signed by the cabinet secretary and state CIO.'
+- id: nm-doit-ediscovery-policy
+  sha256: "557c53f83c6bf464d3617036ca535ff9fe9d8d2948c821f9927baa29ea896628"
+  url: https://www.doit.nm.gov/files/docs/eDiscovery_Access_and_Use_Policy_v1.2.pdf
+  format: pdf
+  citation: eDiscovery Access and Use Policy, version 1.2 (8/2025)
+  title: eDiscovery Access and Use Policy
+  doc_type: policy
+  jurisdiction: new-mexico
+  issuing_body: Department of Information Technology
+  tags:
+  - data
+  - governance
+  recheck: monthly
+  found_via: Linked from the 'eDiscovery' table of DoIT's Resource Library page.
+  why_relevant: 'Rules for agency users of the premium eDiscovery tools in the state''s Microsoft 365 environment: access, training, acknowledgements and the handling of privileged or confidential communications (IPRA compliance, data governance and privacy).'
+- id: nm-ocs-ciso-order-2025-01
+  sha256: "ec3a06aee79c6ae9915c08aa767581c9c69353cc8bccebc5284c70d564e4fad8"
+  url: https://www.doit.nm.gov/files/docs/CISO_Order_No.2025-01.pdf
+  format: pdf
+  citation: CISO Order No. 2025-01
+  title: Cybersecurity Incident Reporting
+  doc_type: policy
+  jurisdiction: new-mexico
+  issuing_body: State Chief Information Security Officer (Office of Cybersecurity)
+  tags:
+  - cybersecurity
+  - governance
+  recheck: monthly
+  identity_text: ORDER NO. 2025-01
+  found_via: Linked as 'Order No. 2025-01 (Incident Reporting)' in the Key Documents table of DoIT's Cybersecurity program page.
+  why_relevant: 'Order of the State Chief Information Security Officer under 9-27A-3(B)(12): every agency and political subdivision must report a cybersecurity incident to the Office of Cybersecurity within 24 hours, designate a point of contact, and cooperate in the response. Effective on signing (June 30, 2025) and in effect until withdrawn or superseded. Filed here as a policy: the corpus has no ''order'' type.'
+- id: nm-eo-2024-011
+  sha256: "3961fada1ee461cd52d9b8fea215e912d1d5d546d312e62c270cc8ea1fd7b821"
+  url: https://www.governor.state.nm.us/assets/www.governor.state.nm.us/wp-content/uploads/2024/04/Executive-Order-2024-011.pdf
+  format: pdf
+  citation: Executive Order 2024-011
+  title: Strengthening State Agency Cybersecurity
+  doc_type: executive_order
+  jurisdiction: new-mexico
+  issuing_body: Governor of New Mexico
+  tags:
+  - cybersecurity
+  - governance
+  recheck: monthly
+  ocr: true
+  found_via: 'Row of the Governor''s executive order archive (2024 list); the same bytes are linked from DoIT''s policies page. A scan: read by OCR.'
+  why_relevant: Orders DoIT to assess state agencies for security vulnerabilities and requires agencies to adopt cybersecurity, information security and privacy policies and procedures based on no less than moderate-impact security controls.
+- id: nm-eo-2022-141
+  sha256: "7578e707ec1d6c0407cd6c42463f9ea32cff40c4a4eb83e8bafe2e8910a93a80"
+  url: https://www.governor.state.nm.us/assets/www.governor.state.nm.us/wp-content/uploads/2022/09/Executive-Order-2022-141.pdf
+  format: pdf
+  citation: Executive Order 2022-141
+  title: Establishing the Cyber Security Planning Committee
+  doc_type: executive_order
+  jurisdiction: new-mexico
+  issuing_body: Governor of New Mexico
+  tags:
+  - cybersecurity
+  - governance
+  recheck: monthly
+  ocr: true
+  found_via: 'Row of the Governor''s executive order archive (2022 list); the same bytes are linked from DoIT''s policies page. A scan: read by OCR.'
+  why_relevant: Establishes the New Mexico Cyber Security Planning Committee, chaired by the Secretary of Information Technology, to coordinate state, local, tribal and private-sector cybersecurity planning.
+- id: nm-eo-2008-011
+  url: https://www.doit.nm.gov/files/docs/EO2008-011.pdf
+  format: pdf
+  citation: Executive Order 2008-011
+  title: Clarifying the Consolidation of Agency Information Technology Operations and Governance under the Department of Information and Technology
+  doc_type: executive_order
+  jurisdiction: new-mexico
+  issuing_body: Governor of New Mexico (Bill Richardson)
+  tags:
+  - governance
+  - oversight
+  - procurement
+  recheck: monthly
+  stub: true
+  stub_reason: "A 3-page scan (no text layer; 175,257 bytes, 2026-11-12) whose two-engine OCR is not promotable: tesseract and PaddleOCR agree on the words but on only 86% of the 36 figures (the bar is 90%), so the numbers in it (section numbers, dates, citations) are contested. Not hand-corrected. Becomes a document when a clearer scan or a text copy is found (the Governor's site carries orders from 2019 only). Note: the file DoIT's EPMO page labels 'Executive Order No. 2008-011.pdf' is a different document (a one-page 'Exceptions - Executive Order (EO) 2008-11, IT Consolidation' summary), not the order."
+  found_via: "Linked from the 'Executive Orders' table of DoIT's 'DoIT ACT, Policies & Rules' page (DoIT is the only host found for it: the Governor's pages hold 2019 and later). The OCR heading read 'EXECUTIVE ORDER NO. 2008-011' and the title as seed, by tesseract only."
+  why_relevant: "Richardson-era order clarifying the consolidation of executive-agency IT operations and governance under the Department of Information Technology; DoIT's EPMO pages still apply it as the exception process for IT purchases. Held as a stub because DoIT lists it as current and no revocation was found (OWNER DECISION if its status needs checking elsewhere)."
+- id: nm-doit-telecom-standards
+  url: https://www.doit.nm.gov/files/docs/WiringStandards.pdf
+  format: pdf
+  citation: Telecommunications Building and Campus Distribution Systems
+  title: Telecommunications Building and Campus Distribution Systems
+  doc_type: standard
+  jurisdiction: new-mexico
+  issuing_body: Department of Information Technology
+  tags:
+  - cloud-resilience
+  recheck: monthly
+  stub: true
+  stub_reason: 'Not a PDF: the address ends .pdf but the bytes the Fetcher got (9,235,968 bytes, 2026-11-12) are a legacy Word .doc (OLE compound file, ''Telecommunications'', 41 pages by its properties), which nothing installed here reads. DoIT lists it as ''Telecommunications Standards'' on its policies page. Subject looks like building cabling, which domain.yml scopes out as telecom: OWNER DECISION on scope, and on reading the .doc, before it becomes a document.'
+  found_via: Row of the 'Telecommunications Standards' table of DoIT's 'DoIT ACT, Policies & Rules' page.
+  why_relevant: DoIT's telecommunications building and campus distribution (wiring) standard as listed in its policy page; held as a stub.
+- id: nm-watch-doit-act-policies-rules
+  url: https://www.doit.nm.gov/about/doit-act-policies-and-rules
+  format: html
+  citation: DoIT ACT, Policies & Rules
+  title: DoIT ACT, Policies & Rules (index of the DoIT Act, NMAC rules, executive orders and the ACR standards)
+  doc_type: policy
+  jurisdiction: new-mexico
+  tags:
+  - governance
+  recheck: monthly
+  watch_only: true
+  why_relevant: 'The Department''s own index (36 rows on 2026-11-12): the DoIT Act link, twelve NMAC 1.12 rule files, three executive orders, the telecommunications standard, the PM Express guide, and the Architectural Configuration Regulations table (glossary, two guidelines and 14 standards and policies). A new or removed row shows here.'
+- id: nm-watch-doit-resource-library
+  url: https://www.doit.nm.gov/resources
+  format: html
+  citation: DoIT Resource Library
+  title: DoIT Resource Library (AI, data, eDiscovery policies, templates and forms)
+  doc_type: policy
+  jurisdiction: new-mexico
+  tags:
+  - ai
+  - data
+  - governance
+  recheck: monthly
+  watch_only: true
+  why_relevant: 'The Resource Library (44 rows on 2026-11-12): the Generative AI policy and quick guide, the Data Policy, the eDiscovery policy, the 23 NIST 800-53 moderate policy templates, and customer forms. A new policy row shows here.'
+- id: nm-watch-doit-rulemaking
+  url: https://www.doit.nm.gov/rulemaking
+  format: html
+  citation: DoIT Rulemaking
+  title: DoIT Rulemaking (notices of proposed rulemaking and final adoption)
+  doc_type: rule
+  jurisdiction: new-mexico
+  tags:
+  - governance
+  - oversight
+  recheck: monthly
+  watch_only: true
+  why_relevant: 'DoIT''s rulemaking page. On 2026-11-04 it published the notice of final adoption of the repeal and replacement of 1.12.5 and 1.12.9 NMAC, effective 2026-12-08 on publication in the New Mexico Register: the day it takes effect, the two rule documents here are due to be replaced from the State Records Center and Archives'' text.'
+- id: nm-watch-doit-cybersecurity
+  url: https://www.doit.nm.gov/programs/cybersecurity
+  format: html
+  citation: DoIT Cybersecurity Program
+  title: 'Office of Cybersecurity page (Key Documents: statewide plan, CISO orders)'
+  doc_type: policy
+  jurisdiction: new-mexico
+  tags:
+  - cybersecurity
+  - governance
+  recheck: monthly
+  watch_only: true
+  why_relevant: 'The Office of Cybersecurity''s page with its Key Documents table: the Approved Cybersecurity Plan, the 2025 state plan update memo and CISO Order No. 2025-01. A new CISO order or policy shows here.'
+- id: nm-watch-governor-executive-orders
+  url: https://www.governor.state.nm.us/about-the-governor/executive-orders/
+  format: html
+  citation: Governor's Executive Orders
+  title: Governor's Executive Orders (2025 and 2026 lists)
+  doc_type: executive_order
+  jurisdiction: new-mexico
+  tags:
+  - governance
+  recheck: monthly
+  watch_only: true
+  why_relevant: The Governor's current executive order list (2026 and 2025 years, 'Amending And Rescinding Executive Orders' section, link to the archive). Orders on state IT, cybersecurity, data or AI show here.
+- id: nm-watch-governor-executive-orders-archive
+  url: https://www.governor.state.nm.us/about-the-governor/executive-orders/executive-orders-archive/
+  format: html
+  citation: Governor's Executive Order Archive
+  title: Governor's Executive Order Archive (2019 to 2024)
+  doc_type: executive_order
+  jurisdiction: new-mexico
+  tags:
+  - governance
+  recheck: monthly
+  watch_only: true
+  why_relevant: The archive list of the Governor's orders 2019 to 2024, where Executive Orders 2022-141 and 2024-011 sit.
+
+
+left_out:
+- text: |-
+    ---- New Mexico found and left out. Every list below is the list actually read, on 2026-11-12, through the Fetcher; a 'none found' is stated with what was read.
+- text: |-
+    DoIT 'DoIT ACT, Policies & Rules' page (36 rows, read in full). Reconciliation, row by row:
+     - DoIT Act (1 row, opens NMOneSource Chapter 9): documents nm-nmsa-9-27 (Article 27) and, from the same chapter PDF, nm-nmsa-9-27a (Article 27A).
+     - NMAC DoIT Rules (12 rows: 1.12.1, 1.12.3 to 1.12.12, 1.12.20): 11 are documents from DoIT's PDFs. The 12th, 1.12.7 'Electronic Authentication', links a PDF that is the 1996 rule (issued by the Commission of Public Records, filed as 1 NMAC 3.2.70.2): the State Records Center and Archives' page of 1.12.7 NMAC prints 'History of Repealed Material: 1 NMAC 3.2.70.2 ... Repealed 6/30/15' and the part now reads 'Digital / Electronic Signature' (2015). The repealed text is NOT held; the SRCA text is (nm-nmac-1-12-7). A second listing of the same part (SRCA) also gave Part 2 (nm-nmac-1-12-2, an owner decision) and Part 21 (below).
+     - Executive Orders (3 rows): 2024-011 and 2022-141 are documents (scans, read by OCR); 2008-011 is a stub (nm-eo-2008-011: the OCR text is not promotable, figure agreement 86% against a 90% bar).
+     - Telecommunications Standards (1 row): stub nm-doit-telecom-standards (legacy .doc, probably telecom).
+     - PM Express (1 row, the FY16 Quick Reference Guide PDF of 2016-04-15): left out. A user guide to a project-management process, not an instrument; DoIT's EPMO page links a newer PPTX edition (2024) of it.
+     - Architectural Configuration Regulations (18 rows): 1.12.6 repeated (the same file as the rule: one document); the other 17 rows (Glossary of Terms, N-GUIDE-001, S-GUIDE-002, S-STD-001 to 007, 009 to 012, S-POL-003, N-STD-004, N-STD-008) are documents.
+- text: |-
+    SRCA NMAC pages read for Part 12 of Title 1: parts 1 to 12, 20 and 21 (each fetched, each prints text, none marked repealed; 1.12.13 to 1.12.19 are marked [RESERVED] on the SRCA's Title 1 listing of reserved and repealed parts). The SRCA's Title 1 page does not link its part pages (the part-page addresses are a pattern, see found_via), so there is no second index to watch; DoIT's rulemaking page is watched instead.
+     - 1.12.21 NMAC, Grant Program Rules (DoIT and Connect New Mexico Council grants; the page's scope is the development, award and administration of grant programs of DoIT, the Office of Broadband Access and Expansion and the Connect New Mexico Council): left out. Broadband programs and grants are out of scope (domain.yml) and it is not IT governance of state systems. DoIT's rulemaking page lists its 2022 and 2023-2024 notices (not seeded either).
+     - Replacement 1.12.5 and 1.12.9 NMAC ('Final Rule as Filed with the State Records Center and Archives', DoIT notice of final adoption 2026-11-04): adopted 2026-10-30, to be published in the New Mexico Register and to take effect on 2026-12-08. Not in force on 2026-11-12, so not seeded; the old texts above are the rules in force today. WHEN 2026-12-08 PASSES, replace nm-nmac-1-12-5 and nm-nmac-1-12-9 with the new texts (the notice names the filed PDFs; the retitled parts are 'Oversight of Information Technology Projects' and 'Certification of Information Technology Projects'). The same page's proposals, hearing transcript, comments and responses: rulemaking record, not instruments.
+- text: |-
+    Statutes (Chapters 9, 10, 13, 14, 15 and 57 of the NMSA 1978, the PDFs from NMOneSource, converted to text and searched for information technology, cybersecurity, artificial intelligence and automated decision; Articles 27 and 27A and 12C read in full; the viewer page itself is a shell that loads the chapter in a frame, and the chapter PDF is the 'Chapter n NMSA 1978' document link the frame prints):
+     - Included: Chapter 9 Article 27 (Department of Information Technology Act) and Article 27A (Cybersecurity Act). Article 27 sits in Chapter 9 with unrelated departments, so each entry is an article slice; the Commission's annotations come with the text.
+     - Chapter 15 Article 1C (Information Technology Management Act, the commission and the CIO office before DoIT): the chapter PDF prints 'Information Technology Management (Repealed.)' with only repealed-section notes. Nothing in force.
+     - Chapter 57 Article 12C (Data Breach Notification Act, 57-12C-1 to 57-12C-12): duties are placed on 'a person' that owns or licenses personal identifying information, and the Act's definitions do not define 'person' or name state agencies. Not shown to bind state agencies in the bytes read: left out. OWNER DECISION (may bind agencies as persons; section-level reading needed).
+     - Chapter 14 (Records, Rules, Legal Notices, Oaths), Articles 3 (Public Records), 15 (Electronic Authentication of Documents) and 16 (Uniform Electronic Transactions): electronic records and signatures; non-IT chapter, mostly records law; left out pending the owner's decision on section-level slicing (playbook). Chapter 13 (Public Purchases and Property): the Procurement Code; its hits for 'information technology' were references to DoIT's sunshine portal, the old commission and one telecommunications phrase; left out for the same reason.
+     - Chapter 10 (Public Officers and Employees; the chapter PDF fetched through the Fetcher, NMOneSource item 4364, searched the same way) Article 16D, Sunshine Portal Transparency Act (10-16D-1 to 10-16D-6): the Department of Information Technology, with the Department of Finance and Administration, develops, operates and maintains the 'sunshine portal' web site that publishes the state's financial information (10-16D-3), and works with the Public Education Department on the school data extract (10-16D-6). Left out: the duty is DoIT's, but the subject is publication of financial transparency data, not governance of the state's own IT. OWNER DECISION (digital-services scope): the article could be seeded as a slice like Article 27 (the slice code reads any 'ARTICLE nn' heading). The same chapter's Article 16E, One-Stop Business Portal Act (10-16E-1 to 10-16E-4), likewise gives DoIT a public web portal for business transactions with state agencies: left out for the same reason and the same decision. No other Chapter 10 hit: 'information technology' otherwise appears only in a retirement-system provision (the system's own IT) and cross references to DoIT; no 'cybersecurity', 'artificial intelligence' or 'automated decision'.
+     - AI: no statute on state-agency use of AI found. The word 'artificial intelligence' appears once in the five chapters read (Chapters 9, 13, 14, 15 and 57; Chapter 10 has none), in a Chapter 9 list of sectors for technology innovation prizes (economic development: out of scope). nmlegis.gov shows SB 68 of the 2026 session ('Artificial Intelligence Government Use Act', public bodies' AI policies and training) as 'Died (API.)', action postponed indefinitely: a bill never enacted, out of scope.
+- text: |-
+    DoIT Resource Library (44 rows, read in full). Documents: Generative AI Use Guidelines Policy, its Quick Guide (owner decision), Data Policy v1.0, eDiscovery Access and Use Policy v1.2 (4 rows). Left out (40 rows): 16 forms (billing 1, security 4, data center 3, enterprise 3, EPMO 3, SharePoint 1, the eDiscovery training request form 1); 1 video link ('Bill of IT'); and the 23 'NIST 800-53 Moderate Policy Templates' of the Office of Cybersecurity (Definitions, Roles and Responsibilities, 20 control-family policy templates OCS_01 to OCS_20, and a Policy Mapping Matrix, all Word files dated 06.2026). Forms and templates are not instruments (playbook). OWNER DECISION on the 23 templates: they are the Office of Cybersecurity's model policies that Executive Order 2024-011 directs agencies to adopt; the .docx files could be read with pandoc.
+- text: |-
+    DoIT Cybersecurity program page and its five sub-pages (read): the Approved Cybersecurity Plan (September 2023, strategy), the 2025 State Plan Update Memo, the Water and Wastewater Cybersecurity Plan and its approval letter, the Cybersecurity Planning Committee charter, three committee resolutions (2023, 2024, 2026) and the 'SoNM Statewide Cyber Plan', the Advisory Committee resolution, meeting notices, agendas and minutes, the point-of-contact designation form, the State and Local Cybersecurity Grant Program page, and the Executive Order 2024-011 risk assessment pack (overview PDF, Word survey form, Excel response worksheet): plans, committee records, forms and reports are not instruments. Only CISO Order No. 2025-01 is an instrument (document nm-ocs-ciso-order-2025-01).
+- text: |-
+    DoIT EPMO page and its sub-pages (read): contract templates (3 DoIT agreement templates, 4 professional services templates), project certification forms and templates (7 certification forms, the project monthly report template, TARC and IV and V templates, FY25 to FY27 PCC and TARC schedules, a questionnaire pair), FY28 strategic plan templates and training video, and the Project Certification Committee page (documents by year in the State's certification records system, 20 years): templates, forms, schedules and records, left out. Process documents that read as guidance and were opened: 'IT Procurement Approval Process' (letterhead of Governor Martinez and Cabinet Secretary Ackley, 3 pages, 'To define oversight and approval processes of IT procurements for state agencies'), 'DoIT Memorandum - IT Project Oversight Process' (letterhead of Governor Richardson, 5 pages), 'IT Purchase Exceptions' (the EO 2008-011 exception list), 'Contract Review and RFP Approval Process' (a one-page flow chart), the certification 'Timeline and Gates' chart and the DocuSign routing guide. None prints a current effective date or a statement that it is in force, so none is seeded. OWNER DECISION: the Procurement Approval Process, the Oversight memorandum and the Purchase Exceptions list are candidate policies if DoIT confirms they are current.
+- text: |-
+    IT Strategic Planning page (read): FY25-27 and FY2021-2023 statewide IT strategic plans, DoIT annual plans FY21 to FY26 and the FY28 agency plan guidance templates and calendar: strategy documents, templates and a calendar, left out.
+- text: |-
+    Executive orders: the Governor's current page (2026 and 2025 lists, 160 and 417 rows by link text, plus the 'Amending And Rescinding Executive Orders' list) and the archive (2019 to 2024, 221 rows for 2024, 147 for 2023, 164 for 2022, 68 for 2021, 85 for 2020, 36 for 2019, by link text) were read and every title searched for technology, cyber, data, artificial, information, digital, computer, software, internet, privacy, broadband, network and electronic. IT, cybersecurity or data orders found: 2024-011 and 2022-141 (documents). Left out on the inclusion test: 2020-015 and 2020-039 (temporary permission of notarial acts through audio-visual technology, a COVID-era notary rule, not IT as a government function) and 2021-048 (collection of voluntary self-identification data on sexual orientation and gender identity, a personnel-data practice, not IT governance; OWNER DECISION). No order on AI found. The Governor's pages do not carry orders before 2019, so 2008-011 comes from DoIT's page only; whether it was revoked could not be checked there.

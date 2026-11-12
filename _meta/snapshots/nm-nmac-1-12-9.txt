@@ -1,0 +1,191 @@
+                      New Mexico Register / Volume XVI, Number 19 / October 17, 2005
+
+TITLE 1           GENERAL GOVERNMENT ADMINISTRATION
+CHAPTER 12        INFORMATION TECHNOLOGY
+PART 9            PROJECT CERTIFICATION OF TECHNOLOGY PROJECTS
+
+1.12.9.1       ISSUING AGENCY. Information Technology Commission.
+[1.12.9.1 NMAC - N, 10/17/2005]
+
+1.12.9.2         SCOPE. This rule applies to certification of all information technology projects or programs
+undertaken by executive agencies.
+[1.12.9.2 NMAC - N, 10/17/2005]
+
+1.12.9.3       STATUTORY AUTHORITY. Sections 15-1C-5 and 15-1C-8 NMSA, 1978.
+[1.12.9.3 NMAC - N, 10/17/2005]
+
+1.12.9.4       DURATION. Permanent.
+[1.12.9.4 NMAC - N, 10/17/2005]
+
+1.12.9.5       EFFECTIVE DATE. October 17, 2005, unless a later date is cited at the end of a section.
+[1.12.9.5 NMAC - N, 10/17/2005]
+
+1.12.9.6            OBJECTIVE. The purpose of this rule is to set forth executive agency information technology
+project certification responsibilities.
+[1.12.9.6 NMAC - N, 10/17/2005]
+
+1.12.9.7          DEFINITIONS.
+          A.      "Agency" means a state organizational entity of the executive branch, used interchangeably with
+department.
+          B.      "Certification" means a process that releases project funds. The ITC certifies projects except as
+otherwise provided for in Section 1.12.9.10(c). The PCC is the subcommittee charged with making
+recommendations for certification to the ITC.
+          C.      "Emergency condition" is a situation that creates a threat to public health, welfare, safety or
+property such as may arise by reason of floods, epidemics, riots, equipment failures or similar events. The existence
+of the emergency condition creates an immediate and serious need for services, construction or items of tangible
+personal property that cannot be met through normal procurement methods and the lack of which would seriously
+threaten the:
+              (1) functioning of government;
+              (2) preservation or protection of property; or
+              (3) health or safety of any person.
+          D.      "Independent verification and validation (IV&V)" means the process of evaluating a system to
+determine compliance with specified requirements and the process of determining whether the products of a given
+development phase fulfill the requirements established during the previous stage, both of which are performed by an
+organization independent of the development organization.
+          E.      "Information technology project" means the development, purchase, replacement, or
+modification of a hardware or software system.
+          F.      "ITC" means information technology commission.
+          G.      "Mission critical" means a system (either hardware or software) that is pivotal to supporting the
+mission of the agency and without which the agency would have difficulty providing key business services.
+          H.      "PCC" means project certification committee a subcommittee of the ITC.
+          I.      "Project costs" means all hardware, software, development, testing and training expenditures,
+both planned and actual.
+          J.      "Project lifecycle" means the period of time commencing with conception of an information
+technology project and culminating with the acceptance and operation of products produced by the project.
+          K.      "Program" means a group of related projects managed in a coordinated manner.
+          L.      "Qualified" means demonstrated experience successfully managing information technology
+projects.
+
+1.12.9 NMAC                                                                                                         1
+
+                      New Mexico Register / Volume XVI, Number 19 / October 17, 2005
+
+         M.       "Quality" means the degree to which a system, system component, or process meets specified
+requirements, customer needs, and user expectations.
+         N.       "Quality assurance" means a planned and systematic pattern of all actions necessary to provide
+adequate confidence that a product or system component conforms to established requirements.
+         O.       "Strategy" means a plan of action for achieving a goal.
+         P.       "Validation" means ensuring a system meets documented performance outcomes and
+requirements of the project.
+         Q.       "Verification" means application of an appropriate test yielding documentable, measurable
+evidence that ensures a process executed or the technical system developed produces required performance
+outcomes.
+[1.12.9.7 NMAC - N, 10/17/2005]
+
+1.12.9.8           RESPONSIBILITIES OF THE PCC. The PCC is a subcommittee of the ITC and shall perform
+the following responsibilities.
+          A.       Have the authority to recommend certification of information technology projects that meet one or
+more of the following:
+              (1) mission criticality;
+              (2) project cost equal to or exceeding $1,000,000;
+              (3) impact to customer on-line access; or
+              (4) projects the committee deems appropriate.
+          B.       Develop procedural requirements on how to recommend certification or to recertify projects,
+including documentation requirements, meeting specifics, timelines and support services. The PCC shall convene at
+the call of the chair, but at least monthly to consider agency projects for certification.
+          C.       Report certification recommendations to the ITC.
+          D.       Review and comment on agency information technology project's consolidation efforts and
+opportunities.
+[1.12.9.8 NMAC - N, 10/17/2005]
+
+1.12.9.9       PCC MEMBERSHIP.
+         A.    The PCC shall consist of members of the ITC appointed by the ITC chair.
+         B.    The ITC chair shall appoint the chair of the PCC.
+         C.    The PCC will select a vice chair from its membership.
+[1.12.9.9 NMAC - N, 10/17/2005]
+
+1.12.9.10           CERTIFICATION PROCESS.
+          A.        PCC certification generally. At a minimum, project certification shall be required at a project's
+initiation, during its implementation and closeout. The PCC may require additional certification phases, events or
+deliverables based on the progress, complexity, risk or size of the project. Project certification shall be required
+before funds can be released for any of the above certification phases. Regarding phased release of funds, project
+managers shall present the distinct components of a phased approach, with approval of what constitutes appropriate
+phases for a particular project to then be approved or modified by the office and the PCC.
+          B.        Agency request. A report by the agency requesting approval of a project requiring certification
+must be submitted in writing for all certification phases specified by the PCC. The PCC shall determine the
+components of the reports and criteria for issuing certification.
+          C.        Verification. The PCC shall verify that the project has been reviewed by the architectural
+committee and the office as appropriate.
+          D.        PCC recommendation. The PCC shall make a recommendation to the ITC to issue or deny
+project certification or may provide contingent certification subject to the agency providing specific information.
+The PCC shall notify the agency submitting the project in writing of its decision. In the case of recommendation for
+denial of the project for certification, the PCC will cite the reasons for its decision and the recommended actions
+needed to be taken by the agency for resubmission of the project for certification.
+          E.        Office pre-certification. The office shall release "phase zero" pre-certification planning phase
+funds to develop project phasing, IV&V or an overall project plan.
+          F.        Emergency Certification Review. The PCC will make every effort, within reason, to review
+projects in a timely manner. If at any time the PCC cannot convene, and a project faces significant time constraints
+and major risks to the project an emergency certification review may be implemented. The emergency review is for
+
+1.12.9 NMAC                                                                                                         2
+
+                       New Mexico Register / Volume XVI, Number 19 / October 17, 2005
+
+circumstances outside of control of the agency and every effort should have been made to work within the existing
+process. All members of the PCC will be provided an opportunity for comment. Documentation will be sent toe the
+PCC electronically with notification of response timeline. Any comments from the PCC members must be sent
+electronically to the chair of the PCC. The CIO, PCC chair and the ITC chair shall have the authority to issue or
+deny certification for a particular phase of the project. If a certification is approved or denied, without convening
+the PCC, justification of the action shall be provided at the next regularly scheduled meeting of the ITC.
+[1.12.9.10 NMAC - N, 10/17/2005]
+
+1.12.9.11           AGENCY RESPONSIBILITIES.
+         A.         An executive agency shall:
+             (1) prepare a written project certification report prior to certification for large projects that are equal
+to or exceeding $1,00,000, high-risk projects or at the request of the PCC;
+             (2) schedule a certification review and provide documentation in a timely manner to the PCC;
+             (3) prepare a presentation to the PCC and answer questions prior to certification for large or high-risk
+projects or at the request of the PCC;
+             (4) shall keep a copy of each project status report on file;
+             (5) prepare a written risk assessment report at the concept phase of the project, at the end of each
+project phase, and following the culmination of each development lifecycle phase, or more frequently for large and
+high-risk projects;
+             (6) provide an independent verification and validation (IV&V) report to the PCC;
+             (7) be prepared to identify the value of the information technology project, as well as, relationship in
+support and consolidation with other information technology projects and agencies; and
+             (8) keep a copy of each risk assessment report on file.
+         B.         The agency project manager, the contract project manager, if appropriate, and the project team
+shall regularly review the status and progress of an information technology project throughout its lifecycle.
+[1.12.9.11 NMAC - N, 10/17/2005]
+
+1.12.9.12           PROJECT PLANS.
+          A.        Plan Required. An agency shall prepare, in accordance with instructions contained in the project
+management guidelines and best practices document prepared by eth office, a project plan for every IT project
+regardless of its scope or cost. The agency project manager shall document the plan and all revisions to the plan,
+and shall keep it on file until the system is removed from operation.
+          B.        Plan contents. The plan shall contain at a minimum:
+              (1) a description of the project;
+              (2) a description of the functions the system will provide;
+              (3) a description of the development lifecycle methodology;
+              (4) an initial risk assessment;
+              (5) risk management strategies, including mitigation actions;
+              (6) quality assurance strategies or plan;
+              (7) human and financial resource requirements and allocation;
+              (8) a project review schedule;
+              (9) IV&V plan and reports;
+              (10) project deliverables;
+              (11) a project schedule; and
+              (12) appropriate security planning for at least data, disaster recovery, and system back-up.
+          C.        Plan approval. For projects meeting the selection criteria, the agency shall submit the plan to the
+office prior to initiation of the project or release of funding by the department of finance and administration. The
+office shall review the internal plan for sufficiency and in accordance with criteria specified by the PCC, and shall
+make recommendations to the PCC for certification. The PCC will review the documentation and provide the
+agency an opportunity to present the information technology project to the PCC for certification. The PCC meets
+monthly and will schedule presentation at each meeting. It the agency's responsibility to assure timely submission
+of material s and schedule certification review. The PCC will identify areas of improvement to the agency if the
+plan does not meet initial approval of the PCC. The PCC shall make their recommendation to the ITC.
+          D.        Right to appeal. If an agency requesting certification for any phase is denied certification, the
+agency may appeal the decision by submitting a written intent to appeal within five (5) business days of receipt of
+denial. The written intent to appeal shall be submitted to the chair of the ITC with a courtesy copy provided to the
+
+1.12.9 NMAC                                                                                                            3
+
+                      New Mexico Register / Volume XVI, Number 19 / October 17, 2005
+
+chair of the PCC. It shall be the responsibility of the agency to comply with the ITC agenda and meeting rules to
+present its appeal.
+[1.12.9.12 NMAC - N, 10/17/2005]
+
+HISTORY OF 1.12.9 NMAC: [RESERVED]
+
+1.12.9 NMAC                                                                                                         4

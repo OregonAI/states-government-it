@@ -1,0 +1,135 @@
+---
+schema_version: 1
+corpus: states-government-it
+jurisdiction: new-mexico
+id: nm-nmac-1-12-8
+title: Notification of Internet Protocol Addresses
+doc_type: rule
+citation: 1.12.8 NMAC
+authority_level: ''
+issuing_body: Information Technology Commission (1.12 NMAC; now the Department of Information Technology)
+source_url: https://www.doit.nm.gov/files/docs/1.12.8-NotificationOfIPAddresses.pdf
+source_format: pdf
+retrieved: '2026-11-12'
+source_sha256: b1fc2ce60d86a853e3c2a5649394243a83f12afbff7b3f95f44839713bfef14e
+effective_date: '2002-03-15'
+source_version: ''
+status: current
+content_mode: verbatim
+conversion_notes: Text extracted with pdftotext -layout (page headers, footers and column layout kept
+  as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their
+  letters).
+last_verified: ''
+verified_by: ''
+maintainer: ''
+relationships:
+  implements: []
+  implemented_by: []
+  references_external: []
+  related: []
+  supersedes: []
+tags:
+- cloud-resilience
+---
+
+> **NON-AUTHORITATIVE.** This is a convenience copy for machine reading. The official text is published at the source URL above. Verify at source before relying on it.
+
+# Notification of Internet Protocol Addresses (1.12.8 NMAC)
+
+## At a glance
+
+Applies to the state agencies, boards and commissions to which the General Services Department provides Internet access; its objective is to provide the underlying data necessary for Internet security for them (notification of the Internet Protocol addresses they use).
+
+## Full text
+
+TITLE 1           GENERAL GOVERNMENT ADMINISTRATION
+CHAPTER 12        INFORMATION TECHNOLOGY
+PART 8            NOTIFICATION OF INTERNET PROTOCOL ADDRESSES
+
+1.12.8.1       ISSUING AGENCY. Information Technology Commission.
+[1.12.8.1 NMAC - N, 03-15-02]
+
+1.12.8.2        SCOPE. This rule applies to all state agencies, boards, and commissions to whom the General
+Services Department provides Internet access.
+[1.12.8.2 NMAC - N, 03-15-02]
+
+1.12.8.3       STATUTORY AUTHORITY. NMSA 1978 Section 15-1C-5.
+[1.12.8.3 NMAC - N, 03-15-02]
+
+1.12.8.4       DURATION. Permanent.
+[1.12.8.4 NMAC - N, 03-15-02]
+
+1.12.8.5        EFFECTIVE DATE. March 15, 2002 unless a later date is cited at the end of a section.
+[1.12.8.5 MAC - N, 03-15-02]
+
+1.12.8.6           OBJECTIVE. The purpose of this rule is to provide the underlying data necessary to provide
+Internet security for state agencies, boards and commissions.
+[1.12.8.6 MAC - N, 03-15-02]
+
+1.12.8.7          DEFINITIONS. As used in this rule:
+          A.      access protocols means the standard set of protocols and ports for all types of access as defined
+by the Internet Architecture Board of the Internet Society International Board; including, but not limited to: http,
+https, remote terminal (telnet), simple mail transport protocol (SMTP), and file transfer protocol (FTP).
+          B.      internet means a decentralized, global network of computers linked through the use of common
+communications protocols. The Internet allows users worldwide to exchange messages, data, and images.
+          C.      internet protocol (IP) means the set of conventions that govern the interaction among processes,
+devices and components of the Internet.
+          D.      internet protocol (IP) number means a unique number consisting of four (4) parts separated by
+dots. Every computer connected to the Internet has a unique IP number.
+          E.      ISD-OC means the General Services Department, Information Systems Division, Office of
+Communications.
+          F.      network devices means all servers, workstations, and peripheral devices that are connected to the
+Internet.
+          G.      protocol means a set of rules and formats, semantic and syntactic, that govern the interaction
+among processes, devices and components, and allow information systems to exchange information with one
+another.
+          H.      Security and Privacy Advisory Committee means the standing committee of the Commission.
+          I.      threat means an activity, deliberate or unintentional, with the potential for causing harm to an
+automated information system or activity.
+[1.12.8.7 NMAC - N, 03-15-02]
+
+1.12.8.8           RESPONSIBILITIES OF STATE AGENCIES.
+         A.        Agencies shall submit to the Director of ISD-OC and the CIO a written listing (preferably in an
+Excel spreadsheet) of all agency IP addresses and the access protocols of all network devices that allow access to
+the public Internet.
+         B.        Agencies shall inform the Director of ISD-OC and the CIO in writing of all new IP addresses,
+their devices and their access protocols within three (3) working days of implementation.
+[1.12.8.8 NMAC - N, 03-15-02]
+
+1.12.8 NMAC                                                                                                          1
+
+1.12.8.9          RESPONSIBILITIES OF ISD-OC. ISD-OC will deny access from and to the public Internet
+for access protocols not specifically reported to ISD-OC and the CIO.
+[1.12.8.9 NMAC - N, 03-15-02]
+
+1.12.8.10      RESPONSIBILITIES OF THE CIO.
+         A.    The CIO will maintain a listing of all IP addresses and access protocols by agency.
+         B.    The listing will be protected as confidential information.
+[1.12.8.10 NMAC - N, 03-15-02]
+
+1.12.8.11       REPONSIBILITY OF THE COMMISSION. The Security and Privacy Advisory Committee
+will recommend to the Commission for their approval access protocols, in addition to those defined in 1.12.8.7
+NMAC, subject to this rule.
+[1.12.8.11 NMAC - N, 03-15-02]
+
+1.12.8.12         NOTICE OF ADDITIONAL ACCESS PROTOCOLS. Except in response to an active threat,
+within five (5) working days of approval by the Commission of additional access protocols subject to this rule, the
+Office shall:
+          A.      post a notice of approved access protocols subject to this rule on the Internet at its internet
+address;
+          B.      notify all persons on the electronic distribution list of approved access protocols subject to this
+rule; and
+          C.      mail or fax a hard copy of the approved access protocols subject to this rule to any person
+requesting them in writing or by telephone.
+[1.12.8.12 NMAC - N, 03-15-02]
+
+1.12.8.13      EXEMPTION. There are no exemptions from this rule.
+[1.12.8.13 NMAC - N, 03-15-02]
+
+HISTORY OF 1.12.8 NMAC: Reserved.
+
+1.12.8 NMAC                                                                                                         2
+
+## Curator notes
+
+Text extracted with pdftotext -layout (page headers, footers and column layout kept as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their letters).

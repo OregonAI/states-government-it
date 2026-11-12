@@ -1,0 +1,214 @@
+                       State of New Mexico Statewide
+                 Architectural Configuration Requirements
+                 Title: Virus and Malicious Code Standard
+                                S-STD006.001
+                        Effective Date: April 7, 2005
+
+1.       Authority
+         The Department of Information Technology (DoIT) shall develop, implement and
+         maintain a coordinated statewide plan for information technology (IT) including the
+         adoption of statewide technical, coordination, and security standards per the
+         Department of Information Technology Act, NMSA 9-27-1 et. seq. (1978).
+
+2.       Purpose
+         The purpose of this standard is to establish statewide virus and malicious code
+         protection requirements to safeguard networks, IT components, and critically sensitive
+         information from software contaminants (see Attachment A).
+
+3.       Scope
+         This applies to all Agencies. Agency is defined as a department, commission, board,
+         institution or other agency of the state organization receiving, expending or disbursing
+         state funds or incurring obligations of the state including the board of regents and the
+         state board of directors for community colleges but excluding the universities under the
+         jurisdiction of the board of regents and the community colleges under their respective
+         jurisdictions and the legislative or judicial branches.
+
+         The Department Secretary, working in conjunction with the Department Chief
+         Information Officer (CIO), shall be responsible for ensuring the effective
+         implementation of Statewide Information Technology Policies, Standards, and
+         Procedures (PSPs) within each agency.
+
+4.       Standard
+          In an effort to safeguard networks, IT components, and critically sensitive
+          information from software contaminants, each agency shall:
+
+         4.1.     Protect all workstations and servers with virus-scanning software that has
+                  “notify and clean” enabled by default and that prevents users from disabling
+                  it.
+
+         4.2.     Ensure that all remote workstations and servers used by State employees,
+                  contractors, and third-party entities that access agency internal networks are
+                  protected with virus-scanning software that meets the requirements of this
+
+Title: Virus and Malicious Code Standard S-STD006.001                               Security Domain Team
+Approval Date: April 7, 2005                                                                   Page 1 of 5
+
+                  standard. Virus-scanning software shall be configured and kept current as
+                  defined in paragraph 4.3 and 4.4.
+
+         4.3.     Configure virus-scanning software to:
+                  4.3.1 Regularly scan all files that are stored on directly attached storage devices
+                        to the workstation.
+                  4.3.2 Automatically scan any file that is accessed or copied onto a directly
+                        attached storage device from an external source including electronically
+                        via the Internet, floppy, disks, CD-ROM, or another internal agency
+                        network.
+                  4.3.3 Automatically scan any file that is accessed or modified (create,
+                        open, move, copy, or run) by a workstation software application,
+                        whether deployed on the individual workstation software application,
+                        whether deployed on the individual workstation device, host- or
+                        server-based, or Application Service Provider (ASP) - based.
+
+         4.4.     Designate and document individuals on the CSIRT team that have
+                  the responsibility and accountability to:
+                       Configure and execute (automatic execution is recommended) the
+                          appropriate virus-scanning software on all network-attached (wired and
+                          wireless) workstations.
+                       Periodically scan all files that are stored on Network Attached Storage,
+                          Storage Area Networking Systems, or any other devices such as PCs,
+                          laptops, etc., that are directly attached to a network server.
+                       Update and apply (automatic update is recommended) virus-scanning
+                          software with the most current virus definitions and program updates
+                          on all network servers that provide virus-scanning services to network-
+                          attached (wired and wireless) workstations and on all portable and
+                          stand-alone workstations.
+                       Apply the most current and appropriate inoculants and patches for each
+                          virus or malicious code infection on all network servers that provide
+                          virus-scanning services to network-attached (wired and wireless)
+                          workstations and on all portable and stand-alone workstations.
+
+         4.5.    Expressly prohibit disabling of virus-scanning software.
+
+         4.6.     Scan all incoming email, including attachments, for the existence of virus or
+                  malicious code. Viruses and malicious code shall be contained and eradicated
+                  upon discovery.
+
+         4.7.     Implement a procedure that provides employees and contractors with a clear
+                  process, including appropriate contact points, to address, resolve, and report
+                  virus or malicious code infections within the agency.
+
+         4.8.     Report each virus or malicious code infection in accordance with
+                  Statewide Standard, Incident Response and Reporting S-STD-012, to the
+
+Title: Virus and Malicious Code Standard S-STD006.001                               Security Domain Team
+Approval Date: April 7, 2005                                                                   Page 2 of 5
+
+                  Statewide Infrastructure and Enterprise Service Provider (DoIT, within 24
+                  hours of the incident or next business day, utilizing procedures according
+                  to the CSIRT adopted rules.
+
+         4.9.     Implement protection techniques that guard against virus and malicious code and
+                  potential intrusion via the use of Instant Messaging (IM), peer-to-peer (P2P) file-
+                  sharing, and Internet Relay Chat (IRC). Most IM and IRC services have little or
+                  no installed security services and use proprietary protocols. P2P data-centered
+                  (sharing of data held on other users’ systems) file-sharing software represents a
+                  method capable of introducing malicious software (malware), adware, and
+                  spyware to internal networks as well as potential access to data/information
+                  without proper account management, authentication and authorization:
+                  • IM and IRC services are considered a form of email and are therefore
+                      covered by Statewide Email & Internet Use Policy
+                  • IM and IRC client software shall, if available, have the file transfer
+                      virus- scanning option activated and shall use the same virus-scanning
+                      software already in use for the client workstation or device.
+                  • P2P (external) file-sharing, application-sharing, and white-boarding should
+                      be prohibited unless the session is securely encrypted and approved by
+                      the agency.
+                  • Agencies allowing the use of IM, P2P file-sharing, and IRC services
+                      should educate users, in accordance with Statewide Standard Security
+                      Training and Awareness S-POL-003, of the virus/malicious code and
+                      social engineering security risks involved and the means of mitigating
+                      those risks.
+                  • IM and IRC messages and attachments typically bypass firewalls or
+                      gateways that scan for malicious content, therefore encryption, if available,
+                      should be used.
+
+5.       Definitions
+         Refer to the N-DEF001.001 Glossary of Terms located on the DoIT website:
+         http://www.doit.state.nm.us/standards.html
+
+6.       References
+         None
+
+7.       Attachments
+         Attachment A - Examples of Virus and Malicious Code
+
+8.       Version Control
+         S-STD-006.001
+
+9.       Revision History
+         Original 04/07/05
+         Format Updated 09/18/13
+
+Title: Virus and Malicious Code Standard S-STD006.001                               Security Domain Team
+Approval Date: April 7, 2005                                                                   Page 3 of 5
+
+ Attachment A. Examples of Virus and Malicious Code.
+ Boot Sector - These viruses infect the first sector of a diskette or hard disk, which contains
+ the master boot record, and are launched when a computer initializes with an infected disk.
+ If a computer is booted with an infected diskette, the infected sector is loaded into memory
+ and writes itself to the master boot sector on the hard drive. The virus stays in memory and
+ infects new diskettes when the operating system accesses a new diskette and infects the boot
+ sector of that disk. A boot sector virus, unlike other forms of viruses, does not travel across a
+ network.
+ File Infectors - A type of virus that attaches itself to executable files, such as files with the
+ extension .COM, .EXE, .DLL, .OVR, or .OVL. When the file is run, the virus, which operates
+ in memory, spreads by attaching itself to other executable files. These types of viruses usually
+ cause problems on LAN servers that run local applications shared by multiple systems.
+ Unlike boot sector viruses, they can travel via a network as e-mail attachments or via file
+ transfers. Gateway-based antivirus products stop the spread of these network-transported
+ viruses by intercepting them at the network perimeter.
+ Macro Viruses - The macro virus represents the second generation of virus threat and spreads
+ by means of macro instructions that are found in office applications such as Microsoft Word or
+ Excel spreadsheets. The macros are typically stored as part of a document and can be
+ transported as attachments to e-mail messages. Any application that supports automatically
+ executable macros is a potential carrier for macro viruses, and because of the increasing use of
+ the Internet, macro viruses are becoming more and more problematic. When a file containing
+ an infected macro is used, the infected file reproduces the virus into an application from which
+ it will infect other Word or Excel files. These types of viruses are not detected by traditional
+ scanning
+ engines, but can be detected using a heuristics approach.
+ Stealth Viruses - Stealth viruses hide from both the operating system and antivirus software
+ by residing in memory and intercepting attempts to use the operating system via system calls.
+ The virus hides, from both users and the antivirus software, the changes it makes to file size,
+ directory structure, and/or other operating system aspects. Stealth viruses must be detected
+ while they are in memory. Once found, they must be disabled in memory before the disk-
+ based components can be corrected.
+ Polymorphic Viruses - Polymorphic viruses are encrypted viruses that change their
+ appearance with each infection. They are difficult to detect because they hide from the
+ antivirus software. In addition, these types of viruses complicate the AV software procedure
+ because they alter the encryption algorithm with each infection.
+ Multipartite Viruses - Multipartite viruses infect both boot sectors and executable files. They
+ can combine some or all of the stealth techniques, along with polymorphism to prevent
+ detection.
+ Worm - A type of malicious code that does not alter files like a virus but resides in a
+ computer's memory and replicates itself throughout a network (including the Internet) without
+ the user being aware. It consumes system resources and floods the network with excessive
+ traffic, eventually overloading the system and disrupting service.
+
+Title: Virus and Malicious Code Standard S-STD006.001                              Security Domain Team
+Approval Date: April 7, 2005                                                                  Page 4 of 5
+
+Trojan Horses - Although Trojan horses are an elementary form of malicious code, they are still
+very problematic, particularly with the growth in use of Microsoft ActiveX and Sun Java applets.
+Trojan horses are not really viruses because they do not propagate themselves. Rather, they attack
+specific computers by enticing unsuspecting users into executing a command that appears benign.
+These commands can include seemingly innocent activities, such as initiating a screen saver,
+accessing an e-mail attachment, or downloading executable files from an untrusted Web site,
+which can then execute commands to destroy files or to give a hacker access to system files.
+When a file containing an infected macro is used, the infected file reproduces the virus into files
+or to give a hacker access to important system files. Although the Trojan horse does not
+inherently self-replicate, the introduction of and increase in use of Microsoft ActiveX control and
+Sun Java applet technology has increased the opportunity for Trojan horses to spread
+dramatically. Trojan horses can be used by hackers to enter the network, where upon they utilize
+Hypertext Transfer Protocol (HTTP) to establish communications.
+Other types of Trojan horses can turn on a user’s camera or microphone and record
+conversations and retransmit them. Others are programs, such as Back Orifice, NetBus, or
+PrettyPark, which are marketed as legitimate software products with legitimate functions, but
+which can be used by hackers to penetrate a network. BackOrifice and NetBus are essentially
+remote administration tools that are installed as a server. A hacker with the corresponding client
+software can gain control of the system and eavesdrop, download files, or shut down the system.
+PrettyPark is spread as an e-mail attachment that logs users onto an Internet Relay Chat channel
+that can download passwords or credit card numbers.
+
+Title: Virus and Malicious Code Standard S-STD006.001                            Security Domain Team
+Approval Date: April 7, 2005                                                                Page 5 of 5

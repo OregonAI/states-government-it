@@ -1,0 +1,70 @@
+                           State of New Mexico Statewide
+                      Architectural Configuration Requirements
+                        Title: IT Risk Management Standard
+                                     S-STD003.001
+                             Effective Date: April 7, 2005
+
+     1.       Authority
+              The Department of Information Technology (DoIT) shall develop, implement and
+              maintain a coordinated statewide plan for information technology (IT) including the
+              adoption of statewide technical, coordination, and security standards per the
+              Department of Information Technology Act, NMSA 9-27-1 et. seq. (1978).
+
+     2.       Purpose
+              The purpose of this standard is to identify and establish a web-based Technology
+              Infrastructure and Security Assessment application as the statewide vehicle for
+              reporting compliance to statewide IT standards and security risks/vulnerabilities
+              associated with IT infrastructure and security technologies for major budget units.
+
+     3.       Scope
+              This applies to all Agencies. Agency is defined as a department, commission, board,
+              institution or other agency of the state organization receiving, expending or disbursing
+              state funds or incurring obligations of the state including the board of regents and the
+              state board of directors for community colleges but excluding the universities under the
+              jurisdiction of the board of regents and the community colleges under their respective
+              jurisdictions and the legislative or judicial branches.
+
+              The Department Secretary, working in conjunction with the Department Chief
+              Information Officer, shall be responsible for ensuring the effective
+              implementation of Statewide Information Technology Policies, Standards, and
+              Procedures (PSPs) within each agency.
+
+       4. Standard
+              4.1      Each agency shall perform risk assessments, at least annually as described in
+                       4.2, for information technology (IT) systems and their environments to
+                       determine security vulnerabilities. Security vulnerabilities are more heavily
+                       weighted toward the impact of the loss on agency operations, agency assets, or
+                       individuals than on the threat of loss.
+
+              4.2      Each agency shall submit an annual IT Security Assessment to DoIT (see
+                       Attachment A). The assessment indicates the effectiveness of security
+                       controls within the agency for categories of risks derived from Federal IT
+
+Title: IT Risk Management Standard S-STD-003.001
+Approval Date: April 7, 2005                                                                Security Domain Team
+                                                                                                      Page 1 of 26
+                       Security guidelines. Categories of risks may change periodically; the
+                       following are representative categories:
+
+                                1.       IT Security
+                                2.       IT Risk Management
+                                3.       Account Management
+                                4.       Configuration Management
+                                5.       Authentication and Directory Services
+                                6.       Session Controls
+                                7.       Network Security
+                                8.       Encryption Technologies
+                                9.       System Administration
+                                10.      Incident Response and Reporting
+                                11.      Virus and Malicious Code Protection
+                                12.      Business Continuity & Disaster Recovery
+                                13.      Backups
+                                14.      Maintenance
+                                15.      Media Sanitizing/Disposal
+                                16.      IT Physical Security
+                                17.      Personnel Security
+                                18.      Security Training & Awareness
+                                19.      Application Software
+                                20.      Productivity Software Tools
+                                21.      Classification of Data
+                                22.      Database Access

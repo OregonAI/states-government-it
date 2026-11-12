@@ -1,0 +1,166 @@
+---
+schema_version: 1
+corpus: states-government-it
+jurisdiction: new-mexico
+id: nm-nmac-1-12-2
+title: Commission Operating Procedures
+doc_type: rule
+citation: 1.12.2 NMAC
+authority_level: ''
+issuing_body: Information Technology Commission
+source_url: https://www.srca.nm.gov/parts/title01/01.012.0002.html
+source_format: html
+retrieved: '2026-11-12'
+source_sha256: dcc3deb8ae430c55febbc6d24d8334ed56d1fb02b15269afbdb563871703baaf
+effective_date: '2000-02-01'
+source_version: ''
+status: current
+content_mode: verbatim
+conversion_notes: 'Text taken from the page of the State Records Center and Archives (srca.nm.gov), which
+  publishes the New Mexico Administrative Code, for 1.12.2 NMAC: one line per paragraph of the Word-exported
+  page, with the page''s styles and markup removed. The page is a copy of the part as filed.'
+last_verified: ''
+verified_by: ''
+maintainer: ''
+relationships:
+  implements: []
+  implemented_by: []
+  references_external: []
+  related: []
+  supersedes: []
+tags:
+- governance
+- oversight
+---
+
+> **NON-AUTHORITATIVE.** This is a convenience copy for machine reading. The official text is published at the source URL above. Verify at source before relying on it.
+
+# Commission Operating Procedures (1.12.2 NMAC)
+
+## At a glance
+
+The operating procedures of the Information Technology Commission (meetings, plans, funding recommendations). The commission's statute (the Information Technology Management Act, 15-1C) is repealed, and DoIT's index omits this part, but the SRCA prints the part with no repeal marker, so it is held as printed. OWNER DECISION: a rule for a body that no longer exists.
+
+## Full text
+
+This rule was filed as 1 NMAC 12.2
+TITLE 1 GENERAL GOVERNMENT ADMINISTRATION
+CHAPTER 12 INFORMATION TECHNOLOGY
+PART 2 COMMISSION OPERATING PROCEDURES
+1.12.2.1 ISSUING AGENCY: Information Technology Commission.
+[2-1-00; Recompiled 11/30/01]
+1.12.2.2 SCOPE: This rule applies to all actions taken by the information technology commission.
+[2-1-00; Recompiled 11/30/01]
+1.12.2.3 STATUTORY AUTHORITY: NMSA 1978 Section 15-1C-5.
+[2-1-00; Recompiled 11/30/01]
+1.12.2.4 DURATION: Permanent.
+[2-1-00; Recompiled 11/30/01]
+1.12.2.5 EFFECTIVE DATE: February 1, 2000, unless a later date is cited at the end of a section or paragraph.
+[2-1-00; Recompiled 11/30/01]
+[Compiler’s note: The words or paragraph, above, are no longer applicable. Later dates are now cited only at the end of sections, in the history notes appearing in brackets.]
+1.12.2.6 OBJECTIVE: The purpose of this rule is to establish the procedures by which the commission will operate in carrying out its responsibilities under the Act.
+[2-1-00; Recompiled 11/30/01]
+1.12.2.7 DEFINITIONS: As used in this rule:
+A. “advisory member” means a person appointed to the commission pursuant to NMSA 1978 Section 15-1C-4B;
+B. “comment draft” means the draft of a proposed rule or guideline approved by the Commission for publication for the limited purpose of receiving comments;
+C. “designee” means the person selected by a member to represent and vote or otherwise act on behalf of the member, where the selection of a designee is permitted by law;
+D. “public member” means a person appointed to the commission pursuant to NMSA 1978 Section 15-1C-4A(5);
+E. “voting member” means a person appointed to the commission pursuant to NMSA 1978 Section 15-1C-4A and includes a public member.
+[2-1-00; Recompiled 11/30/01]
+1.12.2.8 MEMBERS:
+A. Terms. Public members shall serve for staggered three-year terms or until they resign. All other members shall serve until they resign or are replaced by their appointing authority.
+B. Vacancies. A member may resign or a member's position on the commission may be deemed vacant if the member or his designee fails to participate in three (3) successive regular meetings.
+C. Notice of vacancy. The commission shall notify the appointing authority of a vacancy on the Commission.
+(1) Public members. The appointing authority shall appoint a replacement for the remainder of the three-year term.
+(2) All other members. The appointing authority shall appoint a replacement.
+D. Conflicts of interest. If any member of the commission has a financial interest in state information systems, state contracts, or the outcome of any commission action, the member shall disclose such interest to the commission and shall not vote on any matter which may have an effect on such interest. [2-1-00; Recompiled 11/30/01]
+1.12.2.9 OFFICERS:
+A. Chairperson. The chairperson shall preside at meetings of the commission and shall assume all duties designated from time to time by the commission.
+B. Vice-chairperson. The vice-chairperson shall perform the duties and assume the obligations of the chairperson when the chairperson is absent. When a vacancy occurs in the office of chairperson, the vice-chairperson shall serve as chairperson until the commission elects a chairperson.
+C. Elections.
+(1) Date of elections. Starting in 2000, the commission shall elect a chairperson and a vice-chairperson at a commission meeting to be held in May of every even-numbered year.
+(2) Nominations. Any voting member may nominate an individual to serve as chairperson or vice-chairperson of the commission. Nominations may be made in person at a commission meeting or by e-mail, facsimile or other writing addressed to the office. For bi-annual elections, nominations must be received by the office no later than April 1 of every even-numbered year. The office shall provide the names of nominees for chairperson and vice-chairperson to all members by April 10 of every even-numbered year.
+(3) Voting. Voting shall be by voice or roll call vote. New officers shall assume their duties upon adjournment of the meeting.
+(4) Vacancies. When a vacancy occurs in the office of chairperson or vice-person, the office shall as soon as practicable give notice of the vacancy to the commission, invite nominations from voting members by a specified date, provide the names of nominees to fill the vacancy to all members at least five calendar days before the next meeting, and, at the next meeting, the commission shall elect an individual to serve out the remainder of the chairperson's or vice-chairperson's term.
+[2-1-00; Recompiled 11/30/01]
+1.12.2.10 COMMITTEES: The commission may appoint committees from time to time and may abolish them at any time. Committees shall have investigative or advisory powers only, reporting all findings and recommendations to the commission for action. The commission shall assign specific topics for study or well-defined areas of activity to each committee immediately following its appointment.
+[2-1-00; Recompiled 11/30/01]
+1.12.2.11 STAFF: The office shall serve as staff to the commission and shall:
+A. prepare, file and post all notices of meetings;
+B. prepare the agenda for meetings; the agenda for regular meetings shall include at a minimum a call to order, roll call, approval of agenda and minutes, presentation and recommendations to the commission, unfinished business, commission-requested discussion or action, new business, and adjournment.
+C. arrange the time, place, and facilities for meetings;
+D. tape record each meeting; the tape recording shall constitute the detailed minutes of the meeting;
+E. prepare summary minutes of each meeting in writing in accordance with New Mexico law; summary minutes shall include at a minimum the date, time, and place of the meeting; the names of commission members present and absent; the subjects discussed by the commission; and a record of all votes taken that shows how each member voted.
+F. prepare ballots for election of officers as necessary;
+G. establish and maintain an electronic distribution list for all persons requesting notice of comment drafts;
+H. maintain and have custody of the records of the commission;
+I. draft or review proposed rules and guidelines, and proposed amendments to rules and guidelines;
+J. prepare reports on behalf of the commission;
+K. recommend revisions to commission operating procedures as needed;
+L. orient new commission members; and
+M. do all other tasks requested by the commission.
+[2-1-00; Recompiled 11/30/01]
+1.12.2.12 MEETINGS:
+A. Regular meetings. The chairperson shall call a regular meeting of the commission not less often than semiannually. The office shall provide notice to the public of the date, time, and place of regular meetings by publication once in a newspaper of general circulation in the state at least ten (10) calendar days in advance of the meeting. The commission may not take action on, but may discuss, any item not specifically on the agenda.
+B. Special meetings. The chairperson or a majority of the voting members of the commission may call a special meeting to consider urgent matters that do not qualify as an emergency. The Office shall provide notice to the public of the time, date, and place of special meetings by telephone to newspapers of general circulation in the state and by posting on the internet and at the office at least three (3) calendar days in advance of the meeting. The commission may discuss at a special meeting only those items specifically on the agenda.
+C. Emergency meetings. The chairperson or a majority of the voting members of the commission may call an emergency meeting only when unforeseen circumstances demand immediate action to protect the health, safety and property of citizens or to protect the commission and the office from substantial financial loss. The office shall provide notice to the public of the time, date, and place of emergency meetings by telephone to newspapers of general circulation in the state and by posting on the internet and at the office at least twenty-four (24) hours in advance of the meeting, unless threat of personal injury or property damage require less notice. The commission may discuss at an emergency meeting only those items specifically on the agenda.
+D. Notice. All notices shall:
+(1) include information on how the public may obtain a copy of the agenda;
+(2) include the following language: “If you are an individual with a disability who is in need of a reader, amplifier, qualified sign language interpreter, or other form of auxiliary aid or service to attend or participate in the meeting, please contact the information technology management office at 476-0400 at least one week prior to the meeting, or as soon as possible. Public documents, including the agenda and minutes can be provided in various accessible formats by contacting the information technology management office at 476-0400.”;
+(3) be posted on the internet;
+(4) be posted at the information technology management office; and
+(5) be provided to broadcast stations licensed by the federal communications commission and newspapers of general circulation which have filed with the office a written request for notice of public meetings.
+E. Waiver of notice to voting members. Whenever any notice is required to be given to a voting member, a written waiver of notice signed by the voting member entitled to the notice is equivalent to the giving of timely notice. The attendance of a voting member at a meeting shall constitute waiver of notice of the meeting except when the voting member's attendance is for the sole purpose of objecting that the meeting is not lawfully called or convened.
+F. Materials for review. At least five (5) calendar days before a regular meeting or as soon as practicable, the office shall provide to the commission copies of draft reports, proposed rules or guidelines, and other documents to be discussed or voted on at the meeting.
+G. Participation methods. A member may participate in commission meetings in person or, if it is difficult or impossible for the member to attend in person, by any means of communication which permits all members participating in the meeting to hear each other at the same time and members of the public attending the meeting to hear any commission member who speaks during the meeting.
+H. Quorum. A majority of the thirteen (13) voting members shall constitute a quorum. The commission shall not take any official action without a quorum present.
+I. Voting. Only voting members may vote on official matters before the commission. A majority of a quorum of the voting members must vote in the affirmative for an action to be taken; a tie vote shall be deemed a negative vote.
+J. Agenda. Any person may request the chairperson to place an item on the agenda or an item may be placed on the agenda by a majority of the voting members. The office shall prepare the agenda in consultation with the chairperson and make it available to the public and the commission at least twenty-four (24) hours prior to the meeting.
+K. Closure of meetings. The commission may close a meeting to the public only to discuss matters exempted from the open meeting requirement by NMSA 1978 Section 10-15-1(H).
+(1) The commission may close an open meeting by a majority vote of a quorum taken during the open meeting. The motion for closure shall state with reasonable specificity the subject to be discussed and the provision of law authorizing the closed meeting. The vote of each voting member on the motion for closure shall be recorded in the minutes. Only those subjects specified in the motion may be discussed in the closed portion of the meeting.
+(2) The commission may hold a separately scheduled closed meeting only if an appropriate notice of closure, stating with reasonable specificity the subject to be discussed and the provision of law authorizing the closed meeting, is given to the members and the general public.
+(3) The minutes of an open meeting that was closed, or the minutes of the next open meeting held after a separately scheduled closed meeting, shall state that the discussions in the closed meeting were limited to those matters specified in the motion for closure or notice of closure.
+(4) Except as provided in NMSA 1978 Section 10-15-1(H), the commission shall vote in an open meeting on any action taken as a result of discussions in a closed meeting.
+L. Meeting procedures. The commission shall conduct its meetings in accordance with Robert's Rules of Order, Newly Revised, except that this rule shall govern in the event of a conflict between this rule and Robert's Rules of Order.
+[2-1-00; Recompiled 11/30/01]
+1.12.2.13 ADOPTION OF RULES:
+A. Proposed rules. Any person may submit a proposal for a rule to the commission. The office shall evaluate the proposal for compliance with the state information architecture and the state strategic plan and shall report its findings and recommendations to the commission. The commission may reject the proposal, agree to consider it further, or approve a comment draft. The comment draft may contain modifications agreed to by the commission.
+B. Emergency rules. The CIO may issue an emergency rule in accordance with 1 NMAC 3.3.20, Emergency Rules [now 1.24.20 NMAC]. Executive agencies shall comply with an emergency rule pending its adoption by the commission pursuant to the rulemaking procedures set forth in this section or until the emergency rule expires.
+C. Notice of proposed rulemaking. The office shall cause a notice of proposed rulemaking to be published once in the New Mexico register and once in a newspaper of general circulation in the state, and posted on the internet at its internet address at least twenty-five (25) calendar days prior to adoption of the proposed rule.
+D. Availability of comment draft. The office shall:
+(1) post comment drafts on the Internet at its internet address;
+(2) send comment drafts to all members of the information technology oversight committee;
+(3) notify all persons on the electronic distribution list that a comment draft is available for comment; and
+(4) mail or fax a hard copy of a comment draft to any person requesting a copy of the comment draft in writing or by telephone.
+E. Comment procedure. The office shall make a comment draft available for comment for at least twenty (20) calendar days prior to its adoption. Any person may submit written comments on the proposed rule to the Office in hard copy or by electronic means. All comments received before the deadline for receipt of comments will be considered; comments received after the deadline will not be considered.
+F. Review. The office shall review all comments for compliance with the state information architecture and the state strategic plan, prepare a summary of all comments received before the deadline, and report its findings and recommendations to the commission.
+G. Commission action. The commission shall consider the comment draft, the summary of comments, and the findings and recommendations of the office at a meeting held after the comment period. The commission may adopt the proposed rule without revision, revise and adopt the proposed rule, revise the proposed rule and seek additional comments, or reject the proposed rule,.
+H. Amendment and repeal of rules. The commission may amend, replace, or repeal rules in accordance with the procedures set forth in this section.
+I. Records of rulemakings. The office shall compile a record of all rulemakings containing at a minimum the notice of rulemaking, the comment draft, all comments received by the deadline for the receipt of comments, the minutes of commission meetings at which the proposed rule was discussed, the stamped copy of the adopted rule filed with the state records center, and the transmittal form and shall maintain them for a period of at least three (3) years from the date the rule becomes effective.
+J. Availability of adopted rules. The office shall post all rules adopted by the commission on the internet at the office's internet address.
+[2-1-00; Recompiled 11/30/01]
+1.12.2.14 ADOPTION OF GUIDELINES:
+A. Proposed guidelines. Any person may submit a proposal for a guideline to the commission. The office shall evaluate the proposal for compliance with the state information architecture and the state strategic plan and shall report its findings and recommendations to the commission. The commission may reject the proposal, agree to consider it further, or approve a comment draft. The comment draft may contain modifications agreed to by the commission.
+B. Notice of proposed guidelines. The office shall post notice of a proposed guideline on the internet at its internet address at least twenty-five (25) calendar days prior to adoption of the proposed guideline.
+C. Availability of comment draft. The office shall:
+(1) post comment drafts on the internet at its internet address;
+(2) send comment drafts to all members of the information technology oversight committee;
+(3) notify all persons on the electronic distribution list that a comment draft is available for comment; and
+(4) mail or fax a hard copy of a comment draft to any person requesting a copy of the comment draft in writing or by telephone.
+D. Comment procedure. The office shall make a comment draft available for comment for at least twenty (20) calendar days prior to its adoption. Any person may submit written comments on the proposed guideline to the office in hard copy or by electronic means. All comments received before the deadline for receipt of comments will be considered; comments received after the deadline will not be considered.
+E. Review. The office shall review all comments for compliance with the state information architecture and the state strategic plan, prepare a summary of all comments received before the deadline, and report its findings and recommendations to the commission.
+F. Commission action. The commission shall consider the comment draft, the summary of comments, and the findings and recommendations of the office at a meeting held after the comment period. The commission may adopt the proposed guideline without revision, revise and adopt the proposed guideline, revise the proposed guideline and seek additional comments, or reject the proposed guideline.
+G. Amendment and repeal of guidelines. The commission may amend, replace, or repeal guidelines in accordance with the procedures set forth in this section.
+H. Availability of adopted guidelines. The office shall post all guidelines adopted by the commission on the internet at the office's internet address.
+[2-1-00; Recompiled 11/30/01]
+1.12.2.15 ANNUAL REPORTS:
+A. State information technology strategic plan. On or before June 1 of each year, the commission shall update the state information technology strategic plan.
+B. Information technology planning guidelines. On or before June 1 of each year, the commission shall provide information technology planning guidelines to executive agencies to assist them in preparing their annual agency plans.
+C. Funding recommendations. On or before November 30 of each year, the commission shall submit its funding recommendations to the department of finance and administration, the legislative finance committee, and the information technology oversight committee.
+[2-1-00; Recompiled 11/30/01]
+history of 1.12.2 NMAC
+History of Repealed Material: [RESERVED]
+
+## Curator notes
+
+Text taken from the page of the State Records Center and Archives (srca.nm.gov), which publishes the New Mexico Administrative Code, for 1.12.2 NMAC: one line per paragraph of the Word-exported page, with the page's styles and markup removed. The page is a copy of the part as filed.

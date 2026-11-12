@@ -1,0 +1,147 @@
+---
+schema_version: 1
+corpus: states-government-it
+jurisdiction: new-mexico
+id: nm-nmac-1-12-4
+title: MAGnet Network Aggregation
+doc_type: rule
+citation: 1.12.4 NMAC
+authority_level: ''
+issuing_body: Information Technology Commission (1.12 NMAC; now the Department of Information Technology)
+source_url: https://www.doit.nm.gov/files/docs/1.12.4-MAGnetNetworkAggregation.pdf
+source_format: pdf
+retrieved: '2026-11-12'
+source_sha256: 53d10134ee8a8524a5a294ff5ddc6c5f9a2ff563216a6770b011d05580bc0d93
+effective_date: '2000-12-29'
+source_version: ''
+status: current
+content_mode: verbatim
+conversion_notes: Text extracted with pdftotext -layout (page headers, footers and column layout kept
+  as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their
+  letters).
+last_verified: ''
+verified_by: ''
+maintainer: ''
+relationships:
+  implements: []
+  implemented_by: []
+  references_external: []
+  related: []
+  supersedes: []
+tags:
+- cloud-resilience
+---
+
+> **NON-AUTHORITATIVE.** This is a convenience copy for machine reading. The official text is published at the source URL above. Verify at source before relying on it.
+
+# MAGnet Network Aggregation (1.12.4 NMAC)
+
+## At a glance
+
+Applies to executive state agencies that lease broadband circuit service: its objective is a shared, centrally managed statewide network infrastructure, by aggregating broadband circuit service to state agencies when that is to the state's economic and operational advantage. State agency network infrastructure, not the public broadband program.
+
+## Full text
+
+TITLE 1           GENERAL GOVERNMENT ADMINISTRATION
+CHAPTER 12        INFORMATION TECHNOLOGY
+PART 4            MAGNET NETWORK AGGREGATION
+
+1.12.4.1       ISSUING AGENCY: Information Technology Commission.
+[1.12.4.1 NMAC - N, 12-29-00]
+
+1.12.4.2       SCOPE: This rule applies to all executive state agencies that lease broadband circuit service.
+[1.12.4.2 NMAC - N, 12-29-00]
+
+1.12.4.3       STATUTORY AUTHORITY: NMSA 1978 Section 15-1C-5.
+[1.12.4.3 NMAC - N, 12-29-00]
+
+1.12.4.4       DURATION: Permanent.
+[1.12.4.4 NMAC - N, date]
+
+1.12.4.5       EFFECTIVE DATE: December 29, 2000, unless a later date is cited at the end of a section.
+[1.12.4.5 NMAC - N, 12-29-00]
+
+1.12.4.6         OBJECTIVE: The purpose of this rule is to facilitate the creation of a shared, centrally managed
+statewide network infrastructure by aggregating broadband circuit service to state agencies when it is to the
+economic and operational advantage of the state.
+[1.12.4.6 NMAC - N, 12-29-00]
+
+1.12.4.7       DEFINITIONS: As used in this rule:
+         A.    BMAC means the Broadband management advisory committee, a subcommittee of the
+commission.
+         B.    ISD-OC means the information systems division, office of communications.
+[1.12.4.7 NMAC - N, 12-29-00]
+
+1.12.4.8         MAGNET NETWORK AGGREGATION IMPLEMENTATION AND BUSINESS PLAN:
+MAGnet network aggregation will be accomplished according to the MAGnet network aggregation implementation
+and business plan.
+[1.12.4.8 NMAC - N, 12-29-00]
+
+1.12.4.9           RESPONSIBILITIES OF STATE AGENCIES:
+         A.        Agencies shall participate in broadband circuit aggregation efforts, unless exempted pursuant to
+the provisions of this rule.
+         B.        Agencies will transfer administrative management of existing contracts for broadband circuit
+service to ISD-OC as the BMAC determines the most effective method for accomplishing the transfer.
+[1.12.4.9 NMAC - N, 12-29-00]
+
+1.12.4.10          RESPONSIBILITIES OF BMAC: BMAC will provide high-level management oversight for
+the shared broadband circuit network including, but not limited to, provision of new services and changes in
+direction, service level, or attributes of broadband circuit service.
+[1.12.4.10 NMAC - N, 12-29-00]
+
+1.12.4.11          RESPONSIBILITIES OF ISD-OC: ISD-OC will:
+         A.        provide administrative management of all broadband circuits leased by state agencies, including
+control of billing and contracts;
+         B.        provide technical management of all shared broadband circuits;
+         C.        participate in the negotiation of all new agreements for broadband circuit service;
+         D.        participate in the negotiation of renewal agreements for broadband circuit service in conjunction
+with agencies as individual agency contracts for broadband circuit service expire:
+
+1.12.4 NMAC                                                                                                  Page 1
+
+            (1) ISD-OC may negotiate renewal agreements affecting agency-managed broadband circuit service
+without express agency approval if the renewal agreement results in no additional charge to the affected agency.
+            (2) If the renewal agreement results in cost savings without value being added to an agency’s
+broadband circuit service, ISD-OC will pass the cost savings along to the affected agency.
+            (3) ISD-OC must seek approval from an agency before negotiating any renewal agreement for
+broadband circuit service that will result in increased costs to the agency.
+         E.       effectuate the transition to an aggregated broadband circuit network in ways that minimize:
+            (1) involuntary increases in individual agency expenses;
+            (2) disruptions to current agency operations; and
+            (3) delays in adding or changing broadband circuit services necessary to maintain agency operations.
+         F.       provide advance notice to, and obtain consent from, an agency when disruptions or delays in
+broadband circuit service to the agency must be scheduled.
+[1.12.4.11 NMAC - N, 12-29-00]
+
+1.12.4.12         RESPONSIBILITIES OF THE CIO: The CIO will:
+         A.       participate in the negotiation on behalf of the state all new agreements for broadband circuit
+service;
+         B.       participate in the negotiation of renewal agreements for broadband circuit service in conjunction
+with agencies as individual agency contracts for broadband circuit service expire; and
+         C.       serve as a neutral liaison between ISD/OC and any agency that has a complaint about
+management of all broadband circuit agreements.
+[1.12.4.12 NMAC - N, 12-29-00]
+
+1.12.4.13          EXEMPTION:
+          A.       An agency may request exemption from the requirement to participate in broadband circuit
+aggregation efforts. Exemptions shall be granted only if aggregation would:
+             (1) result in a significant increase in agency costs;
+             (2) decrease the security of agency operations;
+             (3) compromise essential service attributes critical to agency success; or
+             (4) result in inadequate resource levels.
+          B.       An agency shall file a written request for exemption with the CIO. The request shall state the
+grounds on which the request is based and shall include any information available to support the request. The CIO
+shall respond to the request within thirty (30) days.
+          C.       Agencies may file a written request for review of an adverse CIO decision with the commission.
+The commission shall review the CIO decision but shall only consider information presented to the CIO, unless new
+information becomes available that was not available at the time the agency submitted its request for exemption to
+the CIO. The commission shall make a final decision at its next regularly scheduled meeting.
+[1.12.4.13 NMAC - N, 12-29-00]
+
+HISTORY OF 1.12.4 NMAC: [Reserved.]
+
+1.12.4 NMAC                                                                                                 Page 2
+
+## Curator notes
+
+Text extracted with pdftotext -layout (page headers, footers and column layout kept as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their letters).

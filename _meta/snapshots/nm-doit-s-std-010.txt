@@ -1,0 +1,99 @@
+                         State of New Mexico Statewide
+                    Architectural Configuration Requirements
+                                  Title: Backups
+                                  S-STD010.001
+                       Effective Date: May 26, 2005
+
+   1.       Authority
+            The Department of Information Technology (DoIT) shall develop, implement and
+            maintain a coordinated statewide plan for information technology (IT) including the
+            adoption of statewide technical, coordination, and security standards per the
+            Department of Information Technology Act, NMSA 9-27-1 (1978).
+
+   2.       Purpose
+            This standard defines agency responsibilities for backups of system and user software
+            and information.
+
+   3.       Scope
+            This applies to all agencies. Agency is defined as a department, commission, board,
+            institution or other agency of the state organization receiving, expending or disbursing
+            state funds or incurring obligations of the state including the board of regents and the
+            state board of directors for community colleges but excluding the universities under the
+            jurisdiction of the board of regents and the community colleges under their respective
+            jurisdictions and the legislative or judicial branches.
+
+            The Agency Chief Executive Officer (CEO), working in conjunction with the Agency
+            Chief Information Officer (CIO), shall be responsible for ensuring the effective
+            implementation of Statewide Information Technology Policies, Standards, and
+            Procedures (PSPs) within each agency.
+
+   4.       Standard
+            Meeting the following requirements ensures that agencies will be able to recover from
+            interruptions in service in a timely manner and to restore critical information and
+            services.
+
+            4.1.     FREQUENCY: Backups shall be taken periodically using a defined cycle, as
+                     determined by the agency, frequently enough to meet the time-criticality of
+                     agency business processes, business continuity plans (as defined in the
+                     Statewide, Business Continuity/Disaster Recovery Plan (BCDR), as well as
+                     legal, regulatory, and contractual obligations. The frequency and depth of
+                     backups shall be based on defined business requirements of the agency.
+
+Title: Backups Standard S-STD-010.001                                                 Security Domain Team
+Approval Date: May 26 2005                                                                       Page 1 of 2
+
+            4.2.     MEDIA: Backup media types (disks, RAID storage, optical archive, tape, etc.)
+                     shall be selected based on agency business requirements, including business
+                     continuity planning for critical services, and regulatory obligations relative to
+                     permanence of data/information.
+            4.3.     METHOD: Agencies shall use automated back-up management software to
+                     perform the backups on designated systems.
+
+            4.4.     STORAGE OF REMOVABLE MEDIA: Backups require the same controls as
+                     the original data being backed up.
+                     •    Backups of mission-critical data shall be stored in a secured, offsite location.
+                          See Statewide Business Continuity/Disaster Recovery Plan (BCDR), for
+                          additional requirements.
+                     •    Access to backups of mission critical data shall be limited to agency
+                          personnel authorized to handle the most sensitive data being backed up.
+                     •    Backups shall be clearly and consistently labeled to facilitate restoration and
+                          testing and to guard against mishandling, loss, or accidental overwriting.
+                     •    Media shall be stored in compliance with manufacturer’s storage
+                          requirements.
+                     •    Backups shall be transported to designated storage locations by personnel
+                          authorized by the agency.
+
+            4.5.     CONTENT OF BACKUPS: Backups shall include all operating system
+                     software, application software, related software, utilities, etc., necessary to
+                     configure and restore critical information and services.
+
+            4.6.     PROCEDURES: Procedures shall be established and documented within the
+                     agency for performing backups, transporting media, and testing backup media.
+                     Procedures shall include event logs.
+
+            4.7.     TESTING: Backups shall be tested on a regular basis, determined and
+                     documented by the agency, for restorability, recoverability, and to ensure that
+                     restored information has not been compromised.
+
+   5.       Definitions
+            Refer to the N-DEF001.001 Glossary of Terms located on the DoIT website:
+            http://www.doit.state.nm.us/standards.html
+
+   6.       References
+            Media Disposal policy at State of New Mexico Records and Archives
+
+   7.       Attachments
+            None
+
+Title: Backups Standard S-STD-010.001                                                      Security Domain Team
+Approval Date: May 26 2005                                                                            Page 2 of 2
+
+   8.       Version Control
+            S-STD-010.001
+
+   9.       Revision History
+            Original 5/26/05
+            Format Updated 09/18/13
+
+Title: Backups Standard S-STD-010.001   Security Domain Team
+Approval Date: May 26 2005                         Page 3 of 2
