@@ -1,0 +1,133 @@
+                                                                 DELAWARE STATE-WIDE INFORMATION
+                                                    TECHNOLOGY AND ARCHITECTURE STANDARDS
+
+            Standard ID:     AC-CLF-001
+
+                   Title:    Website Common Look & Feel
+
+     Revision Number:        4
+
+               Domain:       Access
+
+             Discipline:     Branding
+
+              Effective:     4/15/2005
+              Reviewed:      1/23/2023
+        Approved By:         Chief Information Officer
+               Sponsor:      Chief Technology Officer
+
+I.     Authority, Applicability and Purpose
+      A. Authority: Title 29 Chapter 90C Delaware Code, §9004C – General Powers, duties and
+         functions of DTI “2) Create, implement and enforce statewide and agency technology solutions,
+         policies, standards and guidelines, including as recommended by the CIO”
+      B. Applicability: Applies to all State of Delaware communications and computing resources. DTI is
+         an Executive Branch Agency and has no authority over the customers in Legislative and Judicial
+         Branches, as well as Local Education Agencies, and other Federal and Local Government
+         entities that use these resources. However, all users, including these entities, must agree to
+         abide by all policies, standards promulgated by DTI as a condition of funding, access and
+         continued use of these resources.
+      C. Purpose: In order to present websites that create a high level of trust and ease of use for
+         Delaware residents, visitors to the state, and others interested in learning about the state, it is
+         imperative that state web pages be uniform in presentation and in action and that, they have a
+         common look and feel. This standard recognizes the need for regulation of agency web sites and
+         requires that agency web sites adhere to the Common Look and Feel published by the Delaware
+         Government Information Center (GIC). Before publication, each State organization is responsible
+         to determine if their websites need to comply with Section 508 from the Federal government.
+
+II. Scope
+       A.    Audience – All State organizations that publish public-facing web pages.
+
+These standards are adopted by the Department of Technology and Information (DTI), through the Technology and Architecture
+Standards Committee (TASC), and are applicable to all Information Technology use throughout the State of Delaware. Any
+questions or comments should be directed to dti_tasc@delaware.gov.
+                                                           1 of 3
+
+                                                                 DELAWARE STATE-WIDE INFORMATION
+                                                    TECHNOLOGY AND ARCHITECTURE STANDARDS
+
+     B.    Application - This standard applies to all Internet web pages owned and controlled by the State
+           of Delaware regardless of the hosting platform. With the approval of the Director of the
+           Government Information Center (or designee), an agency may not be required to adhere to the
+           Common Look and Feel, but the agency would still be required to adhere to the web
+           presentation guidelines.
+
+III. Process
+     A.    Adoption – These standards have been adopted by the Department of Technology and
+           Information (DTI) through the Technology and Architecture Standards Committee (TASC) and
+           are applicable to all Information Technology use throughout the state of Delaware.
+     B.    Revision – Technology is constantly evolving; therefore, the standards will need to be regularly
+           reviewed. It is the intent of the TASC to review each standard annually. The TASC is open to
+           suggestions and comments from knowledgeable individuals within the state, although we ask
+           that they be channeled through your Information Resource Manager (IRM).
+     C.    Contractors – Contractors or other third parties are required to comply with these standards
+           when proposing technology solutions to DTI or other state entities. Failure to do so could result
+           in rejection of the proposed technology solution. For further guidance, or to seek review of a
+           component that is not rated below, contact the TASC at dti_tasc@delaware.gov.
+     D.    Implementation responsibility – DTI and/or the organization’s technical staff will implement
+           this standard during the course of normal business activities, including business case review,
+           architectural review, project execution and the design, development, or support of systems.
+     E.    Enforcement – DTI will enforce this standard during the course of normal business activities,
+           including business case and architectural review of proposed projects and during the design,
+           development, or support of systems. This standard may also be enforced by others during the
+           course of their normal business activities, including audits and design reviews.
+     F.    Contact us – Any questions or comments should be directed to dti_tasc@delaware.gov.
+
+IV. Definitions/Declarations
+           1.    Web Presentation Guidelines – The set of instructions and standards to be followed by
+                 the designers and managers of state agency web pages in the development and
+                 management of state agency web sites.
+           2.    Common Look & Feel – The way a website acts and appears to users. A common look
+                 and feel will offer a generally consistent user experience across all state agency web sites.
+
+These standards are adopted by the Department of Technology and Information (DTI), through the Technology and Architecture
+Standards Committee (TASC), and are applicable to all Information Technology use throughout the State of Delaware. Any
+questions or comments should be directed to dti_tasc@delaware.gov.
+                                                           2 of 3
+
+                                                                 DELAWARE STATE-WIDE INFORMATION
+                                                    TECHNOLOGY AND ARCHITECTURE STANDARDS
+
+V. Definition of Ratings
+                            COMPONENT RATING                                                    USAGE NOTES
+
+   STANDARD – DTI offers internal support and/or has arranged for                         These components can be
+   external vendor support as well (where applicable). DTI believes the                   used without explicit DTI
+   component is robust and solidly positioned in its product life cycle.                  approval for both new
+                                                                                          projects and enhancement
+                                                                                          of existing systems.
+
+   DECLINING – Deprecated - DTI considers the component to be a                           Via the State’s waiver
+   likely candidate to have support discontinued in the near future. A                    process, these components
+   deprecated element is one becoming invalid or obsolete.                                must be explicitly approved
+                                                                                          by DTI for all projects. They
+                                                                                          must not be used for minor
+                                                                                          enhancement and system
+                                                                                          maintenance without explicit
+                                                                                          DTI approval via the State’s
+                                                                                          waiver process.
+
+   DISALLOWED – DTI declares the component to be unacceptable for                         No waiver requests for new
+   use and will actively intervene to disallow its use when discovered.                   solutions with this component
+                                                                                          rating will be considered.
+
+     A.    Missing Components – No conclusions should be inferred if a specific component is not listed.
+           Instead, contact the TASC to obtain further information.
+
+VI. Component Assessments
+Scope: The State has reviewed the following documentation as a set of standards and guidance for the
+design, engineering, organization, and publication of state agency web sites under the Delaware Website
+Common Look and Feel. These documents are published at Common Look & Feel - Government
+Information Center (delaware.gov)
+
+VII. Development and Revision History
+
+     Date                    Revision
+     9/27/2019               Rev 3 – current version
+     1/23/2023               Rev 4 – Removed direct references to a specific CLF version
+     11/4/2024               Rev 4 - Removed references to the Technology Investment Council and added a
+                             clarification in the Process section
+
+These standards are adopted by the Department of Technology and Information (DTI), through the Technology and Architecture
+Standards Committee (TASC), and are applicable to all Information Technology use throughout the State of Delaware. Any
+questions or comments should be directed to dti_tasc@delaware.gov.
+                                                           3 of 3

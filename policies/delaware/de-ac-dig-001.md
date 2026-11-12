@@ -1,0 +1,270 @@
+---
+schema_version: 1
+corpus: states-government-it
+jurisdiction: delaware
+id: de-ac-dig-001
+title: Digital Accessibility Policy
+doc_type: policy
+citation: DTI Enterprise Policy AC-DIG-001
+authority_level: ''
+issuing_body: Delaware Department of Technology and Information (DTI)
+source_url: https://webfiles.dti.delaware.gov/pdfs/pp/Digital%20Accessibility%20Policy.pdf
+source_format: pdf
+retrieved: '2026-11-11'
+source_sha256: 15f6ad331cab0e1e4392fb6deb06dea4003ae53855215684e24471cec63ec1fb
+effective_date: '2023-01-30'
+source_version: Revision 0 (reviewed 1/30/2023)
+status: current
+content_mode: verbatim
+conversion_notes: Text extracted with pdftotext -layout (page headers, footers and column layout kept
+  as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their
+  letters).
+last_verified: ''
+verified_by: ''
+maintainer: ''
+relationships:
+  implements: []
+  implemented_by: []
+  references_external: []
+  related: []
+  supersedes: []
+tags:
+- digital-services
+---
+
+> **NON-AUTHORITATIVE.** This is a convenience copy for machine reading. The official text is published at the source URL above. Verify at source before relying on it.
+
+# Digital Accessibility Policy (DTI Enterprise Policy AC-DIG-001)
+
+## At a glance
+
+Item of the DTI Standards and Policies library, section 'Access'. Synopsis as printed: This policy contains scope and technical requirements for State of Delaware agencies to ensure accessibility and usability for all digital information by individuals with disabilities.
+
+## Full text
+
+                                                       STATE OF DELAWARE
+                                    DEPARTMENT OF TECHNOLOGY AND INFORMATION
+                                                      801 Silver Lake Blvd.
+                                                     Dover, Delaware 19904
+
+Doc Ref Number: AC-DIG-001                                           Revision Number: 0
+ Document Type: Enterprise Policy                                        Page: 1 of 6
+     Policy Title: Digital Accessibility Policy
+
+       Synopsis: This policy contains scope and technical requirements for State of
+                  Delaware agencies to ensure accessibility and usability for all digital
+                  information by individuals with disabilities.
+     Authority: Title 29 Chapter 90C Delaware Code, §9004C – General Powers, duties,
+                  and functions of DTI “2) Create, implement and enforce statewide and
+                  agency technology solutions, policies, standards and guidelines,
+                  including as recommended by the CIO”
+   Applicability: This policy is applicable to all users of the State of Delaware
+                  communications and computing resources. The Department of
+                  Technology and Information (DTI) is an Executive Branch Agency and
+                  has no authority over the users in Legislative and Judicial Branches, as
+                  well as Local Education Agencies, and other Federal and Local
+                  Government entities that use these resources. However, all users,
+                  including these entities, must agree to abide by all policies, standards
+                  promulgated by DTI as a condition of access and continued use of these
+                  resources.
+      Effective: 1/30/2023
+      Reviewed: 1/30/2023
+   Approved By: Chief Information Officer
+       Sponsor: Chief Technology Officer
+
+                            “Delivering Technology that Innovates”
+
+                                                                                      STATE OF DELAWARE
+                                                              DEPARTMENT OF TECHNOLOGY AND INFORMATION
+                                                                                     801 Silver Lake Blvd.
+                                                                                    Dover, Delaware 19904
+
+    Doc Ref Number: AC-DIG-001                                                                                  Revision Number: 0
+     Document Type: Enterprise Policy                                                                               Page: 2 of 6
+         Policy Title: Digital Accessibility Policy
+
+Table of Contents
+Policy .............................................................................................................................................. 3
+Definitions....................................................................................................................................... 5
+Development and Revision History ................................................................................................ 6
+Approval Signature Block............................................................................................................... 6
+Listing of Appendices ..................................................................................................................... 6
+Related Policies and Standards ....................................................................................................... 6
+
+                                                  “Delivering Technology that Innovates”
+
+                                                           STATE OF DELAWARE
+                                        DEPARTMENT OF TECHNOLOGY AND INFORMATION
+                                                          801 Silver Lake Blvd.
+                                                         Dover, Delaware 19904
+
+  Doc Ref Number: AC-DIG-001                                             Revision Number: 0
+   Document Type: Enterprise Policy                                          Page: 3 of 6
+       Policy Title: Digital Accessibility Policy
+
+Policy
+POLICY SCOPE
+This Policy applies to all State of Delaware public-facing digital assets that are developed,
+procured, maintained, or used while offering products, services, and online information to users.
+This includes any accompanying support documentation and services associated with the public-
+facing digital channel. Employees of the State of Delaware and third-party vendors shall comply
+with this Policy.
+
+EXECUTIVE SUMMARY
+The State of Delaware is committed to providing the most enjoyable and informative experience
+to all. This includes a commitment to accessibility, diversity, and inclusion. We are working to
+ensure that all State of Delaware Information and Communication Technology (ICT) is
+accessible to and usable by individuals with disabilities, in accordance with federal, state, and
+local law.
+
+POLICY STATEMENT
+We have policies and procedures in place to help guarantee that we comply with the World Wide
+Web Consortium (W3C) Web Content Accessibility Guidelines (WCAG) 2.1 Level A and AA
+guidelines for websites and mobile applications. We also have made a commitment to follow the
+W3C Web Content Accessibility Guidelines 2.1 (WCAG 2.1 levels A and AA) standards. We
+are firmly dedicated to complying with the Americans with Disabilities Act (ADA) Titles I, II
+and III, Section 504 and Section 508 of the Rehabilitation Act of 1973, the 21st Century
+Communications and Video Accessibility Act of 2010 (CVAA), and Title 6 Delaware Code
+4504.
+
+POLICY PROVISIONS
+General Procedures
+   1. External communication - The State of Delaware will maintain a publicly available
+      Accessibility Statement in support of the State’s Digital Accessibility Policy. This
+      statement should be available directly from the State of Delaware homepage. Each
+
+                                “Delivering Technology that Innovates”
+
+                                                            STATE OF DELAWARE
+                                         DEPARTMENT OF TECHNOLOGY AND INFORMATION
+                                                           801 Silver Lake Blvd.
+                                                          Dover, Delaware 19904
+
+  Doc Ref Number: AC-DIG-001                                              Revision Number: 0
+   Document Type: Enterprise Policy                                           Page: 4 of 6
+       Policy Title: Digital Accessibility Policy
+
+      department will maintain relevant information about the accessibility of public-facing
+      websites, mobile apps, or other digital communications should be provided, as well as an
+      accessible means by which individuals with disabilities can get further assistance. The
+      information should be kept up to date with any new developments.
+   2. Training - This Policy will be communicated to all State of Delaware departments
+      responsible for public-facing digital assets, including, but not limited to service
+      representatives, product managers, project managers, designers, developers, engineers,
+      content authors, QA analysts, and compliance/risk managers. The Policy will also be
+      communicated to external vendors and contractors who develop public-facing digital
+      assets for State of Delaware. Training will be offered through the Delaware Learning
+      Center to help identified staff implement the Policy. Training will be coordinated and
+      facilitated by the State of Delaware Digital Accessibility Program Senior Manager or
+      their designate.
+
+Responsibilities
+   1. State of Delaware Digital Accessibility Senior Manager - Upon adoption of this policy,
+      the State of Delaware Digital Accessibility Senior Manager will be responsible for the
+      enterprise accessibility program. All State of Delaware departments responsible for
+      public-facing digital assets should contact the Digital Accessibility Senior Manager to
+      answer any questions about accessibility, address the accessibility of covered digital
+      assets, and assist in handling alternative format requests. The Digital Accessibility Senior
+      Manager will review this policy annually, to ensure both its applicability and compliance
+      with emerging regulations and standards.
+   2. Compliance - All State of Delaware departments responsible for public-facing digital
+      assets shall collaborate with the State of Delaware Digital Accessibility Senior Manager
+      to understand accessibility requirements, receive accessibility training, address
+      accessibility of covered public-facing digital assets, and document how the public-facing
+      digital assets conform to Technical Standards referenced in this Policy. Departments are
+      responsible for implementing procedures that inform authors, developers, publishers, and
+      procurers about applicable laws, policies, and contractual obligations.
+   3. Evaluation and Monitoring - All State of Delaware departments responsible for public-
+      facing digital assets shall provide standards conformance reports on an annual basis.
+      Reports will include both components developed by the State of Delaware and
+      components developed by third-party vendors that are deployed on or integrated into
+      State of Delaware managed platforms or applications. The State of Delaware will conduct
+
+                                 “Delivering Technology that Innovates”
+
+                                                            STATE OF DELAWARE
+                                         DEPARTMENT OF TECHNOLOGY AND INFORMATION
+                                                           801 Silver Lake Blvd.
+                                                          Dover, Delaware 19904
+
+   Doc Ref Number: AC-DIG-001                                             Revision Number: 0
+    Document Type: Enterprise Policy                                          Page: 5 of 6
+        Policy Title: Digital Accessibility Policy
+
+       automated accessibility tests of its core website, at regularly scheduled intervals
+       mandated by the State of Delaware Digital Accessibility Senior Manager, to identify any
+       instances where the core website or other key digital communications are not in
+       conformance with the Technical Standards referenced in this Policy.
+EXCEPTIONS
+Where compliance with this Policy is not possible, exceptions to this Policy may be granted by
+the State of Delaware. Requests for exceptions must be documented and submitted to the State of
+Delaware Digital Accessibility Program Senior Manager. Exceptions may be granted in
+scenarios such as not readily achievable, undue burden or fundamental alteration, user generated
+content, linked sites and resources, external digital content, short term digital content, orphaned
+digital content, back office, public safety systems, state contracts, ICT functions located in
+maintenance or monitoring spaces, etc. For more information, visit the following website
+(https://accessibility.dti.delaware.gov/).
+
+Definitions
+   Accessibility – it means the degree to which an environment, service, or product allows
+   access by as many people as possible, in particular, people with disabilities.
+   Accessibility Standards incorporated by reference – it means conventions, norms or
+   requirements intended to provide access to an environment, product, or service, particularly
+   to people with disabilities. The principle of accessibility may be mandated in law and
+   specified in detail per regulations, standards, or codes.
+   Alternative Formats – it means information presented in Braille, in large print, via audio
+   recording, or in an electronic format that can be accessed by people with disabilities. The
+   Alternative Format must make the same content available and provide an equivalent level of
+   access to the content by people with disabilities that is available to others who access the
+   original document.
+   Public-Facing Digital Content - it includes, but is not limited to, electronic or digital
+   content, communications or applications that are:
+       •   In HTML, non-HTML, or mobile platform digital formats
+       •   Public-facing and broadly disseminated, including products and services information,
+           account information, etc.
+
+                                 “Delivering Technology that Innovates”
+
+                                                             STATE OF DELAWARE
+                                          DEPARTMENT OF TECHNOLOGY AND INFORMATION
+                                                            801 Silver Lake Blvd.
+                                                           Dover, Delaware 19904
+
+  Doc Ref Number: AC-DIG-001                                               Revision Number: 0
+   Document Type: Enterprise Policy                                            Page: 6 of 6
+       Policy Title: Digital Accessibility Policy
+
+      •   Public support mechanisms (e.g., chat, email, etc.)
+      •   Digital marketing and social media content
+  For the purposes of this Policy – “Public-Facing Digital Content” shall not include Archival
+  documents stored or retained solely for archival purposes to preserve an exact image of a
+  hard copy; or draft versions of documents that are not public-facing, or which are intended
+  for limited distribution.
+  Readily Achievable - it is defined as easily accomplishable and able to be carried out
+  without much difficulty or expense. Failure to remove accessibility barriers where “readily
+  achievable” might constitute discrimination. Determining what is “readily achievable” often
+  involves analyzing the nature and cost of removing barriers and the overall financial
+  resources of the business organization, among other factors. The analysis seeks to balance the
+  benefit of the barrier’s removal and the harm (e.g., cost) to the business.
+
+Development and Revision History
+Date              Revision
+1/30/2023         Rev 0 - Initial version
+11/4/2024         Rev 0 - Removed a reference to the Technology Investment Council
+
+Approval Signature Block
+On File
+
+Name & Title:                                                      Date
+
+State Chief Information Officer
+
+Listing of Appendices
+
+Related Policies and Standards
+
+                                  “Delivering Technology that Innovates”
+
+## Curator notes
+
+Text extracted with pdftotext -layout (page headers, footers and column layout kept as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their letters).

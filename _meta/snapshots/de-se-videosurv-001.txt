@@ -1,0 +1,464 @@
+                                                                   STATE OF DELAWARE
+                                                       DEPARTMENT OF TECHNOLOGY AND INFORMATION
+                                                                       801 Silver Lake Blvd.
+                                                                      Dover, Delaware 19904
+
+     Doc Ref Number:           SE-VideoSurv-001                                                 Revision Number:            3
+      Document Type:           Enterprise Policy                                                     Page: 1 of 10
+
+            Policy Title:      Video Surveillance Policy
+
+               Synopsis:       The goal of this policy is to establish the permissible uses and
+                               technical specifications for the State’s Video Surveillance Information.
+              Authority:       Title 29 Chapter 90C Delaware Code, §9004C – General Powers,
+                               duties and functions of DTI “2) Create, implement and enforce
+                               statewide and agency technology solutions, policies, standards and
+                               guidelines, including as recommended by the CIO”
+          Applicability:       This policy is applicable to all users of the State of Delaware
+                               communications and computing resources. The Department of
+                               Technology and Information (DTI) is an Executive Branch Agency and
+                               has no authority over the customers in Legislative and Judicial
+                               Branches, as well as Local Education Agencies, and other Federal and
+                               Local Government entities that use these resources. However, all
+                               users, including these entities, must agree to abide by all policies,
+                               standards promulgated by DTI as a condition of access and continued
+                               use of these resources.
+               Effective:      4/1/2024
+              Reviewed:        3/27/2025
+          Approved By:         Chief Information Officer
+                Sponsor:       Chief Security Officer
+
+These policies are adopted by the Department of Technology and Information (DTI), through the Technology and Architecture
+Standards Committee (TASC), and are applicable to all Information Technology use throughout the State of Delaware. Any
+questions or comments should be directed to dti_tasc@delaware.gov.
+                                                            1 of 10
+
+                                                                   STATE OF DELAWARE
+                                                       DEPARTMENT OF TECHNOLOGY AND INFORMATION
+                                                                       801 Silver Lake Blvd.
+                                                                      Dover, Delaware 19904
+
+      Doc Ref Number:          SE-VideoSurv-001                                                 Revision Number:            3
+       Document Type:          Enterprise Policy                                                     Page: 2 of 10
+
+            Policy Title:      Video Surveillance Policy
+
+     TABLE OF CONTENTS
+
+ Section                                                                                                                    Page
+
+ I.        POLICY                                                                                                               2
+
+ II.       DEFINITIONS                                                                                                          4
+
+ III.      DEVELOPMENT AND REVISION HISTORY                                                                                     5
+
+ IV.       APPROVAL SIGNATURE BLOCK                                                                                             6
+
+ V.        LISTING OF APPENDICES                                                                                                6
+
+I.      POLICY
+
+EXECUTIVE SUMMARY
+This policy sets forth the permissible uses for video surveillance, including mandatory
+technical specifications for all video surveillance deployed by and within the State.
+
+PURPOSE
+The increased availability of surveillance devices and cameras has raised questions concerning
+their appropriate use, particularly inside the workplace. Video surveillance systems procured
+by the State must maintain minimum security specifications to ensure the safety of State
+employees, facilities, and data. This policy regulates all uses of surveillance cameras and
+surveillance monitoring and recording in order to achieve these purposes while also protecting
+the legal and privacy interests of the State, its residents, visitors, and employees. Excluding
+law enforcement, only State authorized surveillance equipment is allowed to be used for
+surveillance. The use of personally owned surveillance equipment is thereby prohibited from
+being used for surveillance of any nature.
+
+POLICY
+  1. State organizations that choose to implement a video surveillance solution must
+     adhere to the enterprise requirements outlined in this policy.
+  2. Video surveillance systems recording access to State facilities should store and
+     maintain at least 90 days' worth of recorded activity.
+
+These policies are adopted by the Department of Technology and Information (DTI), through the Technology and Architecture
+Standards Committee (TASC), and are applicable to all Information Technology use throughout the State of Delaware. Any
+questions or comments should be directed to dti_tasc@delaware.gov.
+                                                            2 of 10
+
+                                                                   STATE OF DELAWARE
+                                                       DEPARTMENT OF TECHNOLOGY AND INFORMATION
+                                                                       801 Silver Lake Blvd.
+                                                                      Dover, Delaware 19904
+
+     Doc Ref Number:           SE-VideoSurv-001                                                 Revision Number:            3
+      Document Type:           Enterprise Policy                                                     Page: 3 of 10
+
+            Policy Title:      Video Surveillance Policy
+
+    3. Video surveillance systems monitoring access to State facilities should have night
+        vision capability and produce reasonably clear captures of activities.
+    4. State secure facilities with controlled gate access should implement Automatic Number
+        Recognition (ANPR) capable camera systems at the gate entrance with direct site of
+        entering vehicles, where possible.
+    5. DTI will partner with awarded vendors, impacted organizations, Facilities Management,
+        and the Department of Safety and Homeland Security (DSHS) to oversee the
+        implementation of this policy.
+    6. The decision to install such a system should be made by the State organization, based
+        upon a risk assessment of the operations being conducted at that facility location. Any
+        proposed systems or services must comply with the State’s Video Surveillance Policy,
+        which will ensure consistent and secure usage of surveillance across State facilities,
+        excluding schools and correctional institutions. Agencies are reminded that the
+        responsibility for funding and maintenance of a video surveillance system exists at the
+        State organization and Department level and is not a responsibility of DSHS, Office of
+        Management and Budget (OMB), or DTI.
+    7. The system must comply with National Electric Code.
+    8. State video surveillance systems and their associated components such as firmware
+        must be updated, patched, and consistent with the vendor recommended secure
+        operating versions.
+    9. State entities with end-of-life surveillance systems must have active business cases
+        for their replacement or risk mitigation, or they must follow the enforcement or waiver
+        process outlined below.
+    10. The use of surveillance equipment is limited exclusively to practices that will not violate
+        the standard of a reasonable expectation of privacy and protection of sensitive
+        information as defined by law. Any cameras not meeting these requirements shall be
+        removed.
+    11. Video surveillance systems and their components must be maintained on isolated
+        network segments with limited or no general internet access beyond approved vendor
+        support and management services.
+    12. Video surveillance systems should be included in the State entity’s disaster recovery
+        and business continuity plans.
+    13. Surveillance equipment specifications will adhere to the technical specifications
+        published within this policy in Appendix A.
+
+ENFORCEMENT and WAIVER
+DTI will enforce this policy during the course of normal business activities, including
+business case and architectural review of proposed projects and during the design,
+development, or support of systems. This policy may also be enforced by individual State
+
+These policies are adopted by the Department of Technology and Information (DTI), through the Technology and Architecture
+Standards Committee (TASC), and are applicable to all Information Technology use throughout the State of Delaware. Any
+questions or comments should be directed to dti_tasc@delaware.gov.
+                                                            3 of 10
+
+                                                                   STATE OF DELAWARE
+                                                       DEPARTMENT OF TECHNOLOGY AND INFORMATION
+                                                                       801 Silver Lake Blvd.
+                                                                      Dover, Delaware 19904
+
+     Doc Ref Number:           SE-VideoSurv-001                                                 Revision Number:            3
+      Document Type:           Enterprise Policy                                                     Page: 4 of 10
+
+            Policy Title:      Video Surveillance Policy
+
+organizations and partner agencies during the course of their normal business activities,
+including audits and design reviews.
+
+In the event that any federal, state, or local law, regulation, or departmental policy conflicts
+with the terms of this policy, the federal, state, or local law, regulation, or departmental
+policy shall prevail. In the event a proposed system fails to or has limitations preventing it
+from meeting the policy, the requesting State organization should pursue an exception
+through the State’s waiver process.
+
+Current video surveillance systems with active vendor support contracts and services are
+excluded from this policy. End-of-life video surveillance systems with no vendor support
+contracts or locations without video surveillance systems must have business cases that
+align with the new policy by the beginning of the 2026 fiscal year. After the 2026 fiscal
+year, all terms in this policy will apply.
+
+If there is ambiguity or confusion regarding any part of this policy, contact the sponsor
+named in the header of this policy.
+
+   II.       DEFINITIONS
+     1. Surveillance Equipment/Security Cameras — Any item, system, camera,
+        technology device, communications device, or process, used alone or in conjunction
+        with a network, for gathering, monitoring, recording, or storing an image(s) of State
+        property and/or people on State property. Video surveillance is also referred to as
+        CCTV.
+     2. Facility – Any State-owned or managed physical structure, building, or place that
+        provides more than one open and active connection to the State’s computing
+        network.
+     3. Law Enforcement – Law enforcement refers to the organized system and agencies
+        responsible for ensuring compliance with laws, maintaining public order, and
+        preventing, detecting, and investigating crimes. Law enforcement agencies operate
+        at various levels, including local, state, and federal, and they work together to
+        protect communities and uphold the rule of law.
+     4. Network Video Recorder (NVR) – A computer system that records video footage
+        and stores it on a hard disk, a mass storage device, or cloud storage. It is paired
+        with digital internet protocol (IP) cameras to create video surveillance systems.
+        Types of equipment include:
+            ✓ Security Cameras which can be either IP-Cameras or Analog Cameras
+            ✓ A Recording and Monitoring solution:
+
+These policies are adopted by the Department of Technology and Information (DTI), through the Technology and Architecture
+Standards Committee (TASC), and are applicable to all Information Technology use throughout the State of Delaware. Any
+questions or comments should be directed to dti_tasc@delaware.gov.
+                                                            4 of 10
+
+                                                                   STATE OF DELAWARE
+                                                       DEPARTMENT OF TECHNOLOGY AND INFORMATION
+                                                                       801 Silver Lake Blvd.
+                                                                      Dover, Delaware 19904
+
+     Doc Ref Number:           SE-VideoSurv-001                                                 Revision Number:            3
+      Document Type:           Enterprise Policy                                                     Page: 5 of 10
+
+            Policy Title:      Video Surveillance Policy
+
+                        o In small systems recorders are used. Recorders can be distinguished
+                          in Network Video Recorders
+              ✓    Outdoor Surveillance Cameras – includes night-vision features.
+              ✓    Motion-activated Surveillance Cameras- starts recording once motion is
+                   detected.
+              ✓    Biometric surveillance – Biometrics are unique physical characteristics, such
+                   as fingerprints, facial, voice, iris and/or palm patterns (includes key card with
+                   picture identification). Iris recognition is considered one of the most secure
+                   biometric methods due to the uniqueness and stability of iris patterns.
+              ✓    Wireless/Internet Cameras -real-time monitoring
+              ✓    Security System Cameras
+
+   III.      DEVELOPMENT AND REVISION HISTORY
+
+ Date                     Revision
+ 8/15/2014                Rev 0 – Initial version
+ 12/21/2015               Rev 1 – Updated content related to surveillance video
+ 4/1/2024                 Rev 2 – Significant update to the retired policy
+ 11/4/2024                Rev 2 – Removed a reference to the Technology Investment Council
+ 3/27/2025                Rev 3 – Due to customer feedback, additional policy statements were
+                          added, clarifying language was added to the Enforcement and Waiver
+                          section and Appendix B was added.
+
+These policies are adopted by the Department of Technology and Information (DTI), through the Technology and Architecture
+Standards Committee (TASC), and are applicable to all Information Technology use throughout the State of Delaware. Any
+questions or comments should be directed to dti_tasc@delaware.gov.
+                                                            5 of 10
+
+                                                                   STATE OF DELAWARE
+                                                       DEPARTMENT OF TECHNOLOGY AND INFORMATION
+                                                                       801 Silver Lake Blvd.
+                                                                      Dover, Delaware 19904
+
+     Doc Ref Number:           SE-VideoSurv-001                                                 Revision Number:            3
+       Document Type:          Enterprise Policy                                                     Page: 6 of 10
+
+            Policy Title:      Video Surveillance Policy
+
+   I V. A P P R O V A L S I G N A T U R E B L O C K
+
+ On File
+
+ Name & Title:                                                                 Date:
+
+                                                                               05/29/2025
+ State Chief Information Officer
+
+  V.     LISTING OF APPENDICES
+
+Appendix A
+The following are minimum requirements of the IP Video Surveillance Systems in
+State of DE facilities:
+
+Open Network Video Interface Forum (ONVIF) Compliance
+ONVIF Compliance ensures that regardless of manufacturer, an IP Camera will be
+compatible with devices from other manufacturers.
+ONVIF Certified products can be identified using the ONVIF conformity tool, located at:
+https://www.onvif.org/conformant-products/
+• Must be compliant with ONVIF profile/s S and/or T.
+• For Devices that support onboard recording to a Secure Digital (SD) card ONVIF Profile
+    G is recommended.
+• All other ONVIF profiles optional.
+        o S – Supports compatibility between Network Video Recorders and Video
+            Management Systems. Also includes ONVIF specifications for Pan Tilt Zoom (PTZ)
+            control, audio, multicasting, and relay outputs for conformant devices and clients
+            that support such features.
+
+These policies are adopted by the Department of Technology and Information (DTI), through the Technology and Architecture
+Standards Committee (TASC), and are applicable to all Information Technology use throughout the State of Delaware. Any
+questions or comments should be directed to dti_tasc@delaware.gov.
+                                                            6 of 10
+
+                                                                   STATE OF DELAWARE
+                                                       DEPARTMENT OF TECHNOLOGY AND INFORMATION
+                                                                       801 Silver Lake Blvd.
+                                                                      Dover, Delaware 19904
+
+     Doc Ref Number:           SE-VideoSurv-001                                                 Revision Number:            3
+      Document Type:           Enterprise Policy                                                     Page: 7 of 10
+
+             Policy Title:     Video Surveillance Policy
+
+         o    G – Supports replay controls and Edge Storage allowing the option of storing
+              recordings on camera via SD card
+         o    T – Supports H.264 and/or H.265 encoding which lowers bandwidth and storage
+              requirements for footage. Also supports encrypted HTTPS protocol.
+         o    Additional ONVIF Profiles and information can be found here:
+              https://www.onvif.org/profiles/
+
+Security Features/Requirements
+• All cameras must be Encrypted via HTTPS protocols TLS 1.2 (preferred), TLS 1.3
+   (emerging).
+       o Ciphers should be AES 128 bit or higher.
+       o ECDHE is also approved for use.
+• Must support multi-level passwords.
+       o At a minimum must support Administrator and Single User password.
+• Camera management systems that provide web-based or client-based access to one or
+   more cameras must adhere to the State Identity and Access Management policy.
+• Local or remote access to camera management systems that provide access to one or
+   more cameras must leverage the State’s identity solution and enable the management
+   of access through an approved user’s lifecycle with the state or associated role.
+• IP Cameras that have passwords set by the manufacturer that cannot be changed are
+   not authorized.
+• Cameras may not use default passwords. All passwords must meet the complexity
+   requirements set in the State Identity and Access Management Policy.
+• Camera software and firmware must be upgradable without direct internet access to the
+   devices. It is suggested that software and firmware packages be downloaded from an
+   internet connected machine and placed in a location accessible by the Camera
+   Management and/or NVR software.
+
+Resolutions
+• Minimum Resolution 720p
+      o 1280x720(720p) at minimum of 15 Frames per Second (FPS)
+      o Should only be considered for applications below 15ft from subject if device does
+         not feature an optical zoom lens.
+• Recommended Resolution 1080p
+      o   1920x1080(1080p) at minimum of 15 FPS, with 30FPS Preferred.
+• Higher Resolutions
+
+These policies are adopted by the Department of Technology and Information (DTI), through the Technology and Architecture
+Standards Committee (TASC), and are applicable to all Information Technology use throughout the State of Delaware. Any
+questions or comments should be directed to dti_tasc@delaware.gov.
+                                                            7 of 10
+
+                                                                           STATE OF DELAWARE
+                                                               DEPARTMENT OF TECHNOLOGY AND INFORMATION
+                                                                               801 Silver Lake Blvd.
+                                                                              Dover, Delaware 19904
+
+             Doc Ref Number:           SE-VideoSurv-001                                                 Revision Number:            3
+              Document Type:           Enterprise Policy                                                     Page: 8 of 10
+
+                     Policy Title:     Video Surveillance Policy
+
+                 o    Considerations should be made when going above 1080p, to ensure storage and
+                      network bandwidth is sufficient.
+                         ▪ Table 1 contains estimated storage and bandwidth requirements.
+                         ▪ Values can be halved if cameras are set to record only on motion or record
+                            non-motion at a lower quality.
+
+              Table 1 –Resolutions and H.264 Storage and Network Bandwidth Estimates
+Resolution      Width   Height  Estimated 30 Day Storage at 15 FPS Estimated Network Bandwidth at 15FPS
+4K                   3840         2160    4490 GB/4.49TB                                   12.0 Mb/s
+2K                   2048         1566    1650 GB/1.65TB                                   4.88 Mb/s
+1080P                1920         1080    885 GB                                           2.61 Mb/s
+720P                 1280          720    451 GB                                           1.34 Mb/s
+480P                  854          480    NA                                               NA
+
+        NVR Storage
+        • NVRs should be sized for a minimum of 90 days of storage for the devices managed by
+          it.
+
+        Video Encoding
+        • NVRs must support H.264 and/or H.265 encoding formats.
+        • NVRs must Support Motion JPEG (MJPEG) if legacy IP Cameras exist in your
+           implementation.
+        • Proprietary video formats may only be used if the NVR or Video Management Software
+           (VMS) also supports one of the formats above and can export the video to a commonly
+           utilized open format.
+
+        Power Requirements
+        • Power over Ethernet requirements (PoE) must be determined by the network device the
+          camera will be utilizing, the number of other cameras utilizing PoE on the same network
+          device, and the distance from the network device.
+        • Type 1 and Type 2 devices are preferred as they are more widely supported.
+                     ▪ Type 1 PoE IEEE 802.3af
+                     ▪ Type 2 PoE+ IEEE 802.3at
+        • In some cases, add-on PoE power supplies may be required.
+        • NVRs and Network Devices which power IP Cameras, must have Uninterruptable Power
+          Supplies (UPS) in place to ensure camera functionality in the event of a power outage.
+
+        These policies are adopted by the Department of Technology and Information (DTI), through the Technology and Architecture
+        Standards Committee (TASC), and are applicable to all Information Technology use throughout the State of Delaware. Any
+        questions or comments should be directed to dti_tasc@delaware.gov.
+                                                                    8 of 10
+
+                                                                   STATE OF DELAWARE
+                                                       DEPARTMENT OF TECHNOLOGY AND INFORMATION
+                                                                       801 Silver Lake Blvd.
+                                                                      Dover, Delaware 19904
+
+     Doc Ref Number:           SE-VideoSurv-001                                                 Revision Number:            3
+      Document Type:           Enterprise Policy                                                     Page: 9 of 10
+
+            Policy Title:      Video Surveillance Policy
+
+Network Requirements
+• Devices must be able to function without connectivity to the internet.
+• Devices must reside within a designated security network with isolation from internet
+   access and the internal user network. All inbound and outbound access must be
+   implemented through a State firewall and approved by the DTI Chief Security Office.
+• Camera systems outside the State defined requirements must be approved by the Chief
+   Security Office within DTI, before purchase via the State’s waiver process.
+
+Environment Specific Requirements
+• Cameras exposed to weather elements must be rated for outdoor use.
+• PTZ Cameras that are exposed to freezing temperatures must be rated for
+   arctic/freezing temperatures.
+• Where cameras may be exposed to high levels of humidity, defogging lenses are
+   recommended.
+• Cameras that can be easily reached by inmates must be rated as Vandal Resistant or
+   provide Active Tampering notification.
+• Cameras used in low light applications should have built-in Infrared (IR) capabilities.
+
+Appendix B
+
+Connectivity and Access
+
+Physical camera devices must be deployed in a non-user network like the security network
+(virtual routing and forwarding – VRF).
+
+Internal camera and video surveillance systems must integrate with the State’s identity
+service.
+
+    •    The use of the State’s primary Active Directory domain services is prohibited.
+
+For remote access to State video surveillance systems, the following are approved:
+
+    •    State’s client VPN connection
+
+These policies are adopted by the Department of Technology and Information (DTI), through the Technology and Architecture
+Standards Committee (TASC), and are applicable to all Information Technology use throughout the State of Delaware. Any
+questions or comments should be directed to dti_tasc@delaware.gov.
+                                                            9 of 10
+
+                                                                   STATE OF DELAWARE
+                                                       DEPARTMENT OF TECHNOLOGY AND INFORMATION
+                                                                       801 Silver Lake Blvd.
+                                                                      Dover, Delaware 19904
+
+     Doc Ref Number:           SE-VideoSurv-001                                                 Revision Number:            3
+      Document Type:           Enterprise Policy                                                     Page: 10 of 10
+
+            Policy Title:      Video Surveillance Policy
+
+    •    Internet publishing using the State’s web application protection systems. This will
+         require the following:
+
+              o    A web interface that is located within a State managed demilitarized zone
+                   (DMZ).
+
+              o    Authentication with the State’s identity management solution through the web
+                   application protection system.
+
+Any video surveillance system leveraging a standard Windows or Linux Operating System
+that has the capability to run standard State security tools like an Endpoint Detection and
+Response tool (EDR) must have those tools installed.
+
+DTI will conduct regular ongoing reviews as required by State and/or Federal authorities.
+These reviews will aid in the identification and mitigation of potential risks, enhance
+operational efficiency, and allow quick adaptation to new technologies and customer
+demands. The ultimate goal of these reviews is to maintain high standards of quality and
+service by regularly assessing and improving operational policy, procedures, and standards.
+
+These policies are adopted by the Department of Technology and Information (DTI), through the Technology and Architecture
+Standards Committee (TASC), and are applicable to all Information Technology use throughout the State of Delaware. Any
+questions or comments should be directed to dti_tasc@delaware.gov.
+                                                            10 of 10

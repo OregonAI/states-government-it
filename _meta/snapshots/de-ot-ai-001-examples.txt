@@ -1,0 +1,35 @@
+                                                                  DELAWARE STATE-WIDE INFORMATION
+                                                    TECHNOLOGY AND ARCHITECTURE STANDARDS
+
+                Generative Artificial Intelligence (GenAI) Examples*
+
+Public GenAI
+    •    ChatGPT
+    •    DALL•E 2
+    •    Gemini
+
+Enterprise GenAI
+    •    Adobe Firefly
+    •    Microsoft Copilot
+    •    Amazon Bedrock
+    •    Azure AI
+*these are only examples. They do not represent an endorsement of these companies or their products.
+Please note that this list is not intended to serve as confirmation that the State has purchased a product
+listed here.
+
+                               Prohibited GenAI Tools Examples*
+
+Prohibited GenAI Tools
+    •    RedNote
+    •    DeepSeek
+    •    Webull
+    •    WeChat AI
+    •    Qwen
+    •    WormGPT
+    •    FraudGPT
+*this is an initial list that meets the criteria in the policy.
+
+These examples are provided by the Department of Technology and Information (DTI), through the Technology and Architecture
+Standards Committee (TASC), and are applicable to all Information Technology use throughout the State of Delaware. Any
+questions or comments should be directed to dti_tasc@delaware.gov.
+                                                            1 of 1

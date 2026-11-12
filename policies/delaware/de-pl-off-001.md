@@ -1,0 +1,291 @@
+---
+schema_version: 1
+corpus: states-government-it
+jurisdiction: delaware
+id: de-pl-off-001
+title: Offshore IT Staffing
+doc_type: policy
+citation: DTI Enterprise Policy PL-OFF-001
+authority_level: ''
+issuing_body: Delaware Department of Technology and Information (DTI)
+source_url: https://webfiles.dti.delaware.gov/pdfs/pp/OffshoreITStaffingPolicy.pdf
+source_format: pdf
+retrieved: '2026-11-11'
+source_sha256: c4e58dfd2980f4ec9a438d100f25d975b04ee37667bfdd543407d6027465048c
+effective_date: '2006-03-01'
+source_version: Revision 4
+status: current
+content_mode: verbatim
+conversion_notes: Text extracted with pdftotext -layout (page headers, footers and column layout kept
+  as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their
+  letters).
+last_verified: ''
+verified_by: ''
+maintainer: ''
+relationships:
+  implements: []
+  implemented_by: []
+  references_external: []
+  related: []
+  supersedes: []
+tags:
+- procurement
+- governance
+---
+
+> **NON-AUTHORITATIVE.** This is a convenience copy for machine reading. The official text is published at the source URL above. Verify at source before relying on it.
+
+# Offshore IT Staffing (DTI Enterprise Policy PL-OFF-001)
+
+## At a glance
+
+Item of the DTI Standards and Policies library, section 'Application'. Synopsis as printed: Establish Guidelines for use of offshore IT staffing.
+
+## Full text
+
+                                                      STATE OF DELAWARE
+                                         DEPARTMENT OF TECHNOLOGY AND INFORMATION
+                                                    801 Silver Lake Blvd.
+                                                   Dover, Delaware 19904
+
+Doc Ref Number:      PL-OFF-001                                        Revision Number: 4
+ Document Type:      Enterprise Policy                                    Page: 1 of 6
+     Policy Title:   Offshore IT Staffing
+
+       Synopsis:     Establish Guidelines for use of offshore IT staffing.
+      Authority:     Title 29 Chapter 90C Delaware Code, §9004C – General Powers,
+                     duties and functions of DTI “2) Create, implement and enforce
+                     statewide and agency technology solutions, policies, standards and
+                     guidelines, including as recommended by the CIO”
+   Applicability:    This Policy is applicable to all users of the State of Delaware
+                     communications and computing resources. DTI is an Executive
+                     Branch Agency and has no authority over the customers in Legislative
+                     and Judicial Branches, as well as Local Education Agencies, and other
+                     Federal and Local Government entities that use these resources.
+                     However, all users, including these entities, must agree to abide by
+                     all policies, standards promulgated by DTI as a condition of access
+                     and continued use of these resources.
+  Effective Date:    03/01/2006                     Expiration Date:    None
+POC for Changes:     Chief Technology Officer
+    Approval By:     Chief Information Officer
+   Approved On:      2/10/2015
+ Date Reviewed:      9/27/2019
+
+                                                                                         Page
+
+                         “Delivering Technology that Innovates”
+
+                                                          STATE OF DELAWARE
+                                              DEPARTMENT OF TECHNOLOGY AND INFORMATION
+                                                        801 Silver Lake Blvd.
+                                                       Dover, Delaware 19904
+
+     Doc Ref Number:      PL-OFF-001                                    Revision Number: 4
+      Document Type:      Enterprise Policy                                   Page: 2 of 6
+          Policy Title:   Offshore IT Staffing
+
+I.        Policy                                                                                2
+
+II.       Definitions                                                                           5
+
+III.      Development and Revision History                                                      6
+
+IV.       Approval Signature Block                                                              6
+
+I.       Policy
+PURPOSE - This policy addresses specific requirements for IT services provided by
+contracted vendors using personnel outside the United States. Additionally, this policy
+addresses contracted vendors that provide services such as custom application development
+and support on a SaaS platform. This practice has become increasingly common due to
+shortage of domestic IT resources and opportunity to reduce costs. The goal is to guide
+State organizations in the selection, contracting, management and oversight of contracted
+vendors that if they make an offshore contract, ensure that the results meet the short and
+long-term requirements of the State.
+
+Business Considerations – There are several important business issues to be considered.
+
+      1. The quality and usability of a system developed and/or maintained offshore should
+         be at least equal to that available through Domestic Contractors.
+      2. The State’s information systems and data must remain secure during the
+         development and continuing support of the resulting system.
+      3. In many cases, the use of offshore staff is a result of use of Subcontractors. It is
+         important that the State organization be aware of and approves in advance the use
+         of Subcontractor offshore staff.
+      4. Managing a project with offshore staff, especially when subcontracted, will require
+         additional attention from the State organization.
+      5. State organizations should take into consideration that additional overhead is
+         encountered when using offshore staff, especially subcontracted. Some studies
+         estimate the overhead in the 20% range.
+
+Legal Considerations – The full legal implications of using offshore staff and
+   Subcontractors is beyond the scope of this policy.
+
+                              “Delivering Technology that Innovates”
+
+                                                     STATE OF DELAWARE
+                                         DEPARTMENT OF TECHNOLOGY AND INFORMATION
+                                                   801 Silver Lake Blvd.
+                                                  Dover, Delaware 19904
+
+Doc Ref Number:      PL-OFF-001                                     Revision Number: 4
+Document Type:       Enterprise Policy                                   Page: 3 of 6
+     Policy Title:   Offshore IT Staffing
+
+ 1. The Primary (Domestic) Contractor shall be responsible for Subcontractor compliance
+    with all terms, conditions and requirements of the primary contract, the Request for
+    Proposal, and local, State and Federal Laws. The Primary Contractor must reside in
+    the United States, and be licensed for business in Delaware. The Primary Contractor
+    shall be liable for any noncompliance by any Subcontractor. Provisions must be
+    placed in the contract to ensure the State is protected if any political/environmental
+    crises arise that would prevent the successful completion of the contract by any
+    Subcontractors.
+ 2. It is the responsibility of the State Agency head and Data Steward to ensure that any
+    offshore contract adheres to applicable local, State and Federal laws.
+ 3. The full legal implications of using offshore staff and Subcontractors are beyond the
+    scope of this policy. However, State Agencies should recognize that offshore
+    contracts present complex legal issues. The State Agency should, in cooperation
+    with its Counsel and Counsel for DTI, review and approve all contracts and
+    subcontracts for any use of IT staffing personnel or services outside the United
+    States.
+
+ Policy Details
+ 1. Declare In Advance - Primary Contractors and Subcontractors must declare in
+     advance or as early as is known during execution if offshore staff will be used for any
+     tasks associated with the contract, and must fully disclose the scope (number and
+     location) and role of the offshore staff. This disclosure must specifically identify the
+     components or subcomponents being worked on, and what portion(s) of the lifecycle
+     are being performed. This requirement for advance notice before offshoring applies
+     to the entire life cycle of the effort.
+ 2. Domestic Project or Support Manager - The Primary Contractor must provide a
+     Domestic project or Support manager responsible for managing the relationship with
+     offshore staff. This Domestic project or Support manager is responsible for ensuring
+     that all communications (verbal and written) with the State are in English
+     (American).
+ 3. Coding Standards - All interim and final work products must be fully compatible
+     with domestic practices. For example, source code, and documentation must be in
+     English, and stored data must use U.S. Standard formats.
+ 4. Suitability – Any decision to utilize offshore staffing or support for a system must be
+     made formally by the head of the Agency.
+  5. System Access –
+
+                         “Delivering Technology that Innovates”
+
+                                                       STATE OF DELAWARE
+                                           DEPARTMENT OF TECHNOLOGY AND INFORMATION
+                                                     801 Silver Lake Blvd.
+                                                    Dover, Delaware 19904
+
+  Doc Ref Number:      PL-OFF-001                                     Revision Number: 4
+   Document Type:      Enterprise Policy                                   Page: 4 of 6
+       Policy Title:   Offshore IT Staffing
+
+       A) The Data Steward must ensure that all aspects of the Administrative Safeguards
+           and Technical Safeguards contained in the State of Delaware Information
+           Security Policy are followed and that the Primary Contractor understands their
+           obligation to require the same of any Subcontractor.
+       B) It is considered a best practice for the Offshore staff to have access to only the
+           Development Environment any Non-Public data on the Development
+           Environment, which is accessible via Offshore staff, must be masked/obfuscated
+           sufficiently to reduce its data classification to Public.
+       C) Offshore staff must not have access to the production environment.
+       D) Offshore staff must not have access to any State of Delaware confidential, secret
+           or Top Secret data as outlined in the State’s Data Classification Policy.
+       E) It is a requirement for the Primary Contractor’s Domestic staff or State staff to be
+           responsible for promotion of system changes into the Test and Production
+           environments.
+       F) State Policy prohibits the sharing of Logon ID’s and Passwords among
+           users of its infrastructure. It is explicitly forbidden for Primary
+           Contractor or Subcontractor staff to “share” access privileges. This is
+           particularly egregious when offshore staff is involved. Violation of this
+           clause will be considered by the State to be a material security breach by
+           the Primary Contractor and is grounds for discipline up to and including
+           termination of the contract and exclusion from future IT contracting
+           opportunities. State and Federal Attorneys General will be consulted for
+           further State and Federal criminal and civil action if deemed necessary
+    6. Review Components – The Primary Contractor’s domestic staff must review all
+       components developed by offshore staff for fitness, purpose and compliance with
+       standards. One of the principle responsibilities of the Primary Contractor is to ensure
+       that the components do not contain any published vulnerabilities or malicious
+       software designed to damage or disrupt the application or its operating environment.
+       The State holds the Primary Contractor liable for any code containing
+       vulnerabilities or malicious code produced by themselves or any
+       Subcontractor.
+
+IMPLEMENTATION RESPONSIBILITY
+
+DTI and/or the organization’s technical staff will implement this policy during the course of
+normal business activities, including business case review, architectural review, project
+execution and the design, development, or support of systems.
+
+                           “Delivering Technology that Innovates”
+
+                                                         STATE OF DELAWARE
+                                             DEPARTMENT OF TECHNOLOGY AND INFORMATION
+                                                       801 Silver Lake Blvd.
+                                                      Dover, Delaware 19904
+
+  Doc Ref Number:        PL-OFF-001                                      Revision Number: 4
+      Document Type:     Enterprise Policy                                   Page: 5 of 6
+         Policy Title:   Offshore IT Staffing
+
+ENFORCEMENT and WAIVER
+
+DTI will enforce this policy during the course of normal business activities, including
+business case and architectural review of proposed projects and during the design,
+development, or support of systems. This policy may also be enforced by others during the
+course of their normal business activities, including audits and design reviews.
+
+If there is ambiguity or confusion regarding any part of this policy, contact the point of
+contact defined in the header of this policy.
+
+II.      Definitions
+
+Criticality Classifications – Reference the State of Delaware Information Security Policy
+
+Data Classifications – Reference the Data Classification Policy
+
+Domestic - Domestic is defined as within the United States or its territories.
+
+Offshore – Any location other than Domestic.
+
+Primary Contractor - The Primary Contractor is the organization with whom the State
+organization has an executed contract. The Primary Contractor’s right to use
+Subcontractors for all or part of the work under the contract depends on several factors,
+including Data Classification, Criticality Classification, and the stipulations of the contract.
+
+Subcontractor – An entity under contractual arrangement to the Primary Contractor to
+provide all or part of the work under the primary contract. The various obligations of the
+Primary Contractor must extend to the Subcontractors as well.
+
+                             “Delivering Technology that Innovates”
+
+                                                         STATE OF DELAWARE
+                                             DEPARTMENT OF TECHNOLOGY AND INFORMATION
+                                                       801 Silver Lake Blvd.
+                                                      Dover, Delaware 19904
+
+   Doc Ref Number:       PL-OFF-001                                    Revision Number: 4
+   Document Type:        Enterprise Policy                                   Page: 6 of 6
+         Policy Title:   Offshore IT Staffing
+
+III.     Development and Revision History
+
+Initial version established 03/01/2006
+Second version established 8/15/2011
+Third version established 8/28/2012
+Minor revision – Changed POC on 10/15/2013
+Fourth version established on 2/10/2015
+Minor revision – Removed the references to the System Environment Standard on
+1/25/2023
+Minor revision - Removed a reference to the Technology Investment Council on 11/4/2024
+
+IV.      Approval Signature Block
+
+Name & Title:                                              Date
+State Chief Information Officer
+
+                             “Delivering Technology that Innovates”
+
+## Curator notes
+
+Text extracted with pdftotext -layout (page headers, footers and column layout kept as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their letters).

@@ -1,0 +1,341 @@
+---
+schema_version: 1
+corpus: states-government-it
+jurisdiction: delaware
+id: de-ac-soc-001
+title: Social Media Policy
+doc_type: policy
+citation: DTI Enterprise Policy AC-SOC-001
+authority_level: ''
+issuing_body: Delaware Department of Technology and Information (DTI)
+source_url: https://webfiles.dti.delaware.gov/pdfs/pp/SocialMediaPolicy.pdf
+source_format: pdf
+retrieved: '2026-11-11'
+source_sha256: c7f67679929f7f00d1cb65d1df0d423d711ad13abf45c57c6a1db4e5bb15d637
+effective_date: '2009-04-01'
+source_version: Revision 3 (reviewed 2/26/2024)
+status: current
+content_mode: verbatim
+conversion_notes: Text extracted with pdftotext -layout (page headers, footers and column layout kept
+  as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their
+  letters).
+last_verified: ''
+verified_by: ''
+maintainer: ''
+relationships:
+  implements: []
+  implemented_by: []
+  references_external: []
+  related: []
+  supersedes: []
+tags:
+- digital-services
+- governance
+---
+
+> **NON-AUTHORITATIVE.** This is a convenience copy for machine reading. The official text is published at the source URL above. Verify at source before relying on it.
+
+# Social Media Policy (DTI Enterprise Policy AC-SOC-001)
+
+## At a glance
+
+Item of the DTI Standards and Policies library, section 'Access'. Synopsis as printed: Provide guiding principles for conduct by State Employees who will use Social Media and Social Media Platforms to engage with customers on behalf of the State of Delaware.
+
+## Full text
+
+                                                  STATE OF DELAWARE
+                                    DEPARTMENT OF TECHNOLOGY AND INFORMATION
+                                                 801 Silver Lake Blvd.
+                                                Dover, Delaware 19904
+
+Doc Ref Number:     AC-SOC-001                                    Revision Number: 3
+Document Type:      Enterprise Policy                                    Page: 1 of 8
+    Policy Title:   Social Media Policy
+
+      Synopsis:     Provide guiding principles for conduct by State Employees who will
+                    use Social Media and Social Media Platforms to engage with
+                    customers on behalf of the State of Delaware.
+      Authority:    Title 29 Chapter 90C Delaware Code, §9004C – General Powers,
+                    duties and functions of DTI “2) Create, implement and enforce
+                    statewide and agency technology solutions, policies, standards and
+                    guidelines, including as recommended by the CIO”.
+   Applicability:   This Policy is applicable to all users of the State of Delaware
+                    communications and computing resources. DTI is an Executive
+                    Branch Agency and has no authority over the customers in Legislative
+                    and Judicial Branches, as well as Local Education Agencies, and other
+                    Federal and Local Government entities that use these resources.
+                    However, all users, including these entities, must agree to abide by
+                    all policies, standards promulgated by DTI as a condition of access
+                    and continued use of these resources.
+      Effective:    4/1/2009
+     Reviewed:      2/26/2024
+   Approved By:     Chief Information Officer
+       Sponsor:     Chief Technology Officer
+
+                       “Delivering Technology that Innovates”
+
+                                                     STATE OF DELAWARE
+                                         DEPARTMENT OF TECHNOLOGY AND INFORMATION
+                                                   801 Silver Lake Blvd.
+                                                  Dover, Delaware 19904
+
+      Doc Ref Number:     AC-SOC-001                                     Revision Number: 3
+       Document Type:     Enterprise Policy                                 Page: 2 of 8
+          Policy Title:   Social Media Policy
+
+TABLE OF CONTENTS
+
+ Section                                                                                   Page
+
+ I.       Policy                                                                              2
+
+ II.      Definitions                                                                         6
+
+ III.     Development and Revision History                                                    7
+
+ IV.      Approval Signature Block                                                            8
+
+ V.       Listing of Appendices                                                               8
+
+  I.     Policy
+
+EXECUTIVE SUMMARY
+Social Media is a term that describes Internet-based technology communication tools
+with a focus on immediacy, interactivity, user participation and information sharing
+in multiple ways. Just as email and static websites were new communication venues
+in previous decades, Social Media today refers to venues such as video/photo posting
+sites, social networks, and online customer support chat sites. Social Media tools
+help citizens interact with their government in the individual’s preferred method and
+time schedule and fosters a culture of greater transparency.
+
+PURPOSE
+Provide appropriate guiding principles to State organizations and employees using
+Social Media to engage with customers in the course of State business.
+
+                          “Delivering Technology that Innovates”
+
+                                                     STATE OF DELAWARE
+                                       DEPARTMENT OF TECHNOLOGY AND INFORMATION
+                                                    801 Silver Lake Blvd.
+                                                   Dover, Delaware 19904
+
+   Doc Ref Number:      AC-SOC-001                                       Revision Number: 3
+    Document Type:      Enterprise Policy                                   Page: 3 of 8
+        Policy Title:   Social Media Policy
+
+POLICY STATEMENT
+
+Identification and Origin: During the use of a Social Media channel on behalf of
+the State of Delaware State Organizations must disclose the following information as
+part of their use of a communication channel: Organization Name and point of
+contact for inquiries about the channel (at the minimum an official website —but
+including more information, such as the Organization’s Telephone Number, is
+permitted). This information can be included in the organization profile.
+
+Accurate Information: State Employees and State Organizations must not
+knowingly communicate inaccurate or false information. All reasonable efforts
+should be made by the State Employee or State Organizations to provide only
+verifiable facts—not unverifiable opinions.
+
+Ethical Conduct: State Employees and State Organizations will act and conduct
+themselves according to the highest possible ethical standards. A summary of the
+key points of ethical Social Media conduct are reproduced below:
+       i. Customer protection and respect are paramount.
+       ii. We will use every effort to keep our interactions factual and accurate.
+       iii. We will strive for transparency and openness in our interactions and will
+       never seek to “spin” information for our benefit.
+       iv. We will provide links to credible sources of information to support our
+       interactions, when possible.
+       v. We will publicly correct any information we have communicated that is later
+       found to be in error.
+       vi. We are honest about our relationship, opinions, and identity.
+       vii. We respect the rules of the venue.
+       viii. We protect privacy and permissions.
+       ix. In cases where we moderate interactions, customer opinion is respected
+       and accepted regardless of whether it is positive or negative, provided
+
+                        “Delivering Technology that Innovates”
+
+                                                     STATE OF DELAWARE
+                                        DEPARTMENT OF TECHNOLOGY AND INFORMATION
+                                                    801 Silver Lake Blvd.
+                                                   Dover, Delaware 19904
+
+   Doc Ref Number:      AC-SOC-001                                       Revision Number: 3
+    Document Type:      Enterprise Policy                                    Page: 4 of 8
+        Policy Title:   Social Media Policy
+
+       customer opinion is “on topic” and not offensive, denigrating, or completely
+       out of context.
+
+Confidentiality vs. Undue Caution:
+       i. Confidentiality: State Employees and State Organizations must protect all
+       State of Delaware information that is considered to be non-public in nature,
+       per State Organization and State policies pertaining to information
+       classification and disclosure.
+       ii. Undue Caution: When using Social Media, exercising undue caution about
+       the release of public information is discouraged. To be as transparent as
+       possible, as much information as can be communicated—without disclosing
+       information of a specifically non-public nature—should be disclosed.
+
+Agency Adoption: Any State organization that establishes new Social Media
+Platforms on behalf of the State of Delaware shall coordinate the implementation of
+these new online venues with the Government Information Center (GIC). This
+coordination will ensure that the implementation of Social Media Platforms is
+cohesive at an enterprise level. Additionally, the GIC will provide, as needed,
+training on best practices to ensure professional use of this medium by State
+organizations.
+
+Account Management on Social Media Platforms: Each State organization
+utilizing Social Media Platforms must:
+   •   Adhere to each Social Media Platform’s account and profile rules.
+   •   Use two factor authentication.
+   •   Use business manager accounts when available.
+   •   Establish at least 2 administrator accounts for each Social Media Platform.
+   •   Consider the use of scheduling software to help manage content and accounts
+       across multiple platforms.
+   •   Utilize notifications and alerts to inform multiple individuals (use distribution
+       lists when possible) when activities occur on Social Media Platforms.
+
+                        “Delivering Technology that Innovates”
+
+                                                    STATE OF DELAWARE
+                                        DEPARTMENT OF TECHNOLOGY AND INFORMATION
+                                                   801 Silver Lake Blvd.
+                                                  Dover, Delaware 19904
+
+   Doc Ref Number:       AC-SOC-001                                     Revision Number: 3
+    Document Type:       Enterprise Policy                                  Page: 5 of 8
+         Policy Title:   Social Media Policy
+
+   •   Verify accounts if supported by the Social Media Platform.
+          o   Follow each Social Media Platform’s guidance for getting verified.
+   •   Not use State passwords (desktop password/Okta password) on Social Media
+       Platforms.
+   •   Involve legal counsel in the decision to utilize Social Media Platforms.
+   •   Document a manager-approved process for establishing and maintaining
+       accounts on Social Media Platforms including the removal of a staff members
+       access.
+
+IMPLEMENTATION RESPONSIBILITY
+
+DTI and GIC will implement this policy, with a state organizations’ staff during the
+course of normal business activities, including project execution and the design,
+development, or support of systems. DTI will provide technical leadership in
+security, network performance issues and application usage. GIC will lead in content
+and statewide coordination implementation.
+
+DTI will manage the overall network usage of social media sites, particularly as it
+relates to bandwidth and malware/exploit issues. Accordingly, as required, DTI may
+filter some or all sites categorized as Social Media to mitigate complications of use.
+
+The minimum requirements and restrictions in this policy govern any existing or
+future State Organization Social Media policies.
+
+State Organization Social Media policies that refer to this policy but are more
+restrictive (for example providing more specific guidelines based on local situations
+and needs) are permitted.
+
+The State’s Social Media and Streaming Media Guidelines provides information to
+agencies, including Local Education Agencies, regarding the processes for obtaining
+access to social media and streaming media.
+
+                         “Delivering Technology that Innovates”
+
+                                                     STATE OF DELAWARE
+                                        DEPARTMENT OF TECHNOLOGY AND INFORMATION
+                                                   801 Silver Lake Blvd.
+                                                  Dover, Delaware 19904
+
+   Doc Ref Number:       AC-SOC-001                                      Revision Number: 3
+    Document Type:       Enterprise Policy                                  Page: 6 of 8
+         Policy Title:   Social Media Policy
+
+Use of TikTok
+
+To reduce risk, adhere to the federal guidance, and address national security
+concerns, TikTok is not permitted on State-owned devices, and it is blocked on the
+network as an unauthorized website. If an agency has a compelling business reason
+to maintain the channel for communication purposes, then the account must be
+maintained utilizing non-State issued devices and outside the State network – while
+also accepting the inherent risks associated with the short-form video sharing
+platform.
+
+ENFORCEMENT and WAIVER
+
+DTI will enforce this policy during the course of normal business activities, including
+review of proposed projects and during the design, development, or support of
+systems. This policy may also be enforced by others during the course of their
+normal business activities, including audits and design reviews.
+
+State employees/representatives using Social Media Platforms to communicate
+officially on behalf of their organization and/or State government should have prior
+organization management authorization/permission.
+
+If there is ambiguity or confusion regarding any part of this policy, contact TASC.
+
+  II. Definitions
+
+Social Media – Primarily Internet and mobile-based tools for sharing and discussing
+information. The term most often refers to activities that integrate technology,
+telecommunications, and social interaction, alongside the construction of words,
+pictures, video, and audio. Examples include, but are not limited to:
+           a. Social Media Platforms
+           b. Podcasts
+           c. Photos
+
+                         “Delivering Technology that Innovates”
+
+                                                     STATE OF DELAWARE
+                                       DEPARTMENT OF TECHNOLOGY AND INFORMATION
+                                                 801 Silver Lake Blvd.
+                                                Dover, Delaware 19904
+
+   Doc Ref Number:      AC-SOC-001                                       Revision Number: 3
+    Document Type:      Enterprise Policy                                   Page: 7 of 8
+        Policy Title:   Social Media Policy
+
+          d. Videos (video, vlogs, live streaming)
+
+Social Media Platform– A Web site that leverages Social Media and
+   communications tools for its visitors. Examples include YouTube, Facebook,
+   Wikipedia, X, Instagram, etc.
+
+  III. Development and Revision History
+
+      Date               Revision
+      4/1/2009           Rev 0 – Initial version
+      9/4/2012           Rev 1 – Updated the point of contact
+      5/6/2015           Rev 2 – Minor updates to the wording
+      2/26/2024          Rev 3 – Added a reference to Social Media and Streaming Media
+                         Guidelines. Added TikTok content. Added account management
+                         content.
+      11/4/2024          Rev 3 - Removed a reference to the Technology Investment
+                         Council
+
+                        “Delivering Technology that Innovates”
+
+                                                    STATE OF DELAWARE
+                                        DEPARTMENT OF TECHNOLOGY AND INFORMATION
+                                                  801 Silver Lake Blvd.
+                                                 Dover, Delaware 19904
+
+   Doc Ref Number:       AC-SOC-001                                     Revision Number: 3
+    Document Type:       Enterprise Policy                                 Page: 8 of 8
+        Policy Title:    Social Media Policy
+
+  IV. Approval Signature Block
+
+         Name & Title:                                                  Date
+
+         State Chief Information Officer
+
+  V.   Listing of Appendices
+
+Social Media and Streaming Media Guidelines
+
+                         “Delivering Technology that Innovates”
+
+## Curator notes
+
+Text extracted with pdftotext -layout (page headers, footers and column layout kept as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their letters).
