@@ -1,0 +1,157 @@
+---
+schema_version: 1
+corpus: states-government-it
+jurisdiction: minnesota
+id: mn-mnit-isrm-program-policy
+title: Information Security and Risk Management Program Policy
+doc_type: policy
+citation: MNIT Information Security and Risk Management Program Policy, Version 1.7
+authority_level: ''
+issuing_body: Minnesota IT Services (Office of the Chief Information Officer, State of Minnesota)
+source_url: https://mn.gov/mnit/assets/enterprise-information-security-risk-management-program-policy_tcm38-323799.pdf
+source_format: pdf
+retrieved: '2026-11-11'
+source_sha256: 054051aa65cff168d9d5073805c10cd0f44a4b85c65f2bb924a55ea4c02e9126
+effective_date: '2016-01-01'
+source_version: ''
+status: current
+content_mode: verbatim
+conversion_notes: Text extracted with pdftotext -layout (page headers, footers and column layout kept
+  as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their
+  letters).
+last_verified: ''
+verified_by: ''
+maintainer: ''
+relationships:
+  implements: []
+  implemented_by: []
+  references_external: []
+  related: []
+  supersedes: []
+tags:
+- cybersecurity
+- governance
+---
+
+> **NON-AUTHORITATIVE.** This is a convenience copy for machine reading. The official text is published at the source URL above. Verify at source before relying on it.
+
+# Information Security and Risk Management Program Policy (MNIT Information Security and Risk Management Program Policy, Version 1.7)
+
+## At a glance
+
+The parent policy of the executive branch's information security program: MNIT's responsibility under Minnesota Statutes chapter 16E to set information security policies and standards, the CISO-led program, and roles and responsibilities.
+
+## Full text
+
+Information Security and Risk Management Program Policy
+From the Office of the Chief Information Officer, State of Minnesota
+
+Version:        1.7
+Effective Date: 1/1/2016
+Revised:        12/31/2024
+Approved:       John Israel, State Chief Information Security Officer     Date: 3/20/2025
+
+Policy Statement
+The Office of MNIT Services is responsible, according to Minnesota Statutes, chapter 16E, for setting
+information security policies and standards and overseeing the security of the State’s executive branch
+information and telecommunications technology systems and services. As required by Minnesota Statutes,
+section 16E.03, subdivision 7, the Office of MNIT Services will consult with agency heads and other compliance
+officials in state agencies to ensure that all federal information security requirements are incorporated into the
+policies and standards that govern the security of State data. To fulfill this responsibility a comprehensive
+information security program, headed by the Chief Information Security Officer (CISO) is in place to create,
+monitor and enforce state-wide information security policies and standards, identify and address vulnerabilities
+and risks and manage security incidents.
+
+Employees must abide by the terms of this policy. Employees who violate this policy may be subject to
+discipline, up to and including discharge.
+
+Reason for the Policy
+A comprehensive information security program is necessary to ensure the State adequately protects the data
+and services entrusted to it by the public and addresses regulatory and compliance obligations. By setting a
+consistent set of requirements that everyone in the executive branch must follow and by establishing methods
+to monitor, assess and enforce those requirements, the State can better protect data and services.
+
+Roles & Responsibilities
+    •   Employees, Vendors, and Contractors
+           o Be aware of and follow relevant information security policies, standards, and procedures.
+           o Ensure information security is incorporated into processes and procedures.
+
+Information Security and Risk Management Program Policy                                                          1
+
+            o   Ensure contract language with contractors and vendors includes required information security
+                controls.
+            o Consult with information security staff on the purchase and procurement of information
+                technology systems or services.
+            o Contact information security staff or email GRC@state.mn.us with questions about the
+                information security policies, standards, or procedures.
+    •   Supervisors and Managers
+            o Ensure employees and contractors are proficient in the information security policies,
+                standards and procedures that are relevant to their role.
+            o Hold employees accountable for following the information security policies, standards, and
+                procedures.
+    •   Information Technology Personnel
+            o Apply appropriate controls to the design, operation and maintenance of systems, processes,
+                and procedures in conformance with the information security policies, standards, and
+                procedures.
+    •   Information Security Personnel
+            o Develop, maintain, and assess compliance with the information security policies, standards,
+                and procedures.
+            o Develop, maintain, and implement a comprehensive information security program.
+            o Provide training on information security policies, standards, and procedures.
+            o Assist agencies and personnel with understanding and implementing information security
+                policies, standards, and procedures.
+            o Notify appropriate personnel of applicable threats, vulnerabilities and risks to State data or
+                systems.
+    •   Agency Data Practices Personnel
+            o Assist agencies and personnel with questions on proper data use, collection, storage,
+                destruction, and disclosure.
+
+Applicability
+This policy applies to all departments, agencies, offices, councils, boards, commissions, and other entities in the
+executive branch of Minnesota State Government.
+
+Related Information
+Minnesota State Statutes Chapter 16E
+
+Minnesota State Statutes Chapter 13
+
+Information Security Program Standard
+
+Data Protection Categorization Standard
+
+Information Security Risk Management Standard
+Information Security and Risk Management Program Policy                                                           2
+
+State Standards and Authoritative Source Cross Mapping
+
+Glossary of Information Security Terms
+
+History
+Table 1. Version History
+
+     Version                                       Description                            Date
+
+ 1.0                 Initial Release                                                  4/21/2015
+
+ 1.1                 Added Compliance Enforcement Date                                12/29/2015
+
+ 1.2                 Updated Compliance Enforcement Date and Template                 12/20/2016
+
+ 1.3                 Updated Compliance Enforcement Date                              10/4/2017
+
+ 1.4                 Modified document title and minor edits                          3/10/2020
+
+ 1.5                 Remove Compliance Enforcement Date and grammatical corrections   10/1/2022
+
+ 1.6                 Revision date and version number update                          10/3/2023
+
+ 1.7                 Added enforcement language; updated version and revision date    12/2/2024
+
+Contact
+GRC@state.mn.us
+
+Information Security and Risk Management Program Policy                                            3
+
+## Curator notes
+
+Text extracted with pdftotext -layout (page headers, footers and column layout kept as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their letters).

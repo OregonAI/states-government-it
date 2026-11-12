@@ -1,0 +1,711 @@
+---
+schema_version: 1
+corpus: states-government-it
+jurisdiction: minnesota
+id: mn-mnit-icam-standard
+title: Identity, Credential, and Access Management Standard
+doc_type: standard
+citation: MNIT Identity, Credential, and Access Management Standard, Version 1.8
+authority_level: ''
+issuing_body: Minnesota IT Services (Office of the Chief Information Officer, State of Minnesota)
+source_url: https://mn.gov/mnit/assets/Identity%20and%20Access%20Management%20Standard_tcm38-323781.pdf
+source_format: pdf
+retrieved: '2026-11-11'
+source_sha256: 16df598ab1e0f4ec60295b6b370fa8be55df7303b5a5be50ba9d26b4931f06f8
+effective_date: null
+source_version: ''
+status: current
+content_mode: verbatim
+conversion_notes: Text extracted with pdftotext -layout (page headers, footers and column layout kept
+  as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their
+  letters).
+last_verified: ''
+verified_by: ''
+maintainer: ''
+relationships:
+  implements: []
+  implemented_by: []
+  references_external: []
+  related: []
+  supersedes: []
+tags:
+- cybersecurity
+---
+
+> **NON-AUTHORITATIVE.** This is a convenience copy for machine reading. The official text is published at the source URL above. Verify at source before relying on it.
+
+# Identity, Credential, and Access Management Standard (MNIT Identity, Credential, and Access Management Standard, Version 1.8)
+
+## At a glance
+
+The controls (by data protection categorization Low, Moderate, High) for how the state establishes, maintains and controls authentication and access for users, systems, applications and networks.
+
+## Full text
+
+Identity, Credential, and Access Management Standard
+From the Office of the Chief Information Officer, State of Minnesota
+
+Version: 1.8
+Issued: 1/1/2016
+Revised: 12/31/2024
+Approved: John Israel, State of MN Chief Information Security Officer   Date: 2/27/2026
+
+Standard Statement
+The State must establish, maintain, and control authentication and access for users, systems, applications and
+networks. Access controls protect State data by only granting access to systems and data that is necessary for an
+individual’s job responsibilities.
+
+Employees must abide by the terms of this standard. Employees who violate this standard may be subject to
+discipline, up to and including discharge.
+
+Identity, Credential, and Access Management Standard                                                            1
+
+                                                                                                    Applicable
+ Control                                                                                               Data
+             Control Name                              Control Detail
+ Number                                                                                             Protection
+                                                                                                  Categorization
+
+            Entitlements     All access to systems or data, other than one time submission of          Low
+                             data and read only access to data with a data protection
+                             categorization of Low, must be controlled using identification         Moderate
+                             and authentication mechanisms. This access control must:
+                                                                                                      High
+                                 •   The Identity and Access Management (IAM) team, in
+                                     collaboration with system/data owners will establish and
+                                     maintain a list of roles and their associated
+     1                               rights/entitlements.
+                                 •   Assign privileges to individuals based on the individual’s
+                                     job classification and function.
+                                 •   Restrict privileges to the least needed for the individual
+                                     or service to perform their role.
+                                 •   Deny all access that is not explicitly granted.
+                                 •   Remove all system access not explicitly required.
+                                 •    User Access is to be reviewed every two years to verify
+                                     that access is only granted via current role definitions.
+
+            Unique IDs       All users must be assigned a unique ID to access systems or data.         Low
+                             IDs must not be reused until all previous access authorizations
+     2                       are removed from the system, including all file accesses for that      Moderate
+                             identifier but not before a period of at least seven (7) years has
+                                                                                                      High
+                             expired
+
+            Device, Service Device, service, and application accounts must be assigned to an           Low
+            and Application account owner and must not be used by individuals to access the
+            Accounts        system interactively. These accounts and their associated               Moderate
+     3
+                            passwords must be managed by the enterprise privileged access
+                                                                                                      High
+                            management tool. This control applies to accounts with
+                            passwords.
+
+Identity, Credential, and Access Management Standard                                                         2
+
+                                                                                                   Applicable
+ Control                                                                                              Data
+             Control Name                              Control Detail
+ Number                                                                                            Protection
+                                                                                                 Categorization
+
+            Access            Requests to create or modify accounts and access privileges             Low
+            Approval          must be documented and approved by the requestor’s
+                              supervisor/manager and the data/system owner before access           Moderate
+                              can be granted. Each request for access must define access
+                                                                                                     High
+                              needs including:
+
+     4                            •   Systems and data that each user needs to access for
+                                      their job function.
+                                  •   Level of privilege required (for example, user,
+                                      administrator, etc.) for accessing resources.
+
+                              See the Privileged Access Management Standard for privileged
+                              access approval.
+
+            Account           The addition, deletion, and modification of user IDs, MFA               Low
+            Management        factors, and other identifier objects must be restricted to
+     5                        authorized account administrators. All accounts must have a          Moderate
+                              documented supervisor/manager and maintained if user
+                                                                                                     High
+                              transfers positions.
+
+            Access            All accounts must be reviewed upon changes in user role and at       Moderate
+            Recertification   least annually for user accounts (Requirement for privileged and
+                              service accounts has been withdrawn. See Privileged Access             High
+                              Management Standard.)
+
+                                  •   The review must validate and recertify that all access
+                                      privileges are still needed and authorized.
+     6                            •   The results of the review must be documented, and
+                                      unnecessary access privileges must be communicated to
+                                      account administrators for removal.
+                                  •   Review documentation must be maintained by the
+                                      account administrator for at least 2 years and made
+                                      available to the Enterprise Identity and Access
+                                      Management team upon request.
+
+            Privileged        Withdrawn. See Privileged Access Management Standard.                   Low
+            access review
+     7                                                                                             Moderate
+
+                                                                                                     High
+
+Identity, Credential, and Access Management Standard                                                        3
+
+                                                                                                   Applicable
+ Control                                                                                              Data
+             Control Name                              Control Detail
+ Number                                                                                            Protection
+                                                                                                 Categorization
+
+            Inactive         Inactive user accounts must be disabled and have entitlements         Moderate
+            Accounts         removed after no more than 60 days of inactivity.
+                                                                                                     High
+                                 •   Constituents
+                                 •   Partners
+                                 •   Employees
+     8                           •   Contractors
+
+                             Inactive non-user accounts (including service, system, and device
+                             accounts) must be disabled after 60 days of inactivity.
+
+                             Disable all accounts that are only used annually when not in use.
+                             When Possible, disabled user accounts must be deleted within 1
+                             year.
+
+            Revoke           Accounts and privileges that are no longer required must be              Low
+            Entitlements     removed or disabled within:
+                                                                                                   Moderate
+                                 •   8 hours of notification or identification of voluntary
+     9                               changes in access needs.                                        High
+                                 •   1 hour of notification or identification for users that
+                                     have been involuntarily terminated or for accounts with
+                                     credentials that may have been lost or compromised.
+
+            Emergency        Emergency accounts must be disabled within 24 hours of last              Low
+            Accounts         use.
+    10                                                                                             Moderate
+
+                                                                                                     High
+
+            Privileged       Withdrawn. See Privileged Access Management Standard.                    Low
+            access
+    11                                                                                             Moderate
+
+                                                                                                     High
+
+            Privileged       Withdrawn. See Privileged Access Management Standard.                    Low
+            access Use
+    12                                                                                             Moderate
+
+                                                                                                     High
+
+Identity, Credential, and Access Management Standard                                                        4
+
+                                                                                                  Applicable
+ Control                                                                                             Data
+             Control Name                              Control Detail
+ Number                                                                                           Protection
+                                                                                                Categorization
+
+            Remote           Withdrawn. See Privileged Access Management Standard.                   Low
+            Administrative
+    13      Access                                                                                Moderate
+
+                                                                                                    High
+
+            Segregation of   Access privileges must allow for the appropriate segregation of
+            Duties           duties by:
+
+                                 •   Segregating duties of individuals as necessary, to
+                                     prevent malicious activity by a single individual.
+                                 •   Ensuring that audit functions are not performed by
+                                     personnel responsible for administering access control.
+                                 •   Maintaining a limited group of administrators (i.e.,
+                                     system administrators, application administrators,
+                                     security administrators) with access based upon the
+                                     users' roles and responsibilities. Each administrator
+                                     must have their own ID.
+    14                           •   Ensuring that critical functions and system support
+                                     functions are divided among separate individuals.
+                                 •   Ensuring that system testing functions and production
+                                     functions are divided among separate roles.
+                                 •   Ensuring access authorizations does not violate any
+                                     required separation of duties.
+                                 •   Ensuring that an independent entity, not the Business
+                                     Owner, System Developer(s)/Maintainer(s), or System
+                                     Administrator(s) responsible for the information system,
+                                     conducts information security testing of the system.
+
+                             Documenting separation of duties of roles for each information
+                             system / application.
+
+            Vendor Access    Accounts used by vendors to access, support, or maintain system         Low
+                             components via remote access must be:
+                                                                                                  Moderate
+                                 •   Enabled only during the time needed. Disabled when not
+                                     in use.                                                        High
+    15
+                                 •   Monitored when in use.
+                                 •   Accessed only via multi-factor.
+                                 •   Must use an account with privileged access to perform
+                                     administrative functions
+
+Identity, Credential, and Access Management Standard                                                       5
+
+                                                                                                   Applicable
+ Control                                                                                              Data
+             Control Name                               Control Detail
+ Number                                                                                            Protection
+                                                                                                 Categorization
+
+            Group             Group, shared or generic IDs, passwords or other authentication         Low
+            Accounts          methods must be restricted as follows:
+                                                                                                   Moderate
+                                  •   Generic user IDs must be disabled or removed.
+                                  •   Shared admin account requirement withdrawn. See                High
+    16                                Privileged Access Management Standard. Shared and
+                                      generic user IDs must not be used to administer any
+                                      system components.
+                                  •   Passwords and other credentials for group/role accounts
+                                      must be managed in the enterprise privileged access
+                                      management solution to ensure passwords are changed.
+
+            Authentication    All users must be authenticated on all systems by using at least        Low
+                              one of the following methods:
+                                                                                                   Moderate
+                                  •   Something you know, such as a password or passphrase.
+                                  •   Something you have, such as a token device or smart            High
+    17
+                                      card.
+                                  •   Something you are, such as a fingerprint.
+
+                              All authenticators must have sufficient strength for their
+                              intended use.
+
+            User Validation   The user’s identity must be properly validated before any               Low
+                              transaction that has information security implications including
+                              modifying or communicating any authentication credential—for         Moderate
+    18                        example, performing password or token resets, provisioning new
+                                                                                                     High
+                              tokens, or generating new keys. Before an administrator can
+                              create a credential and assign it to an individual, that person
+                              must provide proof of their claimed identity.
+
+            First Time        First-time use and reset passwords/phrases must be:                     Low
+            Passwords
+                                  •   Set to a unique value for each user following password       Moderate
+    19                                complexity requirements.
+                                  •   Changed immediately after the first use.                       High
+                                  •   Not stored in the ticketing system.
+
+Identity, Credential, and Access Management Standard                                                        6
+
+                                                                                                   Applicable
+ Control                                                                                              Data
+             Control Name                              Control Detail
+ Number                                                                                            Protection
+                                                                                                 Categorization
+
+            Password         All authentication credentials (such as passwords/phrases) must          Low
+            Encryption       be cryptographically protected during transmission and storage.
+    20                                                                                             Moderate
+
+                                                                                                     High
+
+            Password         Passwords must be at least:                                              Low
+            Length
+    21                           •   14 characters long for user accounts                          Moderate
+                                 •   Privileged access length requirements withdrawn. See
+                                     Privileged Access Management Standard.                          High
+
+            Password         Passwords must contain at least:                                         Low
+            Complexity
+                                 •   3 of the 4 character types below for user accounts and        Moderate
+                                     all mainframe accounts.
+                                                                                                     High
+                             Withdrawn. See Privileged Access Management Standard.
+
+                             Character Types:
+
+                                 •   Lower case letters
+    22                           •   Upper case letters
+                                 •   Numbers
+                                 •   Special characters
+
+                             The use of dictionary names or single words must be prohibited.
+
+                             For systems required to meet ARC-AMPE requirements, require
+                             at least four (4) changed characters or be sufficiently different
+                             from previous passwords as determined by the information
+                             system (where technology allows) when new passwords are
+                             created.
+
+            Minimum          Passwords/passphrases, except those created by an                        Low
+            Password Age     administrator on behalf of the user (e.g., during password
+    23                       resets) and those managed by a privileged access management           Moderate
+                             system, must be in place for at least 1 day.
+                                                                                                     High
+
+Identity, Credential, and Access Management Standard                                                        7
+
+                                                                                                  Applicable
+ Control                                                                                             Data
+             Control Name                              Control Detail
+ Number                                                                                           Protection
+                                                                                                Categorization
+
+            Maximum          Passwords/passphrases must be changed at least:                         Low
+            Password Age
+                                 •   Every 30 days for mainframe accounts.                        Moderate
+    24                           •   Every 90 days for user accounts.
+                                 •   Privileged access max age requirement withdrawn. See           High
+                                     Privileged Access Management Standard.
+
+            Password         New passwords/phrases must be different from at least the               Low
+            History          previous 24 passwords/phrases used by that account.
+    25                                                                                            Moderate
+
+                                                                                                    High
+
+            Mobile Device    Password/PIN Authentication to mobile devices must be                   Low
+            Authentication   configured as follows:
+                                                                                                  Moderate
+                                 •   New passwords/PINs must be different from the
+                                     previous 12.                                                   High
+    26
+                                 •   Device must lock after 15 minutes of inactivity.
+                                 •   Device wipes all data after 10 invalid access attempts.
+                                 •   Password/PIN must be at least 4 characters long.
+                                 •   Password/PIN must be changed every 180 days.
+
+            Voicemail PIN    Access to voicemail boxes must be controlled through a PIN. This        Low
+                             PIN must be configured as follows:
+                                                                                                  Moderate
+                                 •   At least 6 characters long for user access.
+                                 •   At least 12 characters long for receiving data with a          High
+    27
+                                     categorization of High.
+                                 •   Not the same as the mailbox number.
+                                 •   Not sequential.
+                                 •   No repeating characters.
+
+Identity, Credential, and Access Management Standard                                                       8
+
+                                                                                                  Applicable
+ Control                                                                                             Data
+             Control Name                              Control Detail
+ Number                                                                                           Protection
+                                                                                                Categorization
+
+            Non-Password     Where authentication mechanisms other than passwords are                Low
+            Authentication   used (for example, physical or logical security tokens, smart
+                             cards, certificates, etc.), these mechanisms must be controlled      Moderate
+                             as follows:
+                                                                                                    High
+                                 •   Authentication mechanisms must be assigned to an
+                                     individual account and not shared among multiple
+                                     accounts.
+                                 •   Physical and/or logical controls must be in place to
+    28                               ensure only the intended account can use that
+                                     mechanism to gain access.
+                                 •   A defined registration process must be established for
+                                     issuing, maintaining, and retrieving hardware tokens.
+                                     When issuing a token, the individual receiving the token
+                                     must be authorized and verified in person by a
+                                     designated official. Mechanisms and links used to
+                                     register authentication items (e.g., to register RSA
+                                     tokens) must expire within 24 hours.
+
+            PKI-Based        Where PKI-based authentication is used, the system must:                Low
+            Authentication
+                                 •   Validate certifications by constructing and verifying a      Moderate
+                                     certification path to an accepted trust anchor including
+                                     checking certificate status information.                       High
+    29                           •   Enforce authorized access to the corresponding private
+                                     key.
+                                 •   Implement a local cache of revocation data to support
+                                     path discovery and validation in case of inability to
+                                     access revocation information via the network.
+
+            Mask Password    All passwords must be masked (i.e., made unreadable) during             Low
+                             authentication prevent unauthorized individuals from viewing
+    30                       the password.                                                        Moderate
+
+                                                                                                    High
+
+Identity, Credential, and Access Management Standard                                                       9
+
+                                                                                                   Applicable
+ Control                                                                                              Data
+             Control Name                              Control Detail
+ Number                                                                                            Protection
+                                                                                                 Categorization
+
+            Account          User accounts must be locked out after no more than:                     Low
+            Lockout
+                                 •   3 consecutive invalid logon attempts by that user during      Moderate
+                                     a 120-minute period for systems with a data protection
+                                     categorization of High.                                         High
+                                 •   5 consecutive invalid logon attempts by that user during
+                                     a 120-minute period for systems with data protection
+                                     categorization of Moderate.
+    31
+                                 •   10 consecutive invalid logon attempts by that user
+                                     during a 120-minute period for systems with data
+                                     protection categorization of Low.
+                                 •   For administrator account requirements see the
+                                     Privileged Access Management Standard
+
+                             The account must remain locked for at least 30 minutes or until
+                             unlocked by an administrator.
+
+            Inactivity       Sessions must be automatically locked after 15 minutes of                Low
+            Timeout          inactivity. All information previously visible on the screen must
+    32                       be replaced with a publicly viewable image during the session         Moderate
+                             lock. The user must be required to re-authenticate to reactivate
+                                                                                                     High
+                             the session.
+
+            Session          The information system automatically terminates a user session          High
+    33
+            Termination      after fifteen (15) minutes of inactivity
+
+            Multiple         Systems must prevent multiple concurrent active sessions for            High
+            Sessions         individual user accounts. System and application accounts must
+    34
+                             be limited to the number of concurrent sessions needed for their
+                             purpose and as documented in the system security plan.
+
+Identity, Credential, and Access Management Standard                                                        10
+
+                                                                                                  Applicable
+ Control                                                                                             Data
+             Control Name                              Control Detail
+ Number                                                                                           Protection
+                                                                                                Categorization
+
+            System Use       A warning banner must be displayed prior to granting access to         High
+            Notification     all internal networks, applications, databases, operating
+                             systems, workstations, servers, and network devices. Users must
+                             explicitly acknowledge the warning banner before being allowed
+                             access to the system. The system warning banner must include
+                             the following information:
+
+                                 •   The user is accessing a restricted government
+                                     information system.
+                                 •   System usage may be monitored, recorded and subject
+                                     to audit.
+                                 •   Unauthorized use of the system is prohibited and may
+                                     be subject to criminal and/or civil penalties.
+    35                           •   Use of the system indicates consent to monitoring and
+                                     recording.
+
+                             For publicly accessible systems a warning banner must be
+                             displayed before allowing access. The warning banner must
+                             include:
+
+                                 •   Notification of any monitoring, recording, or auditing
+                                     that may occur.
+                                 •   Description of the authorized uses of the system.
+
+                             For systems containing Federal Tax Information, the warning
+                             banner must reference the civil and criminal penalty sections of
+                             Title 26 Sections 7213, 7213A and 7431
+
+Identity, Credential, and Access Management Standard                                                       11
+
+                                                                                                   Applicable
+ Control                                                                                              Data
+             Control Name                              Control Detail
+ Number                                                                                            Protection
+                                                                                                 Categorization
+
+            Remote Access    All remote network access originating from outside the network           Low
+                             by personnel (including users and administrators) and all third
+                             parties, (including vendor access for support or maintenance)         Moderate
+                             must:
+                                                                                                     High
+                                 •   Be authorized.
+                                 •   Authenticate using multi-factor authentication.
+                                          o At least one of the factors must be provided by a
+                                              device separate from the system gaining access.
+    36                           •   Utilize encrypted connections.
+                                 •   Connect through a limited number of approved
+                                     managed network access control points.
+                                 •   Validate all computers and devices that require any
+                                     access to a network or system are securely configured
+                                     and meet at least the following security requirements:
+                                          o up-to-date system patches,
+                                          o current anti-virus software, and
+                                          o functionality that provides the capability for
+                                              automatic execution of code disabled.
+
+            International    Access to Federal Tax Information or systems containing federal         High
+    37      Access           tax information must be prohibited from locations outside of the
+                             United States.
+
+            Authorized       Users must ensure State data is only distributed to authorized        Moderate
+            Distribution     personnel by:
+                                                                                                     High
+                                 •   Only allowing authorized personnel to view content on
+    38                               their screen.
+                                 •   Only including necessary and relevant information in
+                                     system output such as reports and printouts.
+                                 •   Only distributing system output to individuals authorized
+                                     to view all content.
+
+Identity, Credential, and Access Management Standard                                                        12
+
+                                                                                                   Applicable
+ Control                                                                                              Data
+             Control Name                              Control Detail
+ Number                                                                                            Protection
+                                                                                                 Categorization
+
+            Database         All access to any database containing data with a data protection       High
+            Access           categorization of High (including access by applications,
+                             administrators, and all other users) must be restricted as
+                             follows:
+
+                                 •   All user access to, user queries of and user actions on
+                                     databases are through programmatic methods. Users
+                                     must be prevented from accessing database data files at
+                                     the logical data view, field, or field-value level.
+    39                           •   For databases that fall under the scope of the Payment
+                                     Card Industry Data Security Standard (PCI-DSS) only
+                                     database administrators have the ability to directly
+                                     access or query databases.
+                                 •   Restrict database management utilities to only
+                                     authorized database administrators.
+                                 •   Implement table-level access control.
+                                 •   Application IDs for database applications can only be
+                                     used by the applications (and not by individual users or
+                                     other non-application processes).
+
+            Device           The system must uniquely identify and authenticate laptops,             High
+            Identification   desktops, and mobile devices before establishing a connection.
+    40
+            and
+            Authentication
+
+            Test Accounts    Accounts created for testing in a production environment must            Low
+            in Production    be disabled within 24 hours after testing has been completed.
+    41      Environment                                                                            Moderate
+
+                                                                                                     High
+
+            Password         If a password is exposed or suspected to have been exposed to            Low
+            Exposure         anyone other than the account owner, the password must be
+    42                       changed immediately.                                                  Moderate
+
+                                                                                                     High
+
+Identity, Credential, and Access Management Standard                                                        13
+
+                                                                                                     Applicable
+ Control                                                                                                Data
+               Control Name                              Control Detail
+ Number                                                                                              Protection
+                                                                                                   Categorization
+
+               Storing          Passwords must not be saved within a browser.                           Low
+               Passwords in
+     43        Browsers                                                                              Moderate
+
+                                                                                                       High
+
+               Prohibited       Social media logins not explicitly approved by MNIT are                 Low
+               Authentication   prohibited for use in accessing State systems, applications, and
+     44        Methods          data.                                                                Moderate
+
+                                                                                                       High
+
+Table 1. Identity and Access Management Controls
+
+Reason for the Standard
+To ensure data can only be accessed by authorized personnel, systems and processes, identity and access
+management controls must be in place to limit access based on need to know and according to job
+responsibilities.
+
+Roles & Responsibilities
+    •     Employees, Vendors, and Contractors
+              o Be aware of and follow relevant information security policies, standards, and procedures.
+              o Ensure information security is incorporated into processes and procedures.
+              o Ensure vendors and contractors are following required information security controls.
+              o Contact information security staff or email GRC@state.mn.us with questions about the
+                  information security policies, standards, or procedures.
+    •     Supervisors and Managers
+              o Ensure employees and contractors are proficient in the information security policies, standards
+                  and procedures that are relevant to their role.
+              o Hold employees accountable for following the information security policies, standards, and
+                  procedures.
+    •     Information Technology Personnel
+              o Apply appropriate controls to the design, operation and maintenance of systems, processes, and
+                  procedures in conformance with the information security policies, standards, and procedures.
+    •     Information Security Personnel
+
+Identity, Credential, and Access Management Standard                                                          14
+
+              oDevelop, maintain, and assess compliance with the information security policies, standards, and
+               procedures.
+           o Develop, maintain, and implement a comprehensive information security program.
+           o Provide training on information security policies, standards, and procedures.
+           o Assist agencies and personnel with understanding and implementing information security
+               policies, standards, and procedures.
+    •   Agency Data Practices Personnel
+           o Assist agencies and personnel with questions on proper data use, collection, storage,
+               destruction, and disclosure.
+
+Applicability
+This standard applies to all departments, agencies, offices, councils, boards, commissions, and other entities in
+the executive branch of Minnesota State Government.
+
+Related Information
+Identity and Access Management Policy
+
+Privileged Access Management Standard
+
+State Standards and Authoritative Source Cross Mapping
+
+Glossary of Information Security Terms
+
+History
+Table 2. Version History
+
+    Version                                       Description                                          Date
+
+ 1.0               Initial Release                                                                7/8/2015
+
+ 1.1               Added Compliance Enforcement Date                                              12/29/2015
+
+ 1.2               Updated Compliance Enforcement Date and Template                               12/22/2016
+
+ 1.3               Updated Compliance Enforcement Date and Template                               10/26/2017
+
+ 1.4               Scheduled Document Refresh                                                     3/10/2020
+
+Identity, Credential, and Access Management Standard                                                            15
+
+   Version                                    Description                                   Date
+
+ 1.5            Numerous updates from IAM team                                          11/1/2021
+
+ 1.6            Removed controls that are now address in the Privileged Access          10/1/2023
+                Management Standard; multiple changes requested by IAM team
+
+ 1.7            Added enforcement language; fixed references to PAM standard; changed   12/2/2024
+                minimum password length; added prohibited authentication methods
+                control
+
+ 1.8            Replaced outdated MARS-E reference with ARC-AMPE                        1/12/2026
+
+Contact
+GRC@state.mn.us
+
+Identity, Credential, and Access Management Standard                                                16
+
+## Curator notes
+
+Text extracted with pdftotext -layout (page headers, footers and column layout kept as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their letters).
