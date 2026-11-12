@@ -1,0 +1,138 @@
+---
+schema_version: 1
+corpus: states-government-it
+jurisdiction: pennsylvania
+id: pa-itp-internet-browser-policy
+title: Internet Browser Policy
+doc_type: policy
+citation: 'Commonwealth of Pennsylvania IT Policy: Internet Browser Policy'
+authority_level: ''
+issuing_body: Office of Administration, Office for Information Technology
+source_url: https://www.pa.gov/content/dam/copapwp-pagov/en/oa/documents/policies/it-policies/internet%20browser%20policy.pdf
+source_format: pdf
+retrieved: '2026-11-11'
+source_sha256: b824a942c7f206fc00374784db6bbe52d8e9c37d81ca9b95805812d9028832ca
+effective_date: '2026-01-16'
+source_version: ''
+status: current
+content_mode: verbatim
+conversion_notes: Text extracted with pdftotext -layout (page headers, footers and column layout kept
+  as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their
+  letters).
+last_verified: ''
+verified_by: ''
+maintainer: ''
+relationships:
+  implements: []
+  implemented_by: []
+  references_external: []
+  related: []
+  supersedes: []
+tags:
+- cybersecurity
+---
+
+> **NON-AUTHORITATIVE.** This is a convenience copy for machine reading. The official text is published at the source URL above. Verify at source before relying on it.
+
+# Internet Browser Policy (Commonwealth of Pennsylvania IT Policy: Internet Browser Policy)
+
+## At a glance
+
+Information Technology Policy of the Office of Administration for agencies under the Governor's jurisdiction. Printed purpose: This Information Technology Policy (ITP) establishes enterprise-wide policy for internet browser technology.
+
+## Full text
+
+                                Internet Browser Policy
+
+                Effective Date:                                          Category:
+                January 16, 2026                                         Software
+
+                Scheduled Review:
+                January 2027
+
+1. Authority
+Executive Order 2016-06, Enterprise Information Technology Governance
+
+2. Document Control
+This document replaces, in its entirety, the Internet Browser Policy, dated January 6, 2025.
+
+3. Purpose
+This Information Technology Policy (ITP) establishes enterprise-wide policy for internet browser
+technology.
+
+4. Scope
+This policy applies to all offices, departments, boards, commissions, and councils under the
+Governor’s jurisdiction and any other entity connecting to the Commonwealth Network (hereinafter
+referred to as "agencies").
+
+5. Policy
+For definitions of terms found within this document, refer to the IT Policy Glossary.
+
+The acceptable use of internet browsers is governed by Management Directive 205.34 Amended,
+Commonwealth of Pennsylvania Information Technology Acceptable Use Policy.
+
+   5.1 Workstation Internet Browsers
+   Agencies shall adhere to the current standards for workstation internet browsers as identified in the
+   Internet Browser Standard.
+
+   Patches shall be applied in accordance with the IT Resources Patching Policy.
+
+   Agencies shall ensure that all internet traffic is directed through the Commonwealth’s Internet
+   Access Control and Content Filtering implementation in compliance with the Firewall Policy.
+
+   Agencies shall test and verify that all line-of-business applications are compatible with the current
+
+                                                                                        Page 1 of 2
+
+   internet browser standards before upgrading to those standards.
+
+   Agencies shall block incognito and private browsing at the client machine level.
+
+   5.2 Mobile Internet Browsers
+   Agencies shall adhere to the current standards for mobile internet browsers as identified in the
+   Internet Browser Standard.
+
+   5.3 Agency Optional Browsers
+   Internet browsers listed as Agency Optional in the Internet Browser Standard may be used by
+   agencies to meet business requirements. If an agency chooses to deploy the browsers listed in
+   Agency Optional, the agency assumes all risk and responsibility.
+
+   Agencies shall maintain and update the browser software patches to the current stable versions to
+   protect from potential vulnerabilities. To stay up to date with security alerts and vulnerability
+   notifications, agencies shall subscribe to and monitor cybersecurity advisories published by the
+   Cybersecurity and Infrastructure Security Agency (CISA).
+
+   Agencies shall adhere to the IT Resources Patching Policy for patching of Agency Optional
+   browsers.
+
+   Agencies shall evaluate and test for both enterprise and agency application or service compatibility
+   prior to deploying these technologies.
+
+   Agency Optional browsers’ licenses shall be reviewed along with the intended purpose of the
+   software product. This review shall be accomplished internally at each agency.
+   Obtaining legal counsel review is necessary to assess the impact of the license provisions and how
+   the agency may enter into the licensing agreement. Agencies shall ensure that adequate legal
+   review has been performed, and an agreement is in place prior to clicking through or otherwise
+   agreeing to any license agreement. This ensures the proper license risks have been assessed, and
+   any distribution or other substantive licensing conditions have been, and can continue to be, met.
+
+6. Contact
+Questions or comments may be directed via email to OA, IT Policy.
+
+7. Exception from Policy
+In the event an agency chooses to seek an exception from this policy, a request for a policy exception
+shall be submitted via the IT policy exception process. Refer to IT Policy Governance for guidance.
+
+8. Revision History
+This chart contains a history of this publication’s revisions. Redline documents outline the
+revisions and are available to Commonwealth users only during the drafting process.
+
+ Version Date             Purpose of Revision
+Original 01/06/2025       Base Document
+Revision 01/16/2026       Minor grammatical updates and clarifications
+
+                                                                                      Page 2 of 2
+
+## Curator notes
+
+Text extracted with pdftotext -layout (page headers, footers and column layout kept as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their letters).

@@ -1,0 +1,393 @@
+                         Artificial Intelligence Policy
+
+             Effective Date:                                           Category:
+             January 13, 2026                                          Business
+
+             Scheduled Review:
+             January 2027
+
+1. Authority
+Executive Order 2016-06, Enterprise Information Technology Governance
+
+2. Document Control
+This document replaces, in its entirety, the Artificial Intelligence Policy, dated August 27, 2025.
+
+3. Purpose
+This Information Technology Policy (ITP) establishes basic guidelines for the use and integration of
+artificial intelligence (AI) technologies and capabilities into Commonwealth business and decision
+processes by Commonwealth Employees and Contracted Resources (hereinafter referred to as "users").
+
+4. Scope
+This policy applies to all offices, departments, boards, commissions, and councils under the Governor’s
+jurisdiction and any other entity connecting to the Commonwealth Network (hereinafter referred to as
+"agencies").
+
+5. Policy
+For definitions found within this document, refer to the IT Policy Glossary
+
+   5.1 Artificial Intelligence
+   Before agencies begin an AI initiative, they shall evaluate the following key considerations:
+
+       5.1.1 Decision Making
+       Agencies shall ensure that AI solutions have appropriate interventions and checks from
+       humans, otherwise known as human in the loop (HITL) procedures, meaning there is active
+       human participation in the decision-making process, review, oversight, and validation of AI
+       systems including any generated content or output.
+
+                                                                                           Page 1 of 9
+
+5.1.2 Data Sets
+AI solutions may rely on a massive corpus of data sets, including but not limited to sources
+from the internet, raw information, structured data, and copyrighted works, among other data
+sources. Users often do not know the types of datasets used to develop AI software; because of
+this, AI solutions may exhibit algorithmic bias, which may result in algorithmic discrimination,
+which are instances when automated systems contribute to unjustified treatment or disfavoring
+of people or communities based on protected legal classifications. Data sets should be
+reviewed to ensure quality and integrity of the data sets.
+
+5.1.3 Human in the Loop Methodology
+Human in the loop (HITL) refers to the process of consistent human input in the development,
+deployment, and maintenance of AI solutions. Human in the loop processes ensure the outputs
+of the AI solution yield the best possible results and do not amplify or create unintended
+consequences. Business and technical decision makers need to apply HITL approaches to
+establish successful data analysis and determinations for proper use of AI models.
+
+5.1.4 Retention
+Agencies shall ensure they understand the process of using the AI solution and tool, including
+how the prompting and input data will be used in the AI solution. Prompting and input data
+used in the solutions shall be retained in the event an audit takes place (refer to the Records
+Management Policy for further details) For more information and best practices for
+maintaining and managing AI solutions and tools, please refer to the National Institute of
+Science and Technology’s Trustworthy and Responsible AI Artificial Intelligence Risk
+Management Framework: Generative Artificial Intelligence Profile.
+
+Note: AI solutions that are used to formulate high-risk decisions regarding the topics listed below
+will be subject to audits:
+•   Direct or indirect material financial interests or transactions
+•   Administrative policy and program changes
+•   Benefits eligibility and determinations
+•   Life-changing
+•   Health, safety, and welfare of citizens or Commonwealth employees.
+
+5.1.5 Disclosure
+When a customer is interacting with an AI solution on behalf of an agency, the solution shall
+disclose to the customer that they are interacting with an AI solution. (Refer to the Generative
+Artificial Intelligence Transparency & Disclosure Guideline for further details.)
+
+5.1.6 Governance
+Proper governance of AI solutions is required prior to deployment of any AI solutions into the
+enterprise. Governance and appropriate oversight mitigate risks associated with emerging
+technologies. Agencies shall use existing governance bodies to ensure that the integration of AI
+solutions does not adversely affect business or technology operations.. Governing bodies are
+responsible for the continuous monitoring and outcomes of AI solutions to ensure alignment
+with business and technology strategic objectives. Governing bodies are recommended to
+provide oversight into the following:
+
+                                                                                     Page 2 of 9
+
+•   Examine the social, economic, and legal impacts of AI adoption on the workforce, citizens,
+    and business operations.
+•   Determining the conditions and constraints in which supervised and unsupervised
+    techniques will be used for training AI and algorithmic decision-making systems.
+•   Legal reviews required for use of third-party AI services, contracts, licenses, agreements,
+    and specific use cases of AI solutions with potential impacts to workforce.
+
+Note: It is important to understand the potential liabilities with intellectual property and data
+ownership associated with third party entities. Legal requirements regarding transparency and
+disclaimers for public engagement and use of AI systems. As well as the Right to Explanation
+(RTE) that will obligate Commonwealth agencies to explain the purpose of an algorithm and
+the kind of data it uses when making automated decisions. This includes third-party AI
+solutions. Agencies shall validate (understand) the functionality of third-party AI algorithms
+and how the data collected and utilized is managed by the third- party solution. The following
+elements shall be captured for any AI solution to satisfactorily comply with an RTE request:
+•   Technical and design details of the AI system and algorithms
+•   How the AI system was trained (including personnel and documentation)
+•   How the AI system works (i.e. what are the inputs and outputs)
+•   Data sources (documentation of all data sources)
+•   Audit Logging (refer to the Security Logging and Event Monitoring Policy for audit
+    logging requirements)
+•   Change Management details and documentation that impact the AI system algorithms (i.e.
+    decisions, inputs, outputs)
+•   Testing and validation results
+•   Timeframe documentation (captures time periods of testing, validations, governance
+    approval, deployment, and other critical milestones of the AI solution)
+•   Human elements (any personnel information that will assist in the RTE request)
+•   Decisions made by AI that have legal, financial, human resource, legislative,
+    organizational, or regulatory impact must include a human verification process.
+•   Evaluate and authorize AI: technology architecture frameworks, software, platforms,
+    libraries, software as a service (SaaS), platform as a service (PaaS), and infrastructure, and
+    relevant tools that can be properly integrated and supported in our IT ecosystem and
+    securely interface with our back-end services/systems.
+•   Protocols and procedures for assessing and handling inquiries or accidental events
+    regarding AI system anomalies with priority given for decisions that have potential
+    implications for public safety or perceived workforce/labor discriminatory practices. .
+
+5.1.7 Data Management
+Machine learning algorithms learn from data. It is critical to subject them to the right data for
+the problem to be solved. Even if there is a reliable and relevant data source, it is imperative to
+develop proper methods for data evaluations and preparedness to make sure that it is in a useful
+state, scale, format, composition, and representative to the problem being solved.
+•   Institute proper data and information management controls, procedures, and processes for
+    data set selection, evaluation, and preparation for use with AI solutions.
+•   Data availability, quality, and integrity are critical for AI systems. AI systems should not be
+    trained with data that is biased, inaccurate, incomplete, or misleading. All AI training shall
+                                                                                    Page 3 of 9
+
+    be vetted through the appropriate governing processes.
+•   Create procedures for properly parsing data sources used with AI systems models into
+    multiple randomized data sets consisting of training, cross- validation, and test data.
+•   AI systems should have access to and use only what data sources they need.
+•   Establish data validation procedures and processes to select, analyze, clean, and certify the
+    quality and integrity of the data sources that will be used for AI automation solutions.
+•   Institute processes and procedures for preprocessing and transforming the selected data set
+    to format, clean, sample, decompose, and aggregate the data to ensure alignment with the
+    model and the problem being solved.
+
+5.1.8 Prompting and Validation
+To prompt effectively, users should adhere to the following for more accurate outcomes:
+•   Define the task the tool will be used for.
+•   Determine whether AI or generative AI tool to solve the problem.
+•   Develop and write a clear prompt.
+•   Use clean data sets.
+•   Provide appropriate or additional context for better responses.
+•   Understand the input or prompting questions.
+•   Shape the intended type or format of the output or response.
+•   Review and edit all outputs.
+
+5.1.9 Security
+Safety and security must be considered regarding full disclosure and transparency of AI
+systems and the following shall be considered for use:
+•   Evaluate the level of risk that AI systems are exploited by malicious actors and determine
+    appropriate risk controls.
+•   Establish controls to prevent adversarial learning to include attacks that try to influence the
+    training data of spam filters or systems for abnormal network traffic detection, designed to
+    mislead the learning algorithm for subsequent exploitation.
+•   AI systems vulnerability scanning methods and techniques need to be enhanced for the
+    discovery and categorization of security vulnerabilities or other design flaws and
+    appropriate mitigation or resolution requirements to address known vulnerabilities.
+•   Expand incident management procedures and processes for proper handling of AI systems
+    cybersecurity attacks or security findings to those who are in the best position to fix the
+    problem. (Refer to the IT Security Incident Reporting Policy.)
+•   AI systems are required to comply with all Commonwealth IT Policies, Management
+    Directives, and any other applicable regulations.
+•   AI systems should only collect, use, share, and store data in accordance with privacy and
+    personal data laws and best practices.
+•   Establishing AI solution risk profiles based on a set of criteria to categorize and regulate the
+    degree of oversight, review, controls, testing, documentation, and validation required pre
+    and post deployment of AI solutions into our business and technical ecosystems. The NIST
+    AI Risk Management Framework is currently being developed. An initial draft is available
+    at: https://www.nist.gov/itl/ai-risk- management-framework
+
+                                                                                     Page 4 of 9
+
+5.2 Generative AI
+Users may only use a Commonwealth approved Enterprise generative AI tool. For access to
+Enterprise AI solutions, please refer to the specific steps outlined in our Procurement Next Steps,
+featured on the Commonwealth Artificial Intelligence Resource Center. Generative AI tools that
+receive approval are available for use only in accordance with this policy. There are many
+generative AI tools that offer different strengths and weaknesses. The Commonwealth will
+continue to evaluate and may approve additional generative AI tools that may be of value to users.
+
+   5.2.1 Account Usage
+   Use of approved generative AI tools will require signing in with a user’s Commonwealth
+   credentials. Personal use of non-enterprise generative AI tools with a Commonwealth e-mail is
+   prohibited. Procured generative AI tools must have terms and conditions established with the
+   Commonwealth.
+
+   5.2.2 Risk Assessment
+   Generative AI is a versatile technology that can be used for a variety of purposes. Like any
+   other tool, different use cases create different risks and rewards. While generative AI tools are
+   relatively new, many of the risks are the same as common internet or software-based tools.
+   Examples of common risks with generative AI tools are:
+
+   •    Sharing private or confidential information in a generative AI prompt.
+   •    Generative AI outputs that are inaccurate or misleading in communications to the public or
+        relying on inaccurate or misleading outputs to inform agency programs or policies.
+   •    Reinforcing existing bias in work products due to bias in generative AI outputs.
+   •    Copyright infringement.
+
+   Because the use of generative AI tools can pose significant risk depending on the information
+   or data input into the tool, proper governance of such tools is required. When assessing
+   whether to use an approved generative AI tool, users should consider if the use case is high or
+   low risk and high or low impact.
+
+   High risk uses should be approached with additional review and governance and avoided when
+   their impact is also minimal. Use cases that are low risk and high impact are potential
+   opportunities to use generative AI. Examples of such use cases are:
+
+    •   High risk/low impact (avoid): Using generative AI to draft an external facing
+        communication that includes sensitive information for citizens and would have taken
+        minimal time to write manually. Copying and pasting that output for use with minimal
+        review.
+    •   Low risk/high impact: Using generative AI to compare a new and old version of a
+        publicly available policy and asking the generative AI tool to identify which sections have
+        been modified, then, confirming the nature of these changes manually.
+
+   Generative AI & Coding: Generative AI tools can be an excellent coding resource with high
+   impact. Public Generative AI tools used for coding purposes should be approached with
+   caution, and special attention should be paid to risk assessment. Subject matter experience is
+   required to properly validate Generative AI outputs, and this requirement is particularly
+   necessary for coding use cases. Users must be cautious not to include production code or
+   proprietary information in prompts, must assess vulnerabilities in code outputs, and must keep
+                                                                                       Page 5 of 9
+
+in mind that assessment of these outputs may require technical knowledge. Use of Generative
+AI in coding may result in more bugs or flaws in programs since it may gather the code from
+flawed sources. For additional guidance regarding the use of Generative AI for coding refer to
+the Generative AI and Coding Guideline.
+
+5.2.3 Accountability, Review, and Verification
+When using any Generative AI for Commonwealth business purposes, the user is accountable
+for any Generative AI outputs and must review and verify all associated output content.
+
+Qualifications to verify and review outputs: For a user to be able to review and verify
+outputs adequately, the user must have experience in the relevant topic area. For example, a
+software engineer may be able to verify the quality of code generated in a coding language in
+which the engineer specializes but may not be able to verify if a contract is legally sound
+without the requisite legal training.
+
+Generative AI content should not be assumed to be accurate. At a minimum, users should review
+the output for:
+
+•   Bias: Since the data used to train generative AI is vast, from a variety of sources, and not
+    always vetted, outputs may contain inaccurate assumptions or stereotypes regarding certain
+    individuals or communities.
+•   Dated Information: The data used to train generative AI may have a fixed cutoff date,
+    meaning any output generated will not reflect information available after a certain cutoff
+    date.
+•   Inaccurate Information: Generative AI relies on training data. Training data is vast and
+    not always consistent or accurate. Inaccuracies in the training data may be included in the
+    output generated by the generative AI system.
+
+Inaccurate output can also be generated regardless of the training data. The generative AI system
+may produce a confident response that appears plausible; however, the response is fabricated
+and divorced from reality (sometimes referred to as “hallucinations”). In one recent example, a
+user doing legal research using generative AI was provided several court decisions, and the
+decisions provided by the generative AI system turned out to be non-existent and completely
+fabricated.
+
+•   Inappropriate Content: If training data contains inappropriate content, the inappropriate
+    content could appear in the generative AI output.
+•   Intellectual Property: Generative AI tools continually ingest publicly available
+    information for training purposes including information that may be subject to copyright.
+    Copyrighted information could be inappropriately included in any output generated by the
+    generative AI system, creating intellectual property risks.
+•   Confidential, Non-Public Information: Since the data used to train generative AI is vast,
+    from a variety of sources, and not always vetted, outputs may contain confidential, non-
+    public information.
+
+5.2.4 Disclosure
+Users shall be transparent about their use of generative AI and must disclose to customers,
+residents, visitors, and industry when generative AI has been used to generate content that may
+be public facing or shared externally. Generative AI use must be disclosed even if it was only
+                                                                                  Page 6 of 9
+
+used to generate a portion of the content. The disclosure shall be prominently displayed and
+include an indication that the content was generated either entirely or in part by generative AI
+and identify the Generative AI system and version that was used.
+Example: “ChatGPT-3.5 was used in the creation of this document.”
+
+For additional guidance regarding disclosure refer to the Generative AI Transparency and
+Disclosure Guideline.
+
+5.2.5 Data Privacy
+Users should not have any expectation of privacy when interacting with generative AI tools.
+Any data or information that users would not include in public facing documents or emails
+should never be entered into any generative AI tools.
+
+5.2.6 Prohibited Uses
+
+      5.2.6.1 Production Code and Proprietary Information
+      While it is acceptable to use generative AI tools to modify or interpret code or other
+      content, under no circumstances should production code or proprietary information
+      be used in prompts.
+
+      5.2.6.2 Private and Sensitive Data
+      No class C data, as defined in the Data Classification Policy, may be input into any
+      generative AI prompt, tool, or system. This includes, but is not limited to:
+
+      •   Sensitive Security Information
+      •   Personal Identifiable Information (PII)
+      •   Protected Health Information (PHI)
+      •   Regulated Data – Such as data from or regulated by:
+          o Social Security Administration (SSA)
+          o Internal Revenue Service (IRS)
+          o Centers for Medicare & Medicaid Services (CMS)
+          o Criminal Justice Information (CJI)
+          o Criminal History Record Information Act (CHRIA)
+          o Family Educational Rights and Privacy Act (FERPA)
+          o Payment Card Industry Data Security Standard (PCI DSS)
+      •   Confidential or Non-Public Information
+      •   Privileged Information
+      •   Prerequisite-Required Information
+
+      Additionally, any non-public records or information that would be considered
+      privileged or exempt from access under the Right-to-Know Law (RTKL), 65 P.S.
+      §§ 67.101, et seq. may not be input into any generative AI prompt, tool, or system.
+
+      5.2.6.3 Decision Making
+      Generative AI outputs are not to be used to make decisions for or on behalf of
+      employees. Employees may use generative AI outputs to inform a larger decision-
+      making process, but ultimately the Commonwealth employee or official remains the
+      final decision maker. Users must review and verify all output produced with the
+      assistance of generative AI. The user will be accountable for any decision-making based
+                                                                                   Page 7 of 9
+
+              upon such output. Generative AI cannot make reliable subjective or value-based
+              judgments and may not be used for such purposes.
+
+              •   For example, do not use generative AI to make final decisions that affect employment.
+
+       5.2.7 Acceptable Uses
+       Examples of acceptable uses of generative AI include:
+
+       •   Drafting a job posting or job description
+       •   Summarizing or paraphrasing a writing
+       •   Taking a technical answer to a question and rewriting it in customer- friendly language
+       •   Creating an outline for a memo or other communication
+       •   Brainstorming icebreakers for a meeting
+
+       The examples provided above assume that the generative AI tool has been approved for use;
+       only public, non-confidential data is involved; and proper review and verification is completed
+       as outlined in this policy. This is not a comprehensive list of the permitted uses, but rather
+       illustrates some common lower risk use cases.
+
+       5.2.8 Additional Guidance
+       The following documents offer targeted guidance for other specific use cases of generative AI
+       that users may encounter:
+
+       • Generative AI Translation Guideline
+       • AI Transcription Software Guideline
+       • Generative AI Assisted Search Guideline.
+
+6. Contact
+Questions or comments may be directed via email to OA, IT Policy.
+
+7. Exception from Policy
+In the event an agency chooses to seek an exception from this policy, a request for a policy exception
+shall be submitted via the IT Policy Governance Process. Refer to IT Policy Governance Policy for
+guidance.
+
+8. Revision History
+This chart contains a history of this publication’s revisions. Redline documents outline the revisions and
+are available to Commonwealth users only during the drafting process.
+
+Version     Date           Purpose of Revision
+Original    01/06/2025     Base Document
+Revision    03/11/2025     No changes to this document – Added 3 new guideline documents
+Revision    08/27/2025     Updated references to reflect:
+                              • Rescinded two existing supplemental documents
+                              • Added 3 new guidelines
+Revision 01/13/2026        Minor clarifications and grammatical updates
+                           Updated references where applicable
+                           Removed outdated reference to the Cloud Use Case process
+                           Added some guidance related to prompting and validation
+                           Added reference to the Commonwealth Artificial Intelligence
+                           Resource Center for more information on gaining access to
+                                                                                           Page 8 of 9
+
+Version   Date   Purpose of Revision
+                 Enterprise AI solutions
+                 Removed section prohibiting non-text-based outputs
+
+                                                                      Page 9 of 9

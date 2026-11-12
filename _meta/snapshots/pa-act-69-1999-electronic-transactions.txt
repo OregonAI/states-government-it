@@ -1,0 +1,695 @@
+                ELECTRONIC TRANSACTIONS ACT
+        Act of Dec. 16, 1999, P.L. 971, No. 69          Cl. 12
+                        AN ACT
+Regulating electronic transactions.
+                         TABLE OF CONTENTS
+Chapter 1.     Preliminary Provisions
+Section 101.     Short title.
+Section 102.     Legislative findings.
+Section 103.     Definitions.
+Section 104.     Scope.
+Section 105.     Prospective application.
+Chapter 3.     Uniform Electronic Transactions
+Section 301. Use of electronic records and electronic
+           signatures; variation by agreement.
+Section 302. Construction and application.
+Section 303. Legal recognition of electronic records,
+           electronic signatures and electronic contracts.
+Section 304. Provision of information in writing; presentation
+           of records.
+Section 305. Attribution and effect of electronic records and
+           signatures.
+Section 306. Effect of change or error.
+Section 307. Notarization and acknowledgment.
+Section 308. Retention of electronic records; originals.
+Section 309. Admissibility in evidence.
+Section 310. Automated transaction.
+Section 311. Time and place of sending and receipt.
+Section 312. Transferable records.
+Chapter 5.     Governmental Agencies
+Section 501. Creation and retention of electronic records and
+           conversion of written records.
+Section 502. Acceptance and distribution of electronic records.
+Section 503. Interoperability.
+Chapter 7.     Attribution of Records and Signatures
+Section 701. Use of security procedures.
+Section 702. Effect of using security procedure to detect
+           errors or changes.
+Section 703. Commercial reasonableness.
+Section 704. Inapplicability to consumers.
+Section 705. Variation by agreement.
+Chapter 9.     Consumer Agreements
+Section 901.     Limitation on consumer agreements.
+Section 902.     Sending and receipt.
+Section 903.     Variation by agreement.
+Chapter 51.     Miscellaneous Provisions
+Section 5101. Effective date.
+   The General Assembly of the Commonwealth of Pennsylvania
+hereby enacts as follows:
+
+                          CHAPTER 1
+                    PRELIMINARY PROVISIONS
+Section 101. Short title.
+   (a) General.--This act shall be known and may be cited as
+the Electronic Transactions Act.
+   (b) Uniform.--Chapters 1, 3 and 5 shall be known and may
+be cited as the Uniform Electronic Transactions Act.
+Section 102. Legislative findings.
+   The General Assembly finds and declares as follows:
+       (1) electronic commerce is expanding rapidly and is an
+   engine for economic growth in this Commonwealth and the
+   United States; and
+       (2) uniformity among state laws recognizing the validity
+   and enforceability of electronic signatures, records and
+   writings is important to the continued expansion of
+   electronic commerce; and
+       (3) the rights of consumers under existing laws should
+   be protected and preserved.
+The General Assembly should enact the Uniform Electronic
+Transactions Act submitted to the state legislatures by the
+National Conference of Commissioners on Uniform State Laws with
+additions to enhance and promote the reliability of electronic
+commerce.
+Section 103. Definitions.
+   The following words and phrases when used in this act shall
+have the meanings given to them in this section unless the
+context clearly indicates otherwise:
+   "Agreement." The bargain of the parties in fact, as found
+in their language or inferred from other circumstances and from
+rules, regulations and procedures given the effect of agreements
+under laws otherwise applicable to a particular transaction.
+   "Automated transaction." A transaction conducted or
+performed, in whole or in part, by electronic means or
+electronic records, in which the acts or records of one or both
+parties are not reviewed by an individual in the ordinary course
+in forming a contract, performing under an existing contract
+or fulfilling an obligation required by the transaction.
+   "Computer program." A set of statements or instructions to
+be used directly or indirectly in an information processing
+system in order to bring about a certain result.
+   "Consumer." An individual involved in an electronic
+transaction primarily for personal, family or household
+purposes.
+   "Contract." The total legal obligation resulting from the
+parties' agreement as affected by this act and other applicable
+law.
+   "Electronic." Relating to technology having electrical,
+digital, magnetic, wireless, optical, electromagnetic or similar
+capabilities.
+   "Electronic agent." A computer program or an electronic or
+other automated means used independently to initiate an action
+or respond to electronic records or performances, in whole or
+in part, without review or action by an individual.
+   "Electronic record." A record created, generated, sent,
+communicated, received or stored by electronic means.
+   "Electronic signature." An electronic sound, symbol or
+process attached to or logically associated with a record and
+executed or adopted by a person with the intent to sign the
+record.
+
+   "Executive agency." A department, board, commission,
+authority, officer or agency of the Executive Department subject
+to the policy supervision and control of the Governor.
+   "Governmental agency." An executive agency, an independent
+agency, a State-affiliated entity or other instrumentality of
+the Commonwealth. The term includes authorities, political
+subdivisions and State-related institutions.
+   "Independent agency." A board, commission or other agency
+or officer of the Executive Department that is not subject to
+the policy supervision and control of the Governor.
+   "Information." Data, text, images, sounds, codes, computer
+programs, software, data bases or the like.
+   "Information processing system." An electronic system for
+creating, generating, sending, receiving, storing, displaying
+or processing information.
+   "Person." Any individual, corporation, business trust,
+estate, trust, partnership, limited liability company,
+association, joint venture, governmental agency, public
+corporation or other legal or commercial entity.
+   "Record." Information which is inscribed on a tangible
+medium or is stored in an electronic or other medium and which
+is retrievable in perceivable form.
+   "Security procedure." A procedure employed for the purpose
+of verifying that an electronic signature, record or performance
+is that of a specific person or for detecting changes or errors
+in the information in an electronic record. The term includes
+a procedure which requires the use of algorithms or other codes,
+identifying words or numbers, encryption or callback or other
+acknowledgment procedures.
+   "State." A state of the United States, the District of
+Columbia, Puerto Rico, the United States Virgin Islands or any
+territory or insular possession subject to the jurisdiction of
+the United States. The term includes an Indian Tribe or Band
+or an Alaskan Native Village which is recognized by Federal law
+or formally acknowledged by a state.
+   "State-affiliated entity or other instrumentality." A
+Commonwealth authority or a Commonwealth entity or
+instrumentality. The term includes the Pennsylvania Turnpike
+Commission, the Pennsylvania Housing Finance Agency, the
+Pennsylvania Municipal Retirement System, the Pennsylvania
+Infrastructure Investment Authority, the State Public School
+Building Authority, the Pennsylvania Higher Educational
+Facilities Authority and the State System of Higher Education.
+   "State-related institution." The Pennsylvania State
+University, the University of Pittsburgh, Lincoln University
+or Temple University.
+   "Transaction." An action or set of actions occurring between
+two or more persons relating to the conduct of business,
+commercial or governmental affairs.
+   "United States Postal Service Electronic Postmark" or "USPS
+EPM." An electronic service provided by the United States
+Postal Service. (Def. added Nov. 29, 2006, P.L.1559, No.173)
+Section 104. Scope.
+   (a) General rule.--Except as provided in subsection (b),
+this act applies to electronic records and electronic signatures
+relating to a transaction.
+   (b) Exception.--Subject to subsection (c), this act does
+not apply to a transaction to the extent it is governed by any
+of the following:
+       (1) A law governing the creation and execution of wills,
+   codicils or testamentary trusts.
+
+       (2) The provisions of 13 Pa.C.S. (relating to commercial
+   code) other than:
+           (i) sections 1107 (relating to waiver or
+       renunciation of claim or right after breach) and 1206
+       (relating to statute of frauds for kinds of personal
+       property not otherwise covered);
+           (ii) Division 2 (relating to sales); and
+           (iii) Division 2A (relating to leases).
+   (c) Limitation of exception.--This act applies to an
+electronic record or electronic signature otherwise excluded
+from the application of this act under subsection (b) to the
+extent it is governed by a law other than those specified in
+subsection (b).
+   (d) Other law.--A transaction subject to this act is also
+subject to other applicable substantive law.
+Section 105. Prospective application.
+   This act applies to an electronic record or electronic
+signature created, generated, sent, communicated, received or
+stored on or after the effective date of this act.
+                          CHAPTER 3
+               UNIFORM ELECTRONIC TRANSACTIONS
+Section 301. Use of electronic records and electronic
+           signatures; variation by agreement.
+   (a) Electronic means or form not required.--This act does
+not require a record or signature to be created, generated,
+sent, communicated, received, stored or otherwise processed or
+used by electronic means or in electronic form.
+   (b) Consent.--This act applies only to transactions between
+parties each of which has agreed to conduct transactions by
+electronic means. Whether the parties agree to conduct a
+transaction by electronic means is determined from the context
+and surrounding circumstances, including the parties' conduct.
+   (c) Other transactions.--A party that agrees to conduct a
+transaction by electronic means may refuse to conduct other
+transactions by electronic means. The right granted by this
+subsection may not be waived by agreement.
+   (d) Variation by agreement.--Except as otherwise provided
+in this act, the effect of any of its provisions may be varied
+by agreement. The presence in certain provisions of this act
+of the words "unless otherwise agreed" or words of similar
+import does not imply that the effect of other provisions may
+not be varied by agreement.
+   (e) Conclusions of law.--Whether an electronic record or
+electronic signature has legal consequences is determined by
+this act and other applicable law.
+Section 302. Construction and application.
+   This act must be construed and applied:
+       (1) to facilitate electronic transactions consistent
+   with other applicable law;
+       (2) to be consistent with reasonable practices
+   concerning electronic transactions and with the continued
+   expansion of those practices; and
+       (3) to effectuate its general purpose to make uniform
+   the law with respect to the subject of this act among states
+   enacting it.
+Section 303. Legal recognition of electronic records,
+           electronic signatures and electronic contracts.
+   (a) Form.--A record or signature may not be denied legal
+effect or enforceability solely because it is in electronic
+form.
+
+   (b) Formation.--A contract may not be denied legal effect
+or enforceability solely because an electronic record was used
+in its formation.
+   (c) Writing.--If a law requires a record to be in writing,
+an electronic record satisfies the law.
+   (d) Signature.--If a law requires a signature, an electronic
+signature satisfies the law.
+Section 304. Provision of information in writing; presentation
+           of records.
+   (a) Writing.--If parties have agreed to conduct a
+transaction by electronic means and a law requires a person to
+provide, send or deliver information in writing to another
+person, the requirement is satisfied if the information is
+provided, sent or delivered, as the case may be, in an
+electronic record capable of retention by the recipient at the
+time of receipt. An electronic record is not capable of
+retention by the recipient if the sender or its information
+processing system inhibits the ability of the recipient to print
+or store the electronic record.
+   (b) Records.--If a law other than this act requires a
+record to be posted or displayed in a certain manner, to be
+sent, communicated or transmitted by a specified method or to
+contain information which is formatted in a certain manner, the
+following rules apply:
+       (1) The record must be posted or displayed in the manner
+   specified in the other law.
+       (2) Except as otherwise provided in subsection (d)(2),
+   the record must be sent, communicated or transmitted by the
+   method specified in the other law.
+       (3) The record must contain the information formatted
+   in the manner specified in the other law.
+   (c) Unenforceable.--If a sender inhibits the ability of a
+recipient to store or print an electronic record, the electronic
+record is not enforceable against the recipient.
+   (d) Variation by agreement.--The requirements of this
+section may not be varied by agreement except as follows:
+       (1) To the extent a law other than this act requires
+   information to be provided, sent or delivered in writing but
+   permits that requirement to be varied by agreement, the
+   requirement under subsection (a) that the information be in
+   the form of an electronic record capable of retention may
+   also be varied by agreement.
+       (2) A requirement under a law other than this act to
+   send, communicate or transmit a record by first-class mail,
+   postage prepaid, regular United States mail, may be varied
+   by agreement to the extent permitted by the other law.
+Section 305. Attribution and effect of electronic records and
+           signatures.
+   (a) Attribution.--An electronic record or electronic
+signature is attributable to a person if it was the act of the
+person. The act of the person may be shown in any manner,
+including a showing of the efficacy of any security procedure
+applied to determine the person to which the electronic record
+or electronic signature was attributable.
+   (b) Effect.--The effect of an electronic record or
+electronic signature attributed to a person under subsection
+(a) is determined:
+       (1) from the context and surrounding circumstances at
+   the time of its creation, execution or adoption, including
+   the parties' agreement, if any; and
+       (2) otherwise as provided by law.
+Section 306. Effect of change or error.
+
+   If a change or error in an electronic record occurs in a
+transmission between parties to a transaction, the following
+rules apply:
+       (1) If the parties have agreed to use a security
+   procedure to detect changes or errors and one party has
+   conformed to the procedure but the other party has not, and
+   the nonconforming party would have detected the change or
+   error had that party also conformed, the conforming party
+   may avoid the effect of the changed or erroneous electronic
+   record.
+       (2) In an automated transaction involving an individual,
+   the individual may avoid the effect of an electronic record
+   that resulted from an error made by the individual in dealing
+   with the electronic agent of another person if the electronic
+   agent did not provide an opportunity for the prevention or
+   correction of the error and, at the time the individual
+   learns of the error, the individual:
+           (i) promptly notifies the other person of the error
+       and that the individual did not intend to be bound by
+       the electronic record received by the other person;
+           (ii) takes reasonable steps, including steps which
+       conform to the other person's reasonable instructions,
+       to return to the other person or, if instructed by the
+       other person, to destroy the consideration received, if
+       any, as a result of the erroneous electronic record; and
+           (iii) has not used or received any benefit or value
+       from the consideration, if any, received from the other
+       person.
+       (3) If neither paragraph (1) nor paragraph (2) applies,
+   the change or error has the effect provided by other law,
+   including the law of mistake, and the parties' contract, if
+   any.
+       (4) Paragraphs (2) and (3) may not be varied by
+   agreement.
+Section 307. Notarization and acknowledgment.
+   If a law requires a signature or record to be notarized,
+acknowledged, verified or made under oath, the requirement is
+satisfied if the electronic signature of the person authorized
+to perform those services, together with all other information
+required to be included by other applicable law, is attached
+to or logically associated with the signature or record.
+Section 308. Retention of electronic records; originals.
+   (a) Requirement.--Subject to subsection (b), if a law
+requires that a record be retained, the requirement is satisfied
+by retaining an electronic record of the information in the
+record which:
+       (1) accurately reflects the information set forth in
+   the record after it was first generated in its final form
+   as an electronic record or otherwise; and
+       (2) remains accessible for later reference.
+   (b) Transmission information.--A requirement to retain a
+record in accordance with subsection (a) does not apply to any
+information the sole purpose of which is to enable the record
+to be sent, communicated or received.
+   (c) Agents.--A person may satisfy subsection (a) by using
+the services of another person if the requirements of that
+subsection are satisfied.
+   (d) Originals.--If a law requires a record to be presented
+or retained in its original form, or provides consequences if
+the record is not presented or retained in its original form,
+that law is satisfied by an electronic record retained in
+accordance with subsection (a).
+
+   (e) Checks.--If a law requires retention of a check, that
+requirement is satisfied by retention of an electronic record
+of the information on the front and back of the check in
+accordance with subsection (a).
+   (f) Evidence; audits.--A record retained as an electronic
+record in accordance with subsection (a) satisfies a law
+requiring a person to retain a record for evidentiary, audit
+or like purposes.
+   (g) Governmental agencies.--This section does not preclude
+a governmental agency of this Commonwealth from specifying
+additional requirements for the retention of a record subject
+to the governmental agency's jurisdiction, including the
+requirement that a record be retained in a nonelectronic form.
+Section 309. Admissibility in evidence.
+   In a proceeding, evidence of a record or signature may not
+be excluded solely because it is in electronic form.
+Section 310. Automated transaction.
+   In an automated transaction, the following rules apply:
+       (1) A contract may be formed by the interaction of
+   electronic agents of the parties, even if no individual was
+   aware of or reviewed the electronic agents' actions or the
+   resulting terms and agreements.
+       (2) A contract may be formed by the interaction of an
+   electronic agent and an individual, acting on the
+   individual's own behalf or for another person, including by
+   an interaction in which the individual performs actions which
+   the individual is free to refuse to perform and which the
+   individual knows or has reason to know will cause the
+   electronic agent to complete the transaction or performance.
+       (3) The terms of the contract are determined by the
+   substantive law applicable to it.
+Section 311. Time and place of sending and receipt.
+   (a) Sending.--Unless otherwise agreed between the sender
+and the recipient, an electronic record is sent when it:
+       (1) is addressed properly or otherwise directed properly
+   to an information processing system that the recipient has
+   designated or uses for the purpose of receiving electronic
+   records or information of the type sent and from which the
+   recipient is able to retrieve the electronic record;
+       (2) is in a form capable of being processed by that
+   system; and
+       (3) enters an information processing system outside the
+   control of the sender or of a person that sent the electronic
+   record on behalf of the sender or enters a region of the
+   information processing system designated or used by the
+   recipient which is under the control of the recipient.
+   (b) Receipt.--Unless otherwise agreed between a sender and
+the recipient, an electronic record is received when:
+       (1) it enters an information processing system that the
+   recipient has designated or uses for the purpose of receiving
+   electronic records or information of the type sent and from
+   which the recipient is able to retrieve the electronic
+   record; and
+       (2) it is in a form capable of being processed by that
+   system.
+   (c) Physical location.--Subsection (b) applies even if the
+place the information processing system is located is different
+from the place the electronic record is deemed to be received
+under subsection (d).
+   (d) Place of business.--Unless otherwise expressly provided
+in the electronic record or agreed between the sender and the
+recipient, an electronic record is deemed to be sent from the
+
+sender's place of business and to be received at the recipient's
+place of business. For purposes of this subsection, the
+following rules apply:
+       (1) If the sender or recipient has more than one place
+   of business, the place of business of that person is the
+   place having the closest relationship to the underlying
+   transaction.
+       (2) If the sender or the recipient does not have a place
+   of business, the place of business is the sender's or
+   recipient's residence, as the case may be.
+   (e) Actual receipt.--An electronic record is received under
+subsection (b) even if no individual is aware of its receipt.
+   (f) Contents.--Receipt of an electronic acknowledgment from
+an information processing system described in subsection (b)
+establishes that a record was received but by itself does not
+establish that the content sent corresponds to the content
+received.
+   (g) Legal effect.--If a person is aware that an electronic
+record purportedly sent under subsection (a) or purportedly
+received under subsection (b) was not actually sent or received,
+the legal effect of the sending or receipt is determined by
+other applicable law. Except to the extent permitted by the
+other law, the requirements of this subsection may not be varied
+by agreement.
+Section 312. Transferable records.
+   (a) Control.--A person has control of a transferable record
+if a system employed for evidencing the transfer of interests
+in the transferable record reliably establishes that person as
+the person to which the transferable record was issued or
+transferred.
+   (b) Compliance.--A system satisfies subsection (a) and a
+person is deemed to have control of a transferable record if
+the transferable record is created, stored and assigned in such
+a manner that all of the following paragraphs apply:
+       (1) A single authoritative copy of the transferable
+   record exists which is unique, identifiable and, except as
+   otherwise provided in paragraphs (4), (5) and (6),
+   unalterable.
+       (2) The authoritative copy identifies the person
+   asserting control as:
+           (i) the person to which the transferable record was
+       issued; or
+           (ii) if the authoritative copy indicates that the
+       transferable record has been transferred, the person to
+       which the transferable record was most recently
+       transferred.
+       (3) The authoritative copy is communicated to and
+   maintained by the person asserting control or that person's
+   designated custodian.
+       (4) Copies or revisions which add or change an
+   identified assignee of the authoritative copy can be made
+   only with the consent of the person asserting control.
+       (5) Each copy of the authoritative copy and any copy
+   of a copy is readily identifiable as a copy which is not the
+   authoritative copy.
+       (6) Any revision of the authoritative copy is readily
+   identifiable as authorized or unauthorized.
+   (c) Holders.--Except as otherwise agreed, a person having
+control of a transferable record is the holder, as defined in
+paragraph (2) of the definition of "holder" in 13 Pa.C.S. §
+1201 (relating to general definitions), of the transferable
+record and has the same rights and defenses as a holder of an
+
+equivalent record or writing under 13 Pa.C.S. (relating to
+commercial code), including, if the applicable statutory
+requirements are satisfied, sections 3302(a) (relating to holder
+in due course), 7501 (relating to form of negotiation and
+requirements of "due negotiation") and 9308 (relating to
+purchase of chattel paper and instruments). Delivery, possession
+and endorsement are not required to obtain or exercise any of
+the rights under this subsection.
+   (d) Obligors.--Except as otherwise agreed, an obligor under
+a transferable record has the same rights and defenses as an
+equivalent obligor under equivalent records or writings under
+13 Pa.C.S.
+   (e) Proof.--If requested by a person against which
+enforcement is sought, the person seeking to enforce the
+transferable record shall provide reasonable proof that the
+person is in control of the transferable record. Proof may
+include access to the authoritative copy of the transferable
+record and related business records sufficient to review the
+terms of the transferable record and to establish the identity
+of the person having control of the transferable record.
+   (f) Definition.--As used in this section, the term
+"transferable record" means an electronic record:
+       (1) which would be a note under 13 Pa.C.S. Div. 3
+   (relating to negotiable instruments) or a document under 13
+   Pa.C.S. Div. 7 (relating to warehouse receipts, bills of
+   lading and other documents of title) if the electronic record
+   were in writing; and
+       (2) the issuer of the electronic record expressly has
+   agreed is a transferable record.
+                           CHAPTER 5
+                     GOVERNMENTAL AGENCIES
+Section 501. Creation and retention of electronic records and
+           conversion of written records.
+   Each governmental agency in this Commonwealth shall determine
+whether and the extent to which it will create and retain
+electronic records and convert written records to electronic
+records. Executive agencies shall also comply with standards
+published by the Office of Administration.
+Section 502. Acceptance and distribution of electronic records.
+   (a) Option.--Each governmental agency in this Commonwealth
+shall determine whether and the extent to which it will send
+and accept electronic records and electronic signatures to and
+from other persons and otherwise create, generate, communicate,
+store, process, use and rely upon electronic records and
+electronic signatures.
+   (b) Specifics.--To the extent that a governmental agency
+uses electronic records and electronic signatures under
+subsection (a), the governmental agency, giving due
+consideration to security, may specify all of the following:
+       (1) The manner and format in which the electronic
+   records must be created, generated, sent, communicated,
+   received and stored and the systems established for those
+   purposes.
+       (2) If electronic records must be signed by electronic
+   means, the type of electronic signature required, the manner
+   and format in which the electronic signature must be affixed
+   to the electronic record and the identity of or criteria
+   that must be met by any third party used by a person filing
+   a document to facilitate the process.
+
+       (3) Control processes and procedures as appropriate to
+   ensure adequate preservation, disposition, integrity,
+   security, confidentiality and auditability of electronic
+   records.
+       (4) Any other required attributes for electronic records
+   which are specified for corresponding nonelectronic records
+   or reasonably necessary under the circumstances.
+   (c) Not mandatory.--This chapter does not require a
+governmental agency to use or permit the use of electronic
+records or electronic signatures.
+   (d) Use of electronic postmark.--
+       (1) Except for executive agencies, each governmental
+   agency in this Commonwealth shall determine the extent to
+   which it will utilize the USPS EPM or any similar service
+   to send and accept electronic records and electronic
+   signatures to and from other persons. Executive agencies
+   shall comply with standards published by the Office of
+   Administration concerning the use of the USPS EPM or any
+   similar service.
+       (2) This subsection does not authorize the use of an
+   electronic postmark or the USPS EPM for the service of
+   original process of a summons, complaint or other papers for
+   the purpose of obtaining jurisdiction over a defendant in a
+   lawsuit.
+   ((d) added Nov. 29, 2006, P.L.1559, No.173)
+Section 503. Interoperability.
+   The standards published by the Office of Administration under
+section 501 should encourage and promote consistency and
+interoperability with similar requirements adopted by other
+governmental agencies of this and other states and the Federal
+Government and nongovernmental persons interacting with a
+governmental agency. If appropriate, those standards may specify
+differing levels of standards from which a governmental agency
+may choose in implementing the most appropriate standard for a
+particular application.
+                          CHAPTER 7
+            ATTRIBUTION OF RECORDS AND SIGNATURES
+Section 701. Use of security procedures.
+   If there is a security procedure between the parties with
+respect to the electronic signature or electronic record, the
+following rules apply:
+       (1) The effect of compliance with a security procedure
+   established by a law or regulation is determined by that law
+   or regulation.
+       (2) In all other cases, if the parties agree to use or
+   otherwise knowingly adopt a security procedure to verify the
+   person from which an electronic signature or electronic
+   record has been sent, the electronic signature or electronic
+   record is attributable to the person identified by the
+   security procedure if the person relying on the attribution
+   satisfies the burden of establishing that:
+           (i) the security procedure was commercially
+       reasonable;
+           (ii) the party accepted or relied on the electronic
+       message in good faith and in compliance with the security
+       procedure and any additional agreement with or separate
+       instructions of the other party; and
+           (iii) the security procedure indicated that the
+       electronic message was from the person to which
+       attribution is sought.
+
+       (3) If the electronic signature or electronic record
+   is not attributable to a person under section 305 but would
+   be attributable to the person under this section, the
+   electronic signature or electronic record is nevertheless
+   not attributable to the person under this section if the
+   person satisfies the burden of establishing that the
+   electronic signature or electronic record was caused directly
+   or indirectly by a person:
+           (i) that was not entrusted at any time with the
+       right or duty to act for the person with respect to such
+       electronic signature or electronic record or security
+       procedure;
+           (ii) that lawfully obtained access to transmitting
+       facilities of the person if such access facilitated the
+       misuse of the security procedure; or
+           (iii) that obtained, from a source controlled by
+       the person, information facilitating misuse of the
+       security procedure.
+Section 702. Effect of using security procedure to detect
+           errors or changes.
+   If the parties use a commercially reasonable security
+procedure to detect errors or changes with respect to an
+electronic signature or electronic record, the following rules
+shall apply:
+       (1) The effect of a security procedure is determined
+   by the agreement between the parties or, in the absence of
+   agreement, by this section or any law establishing the
+   security procedure.
+       (2) Unless the circumstances indicate otherwise, if a
+   security procedure indicates that an electronic signature
+   or electronic record has not been altered since a particular
+   time, it is treated as not having been altered since that
+   time.
+Section 703. Commercial reasonableness.
+   The efficacy and commercial reasonableness of a security
+procedure is to be determined by the court. In making this
+determination, the following rules apply:
+       (1) A security procedure established by statute or
+   regulation is effective for transactions covered by the
+   statute or regulation.
+       (2) Except as otherwise provided in paragraph (1),
+   commercial reasonableness and effectiveness is determined
+   in light of the purposes of the security procedure and the
+   commercial circumstances at the time the parties agree to
+   or adopt the procedure.
+Section 704. Inapplicability to consumers.
+   The provisions of this chapter shall not apply to any
+electronic transaction to which a consumer is a party.
+Section 705. Variation by agreement.
+   Except as otherwise provided by statute or regulation, any
+provision of this chapter other than section 704 may be varied
+by agreement.
+Section 901. Limitation on consumer agreements.
+   In the case of a nonelectronic consumer contract or
+agreement, the contract or agreement may not contain a provision
+authorizing the conducting of the transaction or any part
+thereof by electronic means unless the consumer agrees to such
+a provision by a separate and express acknowledgment. Such an
+agreement shall specifically indicate the parts of the
+transaction to be conducted by electronic means and shall
+indicate the manner in which the electronic transaction or a
+part thereof shall be conducted. An agreement to conduct a
+
+consumer transaction or a part thereof electronically may not
+be inferred solely from the fact that the consumer has used
+electronic means to pay an account or register a purchase or
+warranty.
+Section 902. Sending and receipt.
+   If a party to a consumer transaction has actual knowledge
+that an electronic record purportedly sent to or purportedly
+received by the other party was not actually sent to or received
+by the other party, the purported sending or receipt of the
+electronic record shall be of no legal force or effect.
+Section 903. Variation by agreement.
+   The provisions of this chapter may not be varied by agreement
+of the parties to a consumer contract or transaction.
+                          CHAPTER 51
+                   MISCELLANEOUS PROVISIONS
+Section 5101. Effective date.
+   This act shall take effect as follows:
+       (1) Section 307 shall take effect 30 days following the
+   publication in the Pennsylvania Bulletin of a notice by the
+   Secretary of the Commonwealth that the provisions of section
+   307 no longer conflict with the requirements and procedures
+   of the act of August 21, 1953 (P.L.1323, No.373), known as
+   The Notary Public Law, or its successor with regard to
+   electronic notarization, acknowledgment and verification.
+       (2) This section shall take effect immediately.
+       (3) The remainder of this act shall take effect in 30
+   days.

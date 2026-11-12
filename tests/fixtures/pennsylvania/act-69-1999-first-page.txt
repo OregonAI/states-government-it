@@ -1,0 +1,48 @@
+                ELECTRONIC TRANSACTIONS ACT
+        Act of Dec. 16, 1999, P.L. 971, No. 69          Cl. 12
+                        AN ACT
+Regulating electronic transactions.
+                         TABLE OF CONTENTS
+Chapter 1.     Preliminary Provisions
+Section 101.     Short title.
+Section 102.     Legislative findings.
+Section 103.     Definitions.
+Section 104.     Scope.
+Section 105.     Prospective application.
+Chapter 3.     Uniform Electronic Transactions
+Section 301. Use of electronic records and electronic
+           signatures; variation by agreement.
+Section 302. Construction and application.
+Section 303. Legal recognition of electronic records,
+           electronic signatures and electronic contracts.
+Section 304. Provision of information in writing; presentation
+           of records.
+Section 305. Attribution and effect of electronic records and
+           signatures.
+Section 306. Effect of change or error.
+Section 307. Notarization and acknowledgment.
+Section 308. Retention of electronic records; originals.
+Section 309. Admissibility in evidence.
+Section 310. Automated transaction.
+Section 311. Time and place of sending and receipt.
+Section 312. Transferable records.
+Chapter 5.     Governmental Agencies
+Section 501. Creation and retention of electronic records and
+           conversion of written records.
+Section 502. Acceptance and distribution of electronic records.
+Section 503. Interoperability.
+Chapter 7.     Attribution of Records and Signatures
+Section 701. Use of security procedures.
+Section 702. Effect of using security procedure to detect
+           errors or changes.
+Section 703. Commercial reasonableness.
+Section 704. Inapplicability to consumers.
+Section 705. Variation by agreement.
+Chapter 9.     Consumer Agreements
+Section 901.     Limitation on consumer agreements.
+Section 902.     Sending and receipt.
+Section 903.     Variation by agreement.
+Chapter 51.     Miscellaneous Provisions
+Section 5101. Effective date.
+   The General Assembly of the Commonwealth of Pennsylvania
+hereby enacts as follows:

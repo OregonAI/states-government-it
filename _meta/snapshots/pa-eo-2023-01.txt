@@ -1,0 +1,195 @@
+                         Executive Order
+                         Commonwealth of Pennsylvania
+                         Governor’s Office
+
+     Executive Order 2023-01 – Pennsylvania Longitudinal Data
+                         System (PALDS)
+
+Date:                January 6, 2023
+
+By Direction of:
+                     Tom Wolf, Governor
+
+WHEREAS,      the use of early learning, K-12, higher education, and workforce data may
+              improve education and workforce outcomes for, and better serve,
+              Pennsylvanians; and
+
+WHEREAS,      data analysis supports the evaluation of education and workforce initiatives,
+              leading to informed decision-making and improved service delivery, program
+              administration, and long-term outcomes; and
+
+WHEREAS,      the ability to build evidence for effective services and programs helps ensure
+              government is advancing strategies that work; and
+
+WHEREAS,      education and workforce development services and programs are implemented
+              across multiple agencies and systems, each of which obtain, create, and store
+              participant data related to program engagement, educational and credential
+              attainment, skill development, wages, and other education and employment
+              outcomes, in separate and distinct data systems; and
+
+WHEREAS,      the federal Workforce Innovation and Opportunity Act (WIOA) requires
+              collaboration to achieve workforce goals, including “the development of
+              strategies for aligning technology and data systems across one-stop partner
+              programs to enhance service delivery and improve efficiencies in reporting on
+              performance accountability measures;” and
+
+WHEREAS,      the Keystone Economic Development and Workforce Command Center, and the
+              Pennsylvania WIOA Combined State Plan identify a comprehensive statewide
+              longitudinal data system as a key strategy to connect and align early learning,
+              K-12 education, higher education, and workforce data; and
+
+   Executive Order 2023-01                                                       Page 1 of 4
+
+WHEREAS,       Sections 501 and 502 of The Administrative Code of 1929, Act of April 9, 1929,
+               P.L. 177, art. V, §§ 501, 502, as amended, 71 P.S. §§ 181, 182, require
+               administrative departments and independent and departmental administrative
+               boards and commissions to coordinate their work and activities; and
+
+WHEREAS,       Commonwealth agencies have been engaged in various initiatives to advance
+               the effective and transparent use of data, resulting in national recognition as a
+               lead state in the Results For America - State Standards of Excellence; and
+
+WHEREAS,       operationalizing a longitudinal data system based on shared data sets requires
+               proper governance, protection of data, and innovative problem-solving; and
+
+WHEREAS,       a longitudinal data system is a nationally recognized best practice utilized by
+               various states to improve education and workforce outcomes; and
+
+WHEREAS,       a comprehensive longitudinal data system will further assist in understanding
+               long-term education and workforce outcomes and measuring progress towards
+               reaching education and workforce goals.
+
+NOW, THEREFORE, I, Tom Wolf, Governor of the Commonwealth of Pennsylvania, by virtue
+of the authority vested in me by the Constitution of the Commonwealth of Pennsylvania and
+other laws of the Commonwealth do hereby establish the Pennsylvania Longitudinal Data
+System and its Governance Board, and direct the following:
+1.      Purpose.
+
+        The Pennsylvania Longitudinal Data System (PALDS) will bring together education
+        and workforce data across programs and agencies to support informed decision-
+        making and improved service delivery, program administration, and long-term
+        education and workforce outcomes.
+
+2.      Composition.
+        The members of the PALDS Governance Board shall be appointed by the Governor
+        and shall consist of the following:
+        a.     The Secretary of Policy and Planning or the Secretary’s designee,
+
+        b.     The Secretary of the Department of Labor & Industry or the Secretary’s
+               designee,
+
+        c.     The Secretary of the Department of Education or the Secretary’s designee,
+
+        d.     The Secretary of the Department of Human Services or the Secretary’s
+               designee,
+
+        e.     The Secretary of the Department of Corrections or the Secretary’s designee,
+
+        f.     The Secretary of Administration or the Secretary’s designee,
+
+        g.     The Deputy Secretary for Information Technology or the Deputy Secretary’s
+               designee,
+
+        h.     The Commonwealth’s Chief Data Officer, and
+
+        i.     The Commonwealth’s Chief Privacy Officer.
+
+     Executive Order 2023-01                                                        Page 2 of 4
+
+3.      Power and Duties.
+        The PALDS Governance Board shall:
+        a.     Elect annually one of the PALDS Governance Board’s members to serve as
+               Chair.
+
+        b.     Create a strategic plan to implement this Executive Order.
+
+        c.     Establish data governance policies for the PALDS that comply with federal and
+               state laws and Commonwealth policy regarding data use, security, and privacy.
+
+        d.     Identify the long-term organizational and operational needs to ensure the
+               PALDS is sustainable and able to meet its purpose under Section 1.
+
+        e.     Meet quarterly to ensure successful implementation of the strategic plan,
+               approve research projects, and address issues identified by the PALDS
+               Management Team.
+
+4.      Executive Director.
+        a.     The Governor shall appoint an Executive Director to oversee the Board’s
+               operations and support the development, use, and maintenance of the PALDS
+               and who shall serve at the pleasure of the Governor. The Executive Director
+               shall be an employee of the Governor’s Office of Administration and shall report
+               to both the Secretary of Administration and the Secretary of Policy and Planning
+               on the work of the PALDS Governance Board.
+
+        b.     The Executive Director shall:
+
+               (1)    Establish an agenda, workplan, timeline, and meeting schedule for the
+                      PALDS Governance Board.
+
+               (2)    Assist the PALDS Governance Board in fulfilling its responsibilities under
+                      this Executive Order.
+
+               (3)    Establish the PALDS Management Team, as authorized by the PALDS
+                      Governance Board with specific purposes and goals; the PALDS
+                      Management Team shall include, but not be limited to, agency data
+                      stewards and legal counsel from agencies that provide data to the
+                      PALDS.
+
+               (4)    Oversee the PALDS Management Team. The PALDS Management Team
+                      shall provide recommendations on the development of the PALDS, and
+                      its ongoing operations, in compliance with legal, statutory, and
+                      regulatory requirements.
+
+               (5)    Establish cross-agency PALDS Committees, if needed, to review
+                      research projects and provide recommendations to the Executive
+                      Director and the PALDS Management Team on said projects.
+
+               (6)    Report to the PALDS Governance Board on a regular basis the work that
+                      is being done by the PALDS Management Team and any PALDS
+                      Committee.
+
+     Executive Order 2023-01                                                        Page 3 of 4
+
+5.      Collaboration with other agencies.
+        Agencies under the Governor’s jurisdiction that maintain, collect, or store early
+        learning, K-12, higher education, and workforce data, as identified by the PALDS
+        Governance Board, shall cooperate and collaborate with the PALDS Governance Board,
+        the Executive Director, the PALDS Management Team, and the PALDS Committees, in
+        compliance with applicable federal and state laws and regulations and Commonwealth
+        policies, to support the purposes of the PALDS, including:
+
+        a.     Designate agency policy, legal, program, research staff, and data stewards to
+               serve as points of contact and to participate in PALDS Committees;
+
+        b.     Review and identify available data sets and information necessary to respond
+               to approved PALDS research projects;
+
+        c.     Develop a standing agency research agenda for the PALDS, which identifies and
+               prioritizes the agency’s research projects;
+
+        d.     Contribute resources where possible and appropriate, which includes support
+               in identifying sustainable internal and external funding opportunities; and
+
+        e.     Engage with relevant early learning, K-12, higher education, and workforce
+               stakeholders, including the Pennsylvania State System of Higher Education
+               (PASSHE).
+
+6.      Implementation.
+        Agencies shall take all steps necessary to implement this Executive Order to the extent
+        permissible by law.
+
+7.      General Provisions.
+        This Executive Order shall be implemented consistent with applicable law. This
+        Executive Order is not intended to, and does not, create any right or benefit,
+        substantive or procedural, enforceable at law or in equity by any party against the
+        Commonwealth of Pennsylvania, its departments, agencies, or entities, its officers,
+        employees, or agents, or any other person.
+
+8.      Effective date.
+        This Executive Order shall take effect immediately.
+
+9.      Termination Date.
+        This Executive Order shall remain in effect unless revised or rescinded by the
+        Governor.
+
+     Executive Order 2023-01                                                       Page 4 of 4

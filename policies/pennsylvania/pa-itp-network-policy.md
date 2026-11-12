@@ -1,0 +1,623 @@
+---
+schema_version: 1
+corpus: states-government-it
+jurisdiction: pennsylvania
+id: pa-itp-network-policy
+title: Network Policy
+doc_type: policy
+citation: 'Commonwealth of Pennsylvania IT Policy: Network Policy'
+authority_level: ''
+issuing_body: Office of Administration, Office for Information Technology
+source_url: https://www.pa.gov/content/dam/copapwp-pagov/en/oa/documents/policies/it-policies/network%20policy.pdf
+source_format: pdf
+retrieved: '2026-11-11'
+source_sha256: bf835b271f93b58d3d14ecedfded33c9f8af442ffbf4bf5c65a72ac097446fd5
+effective_date: '2026-01-16'
+source_version: ''
+status: current
+content_mode: verbatim
+conversion_notes: Text extracted with pdftotext -layout (page headers, footers and column layout kept
+  as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their
+  letters).
+last_verified: ''
+verified_by: ''
+maintainer: ''
+relationships:
+  implements: []
+  implemented_by: []
+  references_external: []
+  related: []
+  supersedes: []
+tags:
+- cloud-resilience
+- cybersecurity
+---
+
+> **NON-AUTHORITATIVE.** This is a convenience copy for machine reading. The official text is published at the source URL above. Verify at source before relying on it.
+
+# Network Policy (Commonwealth of Pennsylvania IT Policy: Network Policy)
+
+## At a glance
+
+Information Technology Policy of the Office of Administration for agencies under the Governor's jurisdiction. Printed purpose: The purpose of this Information Technology Policy (ITP) is to establish enterprise-wide policy for the allocation, use, and management of critical network and communication infrastructure. The policy helps to ensure secure, efficient, and standardized access to voice, video, and data services, as well as the exchange of information between the Commonwealth and its business partners.
+
+## Full text
+
+                                 Network Policy
+                                                                    Category:
+         Effective Date:                                            Network
+         January 16, 2026
+
+         Scheduled Review:
+         January 2027
+
+1. Authority
+Executive Order 2016-06, Enterprise Information Technology Governance
+
+2. Document Control
+This document replaces, in its entirety, the Network Policy, dated January 6, 2025.
+
+3. Purpose
+The purpose of this Information Technology Policy (ITP) is to establish enterprise-wide policy for the
+allocation, use, and management of critical network and communication infrastructure. The policy helps
+to ensure secure, efficient, and standardized access to voice, video, and data services, as well as the
+exchange of information between the Commonwealth and its business partners.
+
+4. Scope
+This policy applies to all offices, departments, boards, commissions, and councils under the Governor’s
+jurisdiction and any other entity connecting to the Commonwealth Network (hereinafter referred to as
+"agencies").
+
+5. Policy
+For definitions of terms found within this document, refer to the IT Policy Glossary.
+
+    5.1 Commonwealth Metropolitan Area Network (MAN) and Internet Access
+    Agencies shall access the Internet through the Commonwealth MAN. OA/IT shall:
+
+     •   Serve as primary point of contact for Internet access through the Commonwealth’s Network, as
+         well as the Commonwealth’s point of contact with the Commonwealth’s Internet access
+         providers.
+    •    Oversee development, implementation, and operation of a plan for interagency network security.
+    •    Direct security assessments of agency Information Technology (IT) resources that connect to
+
+                                                                                      Page 1 of 12
+
+  the MAN and audit agencies to ensure compliance as outlined in the Information Security
+  Policy.
+• Disconnect or otherwise render inaccessible any network that poses a security risk to the
+  Commonwealth's enterprise network until it is determined that the risk has been adequately
+  mitigated.
+• Maintain centralized registration, management, and distribution of Internet protocol (IP)
+  addresses as detailed in section 5.5 of this policy.
+• Maintain domain naming standards, registration, device naming standards, management, desktop,
+  and server configuration as detailed in section 5.7 of this policy.
+
+  5.1.1 DIA and SD-WAN Technologies
+  Agencies or providers utilizing Direct Internet Access (DIA) and Software-Defined Wide Area
+  Network (SD-WAN) technologies with connectivity back to the Commonwealth enterprise
+  network must deploy and maintain solutions that adhere to the following requirements:
+
+   •    Provide the Office of Administration, Enterprise Technology Services Office (OA/ETSO)
+        and OA/EISO with accurate network diagram(s) for review and approval prior to
+        deployment and/or service redesign via the enterprise change management process. These
+        diagram(s) must contain complete IP network information showing locations and
+        connectivity to the agency, public, managed vendor point of presence, networks, and any
+        network and security control devices that govern the traffic.
+   •    Maintain current diagrams for audit and approval. The designs including these diagrams
+        must be provided to OA/IT for audit and approval via the enterprise change management
+        process.
+   •    Provide access for OA/IT to review SD-WAN device configurations.
+   •    Provide access for OA/IT to review traffic and configuration change logs.
+   •    Traffic logs must include:
+          o Uniquely identifying client device and/or user information.
+   •    Device change logs must include:
+          o UserID
+          o Time of login
+          o Modification performed (include customer change request/ticket number).
+          o Source IP of userID indicated above.
+   •    Follow Cyber Security Incident reporting procedures as defined in the IT Security Incident
+        Reporting Policy.
+   •    Utilize only Managed Devices for delivery of the services.
+   •    Provide properly configured and activated intrusion detection and prevention services.
+   •    Provide content filtering capability and properly configure content filter in compliance with
+        the Firewall Policy.
+   •    Prohibit all cross-VRF traffic except where explicitly allowed by the enterprise IT policies.
+
+  5.1.2 Connectivity Requirements
+  Agencies or providers deploying or operating DIA connections with connectivity to the
+  Commonwealth must deploy solutions that adhere to the following requirements:
+
+    •   All devices connecting to the Commonwealth must be maintained on dedicated VRF
+
+                                                                                Page 2 of 12
+
+         network(s) at the remote location.
+     •   A site-to-site tunnel must be established from the SD-WAN device at the DIA location to a
+         head-end device located within a Commonwealth Point of Presence (CPOP).
+     •   The CPOP-located head-end device may connect the dedicated VRF network(s) to the
+         appropriate corresponding agency, MAN, BP, or VRF.
+     •   Devices inside any Commonwealth VRF are prohibited from direct Internet connectivity
+         for any traffic via the DIA circuit or any other locally provided Internet connection without
+         explicit OA permission. Any traffic for the Commonwealth VRF that is not explicitly
+         permitted by OA to use the DIA must traverse the site-to- site tunnel and exit to the Internet
+         through the agency and Commonwealth enterprise networks. Requests for DIA routing of
+         traffic from this VRF must be submitted via the IT policy exception process. Refer to
+         Section 7 of this policy for guidance.
+     •   All configurations must comply with the provisions set forth in the Information Security
+         Policy.
+
+   5.1.3 Agency Direct Internet Access
+   Agencies may utilize DIA for devices that do not require any connectivity to the Commonwealth
+   enterprise network (e.g., credit card readers whose only connectivity is with the credit processing
+   service). Agencies or providers deploying services permitted under this use-case must deploy
+   solutions that adhere to the following requirements:
+
+     • Prohibit cross-connection between Commonwealth devices and the devices using this
+       service.
+     • Prohibit all connectivity between this network and any other local networks, including but
+       not limited to any public Internet access subnets.
+
+   Agencies shall ensure that all connections involving Commonwealth Data are logged somewhere
+   in the path from endpoint to endpoint under Commonwealth Control.
+
+5.2 Network Router and Switch Technology
+All Commonwealth router and switch technology implementations shall comply with this policy and
+the technology standards, protocols, requirements, and naming conventions specified in the Network
+Technology Standard.
+
+OA/IT/ETSO shall review and approve all router and switch designs, changes, implementations, and
+exceptions (if applicable), to document the currently installed base and to determine the risks
+associated with non-standard implementations.
+
+All requests for router and switch design changes and implementations, as well as all vendor
+solutions shall be submitted to OA/IT for review and approval. Requests shall be submitted to
+ens@pa.gov.
+
+Any new network devices not in compliance with this policy shall submit and obtain an approved IT
+Policy Exception against this policy prior to deployment of said network devices into an operational
+environment. Refer to section 7 for guidance on the exception process.
+
+Third-party vendors, licensors, contractors, or suppliers shall ensure all interfaces to the
+
+                                                                                    Page 3 of 12
+
+Commonwealth comply with this ITP.
+
+All components within third-party vendors, licensors, contractors, or suppliers’ network(s) that
+pertain to the products or services provided to the Commonwealth shall support the provisions
+outlined in this ITP. This is not intended to limit the technology used internally by the vendor.
+
+5.3 Wireless LAN Technology
+Agencies requiring a wireless LAN segment shall submit a request with the location via the IT
+Service Management Tool.
+
+Agencies under the governor’s jurisdiction shall use the centralized enterprise wireless service
+offering. Independent agencies occupying DGS owned facilities shall use the centralized enterprise
+wireless service offering as designed.
+
+All new wireless LAN technology implementations are required to comply with the standards
+outlined in Network Technology Standard and leverage the authentication method detailed in
+Wireless LAN Authentication Procedure.
+
+Any agency implementing its own Secure Wireless network shall ensure the network has been set up
+in compliance with Wireless Security Control Standards as well as NIST 800-97 Wireless security
+controls and NIST 800-53 Security and Privacy Controls for Information Systems and
+Organizations.
+
+Agencies shall comply with all ITPs, regulatory requirements, and laws pertaining to whatever data
+flows over their managed wireless networks.
+
+OA/IT/EISO may perform follow-up spot checks on all wireless networks on an as-needed basis.
+
+Agencies shall be responsible for:
+
+•   Obtaining appropriate quotes from OA/IT for WLAN devices (APs and wireless user devices.)
+•   Purchasing the WLAN devices.
+•   Ensuring agency managed wireless infrastructure complies with Wireless Security Control
+    Standards, NIST 800-97, and NIST 800-53 at the time of initial setup, as well when changes are
+    made to the wireless network.
+•   Submitting and maintaining the name of an individual who will be responsible for creating Guest
+    Wireless accounts as the Lobby Ambassador for Guest Wireless via a ServiceNow request.
+
+OA/IT/ETSO shall be responsible for:
+
+•   Managing and maintaining the centralized wireless platform.
+•   Reviewing service requests related to implementing WLAN segments.
+•   Ensuring the appropriate SSID is provided to the specified location based on business need.
+•   Maintaining a current list of compatible hardware and IOS levels for wireless deployments.
+•   Performing follow-up spot checks on all wireless networks on an as-needed basis.
+
+Third party vendors, licensors, contractors, or suppliers shall:
+• Adhere to the requirements of this policy that are applicable to the products and services
+
+                                                                                 Page 4 of 12
+
+    provided to the Commonwealth.
+•   Follow the standards listed in the Network Technology Standard excluding utilizing the
+    Enterprise Centralized wireless Controller solution(s).
+
+5.4 Telecommunications Services for Commonwealth Business Partners
+Business partners shall be sponsored by agencies. A description of the business partner’s service
+requirements shall be submitted to the OA/IT at ens@pa.gov for review and approval. Agencies shall
+expect that OA/OIT will periodically audit any existing business partner connections to obtain or
+update the required information.
+
+All services provided to a business partner shall be used solely for the business partner’s support of
+its business activities associated with the Commonwealth as agreed upon between the sponsoring
+agency and business partner.
+
+Appropriate route filtering shall be maintained for all business partners.
+
+Business partners shall limit routing to only the required networks or IPs within the Commonwealth.
+The Commonwealth reserves the right to review and require adjustment to routing as necessary.
+
+A new service request is always required when engaging in new Business Partner connections. This
+permits ETSO to review bandwidth requirements that may impact the OA MAN to OA Business
+Partner network connectivity
+
+    5.4.1 Telecommunications Services Provided for Business Partners
+    All voice and data services, except for the Commonwealth’s Internet, are available to business
+    partners. A business partner may only be granted access to the Commonwealth’s Internet in
+    certain instances where agreed upon by OA/ETSO and OA/EISO. In all other scenarios, business
+    partners shall procure their own Internet connection through the Commonwealth’s
+    Telecommunications Service Provider (TSP) or the provider of their choice.
+
+    All directly connected business partners, for security purposes, shall access the Commonwealth
+    data network through the designated business partner network provided by the Commonwealth,
+    and will be logically routed by Commonwealth-assigned Internet protocol addresses to the
+    enterprise business partner routers and firewalls. Business partner firewall additions, changes,
+    and deletions are subject to standard intervals per the ITSM Change Management process and
+    shall be submitted by authorized agency security personnel using the ITSM Service Request
+    process.
+
+    Business partner routing additions, changes, and deletions require a minimum seven- business
+    day turnaround and shall be submitted by authorized agency network personnel to ETSO through
+    a service request process.. ETSO will review the request and assign to the appropriate vendor
+    support network management. Questions can be directed to ens@pa.gov
+
+    Emergency requests for both security and routing will be handled on a case-by-case basis.
+
+    The Commonwealth does not automatically provide business partner redundancy. It is an option
+    that can be ordered and provisioned through the requesting agency and the Commonwealth’s
+    service provider.
+
+                                                                                  Page 5 of 12
+
+5.4.2 Business Partner-to-Business Partner Communications
+Business partner-to-business partner communications are not recommended, and use shall be
+limited to Commonwealth-only business. Commonwealth agencies shall submit a written request
+for direct business partner-to-business partner communications to ens@pa.gov for review and
+approval. The request shall be based on specific requirements to conduct Commonwealth-only
+business.
+
+Business partners participating in business partner-to-business partner communications shall use
+ETSO provided network addressing that is not routable to the Internet.
+
+Devices equipped with dual or multiple network interface adapters shall maintain non- routable
+network addressing assigned by the Commonwealth.
+
+5.4.3 Business Partner Co-Location
+Agencies considering sponsoring a business partner connection through a Commonwealth
+business partner Co-Location facility shall engage ETSO by means of a service request at the
+onset or as early as possible to provide or collaborate on requirement, contractual, and
+governance details regarding the prospective relationship. Questions can be directed to
+ens@pa.gov.
+
+A business partner may order intrastate or interstate data service from any local exchange carrier
+of its choice. Information regarding local carrier connectivity is available by contacting ETSO.
+The service shall terminate and enter through the OA/OIT-established business partner co-
+location networks. Business partners connecting in this manner shall be required to provide their
+own equipment. Prior to placing orders for data services, the business partner and sponsoring
+agency shall confer with ETSO regarding cabling infrastructure at the co-location and its
+facilities.
+
+5.4.4 Business Partner site to site VPN
+In addition to this policy, business partner VPN connectivity is governed by the following ITPs:
+  •   Information Security Policy
+  •   Firewall Policy
+  •   Encryption Policy
+
+Business partners shall utilize the Commonwealth’s site-to-site VPN solution unless otherwise
+reviewed and approved by ETSO and EISO prior to implementation..
+
+Business partner or carrier publicly registered addressing is permitted as long as it is not in use
+elsewhere.
+
+5.4.5 Business Partner Security and Standards
+The Commonwealth will not provide network security for business partners connected to the
+Commonwealth’s business partner network. Network security is the sole responsibility of
+business partners.
+
+It is recommended that business partners implement appropriate industry standard security
+solutions, policies and procedures to ensure enterprise security compliance. Firewalls, access
+
+                                                                                 Page 6 of 12
+
+   control lists on routers, and anti-virus protection solutions are considered minimum required
+   security standards. Additional security measures that business partners deem prudent are also
+   acceptable and recommended.
+
+   Business partners are expected to prevent any security breaches or other negative impacts to the
+   Commonwealth.
+
+   The business partner’s sponsoring agency Information Security Officer (ISO) is responsible for
+   coordinating and leading Commonwealth related cyber incident response when an incident
+   involves the Commonwealth network or the Commonwealth business partner. As part of an
+   incident response, the ISO shall prescribe the necessary incident management steps that may
+   include, but are not necessarily limited to, disconnecting a system from the network, confiscating
+   hardware for evidence, or providing information for investigative purposes.
+
+   Incidents involving the unauthorized or accidental modification, destruction, disclosure, loss,
+   damage, misuse, or access to information technology resources, such as, but not limited to,
+   systems, files, and databases, shall promptly be reported according to the process and timeframes
+   set out in the IT Security Incident Reporting Policy.
+
+   5.4.6 Business Partner Ordering, Billing and Support
+   Sponsoring agencies must maintain business and technical contacts for all business partner
+   relationships and provide upon request by the enterprise.
+
+   Voice and data services for business partners can be ordered by the sponsoring agency through
+   the Commonwealth Telecommunications Services Contract or may be procured by the business
+   partner in coordination with OA/OIT.
+
+   Support is available to Commonwealth business partners under the following conditions:
+
+      •   The business partner shall provide contact names to the sponsoring agency.
+      •   The sponsoring agency shall provide the authorized business partner contact names to the
+          Commonwealth’s TSP.
+      •   The sponsoring agency will provide help desk procedures to the business partner.
+      •   Emergency or outage related help desk support is provided by the Commonwealth’s TSP.
+      •   Routine requests for assistance and configuration changes shall be directed to the
+          sponsoring agency.
+
+5.5 Internet Protocol Address Standards
+This policy assigns sole responsibility for the registration, management, and distribution of Internet
+Protocol (IP) addresses for all internal resources and external connections to the Commonwealth
+Enterprise Network to OA/IT.
+
+ETSO shall maintain the American Registry of Internet Numbers (ARIN) assigned and Request for
+Comment (RFC1918 and IANA-Reserved IPv4 Prefix for Shared Address Space (RFC6598) IP
+Address inventory.
+
+IP addresses include Internet non-routable addresses (RFC1918), Public Network addresses,
+
+                                                                                  Page 7 of 12
+
+Multicast (RFC1112), Prefix for Shared Address Space (RFC6598), and IPv6 (internal and
+registered) addresses.
+
+Agencies shall not obtain IP addresses of any kind, except for instances where those addresses are
+part of a third-party service offering.
+
+All ARIN assigned IP addresses, if any, for agencies or organizations that are a part of the
+Commonwealth Enterprise shall be transferred to the Commonwealth Enterprise. All requests for
+future addresses from ARIN shall be routed through the Commonwealth Enterprise team.
+
+RFC 1918 address space shall be used by all entities connecting to the Commonwealth network
+unless otherwise required for functionality.
+
+Agencies that need to request IP Addresses shall submit a request via the IT Service Management
+Tool, by selecting the following options:
+
+   Global Service Catalog Category: Network Subcategory: Service Service: IP Address
+If access to the IT Service Management tool is not available, agencies shall e-mail their requests to
+ETSO at ens@pa.gov, which will assign the IP addresses to the requesting agency.
+
+Requests for addressing shall include details of the intended use and purpose for the quantity and type.
+
+The following table outlines internet protocol roles and responsibilities for agencies, OA/IT and
+Third-Party Vendors:
+                                                        Agency/              OA/IT         Third-Party
+      Service and Operational Requirements              Delivery            Enterprise       Vendor
+                                                        Centers
+ Request IP addresses from ETSO. (Provide
+ design, number of addresses, and
+ required date.)                                              X                 X                  X
+
+ Issue blocks of address space as required.                             X                 X
+
+ Add appropriate routing information.               X                   X                 X
+
+ Return all IP address space back to ETSO.          X                   X                 X
+
+ Retain IP Address inventory pool for future
+ needs.                                                                 X
+
+                                                                                    Page 8 of 12
+
+5.6 Network Timing Protocol
+
+   5.6.1 On-Premise
+   The Commonwealth network Enterprise NTP servers are owned by the Statewide Radio
+   Network Division of the Pennsylvania State Police. The current NTP design is supported by
+   eight (8) geographically diverse Stratum 1 devices. All COPANET core devices are managed
+   by the OA/IT and are synchronized with these Stratum 1 clocks. These services are available via
+   the agency’s COPANET connection.
+   Enterprise and Agency devices on the Commonwealth network shall synchronize time at least
+   once every twenty-four hours, with the following methodology:
+   •       Pull NTP from COPANET for core and gateway devices by means of default gateway or
+           NTP.PA.GOV (DNS name preferred).
+   •       Point downstream devices to core devices.
+   •       Devices may, at Agency or Enterprise discretion, be configured to use some other local
+           server(s) for NTP in order to reduce NTP traffic leaving any particular network. Any local
+           servers used shall pull NTP from core or gateway devices.
+
+   The procedures below shall be followed to configure the NTP server for Enterprise
+   synchronization via the agency’s COPANET gateway:
+
+       1. NTP server xxx.xxx.xxx.xxx
+
+       2. Agency firewall changes may also be required to allow NTP traffic out. Refer to the
+            Firewall Policy for guidance.
+
+       3. Agencies can validate settings using this command to show associations: #MAN
+
+            DOH1A>sh ntp associations
+
+               address                ref clock        st when poll reach delay offset         disp
+            *~xxx.xxx.xxx.xxx xxx.xxx.xxx.xxx          2      68     256 377 11.202 -34.664    1.174
+            +~xxx.xxx.xxx.xxx xxx.xxx.xxx.xxx          2     127 256 377 16.808 -32.243        1.626
+             * sys.peer, # selected, + candidate, - outlyer, x falseticker, ~ configured
+
+   5.6.2 Cloud
+   Agencies utilizing Cloud solutions under Commonwealth enterprise control are advised that
+   time synchronization is available via the gateway to the network on the assets that reside in the
+   Cloud solution.
+
+   All cloud devices, both Enterprise and agency, shall synchronize time at least once every
+   twenty-four hours, with the following methodology:
+
+       •     Pull NTP from the local gateway.
+
+   5.6.3 Additional Information
+   When performing a technology refresh or implementing new technology, agencies are highly
+   encouraged to seek technology that can support the use of DNS entries for NTP time sources.
+                                                                              Page 9 of 12
+
+     If an agency component only supports hardcoded IPs rather than using DNS entries, the agency
+     shall be responsible for coordinating with ETSO to maintain the current IPs, as they may
+     periodically change.
+
+     Agencies shall contact ETSO via ens@pa.gov if they have any questions or require assistance.
+     Alternatively, a request can be submitted via the Commonwealth ITSM tool by selecting the
+     following:
+          Bureau of Infrastructure & Operations Enterprise Network Services Network Management
+          NTP Request
+
+     Third-party vendors, licensors, contractors, or suppliers shall:
+
+     •     Utilize the Commonwealth’s time sources on all systems on the Commonwealth Network or
+           residing in the Commonwealth’s Cloud offerings for which time synchronization is their
+           responsibility.
+     •     Utilize reliable time servers provided by their local networks (when operating on external
+           networks).
+
+5.7 External and Internal Domain Name Services (DNS)
+OA/IT has the responsibility and authority to maintain the DNS infrastructure and centrally manage
+DNS names for the Commonwealth’s external and internal domains.
+
+OA/IT shall resolve all DNS queries not resolved by Commonwealth Domain Controllers and
+delegate zones as necessary to other authorities.
+
+OA/IT shall block DNS resolution for domains that are considered cybersecurity threats or any
+other risk.
+
+The following personnel or delegates hold decision rights to block a domain:
+ •       Commonwealth Chief Information Officer.
+ •       Commonwealth Chief Information Security Officer; and
+ •       Commonwealth Chief Technology Officer.
+
+All DNS service requests shall be submitted through the Enterprise IT Service Management
+(ITSM) tool, following the DNS Record Service Request Procedure. An approved Domain Request
+Form may also be required, as outlined in Section 5.7.2. If required, the approved form shall be
+included with the DNS service request.
+
+OA/IT may decline unacceptable DNS service requests if the requests do not adhere to this policy.
+OA/IT will work with the requester to resolve declined requests.
+
+Requests for DNS changes shall be submitted at least five (5) business days in advance. The
+
+following are the types of DNS requests:
+ •       Request assistance to migrate non-Commonwealth, non-compliant, and/or non-restricted
+         domains (.com, .net, .org, etc.) to PA.GOV.
+ •       Request a DNS Zone or Record
+ •       Modify or delete a DNS Zone or Record
+                                                                                  Page 10 of 12
+
+ •       DNS troubleshooting
+
+     5.7.1 DNS Design Standards
+     Agencies shall adhere to the internal and external design standards for DNS as detailed in
+     DNS Design Standard.
+
+     5.7.2 Governance Requirements
+     For new PA.GOV-based DNS Records, agencies shall obtain approval from the Governor’s
+     Office via the agency digital director prior to submitting a request for DNS Record
+     provisioning. Agencies shall use Domain Request Form to request and obtain approval from the
+     Governor’s Office.
+
+     If obtaining a new or modifying a non-PA.GOV DNS Record, agencies shall:
+
+     •    Obtain Governor’s Office approval via Domain Request Form.
+     •    An IT Policy Exception against this ITP shall be approved prior to submitting a request for
+          DNS Record provisioning. The approved Domain Request Form shall be submitted as part
+          of the exemption request.
+
+5.8 Satellite Services & Equipment
+Agencies choosing to utilize satellite equipment and services shall adhere to the guidance and
+responsibilities listed in this policy as well as any other policies that may be applicable to their
+specific use case.
+
+Allocation of satellite equipment and services shall be determined as operationally necessary by the
+agency personnel responsible for the management of satellite technology.
+
+Telephone numbers for satellite devices shall be unlisted and shared for business-related purposes
+only. Employees shall not place satellite telephone numbers on their business cards.
+
+     5.8.1 Stationary or Vehicle Mounted Satellite Implementations
+     Agencies who are utilizing satellite equipment and services for Direct Internet Access (DIA) or
+     to connect to the Commonwealth Enterprise Network shall adhere to the requirements
+     established in section 5.1 of this policy.
+
+     5.8.2 Satellite Video & Media
+     Agencies shall coordinate with Commonwealth Media Services (CMS) for all satellite
+     television, video, and broadcasting services in accordance Management Directive 220.1
+     Amended, Commonwealth Media Services.
+
+5.9 Cable/Satellite Television Services
+Commonwealth Media Services (CMS) manages the CATV infrastructure in the Commonwealth’s
+Capitol Campus Complex and several Commonwealth owned buildings. CMS provides consulting
+and engineering design services that enable agencies to use the Commonwealth’s CATV services.
+Agencies can use the services to view or broadcast content such as live or taped video or
+multimedia.
+
+Agencies seeking CATV services shall review the information provided at https://pacast.com/catv/
+and contact CMS at gssvccmsrequest@pa.gov to determine whether CATV services through CMS
+                                                                             Page 11 of 12
+
+   are available for their location. If CMS CATV services are available for their location, agencies
+   may utilize those services.
+
+   CATV wiring and installation services are provided by vendors on state contract at the expense of
+   the agency. The agency’s selected vendor shall meet with CMS staff to survey the physical location
+   and review technical specifications before work begins.
+
+   Agencies shall contact CMS to obtain television compatibility information.
+
+6. Contact
+Questions or comments may be directed via email to OA, IT Policy.
+
+7. Exception from Policy
+In the event an agency chooses to seek an exception from this policy, a request for a policy exception
+shall be submitted via the enterprise IT policy exception process. Refer to IT Policy Governance Policy
+for guidance.
+
+8. Revision History
+This chart contains a history of this publication’s revisions. Redline documents outline the revisions and
+are available to Commonwealth users only during the drafting process.
+ Versi        Date           Purpose of Revision
+ on
+ Original 01/06/2025 Base Document
+ Revision    01/16/2026 •      Removed content that was duplicated in applicable security
+                               policies.
+                           •   VDI standards document to be rescinded, content was
+                               relocated to the Desktop and Laptop Operating Systems
+                               Standard.
+                           •   Added additional requirements related to logging for DIA/SD-
+                               WAN.
+                           •   Clarified independent agencies occupying DGS owned
+                               facilities should use the enterprise wireless service offering.
+                           •   Added requirements related to Business Parter routing, route
+                               filtering, and use of the Commonwealth’s site-to-site VPN.
+                           •   Added requirement related to the use of RFC 1918 address space and
+                               clarified what should be included in requests for addressing.
+                           •   Removed content related to the cost of satellite devices.
+                           •   Moved policy around mobile satellite devices to the Mobile Device
+                               Policy
+                           •   Other minor clarifications and language updates.
+
+                                                                                      Page 12 of 12
+
+## Curator notes
+
+Text extracted with pdftotext -layout (page headers, footers and column layout kept as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their letters).

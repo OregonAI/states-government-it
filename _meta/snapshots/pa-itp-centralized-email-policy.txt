@@ -1,0 +1,109 @@
+                             Centralized Email Policy
+
+       Effective Date:                                           Category:
+       November 13, 2025                                         Platform
+
+       Scheduled Review:
+       November, 2026
+
+1. Authority
+Executive Order 2016-06, Enterprise Information Technology Governance
+
+2. Document Control
+This policy replaces, in its entirety, the Centralized Email Policy, dated January 6, 2025.
+
+3. Purpose
+The purpose of this Information Technology Policy (ITP) is to establish that the Office of
+Administration, Office for Information Technology (OA/IT) maintains a centralized
+enterprise email system.
+
+4. Scope
+This policy applies to all offices, departments, boards, commissions, and councils under the
+Governor’s jurisdiction and any other entity connecting to the Commonwealth Network
+(hereinafter referred to as "agencies").
+
+5. Policy
+For definitions of terms found within this document, refer to the IT Policy Glossary.
+
+Agencies shall use the centralized email system for email communications.
+
+Agencies utilizing the Commonwealth Metropolitan Area Network shall use the email filtering
+solution provided by the Commonwealth's Telecommunication Contract. This includes
+Agencies that have obtained an IT policy exception and are maintaining email servers that are
+not part of the Commonwealth active directory forest.
+
+The centralized email system operations shall be managed by the Office of Administration,
+Office for Information Technology, Enterprise Technology Services Office (OA/OIT/ETSO).
+
+There is no requirement for a Commonwealth email account to be assigned if an employee or
+
+                                                                                              Page 1 of 3
+
+contracted resource does not require Commonwealth email services for their normal job duties.
+
+   5.1 Exchange Configurations and Basic Settings
+   IT Administrators shall follow guidance on usage limits, detailed at:
+   https://docs.microsoft.com/en-us/office365/servicedescriptions/exchange- online-
+   service-description/exchange-online-limits
+
+   5.2 Email Message Size
+   IT Administrators across the Commonwealth shall configure the email message
+   maximum size to thirty-five megabytes (35 MB). Agencies needing to share files larger
+   than 35 MB are encouraged to use an alternate file sharing service (i.e. OneDrive).
+   Exemptions may be requested where a business need exists. Agencies needing an
+   exception to the maximum message size shall obtain an approved policy exception as
+   detailed in section 7.
+
+   5.3 Personal Storage Table (PST) Requirement
+   IT Administrators across the Commonwealth shall deploy configurations that do not
+   allow users to create nor open .PST files. Agency personnel who are required to utilize
+   .PST files, due to business requirements, must obtain an approved IT policy exception.
+   Exception requests shall include the Commonwealth personnel’s CWOPA user ID. A
+   business justification for allowing the creation of .PST files shall also be provided. Refer
+   to Section 7 for guidance on the exception process.
+
+   5.4 Bulk Email
+   The use of the centralized email solution for bulk mail can negatively impact service, including
+   the risk of being blacklisted as a spammer, which would also impact business email. Therefore,
+   the centralized email system shall not be used to send bulk email. All bulk email must be
+   distributed through an approved Commonwealth bulk email service. The following requirements
+   shall also apply:
+
+        5.4.1 Subscribing and Opting Out
+        • All external mailing lists must use a double opt-in process to confirm recipient consent
+            to receive such emails.
+        • All non-mandatory bulk communications shall include a clear and functional
+            unsubscribe mechanism.
+        • Distribution lists shall be regularly reviewed and maintained to remove inactive,
+            bounced, or unengaged addresses.
+
+        5.4.2 Content Standards
+        • Subject lines must be clear, accurate, and free of spam-associated terms, excessive
+            capitalization, or repeated punctuation.
+        • Emails shall comply with industry standards for formatting and coding, including the
+            provision of both HTML and plain-text versions.
+        • Attachments, Flash, JavaScript, and other non-standard code are prohibited in bulk
+            email.
+        • All bulk emails shall include a valid physical address to support sender authentication
+            and compliance with applicable regulations.
+                                                                                             Page 2 of 3
+
+6. Contact
+Questions or comments may be directed via email to OA, IT Policy.
+
+7. Exception from Policy
+In the event an agency chooses to seek an exception from this policy, a request for a policy
+exception shall be submitted via the IT policy exception process. Refer to IT Policy
+Governance for guidance.
+
+8. Revision History
+This chart contains a history of this publication’s revisions. Redline documents outline the
+revisions and are available to Commonwealth users only during the drafting process.
+
+ Version     Date           Purpose of Revision
+ Original    01/06/2025     Base Document
+ Revision    11/13/2025     Updated to allow exceptions to the maximum message size
+                            where a business need exists.
+                            Added section regarding bulk email.
+
+                                                                                               Page 3 of 3

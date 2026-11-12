@@ -1,0 +1,290 @@
+                           Commonwealth of Pennsylvania
+                                Governor's Office
+
+Subject:                                       Number:
+Approving, Monitoring, and Accounting for      310.37
+New Information Technology Application
+Projects
+
+Date:                                          By Direction of:
+
+July 20, 2012                                  Kelly Powell Logan, Secretary of
+                                               Administration
+
+                                               Charles B. Zogby, Secretary of the Budget
+
+Contact Agency:
+Office of Administration, Office for Information Technology, Enterprise Project
+Management Office, Telephone 717.214.0048
+Office of the Budget, Office of Comptroller Operations, Bureau of Planning and
+Management, Telephone 717.787.6496
+
+          This directive establishes policy, responsibilities, and
+          procedures for approving, monitoring, and accounting for
+          new information technology (IT) application projects.
+
+1. PURPOSE.      To establish policy, responsibilities, and procedures for approving,
+   monitoring, and accounting for new IT application projects.
+
+2. SCOPE.
+
+   a. This directive applies to all departments, boards, commissions, and councils
+      (hereinafter referred to as “agencies”) under the Governor’s jurisdiction.
+
+   b. This directive applies to IT application projects with a total budget greater than or
+      equal to $250,000. Agencies may follow the procedures in this directive to
+      establish SAP accounting codes for monitoring commitments and expenditures for
+      IT application projects with total budgets of less than $250,000.
+
+   c. Existing IT application projects and those in development as of the publication of
+      this directive are exempt from the provisions of this directive.
+
+Management Directive 310.37                                                   Page 1 of 6
+
+3. OBJECTIVES.
+
+   a. To ensure the Office of Administration, Office for Information Technology
+      (OA/OIT) has the ability to monitor IT application project objectives, budgets, and
+      expenditures centrally in order to carry out its responsibilities in accordance with
+      Executive Order 2011-05, Enterprise Information Technology Governance.
+
+   b. To increase the transparency of IT application project commitments and
+      expenditures and improve reporting capabilities for such expenditures, consistent
+      with the Governor’s reform agenda.
+
+   c. To establish a standard for recording IT application project commitments and
+      expenditures.
+
+4. DEFINITIONS.
+
+   a. Information Technology (IT) Application Project.            A planned effort for
+      software development, replacement, change or modernization that has defined
+      start and end dates. IT application projects include, but are not limited to,
+      custom builds of new applications; procurement and implementation of off-the-
+      shelf software products (with or without customization); procurement of Software
+      as a Service (SaaS) solutions; targeted alterations to the technical function,
+      quality, documentation and structure of applications; targeted technical and
+      functional improvements to extend the useful life of existing applications and the
+      reuse of existing application functionality.
+
+   b. Internal Order Group Hierarchy.             An SAP accounting system tool for
+      categorizing internal order numbers with common attributes (i.e., “groups”). A
+      hierarchy facilitates reporting and analysis of costs at the group level, as opposed
+      to the individual internal order number level.
+
+   c. Internal Order Number. An SAP accounting code used to plan, collect, monitor,
+      and settle the actual costs of specific operations or tasks performed. Nongrant
+      internal order numbers are used to record state expenditures; federal grant
+      internal order numbers are used to record expenditures related to federal grant
+      programs and the state match associated with federal grants (if a state match is
+      required).
+
+   d. State Match. The amount of money or percentage of costs contributed by a
+      state as a requirement for the receipt of federal grant funding.
+
+5. POLICY.
+
+   a. IT application projects with a total budget greater than or equal to $250,000 must
+      be approved and monitored centrally by OA/OIT.
+
+   b. Accounting entries for IT application project commitments and expenditures must
+      include the internal order number(s) associated with the project. IT application
+      project internal order numbers must be designated as real internal order numbers
+      in SAP.
+
+Management Directive 310.37                                                  Page 2 of 6
+
+   c. IT application project internal order numbers shall be managed in an SAP internal
+      order group hierarchy. The internal order group hierarchy must be updated for
+      additions, deletions, or changes to IT application project internal order numbers.
+
+6. RESPONSIBILITIES.
+
+   a. Agency.
+
+      (1) Determine the applicable funding source(s) (state, federal, or both) for IT
+          application projects and request appropriate internal order number(s) upon
+          project approval by OA/OIT.
+
+      (2) Establish procedures for agency IT and budget/fiscal personnel to coordinate
+          requests for internal order numbers.
+
+      (3) Ensure each request for IT application project internal order numbers
+          includes an approved OA/OIT project request form.
+
+      (4) Ensure all IT application project expenditures are coded to the appropriate
+          internal order numbers.
+
+      (5) Respond to inquiries from OA/OIT regarding IT application projects, including
+          project performance, objectives, budgets, commitments, and expenditures.
+
+   b. Office of Administration, Office for Information Technology.
+
+      (1) Notify the agency when an IT application project has been approved.
+
+      (2) Monitor IT application projects, including project performance, objectives,
+          budgets, commitments, and expenditures.
+
+      (3) Update the SAP internal order group hierarchy for additions, deletions, or
+          changes to IT application project internal order numbers.
+
+      (4) Ensure each internal order in the SAP internal order group hierarchy
+          corresponds to only one IT application project.
+
+      (5) Direct agencies on the IT portfolio management process, including
+          monitoring project performance, consolidation and integration of common IT
+          business functions, project management methodologies and principles, and
+          required business process reviews.
+
+   c. Office of the Budget, Office of Comptroller Operations.
+
+      (1) Bureau of Financial Management (BFM).
+
+           (a) Review and process requests to create nongrant internal order
+               numbers.
+
+           (b) Notify the requesting agency and OA/OIT when a nongrant internal
+               order number has been created for an IT application project.
+
+Management Directive 310.37                                                 Page 3 of 6
+
+           (c)   Notify the Bureau of Commonwealth Accounting (BCA), Federal
+                 Accounting Division of any agency request that requires a federal grant
+                 internal order number.
+
+      (2) Bureau of Commonwealth Accounting (BCA), Federal Accounting
+          Division.
+
+           (a) Review and process requests to create federal grant internal order
+               numbers.
+
+           (b) Notify the requesting agency and OA/OIT when a federal grant internal
+               order number has been created for an IT application project.
+
+7. PROCEDURES.
+
+   a. IT Application Project Approval.
+
+      (1) Action By: Agency. Complete a project request form and submit the form
+          to OA/OIT.
+
+      (2) Action By: Office of Administration, Office for Information
+          Technology.       Assess the project request form, complete the project
+          approval section of the form, indicating OA/OIT approval or disapproval and
+          return it to the agency.
+
+           NOTE: If approved, ensure the appropriate approving officials have signed
+           the project request form and the project number assigned in the SAP
+           internal order group hierarchy is noted on the form.
+
+      (3) Action By: Agency. For approved projects, submit a request to establish
+          the appropriate internal order number(s) based on the project funding
+          source (Refer to sections 7b through 7e of this directive).
+
+   b. State Funding Only.
+
+      (1) Action By: Agency.
+
+           (a) Prepare a master data request form for a nongrant internal order
+               number.
+
+           (b) Submit the master data request form and the approved OA/OIT project
+               request form to the BFM master data email resource account (ra-co-
+               bfm-mastrdata@pa.gov).
+
+      (2) Action By: Office of the Budget, Office of Comptroller Operations,
+          Bureau of Financial Management.
+
+           (a) Verify the agency request includes the approved OA/OIT project
+               request form and does not duplicate an existing nongrant internal order
+               number. Contact the agency to resolve any issues regarding these
+               requirements before proceeding.
+
+Management Directive 310.37                                                 Page 4 of 6
+
+           (b) Create the new nongrant internal order number and notify the
+               requesting agency and OA/OIT.
+
+      (3) Office of Administration, Office of Information Technology. Upon
+          receiving notification from BFM, add the nongrant internal order number to
+          the SAP internal order group hierarchy in accordance with the procedures for
+          SAP transaction code KOH2, Change Order Group.
+
+   c. Federal Funding Only.
+
+      (1) Action By: Agency. Contact BCA, Federal Accounting Division and submit
+          the required documentation, including the OA/OIT approved project request
+          form, to request a federal grant internal order number.
+
+      (2) Action By: Office of the Budget, Office of Comptroller Operations,
+          Bureau of Commonwealth Accounting, Federal Accounting Division.
+
+           (a) Verify the agency request includes the approved OA/OIT project
+               request form. Contact the agency to resolve any issues regarding this
+               requirement before proceeding.
+
+           (b) Create the new federal grant internal order number in accordance with
+               internal order processing procedures and notify the requesting agency
+               and OA/OIT.
+
+      (3) Office of Administration, Office of Information Technology. Upon
+          receiving notification from BCA, Federal Accounting Division, add the federal
+          grant internal order number to the SAP internal order group hierarchy in
+          accordance with the procedures for SAP transaction code KOH2, Change
+          Order Group.
+
+   d. State and Federal Expenditures (State Expenditures Recorded as a State
+      Match). When an IT application project includes state and federal expenditures
+      and the state expenditures will be recorded as a state match, a nongrant internal
+      order number is not required. Follow the procedures in section 7c of this directive
+      to request a federal grant internal order number.
+
+   e. State and Federal Expenditures (State Expenditures Not Recorded as a
+      State Match).       When an IT application project includes state and federal
+      expenditures and a state match is not required, or state expenditures exist that
+      are not part of a state match, a nongrant internal order number is required.
+
+      (1) Action By: Agency.
+
+           (a) Prepare a master data request form for a nongrant internal order
+               number.
+
+           (b) Submit the master data request form and the approved OA/OIT project
+               request form to the BFM master data email resource account (ra-co-
+               bfm-mastrdata@pa.gov). Ensure the box is checked on the project
+               request form indicating that a federal grant internal order number is
+               also required.
+
+Management Directive 310.37                                                 Page 5 of 6
+
+      (2) Action By: Office of the Budget, Office of Comptroller Operations,
+          Bureau of Financial Management.
+
+           (a) Verify the agency request includes the approved OA/OIT project
+               request form and does not duplicate an existing nongrant internal order
+               number. Contact the agency to resolve any issues regarding these
+               requirements before proceeding.
+
+           (b) Create the new nongrant internal order number and notify the
+               requesting agency and OA/OIT.
+
+           (c)   Forward the request for the federal grant internal order number to BCA,
+                 Federal Accounting Division.
+
+      (3) Action By: Office of the Budget, Office of Comptroller Operations,
+          Bureau of Commonwealth Accounting, Federal Accounting Division.
+
+           (a) Contact the agency, if necessary, to resolve any issues regarding the
+               request before creating the federal grant internal order number.
+
+           (b) Create the new federal grant internal order number in accordance with
+               internal order processing procedures and notify the requesting agency
+               and OA/OIT.
+
+      (4) Office of Administration, Office of Information Technology. Upon
+          receiving notification from BFM or BCA, Federal Accounting Division, add the
+          nonfederal and federal grant internal order numbers to the SAP internal
+          order group hierarchy in accordance with the procedures for SAP transaction
+          code KOH2, Change Order Group.
+
+Management Directive 310.37                                                 Page 6 of 6

@@ -1,0 +1,197 @@
+---
+schema_version: 1
+corpus: states-government-it
+jurisdiction: pennsylvania
+id: pa-itp-records-management-policy
+title: Records Management Policy
+doc_type: policy
+citation: 'Commonwealth of Pennsylvania IT Policy: Records Management Policy'
+authority_level: ''
+issuing_body: Office of Administration, Office for Information Technology
+source_url: https://www.pa.gov/content/dam/copapwp-pagov/en/oa/documents/policies/it-policies/records%20management%20policy.pdf
+source_format: pdf
+retrieved: '2026-11-11'
+source_sha256: 319c4628da92b4f0e10690fa9ea1962f3c803defb357ecee44ad41090f139aba
+effective_date: '2026-01-13'
+source_version: ''
+status: current
+content_mode: verbatim
+conversion_notes: Text extracted with pdftotext -layout (page headers, footers and column layout kept
+  as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their
+  letters).
+last_verified: ''
+verified_by: ''
+maintainer: ''
+relationships:
+  implements: []
+  implemented_by: []
+  references_external: []
+  related: []
+  supersedes: []
+tags:
+- data
+---
+
+> **NON-AUTHORITATIVE.** This is a convenience copy for machine reading. The official text is published at the source URL above. Verify at source before relying on it.
+
+# Records Management Policy (Commonwealth of Pennsylvania IT Policy: Records Management Policy)
+
+## At a glance
+
+Information Technology Policy of the Office of Administration for agencies under the Governor's jurisdiction. Printed purpose: The purpose of this Information Technology Policy (ITP) is to establish the requirements for the management of Commonwealth records in electronic or digital formats. This ITP should be read and applied in conjunction with Management Directive 210.5, which establishes the Commonwealth of Pennsylvania State Records Management Program for records in all formats.
+
+## Full text
+
+                            Records Management Policy
+
+       Effective Date:                                                Category:
+       January 13, 2026                                               Information
+
+       Scheduled Review:
+       January 2027
+
+1. Authority
+Executive Order 2016-06, Enterprise Information Technology Governance
+
+2. Document Control
+This document replaces, in its entirety, the Records Management Policy, dated October 8, 2025.
+
+3. Purpose
+The purpose of this Information Technology Policy (ITP) is to establish the requirements for the
+management of Commonwealth records in electronic or digital formats. This ITP should be read and
+applied in conjunction with Management Directive 210.5, which establishes the Commonwealth of
+Pennsylvania State Records Management Program for records in all formats.
+
+4. Scope
+This policy applies to all offices, departments, boards, commissions, and councils under the Governor’s
+jurisdiction and any other entity connecting to the Commonwealth Network (hereinafter referred to as
+"agencies").
+
+5. Policy
+For definitions of terms found within this document, refer to the IT Policy Glossary.
+
+Agencies shall handle, retain, and dispose of electronic records in accordance with all applicable laws,
+regulations, directives, and policies. This includes adhering to the following established guidance for
+managing records under their control:
+
+•   Management Directive 210.5, The Commonwealth of Pennsylvania State Records Management
+    Program
+
+•   Manual 210.1 Amended, The Commonwealth of Pennsylvania Employee Records Management
+
+                                                                                    Page 1 of 4
+
+    Manual
+
+•   Manual 210.7, State Records Management Manual
+
+•   Manual 210.09, The Commonwealth of Pennsylvania General Records Retention and Disposition
+    Schedule
+
+When multiple retention requirements apply, the record shall be retained for the longest period, unless a
+law or regulation specifically mandates destruction or prohibits retention beyond a stated period.
+
+Third parties that host or manage systems on behalf of the Commonwealth shall adhere to all applicable
+provisions of this policy.
+
+    5.1 Records Management Requirements for Information Systems
+
+    Prior to implementing new or making major enhancements to existing Information Systems,
+    agencies, in coordination with their Agency Records Coordinator, shall:
+
+    •   Identify Records: Identify all records that the system will create, receive, or store, along with
+        the individual(s), organizational unit, or program responsible for their creation, management, and
+        maintenance throughout the records’ lifecycle. Document the roles and responsibilities of any
+        external vendors or service providers involved in records management, storage, or maintenance.
+
+    •   Determine Retention: Consult M210.09 Amended, The Commonwealth of Pennsylvania
+        General Records Retention and Disposition Schedule to determine whether the records that will
+        be contained in the system are already covered by the existing schedule or if an agency-specific
+        retention schedule must be developed. If additional guidance is needed agencies may contact the
+        Office of Continuity Records Information Management (OCRIM) at RA-OAERM@pa.gov or
+        the Pennsylvania Historical & Museum Commission at RA-STATERECORDSMGMT@pa.gov.
+
+    •   Ensure Long-Term Usability and Compatibility: Ensure the system will create and maintain
+        electronic records in formats that remain readable and usable over time and that electronic
+        records will not become unreadable due to format or software obsolescence. Additionally, ensure
+        the system supports the export or transfer of records and their associated metadata in a usable
+        format, so that records are not locked into a single platform indefinitely.
+
+    •   Capture Sufficient Metadata: Ensure the necessary metadata will be captured and maintained
+        to identify, locate, understand, and validate records throughout their lifecycle. Where feasible
+        agencies are encouraged to assign retention metadata to records (e.g., a “date of creation” and a
+        “retention rule” that triggers alerts or actions when the time is met).
+
+    •   Protect Against Unauthorized Access or Change: Identify controls that will be needed to prevent
+        unauthorized alteration or deletion of records. Additionally, agencies shall ensure records can only
+        be accessed by authorized users throughout their lifecycle.
+
+    •   Ensure Authorized Access, Accessibility, and Trustworthiness
+        Ensure that records will be able to be accessed by authorized users and that those needed for ongoing
+        operations or accountability and that the records remain accessible, reliable, and trustworthy
+        throughout their required retention period and any system transitions.
+
+                                                                                   Page 2 of 4
+
+   •   Enable Audit Logging: Ensure system audit logs will record who accessed, modified, or deleted a
+       record and when, and protect these logs from tampering.
+
+   •   Comply with Statutory/Regulatory Mandates: Ensure compliance with applicable statutes or
+       regulations prescribing retention of records.
+
+   •   Support Legal Holds: Agencies shall ensure there is a mechanism or process in to place and release
+       holds on records required for litigation, investigation, audit, or Right-to-Know Law requests,
+       preventing disposition while holds are active.
+
+   •   Implement Records Management Requirements: Ensure the identified records management,
+       retention, and disposition requirements are implemented in subsequent system design and
+       implementation activities.
+
+   5.2 Additional Requirements for Long Term Retention
+   If records within an Electronic Information System are scheduled for retention beyond ten (10) years
+   under their approved records retention and disposition schedule, agencies shall:
+
+   •   Conduct an electronic records review with the Agency Records Coordinator;
+
+   •   Complete an archival appraisal with the Pennsylvania Historical and Museum Commission
+       (PHMC), in accordance with Management Directive 210.5 Amended, The Commonwealth of
+       Pennsylvania State Records Management Program;
+
+   •   Demonstrate compliance with PHMC’s Guidance for Policy Regarding Agency Long Term
+       Records in Electronic Format and Policy Regarding Agency Long Term and Archival Records in
+       Electronic Format.
+
+        o   Electronic records retained long-term must be stored in PDF/A format unless the agency
+            receives approval from the State Archivist to use another format via the Request to Retain
+            Long Term Records in Electronic Form Other Than PDF/A.
+
+   Agencies may contact PHMC through the resource account RA-PHSTATERECORDSARC@pa.gov
+   to schedule the review.
+
+6. Contact
+Questions or comments may be directed via email to OA, IT Policy.
+
+7. Exception from Policy
+In the event an agency chooses to seek an exception from this policy, a request for a policy exception
+shall be submitted via the enterprise IT policy exception process. Refer to IT Policy Governance Policy
+for guidance.
+
+8. Revision History
+This chart contains a history of this publication’s revisions. Redline documents outline the revisions and
+are available to Commonwealth users only during the drafting process.
+
+                                                                                  Page 3 of 4
+
+Version    Date         Purpose of Revision
+Original   01/06/2025   Base Document
+
+Revision 10/08/2025     All references to the System Design Review Form and its use have been
+                        removed, as it is being rescinded.
+Revision 01/13/2026     Complete re-write of policy.
+                        All related supplemental documents are rescinded as part of this update.
+
+                                                                              Page 4 of 4
+
+## Curator notes
+
+Text extracted with pdftotext -layout (page headers, footers and column layout kept as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their letters).

@@ -1,0 +1,42 @@
+                       Executive Order
+                       Commonwealth of Pennsylvania
+                            Governor’s Office
+ Subject:                                   Number:
+ Enterprise Information Technology          2016-06, As Amended
+ Governance
+
+ By Direction of: Tom Wolf, Governor        Date: October 27, 2020
+
+WHEREAS,     Commonwealth agencies under the Governor’s jurisdiction (the
+             “Enterprise”) invest significant financial resources in obtaining, creating,
+             securing, and supporting the Commonwealth’s information technology
+             (“IT”) infrastructure and information systems; and
+
+WHEREAS,     it is essential that the Commonwealth utilize a central IT organization to
+             govern, evaluate, coordinate, and improve Enterprise and agency IT
+             planning, research, security, policy, governance, project prioritization,
+             investment, and effectiveness; and
+
+WHEREAS,     Sections 501 and 502 of the Administrative Code of 1929, 71 P.S. §§ 181,
+             182, require administrative departments and the several independent and
+             departmental administrative boards and commissions to coordinate their
+             work and activities with other departments, boards, and commissions; and
+
+WHEREAS,     IT investments and development efforts should be prioritized and
+             coordinated across Enterprise agencies to maximize efficiency and cost
+             effectiveness, by enhancing information sharing and system compatibility
+             through standardization, reducing expenditures for research and
+             development, and enabling volume hardware, software and service
+             purchases; and
+
+WHEREAS,     the Governor’s Office of Administration (“OA”) has confirmed that an
+             integrated IT strategy will improve organizational and operational efficiency,
+             streamline data collection and data sharing, and enhance the security
+             posture of the Commonwealth.
+
+NOW, THEREFORE, I, Tom Wolf, Governor of the Commonwealth of Pennsylvania, by virtue
+of the authority vested in me by the Constitution of the Commonwealth of Pennsylvania
+and other laws do hereby establish an Enterprise IT governance structure within OA, and
+order and direct as follows:
+
+Executive Order 2016-06, As Amended                                            Page 1 of 5
