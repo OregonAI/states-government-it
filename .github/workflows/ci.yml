@@ -89,6 +89,12 @@ jobs:
       # by scripts/regen.sh, like graph.json and STATUS.md (those two are template-gates' job above).
       - run: python3 src/build_llms.py --check
       - run: python3 src/build_changelog.py --check
+      # The 20 analyst questions against the hand-listed expected documents (src/eval_questions.py). Offline, the
+      # pinned toolkit's keyword leg only: it fails on an invalid expected file (a quote not in its document,
+      # an unknown or stub id, a missing question), on a baseline out of date with the expected files, and on
+      # a cell that passes in _meta/eval/baseline.json and no longer does. It does not fail on a low pass rate.
+      # The hybrid leg needs the embeddings and torch, which CI does not have; run it with --report.
+      - run: python3 src/eval_questions.py --check
       # Every committed snapshot .txt and document is re-derived offline from its raw
       # snapshot (src/ingest.py --check). The PDFs go through pdftotext, a system binary.
       #

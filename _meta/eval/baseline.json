@@ -1,0 +1,823 @@
+{
+ "mode": "keyword",
+ "cutoff": 5,
+ "query": "the question text as typed, one jurisdiction at a time",
+ "expected_fingerprint": "06064e92271507fbfc2c4360ea30a9429c334a211e1d30d340ef66cb3c825fb1",
+ "overall": {
+  "passed": 12,
+  "cells": 76
+ },
+ "per_state": {
+  "california": {
+   "passed": 5,
+   "cells": 20
+  },
+  "colorado": {
+   "passed": 1,
+   "cells": 18
+  },
+  "oregon": {
+   "passed": 1,
+   "cells": 19
+  },
+  "washington": {
+   "passed": 5,
+   "cells": 19
+  }
+ },
+ "cells": {
+  "california": {
+   "1": {
+    "passed": false,
+    "top": [],
+    "expected": [
+     "ca-gov-11545-11548"
+    ]
+   },
+   "2": {
+    "passed": false,
+    "top": [],
+    "expected": [
+     "ca-gov-11531-11544",
+     "ca-itpl-10-14",
+     "ca-gov-11545-11548",
+     "ca-sam-4900"
+    ]
+   },
+   "3": {
+    "passed": false,
+    "top": [
+     "ca-sam-4800"
+    ],
+    "expected": [
+     "ca-gov-11549-11549-10",
+     "ca-sam-5300",
+     "ca-eo-n-5-26"
+    ]
+   },
+   "4": {
+    "passed": false,
+    "top": [
+     "ca-sam-4800"
+    ],
+    "expected": [
+     "ca-gov-11549-11549-10"
+    ]
+   },
+   "5": {
+    "passed": true,
+    "top": [
+     "ca-simm-19b-1",
+     "ca-civ-1798-1798-78",
+     "ca-sam-4900"
+    ],
+    "expected": [
+     "ca-gov-11549-11549-10",
+     "ca-gov-11545-11548",
+     "ca-sam-5300",
+     "ca-civ-1798-1798-78"
+    ]
+   },
+   "6": {
+    "passed": true,
+    "top": [
+     "ca-sam-5300",
+     "ca-sam-4900",
+     "ca-simm-19a-1"
+    ],
+    "expected": [
+     "ca-sam-5300",
+     "ca-simm-5340-a",
+     "ca-gov-11549-11549-10"
+    ]
+   },
+   "7": {
+    "passed": false,
+    "top": [],
+    "expected": [
+     "ca-tl-23-03",
+     "ca-sam-4900",
+     "ca-simm-141"
+    ]
+   },
+   "8": {
+    "passed": false,
+    "top": [],
+    "expected": [
+     "ca-gov-11531-11544"
+    ]
+   },
+   "9": {
+    "passed": false,
+    "top": [
+     "ca-simm-180",
+     "ca-simm-19b-1",
+     "ca-simm-19d-1",
+     "ca-simm-120",
+     "ca-simm-19e-1"
+    ],
+    "expected": [
+     "ca-sam-4800",
+     "ca-pcc-12100-12113"
+    ]
+   },
+   "10": {
+    "passed": true,
+    "top": [
+     "ca-sam-4900"
+    ],
+    "expected": [
+     "ca-sam-4900",
+     "ca-tl-25-01",
+     "ca-eo-n-12-23",
+     "ca-tl-24-01",
+     "ca-genai-guidelines",
+     "ca-gov-11545-11548"
+    ]
+   },
+   "11": {
+    "passed": true,
+    "top": [
+     "ca-genai-guidelines",
+     "ca-simm-5305-f",
+     "ca-gov-11545-11548",
+     "ca-sam-4900",
+     "ca-sam-4800"
+    ],
+    "expected": [
+     "ca-sam-4900",
+     "ca-simm-5305-f",
+     "ca-tl-24-01",
+     "ca-eo-n-12-23",
+     "ca-simm-5310-c",
+     "ca-simm-150",
+     "ca-simm-150",
+     "ca-tl-24-03"
+    ]
+   },
+   "12": {
+    "passed": false,
+    "top": [],
+    "expected": [
+     "ca-gov-11549-63-11549-66",
+     "ca-sam-4800",
+     "ca-genai-guidelines",
+     "ca-gov-11545-11548"
+    ]
+   },
+   "13": {
+    "passed": false,
+    "top": [],
+    "expected": [
+     "ca-gov-11549-63-11549-66",
+     "ca-sam-4900",
+     "ca-eo-n-12-23",
+     "ca-genai-guidelines",
+     "ca-eo-n-5-26"
+    ]
+   },
+   "14": {
+    "passed": true,
+    "top": [
+     "ca-sam-4900",
+     "ca-sam-4800",
+     "ca-gov-11545-11548"
+    ],
+    "expected": [
+     "ca-gov-11549-63-11549-66",
+     "ca-eo-n-12-23",
+     "ca-sam-4900",
+     "ca-tl-25-01"
+    ]
+   },
+   "15": {
+    "passed": false,
+    "top": [],
+    "expected": [
+     "ca-sam-4900",
+     "ca-genai-guidelines",
+     "ca-tl-24-01",
+     "ca-eo-n-5-26",
+     "ca-gov-8586-5"
+    ]
+   },
+   "16": {
+    "passed": false,
+    "top": [],
+    "expected": [
+     "ca-gov-11549-63-11549-66",
+     "ca-sam-4900",
+     "ca-simm-5305-f"
+    ]
+   },
+   "17": {
+    "passed": false,
+    "top": [
+     "ca-simm-170b",
+     "ca-simm-5305-f",
+     "ca-simm-170a",
+     "ca-simm-5310-c",
+     "ca-simm-120"
+    ],
+    "expected": [
+     "ca-simm-25a",
+     "ca-gov-7405",
+     "ca-sam-4800",
+     "ca-itpl-10-10",
+     "ca-gov-11545-11548",
+     "ca-tl-18-05"
+    ]
+   },
+   "18": {
+    "passed": false,
+    "top": [
+     "ca-simm-19a-1",
+     "ca-sam-4800"
+    ],
+    "expected": [
+     "ca-sam-5300",
+     "ca-gov-11549-11549-10",
+     "ca-tl-18-03",
+     "ca-gov-8592-30-8592-50",
+     "ca-simm-5325-a"
+    ]
+   },
+   "19": {
+    "passed": false,
+    "top": [],
+    "expected": [
+     "ca-gov-8586-5",
+     "ca-gov-11549-11549-10",
+     "ca-gov-11531-11544",
+     "ca-gov-8592-30-8592-50",
+     "ca-eo-b-34-15",
+     "ca-pcc-12100-12113"
+    ]
+   },
+   "20": {
+    "passed": false,
+    "top": [],
+    "expected": [
+     "ca-sam-4900"
+    ]
+   }
+  },
+  "colorado": {
+   "1": {
+    "passed": false,
+    "top": [],
+    "expected": [
+     "co-crs-24-37-5"
+    ]
+   },
+   "2": {
+    "passed": false,
+    "top": [],
+    "expected": [
+     "co-crs-24-37-5",
+     "co-ccr-8-1501-7",
+     "co-ccr-8-1501-5",
+     "co-oit-delegation-of-authority-policy"
+    ]
+   },
+   "3": {
+    "passed": false,
+    "top": [],
+    "expected": [
+     "co-crs-24-37-5",
+     "co-ccr-8-1501-5"
+    ]
+   },
+   "4": {
+    "passed": false,
+    "top": [],
+    "expected": [
+     "co-crs-24-37-5"
+    ]
+   },
+   "5": {
+    "passed": false,
+    "top": [],
+    "expected": [
+     "co-crs-24-73",
+     "co-crs-24-74",
+     "co-crs-24-37-5",
+     "co-oit-cisp-003"
+    ]
+   },
+   "6": {
+    "passed": false,
+    "top": [],
+    "expected": [
+     "co-crs-24-37-5",
+     "co-oit-cisp-002",
+     "co-oit-cisp-001",
+     "co-oit-cisp-003",
+     "co-ccr-8-1501-5"
+    ]
+   },
+   "7": {
+    "passed": false,
+    "top": [],
+    "expected": [
+     "co-crs-24-37-5",
+     "co-oit-cisp-003"
+    ]
+   },
+   "8": {
+    "passed": false,
+    "top": [],
+    "expected": [
+     "co-crs-24-37-5",
+     "co-oit-real-time-billing-dispute-policy"
+    ]
+   },
+   "9": {
+    "passed": true,
+    "top": [
+     "co-ccr-8-1501-11",
+     "co-ccr-8-1501-7",
+     "co-crs-24-37-5"
+    ],
+    "expected": [
+     "co-crs-24-37-5"
+    ]
+   },
+   "11": {
+    "passed": false,
+    "top": [],
+    "expected": [
+     "co-oit-genai-policy"
+    ]
+   },
+   "12": {
+    "passed": false,
+    "top": [],
+    "expected": [
+     "co-crs-2-3-pt17",
+     "co-oit-genai-policy"
+    ]
+   },
+   "13": {
+    "passed": false,
+    "top": [],
+    "expected": [
+     "co-oit-genai-policy",
+     "co-crs-2-3-pt17"
+    ]
+   },
+   "14": {
+    "passed": false,
+    "top": [],
+    "expected": [
+     "co-oit-genai-policy",
+     "co-crs-2-3-pt17"
+    ]
+   },
+   "15": {
+    "passed": false,
+    "top": [],
+    "expected": [
+     "co-oit-genai-policy"
+    ]
+   },
+   "16": {
+    "passed": false,
+    "top": [],
+    "expected": [
+     "co-oit-genai-policy"
+    ]
+   },
+   "17": {
+    "passed": false,
+    "top": [],
+    "expected": [
+     "co-crs-24-85",
+     "co-oit-ts-oea-001",
+     "co-ccr-8-1501-11"
+    ]
+   },
+   "18": {
+    "passed": false,
+    "top": [],
+    "expected": [
+     "co-ccr-8-1501-5",
+     "co-crs-24-37-5",
+     "co-crs-24-37-5",
+     "co-oit-cisp-002"
+    ]
+   },
+   "19": {
+    "passed": false,
+    "top": [],
+    "expected": [
+     "co-crs-24-33-5-pt19",
+     "co-crs-24-33-5-pt19",
+     "co-crs-24-37-5",
+     "co-crs-24-37-7"
+    ]
+   }
+  },
+  "oregon": {
+   "1": {
+    "passed": false,
+    "top": [],
+    "expected": [
+     "or-ors-276a"
+    ]
+   },
+   "2": {
+    "passed": false,
+    "top": [],
+    "expected": [
+     "or-ors-276a",
+     "or-eis-memo-20220812-cloud",
+     "or-das-107-004-130",
+     "or-eis-memo-20241028-css-directive",
+     "or-das-107-004-052",
+     "or-oar-128-30"
+    ]
+   },
+   "3": {
+    "passed": false,
+    "top": [],
+    "expected": [
+     "or-oar-128-30",
+     "or-ors-276a",
+     "or-oar-128-20",
+     "or-das-107-004-052"
+    ]
+   },
+   "4": {
+    "passed": false,
+    "top": [],
+    "expected": [
+     "or-ors-276a",
+     "or-oar-128-30",
+     "or-das-107-004-052"
+    ]
+   },
+   "5": {
+    "passed": false,
+    "top": [],
+    "expected": [
+     "or-ors-276a",
+     "or-oar-128-30",
+     "or-das-107-004-052"
+    ]
+   },
+   "6": {
+    "passed": false,
+    "top": [
+     "or-eis-privacy-guidance"
+    ],
+    "expected": [
+     "or-ors-276a",
+     "or-das-107-004-120",
+     "or-das-107-004-052",
+     "or-oar-128-30",
+     "or-das-107-004-052-pr",
+     "or-eis-it-control-standards",
+     "or-ors-276a"
+    ]
+   },
+   "7": {
+    "passed": false,
+    "top": [],
+    "expected": [
+     "or-das-107-004-150",
+     "or-das-107-004-150-pr",
+     "or-das-107-004-130",
+     "or-eis-memo-20220812-cloud"
+    ]
+   },
+   "8": {
+    "passed": false,
+    "top": [],
+    "expected": [
+     "or-ors-276a"
+    ]
+   },
+   "9": {
+    "passed": true,
+    "top": [
+     "or-das-107-004-150",
+     "or-eis-privacy-guidance",
+     "or-ors-276a",
+     "or-das-107-004-130-pr",
+     "or-open-data-standard"
+    ],
+    "expected": [
+     "or-ors-276a",
+     "or-das-107-004-130"
+    ]
+   },
+   "10": {
+    "passed": false,
+    "top": [],
+    "expected": [
+     "or-das-107-004-190",
+     "or-eis-ai-attachment-a"
+    ]
+   },
+   "11": {
+    "passed": false,
+    "top": [],
+    "expected": [
+     "or-das-107-004-190-pr",
+     "or-eis-ai-attachment-b",
+     "or-eis-ai-attachment-g",
+     "or-eis-ai-attachment-a",
+     "or-das-107-004-190"
+    ]
+   },
+   "12": {
+    "passed": false,
+    "top": [],
+    "expected": [
+     "or-ors-276a",
+     "or-oar-128-20",
+     "or-das-107-004-190",
+     "or-das-107-004-155",
+     "or-das-107-004-200"
+    ]
+   },
+   "13": {
+    "passed": false,
+    "top": [],
+    "expected": [
+     "or-das-107-004-190",
+     "or-eo-23-26"
+    ]
+   },
+   "14": {
+    "passed": false,
+    "top": [],
+    "expected": [
+     "or-das-107-004-190",
+     "or-eo-26-26",
+     "or-eo-23-26",
+     "or-ors-276a",
+     "or-oar-128-20"
+    ]
+   },
+   "15": {
+    "passed": false,
+    "top": [],
+    "expected": [
+     "or-eis-ai-attachment-g",
+     "or-eo-26-26",
+     "or-eis-ai-attachment-b",
+     "or-ors-276a",
+     "or-oar-128-20",
+     "or-das-107-004-155"
+    ]
+   },
+   "16": {
+    "passed": false,
+    "top": [],
+    "expected": [
+     "or-eis-ai-attachment-b",
+     "or-eis-ai-attachment-d",
+     "or-das-107-004-190",
+     "or-eis-ai-attachment-g",
+     "or-eis-ai-attachment-f"
+    ]
+   },
+   "18": {
+    "passed": false,
+    "top": [],
+    "expected": [
+     "or-das-107-004-150",
+     "or-eis-it-control-standards"
+    ]
+   },
+   "19": {
+    "passed": false,
+    "top": [],
+    "expected": [
+     "or-ors-276a",
+     "or-oar-128-30",
+     "or-das-107-004-120"
+    ]
+   },
+   "20": {
+    "passed": false,
+    "top": [],
+    "expected": [
+     "or-das-107-004-150",
+     "or-eis-ai-attachment-g"
+    ]
+   }
+  },
+  "washington": {
+   "1": {
+    "passed": true,
+    "top": [
+     "wa-rcw-43-105"
+    ],
+    "expected": [
+     "wa-rcw-43-105"
+    ]
+   },
+   "2": {
+    "passed": false,
+    "top": [],
+    "expected": [
+     "wa-rcw-43-105",
+     "wa-rcw-43-105",
+     "wa-ea-310",
+     "wa-ea-02",
+     "wa-rcw-43-105"
+    ]
+   },
+   "3": {
+    "passed": true,
+    "top": [
+     "wa-rcw-43-105"
+    ],
+    "expected": [
+     "wa-rcw-43-105",
+     "wa-sec-01"
+    ]
+   },
+   "4": {
+    "passed": true,
+    "top": [
+     "wa-rcw-43-105"
+    ],
+    "expected": [
+     "wa-rcw-43-105"
+    ]
+   },
+   "5": {
+    "passed": false,
+    "top": [],
+    "expected": [
+     "wa-rcw-43-105",
+     "wa-sec-01",
+     "wa-rcw-39-26-340",
+     "wa-rcw-42-56-590",
+     "wa-rcw-39-34-240",
+     "wa-sec-01"
+    ]
+   },
+   "6": {
+    "passed": false,
+    "top": [],
+    "expected": [
+     "wa-sec-03",
+     "wa-sec-10",
+     "wa-sec-11-01-s",
+     "wa-rcw-43-105",
+     "wa-rcw-43-105",
+     "wa-rcw-43-105"
+    ]
+   },
+   "7": {
+    "passed": false,
+    "top": [],
+    "expected": [
+     "wa-rcw-43-105",
+     "wa-sec-02",
+     "wa-sec-11-01-s",
+     "wa-rcw-43-105"
+    ]
+   },
+   "8": {
+    "passed": false,
+    "top": [],
+    "expected": [
+     "wa-rcw-43-105",
+     "wa-rcw-43-105",
+     "wa-rcw-43-105",
+     "wa-rcw-43-105"
+    ]
+   },
+   "9": {
+    "passed": false,
+    "top": [
+     "wa-watech-ads-procurement-guidance",
+     "wa-watech-genai-procurement-guidelines",
+     "wa-watech-genai-deployment-guidelines",
+     "wa-sec-11-01-g",
+     "wa-ea-01-03-s"
+    ],
+    "expected": [
+     "wa-pm-01"
+    ]
+   },
+   "10": {
+    "passed": false,
+    "top": [],
+    "expected": [
+     "wa-data-04",
+     "wa-watech-ads-procurement-guidance",
+     "wa-mgmt-01"
+    ]
+   },
+   "11": {
+    "passed": true,
+    "top": [
+     "wa-watech-genai-deployment-guidelines",
+     "wa-watech-genai-procurement-guidelines",
+     "wa-watech-ai-risk-assessments",
+     "wa-watech-ads-procurement-guidance",
+     "wa-rcw-43-105"
+    ],
+    "expected": [
+     "wa-data-04",
+     "wa-eo-24-01",
+     "wa-watech-ai-risk-assessments",
+     "wa-eo-24-01",
+     "wa-watech-genai-procurement-guidelines"
+    ]
+   },
+   "12": {
+    "passed": false,
+    "top": [],
+    "expected": [
+     "wa-data-04",
+     "wa-eo-24-01",
+     "wa-watech-ai-risk-level-guidance",
+     "wa-watech-ads-procurement-guidance"
+    ]
+   },
+   "13": {
+    "passed": false,
+    "top": [],
+    "expected": [
+     "wa-data-04",
+     "wa-watech-ai-risk-assessments",
+     "wa-eo-24-01"
+    ]
+   },
+   "14": {
+    "passed": true,
+    "top": [
+     "wa-rcw-43-105"
+    ],
+    "expected": [
+     "wa-eo-24-01",
+     "wa-data-04",
+     "wa-rcw-43-105"
+    ]
+   },
+   "15": {
+    "passed": false,
+    "top": [],
+    "expected": [
+     "wa-data-04",
+     "wa-des-genai-contract-clauses",
+     "wa-eo-24-01",
+     "wa-data-04",
+     "wa-eo-24-01",
+     "wa-watech-genai-procurement-guidelines"
+    ]
+   },
+   "16": {
+    "passed": false,
+    "top": [],
+    "expected": [
+     "wa-data-04",
+     "wa-data-04",
+     "wa-data-04",
+     "wa-watech-genai-procurement-guidelines",
+     "wa-watech-ads-procurement-guidance"
+    ]
+   },
+   "17": {
+    "passed": false,
+    "top": [
+     "wa-sec-11-01-g"
+    ],
+    "expected": [
+     "wa-user-01",
+     "wa-user-01-01-s",
+     "wa-user-01-01-s"
+    ]
+   },
+   "18": {
+    "passed": false,
+    "top": [],
+    "expected": [
+     "wa-sec-12",
+     "wa-sec-12",
+     "wa-sec-04-01-s",
+     "wa-rcw-43-105"
+    ]
+   },
+   "19": {
+    "passed": false,
+    "top": [],
+    "expected": [
+     "wa-rcw-43-105",
+     "wa-rcw-43-105",
+     "wa-rcw-43-105",
+     "wa-rcw-43-105",
+     "wa-rcw-43-105"
+    ]
+   }
+  }
+ }
+}

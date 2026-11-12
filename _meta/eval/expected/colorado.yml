@@ -1,0 +1,224 @@
+jurisdiction: colorado
+questions:
+- number: 1
+  expected:
+  - id: co-crs-24-37-5
+    quote: the head of which shall be the chief information officer, who shall be appointed by the governor
+      and who shall serve at the pleasure of the governor.
+    where: 24-37.5-103 (1)
+- number: 2
+  expected:
+  - id: co-crs-24-37-5
+    quote: The office shall establish, maintain, and enforce information technology oversight and standards
+      and shall support collaborative decision-making.
+    where: 24-37.5-105 (4) Governance
+  - id: co-ccr-8-1501-7
+    quote: The purpose is to formalize strategic alignment of IT investments with state policy priorities,
+      IT policy and standards, while reducing duplication and overlap
+    where: 8 CCR 1501-7, 2 Scope and Purpose, B
+  - id: co-ccr-8-1501-5
+    quote: Colorado SB 08-155 consolidated the IT functions of State Agencies under OIT.
+    where: 8 CCR 1501-5, 5.4 Definitions (State Agency)
+  - id: co-oit-delegation-of-authority-policy
+    quote: "It is the policy of OIT, within the sole discretion and judgment of the State Chief Information Officer, to delegate information technology functions from OIT to another state agency in accordance with C.R.S. 24-37.5-105.4."
+    where: "2. Policy"
+- number: 3
+  expected:
+  - id: co-crs-24-37-5
+    quote: The chief information officer shall appoint a chief information security officer who shall
+      serve at the pleasure of the chief information officer. The security officer shall report to and
+      be under the supervision of the chief information officer.
+    where: 24-37.5-403 (1)
+  - id: co-ccr-8-1501-5
+    quote: The Chief Information Security Officer in the Office of Information Technology (OIT) is authorized
+      and directed by the provisions of sections
+    where: 8 CCR 1501-5, 5.1 Authority
+- number: 4
+  expected:
+  - id: co-crs-24-37-5
+    quote: services provided by the chief information security officer to a public agency be adequately
+      funded in fiscal years commencing on and after July 1, 2007, through an appropriation to the public
+      agency to pay for such services.
+    where: 24-37.5-403 (3)
+- number: 5
+  expected:
+  - id: co-crs-24-73
+    quote: '"Governmental entity" means the state and any state agency or institution, including the judicial
+      department, county, city and county, incorporated city or town, school district, special improvement
+      district, authority'
+    where: 24-73-101 (4)(a)
+  - id: co-crs-24-74
+    quote: '"State agency" means a department of the legislative, judicial, or executive branch of state
+      government, including a division, office, agency, or other unit created within a department'
+    where: 24-74-102 (3)
+  - id: co-crs-24-37-5
+    quote: '"Public agency" means every state office, whether executive or judicial, and all of its respective
+      offices, departments, divisions, commissions, boards, bureaus, and institutions. "Public agency"
+      does not include institutions of higher education or the general assembly.'
+    where: 24-37.5-102 (26)
+  - id: co-oit-cisp-003
+    quote: All contracted parties must comply with these requirements.
+    where: 2. Applicability
+- number: 6
+  expected:
+  - id: co-crs-24-37-5
+    quote: Regularized security awareness training to inform the employees and users of the public agency's
+      communication and information resources about information security risks
+    where: 24-37.5-404 (2)(c); the plan must also include (2)(a) periodic risk assessments and (2)(e)
+      an incident-response process
+  - id: co-oit-cisp-002
+    quote: The agency, in coordination with the Office of Information Technology, must establish, maintain
+      and document an agency-level incident response plan.
+    where: 5. Safeguards, Incident Response
+  - id: co-oit-cisp-001
+    quote: Annual security awareness training and education must be provided to all users
+    where: Security Awareness Training and Education
+  - id: co-oit-cisp-003
+    quote: 'IT Risk Management: OIT must establish, maintain, and document an IT risk management program.'
+    where: 7. Managing and Mitigating IT Risk
+  - id: co-ccr-8-1501-5
+    quote: Each public agency in the State of Colorado shall maintain and implement an ACSP or ECSP to
+      control risks associated with access, use, storage and sharing of citizen and State electronic and
+      non-electronic information.
+    where: 5.5 Information Security Planning, B
+- number: 7
+  expected:
+  - id: co-crs-24-37-5
+    quote: only with prior approval of the procurement official for the office, and must include provisions
+      allowing the office to enforce technology and security standards or conduct due diligence or audits
+      of the contractors
+    where: 24-37.5-105 (6) Technology purchasing
+  - id: co-oit-cisp-003
+    quote: OIT, with the agency and procurement team, must include state requirements in agreements and
+      ensure the supply chain meets the Colorado Information Security Policies
+    where: 8. IT Supply Chain Management, IT Acquisition Process (Procurement)
+- number: 8
+  expected:
+  - id: co-crs-24-37-5
+    quote: The office shall develop a method for billing users of the office's services the full cost
+      of the services, including materials, depreciation related to capital costs, labor, and administrative
+      overhead.
+    where: 24-37.5-103 (3)(b)
+  - id: co-oit-real-time-billing-dispute-policy
+    quote: It is the policy of OIT to provide agencies with monthly RtB invoices and data using the RtB
+      website.
+    where: 2. Policy
+- number: 9
+  expected:
+  - id: co-crs-24-37-5
+    quote: The office shall initiate the procurement of information technology resources for state agencies
+      and enter into agreements or contracts on behalf of a state agency, multiple agencies, or the office
+    where: 24-37.5-105 (6) Technology purchasing
+- number: 10
+  expected: []
+  none_reason: Searched keyword and hybrid for AI inventory, inventory, register, list of systems and
+    read every Colorado document that matched. The only inventories are of IT assets and contracts (24-37.5-105
+    (3)(d) and (3)(f), 24-37.5-801 report, CISP-003 section 10), not of AI systems. The GenAI policy requires
+    OIT intake of GenAI efforts but sets no inventory, update frequency or publication. 24-37.5-801 requires
+    an annual report on the office's asset inventory and refresh cycle, which is not AI-specific.
+- number: 11
+  expected:
+  - id: co-oit-genai-policy
+    quote: All consolidated state agency efforts that include the development or deployment of GenAI systems,
+      or other technologies with related GenAI components or considerations, must undergo an intake and
+      risk assessment by OIT.
+    where: 2. Policy
+  stub_would_answer:
+  - co-crs-24-18-pt3
+- number: 12
+  expected:
+  - id: co-crs-2-3-pt17
+    quote: '"Artificial intelligence" or "artificial intelligence system" means any machine-based system
+      that, for any explicit or implicit objective, infers, from the inputs the system receives, how to
+      generate outputs'
+    where: 2-3-1701 (1)
+  - id: co-oit-genai-policy
+    quote: 'GenAI: An artificial intelligence technology that creates synthetic digital content of images,
+      videos, audio, text, and other digital content from large bodies of data in response to user prompts.'
+    where: 5. Definitions
+- number: 13
+  expected:
+  - id: co-oit-genai-policy
+    quote: Refer all high-risk cases to OIT's Chief Information Officer, or designee, in consultation
+      with the Governor's Office and the relevant state agency's executive leadership for review.
+    where: 6. Responsibilities, Office of Information Technology Responsibilities
+  - id: co-crs-2-3-pt17
+    quote: There is created the artificial intelligence impact task force for the purposes of considering
+      issues and proposing recommendations regarding protections for consumers and workers
+    where: 2-3-1707 (2)(a)
+- number: 14
+  expected:
+  - id: co-oit-genai-policy
+    quote: This policy remains in effect until superseded or rescinded by the State Chief Information
+      Officer.
+    where: 8. Expiration
+  - id: co-crs-2-3-pt17
+    quote: 'The task force shall consider issues and propose policy recommendations to the committee related
+      to:'
+    where: 2-3-1707 (3)
+- number: 15
+  expected:
+  - id: co-oit-genai-policy
+    quote: This also applies to third-party vendor use cases and projects.
+    where: 2. Policy
+- number: 16
+  expected:
+  - id: co-oit-genai-policy
+    quote: GenAI used by state agencies may assist a human reviewer but may not independently make determinations
+      materially impacting individuals or entities.
+    where: 6. Responsibilities, Human Review of Consequential Decisions
+  stub_would_answer:
+  - co-crs-24-18-pt3
+- number: 17
+  expected:
+  - id: co-crs-24-85
+    quote: may require that the contractor's compliance with accessibility standards for an individual
+      with a disability adopted by the office of information technology pursuant to section 24-85-103
+      is determined and attested to by a qualified third party
+    where: 24-85-104 (5)(d)
+  - id: co-oit-ts-oea-001
+    quote: This standard shall be used by employees of OIT, agencies supported by OIT, and vendors contracted
+      by OIT or its stakeholders
+    where: 2. Scope
+  - id: co-ccr-8-1501-11
+    quote: The rules apply to all information and communication technology (ICT) in active use, whether
+      public-facing or internal-facing, that the public entity provides or makes available directly or
+      through contractual, licensing, or other arrangements.
+    where: 11.2 Scope and Purpose, C
+- number: 18
+  expected:
+  - id: co-ccr-8-1501-5
+    quote: An annual information security plan created by the Office of Information Security within OIT
+      for State Agencies. The ECSP includes an assessment of current risk, covers incident response and
+      disaster recovery
+    where: 5.4 Definitions (Enterprise Cybersecurity Plan)
+  - id: co-crs-24-37-5
+    quote: "the department of law, the department of state, the department of treasury, or state-supported institutions of higher education, for the purpose of providing disaster recovery services."
+    where: "24-37.5-106 (3)"
+  - id: co-crs-24-37-5
+    quote: "\"Disaster recovery\" means the provisioning of the office's provided services for operational recovery, readiness, response, and transition of information technology applications, systems, or resources."
+    where: "24-37.5-102 (8)"
+  - id: co-oit-cisp-002
+    quote: Public agencies must implement incident response, continuity management, and contingency planning
+      in accordance with this policy.
+    where: 4. Policy
+- number: 19
+  expected:
+  - id: co-crs-24-33-5-pt19
+    quote: "Review the need to conduct risk assessments of local government systems, providing additional cybersecurity services to local governments, and proposing necessary statutory or policy changes;"
+    where: "24-33.5-1902 (1)(b)"
+  - id: co-crs-24-33-5-pt19
+    quote: "Develop a whole-of-state cybersecurity approach for the state and for local governments, including the coordination and setting of strategic statewide cybersecurity goals, roadmaps, and best practices;"
+    where: "24-33.5-1902 (1)(a)"
+  - id: co-crs-24-37-5
+    quote: "The chief information officer may enter into contracts with any local government, state agency, or political subdivision of the state, including the legislative and judicial departments"
+    where: "24-37.5-106 (3)"
+  - id: co-crs-24-37-7
+    quote: "Provide electronic access for members of the public, state agencies, and local governments to electronic information, products, and services through the statewide internet portal;"
+    where: "24-37.7-105 (1)(b)"
+- number: 20
+  expected: []
+  none_reason: Searched keyword for GovRAMP, FedRAMP, StateRAMP, authorization and cloud across statutes,
+    rules, policies and standards and read the cloud hits (8 CCR 1501-12 definition of cloud service,
+    TS-DBS-014, TS-DAT-001, CISP-003 section 8). None requires or accepts GovRAMP or FedRAMP authorization
+    for cloud purchases; the corpus holds no Colorado executive order and no cloud security policy.
