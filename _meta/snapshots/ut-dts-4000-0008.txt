@@ -1,0 +1,101 @@
+DTS POLICY 4000-0008
+
+Policy Type: Enterprise
+
+Section/Group: IT Policies
+
+Authority: UCA §63A-16-104; UCA §63A-16-205; Utah Administrative Code
+
+Document History
+
+Original Submission
+
+Submitted On: September 2023
+
+Submitted By: Chris Williamson
+
+Approved By: Alan Fuller
+
+Issue Date: September 6, 2023
+
+Effective Date: September 6, 2023
+
+Revisions
+
+Last Revised Date: August 25, 2025
+
+Last Revised By: Joe Jackson
+
+Last Approved By: Alan Fuller
+
+Reviews
+
+Last Reviewed Date: August 19, 2026
+
+Last Reviewed By: Christian Napier, Director of AI
+
+Next Review: August 19, 2027
+
+Dissemination
+
+DTS shall provide notification of policy implementation, revision, or repeal to appropriate personnel in accordance with DTS Policy 1000-0002 Establishing and Updating DTS Policies and Administrative Rules.
+
+Purpose
+
+The purpose of this policy is to provide guidance on the use of generative artificial intelligence (AI) for executive branch employees in State of Utah government. The policy promotes the use of generative AI while protecting the safety, privacy, and intellectual property rights of the State of Utah.
+
+Background
+
+Generative AI refers to a class of artificial intelligence systems that are capable of generating content, such as text, images, video, or audio, based on a set of input data rather than simply analyzing or acting on existing data. Generative AI technology is rapidly being incorporated into common online tools as standalone systems or embedded within other applications.
+
+Scope
+
+This policy applies to all State of Utah executive branch employees, contractors, temporary workers, volunteers, and others (collectively referred to as “users” throughout the rest of this policy) who utilize generative AI technologies for or on behalf of the state.
+
+Exceptions
+
+None
+
+Definitions
+
+Generative Artificial Intelligence
+
+Utah State Code (13-77-101) defines Generative Artificial Intelligence (“generative AI”) as: (4) "Generative artificial intelligence" means an artificial intelligence technology system that: (a) is trained on data; (b) is designed to simulate human conversation with a consumer through one or more of the following: (i) text; (ii) audio; or (iii) visual communication; and (c) generates non-scripted outputs similar to outputs created by a human, with limited or no human oversight.
+
+Artificial Intelligence
+
+Utah State Code (13-72-101) defines Artificial Intelligence (“AI”) as: (2) "Artificial intelligence" means a machine-based system that makes predictions, recommendations, or decisions influencing real or virtual environments.
+
+Policy
+
+1. Guidelines
+   Generative AI is a powerful tool that can be used to improve government services and operations. When making use of generative AI tools and capabilities, state agencies and users must consider the following general principles:
+   1. Transparency: Users and agencies must be transparent about their use of generative AI.
+      1. In situations with legal, ethical, and intellectual property implications (e.g., incorporating AI-generated code in production software or other copyrightable material owned by the state), attribution is required when generative AI has been used to produce deliverables. At a minimum, this content must be labeled as “AI generated.” Additional attribution (e.g., citing the model used) may be required as determined by project guidelines or required by organizational policy.
+      2. In situations where a generative AI system interacts with an individual, the tool must be clearly labeled as “AI,” or self identify as “AI” when questioned.
+   2. Accountability: Users and agencies are accountable for the decisions that are made and materials created using generative AI.
+   3. Fairness: AI systems can reflect the cultural, economic, and social biases of the source materials used for training, and the algorithms used to parse and process that content can be a source of bias as well. Users and agencies shall ensure that generative AI is used in a fair and equitable manner.
+   4. Privacy: Users and agencies must protect the privacy of individuals when using generative AI. This means that any models shall not be used to collect or store personal information without the consent of the individual. No private, controlled, confidential, or restricted data shall be added to a publicly accessible training model.
+   5. Security: Users and agencies shall take steps to protect the security and integrity of generative AI models. DTS cybersecurity staff are available to provide technical support in securing generative AI resources.
+   6. Training: Agencies shall mandate a minimum level of generative AI training for users responsible for business processes which incorporate generative AI.
+   7. Legal: There are unresolved legal issues surrounding generative AI and the data inputs used to develop models. Generative AI models may be trained using copyrighted material that has been sourced without regard for copyright or licensing terms. Model performance must be reviewed and usage risk evaluated by agencies.
+2. Requirements
+   1. State agencies are required to review and periodically monitor all generative AI applications and services, even if they are free or part of a pilot project, to ensure they meet all necessary security and privacy requirements. This requirement applies to downloadable software, Software as a Service (SaaS), web-based services, browser plug-ins, and mobile apps. New generative AI application requests must also be reviewed by the DTS Architecture Review Board and the Enterprise Cyber Security Team. The review process may vary based on the risk level.
+   2. All generative AI tools that are put into production will be required to be part of a standardized system inventory and will include information necessary to generate an AI Inventory Report.
+   3. Use of generative AI technology that is incorporated into existing services and products, such as internet search engines, does not require permission; however, this policy’s guidelines and other requirements must be followed.
+   4. Generative AI outputs should not be assumed to be truthful, credible or accurate. Use of generative AI applications requires following the “Human in the Loop” principle whenever possible, meaning generative AI outputs must be reviewed by knowledgeable human operators for accuracy, appropriateness, privacy, and security before being acted upon or disseminated. If a deployment prohibits following “Human in the Loop” (e.g., public facing chat-bot), generative AI outputs must be validated through a continuous testing and monitoring process appropriate for the risks with deployment.
+   5. Generative AI outputs shall not be used to impersonate individuals or organizations without their written permission to represent them or speak on their behalf.
+   6. Privacy:
+      1. State agencies must comply with all GRAMA, PRMA, records management, privacy and other applicable laws, rules, and policies to ensure the appropriate and reasonable protection of data and the protection of rights of persons that may be impacted by information furnished by generative AI.
+      2. No private, controlled, or confidential data shall be added to a publicly accessible generative AI service or training model.
+      3. Material that is inappropriate for public release shall not be entered as input to generative AI tools that have not been explicitly approved by DTS for the intended use case.
+      4. Agency contracts shall prohibit vendors from using State of Utah materials or data in generative AI queries or for building or training proprietary generative AI programs unless explicitly approved by DTS.
+   7. DTS will provide training on proper usage of generative AI for users. Agencies shall ensure that all users of tools consisting of or incorporating generative AI complete this training before being granted access and annually thereafter.
+   8. Procuring agencies shall ensure vendors disclose the utilization of generative AI when producing works owned by the state and integration of generative AI in products used by the state.
+   9. Procuring agencies shall perform due diligence to ensure proper licensure of model training data for all generative AI services using non-state data.
+   10. All software code generated through the use of generative AI shall not be used in production until fully reviewed and tested for proper functionality and security. Any such use shall be properly documented.
+
+1. Policy Compliance
+   State of Utah users are expected to comply with this policy. Additional policies and standards developed and implemented by state agencies may include additional objectives or detail, but must be compatible with the objectives described in this policy document.
+2. Enforcement
+   Violation of this policy by personnel employed by the State of Utah may be the basis for discipline including but not limited to termination. Individuals and contractors working with any State of Utah agency found to have violated this policy may also be subject to legal penalties as may be prescribed by state and/or federal statute, rule, and/or regulation.

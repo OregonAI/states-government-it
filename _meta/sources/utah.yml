@@ -1,0 +1,438 @@
+# Utah seed list: every instrument this state's part of the corpus holds or knows about.
+# Key reference: _meta/sources/README.md. Rules: _meta/CLAUDE.md.
+# Built 2026-11-12 from bytes fetched through the toolkit Fetcher. The seed list is pre-approved for this run
+# (owner's standing exception) and reviewed afterwards in the PR.
+sources:
+
+  # ---- Statutes: the Utah Code, the Legislature's per-chapter XML (le.utah.gov). Each chapter page's "Download Options"
+  # ---- link to PDF, RTF and XML files whose names carry the version (C<title>-<chapter>_<version>.xml); the entry points at the
+  # ---- current version's XML. When a chapter is amended the Legislature publishes a new file name, so the drift run reports
+  # ---- the old name as gone and the entry is re-pointed (the chapter page lists the current version).
+  - id: ut-code-63a-16
+    sha256: "6b4167499b9d1f92061c1c86ec10c3397abb1bfc719f10f5a40c04f2e93c4162"
+    url: https://le.utah.gov/xcode/Title63A/Chapter16/C63A-16_2026050620260506.xml
+    format: xml
+    citation: "Utah Code chapter 63A-16"
+    title: "Governance Of Technology"
+    doc_type: statute
+    jurisdiction: utah
+    issuing_body: "Utah Legislature"
+    found_via: "https://le.utah.gov/xcode/Title63A/Chapter16/63A-16.html (its Download Options links)"
+    tags: [governance, oversight, funding, cybersecurity, data, digital-services, cloud-resilience]
+    recheck: monthly
+    why_relevant: "The enabling statute of the Division of Technology Services and the state chief information officer: the Division and its duties (63A-16-103, -104), the CIO's appointment, powers and the executive branch IT strategic plan (63A-16-201, -202), agency IT plans (-203), rulemaking and policies (-205), accessibility standards for executive branch IT (-209), the chief information security officer (-210), the Utah Cyber Center (part 11, 63A-16-1101 to -1104), and critical infrastructure cyber security (part 13). The chapter file serves the whole chapter, so its geospatial resource center and public notice website parts (parts 5 and 6) come with it. Section 63A-16-216 (government websites and applications) is in the file with an effective date of 1/1/2027, printed under its heading: it is not yet in force."
+  - id: ut-code-63a-19
+    sha256: "1d921197d8224df0ba06514a6314eed9dc0dfca845d2a66528960fe7e0378e49"
+    url: https://le.utah.gov/xcode/Title63A/Chapter19/C63A-19_2024050120240501.xml
+    format: xml
+    citation: "Utah Code chapter 63A-19"
+    title: "Government Data Privacy Act"
+    doc_type: statute
+    jurisdiction: utah
+    issuing_body: "Utah Legislature"
+    found_via: "https://le.utah.gov/xcode/Title63A/63A.html (chapter list of Title 63A) and the chapter page https://le.utah.gov/xcode/Title63A/Chapter19/63A-19.html"
+    tags: [data, governance, cybersecurity]
+    recheck: monthly
+    why_relevant: "Binds governmental entities: the state data privacy policy, the Utah Privacy Governing Board and Commission, the Utah Office of Data Privacy and chief privacy officer, entity duties (privacy annotations, training, privacy program report, contractor requirements, privacy notices, retention and disposition of personal data), data breach notification to the Cyber Center and the Attorney General, and the technology transparency study. Defines automated decision making and names it among the high-risk processing activities."
+  - id: ut-code-63a-20
+    sha256: "57229412b430925c35d547630bfb25007ef42c534c47729ce737d16ecceaeb38"
+    url: https://le.utah.gov/xcode/Title63A/Chapter20/C63A-20_2026050620260506.xml
+    format: xml
+    citation: "Utah Code chapter 63A-20"
+    title: "State-Endorsed Digital Identity"
+    doc_type: statute
+    jurisdiction: utah
+    issuing_body: "Utah Legislature"
+    found_via: "https://le.utah.gov/xcode/Title63A/63A.html (chapter list of Title 63A) and the chapter page https://le.utah.gov/xcode/Title63A/Chapter20/63A-20.html"
+    tags: [digital-services, data, governance]
+    recheck: monthly
+    why_relevant: "The state-endorsed digital identity program: its creation and duties, the program manager, identity proofing, and the requirements on governmental entities (63A-20-304), with the duties it also places on digital wallet providers, verifiers and relying parties."
+  - id: ut-code-63c-27
+    sha256: "9821bc3a91f4957017707fa3a17220376a829a23b3218260a7cbe880529e80d6"
+    url: https://le.utah.gov/xcode/Title63C/Chapter27/C63C-27_2022050420220504.xml
+    format: xml
+    citation: "Utah Code chapter 63C-27"
+    title: "Cybersecurity Commission"
+    doc_type: statute
+    jurisdiction: utah
+    issuing_body: "Utah Legislature"
+    found_via: "https://le.utah.gov/xcode/Title63C/63C.html (chapter list of Title 63C) and the chapter page https://le.utah.gov/xcode/Title63C/Chapter27/63C-27.html"
+    tags: [cybersecurity, governance]
+    recheck: monthly
+    why_relevant: "Creates the Cybersecurity Commission, its duties, staffing and reporting requirement. The file carries a repeal date of 7/1/2032 (63I-1-263)."
+
+  # ---- Executive orders in force on state IT, cybersecurity, data or AI (Governor Cox: governor.utah.gov list and the Office of
+  # ---- Administrative Rules' Executive Documents list, both read 2026-11-12; see left_out for every other order)
+  - id: ut-eo-2026-08
+    sha256: "9edf9b9c7c11029c4a1aacdc3ed02f0b5821287af4afd6cd75e44620ac5df073"
+    url: https://governor.utah.gov/wp-content/uploads/2026.10.06-Pro-Human-AI-Executive-Order-1.pdf
+    format: pdf
+    citation: "Executive Order 2026-08"
+    title: "Establishing Utah’s Pro-Human Approach to Artificial Intelligence in State Government"
+    doc_type: executive_order
+    jurisdiction: utah
+    issuing_body: "Governor Spencer J. Cox"
+    found_via: "https://governor.utah.gov/executive-orders/ (the October 6 row)"
+    tags: [ai, governance, cybersecurity, digital-services]
+    recheck: monthly
+    why_relevant: "Governor's order of 6 October 2026 on state government use of AI: Pro-Human AI principles that agencies must apply, the Department of Government Operations' lead on AI-driven process improvement and technical safeguards against cyberattack and unauthorized AI agents, the State-Endorsed Digital Identity framework, agency duties (AI literacy training, transparency about AI use in processes that affect the public), and DTS duties (training strategy, uniform AI implementation standards). Effective until modified, amended, rescinded or superseded."
+  - id: ut-eo-2022-06
+    url: https://rules.utah.gov/wp-content/uploads/Utah-Executive-Order-No.-2022-06.pdf
+    format: pdf
+    citation: "Executive Order 2022-06"
+    title: "Prohibiting the Use of TikTok by State Agencies and on State-owned Electronic Devices"
+    doc_type: executive_order
+    jurisdiction: utah
+    issuing_body: "Governor Spencer J. Cox"
+    found_via: "https://rules.utah.gov/publications/executive-documents/ (row of 12/12/2022, 'Utah Executive Order No. 2022-006'); the PDF prints 2022-06. The Governor's own list (https://governor.utah.gov/executive-orders/, Dec. 12, 2022 row) links a second official copy, Google Drive file 1g9JMD1bOvC84gvp4I0ZFiOii1XvwGBJu (https://drive.google.com/file/d/1g9JMD1bOvC84gvp4I0ZFiOii1XvwGBJu/view, titled 'EO 2022-06 TikTok.pdf')"
+    tags: [cybersecurity, data, governance]
+    recheck: monthly
+    why_relevant: "Bars state agencies, their employees and their contractors from using TikTok on state-owned electronic devices, and directs the Department of Government Operations to investigate vulnerabilities TikTok presents to state networks. Effective until modified, amended, rescinded or superseded; not named by the rescission orders read."
+    stub: true
+    stub_reason: "The PDF is a scan whose embedded text layer is a poor machine reading of the page (the header prints as 'jftnttr l', and the body has 'ofusers', 'E1-l-l02' for 63E-1-102, '11.' and 'I.' for list markers), so it is not a faithful text; and the corpus's OCR procedure refuses a PDF that already has a text layer (ocrmypdf: PriorOcrFoundError, which needs --force-ocr). Re-reading it needs a shared change to src/ingest_ocr.py. The Governor's Google Drive copy (view page HTTP 200, 92,289 bytes, titled 'EO 2022-06 TikTok.pdf') was also fetched through the Fetcher by its visitor download link (https://drive.google.com/uc?export=download&id=1g9JMD1bOvC84gvp4I0ZFiOii1XvwGBJu, HTTP 200, 482,114 bytes): it is the same file as the rules.utah.gov PDF, byte for byte (identical SHA-256 5ee59a69733cdfcec367722a6b1baad92b130b27ac6081294b54f695570c84b9), so it has the same scan and text layer and offers no better text."
+  - id: ut-eo-2001-12-11-cio-security
+    url: https://rules.utah.gov/wp-content/uploads/ExecDoc6939.pdf
+    format: pdf
+    citation: "Executive Order, issued 12/11/2001"
+    title: "Directing the Chief Information Officer to Develop and Implement Policy Promoting Security of State Information and Information Systems"
+    doc_type: executive_order
+    jurisdiction: utah
+    issuing_body: "Governor Michael O. Leavitt"
+    found_via: "https://rules.utah.gov/publications/executive-documents/executive-documents-of-michael-o-leavitt/ (row 'issued 12/11/2001 ... [published 01/01/2002]'); DTS Policy 2000-0014 cites it as authority"
+    tags: [cybersecurity, governance]
+    recheck: monthly
+    why_relevant: "Governor Leavitt's order directing the state chief information officer to develop and implement policy promoting the security of state information and information systems. DTS Policy 2000-0014 cites it as the CIO's authority for security policy."
+    stub: true
+    stub_reason: "The Office of Administrative Rules' own link to this order (/wp-content/uploads/ExecDoc6939.pdf, read from its Leavitt executive documents page 2026-11-12) answers HTTP 404 to the Fetcher on two tries; no other official copy was found. The order is not on any rescission list read (the Herbert-era rescission orders 2016-1 and 2020-76 were read and name neither this order nor any IT order), so it may still be in force."
+
+  # ---- Statewide IT policy library: the Division of Technology Services' public set. dts.utah.gov/policies now redirects to its
+  # ---- Get Help page, which links "Vendor Policies" (a Google Drive folder of ten items) and says enterprise policies are behind
+  # ---- the sign-in IT Service Portal. Each Drive item is a shortcut to a Google Doc; following the shortcut's view link (a redirect)
+  # ---- gives the Doc, whose "Download as .docx" export (docs.google.com/document/d/<id>/export?format=docx) is the file read here.
+  - id: ut-dts-4000-0008
+    sha256: "6484cbd0eed34adf5cf3f6268af7c528d7f0a69009fcd4e50bb9bbe85da6deb7"
+    url: https://docs.google.com/document/d/1OWizXkKYWgwnTp-lmJBnk7KNFN1tYhPEVF5u7N1PSeg/export?format=docx
+    format: docx
+    citation: "DTS Policy 4000-0008"
+    title: "Enterprise Generative AI"
+    identity_text: "DTS POLICY 4000-0008"
+    doc_type: policy
+    jurisdiction: utah
+    issuing_body: "Department of Government Operations, Division of Technology Services"
+    found_via: "Drive folder 1nCVh71HGjaQG22FpJ3j_P6lOZmulL643 (item '4000_0008_Policy_Enterprise Generative AI'), linked from https://dts.utah.gov/get-help/ as Vendor Policies; the export URL is built from the Doc id the shortcut resolves to. The seed title is the Drive item name; the document prints the title 'Generative AI Policy' as its first line, which the Word extraction drops (see the conversion note)"
+    tags: [ai, governance]
+    recheck: monthly
+    why_relevant: "The Division's enterprise policy on generative AI (type Enterprise, group IT Policies; authority cited as UCA 63A-16-104 and 63A-16-205), issued 6 September 2023."
+  - id: ut-dts-5000-0002
+    sha256: "f755955a6e4fd6efdfbeb2717d407f3d297faeecb0ea7c177c76113d6f610a28"
+    url: https://docs.google.com/document/d/10bM_EJ6_J715YDY54HW3CS8QL8htbywTmUJxviD7RpA/export?format=docx
+    format: docx
+    citation: "DTS Policy 5000-0002"
+    title: "Information Security"
+    identity_text: "DTS POLICY 5000-0002"
+    doc_type: policy
+    jurisdiction: utah
+    issuing_body: "Department of Government Operations, Division of Technology Services"
+    found_via: "Drive folder 1nCVh71HGjaQG22FpJ3j_P6lOZmulL643 (item '5000-0002_Policy_InformationSecurity'), linked from https://dts.utah.gov/get-help/ as Vendor Policies; the export URL is built from the Doc id the shortcut resolves to. The seed title is the Drive item name; the document prints the title 'Information Security Policy' as its first line, which the Word extraction drops (see the conversion note)"
+    tags: [cybersecurity, governance]
+    recheck: monthly
+    why_relevant: "The Division's enterprise information security policy (type Enterprise, group Security; authority UCA 63A-16 and rule R895-7). DTS Policy 1000-0003 calls it the Enterprise Security Policy."
+  - id: ut-dts-1000-0003
+    sha256: "ba413d5ee5fa7847d6aac1b713a7c43d83275514eb0d12a5a16f904cd7cdb345"
+    url: https://docs.google.com/document/d/1QVGPUxyB_mWZs6P_niaJlJOaUChOAK2XsVl0pPa02tc/export?format=docx
+    format: docx
+    citation: "DTS Policy 1000-0003"
+    title: "Acceptable Use of Information Technology Resources"
+    identity_text: "DTS POLICY 1000-0003"
+    doc_type: policy
+    jurisdiction: utah
+    issuing_body: "Department of Government Operations, Division of Technology Services"
+    found_via: "Drive folder 1nCVh71HGjaQG22FpJ3j_P6lOZmulL643 (item '1000-0003_Policy_Internal_AcceptableUseofInfoTechnologyResources'), linked from https://dts.utah.gov/get-help/ as Vendor Policies; the export URL is built from the Doc id the shortcut resolves to"
+    tags: [cybersecurity, governance]
+    recheck: monthly
+    why_relevant: "Internal policy defining the use of state-owned IT resources by Division employees; it points to administrative rule R895-7 (Acceptable Use of Information Technology Resources) and DTS Policy 5000-0002."
+  - id: ut-dts-1000-0019
+    sha256: "61dc9249ad0161661e043a84023e85cfec3b07dbde27e753970c2dfb6d77eed2"
+    url: https://docs.google.com/document/d/1kbFJA_v3qiyyq14vWdO_4hbG3RXgR1cUvnAM2-ytPH4/export?format=docx
+    format: docx
+    citation: "DTS Policy 1000-0019"
+    title: "Vendor Service Level Agreement Standards"
+    identity_text: "DTS POLICY 1000-0019"
+    doc_type: policy
+    jurisdiction: utah
+    issuing_body: "Department of Government Operations, Division of Technology Services"
+    found_via: "Drive folder 1nCVh71HGjaQG22FpJ3j_P6lOZmulL643 (item '1000-0019_Policy_External_Vendor Service Level Agreement Standards'), linked from https://dts.utah.gov/get-help/ as Vendor Policies; the export URL is built from the Doc id the shortcut resolves to"
+    tags: [procurement, cloud-resilience]
+    recheck: monthly
+    why_relevant: "External policy: the minimum service level (system availability and response) that vendors providing as-a-service goods to executive branch agencies must meet. Issued 8 October 2026."
+  - id: ut-dts-2000-0014
+    sha256: "434bb0926a169d07e1d80ccc24f3cce19f02dd2d4138bc2a0f6027b030531538"
+    url: https://docs.google.com/document/d/1EgTfKsWKoVuK81w_TfLfFpSJWvO3V5PQsgpjRXQDG38/export?format=docx
+    format: docx
+    citation: "DTS Policy 2000-0014"
+    title: "Background Investigations"
+    identity_text: "DTS POLICY 2000-0014"
+    doc_type: policy
+    jurisdiction: utah
+    issuing_body: "Department of Government Operations, Division of Technology Services"
+    found_via: "Drive folder 1nCVh71HGjaQG22FpJ3j_P6lOZmulL643 (item '2000-0014_Policy_Internal_BackgroundInvestigations'), linked from https://dts.utah.gov/get-help/ as Vendor Policies; the export URL is built from the Doc id the shortcut resolves to. The seed title is the Drive item name; the document prints the title 'Background Investigations Policy' as its first line, which the Word extraction drops (see the conversion note)"
+    tags: [cybersecurity, governance]
+    recheck: monthly
+    why_relevant: "Internal policy that, under the CIO's duty to promote the security of state information and information systems, sets the background investigation of Division employees and contractors (scope includes the equipment they administer). Kept because its stated purpose is information security; filed under Human Resources by the Division."
+
+  - id: ut-dts-4000-0002
+    url: https://drive.google.com/file/d/1NBYhF_5Mai0E89x1R3MiDEyDfi-aWNJW/view
+    format: html
+    citation: "DTS Policy 4000-0002"
+    title: "Enterprise User Authentication Standards"
+    doc_type: policy
+    jurisdiction: utah
+    issuing_body: "Department of Government Operations, Division of Technology Services"
+    found_via: "Drive folder 1nCVh71HGjaQG22FpJ3j_P6lOZmulL643 (item '4000-0002_Policy_EnterpriseUserAuthenticationStandards'), linked from https://dts.utah.gov/get-help/ as Vendor Policies"
+    tags: [cybersecurity, governance]
+    recheck: monthly
+    why_relevant: "Enterprise policy on user authentication standards (information security). Title from the Drive item name only."
+    stub: true
+    stub_reason: "The Drive folder lists this item (data-id 1NBYhF_5Mai0E89x1R3MiDEyDfi-aWNJW, item name '4000-0002_Policy_EnterpriseUserAuthenticationStandards') as a shortcut marked 'Unavailable'; the original item is deleted. Its view link answers the Fetcher with HTTP 401 (Refused), so the policy's text cannot be read. The title is the Drive item name, copied from the folder bytes fetched 2026-11-12, not a title the policy prints. Whether the Division still holds the policy behind its sign-in IT Service Portal is unknown."
+  - id: ut-dts-4000-0003
+    url: https://drive.google.com/file/d/132ujR20_TsxGvEIP9bsTqcb9-pUmTgjj/view
+    format: html
+    citation: "DTS Policy 4000-0003"
+    title: "Internal Software Development Life Cycle"
+    doc_type: policy
+    jurisdiction: utah
+    issuing_body: "Department of Government Operations, Division of Technology Services"
+    found_via: "Drive folder 1nCVh71HGjaQG22FpJ3j_P6lOZmulL643 (item '4000-0003_Policy_Internal_SoftwareDevelopmentLifeCycle'), linked from https://dts.utah.gov/get-help/ as Vendor Policies"
+    tags: [cybersecurity, governance]
+    recheck: monthly
+    why_relevant: "Internal Division policy on the software development life cycle. Title from the Drive item name only; in scope as IT management policy."
+    stub: true
+    stub_reason: "The Drive folder lists this item (data-id 132ujR20_TsxGvEIP9bsTqcb9-pUmTgjj, item name '4000-0003_Policy_Internal_SoftwareDevelopmentLifeCycle') as a shortcut marked 'Unavailable'; the original item is deleted. Its view link answers the Fetcher with HTTP 401 (Refused), so the policy's text cannot be read. The title is the Drive item name, copied from the folder bytes fetched 2026-11-12, not a title the policy prints. Whether the Division still holds the policy behind its sign-in IT Service Portal is unknown."
+  - id: ut-dts-4000-0004
+    url: https://drive.google.com/file/d/1kE0DJtISFzcPaQpnL2xKttUA6KQC2J2H/view
+    format: html
+    citation: "DTS Policy 4000-0004"
+    title: "Internal Change Management"
+    doc_type: policy
+    jurisdiction: utah
+    issuing_body: "Department of Government Operations, Division of Technology Services"
+    found_via: "Drive folder 1nCVh71HGjaQG22FpJ3j_P6lOZmulL643 (item '4000-0004_Policy_Internal_ChangeManagement'), linked from https://dts.utah.gov/get-help/ as Vendor Policies"
+    tags: [cybersecurity, governance]
+    recheck: monthly
+    why_relevant: "Internal Division policy on IT change management. Title from the Drive item name only."
+    stub: true
+    stub_reason: "The Drive folder lists this item (data-id 1kE0DJtISFzcPaQpnL2xKttUA6KQC2J2H, item name '4000-0004_Policy_Internal_ChangeManagement') as a shortcut marked 'Unavailable'; the original item is deleted. Its view link answers the Fetcher with HTTP 401 (Refused), so the policy's text cannot be read. The title is the Drive item name, copied from the folder bytes fetched 2026-11-12, not a title the policy prints. Whether the Division still holds the policy behind its sign-in IT Service Portal is unknown."
+
+  # ---- Administrative rules of the Division of Technology Services (R895): numbers and titles from fetched bytes, text unreadable (stubs)
+  - id: ut-rule-r895-7
+    url: https://adminrules.utah.gov/Code#R895-7
+    format: html
+    citation: "Utah Administrative Code R895-7"
+    title: "Acceptable Use of Information Technology Resources"
+    doc_type: rule
+    jurisdiction: utah
+    issuing_body: "Department of Government Operations, Division of Technology Services"
+    found_via: "cited by DTS Policies 1000-0003 and 5000-0002; text sought at the eRules application the Office of Administrative Rules links (https://rules.utah.gov/publications/utah-adm-code/)"
+    tags: [governance]
+    recheck: quarterly
+    why_relevant: "Technology Services rule R895-7, Acceptable Use of Information Technology Resources: a rule issued by the state IT agency (playbook item 4)."
+    stub: true
+    stub_reason: "The Office of Administrative Rules' Utah Administrative Code page (https://rules.utah.gov/publications/utah-adm-code/) redirects the Fetcher to the eRules application at https://adminrules.utah.gov/ (HTTP 200, 158,351 bytes): a JavaScript application shell with no rule text; its /Code page is the same shell, and the two rule-page paths tried (/public/rule...) answered HTTP 404. The url is the application's /Code page, whose shell is the same; the #fragment only keeps each seed url unique and is not a rule address. The Office documents no bulk file or API for the code's text (it offers monthly ZIP archives of only the rules changed that month, and annual Index of Changes spreadsheets). The number and title are copied from fetched bytes (cited by DTS Policies 1000-0003 and 5000-0002); the rule's text and current status could not be read."
+  - id: ut-rule-r895-3
+    url: https://adminrules.utah.gov/Code#R895-3
+    format: html
+    citation: "Utah Administrative Code R895-3"
+    title: "Computer Software Licensing, Copyright, Control, Retention, and License"
+    doc_type: rule
+    jurisdiction: utah
+    issuing_body: "Department of Government Operations, Division of Technology Services"
+    found_via: "from the Index of Changes spreadsheets read (rules effective in 2025 and 2026); text sought at the eRules application the Office of Administrative Rules links (https://rules.utah.gov/publications/utah-adm-code/)"
+    tags: [governance]
+    recheck: quarterly
+    why_relevant: "Technology Services rule R895-3, Computer Software Licensing, Copyright, Control, Retention, and License: a rule issued by the state IT agency (playbook item 4)."
+    stub: true
+    stub_reason: "The Office of Administrative Rules' Utah Administrative Code page (https://rules.utah.gov/publications/utah-adm-code/) redirects the Fetcher to the eRules application at https://adminrules.utah.gov/ (HTTP 200, 158,351 bytes): a JavaScript application shell with no rule text; its /Code page is the same shell, and the two rule-page paths tried (/public/rule...) answered HTTP 404. The url is the application's /Code page, whose shell is the same; the #fragment only keeps each seed url unique and is not a rule address. The Office documents no bulk file or API for the code's text (it offers monthly ZIP archives of only the rules changed that month, and annual Index of Changes spreadsheets). The number and title are copied from fetched bytes (from the Index of Changes spreadsheets read (rules effective in 2025 and 2026)); the rule's text and current status could not be read."
+  - id: ut-rule-r895-4
+    url: https://adminrules.utah.gov/Code#R895-4
+    format: html
+    citation: "Utah Administrative Code R895-4"
+    title: "Subdomain Naming Conventions for Executive Branch Agencies"
+    doc_type: rule
+    jurisdiction: utah
+    issuing_body: "Department of Government Operations, Division of Technology Services"
+    found_via: "from the Index of Changes spreadsheets read (rules effective in 2025 and 2026); text sought at the eRules application the Office of Administrative Rules links (https://rules.utah.gov/publications/utah-adm-code/)"
+    tags: [governance]
+    recheck: quarterly
+    why_relevant: "Technology Services rule R895-4, Subdomain Naming Conventions for Executive Branch Agencies: a rule issued by the state IT agency (playbook item 4)."
+    stub: true
+    stub_reason: "The Office of Administrative Rules' Utah Administrative Code page (https://rules.utah.gov/publications/utah-adm-code/) redirects the Fetcher to the eRules application at https://adminrules.utah.gov/ (HTTP 200, 158,351 bytes): a JavaScript application shell with no rule text; its /Code page is the same shell, and the two rule-page paths tried (/public/rule...) answered HTTP 404. The url is the application's /Code page, whose shell is the same; the #fragment only keeps each seed url unique and is not a rule address. The Office documents no bulk file or API for the code's text (it offers monthly ZIP archives of only the rules changed that month, and annual Index of Changes spreadsheets). The number and title are copied from fetched bytes (from the Index of Changes spreadsheets read (rules effective in 2025 and 2026)); the rule's text and current status could not be read."
+  - id: ut-rule-r895-5
+    url: https://adminrules.utah.gov/Code#R895-5
+    format: html
+    citation: "Utah Administrative Code R895-5"
+    title: "Acquisition of Information Technology"
+    doc_type: rule
+    jurisdiction: utah
+    issuing_body: "Department of Government Operations, Division of Technology Services"
+    found_via: "from the Index of Changes spreadsheets read (rules effective in 2025 and 2026); text sought at the eRules application the Office of Administrative Rules links (https://rules.utah.gov/publications/utah-adm-code/)"
+    tags: [governance]
+    recheck: quarterly
+    why_relevant: "Technology Services rule R895-5, Acquisition of Information Technology: a rule issued by the state IT agency (playbook item 4)."
+    stub: true
+    stub_reason: "The Office of Administrative Rules' Utah Administrative Code page (https://rules.utah.gov/publications/utah-adm-code/) redirects the Fetcher to the eRules application at https://adminrules.utah.gov/ (HTTP 200, 158,351 bytes): a JavaScript application shell with no rule text; its /Code page is the same shell, and the two rule-page paths tried (/public/rule...) answered HTTP 404. The url is the application's /Code page, whose shell is the same; the #fragment only keeps each seed url unique and is not a rule address. The Office documents no bulk file or API for the code's text (it offers monthly ZIP archives of only the rules changed that month, and annual Index of Changes spreadsheets). The number and title are copied from fetched bytes (from the Index of Changes spreadsheets read (rules effective in 2025 and 2026)); the rule's text and current status could not be read."
+  - id: ut-rule-r895-8
+    url: https://adminrules.utah.gov/Code#R895-8
+    format: html
+    citation: "Utah Administrative Code R895-8"
+    title: "State Privacy Policy and Agency Privacy Policies"
+    doc_type: rule
+    jurisdiction: utah
+    issuing_body: "Department of Government Operations, Division of Technology Services"
+    found_via: "from the Index of Changes spreadsheets read (rules effective in 2025 and 2026); text sought at the eRules application the Office of Administrative Rules links (https://rules.utah.gov/publications/utah-adm-code/)"
+    tags: [governance]
+    recheck: quarterly
+    why_relevant: "Technology Services rule R895-8, State Privacy Policy and Agency Privacy Policies: a rule issued by the state IT agency (playbook item 4)."
+    stub: true
+    stub_reason: "The Office of Administrative Rules' Utah Administrative Code page (https://rules.utah.gov/publications/utah-adm-code/) redirects the Fetcher to the eRules application at https://adminrules.utah.gov/ (HTTP 200, 158,351 bytes): a JavaScript application shell with no rule text; its /Code page is the same shell, and the two rule-page paths tried (/public/rule...) answered HTTP 404. The url is the application's /Code page, whose shell is the same; the #fragment only keeps each seed url unique and is not a rule address. The Office documents no bulk file or API for the code's text (it offers monthly ZIP archives of only the rules changed that month, and annual Index of Changes spreadsheets). The number and title are copied from fetched bytes (from the Index of Changes spreadsheets read (rules effective in 2025 and 2026)); the rule's text and current status could not be read."
+  - id: ut-rule-r895-14
+    url: https://adminrules.utah.gov/Code#R895-14
+    format: html
+    citation: "Utah Administrative Code R895-14"
+    title: "Access to Information Technology for Users with Disabilities"
+    doc_type: rule
+    jurisdiction: utah
+    issuing_body: "Department of Government Operations, Division of Technology Services"
+    found_via: "from the Index of Changes spreadsheets read (rules effective in 2025 and 2026); text sought at the eRules application the Office of Administrative Rules links (https://rules.utah.gov/publications/utah-adm-code/)"
+    tags: [governance]
+    recheck: quarterly
+    why_relevant: "Technology Services rule R895-14, Access to Information Technology for Users with Disabilities: a rule issued by the state IT agency (playbook item 4)."
+    stub: true
+    stub_reason: "The Office of Administrative Rules' Utah Administrative Code page (https://rules.utah.gov/publications/utah-adm-code/) redirects the Fetcher to the eRules application at https://adminrules.utah.gov/ (HTTP 200, 158,351 bytes): a JavaScript application shell with no rule text; its /Code page is the same shell, and the two rule-page paths tried (/public/rule...) answered HTTP 404. The url is the application's /Code page, whose shell is the same; the #fragment only keeps each seed url unique and is not a rule address. The Office documents no bulk file or API for the code's text (it offers monthly ZIP archives of only the rules changed that month, and annual Index of Changes spreadsheets). The number and title are copied from fetched bytes (from the Index of Changes spreadsheets read (rules effective in 2025 and 2026)); the rule's text and current status could not be read."
+
+  # ---- Index pages to watch (additions, removals and re-links go through seed-list review)
+  - id: ut-watch-governor-executive-orders
+    url: https://governor.utah.gov/executive-orders/
+    format: html
+    citation: "Governor's executive orders list (governor.utah.gov)"
+    title: "Executive Orders (Governor Cox, 2021 to date)"
+    doc_type: executive_order
+    jurisdiction: utah
+    issuing_body: "Governor Spencer J. Cox"
+    tags: [governance]
+    recheck: monthly
+    watch_only: true
+    why_relevant: "The Governor's list of executive orders, 2026 back to 2021, with links to the PDFs. A new order on state IT, data or AI shows here."
+  - id: ut-watch-rules-executive-documents
+    url: https://rules.utah.gov/publications/executive-documents/
+    format: html
+    citation: "Executive Documents (Office of Administrative Rules)"
+    title: "Executive Documents: Governor Cox, with links to the other governors' pages"
+    doc_type: executive_order
+    jurisdiction: utah
+    issuing_body: "Office of Administrative Rules"
+    tags: [governance]
+    recheck: monthly
+    watch_only: true
+    why_relevant: "The second official list of the Governor's executive orders, proclamations and declarations (as published in the Utah State Bulletin), with the Leavitt, Walker, Huntsman and Herbert pages linked."
+  - id: ut-watch-dts-vendor-policies-folder
+    url: https://drive.google.com/drive/folders/1nCVh71HGjaQG22FpJ3j_P6lOZmulL643?usp=sharing
+    format: html
+    citation: "DTS Policies for Vendors on Ts&Cs (Google Drive folder)"
+    title: "Utah DTS Policies for Vendors on Ts&Cs"
+    doc_type: policy
+    jurisdiction: utah
+    issuing_body: "Department of Government Operations, Division of Technology Services"
+    tags: [governance]
+    recheck: monthly
+    watch_only: true
+    why_relevant: "The Division's public policy set: ten items on 2026-11-12 (seven live shortcuts, three whose original item is deleted). Linked from https://dts.utah.gov/get-help/. Google serves the page with a per-request nonce, so the drift run may report it changed every time; the entries above are the record."
+  - id: ut-watch-rules-index-of-changes
+    url: https://rules.utah.gov/publications/index-of-changes/
+    format: html
+    citation: "Index of Changes (Office of Administrative Rules)"
+    title: "Index of Changes to the Utah Administrative Code (annual spreadsheets)"
+    doc_type: rule
+    jurisdiction: utah
+    issuing_body: "Office of Administrative Rules"
+    tags: [governance]
+    recheck: monthly
+    watch_only: true
+    why_relevant: "Lists the annual spreadsheets of effective rule filings. Utah's administrative code is served only through the eRules application (see left_out), so a new annual index is the signal to re-check the Technology Services rules (R895)."
+
+left_out:
+- text: |-
+    Utah left out, with the reason. Everything below was read from bytes fetched through the toolkit Fetcher on 2026-11-12.
+- text: |-
+    Statutes (Utah Code, XML or chapter lists read at le.utah.gov). Seeded: 63A-16, 63A-19, 63A-20, 63C-27.
+     - 13-72 Artificial Intelligence Policy Act (text read in part: definitions, the Office, the learning laboratory, agreement terms): creates the Office of Artificial Intelligence Policy, a learning laboratory
+       and regulatory mitigation agreements with private participants; obligations fall on persons using AI, not on state agencies as users.
+       Out on the inclusion test (private-sector AI regulation). The chapter carries a repeal date of 7/1/2027.
+     - 13-72a (AI applications relating to mental health), 13-77 (generative AI consumer disclosures), 13-72c (digital content provenance,
+       effective 1/1/2027): obligations on private providers; 13-72c is not yet in force. Section lists read.
+     - 63G-34 State Government - Interaction With Citizens And Others (read in full): requires state government to offer electronic submission
+       of forms; effective 7/1/2027, so not in force.
+     - 63G-32 Legal Personhood (read in full, 2 sections): 63G-32-102 says a governmental entity 'may not grant legal personhood to, nor recognize legal personhood in: artificial intelligence'
+       (and other non-human things). It binds governmental entities on the legal status of AI, not on their use of AI or IT. Borderline on the inclusion test; OWNER DECISION.
+     - 63G-15 State Issued Identification Number Act (read in full): a government entity may not use a nine digit number as a person's identification number where its information technology
+       system can create another number or is being reprogrammed. Binds state IT systems, but on one narrow identifier rule; not seeded, and the owner may reverse that.
+     - 63G-29 Social Credit Score Prohibition Act (read in full): binds governmental entities, but the subject is a prohibition on scoring
+       people by social behaviour, not IT, data or AI as a government function. Borderline; OWNER DECISION.
+     - 63A-12 Archives and Records Service and Management of Government Records (section list read): records management and the
+       Government Records Office; 63A-12-117 sets technical standards for digital authentication systems. General records law, as other states'
+       records acts were treated; OWNER DECISION on whether to seed 63A-12 and 63G-2 (Government Records Access and Management Act, chapter title read).
+     - 63A-1 Department of Government Operations (section list read): the department the Division sits in; no IT subject in its section headings.
+     - 63G-6a Utah Procurement Code (chapter title only): procurement code sections inside a non-IT chapter, left out pending the owner's decision on section-level slicing.
+     - 63D-3 Unauthorized Access to Information Technology (Title 63D chapter list only): a criminal statute; crimes are out of scope.
+     - 46-4 Uniform Electronic Transactions Act (chapter title only): general commercial and governmental e-records law, not read.
+     - Title 53 and Title 67 chapter lists were read for IT, cybersecurity and AI chapters: none found other than those named above.
+     - 63I-2 repeal dates: 63C-27 repeals 7/1/2032 and 13-72 and 13-72a on 7/1/2027, as the files print; the seeded 63C-27 says so.
+- text: |-
+    Administrative rules. Utah's administrative code is served only by the eRules public portal (adminrules.utah.gov, a JavaScript application:
+    the /Code page returned an application shell with no rule text, and the two rule-page URLs tried answered 404). The Office of Administrative Rules
+    offers monthly ZIP archives of only the rules that changed that month, and annual Index of Changes spreadsheets. So no Utah rule is a document, and none
+    can be shown to be current; each rule named below is a stub (ut-rule-r895-*) with that measured reason. Technology Services rules named in fetched bytes: R895-7 Acceptable Use of Information Technology Resources (cited
+    by DTS Policies 1000-0003 and 5000-0002); and, from the Index of Changes spreadsheets read (rules effective in 2025 and 2026): R895-3 Computer
+    Software Licensing, Copyright, Control, Retention, and License; R895-4 Subdomain Naming Conventions for Executive Branch Agencies; R895-5
+    Acquisition of Information Technology; R895-8 State Privacy Policy and Agency Privacy Policies; R895-14 Access to Information Technology for
+    Users with Disabilities. The full R895 list is unknown (the spreadsheets list only changed rules). A route to the code text (a bulk file or a documented API)
+    is an owner question; the watch entry on the Index of Changes page is the signal to re-check.
+- text: |-
+    Executive orders (governor.utah.gov list and rules.utah.gov Executive Documents list, every row title read; Herbert, Walker, Huntsman and Leavitt pages searched by title).
+     - Seeded: 2026-08 (AI) as a document; 2022-06 (TikTok) and the 2001 CIO security order as stubs.
+     - 2023-06 Directing the Chief Privacy Officer to Develop a Strategic Privacy Plan and 2023-01 Creating a Time-Limited Task Force on State Agency
+       Collaboration and Data Sharing: both are scans, read by OCR (both engines agreed) for this check, and both orders end by their own terms
+       ('shall remain in effect through Aug. 1, 2023' and 'through Aug. 30, 2023'). Expired, so not in force; left out.
+     - 2026-03 Establishing a Higher Bar for Data Center Development in Utah (read in part): a framework for water, air, ratepayer and land
+       use impacts of large private data centers, not state IT as a government function. Out.
+     - 2026-06 Utah Quantum Initiative (searched for IT duties; economic development) and 2025-05 Expanding Government Efficiency (GRIT; read in part: general
+       process improvement, no IT subject): out. 2026-01, -02, -04, -05, 2026-07 (Recovery Utah) and the rest of 2025, 2024, 2023, 2022 and 2021 by title: emergencies, wildfire,
+       drought, workforce, military leave, service hours, water conservation, remote work and similar: out.
+     - The governor's page labels both the AI order (October 6) and the November 6 flooding order '2026-08'; the flooding order's file name says 2026-09. Not an IT order.
+     - Herbert-era orders 2016-1 and 2020-76 (Rescinding Prior Executive Orders) were read: they name no IT order. Leavitt-era orders on the
+       Electronic Commerce Council (1999), telecommunications purchasing (1998) and the Wireless Interagency Network (1996), and Walker's
+       2003 Wireless Integrated Network Board (superseded 2007): telecom or obsolete, titles only. Out.
+     - A governor's Pro-Human AI Initiative of December 2025 is mentioned in order 2026-08; no separate instrument was found.
+- text: |-
+    Statewide IT policy library. The Division of Technology Services' /policies page no longer exists (https://dts.utah.gov/policies redirects to /get-help/).
+    Its Get Help page offers state employees "Enterprise Policies" only through the IT Service Portal marked "Sign In Required" (services.dts.utah.gov answers
+    the Fetcher with a sign-in application page, HTTP 200). No list of those policies is public, so they cannot be reconciled row by row; they are not seeded. Titles known only from citations
+    (text behind the sign-in portal, not fetched; no url to stub): DTS Policy 1000-0002 (Establishing and Updating DTS Policies and Administrative Rules), cited by the fetched policies,
+    and DTS Policy 3000-0001 (Acquisition of Goods and Services), cited by the committed text of 5000-0002. Other enterprise policies exist and their titles are unknown.
+    The public subset is the Google Drive folder of ten items, reconciled row by row:
+     - 1000-0003 Acceptable Use, 1000-0019 Vendor SLA Standards, 2000-0014 Background Investigations, 4000_0008 Enterprise Generative AI,
+       5000-0002 Information Security: seeded.
+     - 2000-0001 Code of Conduct: the Google Doc holds only a link to govops.utah.gov/policies/01-code-of-conduct/, whose page offers a PDF of the
+       Department's conduct policy; human resources, not IT. Out.
+     - 2000-0017 Drug Free Workplace: human resources. Out.
+     - Three items whose shortcut says 'Original item deleted.' (Drive ids 1NBYhF_5Mai0E89x1R3MiDEyDfi-aWNJW, 132ujR20_TsxGvEIP9bsTqcb9-pUmTgjj,
+       1kE0DJtISFzcPaQpnL2xKttUA6KQC2J2H): the folder bytes name them next to their ids as the Drive item names '4000-0002_Policy_EnterpriseUserAuthenticationStandards',
+       '4000-0003_Policy_Internal_SoftwareDevelopmentLifeCycle' and '4000-0004_Policy_Internal_ChangeManagement'; the shortcut view answers HTTP 401 (Refused).
+       Stubs ut-dts-4000-0002, -0003 and -0004 (titles are Drive item names, not printed titles).
+     - The Google Docs are live documents: an edit by the Division changes the export, and the drift run will report it.
+- text: |-
+    Other official pages read and left out as not instruments: the DTS Artificial Intelligence page (goals and activities, no requirements), Strategic Plan,
+    Services We Offer (FY2027 rates PDF is a rate sheet), the GovOps site, and the Office of Data Privacy site (privacy.utah.gov). The Office's Privacy Program Framework
+    version 2.1 (37-page PDF, https://privacy.utah.gov/wp-content/uploads/Privacy-Program-Framework-2.1-1.pdf, read in part) is a resource the Office
+    offers entities under 63A-19, in two-column layout; it presents itself as guidance. Borderline; OWNER DECISION. Its templates (privacy policy,
+    notices, data sharing agreement, incident response, privacy impact assessment), the maturity model spreadsheet and infographics are forms and
+    guidance, not instruments.
