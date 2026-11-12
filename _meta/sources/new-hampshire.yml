@@ -1,0 +1,153 @@
+# New Hampshire seed list: every instrument this state's part of the corpus holds or knows about.
+# Key reference: _meta/sources/README.md. Rules: _meta/CLAUDE.md.
+# Discovery 2026-11-12 through the toolkit Fetcher: gc.nh.gov (the RSA table of contents, all 67 Title pages, chapters 4-D, 4-F, 5-D, 7-A, 8-B,
+# 8-C, 12-M, 17-O, 21-R, 21-T, 202-B, 294-D, 294-E, 359-C, 359-N), the General Court's administrative rules agency list and the Adm and other
+# agency rule pages. Every www.nh.gov-family host (DoIT, Governor, Secretary of State, DAS) answered the Fetcher HTTP 403 Access Denied.
+sources:
+- id: nh-st-21-r
+  sha256: "6f8426b37eb586c337da0df42a6016f54e05b1533bbf73f4255357a2adc5c618"
+  url: https://gc.nh.gov/rsa/html/I/21-R/21-R-mrg.htm
+  format: html
+  citation: RSA Chapter 21-R
+  title: Chapter 21-R Department of Information Technology
+  doc_type: statute
+  jurisdiction: new-hampshire
+  issuing_body: New Hampshire General Court
+  tags:
+  - governance
+  - oversight
+  - procurement
+  - funding
+  - cybersecurity
+  - data
+  - cloud-resilience
+  recheck: monthly
+  why_relevant: 'The enabling statute for the Department of Information Technology and the state CIO (21-R:2, 21-R:3: the commissioner is the chief information officer), and the state''s cybersecurity statute for the executive branch: the Chief Information Security Officer and the statewide information security manual (21-R:3 I-b, 21-R:4-a), the cybersecurity integration center (21-R:4 XXI), the Information Technology Council (21-R:6), IT plan approval, statewide standards and protocols with waivers (21-R:4 III, V, XVIII), IT purchasing approval by the Department (21-R:8-a), the statewide telecommunications fund (21-R:9-a), open standards and open data formats (21-R:10 to 21-R:14), the prohibition on Kaspersky software (21-R:15) and the Cybersecurity Advisory Committee (21-R:16). 21-R:9 and 21-R:12 print as repealed. The statute authorises a statewide information security manual and standards; the manual and standards themselves are not in the seed list: no page of them could be read through the Fetcher (see left_out). The text carries session-law Source lines but no effective date for the chapter.'
+- id: nh-st-5-d
+  sha256: "8f771e5edb3048ab0cc00c7be1264ab9e6973b7fd436009ba12f8a50ecb52700"
+  url: https://gc.nh.gov/rsa/html/I/5-D/5-D-mrg.htm
+  format: html
+  citation: RSA Chapter 5-D
+  title: Chapter 5-D Use of Artificial Intelligence by State Agencies
+  doc_type: statute
+  jurisdiction: new-hampshire
+  issuing_body: New Hampshire General Court
+  tags:
+  - ai
+  - governance
+  - oversight
+  recheck: monthly
+  why_relevant: 'The statute on state-agency use of AI (2024, 209:1, eff. July 1, 2024): definitions of AI, generative AI and deepfakes; applicability to all computer systems operated by any state agency (defined to include the legislative and judicial branches and law enforcement) with exceptions for research systems at state-funded institutions of higher learning and installed consumer systems; prohibited uses (unlawfully discriminatory classification of persons, real-time remote biometric identification for public-space surveillance except by law enforcement with a warrant, deceptive or malicious deepfakes); human review of irreversible AI recommendations, disclosure of generative-AI content and of AI interaction; and compliance reporting to the Department of Information Technology, which is to apply its ''code of ethics for AI systems'' (5-D:5; that code is not in the seed list: no page of it could be read through the Fetcher; see left_out).'
+- id: nh-st-359-n
+  sha256: "4167c88cf1df36d675988df4a52f16c101024a2d3c0199ac8e0d64a43e24349b"
+  url: https://gc.nh.gov/rsa/html/XXXI/359-N/359-N-mrg.htm
+  format: html
+  citation: RSA Chapter 359-N
+  title: Chapter 359-N Regulation of Biometric Information
+  doc_type: statute
+  jurisdiction: new-hampshire
+  issuing_body: New Hampshire General Court
+  tags:
+  - data
+  - digital-services
+  recheck: monthly
+  why_relevant: 'Binds every ''government agency'', defined (359-N:1 II) as any employee, agent, elected official or entity of the state, a municipality or any other political subdivision: no agency may issue an identification card or device that requires biometric data, require biometric data as a condition of services, or obtain, retain or provide biometric data except as the chapter allows (359-N:2), with exemptions (359-N:3) and a civil action (359-N:4). Municipalities are covered by the same text and ride along.'
+- id: nh-st-4-f
+  sha256: "bcca88defde0be206f8107c7d83a61ba7c9320d88cf3a26ae1f54d3a31a178f0"
+  url: https://gc.nh.gov/rsa/html/I/4-F/4-F-mrg.htm
+  format: html
+  citation: RSA Chapter 4-F
+  title: Chapter 4-F New Hampshire Geographic Information System Committee
+  doc_type: statute
+  jurisdiction: new-hampshire
+  issuing_body: New Hampshire General Court
+  tags:
+  - data
+  - governance
+  recheck: monthly
+  why_relevant: 'Establishes the state GIS committee (members: the heads of thirteen state agencies including the Department of Information Technology, GRANIT at the University of New Hampshire, a municipal GIS manager and a regional-planning representative) and requires its member entities to share geospatial data and resources (4-F:1 III) and charges it with reviewing the use, development and coordination of geospatial data by state agencies. One section. Borderline: governs a government data function across agencies; kept as in scope (OWNER DECISION if the owner wants GIS out).'
+- id: nh-eo-governor-executive-orders
+  sha256: ""
+  url: https://www.governor.nh.gov/
+  format: html
+  citation: Executive orders of the Governor of New Hampshire
+  title: Governor's website (executive order list)
+  doc_type: executive_order
+  jurisdiction: new-hampshire
+  issuing_body: State of New Hampshire
+  tags:
+  - governance
+  - cybersecurity
+  - ai
+  recheck: monthly
+  stub: true
+  stub_reason: 'Refused by the host, measured 2026-11-12 on this build machine through the toolkit Fetcher (make_fetcher, with the toolkit''s curl-on-challenge option on): every request to a www.nh.gov-family host answered HTTP 403 with an Akamai ''Access Denied'' page (title ''Access Denied'', body ''You don''t have permission to access ... on this server'', an errors.edgesuite.net reference), including robots.txt. Hosts tried: www.doit.nh.gov, doit.nh.gov, mm.nh.gov (DoIT''s file host), www.nh.gov, www.governor.nh.gov, governor.nh.gov, www.sos.nh.gov, www.das.nh.gov, das.nh.gov. It is a block on the client, not a missing page. No retry, no other client and no workaround was attempted, and nothing about this source was read in bytes: the URL is the link the General Court''s rules page prints for the Governor (confirmed in fetched bytes), but the executive order list''s own address is not known from bytes. The Governor''s orders (also published by the Secretary of State on sos.nh.gov, refused the same way) could not be listed, so none could be checked for IT, cybersecurity, data or AI content or for in-force status.'
+  why_relevant: 'The Governor''s executive orders in force on state IT, cybersecurity, data or AI. Stub: refused, see stub_reason.'
+- id: nh-watch-rsa-title-i
+  sha256: ""
+  url: https://gc.nh.gov/rsa/html/NHTOC/NHTOC-I.htm
+  format: html
+  citation: RSA Title I table of contents
+  title: 'RSA Title I: The State and Its Government, chapter list'
+  doc_type: statute
+  jurisdiction: new-hampshire
+  tags:
+  - governance
+  recheck: monthly
+  watch_only: true
+  why_relevant: 'The chapter list of Title I (chapters 1 to 21-V), home of chapters 5-D, 4-F and 21-R and of the repealed IT chapters 4-D and 8-C: the watch sees a new or repealed chapter.'
+- id: nh-watch-rsa-title-xxxi
+  sha256: ""
+  url: https://gc.nh.gov/rsa/html/NHTOC/NHTOC-XXXI.htm
+  format: html
+  citation: RSA Title XXXI table of contents
+  title: 'RSA Title XXXI: Trade and Commerce, chapter list'
+  doc_type: statute
+  jurisdiction: new-hampshire
+  tags:
+  - governance
+  recheck: monthly
+  watch_only: true
+  why_relevant: 'The chapter list of Title XXXI, home of chapters 359-C and 359-N: the watch sees a new or repealed chapter.'
+- id: nh-watch-rsa-21-r-toc
+  sha256: ""
+  url: https://gc.nh.gov/rsa/html/NHTOC/NHTOC-I-21-R.htm
+  format: html
+  citation: RSA 21-R table of contents
+  title: 'RSA Chapter 21-R: section list'
+  doc_type: statute
+  jurisdiction: new-hampshire
+  tags:
+  - governance
+  recheck: monthly
+  watch_only: true
+  why_relevant: 'The section list of the Department of Information Technology chapter: the watch sees a new or repealed section.'
+- id: nh-watch-rules-agencies
+  sha256: ""
+  url: https://gc.nh.gov/rules/about_rules/listagencies.aspx
+  format: html
+  citation: NH administrative rules, agency list
+  title: Rules Listed by State Agency
+  doc_type: rule
+  jurisdiction: new-hampshire
+  tags:
+  - governance
+  recheck: monthly
+  watch_only: true
+  why_relevant: The Division of Administrative Rules' list of every rule title prefix and agency. It has no Department of Information Technology prefix (read 2026-11-12); the watch sees one appear.
+
+left_out:
+  - text: "RSA chapters 4-D (Office of Information Technology), 8-C (Department of Centralized Automated Data Processing), 7-A (Information Practices Act), 8-B (Records Management and Archives), 12-M (E-Commerce Advisory Commission), 21-T (State Procurement Policies and Procedures), 294-D (Digital Signature Act) and 17-O (Legislative Oversight Committee on Data Processing): the General Court's table-of-contents page for each prints 'Chapter is repealed' (read 2026-11-12). Not in force; no entry."
+  - text: "RSA chapter 294-E (Uniform Electronic Transactions Act, https://gc.nh.gov/rsa/html/NHTOC/NHTOC-XXVII-294-E.htm): a general commercial-law chapter; only 294-E:17 to 294-E:19 concern state agencies (294-E:18 lets the Department of Information Technology, with the Secretary of State and the Department of Administrative Services, set standards for agency electronic records and signatures). A non-IT chapter with in-scope sections: left out pending the owner's decision on section-level entries. OWNER DECISION."
+  - text: "RSA chapter 359-C (Right to Privacy), all of it, including the breach subdivision 359-C:19 to 359-C:21 (the page for 359-C:19 III defines 'person' to include state governmental entities, but the duty falls on any person doing business in this state): a general-law chapter outside IT, so its sections are left out pending the owner's decision on section-level entries from non-IT chapters, as for 294-E. OWNER DECISION: whether the breach subdivision (three single-section pages, 359-C:19, :20, :21) is wanted. Sections 1 to 18 (customer financial-records privacy, obligated parties are financial institutions) are out of scope."
+  - text: "RSA chapters 91-A (Access to Governmental Records and Meetings) and 202-B (State Government Information Dissemination and Access Act: library depository of state publications): public-records and library law, not IT governance. Listed in the Title VI and Title XVI contents pages; not read beyond the contents. Left out."
+  - text: "RSA chapter 91-C (Personal Privacy Protection Act, https://gc.nh.gov/rsa/html/VI/91-C/91-C-mrg.htm, read in full 2026-11-12): two sections. 91-C:1 bars public agencies and public bodies from disclosing, or requiring from a 501(c) organization, compilations of data identifying its members, supporters, volunteers or donors; 91-C:2 lists exemptions. It is donor-privacy and public-records law about one class of records, with nothing on information systems, data governance, cybersecurity or AI. Out of scope; left out."
+  - text: "RSA chapter 9-F (Online Access to Budget Information and Reports, https://gc.nh.gov/rsa/html/I/9-F/9-F-mrg.htm, read in full 2026-11-12): 9-F:1 I has the commissioner of administrative services put expenditure, salary, audit and contract information on a single state transparency website to be created by the Department of Information Technology (9-F:2 is repealed). Borderline: a fiscal-transparency and budget-law chapter whose digital-service element is one sentence. Left out pending the owner. OWNER DECISION: add it if the owner counts a state transparency website as digital services."
+  - text: "RSA chapter 21-U (Interagency Information Sharing by Financial Services Regulators, https://gc.nh.gov/rsa/html/I/21-U/21-U-mrg.htm, read in full 2026-11-12): four named financial regulators share complaint and enforcement data and keep a cooperative information-sharing database (21-U:2 II). An agency-program database for one regulatory field, not statewide IT governance. Out of scope; left out."
+  - text: "RSA chapters 21-I (Department of Administrative Services; its contents list shows only 21-I:11-e Electronic Reverse Auctions as technology-related) and the general purchasing rules Adm 600 (Parts Adm 601 to 613, https://gc.nh.gov/rules/state_agencies/adm.html): procurement and property law with no IT-specific part; non-IT chapters, left out."
+  - text: "RSA chapters 106-K (Criminal Justice Information System), 651-F (Information and Analysis Center), 644-A (Electronic Device Location Information), 359-H (Computer Spyware), 359-I (Identity Theft), 507-H (Expectation of Privacy), 359-B and other private-sector privacy or crime chapters, 189 student-data provisions: law enforcement, private-sector or K-12 subjects; out of scope under _meta/domain.yml. Chapter titles read in all 47 Title contents pages (1,914 chapter lines, 2026-11-12); a keyword pass over those titles (inform, data, cyber, comput, electronic, record, privacy, technolog, artificial, digital, internet, software, telecom, identity, secur, procure, online, automated, biometric, facial) found no other candidate."
+  - text: "Administrative rules of the IT agency: none found. The Division of Administrative Rules' list 'Rules Listed by State Agency' (https://gc.nh.gov/rules/about_rules/listagencies.aspx, read in full 2026-11-12, 156 distinct agency pages linked) has no Department of Information Technology prefix; RSA 21-R gives the Department no rulemaking and has it adopt standards and a telephony manual outside RSA 541-A (21-R:4 XVIII, XX). The Department of Administrative Services' rule chapters (Adm 100, 200, 500 repealed, 600, 700, 800, 1000) hold nothing on IT; Adm 600 is general purchasing. Rules of other agencies on their own systems were not searched."
+  - text: "The Department of Information Technology's statewide IT policies, standards and information security manual, which RSA 21-R:4-a and 21-R:4 XVIII say it adopts, and the code of ethics for AI systems that RSA 5-D:5 says it applies: no page of any of them could be read, no index of them was found in bytes fetched this run, and no gc.nh.gov page fetched links to the Department's site. Every www.nh.gov-family host tried answered the Fetcher HTTP 403 (Akamai 'Access Denied', measured 2026-11-12; hosts tried: www.doit.nh.gov, doit.nh.gov, mm.nh.gov, www.nh.gov, www.governor.nh.gov, governor.nh.gov, www.sos.nh.gov, www.das.nh.gov, das.nh.gov, including robots.txt). The statewide IT policy library therefore could not be enumerated and 'every item in the library' is NOT done; no stub is made because no URL for it is confirmed in bytes. Leads from web search are in docs/research/new-hampshire-leads.md, marked discovery only. Retry when the host answers the Fetcher."
+  - text: "Governor's executive orders: governor.nh.gov and sos.nh.gov refuse the Fetcher (HTTP 403, same measurement; see stub nh-eo-governor-executive-orders), so no order was read and none could be checked in force. Leads from web search are in docs/research/new-hampshire-leads.md, marked discovery only."
+  - text: "The index of the statewide IT policy library is not a watch entry or a stub: its address is not confirmed in bytes, and a watch needs a baseline fetch the host refuses. The executive order list is the one stub."
+  - text: "NH was not checked for: other statutes bearing on state-agency data held outside the keyword pass above (for example agency-specific confidentiality chapters), session laws not yet codified in the RSA, and 2026 enacted bills. The statute pages are the General Court's current RSA."
