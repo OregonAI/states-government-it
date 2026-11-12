@@ -1,0 +1,22 @@
+75-7237. As used in K.S.A. 75-7236 through 75-7243, and amendments thereto:
+(a) “Act” means the Kansas cybersecurity act.
+(b) “Breach” or “breach of security” means unauthorized access of data in electronic form containing personal information. Good faith access of personal information by an employee or agent of an executive branch agency does not constitute a breach of security, provided that the information is not used for a purpose unrelated to the business or subject to further unauthorized use.
+(c) “CISO” means the executive branch chief information security officer.
+(d) “Cybersecurity” means the body of information technologies, processes and practices designed to protect networks, computers, programs and data from attack, damage or unauthorized access.
+(e) “Cybersecurity positions” do not include information technology positions within executive branch agencies.
+(f) “Data in electronic form” means any data stored electronically or digitally on any computer system or other database and includes recordable tapes and other mass storage devices.
+(g) “Executive branch agency” means any agency in the executive branch of the state of Kansas, including the judicial council but not the elected office agencies, the adjutant general’s department, the Kansas public employees retirement system, regents’ institutions, or the board of regents.
+(h) “KISO” means the Kansas information security office.
+(i) (1) “Personal information” means:
+(A) An individual’s first name or first initial and last name, in combination with at least one of the following data elements for that individual:
+(i) Social security number;
+(ii) driver’s license or identification card number, passport number, military identification number or other similar number issued on a government document used to verify identity;
+(iii) financial account number or credit or debit card number, in combination with any security code, access code or password that is necessary to permit access to an individual’s financial account;
+(iv) any information regarding an individual’s medical history, mental or physical condition or medical treatment or diagnosis by a healthcare professional; or
+(v) an individual’s health insurance policy number or subscriber identification number and any unique identifier used by a health insurer to identify the individual; or
+(B) a user name or email address, in combination with a password or security question and answer that would permit access to an online account.
+(2) “Personal information” does not include information:
+(A) About an individual that has been made publicly available by a federal agency, state agency or municipality; or
+(B) that is encrypted, secured or modified by any other method or technology that removes elements that personally identify an individual or that otherwise renders the information unusable.
+(j) “State agency” means the same as defined in K.S.A. 75-7201, and amendments thereto.
+[2026 Session Laws of Kansas, chapter 53, House Bill No. 2574, section 12. Approved April 6, 2026.]

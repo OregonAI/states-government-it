@@ -1,0 +1,27 @@
+75-7205. (a) There is hereby established within and as a part of the office of information technology services the position of executive chief information technology officer. The executive chief information technology officer shall be in the unclassified service under the Kansas civil service act, shall be appointed by the governor, and shall receive compensation in an amount fixed by the governor. The executive chief information technology officer shall maintain a presence in any cabinet established by the governor and shall report to the governor.
+(b) The executive chief information technology officer shall:
+(1) Review and consult with each executive agency regarding information technology plans, deviations from the state information technology architecture, information technology project estimates and information technology project changes and overruns submitted by such agency pursuant to K.S.A. 75-7209, and amendments thereto, to determine whether the agency has complied with:
+(A) The information technology resource policies and procedures and project management methodologies adopted by the information technology executive council;
+(B) the information technology architecture adopted by the information technology executive council;
+(C) the standards for data management adopted by the information technology executive council; and
+(D) the strategic information technology management plan adopted by the information technology executive council;
+(2) report to the chief information technology architect all deviations from the state information architecture that are reported to the executive information technology officer by executive agencies;
+(3) submit recommendations to the division of the budget as to the technical and management merit of information technology projects and information technology project changes and overruns submitted by executive agencies that are reportable pursuant to K.S.A. 75-7209, and amendments thereto;
+(4) monitor executive agencies’ compliance with:
+(A) The information technology resource policies and procedures and project management methodologies adopted by the information technology executive council;
+(B) the information technology architecture adopted by the information technology executive council;
+(C) the standards for data management adopted by the information technology executive council; and
+(D) the strategic information technology management plan adopted by the information technology executive council;
+(5) coordinate implementation of new information technology among executive agencies and with the judicial and legislative chief information technology officers;
+(6) designate the ownership of information resource processes and the lead agency for implementation of new technologies and networks shared by multiple agencies within the executive branch of state government;
+(7) perform such other functions and duties as provided by law or as directed by the governor;
+(8) consult with the appropriate legal counsel on topics related to confidentiality of information, the open records act, K.S.A. 45-215 et seq., and amendments thereto, the open meetings act, K.S.A. 75-4317 et seq., and amendments thereto, and any other legal matter related to information technology;
+(9) ensure that each executive agency has the necessary information technology and cybersecurity staff imbedded within the agency to accomplish the agency’s duties;
+(10) maintain all third-party data centers at locations within the United States or with companies that are based in the United States;
+(11) create a database of all electronic devices within the branch and ensure that each device is inventoried, cataloged and tagged within an inventory device;
+(12) prepare and lead the implementation of a strategic direction and enterprise direction for information technology for the executive branch;
+(13) establish standards and policies for the consistent and efficient operation of information technology services throughout the executive branch; and
+(14) analyze the expenditures made by executive branch agencies on information technology projects to identify opportunities and efficiencies.
+(c) An employee of the office of information technology services shall not disclose confidential information of an executive agency.
+(d) The executive chief information technology officer may make a request to the adjutant general to permit the Kansas national guard in a state active duty capacity to perform vulnerability assessments or other assessments of the branch for the purpose of enhancing security. During such vulnerability assessments, members performing the assessment shall, to the extent possible, ensure that no harm is done to the systems being assessed. The executive chief information technology officer shall notify the executive agency that owns the information systems being assessed about such assessment and coordinate to mitigate the security risk.
+[2026 Session Laws of Kansas, chapter 153, House Substitute for Senate Bill No. 51, section 7. Approved April 27, 2026.]

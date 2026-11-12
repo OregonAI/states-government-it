@@ -1,0 +1,4 @@
+75-7242. Confidentiality of information collected that places the organization at risk; exceptions. Information collected to effectuate this act shall be considered confidential by all state and local governmental organizations unless all data elements or information that specifically identifies a target, vulnerability or weakness that would place the organization at risk have been redacted, including: (a) System information logs; (b) vulnerability reports; (c) risk assessment reports; (d) system security plans; (e) detailed system design plans; (f) network or system diagrams; and (g) audit reports.
+History: L. 2018, ch. 97, § 7; L. 2023, ch. 75, § 16; L. 2023, ch. 91, § 7; July 1.
+Revisor's Note:
+Section was also amended by L. 2023, ch. 25, § 9, but that version was repealed by L. 2023, ch. 91, § 9.

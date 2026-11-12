@@ -1,0 +1,10 @@
+75-7204. Chief information technology architect; duties. (a) There is hereby established, within and as a part of the office of information technology services, the position of chief information technology architect whose duties shall be performed under the supervision of the executive chief information technology officer. The chief information technology architect shall be in the unclassified service under the Kansas civil service act, shall be appointed by the executive chief information technology officer, subject to approval of the governor and shall receive compensation in an amount fixed by the executive chief information technology officer, subject to approval of the governor.
+(b) The chief information technology architect shall:
+(1) Propose to the information technology executive council: (A) Information technology resource policies and procedures and project management methodologies for all state agencies; (B) an information technology architecture, including telecommunications systems, networks and equipment, that covers all state agencies; (C) standards for data management for all state agencies; and (D) a strategic information technology management plan for the state;
+(2) serve as secretary to the information technology executive council; and
+(3) perform such other functions and duties as provided by law or as directed by the executive chief information technology officer.
+History: L. 1998, ch. 182, § 4; L. 2013, ch. 62, § 31; July 1.
+Source or Prior Law:
+75-4742, 75-4743.
+Cross References to Related Sections:
+75-7202

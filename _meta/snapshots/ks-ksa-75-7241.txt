@@ -1,0 +1,3 @@
+75-7241. Fingerprinting; criminal history record check; certain employees or contractors. (a) An executive branch agency head, with input from the CISO, shall require an employee to be fingerprinted and to submit to a state and national criminal history record check in accordance with K.S.A. 2025 Supp. 22-4714, and amendments thereto, at least every five years.
+(b) As used in this section, "employee" means a person who has submitted an application for employment or is currently employed by or contracting with an executive branch agency whose duties include collection, maintenance or access to personal information.
+History: L. 2018, ch. 97, § 6; L. 2024, ch. 15, § 103; July 1.

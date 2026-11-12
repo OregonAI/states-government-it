@@ -1,0 +1,23 @@
+75-7202. (a) There is hereby established the information technology executive council which shall be attached to the office of information technology services for purposes of administrative functions.
+(b) (1) The council shall be composed of 17 voting members as follows:
+(A) Two cabinet agency heads or such persons’ designees;
+(B) two noncabinet agency heads or such persons’ designees;
+(C) the executive chief information technology officer;
+(D) the executive chief information security officer;
+(E) the chief executive officer of the state board of regents or such person’s designee;
+(F) one representative of cities;
+(G) one representative of counties;
+(H) one representative with background and knowledge in technology and cybersecurity from the private sector, except that such representative or such representative’s employer shall not be an information technology or cybersecurity vendor that does business with the state of Kansas;
+(I) one representative appointed by the Kansas criminal justice information system committee;
+(J) one member of the senate appointed by the president of the senate or such member’s designee;
+(K) one member of the senate appointed by the minority leader of the senate or such member’s designee;
+(L) one member of the house of representatives appointed by the speaker of the house of representatives or such member’s designee;
+(M) one member of the house of representatives appointed by the minority leader of the house of representatives or such member’s designee; and
+(N) two information technology employees from state board of regents institutions appointed by the board of regents.
+(2) The chief information technology architect, the legislative chief information technology officer and the judicial chief information technology officer shall be nonvoting members of the council.
+(3) The cabinet agency heads, the noncabinet agency heads, the representative of cities, the representative of counties and the representative from the private sector shall be appointed by the governor for a term not to exceed 18 months. Upon expiration of an appointed member’s term, the member shall continue to hold office until the appointment of a successor. Legislative members shall remain members of the legislature in order to retain membership on the council and shall serve until replaced pursuant to this section. Vacancies of members during a term shall be filled in the same manner as the original appointment only for the unexpired part of the term. The appointing authority for a member may remove the member, reappoint the member or substitute another appointee for the member at any time. Nonappointed members shall serve ex officio.
+(c) The chairperson of the council shall be the executive chief information technology officer.
+(d) The council shall hold monthly meetings and hearings in the city of Topeka or at such other places as the council designates, on call of the executive chief information technology officer or on request of four or more members. A quorum of the council shall be seven members. All actions of the council shall be taken by a majority of all of the members of the council.
+(e) Except for members specified as a designee in subsection (b), members of the council may not appoint an individual to represent them on the council and only members of the council may vote.
+(f) Members of the council shall receive mileage, tolls and parking as provided in K.S.A. 75-3223, and amendments thereto, for attendance at any meeting of the council or any subcommittee meeting authorized by the council.
+[2026 Session Laws of Kansas, chapter 53, House Bill No. 2574, section 8. Approved April 6, 2026.]

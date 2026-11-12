@@ -1,0 +1,9 @@
+74-99f05. Geographic information systems policy board; duties. The board shall:
+(a) Establish public and private partnerships throughout Kansas to maximize value, minimize cost and avoid redundant activities in the development and implementation of geographic information systems;
+(b) foster efficient and secure methods for data sharing at all levels of government;
+(c) coordinate, review and provide recommendations on geographic information systems programs and investments and provide assistance with dispute resolution among geographic systems partners;
+(d) continue to establish Kansas' leadership role in the national effort to improve capabilities for sharing geographic information and ideas with other states;
+(e) promote the use of geographic information systems technologies as tools to break through structural and administrative boundaries to collaborate on shared problems and enhance information analysis and decision-making processes within all levels of government;
+(f) shall be a standing advisory committee to the information technology executive council and shall provide a copy of its annual report to the council, as well as to the governor and both houses of the legislature; and
+(g) shall work jointly with officials from other state agencies, organizations and county, municipal and tribal governments, as well as with businesses and organizations in the private sector who are concerned with the efficient management of the state's geographic information systems resources.
+History: L. 2012, ch. 174, § 5; June 7.
