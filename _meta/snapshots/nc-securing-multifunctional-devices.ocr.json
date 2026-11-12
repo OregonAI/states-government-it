@@ -1,0 +1,273 @@
+{
+  "agreement": 0.9947,
+  "dict_ratio": 0.9828,
+  "disagreements": [
+    {
+      "before": [
+        "To",
+        "State",
+        "Security",
+        "Liaisons"
+      ],
+      "paddle": "MA",
+      "tesseract": ""
+    },
+    {
+      "before": [
+        "model",
+        "devices",
+        "Configuration",
+        "Security"
+      ],
+      "paddle": "",
+      "tesseract": "e"
+    },
+    {
+      "before": [
+        "support",
+        "secure",
+        "configuration",
+        "features"
+      ],
+      "paddle": "",
+      "tesseract": "e"
+    },
+    {
+      "before": [
+        "required",
+        "for",
+        "business",
+        "use"
+      ],
+      "paddle": "",
+      "tesseract": "e"
+    },
+    {
+      "before": [
+        "vendor",
+        "signed",
+        "firmware",
+        "updates"
+      ],
+      "paddle": "",
+      "tesseract": "e"
+    },
+    {
+      "before": [
+        "remote",
+        "firmware",
+        "update",
+        "ability"
+      ],
+      "paddle": "",
+      "tesseract": "e"
+    },
+    {
+      "before": [
+        "firmware",
+        "update",
+        "process",
+        "utility"
+      ],
+      "paddle": "",
+      "tesseract": "e"
+    },
+    {
+      "before": [
+        "Opportunity",
+        "Affirmative",
+        "Action",
+        "Employer"
+      ],
+      "paddle": "",
+      "tesseract": "e"
+    },
+    {
+      "before": [
+        "comply",
+        "with",
+        "statewide",
+        "standards"
+      ],
+      "paddle": "",
+      "tesseract": "e"
+    },
+    {
+      "before": [
+        "printer",
+        "management",
+        "if",
+        "supportable"
+      ],
+      "paddle": "",
+      "tesseract": "e"
+    },
+    {
+      "before": [
+        "and",
+        "use",
+        "strong",
+        "passphrases"
+      ],
+      "paddle": "",
+      "tesseract": "e"
+    },
+    {
+      "before": [
+        "FTP",
+        "Telnet",
+        "SMTP",
+        "etc"
+      ],
+      "paddle": "",
+      "tesseract": "e"
+    },
+    {
+      "before": [
+        "communicate",
+        "with",
+        "the",
+        "internet"
+      ],
+      "paddle": "",
+      "tesseract": "e"
+    },
+    {
+      "before": [
+        "can",
+        "use",
+        "the",
+        "device"
+      ],
+      "paddle": "",
+      "tesseract": "e"
+    },
+    {
+      "before": [
+        "web",
+        "based",
+        "device",
+        "maintenance"
+      ],
+      "paddle": "",
+      "tesseract": "e"
+    },
+    {
+      "before": [
+        "user",
+        "functions",
+        "where",
+        "possible"
+      ],
+      "paddle": "",
+      "tesseract": "e"
+    },
+    {
+      "before": [
+        "access",
+        "to",
+        "the",
+        "device"
+      ],
+      "paddle": "",
+      "tesseract": "e"
+    },
+    {
+      "before": [
+        "on",
+        "a",
+        "regular",
+        "basis"
+      ],
+      "paddle": "",
+      "tesseract": "e"
+    },
+    {
+      "before": [
+        "show",
+        "users",
+        "printing",
+        "behavior"
+      ],
+      "paddle": "",
+      "tesseract": "e"
+    },
+    {
+      "before": [
+        "copy",
+        "or",
+        "fax",
+        "job"
+      ],
+      "paddle": "",
+      "tesseract": "e"
+    },
+    {
+      "before": [
+        "not",
+        "needed",
+        "Network",
+        "Security"
+      ],
+      "paddle": "",
+      "tesseract": "e"
+    },
+    {
+      "before": [
+        "with",
+        "no",
+        "internet",
+        "access"
+      ],
+      "paddle": "",
+      "tesseract": "e"
+    },
+    {
+      "before": [
+        "to",
+        "process",
+        "sensitive",
+        "information"
+      ],
+      "paddle": "If the",
+      "tesseract": "e Ifthe"
+    },
+    {
+      "before": [
+        "hp",
+        "com",
+        "km",
+        "ext"
+      ],
+      "paddle": "kmcsdirect",
+      "tesseract": "kmesdirect"
+    },
+    {
+      "before": [
+        "http",
+        "checklists",
+        "nist",
+        "gov"
+      ],
+      "paddle": "ncp",
+      "tesseract": "nep"
+    }
+  ],
+  "engines": [
+    "tesseract (ocrmypdf)",
+    "paddleocr PP-OCRv6"
+  ],
+  "figure_agreement": 1.0,
+  "figures": 28,
+  "forced_rotation": false,
+  "glued": 0,
+  "paddle_sha256": "89fb8c24e9766470302aaacffaf4163530fd5e70fd4e7d28460ffb3ffd695ce2",
+  "pdf_sha256": "0c4faec755cd7c754a57a3be4fb2c82e3a440d9ceffe9ab97144cc5a0130e12d",
+  "psm": null,
+  "text_sha256": "f1afa94de7f6de2d10c08f8c9e548d074fbcf466931d0327dbfce0a98d8969fe",
+  "tools": {
+    "ocrmypdf": "15.2.0+dfsg1",
+    "tesseract": "tesseract 5.3.4"
+  },
+  "words": 757
+}

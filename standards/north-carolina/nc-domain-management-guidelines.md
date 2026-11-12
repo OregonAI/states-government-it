@@ -1,0 +1,139 @@
+---
+schema_version: 1
+corpus: states-government-it
+jurisdiction: north-carolina
+id: nc-domain-management-guidelines
+title: Domain Management Guidelines
+doc_type: standard
+citation: 'NCDIT: Domain Management Guidelines'
+authority_level: ''
+issuing_body: North Carolina Department of Information Technology
+source_url: https://it.nc.gov/documents/files/domain-management-guidelines/download?attachment
+source_format: pdf
+retrieved: '2026-11-11'
+source_sha256: 311ddf84ad75e8607e7daa8c7032e6f831c4f88bda4022c09d73b4125c0e9130
+effective_date: null
+source_version: ''
+status: current
+content_mode: verbatim
+conversion_notes: Text extracted with pdftotext -layout (page headers, footers and column layout kept
+  as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their
+  letters).
+last_verified: ''
+verified_by: ''
+maintainer: ''
+relationships:
+  implements: []
+  implemented_by: []
+  references_external: []
+  related: []
+  supersedes: []
+tags:
+- digital-services
+- governance
+---
+
+> **NON-AUTHORITATIVE.** This is a convenience copy for machine reading. The official text is published at the source URL above. Verify at source before relying on it.
+
+# Domain Management Guidelines (NCDIT: Domain Management Guidelines)
+
+## At a glance
+
+The statewide guidelines for domain names used by state government websites; DIT registers the second- and third-level .gov domains for the state.
+
+## Full text
+
+ NC Department of Information Technology
+ Domain Management Guidelines
+
+1.0 Purpose
+
+The purpose of this document is to define statewide guidelines and best practices for the use of domain
+names by North Carolina state government websites. The guidelines ensure that citizens can access
+legitimate state government information in a consistent, clear manner and appropriately communicate
+North Carolina state government services, resources, programs, and relevant information.
+
+DIT is the authoritative source for registration of the second-level and third-level .gov domains for the
+state.
+
+2.0 Scope
+
+The guidelines apply to all state government entities within North Carolina. State government entities
+are encouraged to make reasonable efforts to align to these domain standards upon their next domain
+renewal or name change. DIT understands that domains serve a marketing and branding purpose and
+domain changes may be disruptive to the end-user experience.
+
+3.0 Guidelines
+       3.1 Domain Naming Convention
+               3.1.1
+                     • All domain names should clearly communicate the purpose of the site. DIT
+                        will typically not make determinations on the appropriateness of domain
+                        names but on a case-by-case basis reserves the right not to assign names.
+                     • Domain names may be full or partial name for agency programs, state
+                        agencies, or institutions. URLs that reflect an agency “brand” are also
+                        allowable.
+                     • All domain names should be no longer than 26 characters, including the
+                        “nc.gov” part of the domain.
+                     • Domain names may contain letters, numbers, and dashes but no other
+                        special characters are permitted. Letters must be all lowercase.
+                     • It is strongly preferred to use an nc.gov subdomain (i.e. “sitename.nc.gov”).
+                        Acceptable domain pattern examples: ethicscommission.nc.gov,
+                        milvets.nc.gov, hiea.nc.gov, oshr.nc.gov, dma.ncdhhs.gov.
+                     • It is permitted, but not encouraged, to register domain names such as a
+                        .com, .org, and .net to mitigate against “cybersquatting”. These URLs should
+                        redirect to the canonical .gov URL. These domains should be registered
+                        through DIT and not outside commercial providers (e.g., GoDaddy). DIT is
+                        not responsible for administering domains (i.e., renewing expired domains)
+                        on commercial providers.
+
+        3.2 Registration and Termination of Domains
+
+                  3.2.1   New domain registrations will be processed using the standard DIT ticketing
+                          system (dit.incidents@nc.gov)
+                  3.2.2   Upon request, domains shall be terminated solely by DIT. Unless otherwise
+                          noted, domains shall be renewed before expiration in order to maintain
+                          continuity of domain name possession and use.
+        3.3 Proper Use
+               3.3.1 Domains shall be used to conduct official business of the North Carolina agency,
+                       department, or entity or any authorized organization conducting official
+                       business on behalf of either identified party.
+               3.3.2 Domains may only be requested by Chief Information Officers, Public
+                       Information Officers, or designated staff.
+        3.4 Prohibited Use
+               3.4.1 Domains shall not be used in any capacity other than the official conduct of
+                       business as stated. Domains may not advertise private firms, corporations, or
+                       imply in any way the federal or state government endorses or favors any
+                       specific commercial service.
+               3.4.2 NC.Gov domain names may not be used for political, political party or campaign
+                       purposes.
+        3.5 Costs and Fees
+               3.5.1 As of this writing there are no initial or re-occurring costs associated with the
+                       registration and maintenance of each domain name (unless domains are
+                       administered through the Federal GSA program. See 4.0 below).
+
+4.0 Federal.Gov Domain Names
+
+Historically, North Carolina agencies were permitted to procure domain names through the federal
+General Services Administration (GSA). These domains enabled a .gov domain without an “nc.gov”
+subdomain. For example, the Department of Natural and Cultural Resources operates http://ncdcr.gov.
+
+In January 2017 the GSA increased domain registration fees from $125 to $400 annually. The GSA can
+raise costs and change domain terms at any time (potentially even removing states from the program).
+Due to administration costs and related risks it is strongly recommended to avoid registration of .gov
+domains through the GSA and instead use the “sitename.nc.gov” convention. Reasonable efforts to
+transition legacy GSA-administered .gov domains are encouraged.
+
+All entities using a .gov domain must comply with the federal guidelines, which can be accessed at
+http://dotgov.gov.
+
+North Carolina agencies and entities that operate sites not in compliance with the GSA DotGov domain
+program guidelines may have their domain name terminated.
+
+5.0 Definitions
+
+Please reference the Stateside IT Glossary for domain-related glossary terms:
+https://it.nc.gov/document/statewide-glossary-information-technology-terms
+
+## Curator notes
+
+Text extracted with pdftotext -layout (page headers, footers and column layout kept as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their letters).

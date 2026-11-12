@@ -1,0 +1,107 @@
+                                                                                           Josh Stein
+                                                                                            Governor
+
+                                                                                        Teena Piccione
+                                                                          Secretary and State Chief Information Officer
+
+Memorandum
+
+To:         Public Agency CIOs and IT Directors
+
+From:       Teena Piccione, Secretary and State Chief Information Officer
+
+CC:         Dylan Frick, NCDIT Director of Legislative Affairs
+            Agency Legislative Liaisons
+            N.C. General Assembly
+
+Subject: Implementation of SL 2024-26 – Prohibition on Viewing Pornography on Government Networks
+         and Devices
+
+Date:       May 29, 2025
+
+This updated memo (originally issued Dec. 20, 2024) outlines key requirements under SL 2024-26,
+Section 7, and provides directives to ensure compliance. Specifically, it addresses:
+
+      •   The State Chief Information Officer’s obligations to draft reports and publish
+          recommendations for the appropriate viewing of pornography on public agencies’ networks
+          and devices
+      •   The directive for public agencies and others covered by the statute to adopt acceptable use
+          policies governing the use of its devices and networks
+      •   The directive for employees, elected officials and public agency appointees to delete
+          unauthorized pornography from devices leased, maintained or otherwise controlled by a
+          public agency
+      •   NCDIT’s intention to support, but not request, legislative funding for a content filtering tool
+          available to all public agencies
+
+State CIO Reporting Obligation
+
+As required by Section 7(a)(f), the State CIO must compile and submit an annual report on incidents of
+unauthorized viewing or attempted viewing of pornography on public agency networks and devices. This
+report will be submitted to the Joint Legislative Oversight Committee on Information Technology and will
+include the requisite information provided by the public agencies defined in N.C.G.S. 143-805(g)(5).
+
+      •   Public agencies must submit data to the state CIO annually, no later than August 1.
+      •   The deadline for the State CIO to submit is annually, no later than October 1.
+
+Public Agency Reporting Requirements
+
+Public agencies must submit the following information each year between July 1 and August 1 via the
+N.C. Department of Information Technology website (it.nc.gov/805):
+
+      •   The number of incidents involving unauthorized viewing or attempts
+      •   Identification of whether the individuals involved were employees, elected officials,
+          appointees, or students
+      •   Whether incidents occurred on public agency-controlled devices
+
+                                                    it.nc.gov
+
+Agencies should report unauthorized viewing or attempts they have discovered using content filtering
+tools they have or that have been observed or discovered another way.
+
+Recommendations on Appropriate Viewing
+
+As required in Per Section 7(e) of the statute, the State CIO has published recommendations for the
+appropriate viewing of pornography. They are limited to the exceptions outlined in N.C.G.S. 143-805(d):
+
+    •   Investigating or prosecuting crimes, offering or participating in law enforcement training, or
+        performing actions related to other law enforcement purposes
+    •   Identifying potential security or cybersecurity threats
+    •   Protecting human life
+    •   Establishing, testing, and maintaining firewalls, protocols, and otherwise implementing this
+        section
+    •   Participating in judicial or quasi-judicial proceedings
+    •   Conducting or participating in an externally funded research project at one of the constituent
+        institutions of the University of North Carolina
+    •   Researching issues related to the drafting or analysis of the laws of this state as necessary to
+        fulfill the requirements of the employee's official duties
+
+Except for these specific circumstances, the State CIO recommends no other appropriate viewing
+of pornography on state owned networks or devices.
+
+Directive for Deleting Unauthorized Pornography
+
+Section 7(b) mandates that any pornography not explicitly permitted under N.C.G.S.143-805(d) must be
+removed from public agency devices by January 1, 2025. Any employee, elected official, or appointee of a
+public agency with pornography saved to a device owned, leased, maintained or otherwise controlled by
+a public agency shall delete the pornography by January 1, 2025.
+
+Directive for Prohibiting Access to Unauthorized Pornography
+
+Section 7(a)(a) and Section 7(a)(b) require public agencies to prohibit employees, elected officials, or
+appointees of the agency to view unauthorized pornography on state-owned networks and devices.
+
+Section 7(a)(b) further requires public agencies to prohibit students of the agency from unauthorized
+viewing of pornography on state-owned devices.
+
+Section 7(a)(c) requires each public agency to adopt an acceptable use policy governing the use of its
+network and devices. Each acceptable use policy shall delineate the disciplinary actions that will be taken
+in response to a violation of the policy.
+
+Agencies may refer to the Acceptable Use Policy (AUP) published by NCDIT for guidance.
+
+NCDIT is in the process of applying content filtering to supported agencies. Non-supported agencies
+should review their toolset to determine capabilities to apply content filtering for inappropriate content.
+Non-supported agencies can reach out to NCDIT for guidance on establishing protocols to prevent
+access to inappropriate content.
+
+                                                       2

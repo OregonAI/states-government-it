@@ -1,0 +1,542 @@
+---
+schema_version: 1
+corpus: states-government-it
+jurisdiction: north-carolina
+id: nc-scio-sec-313
+title: Physical and Environmental Protection Policy (PE)
+doc_type: policy
+citation: SCIO-SEC-313
+authority_level: ''
+issuing_body: North Carolina Department of Information Technology
+source_url: https://it.nc.gov/documents/statewide-policies/scio-physical-and-environmental-protection/download?attachment
+source_format: pdf
+retrieved: '2026-11-11'
+source_sha256: 8509237e16402a45f2b62d3a2db7b6cb9019dc2bf51869634a592cee1450df24
+effective_date: '2018-01-29'
+source_version: ''
+status: current
+content_mode: verbatim
+conversion_notes: Text extracted with pdftotext -layout (page headers, footers and column layout kept
+  as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their
+  letters).
+last_verified: ''
+verified_by: ''
+maintainer: ''
+relationships:
+  implements: []
+  implemented_by: []
+  references_external: []
+  related: []
+  supersedes: []
+tags:
+- cybersecurity
+---
+
+> **NON-AUTHORITATIVE.** This is a convenience copy for machine reading. The official text is published at the source URL above. Verify at source before relying on it.
+
+# Physical and Environmental Protection Policy (PE) (SCIO-SEC-313)
+
+## At a glance
+
+One of the 18 Statewide Information Security Policies (SCIO-SEC-313), each aligned to a NIST SP 800-53 Rev. 5 control family and binding executive branch agencies under G.S. 143B-1376.
+
+## Full text
+
+                                                                                           Document No.
+                                      Physical and                                         SCIO-SEC-313
+
+                                     Environmental
+                                    Protection Policy
+Effective Date                    Review Date                             Version          Page No.
+01/29/2018                        03/26/2025                              4                1 of 12
+
+Scope
+  The Statewide Information Security Policies are the foundation for information technology security in
+  North Carolina. The policies set out the statewide information security standards required by N.C.G.S.
+  §143B-1376, which directs the State Chief Information Officer (State CIO) to establish a statewide set
+  of standards for information technology security to maximize the functionality, security, and
+  interoperability of the State’s distributed information technology assets, including, but not limited to,
+  data classification and management, communications, and encryption technologies. This policy covers
+  all State information and information systems to include those used, managed, or operated by a
+  contractor, an agency, or other organization on behalf of the State. This policy applies to all State
+  employees, contractors, and all other users of State information and information systems that support
+  the operation and assets of the State. Use by local governments, local education agencies (LEAs),
+  community colleges, constituent institutions of the University of North Carolina (UNC) and other
+  executive branch agencies is encouraged to the extent allowed by law. This security policy is consistent
+  with applicable laws, executive orders, directives, regulations, other policies, standards, and
+  guidelines.
+
+Material Superseded
+  This current policy supersedes all previous versions of the policy. All State agencies and vendors of the
+  State are expected to comply with the current implemented version of this policy.
+
+Responsibilities
+  All covered personnel involved in the maintenance of information systems and supporting
+  infrastructure are responsible for adhering to this policy and with any local physical and environmental
+  security requirements.
+   Role               Definition
+   Senior             Senior Management (the Agency Head, the Chief Information Officer (CIO), the Chief
+   Management         Information Security Officer (CISO), or other designating organizational official) is
+                      responsible for the sponsorship, dissemination, development and support of the Physical
+                      security and environmental protection program.,
+   Security Liaison   The Security Liaison is responsible for ensuring that physical and environmental risks are
+                      managed in compliance with the State’s requirements by collaborating with
+                      organizational entities.
+                      Liaisons are responsible for maintaining the appropriate operational security controls
+                      required for physical and environmental protection.
+   Facility           The Facility Manager, Facility Team, or other designated organizational official at
+   Management         management level, are responsible for site security and ensuring the facility is safe for
+                      occupancy. The Facility Manager may also have some responsibilities for authorization
+                      credentials, keys, physical access devices, etc.
+
+                                                                                          Document No.
+                                       Physical and                                       SCIO-SEC-313
+
+                                      Environmental
+                                     Protection Policy
+Effective Date                     Review Date                            Version         Page No.
+01/29/2018                         03/26/2025                             4               2 of 12
+
+   Third Parties       Third party service providers are responsible for providing physical and environmental
+                       security in accordance with this policy.
+
+PE-1 – Policy and Procedures
+  All information assets that process, store, receive, transmit or otherwise could impact the
+  confidentiality, integrity, and accessibility of State data shall meet the required security controls
+  defined in this policy document that are based on the National Institute of Standards and
+  Technology (NIST) SP 800-53, Security and Privacy Controls. This document addresses the
+  procedures and standards set forth by the State to implement the family of Physical and
+  Environmental Protection controls at the organization, process and/or system level for all
+  information assets / State data.
+  The State has adopted the Identification and Authentication security principles established in NIST SP
+  800-53, “Physical and Environmental Protection” control guidelines as the official policy for this
+  security domain. The “PE” designator identified in each control represents the NIST-specified identifier
+  for the Physical and Environmental Protection control family. The following subsections in this
+  document outline the Physical and Environmental Protection requirements that each agency shall
+  implement and maintain in order to protect the privacy and security of sensitive information and to
+  prevent the unauthorized use or misuse of agency data.
+  This policy and associated procedures shall be reviewed and updated annually, at a minimum. They
+  shall also be updated following agency-defined events that necessitate such change.
+  This policy and the associated procedures shall be developed, documented, and disseminated by the
+  Agency Head, the Chief Information Officer (CIO), the Chief Information Security Officer (CISO), or
+  other designated organizational officials at the senior leadership level.
+
+PE-2 – Physical Access Authorizations
+  Access to digital and non-digital media shall be restricted to authorized individuals only, using State-
+  defined security measures.
+  a. Access policies shall be developed for authorized individuals as well as visitors to State
+     facilities.
+  b. Assessment of risk shall guide the selection of media, and associated information contained on
+     that media requiring restricted access.
+  c. System Owners shall document policies and procedures for the media requiring restricted access,
+     individuals authorized to access the media, and the specific measures taken to restrict access.
+  d. Authorization credentials (e.g., badges, identification cards, and smart cards) shall be issued to
+     everyone accessing a restricted area.
+
+                                                                                       Document No.
+                                       Physical and                                    SCIO-SEC-313
+
+                                      Environmental
+                                     Protection Policy
+Effective Date                     Review Date                          Version        Page No.
+01/29/2018                         03/26/2025                           4              3 of 12
+
+       i.   The level of access provided to each individual shall not exceed the level of access required to
+            complete the individual’s job responsibilities.
+       ii. The level of access shall be reviewed and approved before access is granted.
+       iii. Keys, badges, access cards, and combinations shall be issued to only those personnel who
+            require access.
+       iv. Everyone within a State building must display either a State Identification (ID) Badge or a
+           numbered and current visitor badge. These badges are the property of the State and are
+           provided to employees and visitors as a convenience. Badges must always be visible above the
+           waist when inside state government buildings. Badges must not be visible to the public outside
+           of state government buildings (e.g., restaurants, retail stores, etc.).
+       v. Keys, combinations, and other physical access devices shall be secured at all times to prevent
+          unauthorized access to agency facilities and assets. These shall also be inventoried on an
+          agency-defined frequency. The unauthorized duplication of keys is prohibited. All requests for
+          duplicate keys shall be submitted to the State locksmith for review, approval, and fulfillment.
+       vi. Keys shall be retrieved from the employee when they retire, terminate employment, or
+           transfer to another position.
+       vii. Keys and combinations shall be changed at least annually for secure areas housing systems
+            with Highly Restricted or FTI data.
+       viii. Authorizations and requirements for access shall be coordinated with facility and personnel
+             security managers, as required or needed.
+
+  e. Access lists and authorization credentials shall be reviewed and approved quarterly to ensure the
+     following:
+       i.   Access shall be limited to only authorized personnel
+       ii. The level of access provided to each individual shall be consistent with the individual’s job
+           responsibilities
+       iii. Access rights shall be promptly removed for terminated and transferred personnel or for
+            personnel no longer requiring access to the facility where the information system resides
+  f.   Enforce physical access authorizations to the information system in addition to the physical access
+       controls for the facility at spaces where Restricted or Highly Restricted data is received, processed,
+       stored, or transmitted.
+
+                                                                                         Document No.
+                                         Physical and                                    SCIO-SEC-313
+
+                                        Environmental
+                                       Protection Policy
+Effective Date                       Review Date                          Version        Page No.
+01/29/2018                           03/26/2025                           4              4 of 12
+
+PE-3 – Physical Access Control
+  Sites and facilities that will be staffed and will house information technology equipment shall be
+  carefully evaluated to identify and implement suitable controls to protect staff and agency resources from
+  environmental threats, physical intrusion and other hazards and threats.
+  a. Organizations shall safeguard sites, buildings and locations housing its information technology assets.
+  b. All locations that house Restricted or Highly Restricted data shall be designed and secured in
+     accordance the information being protected.
+  c.   Physical access authorizations at entry/exit points to facilities where the information systems that
+       receive, process, store, or transmit Restricted or Highly Restricted data reside shall be enforced by
+       the following:
+       i.    Verifying individual access authorizations before granting access to the facility.
+       ii.   Controlling ingress/egress to the facility using physical access control systems/devices or
+             guards.
+  d. Authorized individuals may include State and agency employees, contractors, vendors and
+     customers.
+  e. Physical access controls should include some form of visible identification such as a Driver
+     License or some other picture identification, e.g., agency badge. An audit trail of physical
+     access for all individuals to data centers shall be maintained including entry and exit dates and
+     times.
+  f.   The number of people who have physical access to areas housing computer equipment shall be
+       controlled to reduce the threats of theft, vandalism, and unauthorized system access. The
+       following measures should be considered to control and restrict access to computing facilities:
+       i.    Access shall be restricted to people with authorized purposes for visiting the computer area.
+       ii. Instructions shall be issued to visitors explaining security requirements and emergency
+           procedures.
+       iii. Visitors shall be escorted and should wear visible identification that clearly draws attention to
+            their restricted status.
+       iv. Where appropriate, organizations shall store resources in lockable storage cupboards where
+           the physical security controls are sufficient to protect the equipment from theft.
+       v. Lockable file cabinets shall be used to store Restricted or Highly Restricted data such as paper
+          documents and computer media in a manner that is commensurate with the information’s
+          classification status.
+
+                                                                                           Document No.
+                                           Physical and                                    SCIO-SEC-313
+
+                                          Environmental
+                                         Protection Policy
+Effective Date                          Review Date                        Version         Page No.
+01/29/2018                              03/26/2025                         4               5 of 12
+
+   g. Video cameras and/or access control mechanisms shall be used to monitor individual physical
+      access to sensitive areas.
+   h. The use of personal cameras, video recorders and mobile computing devices shall be restricted
+      from high security locations to protect the information being stored.
+   i.   Duress alarms shall be used in areas where the safety of personnel is a concern. Alarms shall be
+        provisioned to alert others such as staff, the police department, the fire department, etc.
+   j.   Videoconference calls where Restricted or Highly Restricted information will be discussed shall be
+        made in an area that is secured (e.g., offices or conference rooms where the door can be closed,
+        and conversations cannot be overheard through thin walls).
+   k.   Facilities that will house Restricted or Highly Restricted data shall include, but not limited to, the
+        following security measures:
+        i.   Clearly defined, layered security perimeters to establish multiple barriers
+        ii. Walls (of solid construction and extending from real ceiling to real floor where necessary)
+        iii. Card-controlled gates and doors
+        iv. Bars, alarms, locks, etc.
+        v. Bollards
+        vi. Video cameras and intrusion security system
+        vii. Staffed reception desk
+        viii. Fire doors on a security perimeter shall be equipped with alarms as well as devices that
+              close the doors automatically.
+
+PE-4 - Access Control for Transmission
+  Physical access to information system distribution and transmission lines within agency facilities shall be
+  controlled:
+
+   a. Protective measures to control physical access to information system distribution and transmission
+      lines shall include the following:
+        i. Locked wiring closets
+        ii. Disconnected or locked spare network jacks
+        iii. Protection of cabling by conduit or cable trays
+
+   b. Publicly accessible network jacks in data centers shall provide only Internet access by default
+      unless additional functionality is explicitly authorized.
+
+                                                                                      Document No.
+                                      Physical and                                    SCIO-SEC-313
+
+                                     Environmental
+                                    Protection Policy
+Effective Date                    Review Date                          Version        Page No.
+01/29/2018                        03/26/2025                           4              6 of 12
+
+  c. Physical access to networking equipment and cabling shall be restricted to authorized personnel.
+
+PE-5 - Access Control for Output Devices
+  Physical access to information system output devices, such as computer monitors, facsimile machines,
+  copiers, and printers, shall be controlled to prevent unauthorized individuals from obtaining the
+  output:
+  a. Where technically configurable, enable security functionality on printers, copiers and facsimile
+     machines that requires users to authenticate with the device via a PIN or hardware token to
+     access the device.
+  b. Control physical access to output devices by placing devices in controlled areas with keypad access
+     controls or limiting access to individuals with certain types of badges.
+  c. Control physical access to monitors through the uses of privacy screens or by re-positioning
+     monitors away from view by unauthorized users.
+  d. This control is optional for LOW risk information systems.
+
+PE-6 – Monitoring Physical Access
+  Physical access to information systems shall be monitored to detect and respond to physical security
+  incidents:
+  a.   Coordination with facility management and personnel security management personnel shall
+       occur when responsibilities are in different organizations
+  b.   Physical access logs shall be reviewed at least semi-annually by the agency Security Liaison or
+       other designated agency official at management level.
+  c.   Investigations of apparent security violations or suspicious physical access activities shall be
+       conducted. Investigations and results of reviews shall be coordinated with the organization’s
+       incident response capability:
+       i.   Remedial actions identified as a result of investigations shall be developed and implemented.
+       ii. Incident investigations shall follow the Incident Response Policy SCIO-SEC-308 for
+           requirements on incident response.
+  d.   Investigation of and response to detected physical security incidents, including apparent security
+       violations or suspicious physical access activities shall be part of the agency’s incident response
+       procedures.
+  e.   Operational procedures shall be developed to document how these individuals shall respond to
+       physical access incidents.
+
+                                                                                        Document No.
+                                      Physical and                                      SCIO-SEC-313
+
+                                     Environmental
+                                    Protection Policy
+Effective Date                     Review Date                          Version         Page No.
+01/29/2018                         03/26/2025                           4               7 of 12
+
+PE-6 (1) – Monitoring Physical Access | Intrusion Alarms and Surveillance
+Equipment
+  Physical intrusion alarms and surveillance equipment shall be installed and monitored. Automated
+  mechanisms to recognize potential intrusions and initiate designated response actions shall be
+  employed.
+
+PE-7 – Visitor Control
+  Withdrawn: Incorporated into PE-2 and PE-3.
+
+PE-8 – Visitor Access Records
+  Security access logs of areas housing information technology equipment shall be actively monitored:
+  a. Visitor access records for agency owned computing facilities shall address the following
+     requirements:
+      i. Name and organization of the person visiting
+      ii. Signature of the visitor
+      iii. Picture ID has been verified, and by whom, i.e. guard’s initials
+      iv. Date of access
+      v. Time of entry and departure
+      vi. Purpose of visit
+      vii. Name of person visited
+      viii. The visitor access records shall be reviewed at least semi-annually
+      ix. Anomalies in visitor access should be reported to the organization’s facility management.
+
+  b. Visitor access records for facilities housing FTI shall be maintained for five (5) years. All other
+     facilities access records shall comply with the State’s records retention policies.
+
+PE-9 – Power Equipment and Cabling
+  Power equipment and cabling for information systems shall be protected from damage and
+  destruction:
+
+                                                                                         Document No.
+                                         Physical and                                    SCIO-SEC-313
+
+                                        Environmental
+                                       Protection Policy
+Effective Date                       Review Date                          Version        Page No.
+01/29/2018                           03/26/2025                           4              8 of 12
+
+  a. Multiple electric feeds shall be employed to avoid a single point of failure in the power supply that
+     are physically separated to help ensure that power continues to flow in the event one of the cables
+     is cut or otherwise damaged.
+  b. Both power and communication lines should be protected.
+  c. Automatic voltage controls for critical system components shall be employed to help ensure that
+     power continues to flow in the event voltage fluctuates to unacceptable levels and causes damage
+     to the information system component.
+  d. This control is optional for LOW risk information systems.
+
+PE-10 – Emergency Shutoff
+  The capability of shutting off power to the information system or individual system components in
+  emergency situations shall be provided.
+  a. Emergency power switches shall be located near emergency exits in equipment rooms to facilitate
+     rapid power down in case of an emergency.
+  b. The locations for emergency power shutoffs must be documented.
+  c. All necessary personnel must be informed of the emergency power shutoff locations, and they
+     must be trained to operate them safely.
+  d. Emergency procedures must be readily available to relevant personnel.
+  e. The emergency power-off capability must be protected from accidental or unauthorized
+     activation.
+  f.   Emergency shutoff switches are located in a visible location and clearly labeled.
+  g. This control is optional for LOW risk information systems.
+
+PE-11 – Emergency Power
+  Critical information technology systems shall be protected from damage and data loss by installing
+  and routinely testing a source of continuous power that ensures that the systems continue to perform
+  during power outages and electrical anomalies (e.g., brownouts and power spikes):
+
+  a. The three primary methods for providing continuous power are as follows:
+       i.     Multiple electric feeds to avoid a single point of failure in the power supply
+       ii.    Uninterruptible power supply (UPS)
+       iii.   Backup generator(s)
+
+                                                                                      Document No.
+                                       Physical and                                   SCIO-SEC-313
+
+                                      Environmental
+                                     Protection Policy
+Effective Date                     Review Date                         Version        Page No.
+01/29/2018                         03/26/2025                          4              9 of 12
+
+  b. Each organization shall examine the availability requirements for critical equipment and determine
+     which combination of these three methods best meets the needs of the organization.
+  c. Emergency power requirements for critical systems shall be analyzed based on the following best
+     practices:
+      i.     Use of a UPS is usually required to avoid abnormal shutdowns or to provide a clean power
+             source during brownouts or surges. Note: Most UPS batteries do not last for more than four
+             (4) hours without a continuous supply of power.
+      ii. Contingency plans that include procedures to follow if the UPS fails.
+      iii. Periodic inspections of UPS equipment to ensure that the equipment has the ability to
+           sustain, for a predefined period, the power load of the systems and equipment it supports
+           and is serviced according to the manufacturer’s specifications.
+  d. Backup generators shall be used in combination with an UPS when requirements demand high
+     availability and continuous processing in the event of a prolonged power failure. Such a
+     combination both supports an orderly shutdown if the generator fails, minimizing potential for
+     equipment damage or data loss, and can also provide continuous business operations if the
+     cutover to the generator is too slow to provide power immediately with no interruption.
+     Organizations that require a backup generator should ensure the following:
+      i.      Contingency plans shall include procedures to follow in the event the backup generator fails.
+      ii.     Ensure the generator has the capacity to sustain the power load required by supported
+              equipment for a prolonged period of time.
+      iii.    Ensure the generator is tested at least quarterly according to the manufacturer’s
+              specifications.
+      iv.     The generator is serviced regularly in accordance with the manufacturer’s specifications, and
+              it has an adequate supply of fuel.
+      v.      An adequate supply of fuel is available to ensure that the generator can perform for a
+              prolonged period.
+  e. This control is optional for LOW risk information systems.
+
+PE-12- Emergency Lighting
+  Emergency lighting shall be provided in case of a main power failure:
+  a. Automatic emergency lighting that activates in the event of a power outage or disruption and that
+     covers emergency exits and evacuation routes within the facility shall be employed and
+     maintained.
+
+                                                                                      Document No.
+                                      Physical and                                    SCIO-SEC-313
+
+                                     Environmental
+                                    Protection Policy
+Effective Date                    Review Date                          Version        Page No.
+01/29/2018                        03/26/2025                           4              10 of 12
+
+  b. The automatic emergency lighting systems shall be tested annually to ensure they are fully
+     operational.
+  c. The results of the test shall be documented.
+
+PE-13 – Fire Protection
+  Security controls shall be implemented to assure continual service of critical production systems,
+  including controls that alert, monitor, and log intrusions, fires, explosives, smoke, water, dust,
+  vibrations, chemicals, and electrical effects, electrical supply interferences, and electromagnetic
+  radiation. This control applies primarily to facilities containing concentrations of information system
+  resources including, for example, data centers, server rooms, and network closets:
+  a. Organizations shall install and maintain fire detection and suppression devices that are supported
+     by an independent power source, such as a dry pipe sprinkler system.
+  b. Where appropriate, agencies shall provide fire-resistant storage for documents and media
+     containing information critical to their business function.
+  c. Most file cabinets are not fire, smoke, or water safe and a fire-proof safe may not be water safe
+     and may render any information that is stored in the cabinet or safe unusable; therefore,
+     organizations shall consider storing duplicate copies of information at alternate locations.
+  d. Fire extinguishers must be checked annually, and the inspection date must be documented on the
+     extinguisher.
+  e. All fire protection resources must be tested annually in accordance with local or state fire
+     regulations to ensure they can be successfully activated in the event of a fire.
+
+PE-13 (1) – Fire Protection | Detection Systems - Automatic Activation and
+Notification
+  Fire detection devices/systems should activate automatically and notify emergency personnel and
+  defined emergency responder(s) in the event of a fire when the facility is not staffed on a continuous
+  basis.
+
+PE-14 – Environmental Controls
+  a. Automatic temperature and humidity controls shall be implemented and maintained in data
+     centers to prevent fluctuations potentially harmful to equipment.
+  b. Temperature and humidity monitoring shall be employed that provide an alarm or other
+     notification of when temperature and humidity settings are exceeded due to heating, ventilation,
+     or air conditioning (HVAC) failures and may adversely impact information assets.
+
+                                                                                         Document No.
+                                       Physical and                                      SCIO-SEC-313
+
+                                      Environmental
+                                     Protection Policy
+Effective Date                     Review Date                           Version         Page No.
+01/29/2018                         03/26/2025                            4               11 of 12
+
+PE-15 –Water Damage Protection
+  a. Organizations shall include measures to prevent water damage in the design requirements for
+     secure data storage.
+  b. The facility must have master shutoff valves that are accessible, working properly, and known to
+     key personnel, to protect the information system from damage resulting from water leakage.
+
+PE-16 – Delivery and Removal
+  Access to delivery areas (e.g., loading docks and warehouses) shall be restricted and possibly isolated
+  from the information system and media libraries to effectively enforce authorizations for entry and exit
+  of information system components.
+  a. All types of information system components and packages that are delivered to or removed from
+     the facility shall be authorized and controlled.
+  b. Records of those items entering and exiting the facility shall be maintained.
+
+PE-17 – Alternate Work Site
+  Organizations shall provide readily available alternate work locations (e.g., governmental offices,
+  commercial locations, employee homes, etc.) as part of contingency operations:
+  a. Alternate work sites should be determined, approved, and documented.
+  b. The effectiveness of controls at alternate work sites shall be assessed, as feasible. Alternate work
+     sites shall be equipped with any equipment needed to resume temporary operations such as
+     telecommunications services such as alternative telephone services, wireless networking, satellite,
+     radio that will allow employees to communicate with information security and privacy personnel in
+     case of security incidents or problems.
+  c. Organizations shall secure and protect communications with information resources while
+     personnel are working at off-site locations. Remote access security requirements are defined in
+     the Access Control Policy, Section AC-17 – Remote Access.
+  d. Alternate work sites must meet state and federal security control requirements. If the organization
+     does not have direct control over the remote location, the organization shall enter a contract with
+     the owner of the remote location that stipulates the access controls and protection the owner
+     shall implement. The following shall be implemented for alternate work sites:
+      i.   Sufficient physical access controls (e.g., doors, locks, etc.) to the site and to the agency’s data
+           store.
+
+                                                                                        Document No.
+                                       Physical and                                     SCIO-SEC-313
+
+                                      Environmental
+                                     Protection Policy
+Effective Date                     Review Date                           Version        Page No.
+01/29/2018                         03/26/2025                            4              12 of 12
+
+      ii. Design requirements for secure data storage (e.g., fire suppression and detection
+          equipment, heating, ventilation, and air conditioning [HVAC], measures to prevent water
+          damage, etc.).
+      iii. Equipment being used or stored at an individual alternate work site, such as hotel, home, or
+           other alternate site, must be secured when not in use.
+      iv. Equipment transported in vehicles must be hidden from casual view.
+      v. Equipment must not be stored in vehicles overnight.
+      vi. NIST SP 800-46, Revision 2 must be used as guidance for security in telework and remote
+          access.
+  e. This control is optional for LOW risk information systems.
+
+PE-18 – Location of System Components
+  Information system components must be positioned within the facility to minimize potential damage
+  from physical and environmental hazards and to minimize the opportunity for unauthorized access.
+  This control is optional for LOW risk information systems.
+
+PE-19 – Information Leakage (Optional Control)
+  This control is optional for LOW and MODERATE risk information systems.
+
+PE-20 – Asset Monitoring and Tracking (Optional Control)
+  This control is optional for LOW and MODERATE risk information systems.
+
+Enforcement
+  Violations of this policy or failure to implement provisions of this policy may result in
+  disciplinary action up to and including termination, civil litigation, and/or criminal prosecution.
+
+## Curator notes
+
+Text extracted with pdftotext -layout (page headers, footers and column layout kept as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their letters).

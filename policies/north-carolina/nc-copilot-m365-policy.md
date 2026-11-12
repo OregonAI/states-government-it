@@ -1,0 +1,213 @@
+---
+schema_version: 1
+corpus: states-government-it
+jurisdiction: north-carolina
+id: nc-copilot-m365-policy
+title: Copilot for Microsoft 365
+doc_type: policy
+citation: 'NCDIT: Copilot for Microsoft 365'
+authority_level: ''
+issuing_body: North Carolina Department of Information Technology
+source_url: https://it.nc.gov/documents/copilot-microsoft-365-policy/open
+source_format: pdf
+retrieved: '2026-11-11'
+source_sha256: 127f7f410421bafdb5940145c697a0d6a6baa6957b0054844a2e291c04bf8b02
+effective_date: null
+source_version: ''
+status: current
+content_mode: verbatim
+conversion_notes: Text extracted with pdftotext -layout (page headers, footers and column layout kept
+  as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their
+  letters).
+last_verified: ''
+verified_by: ''
+maintainer: ''
+relationships:
+  implements: []
+  implemented_by: []
+  references_external: []
+  related: []
+  supersedes: []
+tags:
+- ai
+- cybersecurity
+---
+
+> **NON-AUTHORITATIVE.** This is a convenience copy for machine reading. The official text is published at the source URL above. Verify at source before relying on it.
+
+# Copilot for Microsoft 365 (NCDIT: Copilot for Microsoft 365)
+
+## At a glance
+
+The statewide policy on agency use of Microsoft 365 Copilot, version 1.1 of February 26, 2025 (the index row is dated December 2024).
+
+## Full text
+
+State of North Carolina
+Copilot for Microsoft 365 Policy
+Statewide IT Policy
+Version 1.1
+February 26, 2025
+
+                                                                                          State of North Carolina
+
+Document Information
+Revision History
+
+ Date               Version    New or Revised       Description                            Author
+                               Requirement
+
+ Dec 5, 2024        1.0        New                  Policy Published                       Chris Brittingham
+
+ Feb 26, 2025       1.1        Updated              • Expanded on pilot recommendations    Chris Brittingham
+                                                    • Removed PTA requirements
+                                                    • Added AUP to user requirements
+
+Document Details
+
+ Department Name              NCDIT Enterprise Collaboration Services
+
+ Owner                        NCDIT Enterprise Collaboration Services
+
+ Title                        Copilot for Microsoft 365 Policy
+
+ Publication Date             February 26, 2025
+
+ Next Release                 August 25, 2025
+
+ Document Type                PDF
+
+ Document Number              1
+
+ Version                      1.1
+
+Version 1.1                                              2                                    February 26, 2025
+
+                                                                                                                                      State of North Carolina
+
+Table of Contents
+Document Information ................................................................................................................................ 2
+   Revision History ......................................................................................................................................... 2
+   Document Details ...................................................................................................................................... 2
+Purpose ........................................................................................................................................................ 4
+Content Lead ............................................................................................................................................... 4
+Scope............................................................................................................................................................ 4
+Policy Requirements ................................................................................................................................... 4
+   Requirements to Activate Copilot for Microsoft 365 .................................................................................. 4
+   Microsoft 365 Tenant Requirements for Copilot for Microsoft 365 Use ..................................................... 4
+   Agency Requirements for Copilot for Microsoft 365 Use .......................................................................... 4
+   User Requirements for Copilot for Microsoft 365 Use ............................................................................... 5
+Regulations and Applicable Laws ............................................................................................................. 5
+Enforcement ................................................................................................................................................ 5
+Policy Review Cycle .................................................................................................................................... 5
+
+Version 1.1                                                                     3                                                           February 26, 2025
+
+                                                                                           State of North Carolina
+
+Purpose
+The purpose of this policy is to establish requirements for the activation, use, monitoring, and review of
+Copilot for Microsoft 365 within state agencies. This policy aims to ensure that the deployment and
+utilization of Copilot for Microsoft 365 aligns with state regulations, enhances productivity, and maintains
+data governance and compliance.
+
+Content Lead
+N.C. Department of Information Technology - Enterprise Collaboration Services
+
+Scope
+The requirements summarized in this policy apply to agency leadership, agency security liaisons, agency
+privacy points of contact, and selected users within state agencies who utilize Copilot for Microsoft 365
+within the state of NC.
+
+Policy Requirements
+Requirements to Activate Copilot for Microsoft 365
+
+    •    Agency CIOs should ensure all necessary internal approvals are completed prior to
+         implementation of Copilot for Microsoft 365 (e.g., General Counsel, Finance, Operations, etc).
+    •    Agencies are recommended to complete a pilot of Copilot for Microsoft 365 with select users to
+         train on and implement operational procedures for Copilot for Microsoft 365.
+              o Recommended pilot window is until June 30, 2025.
+              o Selected users must complete Copilot for Microsoft 365 training prior to the pilot.
+              o Once the pilot has been completed, agency will move to a planned deployment of Copilot
+                  for Microsoft 365.
+              o Security liaisons and privacy points of contact must be aware of the deployment timeline.
+    •    Agencies must procure the necessary Copilot for Microsoft 365 license through the purchase
+         requisition process.
+              o Agency CIOs are required to request licenses for Copilot for Microsoft 365 users within
+                  their agency.
+    •    NCDIT can offer an adoption framework for agencies to follow, if requested.
+
+Microsoft 365 Tenant Requirements for Copilot for Microsoft 365 Use
+The Microsoft 365 Tenant Services Team is required to perform the following tasks when using Copilot for
+Microsoft 365. For agencies within the NCDIT Microsoft 365 tenant, these actions are performed by
+NCDIT.
+    • Tenant must designate Copilot for Microsoft 365 agency administrators to enable Copilot for
+       Microsoft 365 for agencies within the tenant.
+
+Agency Requirements for Copilot for Microsoft 365 Use
+Agency is required to perform the following actions when using Copilot for Microsoft 365.
+   • Agency must assess and manage access, permissions, and roles for any user with a Copilot for
+       Microsoft 365 license to control who can access specific data and services within the Microsoft
+       365 suite to prevent oversharing sensitive information. Data access should be limited to need to
+       know.
+
+Version 1.1                                           4                                        February 26, 2025
+
+                                                                                            State of North Carolina
+
+    •    Agency must adhere to state and industry-specific policies, standards, regulations, and
+         frameworks and configure Microsoft 365 to meet security, privacy, and AI compliance
+         requirements and all relevant agency specific policies (e.g., North Carolina State Government
+         Responsible Use of Artificial Intelligence Framework; Fair Information Practice Principles,
+         Statewide Information Security Policies, Statewide Data Classification and Handling Policy).
+
+User Requirements for Copilot for Microsoft 365 Use
+
+    •    Users must adhere to all guidance within the Statewide Acceptable Use Policy, at a minimum.
+    •    Users must complete any state or agency required Copilot for Microsoft 365 training.
+            o NCDIT and the agency have the authority to mandate Copilot for Microsoft 365 specific
+                training.
+
+Regulations and Applicable Laws
+The following reference sections in the N.C. General Statutes provide additional information with respect
+to compliance with state law:
+
+    •    N.C.G.S.143B-1320(a)(17) – Definitions; scope; exemptions
+
+    •    N.C.G.S. 143B-1321 – Powers and Duties of the Department
+
+    •    N.C.G.S. 143B-1322 – State CIO Duties
+
+    •    N.C.G.S. 143B-1325 – State information technology consolidated under the Department of
+         Information Technology
+
+    •    N.C.G.S. 143B-1350(a) – Procurement of information technology
+
+    •    N.C.G.S. 143B-1370(a) – Communications services
+
+    •    09 NCAC 06b.0701 – Contracts Established by DIT
+
+Enforcement
+Violations of this policy, or failure to implement provisions of this policy, may result in revocation of agency
+or user Copilot for Microsoft 365 license(s) by the state CIO.
+
+Policy Review Cycle
+The Copilot for Microsoft 365 Policy will undergo a periodic review at semi-annual intervals, or as
+changes are required. Updates to the policy will be determined based upon the nature of the policy and
+requirements driven by need. Any identified changes, or outdated information within the policy will be
+addressed promptly. This may involve revisions, additions, or removals as needed to ensure that policies
+remain current and relevant.
+
+The following roles provide leadership and management over this policy in accordance with the NCDIT
+Policy Management Policy:
+
+         • Secretary of the N.C. Department of Information Technology and State Chief Information Officer
+         has approval authority.
+         • Chief Deputy State Chief Information Officer (or delegate) has policy management
+         responsibilities.
+
+Version 1.1                                            5                                        February 26, 2025
+
+## Curator notes
+
+Text extracted with pdftotext -layout (page headers, footers and column layout kept as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their letters).

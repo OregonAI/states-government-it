@@ -1,0 +1,253 @@
+{
+  "agreement": 0.9431,
+  "dict_ratio": 0.9491,
+  "disagreements": [
+    {
+      "before": [
+        "OF",
+        "NORTH",
+        "CAROLINA",
+        "DEPARTMENT"
+      ],
+      "paddle": "OFINFORMATIONTECHNOLOGY",
+      "tesseract": "OF INFORMATION TECHNOLOGY"
+    },
+    {
+      "before": [
+        "CIOs",
+        "and",
+        "Security",
+        "Liaisons"
+      ],
+      "paddle": "",
+      "tesseract": "Wa"
+    },
+    {
+      "before": [
+        "Monitoring",
+        "Plan",
+        "in",
+        "support"
+      ],
+      "paddle": "ofN",
+      "tesseract": "of N"
+    },
+    {
+      "before": [
+        "Infrastructure",
+        "as",
+        "a",
+        "Service"
+      ],
+      "paddle": "IaaS",
+      "tesseract": "laaS"
+    },
+    {
+      "before": [
+        "block",
+        "list",
+        "under",
+        "Phase"
+      ],
+      "paddle": "II",
+      "tesseract": "IT e"
+    },
+    {
+      "before": [
+        "Phase",
+        "IT",
+        "e",
+        "CLOANTO"
+      ],
+      "paddle": "Google Drive ZipCloud",
+      "tesseract": ""
+    },
+    {
+      "before": [
+        "IT",
+        "e",
+        "CLOANTO",
+        "CloudApp"
+      ],
+      "paddle": "Box HiveStor",
+      "tesseract": ""
+    },
+    {
+      "before": [
+        "e",
+        "CLOANTO",
+        "CloudApp",
+        "CloudFront"
+      ],
+      "paddle": "Fluxiom iBackup",
+      "tesseract": ""
+    },
+    {
+      "before": [
+        "CLOANTO",
+        "CloudApp",
+        "CloudFront",
+        "Commvault"
+      ],
+      "paddle": "1 fichier iCloud",
+      "tesseract": ""
+    },
+    {
+      "before": [
+        "CloudApp",
+        "CloudFront",
+        "Commvault",
+        "Coupa"
+      ],
+      "paddle": "4 shared Mega",
+      "tesseract": ""
+    },
+    {
+      "before": [
+        "Commvault",
+        "Coupa",
+        "Datei",
+        "to"
+      ],
+      "paddle": "Fileguri JustCloud",
+      "tesseract": ""
+    },
+    {
+      "before": [
+        "Coupa",
+        "Datei",
+        "to",
+        "deviantART"
+      ],
+      "paddle": "ADrive BlazeFS",
+      "tesseract": ""
+    },
+    {
+      "before": [
+        "Datei",
+        "to",
+        "deviantART",
+        "DivShare"
+      ],
+      "paddle": "Amazon Cloud Drive Boxnet Upload SSL",
+      "tesseract": ""
+    },
+    {
+      "before": [
+        "DivShare",
+        "dl",
+        "free",
+        "fr"
+      ],
+      "paddle": "Bitbucket Brothersoft",
+      "tesseract": ""
+    },
+    {
+      "before": [
+        "dl",
+        "free",
+        "fr",
+        "DropBox"
+      ],
+      "paddle": "ARCServe Carbonite",
+      "tesseract": "e"
+    },
+    {
+      "before": [
+        "DropBox",
+        "e",
+        "Elephant",
+        "Drive"
+      ],
+      "paddle": "Backupgrid Megaupload",
+      "tesseract": ""
+    },
+    {
+      "before": [
+        "e",
+        "Elephant",
+        "Drive",
+        "NovaBACKUP"
+      ],
+      "paddle": "Backblaze",
+      "tesseract": ""
+    },
+    {
+      "before": [
+        "Elephant",
+        "Drive",
+        "NovaBACKUP",
+        "PROCESS"
+      ],
+      "paddle": "",
+      "tesseract": "Google Drive Box Fluxiom I fichier 4 shared Fileguri ADrive Amazon Cloud Drive Bitbucket ARCServe Backupgrid Backblaze ZipCloud HiveStor iBackup iCloud Mega JustCloud BlazeF S Boxnet Upload SSL Brothersoft Carbonite Megaupload"
+    },
+    {
+      "before": [
+        "must",
+        "detail",
+        "the",
+        "following"
+      ],
+      "paddle": "",
+      "tesseract": "Number of users"
+    },
+    {
+      "before": [
+        "Data",
+        "classification",
+        "Complete",
+        "a"
+      ],
+      "paddle": "PrivacyThreshold",
+      "tesseract": "Privacy Threshold"
+    },
+    {
+      "before": [
+        "Privacy",
+        "Threshold",
+        "Analysis",
+        "PTA"
+      ],
+      "paddle": "Number of users",
+      "tesseract": ""
+    },
+    {
+      "before": [
+        "and",
+        "containing",
+        "the",
+        "following"
+      ],
+      "paddle": "",
+      "tesseract": "e"
+    },
+    {
+      "before": [
+        "to",
+        "take",
+        "any",
+        "action"
+      ],
+      "paddle": "As a",
+      "tesseract": "Asa"
+    }
+  ],
+  "engines": [
+    "tesseract (ocrmypdf)",
+    "paddleocr PP-OCRv6"
+  ],
+  "figure_agreement": 0.9811,
+  "figures": 26,
+  "forced_rotation": false,
+  "glued": 0,
+  "paddle_sha256": "c2b5deb23429f693523463d504cd5577437c49dd55670b3830137da28703a8c3",
+  "pdf_sha256": "96e241128c3d8d33c5afc977cec453a7fbb53271d138adb1c0693aaaf44711a9",
+  "psm": null,
+  "text_sha256": "632d016935aee1efe2b8ee2d6302e1b1eafd674133d2a4d23d3c9bba17bdd2ec",
+  "tools": {
+    "ocrmypdf": "15.2.0+dfsg1",
+    "tesseract": "tesseract 5.3.4"
+  },
+  "words": 687
+}

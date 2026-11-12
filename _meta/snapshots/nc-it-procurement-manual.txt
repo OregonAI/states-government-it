@@ -1,0 +1,1116 @@
+Procurement Policies and Procedures Manual
+
+North Carolina Department of Information of Technology
+
+https://it.nc.gov/resources/statewide-it-procurement-office
+
+Revised April 2025
+
+Statewide IT Procurement Office
+
+NCDIT
+
+TABLE OF CONTENTS
+
+1. DELEGATION 5
+
+1.1. Overview 5
+
+1.2. Delegation Authority 5
+
+1.3. Removal or Reduction of Delegated Authority 5
+
+2. THE PROCUREMENT PROCESS 6
+
+2.1. Overview: Seeing the Whole Picture 6
+
+2.2. Types of Purchases (9 NCAC 06B .0701) 7
+
+3. AGENCY IT PROCUREMENT PROCESS 8
+
+3.1. Agency Prepares IT Procurement Request 8
+
+3.2. Process in Accordance with Term Contract 10
+
+3.3. Small Purchase (9 NCAC 6B.0301(c)) 10
+
+3.4. Cooperative Purchasing (09 NCAC 06B.1006) 10
+
+3.5. Competitive Procurement 10
+
+3.6. Purchasing Through Statewide IT Procurement 11
+
+3.7. Requests Designated as Projects 11
+
+4. Statewide IT Procurement Office PROCESS 12
+
+4.1. Receive and Log Procurement Requests 12
+
+4.2. Routing 12
+
+4.3. Assignment 12
+
+4.4. Contract Specialist 12
+
+5. SOLICITATION GUIDELINES AND PROCEDURES 14
+
+5.1. Communications with Potential Vendors Prior to Solicitations 14
+
+5.2. Requests for Information (RFIs) – Preliminary Communication 14
+
+5.3. Types of Solicitations 15
+
+5.4. Specifications 16
+
+5.5. Pre-Proposal Conference or Site Visit 16
+
+5.6. Evaluation/Ranking Methods and Criteria 17
+
+6. SPECIFICATIONS 18
+
+6.1. Definition of Specification 18
+
+6.2. Effective Specification Writing 19
+
+6.3. How to Develop Specifications 20
+
+6.4. Specification Sources 20
+
+6.5. Brand Name or Functionally Equivalent 21
+
+6.6. Basic Contents of Specifications 21
+
+6.7. Basic Contents of Requirements 22
+
+7. TERMS AND CONDITIONS 23
+
+7.1. General Terms and Conditions 23
+
+7.2. Specific Issues, Terms, and Conditions to Consider 23
+
+7.3. Debarment 23
+
+8. DEBRIEFING VENDORS 24
+
+8.1. Debriefing is Optional 24
+
+8.2. Scope of Debriefing 24
+
+9. PROCESSING A REQUEST FOR INFORMATION (RFI) 25
+
+9.1. Developing an RFI 25
+
+9.2. Issuing an RFI 25
+
+9.3. Review of RFI Responses 25
+
+10. PROCESSING A REQUEST FOR QUOTE (RFQ) 26
+
+10.1. Issuing an RFQ 26
+
+10.2. Receiving Quote Responses 26
+
+10.3. Quote Evaluation and Acceptance 26
+
+10.4. RFQ used for Waiver of Competition 26
+
+11. PROCESSING A BID (IFB and RFP) 27
+
+11.1. Issuing a Bid 27
+
+11.2. Receiving Offers 27
+
+11.3. Offer Evaluation and Acceptance 27
+
+12. EVALUATION OF OFFERS 29
+
+12.1. Lack of Competition 29
+
+12.2. Error/Clarification 29
+
+12.3. Negotiation 29
+
+12.4. Best and Final Offer (BAFO) 29
+
+12.5. Extension of Offer Acceptance Time 30
+
+12.6. Basis for Rejection 30
+
+12.7. Source Selection Methods (“Best Value”) 30
+
+12.8. Lowest-Price Method 32
+
+12.9. No Acceptable Offers and Negotiation 32
+
+12.10. Procurements That Are Designated As Projects 32
+
+13. CANCELING A PROCUREMENT 34
+
+14. AMENDING A SOLICITATION 35
+
+15. WAIVER OF COMPETITION (Sole Source) 36
+
+16. AWARD RECOMMENDATION 37
+
+17. CONTRACT MANAGEMENT 38
+
+17.1. Post Award Conference 38
+
+17.2. Receiving, Inspecting and Testing 38
+
+17.3. Wrong/Defective/Missing Items 38
+
+17.4. Modifying a Contract 38
+
+17.5. Contract Administration 38
+
+18. MISCELLANEOUS PROCEDURES 41
+
+18.1. Rentals/Leases/Installment Purchases 41
+
+18.2. Records Maintenance 41
+
+18.3. Compliance Reviews 42
+
+19. EMERGENCY/PRESSING NEED PURCHASES 43
+
+19.1. Definitions 43
+
+19.2. Methods 43
+
+20. Definitions, Acronyms, and Abbreviations 44
+
+20.1. Definitions 44
+
+20.2. Acronyms 46
+
+21. Appendix 1 – Statewide IT Procurement Checklist for Agencies 48
+
+ETHICS AND DELEGATION
+
+Code of Ethics
+
+All North Carolina state procurement officers are expected to conduct themselves within the guidelines
+
+established by the procedures set forth in the "Code of Ethics" published by the National Institute for Government Procurement (NIGP). These standards are posted on NIGP’s website at https://www.nigp.org/about-nigp/code-of-ethics-nigp
+
+Overview
+
+Under 9 NCAC 06B.1304, the general IT purchasing delegation/benchmark shall be $100,000 unless authorization special delegation is granted by the SCIO. This delegation is for all State Agencies and is based on the total value of a contract including any optional extensions. The general delegation establishes the maximum authorized dollar limits for IT purchases of goods or services for an Agency without Statewide IT Procurement Office approval. The award of contracts under the general delegation shall be the responsibility of the Agency. The Agency is also responsible for establishing written procurement policies and procedures under their delegated authority.
+
+Delegation Authority
+
+Delegation Authority is determined by several factors. First, procurement of IT goods and services above the Agency delegation must be reviewed by Statewide IT Procurement prior to solicitation and again prior to awarding the contract. Per the NCAC rules, an agency shall not divide requirements to keep them under the general IT delegation or benchmark. (9 NCAC 06B .0313) The contract terms (lengths) cannot exceed three (3) years including optional extensions and renewals, unless an exemption is obtained from the SCIO or his designee and it has been determined that an additional extension is advantageous to the State. (9 NCAC 06B .0301(d)(5)). Another key factor is that North Carolina’s procurement program is based upon the principle of open competition. When competition is not sought, or obtained, the reason must be valid and must be documented (See 9 NCAC 06B .0902, 06B .1402). Solicitations for procurements with an estimated value to exceed the purchasing Agency’s delegation must be advertised on the IPS web page. Agencies may also use other means of advertisement in addition to IPS. Solicitations within the purchasing Agency’s delegation may be advertised on the IPS web page (See 9 NCAC 06B .0301, .314).
+
+Removal or Reduction of Delegated Authority
+
+Delegated authority is subject to review by the Statewide IT Procurement Office and may be reduced or rescinded for failure to comply with any of the above requirements or failure to correct noted deficiencies within a reasonable time. Delegated authority removal or reduction may also occur should an Agency’s chief purchasing officer position be downgraded or become vacant.
+
+Chapter 1 Resources |
+North Carolina Administrative Code (NCAC) Rules | 09 NCAC 06B .0313 DIVISION OF COMMODITIES AND SERVICE NEEDS |
+ | 09 NCAC 06B .0301 PROCUREMENT PROCEDURES (d)(5)). http://it.nc.gov/short-term-it-staffing-contract
+ | 09 NCAC 06B .0902 APPROVAL AND DOCUMENTATION |
+ | 09 NCAC 06B .1402 PROCUREMENT FILE RECORDS |
+ | 09 NCAC 06B .0314 ADVERTISEMENT AND NOTICE |
+
+THE PROCUREMENT PROCESS
+
+Overview: Seeing the Whole Picture
+
+The procurement process is much more than simply buying something. It includes all activities from planning, preparation and processing of a requisition, solicitation, evaluation, award and contract, to receipt and acceptance of delivery, payment, inventory tracking of a goods and services disposition.
+
+Regardless of whether the product or service required is processed by the Agency under delegated authority or sent to the Statewide IT Procurement Office, the workflow is essentially the same.
+
+Figure 1: Before You Make a Purchase…
+
+Types of Purchases (9 NCAC 06B .0701)
+
+Procurements of IT-related goods and services are divided into the following major types of purchasing:
+
+1. Term Contracts: A contract established and administered by the Statewide IT Procurement Office that consolidates certain goods and services requirements of all State Agencies. Agencies must use term contracts when products or services that meet their needs are available from the contract.
+2. Statewide Convenience Contracts: A contract established and administered by the Statewide IT Procurement Office that consolidates certain goods and services requirements of all State agencies. Statewide Convenience Contracts are not mandatory-use contracts and may be used at the Agency’s discretion.
+3. Agency Specific Contracts: Contracts for IT goods and services established on behalf of a specific Agency. These contracts may be for a specified term or may be a one-time purchase.
+4. Delegated Procurements: Direct procurement by an Agency of IT goods and services that fall under the Agency’s general or special delegation or under established purchasing exemptions.
+5. Master IT Agreements: An agreement made with a vendor when goods or services are typically obtained through a reseller(s) of a vendor (e.g. OEM, VAR), or when the goods or services are proprietary. A master agreement may be negotiated under 9 NCAC 06B.0316, and may in some cases, result in a Term or Convenience contract. [9 NCAC 06B .0701(d)-(g)].
+
+Chapter 2 Resources
+North Carolina Administrative Code (NCAC) Rules | 09 NCAC 06B .0701 CONTRACTS ESTABLISHED BY DIT
+ | 09 NCAC 06B .0316 NEGOTIATION http://it.nc.gov/short-term-it-staffing-contract |
+Statewide IT Procurement Resources | Statewide Contracts
+
+AGENCY IT PROCUREMENT PROCESS
+
+Agency Prepares IT Procurement Request
+
+A procurement request should be submitted using the applicable NC eProcurement module(s). To prepare a procurement request, requisition, or solicitation, agency purchasing personnel should include information from multiple areas. Statewide IT templates request this information; however, agency personnel should include the following when applicable:
+
+• What the Agency proposes to buy
+• Issuing Agency name, address, and contact’s name, phone, and email
+• Using Agency name, address, and shipping address if different
+• The completed solicitation document (procurement templates and other forms are located on the Statewide IT Procurement Office’s website at http://it.nc.gov/it-procurement-forms-and-templates
+
+Detailed description or specifications of the goods or services required Estimated Cost zz& Quantity
+
+• Delivery requirements
+• Any special requirements
+• Response/Offer submission instructions
+• Evaluation and Award criteria
+• IT Procurement Terms and Conditions
+• Other terms and conditions as applicable (must not conflict with IT Procurement Terms and Conditions)
+
+Solicitations for services must include:
+
+• Date(s) of service
+• Detailed specifications or type and level of work required in the form of a Statement of Work (SOW)
+• What the State will furnish
+• What the vendor will furnish
+• Method, schedule, and procedures for billing and payments
+
+The Statewide IT Procurement Office has a checklist that contains the items may be completed before submitting a solicitation to the office. Agencies should include a copy of the completed checklist when submitting solicitation documents.
+
+Statewide IT Procurement Office Checklist for Agencies
+
+Short Term Staffing Contracts
+
+For request utilizing the Short Term Staffing Statewide Convenience Contract, see the instructions located at: http://it.nc.gov/short-term-it-staffing-contract
+
+If the request asks for limitation or waiver of competition, a justification letter supporting the rationale for waiving or limited competition must accompany the request (See Section 15 for Waiver conditions). The justification must include information such as, but not limited to:
+
+• background information about the request,
+• the specification condition(s) for limited or waived competition being supported,
+• why technically no other product or service can meet the Agency’s requirements and how that determination was made,
+• the effect on the Agency if limitation or waiver is not approved, etc.
+
+Please note the NCAC rules list the criteria that determines waivers; they cannot be based on cost, preference, or time constraints.
+
+Process in Accordance with Term Contract
+
+If the IT goods or services are fully covered by a Term Contract and do not exceed abnormal quantity limits, process the request in accordance with the requirements of the Term Contract. An Agency must use a mandatory term contract when products or services that meet the Agency’s needs are covered by the contract. An Agency may use Statewide Convenience Contracts at its discretion.
+
+A list of IT term contracts is located on the Statewide IT Procurement Office page at http://it.nc.gov/resources/it-strategic-sourcing/statewide-it-contracts.
+
+Small Purchase (9 NCAC 6B.0301(c))
+
+A small purchase is $25,000 or less and is not covered by term or convenience contracts established by DIT. Each Agency must establish internal procedures for processing these requests.
+
+Cooperative Purchasing (09 NCAC 06B.1006)
+
+A cooperative agreement is an agreement between a vendor and one or more states or state agencies that allows the parties to collaboratively or collectively purchase information technology goods and services in order to increase economics of scale and reduce costs. N.C.G.S. §143B-1320 (4), -1350(4); 9 NCAC 06B-1006. Procedures for using such agreements Vary depending on the cooperative agreement requirements, SITP is available for consultation regarding the appropriate use of a cooperative agreement.
+
+Competitive Procurement
+
+This procedure is used when the total amount of the IT procurement is greater than the IT Agency delegation amount of $100,000. These procurements must be solicited competitively. Solicitation documents must be issued and contain standard terms and conditions issued by the Statewide IT Procurement Office. Each Agency shall establish internal written procedures for processing requests less than $100,000. See Sections 10, 11 and 12 below for guidelines in processing competitive solicitations.
+
+Purchasing Through Statewide IT Procurement
+
+This procedure is used when the total amount of the IT procurement is greater than the Agency delegation ($100,000). (09 NCAC 06B .1304) The procedures for processing a request in this category are included within this manual. See Section 4, Statewide IT Procurement Office Process for detailed instructions. This procedure also applies to the establishment, or modification, of existing contracts, Term contracts and Convenience contracts.
+
+Requests Designated as Projects
+
+All State Agency information technology projects subject to N.C.G.S. §§143B-1340 to 1344, whether the project is undertaken in a single phase or component or in multiple phases or components, are subject to review by the DIT Enterprise Project Management Office (EPMO).
+
+Chapter 3 Resources
+North Carolina Administrative Code (NCAC) Rules | 09 NCAC 06B .0316 NEGOTIATION
+ | 09 NCAC 06B .1006 COOPERATIVE PURCHASING
+ | 09 NCAC 06B .0301 PROCUREMENT PROCEDURES
+ | 09 NCAC 06B .1304 GENERAL DELEGATIONS
+North Carolina General Statute | N.C.G.S. §§143B Procurement of Information Technology
+Statewide IT Procurement Resources | Statewide Contracts
+ | Statewide IT Forms and Templates
+ | Short Term Contracts
+ | Term Contracts
+ | Statewide IT Procurement Checklist for Agencies
+Enterprise Project Management Office (EMPO) Resources | EPMO Overview
+
+Statewide IT Procurement Office PROCESS
+
+Receive and Log Procurement Requests
+
+Statewide Utilizes the state eProcurement system to receive sourcing, contracting and other purchasing requests. Agencies not using the state eProcurement system can utilize the eform process. Information regarding the eform process is available on the Statewide IT Procurement website.
+
+Routing
+
+Statewide will route all State agency requests using workflow established in the state eProcurement system.
+
+Assignment
+
+All requests will be assigned to a member of the Statewide IT Procurement Team to manage.
+
+Contract Specialist
+
+When a request is assigned, the Contract Specialist will notify the end user within a day of receipt, that they are handling the request. At that time, any issues of concern may be addressed. The Contract Specialist will process the request in accordance with the type of procurement required.
+
+Chapter 4 Resources
+Statewide IT Procurement Resources | Exception Process
+ | Overview of the Exception Process
+
+Statewide IT Checklist for Internal Staff
+
+SOLICITATION GUIDELINES AND PROCEDURES
+
+This section provides the guidelines and procedures for developing and processing a solicitation document for an IT competitive procurement. There are generally three (3) types of solicitation documents/methods:
+
+• Request for Quotes (RFQ);
+• One-step and two-step Invitation for Bids (IFB); and
+• One-step and two-step Request for Proposal (RFP)
+
+The dollar amount and complexity of the procurement will determine the best solicitation and evaluation method to use. A complex procurement may also start with a Request for Information (RFI). The response to an RFI may indicate what type of solicitation should be used and help provide evaluation criteria for the solicitation.
+
+The following sections provide a high-level overview of the major solicitation guidelines and procedures related to IT procurement.
+
+Communications with Potential Vendors Prior to Solicitations
+
+The purpose of exchanging information with potential vendors is to improve the understanding of the agency’s requirements and industry capabilities. Pre-solicitation communications with potential vendors enhances the ability of the vendor to judge whether or how they can satisfy the Agency's requirements. Such information can also enhance the Agency’s ability to obtain quality supplies and services at reasonable prices by increasing the efficiency in proposal evaluation, negotiation, and contract award.
+
+Agencies are encouraged to promote early pre-solicitation exchanges of information about future acquisitions. An early exchange of information among industry and the state participants in the acquisition process can identify and resolve concerns regarding:
+
+• Acquisition strategy, including proposed contract type, terms and conditions, and acquisition planning schedules
+• Feasibility of the requirement, including performance requirements, statements of work, and data requirement
+
+• Suitability of the proposal instructions and evaluation criteria, including the approach for assessing past performance information
+• Availability of reference documents
+
+Requests for Information (RFIs) – Preliminary Communication
+
+Requests for Information (RFIs) are one technique of communicating with potential offerors prior to solicitations. RFIs may be used when the state does not intend to award a contract, but wants to obtain a general price estimate, other market information, or capabilities for planning purposes.
+
+Responses to these notices are not offers and cannot be accepted by the State to form a binding contract. Responses to the RFI may result in a solicitation or it may indicate that the procurement is too risky, too expensive, not feasible, etc., at the current time and no further action will take place. Responses to an RFI may also provide criteria that may be used in developing a solicitation.
+
+Types of Solicitations
+
+Request for Quotes (RFQ)
+
+This type of solicitation is a written solicitation document which is generally used for seeking quotes from a single vendor or very limited group of vendors. This is normally used for purchases of specific goods and services or easily defined goods (i.e., for purchase of a small number of boxes of computer diskettes or for certain approved waiver of competition procurements). RFQs normally require that a waiver of competition has been justified.
+
+Please refer to section 10 for more details on RFQs.
+
+Invitation for Bids (IFB)
+
+This document is a formal, written solicitation document normally used for seeking competition and obtaining offers for larger quantities or many types of easily defined goods. The IFB normally contains a standard pricing form. The responses to the IFB are sealed bids that include unit prices for each line item on the pricing form. The technical and cost offers may be submitted and opened at the same time in a one-step process or separately in a two-step process. In the two-step process, the technical offers are submitted, opened, and evaluated. Then, only the price offers from Vendors that submitted technically acceptable offers or Vendors in the competitive range will be opened or solicited. The price offer will be opened at the time and location specified in the solicitation. The price offers are then evaluated.
+
+Please refer to section 11 for more details on IFBs.
+
+Request for Proposals (RFP)
+
+This solicitation is a formal, written solicitation document usually used for seeking competition and obtaining offers for services or a combination of goods and services. The response to the one-step RFP is a sealed offer that includes the price proposal and the technical solution.
+
+The two-step RFP is usually used for seeking competition and obtaining offers for complex services or a complex combination of goods and services.
+
+If the RFP is for a solution, the document should allow for the vendor to propose their solution based on the Agency’s specifications. This approach will provide the Agency with solutions that can be meaningfully evaluated against each other by the evaluation committee. If the RFP is for services, it should include a scope of work statement in addition to a response to the specifications. The two-step RFP requires the Vendor to submit two sealed packages; one contains the technical proposal and the other contains the cost proposal. The Agency may elect to have the cost proposal submitted at the same time as the technical proposal or following the technical evaluation. The RFP will provide detailed instructions regarding the timing of the submissions for the two proposals.
+
+• No two RFPs are alike and preparing one can be a difficult task. However, a well-written RFP can alleviate many problems. Agencies are invited and encouraged to involve the Statewide IT Procurement Office early in the development of the RFP for assistance and valuable advice.
+• RFPs take a significant amount of time to prepare and review before they are issued. On the average, an RFP will take at least 90 days from receipt of the RFP at Statewide to contract award. In your planning, allow adequate time for possible rewriting of specifications, questions from vendors, pre-proposal conferences, for vendors to prepare their proposals, committee evaluations, end of year and other deadlines, legal review and contract award.
+• It is important to identify and state in the RFP all evaluation factors. These factors let the vendor know the factors that are important to the Agency and will be the only way for the Agency to properly evaluate the proposals and assure that the awarded proposal meets all the requirements of the state. Factors not specified in the RFP cannot be used for evaluating the proposals.
+• Evaluation factors should be developed early or concurrently with the specifications in the formulation of the RFP. Make a detailed list of the most important aspects of the service or goods required, including cost, and develop the evaluation factors from it. Specifications that are vital to the solution and must be done should be designated as mandatory in the RFP.
+• RFPs must be written to allow vendors the opportunity to use their expertise to offer the best solution or service based on the Agency’s needs. Overuse of mandatory specifications may not allow vendors the leeway to provide their best response.
+
+Please refer to section 11 for more details on RFPs.
+
+Specifications
+
+New or standard IT specifications should be reasonable to satisfy the need, but not unduly restrictive. The specifications should encourage competition in the open market and result in the best possible contract for the goods or services needed. Specifications may be specified as “Brand X or functional equivalent” in order to establish the level of specification desired.
+
+In addition to those needed for the procurement, solicitations for IT goods and services must also include standard specifications or requirements to align with the Statewide Technical Architecture as developed by the SCIO. (http://it.nc.gov/services/service-directory/it-architecture)
+
+Contingent upon the subject area, agency-developed IT specifications may be submitted to DIT for consideration as a standard IT specification.
+
+Please refer to section 6 for more details regarding specifications.
+
+Pre-Proposal Conference or Site Visit
+
+Consider whether a pre-proposal conference or site visit for potential offerors is needed to further explain, clarify, or identify areas of concern in the RFP. These should always be held prior to submission of the vendor’s initial proposals. If using a pre-proposal conference or site visit, follow these guidelines:
+
+The pre-proposal conference or site visit should be scheduled at a time and date identified in the RFP. Indicate how many representatives from each company will be allowed to attend (usually a maximum of three). Keep in mind that some vendors may have to travel a distance to attend, so sufficient time should be allowed for vendors to receive the RFP, formulate questions, and make necessary travel plans. Indicate the Agency policy regarding late or non-attendance.
+
+Any questions regarding the RFP can be submitted in writing prior to the pre-proposal conference and be answered by the Agency at the meeting. Additional questions may be entertained; however, Official answers to all questions will be published in writing and supplied to all attendees (post to IPS) in the form of an addendum. Any oral answers given by the Agency is not binding until reduced in writing in the form of an addendum.
+
+Evaluation/Ranking Methods and Criteria
+
+The evaluation/ranking methods and criteria to be used in the evaluation process must be clearly stated in the solicitation document. Evaluation criteria must conform to “best value” as defined (N.C.G.S. 143-135.9) and applied in the solicitation document. A written evaluation methodology should be prepared prior to receiving offers from vendors.
+
+Please refer to section 12 for more details on the evaluation process.
+
+Chapter 5 Resources
+North Carolina General Statute | N.C.G.S. 143-135.9 Best Value Procurements
+Statewide IT Procurement Resources | Statewide Technical Architecture
+ | Statewide IT Forms and Templates
+
+SPECIFICATIONS
+
+Specifications are one of the most important elements of the purchasing process. The preparation of good specifications is probably the most difficult function in the process. Inadequate or poorly written specifications are the cause of many bidder challenges and can considerably delay the purchasing process. This information is designed to define specifications and assist agencies by providing guidelines to good specification writing.
+
+Definition of Specification
+
+The term “Specifications” refers to a description of the characteristics of a good or service. Specifications set forth the characteristics of the goods and services to be purchased to enable the vendor to determine and understand what is to be supplied. This information may be in the form of a description of the physical, functional, or performance characteristics, a reference brand name or both. Specifications may be incorporated by reference and/or through attachment to the solicitation. Specifications must be prepared to invite maximum competition.
+
+Solicitations for IT goods and services must include standard specifications or requirements to align with the Statewide Technical Architecture and other standards established by the State CIO.
+
+New legislation (N.C.G.S. §143B-1350(h)) has required that Agency evaluation shall include determining substantial conformity of the vendor’s offer with the Agency specifications.
+
+Substantial Conformity
+
+• Overview of Substantial Conformity
+
+General Statute 143B-1350(h) establishes certain criteria for evaluating offers to contract. One of those criteria is identified as “substantial conformity with specifications”, which means that agencies must evaluate a Vendor’s offer and determine whether the solution “substantially conforms” with the Agency’s specifications in the solicitation. A Vendor’s solution substantially conforms if it satisfies the purpose or objective of the business need, even without adhering to ALL of the specifications.
+
+• How Substantial Conformity relates to specifications and requirements
+
+Specifications
+
+In the past, the terms “specifications” and “requirements” have been used interchangeably. Using “requirement” or “required” means that no alternative exists and, in that manner, lists of “requirements” are inconsistent with evaluating whether a solution substantially conforms with specifications. Now, an agency’s technical “requirements” should be expressed in the solicitation document as specifications. These specifications should not establish hard requirements (do not use verbs such as “shall,” “must,” or “should”), but instead should ask for descriptions. For example, if an Agency requires a training plan, instead of writing, “The Vendor shall provide the State a training plan,” the specification would read “Please describe the strategy for performing training to include a detailed training plan.”
+
+Requirements
+
+“Requirements” now identify items considered nonnegotiable. Examples of requirements include features mandated by State legislation; regulation of certain subject matter or jurisdiction such as IRS Pub. 1075, HIPAA, or FERPA; statewide policies and procedures, such as Architecture and Security; and certain technical specifications defined by the procuring Agency.
+
+The agency must recognize what it considers unchangeable and convey its importance to the Statewide Procurement. Standards may include codes (e.g., National Electrical Code) or industry standards (e.g., NENA in the 911 world.) However, any such standards must be specifically identified in the solicitation and made available to vendors.
+
+Bid Evaluation
+
+Offers that do not substantially conform with specifications of the procurement document may be deemed deficient, and result in rejection or a negative evaluation of the offer. Agency evaluation committees should focus on comparing and contrasting the strengths and weaknesses of the offers. The committees should also determine whether each vendor complies with state standards and policies.
+
+Substantial conformity evaluations allow for more freedom to compare vendors, and avoid argument regarding how numerical scores are established. A narrative summary is preferred. Recording “meets,” “does not meet,” or “exceeds against a list of specifications provides little rationale to support a conclusion of whether the solution substantially conforms with the specifications.
+
+Substantial conformity review also dovetails well with best value principles, wherein trade-off between cost and non-cost factors is expected.
+
+Effective Specification Writing
+
+The degree to which specifications are open and unrestrictive directly affects the type and extent of the competition desired. Specifications provide for quality control, that is, they assure that the quality of an item is suited to its intended use and eliminates unnecessary features or frills.
+
+Specifications are public records; they serve to keep the purchasing open by allowing the public to see exactly what is being purchased. Specifications are used during the evaluation of bids to determine whether bids are responsive.
+
+Some of the difficulty in preparing specifications stems from the fact that the State can seldom dictate the exact characteristics of the products it wants. The requirements of an Agency are usually not sufficient to justify a special or name brand product. Consequently, specifications are developed around a manufacturer’s product specifications. If the specification did not have to satisfy State statutes requiring competitive bidding, the task would be much easier. The immense variety of items purchased by the State further complicates specification writing. Products are improved, new products are introduced, some products are discontinued and the needs of the Agencies change. Consequently, the function of preparing and updating specifications must be an ongoing one.
+
+To provide a common basis for bidding, specifications should set out the essential characteristics of the item being purchased, so that all bidders know exactly what is wanted. If an essential requirement is left out of the specification, an award may be made for a product or solution that does not meet the needs of the purchaser. The lack of suitability of the product or solution may not become apparent until much later. Situations such as these are seldom resolved to anyone’s satisfaction and can be a waste of taxpayers’ money. If such an omission is discovered in time, the offer should be canceled, specifications corrected, and new bids solicited or an addendum may be posted to correct the omission.
+
+Avoid over or under specifying. Items should be able to perform as necessary without unessential frills. Requiring unnecessary features can result in specifications so restrictive that they defeat competition and increase the cost of the item.
+
+Remember that all purchasing activities are subject to public and vendor scrutiny.
+
+How to Develop Specifications
+
+The function of specifications is to provide a basis for obtaining a commodity or service that will satisfy a need at an economical cost. Use the checklist below when preparing specifications:
+
+• First, clearly determine what your procurement goal is and what you seek to buy. Specifications should be clear and accurate, yet simple. They should NOT be so specific that competition is eliminated.
+• Specifications should be understandable to both the offeror and the purchaser.
+• Specifications should be as general as possible. Specific specifications defeat the competitive bidding process.
+• Specifications should be legible and concise.
+• Specifications should be capable of being checked. Specifications that are written in such a way that a product or service offered cannot be checked as meeting specifications is of little value and results in confusion.
+• Specifications should be reasonable in tolerances. Unnecessary precision is expensive and may be unduly restrictive.
+• Specifications should be as fair to the offeror as possible and allow for competitive bidding by several offerors.
+
+Specification Sources
+
+There are many available sources of assistance when developing specifications. Here are suggestions for gathering specification information:
+
+• Collect as much information as possible from the end user as to the function and performance of the requested product. Use their expertise and knowledge.
+• Collect product information from the industry (brochures, catalogs, specs, etc.). Many manufacturers list their catalogs and product specifications on the Internet.
+• Look for standards and test information from professional societies where available.
+• Look for specification information from other government entities. Check to see if standard specifications already exist. Use the Internet and libraries for research. Many states have standard specifications listed on the internet.
+• Call on other “experts” in the purchasing community for help.
+• NIGP: The National Institute of Governmental Purchasing maintains a library of over 10,000 specifications developed by federal, state, and local government purchasing entities in the U.S., and Federal, Provincial, and local entities in Canada.
+• Research cooperative agreements. (See N.C.G.S. §143B-1320 (4),-1350(4); 9 NCAC 06B-1006)
+
+Brand Name or Functionally Equivalent
+
+In the absence of standard specifications, the State often uses manufacturers' brand or model designations as a standard. Brand names are used to indicate general performance and quality levels. It should be clearly stated that other brands or models will be accepted on a “functionally equivalent” "or equal" basis.
+
+To aid in communicating the desired quality level to bidders, an effort should be made to use brand name designations that are known throughout the industry or have specifications that are readily available. If a bidder does not know which of his products is comparable to the designated brand names, he cannot bid intelligently and may not bid at all. Bidders customarily know their competition and can usually tell without too much difficulty which of their brands or models will be considered equal. Still, the bidder cannot be sure which features of the item will be considered crucial in making the award. In addition to the brand name, the specifications should name the minimum requirements to be used in comparing brands and making the award.
+
+Basic Contents of Specifications
+
+The following information is presented as a basic outline for specifications.
+
+• Scope, Classification, or Description - The first words or lines of a specification should be a general description, classification, or scope of the product desired and the intended or desired use of the item or service.
+• Precede with directives such describe, explain, or address. See example below:
+• Do not use “ability to” or similar phrases, in that such a specification may result in a vendor response that requires an unspecified optional or accessory item to have such “ability.” Example: a car may have the “ability” to tow a trailer, but not without the installation of an added towing package that may cost several hundred dollars more. Use of the verb “can” is a good substitute where applicable.
+• Figures and Tables - Figures, illustrations, graphs, etc. can often describe the item more clearly and accurately than text.
+
+Basic Contents of Requirements
+
+The following information is presented as a basic outline for establishing requirements.
+
+• List of Requirements - These requirements should identify measurable physical, functional, and quality characteristics that meet the requirements. This may include a detailed list of characteristics, such as: physical dimensions, processor speeds, storage capability, operating systems, standard of workmanship, or basic design. The text should be clear, simple language, free of vague terms or those subject to variation in interpretation. The use of abbreviations should be restricted to those in common usage and not subject to possible misunderstanding.
+• Use “shall” or “must” to express a requirement binding on the vendor or the purchaser.
+• Please see information in section 6.1.1.
+
+Chapter 6 Resources
+North Carolina Administrative Code (NCAC) Rules | 09 NCAC 06B .1006 COOPERATIVE PURCHASING
+North Carolina General Statute | N.C.G.S. 143B-1320 (4)-1350(h)
+
+TERMS AND CONDITIONS
+
+General Terms and Conditions
+
+DIT includes various types of terms and conditions with solicitation templates (e.g. RFP, RFQ, IFB). These terms and conditions vary depending on the procurement: different terms are more appropriate for services, software, Software as a Service (SaaS) and goods. Agencies should consider business, technical and risk issues while preparing a solicitation and part of this preparation will include choosing the appropriate terms and business and technical needs may require some modifications. Agencies should consult with legal counsel; The Agency’s legal counsel are encouraged to consult with Attorney General’s counsel at DIT to avoid legal issues arising in the late stages of a procurement.
+
+Specific Issues, Terms, and Conditions to Consider
+
+There is a balance between protecting the State and conducting business with vendors that requires consideration of risks, liabilities, performance and remedies. Agencies should consider the following:
+
+• Risks may include simple risk of contract breach (i.e. having to contract with another vendor to complete the work), failure to perform a legal requirement (under state or federal law), or a myriad of others. Agencies should review business and technical issues to identify all risks and then work with IT procurement to modify appropriate terms and conditions.
+• The standard limitation of liability for contract damages is “2X”, or twice the value of the contract. Vendors typically seek adjustment to this value, and it is a frequent issue in negotiations.
+• The general terms and conditions provide rights of termination and for default. Agencies are often concerned with enforceable rights to ensure performance without having to declare a vendor in breach of a contract. Agencies should consider these matters when drafting the solicitation. This is a frequent issue in negotiation, and especially in IT projects conducted in an iterative manner.
+
+Debarment
+
+DIT may debar vendors as authorized by 9 NCAC 06B.1206. See, 9 NCAC 06B.0602. Agencies’ experience and documented reports to DIT regarding vendor performance, default or other such issues is important to the proper exercise of debarment authority. DIT provides a “vendor complaint form” on its website for Agency use.
+
+Chapter 7 Resources
+North Carolina Administrative Code (NCAC) Rules | 09 NCAC 06B .1206 DEFAULT PROCEEDINGS; DISQUALIFICATION; AND DEBARMENT
+ | 09 NCAC 06B .0602 REPORT TO ITS
+
+DEBRIEFING VENDORS
+
+A debriefing is a meeting with Agency procurement staff at a vendor’s request to discuss its offer, usually to help the vendor understand why it was not awarded a contract.
+
+Debriefing is Optional
+
+Agencies may prepare a solicitation document allowing vendors to request a debriefing by including a statement to the effect that debriefings may be requested. Debriefings may be conducted prior to award or after an award is made. (9 NCAC 06B.0405) Modifications to the solicitation must conform to the scope, notice and other provisions of the Rule. Debriefing language must be in the solicitation to conduct debriefing activities.
+
+Scope of Debriefing
+
+Pre-award debriefings may not disclose information from competing offers; only public information may be disclosed. Debriefing is not a “point-by-point” comparison between bidders or their offers. Weaknesses, deficiencies and risks found in an offer may be disclosed during debriefing, together with cost and technical merit. (9 NCAC 06B.0405(c)(5)) Post-award debriefings may include rankings and evaluation information of other competing vendors. In light of the provision for a protest and the possibility of statements being taken out of context, avoid making unnecessary comments to the offeror being debriefed.
+
+Chapter 8 Resources
+North Carolina Administrative Code (NCAC) Rules | 09 NCAC 06B .0405(c)(5) DEBRIEFING OFFERORS
+
+PROCESSING A REQUEST FOR INFORMATION (RFI)
+
+The RFI is an informal request for information, and will not result in an award to a vendor. Information gathered may be used to determine if a formal solicitation is needed at a later time.
+
+Developing an RFI
+
+There is no specified format for an RFI. Since the RFI is not a formal solicitation for a procurement, terms and conditions shall not be included. The RFI should provide as much information as possible to define the type of information that is being sought. The RFI should state clearly that it is not a request for offer and that no award will result.
+
+Issuing an RFI
+
+The RFI may be sent directly to interested vendors or it may be electronically posted to the Interactive Purchasing System (IPS) web page at www.ips.state.nc.us. Statewide is not required to be involved in the RFI process, so they do not have to review any documents or attend any meetings or conferences associated with the RFI. If the RFI indicates that conferences or meetings will be included in the RFI process, the issuing Agency will coordinate and conduct any such conferences or meetings. The RFI must indicate whom the responses should be sent to and a deadline for submission of responses. The information gathered will be analyzed by the issuing and/or using Agency.
+
+Review of RFI Responses
+
+After the information has been analyzed, the issuing Agency will decide if further procurement action is desired. The information gathered should provide enough detail to determine the best type of solicitation process to initiate next.
+
+Chapter 9 Resources
+Statewide IT Procurement Resources | Statewide IT Forms and Templates
+IPS Website | www.ips.state.nc.us
+
+PROCESSING A REQUEST FOR QUOTE (RFQ)
+
+RFQs are normally used in non-advertised and sole source solicitations in order to ensure that the vendor agrees to the DIT Terms and Conditions.
+
+Issuing an RFQ
+
+When an RFQ is advertised, it may be sent to the vendors using any method desired by the issuing Agency, including the IPS web page at www.ips.state.nc.us. Offers do not have to be sealed.
+
+Receiving Quote Responses
+
+Public openings for RFQs are not required. An offeror may recall their quotes prior to the opening by submitting a written request, signed by an authorized agent, to the Agency.
+
+Quote Evaluation and Acceptance
+
+The issuing Agency will evaluate the offer(s) utilizing the “best value” evaluation and award criteria specified in the RFQ and identify the best offer.
+
+Once the best offer has been selected, the Agency will notify the successful vendor of the award decision. If the DIT RFQ form is used, the authorized representative of the Agency will complete the Acceptance of Quote section of the accepted offer and send a copy of the acceptance to the successful vendor.
+
+RFQ used for Waiver of Competition
+
+The RFQ document may also be used for a waiver of competition, where one or more of the conditions of 09 NCAC 06B.0901 are met. Waiver requests over the Agency delegation must be approved by the Statewide IT Procurement Office in accordance with Waiver of Competition guideline. Negotiations may also be conducted when conditions merit waiver of competition. 09 NCAC 06B.0316(c).
+
+Chapter 10 Resources
+Statewide IT Procurement Resources | Statewide IT Forms and Templates
+IPS Website | www.ips.state.nc.us
+North Carolina Administrative Code (NCAC) Rules | 09 NCAC 06B .0316 NEGOTIATION 09 NCAC 06B .0901 CONDITIONS FOR LIMITED OR WAIVED COMPETITION
+
+PROCESSING A BID (IFB and RFP)
+
+The Invitation for Bid (IFB) is normally used for procurements of goods or simple, common services. The Request for Proposal (RFP) is generally used in more complex procurement for services, goods or for a combination of services and goods.
+
+Issuing a Bid
+
+Statewide must review any solicitation that exceeds the Agency’s delegation amount. (9 NCAC 06B.0301, 06B.1304) Statewide will review the solicitation and consult with the Agency on any issues. If the solicitation is a project, there will be additional reviews required outside the Statewide process. Statewide may return the solicitation to the Agency for further revisions or request additional documentation. For bids under an Agency’s delegation, the Agency will work with the end user if any further revisions or additional documentation is needed.
+
+Bids must be advertised on the IPS web page at https://www.ips.state.nc.us/IPS. Bids must be posted for a minimum of (10) calendar days prior to the opening date.
+
+Receiving Offers
+
+The Agency must receive sealed offers no later than the date and time of the bid opening. Any offers received after such time will not be considered.
+
+One-Step Bids
+
+On the opening date for the bids, the bids will be publicly opened and only the vendor’s name will be made public record. Price offers are made public record after an award is made.
+
+Two-Step Solicitations
+
+On the opening date for the bids, the technical portion of the bids will be publicly opened and only the Vendor’s name will be made public record. The price portion of the offer will be opened after finalists have been determined at a later point. Price offers are made public record after an award is made.
+
+The Two-Step solicitation may state two different submission dates, one for the technical proposal and a second submission date for the price proposals. If the price proposals are to be submitted after the technical evaluation, only the vendors with an accepted technical proposal and that are a part of the competitive range will be invited to submit a price proposal. The invitation to submit a price proposal will specify the price proposal opening date, time, and location. At least two (2) business days’ notice will be given for the price proposal opening.
+
+Offer Evaluation and Acceptance
+
+Bids shall be evaluated utilizing the “best value” evaluation and award criteria specified in a solicitation document to identify the best offer.
+
+Under Agency Delegation
+
+Once the best offer has been selected, the Agency will notify the successful vendor of the award decision. The authorized representative of the Agency will complete the Acceptance section of the accepted offer and send a copy of the acceptance to the successful vendor.
+
+Over Agency Delegation
+
+All award recommendations for goods or services procurements originally approved by the Statewide IT Procurement Office must be reviewed by Statewide prior to award.
+
+Award Recommendation
+
+Once the best or lowest technically acceptable offer (based on the award method stated in the solicitation) has been selected by the Agency, the Agency will send Statewide a recommendation for award. If Statewide approves the award recommendation, a Certification of Award will be sent to the Agency. The Agency will then issue their purchase order. If Statewide or SCIO does not agree with the vendor selection, Statewide will work with the issuing Agency to revise and resubmit recommendation.
+
+Chapter 11 Resources
+Statewide IT Procurement Resources | Statewide IT Forms and Templates
+IPS Website | www.ips.state.nc.us
+North Carolina Administrative Code (NCAC) Rules | 09 NCAC 06B .0301 PROCUREMENT PROCEDURES 09 NCAC 06B .1304 GENERAL DELEGATIONS
+
+EVALUATION OF OFFERS
+
+All evaluation factors and criteria and their relative importance must be stated clearly in the solicitation document. Relative strengths, deficiencies, weaknesses, and risks supporting the evaluation must be documented in the contract file. The evaluation team (should consist of a minimum of two members) shall determine the final ranking of all offers under consideration using only the criteria set forth in the solicitation document. All vendors are ranked from most advantageous to least advantageous to the state.
+
+Lack of Competition
+
+If no responses were received, it may be possible to rewrite the solicitation to make the solicitation more attractive to vendors. If there is no way to rewrite the solicitation that would result in offers, the Agency may elect to negotiate with known sources of supply.
+
+Error/Clarification
+
+Clarification is defined in 9 NCAC 06A.0102. Vendors may be given the opportunity to clarify certain aspects of proposals or to resolve minor clerical errors. Clarifications cannot be used to cure material deficiencies (e.g. proposal deficiencies or omissions, materially alter the technical elements of the proposal), or to negotiate. Vendors may recall offers prior to acceptance of an offer by the State. 9 NCAC 06B.0304.
+
+Negotiation
+
+Negotiation is defined in 9 NCAC 06A.0102. If the purchasing Agency expects to use negotiations in the procurement, the solicitation document may be used to establish subject matter areas for negotiation. Negotiations are communications in a waived, limited or open competitive procurement between the State and vendors that are undertaken with the intent of allowing the vendors to revise their offer. Revisions may apply to price, schedule, technical requirements, or other terms of the proposed contract. Negotiations are specific to each offer, and shall be conducted to maximize the State’s ability to obtain best value based on the evaluation factors set forth in the solicitation. The State may also give evaluation credit for technical solutions exceeding the specifications or to negotiate with vendors for increased performance beyond the specifications. If specified in the solicitation and following the negotiations, the vendors may submit final price adjustments or Best and Final Offers (BAFO) to be used in the final phase of the evaluation process. All negotiations must be finalized in a BAFO document.
+
+Negotiations are advantageous to achieve “best value” by lowering costs through pricing as well as incorporating specific changes based on business and technical needs, Agency expertise, risk assessments and other factors. Negotiations are especially encouraged for IT projects.
+
+Best and Final Offer (BAFO)
+
+A time and date for submission of best and final offers must be set if negotiations are conducted. Best and final offers should be requested only once if possible, however, it may be necessary for subsequent rounds of best and final offers. If it is in the Agency's interest, additional discussions will be conducted or the Agency's requirements will be changed. Otherwise, no discussion of, or changes in, the best and final offers shall be allowed prior to award.
+
+Extension of Offer Acceptance Time
+
+When the State determines that it is in the public interest, the State may request that the bidders extend the time given in the proposal for acceptance of the offers prior to the bid expiring. A written request to extend shall be sent to the vendor for signature agreeing to the extension.
+
+Basis for Rejection
+
+DIT or the Agency may reject any offer in whole or part. Any rejections will be made a matter of record. Basis for rejection includes, but is not limited to, the following reasons:
+
+• Offer is deemed unsatisfactory in terms of quantity, quality, delivery date, price, or service offered.
+• Offer does not comply with conditions of the solicitation document or with the intent of the proposed contract.
+• Lack of competitiveness.
+• Errors in specifications or indications that a revision of the solicitation would be advantageous to the state.
+• Cancellation or changes in the circumstances surrounding the solicitation eliminate the need of the solicitation.
+• Limited or lack of funding available.
+• Circumstances prevent the determination of the lowest responsible or most advantageous offer.
+• Any other basis that rejection would be in the best interest of the state.
+
+Source Selection Methods (“Best Value”)
+
+Tradeoff Method
+
+The tradeoff method can be used when other than the lowest price or highest technically qualified offer may be considered for selection. Following are some of the factors, which are to be considered when contemplating the use of the tradeoff method.
+
+• Solicitation must include all evaluation criteria.
+• The evaluation criteria must have consistent methodology and should be listed in order of importance.
+• Price must always be included as an evaluation criterion
+• Requirements must be met by the bidder.
+• Requirements are “Yes” or “No;” and cannot be evaluated.
+• Other criteria factors may include, but are not limited to:
+  • Quality factors
+  • Delivery and implementation schedule
+  • Maximum facilitation of data exchange and systems integration
+  • Consistency of the proposed solution with the state’s strategic direction
+  • Effectiveness of business solution and approach
+  • Industry and program experience
+  • Prior vendor performance
+  • Vendor’s financial stability
+  • Proven development methodologies and tools
+  • Innovative use of technologies
+
+• Evaluation criteria must allow overall ranking to be adjusted when considered against other non-price factors.
+
+Evaluation Methodology
+
+The evaluation methodology must be determined prior to opening any proposals. Qualified bids will be evaluated and acceptance may be made in accordance with Best Value procurement practices as defined by G.S. §143-135.9, 9 NCAC 6A and 9 NCAC 6B.0302.
+
+Identify the major criteria that are critical to the success of the RFP. Some commonly used criteria are: qualifications, relevant experience, quality of work, references, service, physical facilities, human resources, cost (direct and indirect), technical capabilities, and proposed timelines. RFPs can only be evaluated on stated criteria, so include everything to be measured and ensure that the criteria are measurable. Avoid subjective, arbitrary, or general terms.
+
+Begin the evaluation by seeing if the bidder met all the requirements criteria as stated in the bid. Requirements are “Yes” or “No”, they are not graded, measured or evaluated; they are pass/fail for the bid.
+
+Generally, there are two methods for RFP evaluations:
+
+Method One:
+
+Narrative – If the offer meets all the mandatory criteria, then the evaluation committee begins looking at the criteria as defined in the bid. Each criterion is determined to be either a strength or a weakness for each bidder. Then, based on those strengths and weaknesses, the evaluation committee determines which offer is the best proposal by stating why vendor #A was better than vendor #B, which was better than vendor #C, etc. The award recommendation would be written in this manner.
+
+Method Two:
+
+Ordinal or Ranking – When using the ordinal or ranking method, the criteria are stated in relative order of importance in the bid.
+
+If the offer meets all the specifications, then the evaluation committee begins looking at the criteria in order of importance, but without weighting them. So, in a list of criteria, in your order of importance, criteria #1 is more important than criteria #2, which is more important than #3, etc. The evaluation methodology must be determined prior to the opening date any offers. The best proposal will be determined by which offer best meets the criteria given in the bid document.
+
+Method Three:
+
+Scoring – When using the Scoring method, the criteria are stated in relative order of importance in the bid. Each criteria should be weighted to reflect the importance of each criteria. The higher the score determines the best value to the state.
+
+Determining Score for Price Criteria: The vendor submitting the lowest price will receive a maximum score in the price criteria. The lowest price vendor’s price will set the numerator in the price equation. All other scores will receive a number relative to the following formula:
+
+The Lowest Price Vendor’s price / Current Vendor’s price
+
+This result is then multiplied by the maximum score for the price criteria to determine a score. For example, if the lowest bidder was $10,000 and Vendor A submitted a bid for $20,000 then:
+
+$10,000/$20,000 = .5 this vendor would receive .5 the maximum points for the price Criteria
+
+Determining non-price scores: If the offer meets all the specifications, then the evaluation committee begins looking at the non-price criteria and assigns a score for each item. The score is then multiplied by the weight of the individual criteria. The resultant score for each criteria is then summed to produce a total score for each bid submittal. The highest score will be representative and determine the Best Value
+
+The agency may substitute any similar scoring methodology at their discretion provided that the methodology will be documented before evaluation.
+
+Communications with Vendors
+
+Discussion with vendors following receipt of offers must be conducted in accordance with the provisions of the solicitation. The solicitation must specify the types of discussions; clarifications, communications, or negotiations to establish competitive range that will be permitted.
+
+If negotiations are conducted, the vendors may be permitted to submit revised offers to include changes that resulted from the negotiations in the form of a BAFO. Award must be made to the vendor whose proposal is determined to be most advantageous to the state, using the evaluation criteria set forth in the solicitation.
+
+Lowest-Price Method
+
+Used when the lowest price of a technically acceptable offer is expected to result in a best value selection. The following lists some areas to be considered when contemplating the use of the lowest-price method. The solicitation must state that the award will be based upon the lowest price among offers meeting or exceeding the non-price requirements of the solicitation.
+
+• Tradeoffs are not permitted in this method
+• Offers are evaluated for technical acceptability, not technical ranking
+• Only clarifications are allowed of the vendors (no negotiating unless the purchase is over the Agency delegation and is approved by the Statewide IT Procurement Office prior to negotiation)
+• Award must be made to the lowest price, technically acceptable offeror
+
+No Acceptable Offers and Negotiation
+
+If all offers that were submitted were rejected, but the State determines that a new solicitation would not be in the State’s best interest, negotiations may be conducted with all sources that capable of meeting the requirements. The negotiations must be in writing and must include the appropriate IT terms and conditions. If negotiations are conducted with only one vendor, the State must determine why and the reason will be documented for public record. The solicitation should state that negotiations may be used if no acceptable offers are received.
+
+Procurements That Are Designated As Projects
+
+The Agency must obtain review and written approval from the DIT Enterprise Architecture Office, EPMO, and DIT Enterprise Security of the selected proposal if the procurement has been designated as an IT project prior to submitting award recommendation to Statewide. The Agency will work directly with each of these offices for approvals before submitting its award recommendation to the Statewide IT Procurement Office. Statewide cannot accept an award recommendation for a project designated procurement without these reviews and approvals.
+
+Chapter 12 Resources
+Statewide IT Procurement Resources | Statewide IT Forms and Templates Statewide Technical Architecture
+IPS Website | www.ips.state.nc.us
+North Carolina Administrative Code (NCAC) Rules | 09 NCAC 06B .0304 RECALL OF OFFERS
+ | 9 NCAC 6A
+ | 09 NCAC 06B .0302 METHODS OF SOURCE SELECTION
+North Carolina General Statute | N.C.G.S 143-135.9. Best Value procurements
+Enterprise Project Management Office (EMPO) Resources | EPMO Overview
+
+CANCELING A PROCUREMENT
+
+A procurement may be cancelled at any time prior to award. Reasons for cancellation may include, but not limited to, if the requirements stated in solicitation no longer exists, funds are lacking, etc. When the dollar amount of the contract exceeds the delegation, the Agency must seek approval from Statewide to cancel the procurement. Justification and documentation regarding the cancellation must be included in the Procurement File.
+
+AMENDING A SOLICITATION
+
+The issuing Agency may decide that it is in the state’s best interest to amend a solicitation. In such cases an addendum is prepared. The addendum must be advertised using the same media/method as the original solicitation. If the original was posted on the IPS web page, the addendum must also be posted there. The addendum can be used to: change an opening date; respond to questions submitted by vendors; or to make any changes or additions to original solicitation. An addendum should also be used to cancel a solicitation when it is deemed in the state’s best interest to do so.
+
+Chapter 14 Resources
+IPS Website | www.ips.state.nc.us
+
+WAIVER OF COMPETITION (Sole Source)
+
+Competition may be waived pursuant to 9 NCAC 06B.0901. When a waiver is contemplated, and the estimated total amount exceeds the Agency’s delegation, the procurement request, along with the justification, must be sent to Statewide for review and approval prior to the Agency taking any further action. Agencies must prepare a written justification identifying all relevant facts supporting one or more of the conditions identified in the Rule.
+
+Following are conditions when competition may be waived:
+
+• Competition is not available;
+• A needed product or service is available from only one source of supply;
+• Competition has been solicited but no responsive offers have been received;
+• Standardization or compatibility is the overriding consideration;
+• A donation stipulates the source of supply;
+• Personal or professional services are required;
+• A product or service is needed for a person with disabilities and there are overriding considerations for its use;
+• Additional products or services are needed to complete an ongoing job or task;
+• A particular product or service is desired for educational, training, experimental, developmental or research work;
+• Equipment is already installed, connected and in service, and it is determined advantageous to purchase it;
+• Items are subject to rapid price fluctuation or immediate acceptance;
+• There is evidence of resale price maintenance or other control of prices or collusion on the part of persons or entities that thwarts normal competitive procedures unless otherwise prohibited by law;
+• A purchase is being made and a price is available from a previous contract;
+• The requirement is for an authorized cooperative project with another governmental unit(s) or a charitable non-profit organization(s); or
+• A used item is available on short notice and subject to prior sale.
+
+In all cases, when a waiver is contemplated, competition must be sought whenever practicable. In cases where competition is waived, justification for waiver must be made a part of the procurement record.
+
+Chapter 15 Resources
+North Carolina Administrative Code (NCAC) Rules | 09 NCAC 06B .0901 CONDITIONS FOR LIMITED OR WAIVED COMPETITION
+
+AWARD RECOMMENDATION
+
+After the Agency has completed their evaluation and has a recommendation for an award, they are to write up their award recommendation on Agency letterhead and send it to Statewide. This award recommendation letter should contain the following information at a minimum:
+
+• The Vendor(s) the Agency is recommending for award,
+• The amount of the award,
+• The contract term of the award,
+• Reasons why the Vendor(s) was chosen; this can be their strengths and weaknesses, etc. It is determined by your evaluation criteria,
+• Reasons why the other Vendor(s) were not chosen, see above.
+
+If the procurement has been designated a Project, then DIT Enterprise Architecture Office and OSBM review of the award recommendation must occur before submittal to the Statewide IT Procurement Office. The Agency should get written approval from the DIT Enterprise Architecture Office and OSBM and provide that with their award recommendation letter.
+
+Chapter 16 Resources
+Statewide IT Procurement Resources | https://it.nc.gov/resources/it-strategic-sourcing/statewide-it-contracts Template for Award Recommendation Letter
+
+CONTRACT MANAGEMENT
+
+Post Award Conference
+
+The post award conference is an orientation meeting designed to get the contract off to a good start. It is an opportunity for those responsible for administering the contract to meet with those who negotiated and executed the contract and to ensure that all parties have a clear understanding of all contract terms and requirements.
+
+The Agency Project Manager, with support from the Agency Contract Administrator and the Agency Legal representative, is responsible for:
+
+• Determining the necessity for the conference
+• Setting up the conference (time, date, and place)
+• Designating attendees
+• Establishing the agenda
+• Preparing documentation after the conference
+• Monitoring Performance
+
+Receiving, Inspecting and Testing
+
+The receiving Agency will inspect all materials, supplies, and equipment upon delivery to ensure compliance with the contract requirements and specifications.
+
+Wrong/Defective/Missing Items
+
+When goods or services fail to meet the requirements of the contract, the Agency that issued the award is responsible for resolving the discrepancy. (9 NCAC 06B.0501 - .0502, 06B.0601 - .0603) If the wrong or defective items are delivered and the vendor requires that the items be returned, they will be returned at the vendor’s expense. The vendor may not charge additional transportation fees when shipping the corrected items.
+
+Modifying a Contract
+
+An Agency or Statewide may modify a contract by written Amendment if it is determined to be advantageous to the State. If a modification to a contract causes an increase to the total amount of the contract and the revised total amount exceeds the delegation, the Agency must submit all proposed changes to Statewide for written approval regardless of what Agency processed the original procurement. One type of modification may be a request by the issuing Agency to extend the termination dates on the contract. (See 9 NCAC 06B.0504 Modification of Contract Specifications, 06B.0703 Extension of Contract Termination Dates).
+
+Contract Administration
+
+A primary purpose of contract administration is to ensure that the vendor performs to the best degree possible. Satisfactory performance occurs when a vendor is providing the State timely delivery of the services or goods specified in the contract, and the vendor is complying with all terms and conditions of the contract. The ultimate goal is to get maximum performance from the vendor. The relationship between the vendor and the State should be a cooperative one.
+
+The most critical factor in monitoring performance is achieving full understanding of the Contract terms of the Statement of work. The Agency Contract Administrator must be in agreement at the outset as to what constitutes acceptable performance. To do this they should:
+
+• Work with the end user to understand the contract and/or statement of work as well as the intent of the contract.
+• Conduct a thorough team review of the Contract Administration Plan.
+• Obtain the concurrence of the vendor when he starts to perform work on the contract.
+• Monitor the deliveries and/or services delivered under the contract and compare it against the contract baseline.
+
+Quality Assurance
+
+Quality Assurance involves determining the quality of a vendor’s performance as measured by its contractual obligations. The primary functions under quality assurance are inspection and acceptance. These functions are performed by the Agency Contract Administrator who then provides the Agency Project Manager with documentation to support any follow-up action (such as sending a letter informing the vendor of nonconforming services).
+
+Quality assurance, vendor performance and acceptance are particularly critical in IT projects and should be carefully considered when preparing solicitation documents, negotiating, and drafting contract terms.
+
+Vendor Performance
+
+The Agency that issued a contract has the primary responsibility of administering the contract. However, when assistance is required or it becomes apparent that completion of any identified milestone is going to be late, the Agency must notify Statewide in writing.
+
+When a problem arises with a vendor, whether it is late delivery, incorrect items shipped, etc., the first step should be to contact the vendor directly to resolve the problem. If the problem is not resolved satisfactorily within a reasonable time or it becomes a recurring problem, the problem should be reported to Statewide via the Vendor Complaint Form. When a complaint is received, Statewide will work with the Agency and the vendor to resolve the complaint. Statewide will maintain a record of all written complaints to determine whether a vendor is performing responsibly. When it is determined that a vendor is not performing responsibly, the vendor complaint forms and all associated written information may be used to debar the vendor from participating in IT procurement transactions with Agencies for a period that is determined to be suitable. The vendor will be notified in writing of any action taken by the Agency or DIT against the vendor regarding default performance or debarment. Vendor performance information will also be available to Agencies making their own IT procurements. Only vendor complaint information received in writing will be used for these purposes, so Agencies must make all efforts to submit vendor complaints in writing to Statewide IT Procurement Office.
+
+When a contract awarded by Statewide provides for liquidated damages or other late penalties, final authority to impose or waive such penalties rests with Statewide. When penalties appear to be indicated, a thoroughly documented recommendation must be prepared by the Agency and submitted to Statewide.
+
+Contract Closeout
+
+Contract closeout is the responsibility of the Agency that issued the award. Closeout occurs when:
+
+• All goods and/or services are received and accepted
+• Final invoice for accepted goods and services is received and paid
+• All contract options, if any, have expired
+• Lease/rental contract period has expired
+
+Chapter 17 Resources
+North Carolina Administrative Code (NCAC) Rules | 09 NCAC 06B .0501 RESPONSIBILITY
+ | 09 NCAC 06B .0502 INSPECTION
+ | 09 NCAC 06B .0601 ENFORCEMENT
+ | 09 NCAC 06B .0603 RESPONSIBILITY OF PURCHASING AGENCY
+ | 09 NCAC 06B .0504 MODIFICATIONS TO CONTRACT SPECIFICATIONS
+ | 9 NCAC 06B.0703 Extension of Contract Termination Dates
+Statewide IT Procurement Resources | Vendor Complaint Form
+
+MISCELLANEOUS PROCEDURES
+
+Rentals/Leases/Installment Purchases
+
+Contracts for the rental or lease of commodities shall be handled under the same rules applicable to all other IT purchases.
+
+Rental/Lease Contracts
+
+Under the rental or lease contract, there cannot be any obligation to purchase the item.
+
+Lease Purchase Contract
+
+This is a procurement option that is available when the intent of the state in obtaining ownership is uncertain or when it is in the best interest of the state to delay the ownership.
+
+The contract must provide an option or obligation to purchase. Third party financing is not used.
+
+Final ownership transfers only when the option to purchase is exercised or when the time for the obligation to purchase is reached.
+
+The contract may also include options to upgrade the item during the lease period, which may be exercised without re-bidding the contract.
+
+Installment Purchase Contract (Third Party Financing)
+
+This type of procurement is used when ownership of the item at time of possession is intended and financing is arranged through a third party. The property purchased may provide a security interest to secure payment from the third party. If the goods are on a term contract and third-party financing is being used, the item is purchased from that contract. If the item is on a term contract, but financing is not through a third party (i.e. term vendor has offered financing), the item would not be considered on the contract. The purchase of the item would be processed as an open market item purchase that would allow vendors to bid on just the commodities, just the financing, or on both commodities and financing. Term and non-term vendors could submit offers under the open market procurement.
+
+When the goods are not on a term contract and third-party financing is involved, the contract for the item is handled first to determine the price. The item solicitation must include a provision that award of contract is contingent upon obtaining satisfactory financing. All agencies shall handle the financing part of the procurement in the same manner as a contractual service contract is handled as stated in this manual.
+
+The financing contract should also include an option for early payment without penalty.
+
+Records Maintenance
+
+During the procurement process, all paper and electronic records will be labeled individually to allow easy retrieval; see (9 NCAC 06B .1402). Procurement File records include:
+
+• Requisition
+• Required approvals to proceed with purchase
+• All offers - original offers if in writing, or written documentation of verbal offers
+• Vendor-selection justification or reason for award cancellation
+• Evaluation worksheets or other evaluation documentation
+• Distribution list, if used
+• Written justification for waiver or emergency purchase
+• Tabulation of offers received
+• Copy of purchase order (s) or certification to Agency authorizing the issuance of the order(s).
+• Related correspondence
+• Reason(s) for receiving only one offer in response to a solicitation
+• Negotiated contracts
+• Reasons for not accepting technical proposals
+• Board of Awards decision records
+• Contract certification documents issued by Statewide
+• The issuing Agency must maintain all purchasing records for a minimum of five years following the expiration/completion date of the contract. Except where excluded by state law (i.e. trade secrets, confidentiality), these documents are public record.
+
+Compliance Reviews
+
+See IT Procurement rule 09 NCAC 06B.1305 for an overview of the compliance reviews process.
+
+Chapter 18 Resources
+North Carolina Administrative Code (NCAC) Rules | 09 NCAC 06B .1402 PROCUREMENT FILE RECORDS
+ | 09 NCAC 06B .1305 COMPLIANCE REVIEWS
+
+EMERGENCY/PRESSING NEED PURCHASES
+
+Definitions
+
+Emergency – "Emergency situations" are defined as circumstances that endanger lives, property, or the continuation of a vital program, as determined by the purchasing Agency head, and that can be rectified only by immediate purchases or rental of goods or services. The existence of such condition must create an immediate and serious need for supplies, goods and/or services that cannot be met through normal procurement methods.
+
+Pressing Need – "Pressing need" is defined as a need arising from unforeseen causes including delay by vendors, delay in transportation, breakdown in machinery, or unanticipated volume of work, and which can be satisfied only by immediate purchase (or rental) of equipment, supplies, materials, or contractual services. Pressing need does not include failure to plan a purchase in advance of a need.
+
+Methods
+
+Agencies may negotiate with a potential vendor (s) to acquire the quality of goods or services needed at the best possible price, delivery, terms and conditions.
+
+A solicitation document requesting or invitation an offer(s) must be issued, with Standard terms and conditions unless circumstance prohibit.
+
+When an emergency or pressing need procurement is necessary and the expenditure is over the Agency delegation, prior verbal approval must be obtained from Statewide IT Procurement Office unless the purchase must be made outside normal business hours or when State offices are otherwise closed. Whether prior approval was possible, expenditure is over the delegation, an explanation of the emergency or pressing need procurement must be reported in writing to Statewide.
+
+Definitions, Acronyms, and Abbreviations
+
+Definitions
+
+Definitions are set forth in 9 NCAC 06A .0102, and certain frequently used defined terms are presented here for ease of reference.
+
+Agency: Defined as an entity enumerated in N.C.G.S. §143B-1320(a)(17).
+
+Best Value Procurement: Defined as a procurement process with the fundamental objective reducing the total cost of ownership. The particular procurement methods used are selected so as to result in the best value for the State in terms of the function to be performed or delivered. Competitive best value procurement allows for the use of alternate competitive purchasing techniques in addition to low price analysis in the selection of supply sources.
+
+Clarification: Defined as communications between the State and an offeror that may occur after receipt of an offer for the purpose of eliminating irregularities, or apparent clerical mistakes in an offer. A clarification may also be used to allow the State’s reasonable interpretation of an offer or offers or to facilitate the State’s evaluation of all offers. Clarification shall not be used to cure material deficiencies or to negotiate. [9 NCAC 06A .0102 (3)]
+
+Commodities: Defined as any equipment, material or supplies. Also referred to as Goods and Items.
+
+Competition: Competition in purchasing exists when the available market for the goods or services to be acquired consists of more than one supplier who is technically qualified and willing to submit an offer. [9 NCAC 06A .0102 (5)]
+
+Competitive Range: Defined as a range of all of the most highly ranked offers as established in the solicitation and as determined by the purchasing Agency during evaluation of offers. [9 NCAC 06A .0102 (6)]
+
+Deficiency: Defined as either a failure to meet a stated requirement or a combination of weaknesses in an offer that increases the risk of unsuccessful contract performance. [9 NCAC 06A .0102 (7)]
+
+Delegations: The authority granted by the SCIO to an Agency to handle purchases made under a certain dollar amount.
+
+Emergency Need: A situation which endangers lives, property or the continuation of a vital program as determined by the purchasing Agency head and that can be rectified only by immediate purchases or rental of goods or services. [9 NCAC 06A .0102 (8); See, 9 NCAC 06B .1302]
+
+General Delegation: The authority delegated to the purchasing agency for the procurement of information technology goods and services. The State CIO may issue general delegations and special delegations as provided in Rules 06B .1303 and 06B .1304. Information technology is defined in G.S. 147-33.81(2).
+
+Goods: Defined as information technology commodities including equipment, materials, or supplies.
+
+HUB: As a result of Executive Order #150 and N.C.G.S. §143-48, the Minority, Women and Disabled Business Enterprise Program was established to encourage increased participation in the state’s procurement process. Effective April 20, 1999, the program name was changed to the Historically Underutilized Business (HUB) Program to better reflect the intent of this statewide program. The following types of businesses are classified as HUBs: minority-owned business (MBE); woman owned business (WBE); disabled owned business; disabled business enterprise, non-profit workshop for the blind or severely disabled (MBE). (http://ncadmin.nc.gov/businesses/hub)
+
+Information Technology (IT): Electronic data processing goods and services and telecommunications goods and services, microprocessors, software, information processing, office systems, and any services related to information technology support. (N.C.G.S. §143B-1320(11))
+
+Negotiation: Defined as oral or written communications in either a waived, limited, or open competitive procurement between the State and offerors undertaken with the intent of allowing offerors to revise their offers. Revisions may apply to price, schedule, technical requirements, or other terms of the proposed contract. Negotiations are specific to each offer and shall be conducted to maximize the State's ability to obtain best value based on the evaluation factors set forth in the solicitation. The State may reward technical solutions exceeding mandatory minimums with higher evaluations or negotiate with offerors for increased performance beyond mandatory minimums. (9 NCAC 06A .0102 (11); See, 9 NCAC 06B.0316)
+
+Offer: Bid or proposal submitted in response to any solicitation document utilizing "Best Value" procurement methodology including Invitation for Bids (IFB), Request for Proposals (RFP), Request for Quotations (RFQ), negotiation, or other acquisition processes, as well as responses to solution-based solicitations and government-vendor partnerships.
+
+Open Market Procurement: A procurement for a good or service that is not covered by a state term contract or Agency specific contract.
+
+Packaged Software: or Commercial off the Shelf Software (COTS): An information technology commodity and is defined as software used regularly for other than government purposes and is sold, licensed, or leased to the general public or commercial enterprises at a vendor's catalog prices.
+
+Pressing Need: A need arising from unforeseen causes including, but not limited to, delay by contractors, delay in transportation, breakdown of machinery, or unanticipated volume of work, and which can be rectified only by an immediate on-the-spot purchase (or rental of equipment, supplies, materials or services). This is not the same as an Emergency Need. (9 NCAC 06A.0102(14); 09 NCAC 06B.1302)
+
+Price: Amount paid by the State to a vendor for a good or service.
+
+Procurement: Process of acquiring goods or services.
+
+Progressive Award: An award of portions of a definite quantity requirement to more than one contractor. Each portion is for a definite quantity and the sum of the portions is the total quantity procured. A progressive award may be in the purchasing agency's best interest when the awards to more than one offeror for different amounts of the same item are needed to obtain the total quantity or the time or times of delivery required.
+
+Purchasing Agency: Agency that issues the purchase order and thereby awards a contract.
+
+Responsible Offeror: Offeror who demonstrates in its offer that it has the capability to perform fully the requirements of the solicitation.
+
+Responsive Offer: An offer that conforms to the solicitation in all material respects.
+
+Requirement: Features mandated by State Legislation; regulatory attributes that must adhere to a type of governance, such as HIPAA or FERPA; statewide policies and procedures, such as Architecture and Security; and certain technical specifications defined by the procuring Agency. Considered nonnegotiable.
+
+Short Term Staffing Contract: A task related contract used to provide short term augmentation on an hourly basis. Normally engagements are for six months or less.
+
+Specification: The procuring Agency’s identified technical requirements.
+
+Statewide Term Contract (STC): Contracts for goods or services established and administered by the Statewide IT Procurement Office on behalf of all Agencies. The contract document will identify the condition(s) under which usage by Agencies is required.
+
+Substantial Conformity: When a Vendor’s solution satisfies the purpose or objective of the business need even without adhering to ALL of the specifications; mitigates the use of “must” and “shall” in RFP Specifications.
+
+Sealed Offer: An offer that remains unopened until the public opening time stated in the solicitation. Offers are typically submitted sealed to meet this requirement, but electronic submission is permitted if the purchasing agency has the capability to maintain the confidentiality of the offer until the scheduled public opening time.
+
+Service: Any work performed to meet any demand or need for information technology requiring specialized knowledge, experience, expertise, professional qualifications, or similar capabilities for any aspect of information technology. This includes performance, review, analysis, development, integration, installation, or advice in formulating or implementing improvements in programs or services.
+
+Small Purchase is defined as the purchase of goods and services where the expenditure of public funds is within the purchasing agency's delegated authority.
+
+Solicitation Document: Written or electronic Invitation for Bid (IFB), Request for Quote (RFQ), Request for Proposal (RFP) or Request for Information (RFI) document or other such documents approved under Rule 06B .0201 expressly used to solicit, invite offers, or request information regarding the acquisition of goods and services.
+
+State Chief Information Officer (State CIO): The person appointed to manage and administer the Office of Information Technology Services (ITS), and as used herein shall include the State CIO or the State CIO's designee.
+
+State CIO approval, limitation or determination: The judgment applied to the particular factual basis for the procurement decision under the rule or rules, utilizing the knowledge and qualifications of the office, the needs of the State, and information provided by the agencies involved.
+
+Tabulation: A list of offeror(s) submitting offer(s) in response to a particular solicitation.
+
+Total Cost of Ownership: Summation of all purchase, operating, and related costs for the projected lifetime of a good or a service.
+
+Vendor: Company, firm, corporation, partnership, individual, etc. submitting a response to a solicitation document or in response to a negotiation; (also referred to as bidder or offeror).
+
+Waiver of Competition (Sole Source): Under conditions listed in 9 NCAC 06B .0901 where it is deemed in the public interest to procure with a specific vendor and/or for a specific brand.
+
+Acronyms
+
+BAFO Best and Final Offer
+
+CPO Chief Procurement Officer
+
+DIT Department of Information Technology
+
+EPMO DIT Enterprise Project Management Office
+
+HUB Historically Underutilized Business
+
+IFB Invitation for Bid
+
+IPS Interactive Purchasing System
+
+NASPO National Association of State Procurement Officers
+
+NCAC North Carolina Administrative Code
+
+RFI Request for Information
+
+RFP Request for Proposal
+
+RFQ Request for Quote
+
+SCIO State Chief Information Officer
+
+SOW Statement of Work
+
+Statewide Statewide IT Procurement Office
+
+STC State Term Contract
+
+Appendix 1 – Statewide IT Procurement Checklist for Agencies

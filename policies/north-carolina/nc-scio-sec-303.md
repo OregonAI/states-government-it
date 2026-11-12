@@ -1,0 +1,427 @@
+---
+schema_version: 1
+corpus: states-government-it
+jurisdiction: north-carolina
+id: nc-scio-sec-303
+title: Audit and Accountability Policy (AU)
+doc_type: policy
+citation: SCIO-SEC-303
+authority_level: ''
+issuing_body: North Carolina Department of Information Technology
+source_url: https://it.nc.gov/documents/statewide-policies/scio-audit-accountability/download?attachment
+source_format: pdf
+retrieved: '2026-11-11'
+source_sha256: 635da26279b2a13c88c215f5a71e0e70bac7a5429da9b68e5bdd9b805b3a0b4f
+effective_date: '2018-01-29'
+source_version: ''
+status: current
+content_mode: verbatim
+conversion_notes: Text extracted with pdftotext -layout (page headers, footers and column layout kept
+  as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their
+  letters).
+last_verified: ''
+verified_by: ''
+maintainer: ''
+relationships:
+  implements: []
+  implemented_by: []
+  references_external: []
+  related: []
+  supersedes: []
+tags:
+- cybersecurity
+---
+
+> **NON-AUTHORITATIVE.** This is a convenience copy for machine reading. The official text is published at the source URL above. Verify at source before relying on it.
+
+# Audit and Accountability Policy (AU) (SCIO-SEC-303)
+
+## At a glance
+
+One of the 18 Statewide Information Security Policies (SCIO-SEC-303), each aligned to a NIST SP 800-53 Rev. 5 control family and binding executive branch agencies under G.S. 143B-1376.
+
+## Full text
+
+                                                                                                  Document No.
+                                       Audit and                                                  SCIO-SEC-303
+
+                                  Accountability Policy
+Effective Date                       Review Date                                 Version          Page No.
+01/29/2018                           03/26/2025                                  4                1 of 10
+
+Scope
+  The Statewide Information Security Policies are the foundation for information technology security in
+  North Carolina. The policies set out the statewide information security standards required by N.C.G.S.
+  §143B-1376, which directs the State Chief Information Officer (State CIO) to establish a statewide set
+  of standards for information technology security to maximize the functionality, security, and
+  interoperability of the State’s distributed information technology assets, including, but not limited to,
+  data classification and management, communications, and encryption technologies. This policy covers
+  all State information and information systems to include those used, managed, or operated by a
+  contractor, an agency, or other organization on behalf of the State. This policy applies to all State
+  employees, contractors, and all other users of State information and information systems that support
+  the operation and assets of the State. Use by local governments, local education agencies (LEAs),
+  community colleges, constituent institutions of the University of North Carolina (UNC) and other
+  executive branch agencies is encouraged to the extent allowed by law. This security policy is consistent
+  with applicable laws applicable laws, executive orders, directives, regulations, other policies,
+  standards, and guidelines.
+
+Material Superseded
+  This current policy supersedes all previous versions of the policy. All State agencies and vendors of the
+  State are expected to comply with the current implemented version of this policy.
+
+Responsibilities
+  All covered personnel who utilize State of NC IT resources are responsible for adhering to this policy
+  and any local Audit and Accountability requirements.
+ Role            Definition
+ Agency          The Agency Head, the Chief Information Officer (CIO), the Chief Information Security Officer
+ Management      (CISO), or other designated organizational officials at the senior leadership level are assigned the
+                 responsibility for the continued development, implementation, dissemination, and maintenance
+                 of Audit and Accountability policy, procedures, security controls and control techniques. Ensures
+                 that personnel with significant responsibilities for system audit requirements are trained.
+ Information     The Information System Owner is the individual responsible for the overall procurement,
+ System          development, integration, modification, or operation and maintenance of
+ Owner           the information system. Develops and maintains system audit and accountability process
+                 requirements in coordination with information owners, the system administrator, the
+                 information system security officer, and functional “end users.”
+ Information     The Information Owner is the individual with operational responsibility and authority for specified
+ Owner           information and responsibility for establishing the controls for its generation, collection,
+                 processing, dissemination, and disposal. Provides input to information system owners regarding
+                 security requirements and security controls for the information system(s) where the information
+                 resides. Decides who has access to the information system and with what types of privileges or
+
+                                                                                                 Document No.
+                                       Audit and                                                 SCIO-SEC-303
+
+                                  Accountability Policy
+Effective Date                       Review Date                                Version          Page No.
+01/29/2018                           03/26/2025                                 4                2 of 10
+
+                 access rights. Assists in the identification and assessment of the common security controls where
+                 the information resides.
+ Covered         Covered personnel are required to understand their security responsibilities and have the
+ Personnel       requisite skills and knowledge to ensure the effective execution of the roles they are assigned to
+                 enable the timely audit of system activities to reduce the risk of compromise of information or
+                 information systems managed by the State.
+ Third Parties   Third party service providers must provide Information Security Audit capabilities that meet State
+                 requirements. Third parties are required to maintain system audit controls and are subject to
+                 periodic review of audit accountability controls by the State.
+
+AU-1 –Audit and Accountability Policy and Procedures
+   All information assets that process, store, receive, transmit or otherwise could impact the
+   confidentiality, integrity, and accessibility of State data must meet the required security controls
+   defined in this policy document that are based on the National Institute of Standards and Technology
+   (NIST) SP 800-53, Security and Privacy Controls. This document addresses the requirements set forth
+   by the State to implement the family of Audit and Accountability security controls at the organization,
+   process and/or system level for all information assets / State data. This policy provides requirements
+   for the audit and accountability process which is required to document, respond to, and minimize the
+   impact of incidents that can impact information systems and data of which the State is considered the
+   owner.
+   The State has adopted the Audit and Accountability security principles established in NIST SP 800-53,
+   “Audit and Accountability” control guidelines as the official policy for this security domain. The “AU”
+   designator identified in each control represents the NIST-specified identifier for the Audit and
+   Accountability control family. The following subsections in this document outline the Audit and
+   Accountability requirements that each agency must implement and maintain in order to be compliant
+   with this policy. The objective of this policy is to assure that there is information and information
+   system audits to account for, respond to, and minimize the impact of incidents that can impact the
+   State’s information or information systems. This policy and associated procedures shall be reviewed
+   and updated annually, at a minimum. It shall also be updated following agency-defined events that
+   necessitate such change.
+   This policy and the associated procedures shall be developed, documented, and disseminated by the
+   Agency Head, the Chief Information Officer (CIO), the Chief Information Security Officer (CISO), or
+   other designated organizational officials at the senior leadership level.
+
+AU-2 – Event Logging
+   An audit event is any observable occurrence in an information system that is significant and relevant
+   to the security of information systems and the environments in which those systems operate.
+
+                                                                                           Document No.
+                                      Audit and                                            SCIO-SEC-303
+
+                                 Accountability Policy
+Effective Date                       Review Date                            Version        Page No.
+01/29/2018                           03/26/2025                             4              3 of 10
+
+  Organizations shall detect these events and protect the integrity and availability of information
+  systems by monitoring operational audit logs.
+  a. Implement a program for continuous monitoring and auditing of system use to detect
+     unauthorized or unusual activity.
+  b. All network components and computer systems used for agency operations must have the audit
+     mechanism enabled and shall include logs to record specified audit events.
+  c. Audit logs for information systems containing Restricted and Highly Restricted data must be
+     audited at the operating system, software, and database levels.
+  d. A current, reliable baseline shall be established that can be compared to audit logs to determine
+     whether any abnormalities are present.
+  e. Server, desktop, and laptop computers shall be configured to audit for the following events:
+      i.      Server startup and shutdown
+      ii.     Starting and stopping of audit functions
+      iii.    Loading and unloading of services
+      iv.     Installation and removal of software
+      v.      System alerts and error messages
+      vi.     Application alerts and error messages
+      vii.    Modifications to the application
+      viii.   User logon and logoff
+      ix.     System administration activities, such as windows “runas” or linux “su” use.
+      x.      Accesses to information, files, and systems
+      xi.     Account creation, modification, or deletion
+      xii.    Password changes
+      xiii.   Modifications of access controls, such as change of file or user permissions or privileges (e.g.,
+              use of suid/guid, chown, su)
+      xiv.    Additional security-related events, as required by the system owner or to support the nature
+              of the supported business and applications
+      xv.     Clearing of the audit log file
+      xvi.    Remote access outside of the agency network communication channels (e.g., modems,
+              dedicated VPN) and all dial-in access to the system
+
+                                                                                           Document No.
+                                      Audit and                                            SCIO-SEC-303
+
+                                 Accountability Policy
+Effective Date                      Review Date                            Version         Page No.
+01/29/2018                          03/26/2025                             4               4 of 10
+
+       xvii. Changes made to an application or database by a batch file
+       xviii. Application-critical record changes
+       xix.    Changes to database or application records, where the application has been bypassed to
+               produce the change (via a file or other database utility)
+       xx.     All system and data interactions concerning federal tax information (FTI)
+  f.   Network devices (e.g., router, firewall, switch, wireless access point) shall be configured to audit
+       for the following events:
+       i.     Device startup and shutdown
+       ii. Administrator (e.g., privileged user) logon and logoff
+       iii. Configuration changes
+       iv. Account creation, modification, or deletion
+       v. Modifications of privileges and access controls
+       vi. System alerts and error messages
+
+  Audited events shall be reviewed and updated annually or when a major change to the information
+  system occurs. Over time, the events an organization believes should be audited may change.
+  Reviewing and updating the set of audited events periodically is necessary to ensure that the current
+  set is still necessary and sufficient.
+
+AU-3 – Content of Audit Records
+  Information systems shall be configured to generate audit records containing sufficient information to
+  establish what type of event occurred, when the event occurred, where the event occurred, the source
+  of the event, the outcome of the event, and the identity of any individuals or subjects associated with
+  the event. At a minimum, the following elements shall be identified within each audit record:
+
+  a. Date and time when the event occurred
+  b. Software/hardware component of the information system where the event occurred
+  c. Source and destination network addresses
+  d. Source and destination port or protocol identifiers
+  e. Type of event that occurred
+  f.   Subject identity (e.g., user, device, process context)
+
+                                                                                         Document No.
+                                    Audit and                                            SCIO-SEC-303
+
+                               Accountability Policy
+Effective Date                    Review Date                            Version         Page No.
+01/29/2018                        03/26/2025                             4               5 of 10
+
+  g. The outcome (i.e., success or failure) of the event
+  h.   Security-relevant actions associated with processing
+AU-3 (1) – Content of Audit Records | Additional Audit Information
+  System Owners and Business Owners, in coordination for system residing off state infrastructure, shall
+  ensure service providers configure information systems to generate audit records containing the
+  following additional elements:
+  a. Manufacturer-specific event name / type of event
+  b. Full text recording of privileged commands
+  c. Individual identities of group account users
+
+AU-4 – Audit Storage Capacity
+  Audit record storage capacity must be allocated to retain audit records for the required audit retention
+  period of two years per the requirement stated in the NC Department of Natural and Cultural
+  Resources State’s General Schedule for State Agency Records. This is to provide support for after-the-
+  fact investigations of security incidents and to meet regulatory and State information retention
+  schedule requirements.
+  a. Processing and storage capacity requirements shall be sufficient to capture and store the events
+     cited above without adversely impacting operations.
+  b. On-line audit logs shall be backed-up to protected media well before the on-line logs are filled to
+     capacity so that no audit information is lost or overwritten.
+  c. For information systems containing FTI, sufficient audit record storage capacity must be allocated
+     to retain audit records for the required audit retention period of seven (7) years.
+
+AU-5 – Response to Audit Processing Failures
+  In the event of an audit processing failure, such as software/hardware errors, failures in the audit
+  capturing mechanisms, and audit storage capacity being reached or exceeded, the following
+  requirements shall be met:
+  a. Alerts must be immediately sent to agency defined personnel or roles.
+  b. Monitor system operational status using operating system or system audit logs and verify
+     functions and performance of the system. Logs shall be able to identify where system process
+     failures have taken place and provide information relative to corrective actions to be taken by the
+     system administrator.
+
+                                                                                        Document No.
+                                   Audit and                                            SCIO-SEC-303
+
+                              Accountability Policy
+Effective Date                    Review Date                           Version         Page No.
+01/29/2018                        03/26/2025                            4               6 of 10
+
+  c. The system shall provide a warning when allocated audit record storage volume reaches a
+     maximum audit record storage capacity.
+  d. The system should automatically alert designated officials in the event of an audit failure or when
+     audit capacity is 70%, 80%, and again at 90% utilization. This alert should be sent by a mechanism
+     that allows system administrators to receive it after hours (e.g., email, text message).
+  e. Once the maximum storage capacity for audit logs is reached or there is an audit failure, the
+     information system should overwrite the oldest audit records or automatically shut down to
+     eliminate the chance of an incident, in the absence of auditing and accountability.
+
+AU-6 – Audit Record Review, Analysis, and Reporting
+  Unauthorized or unusual activity shall be detected by monitoring operational audit logs in order to
+  protect the integrity and availability of information systems.
+  a. Staff shall be designated to regularly review operational audit logs, including system, application,
+     and user event logs, for abnormalities.
+  b. Any abnormalities and/or discrepancies between the logs and the baseline that are discovered
+     shall be reported to agency management.
+  c. Access to audit logs shall be restricted to only those authorized to view them, and the logs shall be
+     protected from unauthorized modifications, and if technically configurable, through the use of file-
+     integrity monitoring or change-detection software.
+  d. Review and analyze information system audit records at least weekly or more frequently at the
+     discretion of the information system owner for indications of potentially unauthorized or unusual
+     activity.
+  e. For systems containing FTI, refer to 4.3 Audit and Accountability in IRS 1075.
+
+AU-6 (1) – Audit Review, Analysis, and Reporting | Automated Process
+Integration
+  Automated mechanisms shall be employed to integrate audit review, analysis, and reporting
+  processes, for example security information and event management (SIEM), to support agency
+  processes for investigation and response to suspicious activities. Organizational processes benefiting
+  from integrated audit review, analysis, and reporting include, for example, incident response,
+  continuous monitoring, contingency planning, and State Auditor audits.
+
+                                                                                       Document No.
+                                   Audit and                                           SCIO-SEC-303
+
+                              Accountability Policy
+Effective Date                   Review Date                            Version        Page No.
+01/29/2018                       03/26/2025                             4              7 of 10
+
+AU-6 (3) – Audit Review, Analysis, and Reporting | Correlate Audit
+Repositories
+  Audit records shall be analyzed and correlated across different repositories to gain organizational-wide
+  situational awareness. Organizational-wide situational awareness includes awareness across all three
+  tiers of risk management (e.g., organizational, mission/business process, and information system) and
+  supports cross-organization awareness.
+
+AU-7 – Audit Reduction and Report Generation
+  Audit reduction and report generation capability shall be provided and implemented that does the
+  following:
+  a. Supports on-demand audit review, analysis, and reporting requirements and after-the-fact
+     investigations of security incidents
+  b. Does not alter the original content or time ordering of audit records.
+  c. This control is optional for LOW risk information systems.
+
+AU-7 (1) – Audit Reduction and Report Generation | Automatic Processing
+  a. Information systems shall provide and implement the capability to process audit records for events
+     of interest based on AU-2. Events of interest can be identified by the content of specific audit
+     record fields including, for example, identities of individuals, event types, event locations, event
+     times, event dates, system resources involved, IP addresses involved, or information objects
+     accessed.
+  b. Audit event criteria may be defined to any degree of granularity required, for example, locations
+     selectable by general networking location (e.g., by network or subnetwork) or selectable by
+     specific information system component.
+
+AU-8 – Time Stamps
+  Internal system clocks shall be used to generate time stamps for audit records. The internal system
+  clocks should also be used to record time stamps for audit records that meets a NC Department of
+  Information Technology (DIT) defined time synchronization and source; and that use either
+  Coordinated Universal Time or that include the local time offset as part of the time stamp.
+
+                                                                                      Document No.
+                                    Audit and                                         SCIO-SEC-303
+
+                               Accountability Policy
+Effective Date                    Review Date                          Version        Page No.
+01/29/2018                        03/26/2025                           4              8 of 10
+
+AU-8 (1) – Time Stamps | Synchronization with Authoritative Time Source
+  Information systems shall synchronize internal information system clocks at an organizational-defined
+  frequency to a DIT-defined authoritative time source. This control enhancement provides uniformity of
+  time stamps for information systems with multiple system clocks and systems connected over a
+  network.
+
+AU-9 – Protection of Audit Information
+  Audit information and audit tools shall be protected from unauthorized access, modification, and
+  deletion. Protection controls include the following:
+  a. Writing audit trails to hardware-enforced, write-once media. Write-once, read-many (WORM)
+     media includes, for example, Compact Disk-Recordable (CD-R) and Digital Video Disk-Recordable
+     (DVD-R).
+  b. Backing up audit records onto a physically different systems or system component than the system
+     or component being audited.
+  c. Writing audit files to a log server on the internal network and subsequently backing them up to a
+     secure location.
+  d. Using cryptographic mechanisms to protect the integrity of audit information and audit tools.
+     Cryptographic mechanisms include, for example, signed hash functions using asymmetric
+     cryptography which allows verification of the hash information.
+  e. Enforcing dual authorization for movement and deletion of audit information for information
+     systems containing Restricted and Highly Restricted data.
+  f.   Alerting organization-defined personnel or roles upon detection of unauthorized access,
+       modification, or deletion of audit information.
+
+                                                                                       Document No.
+                                   Audit and                                           SCIO-SEC-303
+
+                              Accountability Policy
+Effective Date                   Review Date                           Version         Page No.
+01/29/2018                       03/26/2025                            4               9 of 10
+
+AU-9 (4) – Protection of Audit Information | Access by Subset of Privileged
+Users
+  Access to management of audit functionality shall be authorized to an organizational-defined subset of
+  privileged users. Individuals with privileged access to an information system and who are also the
+  subject of an audit by that system, may affect the reliability of audit information by inhibiting audit
+  activities or modifying audit records.
+  Access to manage audit functionality must be authorized only to designated security administrator(s)
+  or staff other than the system and network administrator. System and network administrators must
+  not have the ability to modify or delete audit log entries.
+
+AU-10 – Non-repudiation (Optional)
+  This control is optional for LOW and MODERATE risk information systems.
+
+AU-11 – Audit Record Retention
+  a. Information systems shall retain audit records for at least two (2) years per the requirement stated
+     in the NC Department of Natural and Cultural Resources State’s General Schedule for State Agency
+     Records, Information Technology Records. This is to provide support for after-the-fact
+     investigations of security incidents and to meet regulatory and State information retention
+     schedule requirements.
+  b. For FTI, audit records for the events identified in AU-2 must be retained for seven (7) years to
+     provide support for after-the-fact investigations of security incidents and to meet regulatory and
+     agency information retention requirements.
+  c. Audit records associated with known incidents, including those used for legal action, must be
+     maintained in accordance with the State’s record retention schedule after the incident is closed.
+  d. Agencies shall dispose of audit records when the retention time has expired, in accordance with
+     the State’s or IRS (for FTI information systems) record retention schedule after an incident is
+     closed.
+
+AU-12 – Audit Record Generation
+  Organizations shall have the ability to generate audit records to monitor use of information systems by
+  employee and third-party contractor users. The following shall be done:
+
+                                                                                           Document No.
+                                     Audit and                                             SCIO-SEC-303
+
+                                Accountability Policy
+Effective Date                     Review Date                             Version         Page No.
+01/29/2018                         03/26/2025                              4               10 of 10
+
+  a. The information system must provide audit record generation capability for the list of events to be
+     logged defined in AU-2. Designated personnel can select which auditable events are to be audited
+     by specific components of the system and generates audit records for the list of audited events
+     defined in AU-2 with the content as defined in AU-3.
+  b. Information systems shall be configured to provide audit record generation capability for the list of
+     auditable events defined in AU-2 with content prescribed in AU-3 on, at a minimum, the following
+     information system components:
+      i.   Server, desktop, and laptop computers (file and print, web, firewalls, end-user environment)
+      ii. Network components (e.g., switches, routers wireless)
+
+AU-13 – AU-16 (Optional)
+  These controls are not selected for LOW and MODERATE risk information systems.
+
+Enforcement
+  Violations of this policy or failure to implement provisions of this policy may result in disciplinary
+  action up to and including termination, civil litigation, and/or criminal prosecution.
+
+## Curator notes
+
+Text extracted with pdftotext -layout (page headers, footers and column layout kept as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their letters).
