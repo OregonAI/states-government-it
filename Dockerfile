@@ -13,10 +13,16 @@
 #   git clone --depth 1 --branch main https://github.com/OregonAI/states-government-it build/
 #   docker build -t states-government-it-mcp build/
 #
-# HYBRID/API ARCHETYPES need NETWORK EGRESS at runtime for their live half. Keep the
-# degradation HONEST: an upstream outage must report upstream_status: "unavailable",
-# never render as a zero (see oregon-budget's Dockerfile and tests/test_hybrid.py for
-# the precedent and the reasoning). A document corpus can delete this paragraph.
+# THIS IS A DOCUMENT CORPUS: the server calls no upstream API (corpus.yml lists no sibling corpus) and
+# reads no snapshot.
+# `.dockerignore` keeps the 713 MB of raw sources (_meta/snapshots) out of the image, and
+# its header records why that is safe (read from the toolkit's mcp code, and exercised by
+# tests/test_image.py). The semantic-search vectors are bind-mounted by platform-deploy at
+# /repo/_meta/embeddings and are not part of the image either.
+#
+# BUILD FROM A SHALLOW CLONE, not a working tree that has run an ingest: `COPY . .` does not
+# consult .gitignore, and .dockerignore is the only thing standing between a working tree and
+# the snapshot directory.
 FROM python:3.12-slim
 RUN apt-get update && apt-get install -y --no-install-recommends git && \
     rm -rf /var/lib/apt/lists/*
@@ -27,8 +33,9 @@ WORKDIR /repo
 COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 COPY . .
-# Pre-build the FTS index so the first request is instant, and fail the BUILD if content
-# is missing rather than shipping an image that starts fine and answers nothing.
+# Pre-build the FTS index so the first request is instant (2,259 documents: about 3 seconds,
+# measured), and fail the BUILD if content is
+# missing rather than shipping an image that starts fine and answers nothing.
 # ...AND smoke-test what the container actually RUNS: the CMD runs `server` via the
 # console script, so the build imports that module and resolves that entry point, not
 # just the framework (platform-deploy#2 — an image once built green and crash-looped
