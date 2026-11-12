@@ -1,0 +1,227 @@
+---
+schema_version: 1
+corpus: states-government-it
+jurisdiction: new-jersey
+id: nj-njoit-14-11
+title: Internet and Statewide Intranet Presence for New Jersey State Government Policy
+doc_type: policy
+citation: NJOIT Technology Circular 14-11-NJOIT
+authority_level: ''
+issuing_body: New Jersey Office of Information Technology
+source_url: https://www.nj.gov/it/docs/ps/14-11-NJOIT_Internet_and_Statewide_Intranet_Presence_and_Web_Site_Development.pdf
+source_format: pdf
+retrieved: '2026-11-11'
+source_sha256: bdd3213cda8dcfebde34960c2ad0b42a0de0b670693e39fdf4ce0133599573bc
+effective_date: '2014-01-23'
+source_version: ''
+status: current
+content_mode: verbatim
+conversion_notes: Text extracted with pdftotext -layout (page headers, footers and column layout kept
+  as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their
+  letters).
+last_verified: ''
+verified_by: ''
+maintainer: ''
+relationships:
+  implements: []
+  implemented_by: []
+  references_external: []
+  related: []
+  supersedes: []
+tags:
+- digital-services
+---
+
+> **NON-AUTHORITATIVE.** This is a convenience copy for machine reading. The official text is published at the source URL above. Verify at source before relying on it.
+
+# Internet and Statewide Intranet Presence for New Jersey State Government Policy (NJOIT Technology Circular 14-11-NJOIT)
+
+## At a glance
+
+Guides the creation, publishing and maintenance of State agencies' public Internet presence and the Statewide intranet, and sets requirements for mass e-mail to employees.
+
+## Full text
+
+                  NJ OFFICE OF INFORMATION TECHNOLOGY            P.O. Box 212                 www.tech.nj.gov
+                  Philip D. Murphy, Governor                     300 Riverview Plaza
+                  Christopher J. Rein, Chief Technology Officer    Trenton, NJ 08625-0212
+
+                                                            POLICY NO:
+             STATE OF NEW JERSEY                                         14-11-NJOIT
+            TECHNOLOGY CIRCULAR                             SUPERSEDES:                 EFFECTIVE DATE:
+                                                                  02-06-OIT                 01-23-2014
+      Internet and Statewide Intranet                       VERSION:                    LAST REVIEWED:
+       Presence for New Jersey State                                   2.0                  08-13-2024
+            Government Policy
+
+1.      PURPOSE
+        This document guides the creation, publishing, maintenance and updating of the public
+        Internet presence of State of New Jersey government agencies and the Statewide intranet site.
+        It also establishes requirements for mass e-mail distribution to employees. The goal of this
+        policy is to provide a secure, coordinated and cost-effective approach to the electronic
+        publication of information for the public and employees.
+
+2.      SCOPE
+        This policy in its entirety applies to all Departments, Agencies, Commissions, State entities and
+        affiliated organizations under the Executive Branch of State government.
+
+3.      AUTHORITY
+        N.J.S.A. 52: 18a-230 b.
+
+4.      POLICY
+        4.1.    Single State of New Jersey URL
+                In order to create a single point of presence for State government information, a
+                Universal Resource Locator (URL) address (https://nj.gov) has been established for the
+                State of New Jersey's public access server environment OIT is the sole responsible
+                authority for State URLs and public access servers for state government. Agencies that
+                wish to utilize a URL other than www.nj.gov shall make such requests to the State's Chief
+                Information Officer in writing. The State CIO will review requests based on the following
+                criteria:
+
+14-11-NJOIT, Internet and Statewide Intranet Presence for New Jersey State Government                     Page 1 of 5
+
+                4.1.1.    Whether the use of the standard address will result in technical incompatibility
+                          with established and documented Website guidelines and protocols; and/or
+
+                4.1.2.    If an agency can fully substantiate that it has special functional requirements
+                          for not using the single-point-of contact address; and/or
+
+                4.1.3.    If an agency can demonstrate that the standard point-of-entry address will
+                          prevent compliance with State of New Jersey security requirements.
+
+        4.2.    Content, Appropriateness, and Information Maintenance
+                Each State agency and department is responsible for determining the content and
+                appropriateness of the information on its websites. Information that is routinely
+                distributed for public consumption, such as news releases, reports, brochures,
+                newsletters and comments on public issues should be accessible either from the State
+                portal (homepage) https://nj.gov/, and/or from individual department/agency sites.
+                Content presented through the State portal (State homepage and channels) must be
+                coordinated with OIT's Office of Creative Services.
+
+                4.2.1.    Agencies must establish internal controls to ensure that site content is current,
+                          accurate and complete.
+
+                4.2.2.    Agencies are required to exercise the same care in posting and displaying
+                          information to the Internet as they would to any external communication by
+                          the agency.
+
+                4.2.3.    Appropriate content includes communications and information exchanges
+                          directly relating to the mission, charter and work tasks of the agency. The
+                          content must comply with Federal and State laws and regulations.
+
+                4.2.4.    It shall be considered a violation of this policy to use the State's Internet
+                          presence to submit, publish, display, transmit or intentionally receive
+                          information that:
+
+                          4.2.4.1.       Violates or infringes on a recognized privilege or the rights of any
+                                         person, including the right to privacy;
+
+                          4.2.4.2.       Contains defamatory, false, inaccurate, abusive, profane,
+                                         threatening, racially offensive, or otherwise biased, discriminatory
+                                         or illegal material;
+
+                          4.2.4.3.       Solicits the performance of any activity that is prohibited by law;
+
+                          4.2.4.4.       Conducts non-State (commercial or personal business) activities;
+
+                          4.2.4.5.       Solicits for political, religious or other causes;
+
+14-11-NJOIT, Internet and Statewide Intranet Presence for New Jersey State Government              Page 2 of 5
+
+                          4.2.4.6.       Violates the State's information security requirements and
+                                         standards;
+
+                          4.2.4.7.       Violates any copyright laws when printing or disseminating
+                                         materials.
+
+        4.3.    Website Standards and Guidelines
+                The online publication, New Jersey State Web Site Standards and Guideline, is available
+                to all State departments and agencies. This document establishes the minimum
+                standards that must be followed by all Executive Branch departments, agencies,
+                commissions, programs and enterprise websites. The document contains
+                recommendations and explanations and references for further information. Each of the
+                standards and recommendations addresses one or more of three major areas: branding,
+                accessibility and functionality.
+
+                4.3.1.    Branding is pivotal to the State's goal of providing a consistent, seamless look
+                          and feel to the State's web presence. Branding encompasses matters of site
+                          architecture, navigation, content presentation, layout, graphics, colors and
+                          fonts, minimum page elements, consistent terminology, usage and spelling.
+
+                4.3.2.    Accessibility guidelines address the need to make all State web pages
+                          accessible to three groups:
+
+                          4.3.2.1      People using various technologies (for example, browsers, search
+                                       engines, operating systems and wireless systems);
+
+                          4.3.2.2      Individuals with disabilities (including visual, mobility and
+                                       cognitive/language impairments); and
+
+                          4.3.2.3      Site visitors from outside the United States and its territories
+
+                Accessibility issues affect layout and design, navigation, graphics, sound, use of software
+                other than HTML, use of multimedia elements, file size, and usage conventions.
+
+                4.3.3.    Functionality issues include content organization and presentation, adoption
+                          of common software, web publishing tools, plug-ins, addressing schema and
+                          file-naming conventions.
+
+        The standards and recommendations should be observed on all State websites.
+
+        The latest version of the New Jersey State Website Standards and Guidelines can be found on
+        the intranet http://highpoint.state.nj.us/njoitbusiness/wphub/index.shtml
+
+14-11-NJOIT, Internet and Statewide Intranet Presence for New Jersey State Government                Page 3 of 5
+
+        4.4.    Website Responsibility and Monitoring
+                4.4.1.    State agency heads, employees and all third-party contractors who are
+                          developing and/or maintaining state agency websites are required to do the
+                          following:
+
+                          4.4.1.1.       Comply with this policy and all laws, regulations, and affiliated
+                                         State policies and procedures applicable to the Internet;
+
+                          4.4.1.2.       Distribute this policy to agency employees and third party
+                                         consultants and provide the referenced standards and guidelines
+                                         as required;
+
+                4.4.2.    OIT is the sole state authority responsible for the following:
+
+                          4.4.2.1.       Publishing website standards and guidelines for the development
+                                         and maintenance of electronically published State information on
+                                         the Internet;
+
+                          4.4.2.2.       Maintaining the State's public access server, including storage,
+                                         backup, failure and disaster recovery;
+
+                          4.4.2.3.       Providing assistance to State agencies in developing, reviewing
+                                         and testing of all electronic public information presented on the
+                                         State's public access server;
+
+                          4.4.2.4.       Providing agencies with information on agency website access
+                                         and utilization; and
+
+                          4.4.2.5.       Monitoring the performance and capacity of the State's public
+                                         access server(s), responding to problems and/or outages and
+                                         upgrading the infrastructure as necessary.
+
+                4.4.3.    The State reserves the right to monitor all Executive Branch websites and to
+                          review compliance with this policy.
+
+14-11-NJOIT, Internet and Statewide Intranet Presence for New Jersey State Government           Page 4 of 5
+
+5.         ADMINISTRATION
+           This Policy is administered and monitored by the CTO at 300 Riverview Plaza, Trenton, NJ 08625.
+
+            Signature on File                                                     08/13/2024
+            Christopher J. Rein, Chief Technology Officer                           Date
+
+ Version      Published Date       CTO        Sections Modified               Description of Modifications
+     1.0        01/13/2016     E. Emanuel                                      Original Published Date
+     2.0        08/13/2024        C. Rein                                          Annual Review
+
+14-11-NJOIT, Internet and Statewide Intranet Presence for New Jersey State Government                    Page 5 of 5
+
+## Curator notes
+
+Text extracted with pdftotext -layout (page headers, footers and column layout kept as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their letters).

@@ -1,0 +1,501 @@
+                             JOINT CIRCULAR
+                                 STATE OF NEW JERSEY
+                             DEPARTMENT OF THE TREASURY
+
+ NO.: 24-04-OMB/DPP/OIT                ORIGINATING AGENCY:                                            PAGE 1 OF 5
+                                       OFFICE OF MANAGEMENT AND BUDGET (OMB)
+                                       DIVISION OF PURCHASE AND PROPERTY (DPP)
+                                       OFFICE OF INFORMATION TECHNOLOGY (OIT)
+
+ EFFECTIVE DATE:                       EXPIRATION                                SUPERSEDES: 23-13-OMB/DPP/OIT
+ IMMEDIATE                             DATE: INDEFINITE
+
+ SUBJECT: PROCUREMENTS OF INFORMATION TECHNOLOGY (IT) HARDWARE, SOFTWARE, SUBSCRIPTION-BASED
+          SOLUTIONS AND RELATED SERVICES AND NON-IT EQUIPMENT
+
+  ATTENTION: DIRECTORS OF ADMINISTRATION, CHIEF FISCAL OFFICERS, CHIEF INFORMATION OFFICERS, AGENCY IT
+             MANAGERS, AND AGENCY PROCUREMENT MANAGERS
+
+ FOR INFORMATION CONTACT:
+
+ OMB IT PROCUREMENTS                                                              OIT.oitprocure-req@tech.nj.gov
+ OMB NON-IT PROCUREMENTS                                                          OMB.Equipment@treas.nj.gov
+ DPP MAIN                                                                         (609) 292-4886
+ CONTRACT COMPLIANCE & AUDIT UNIT, DPP                                            (609) 292-5400
+ OIT EXTERNAL IT PROCUREMENT REVIEW UNIT                                          (609) 777-3773
+
+This Circular outlines that the purchase of all IT infrastructure assets, regardless of dollar value, require prior
+OIT approval pursuant to Executive Order No. 225. In addition, this revised Circular now outlines procedures
+for review and approval of non-IT equipment purchases using contracts within the NJSTART system.
+
+ I.   PURPOSE
+
+      A. To list the justifications that are required to be met for procurement and purchases under an
+         existing contract of IT hardware, software, and related services (e.g., maintenance, subscription
+         renewals, associated training, programming and consulting services) and non-IT equipment. See
+         Procurement Summary - IT Equipment, Software, Services and Non-IT Equipment (Attachment
+         A); IT vs. Non-IT Equipment Guidelines (Attachment B).
+
+      B. To establish procedures for continuation payments for maintenance, subscription renewals, rental
+         and lease/purchase of installed IT hardware, software, subscription-based solutions, and related
+         services.
+
+      C. To define the dollar thresholds for required review by the Office of Information Technology (OIT)
+         or the Office of Management and Budget (OMB).
+
+ II. POLICY
+
+       A. GENERAL
+          1. This Circular applies to all purchases, including DPA purchases, services and supplies
+             procured through Procurement Bureau term contracts, GSA based contracts, Cooperative
+             contracts, and contracts procured through a waiver of advertising.
+          2. Like purchases should be aggregated. Agencies must not divide purchases to fall below
+             any thresholds in order to circumvent the review.
+
+                             ORIGINATING AGENCY:
+NO.: 24-04-OMB               OFFICE OF MANAGEMENT AND BUDGET (OMB)                         PAGE 2 OF 5
+                             DIVISION OF PURCHASE AND PROPERTY (DPP)
+                             OFFICE OF INFORMATION TECHNOLOGY (OIT)
+
+    3. If the procurement or purchase is to be made solely with federal funds, a federal certification
+       form (Attachment C) must be included as part of the package. This certification will permit
+       expedited review from OMB.
+    4. Regardless of dollar value, all procurements, or purchases that primarily use State or
+       dedicated funds, will be considered if they meet one of the following justifications:
+       a) Denial of the purchase would cause loss of investment, or significantly increase future costs.
+       b) The purchase is related to a program that is mandated by the federal government, State
+          law, or a court order.
+       c) Equipment is demonstrated as failing and, without approval, mission critical business
+          functions would be impacted, or halted.
+       d) Equipment is needed for ongoing maintenance.
+       e) Requests not covered by items a) through d) will be addressed on a case-by-case basis.
+    5. Dollar thresholds for OIT/OMB review:
+       a) IT purchases whose total dollar value exceeds $25,000 are subject to OIT review and
+          approval, in order to assure compliance with statewide policies and standards, and
+          enterprise strategy. Purchases of new equipment and/or software whose total dollar value
+          exceeds $250,000 are also subject to simultaneous OMB review and approval. Any
+          requested purchase that is more than $25,000 and less than $250,000 is subject to OMB
+          review on an as-needed basis as determined by the Director, OMB. Purchases of annual
+          maintenance or software renewals of existing products do not require OMB approval
+          unless the price increase exceeds 10% of the current annual cost (complete Attachment
+          E). Procurements of less than $25,000 do not require advance approval, but should
+          conform to allowable procurement justifications summarized in Section II.A.4.
+       b) Non-IT equipment purchases greater than $75,000 require prior approval from OMB. For
+          equipment valued at less than $75,000, agencies may invoke one of the allowable
+          purchase justifications noted in Section II.A.4 of this Circular, however, that action is
+          subject to a post-audit review by OMB. If an agency is found to be in violation of the letter,
+          or spirit of this Circular (exhibiting, for instance, a series of questionable purchases of
+          discretionary items), they will be held to a threshold limit set at the OMB Director’s
+          discretion for future purchases. In addition, the Office of the State Comptroller may conduct
+          periodic audits to ensure that agencies are operating within the guidelines and boundaries
+          set by this Circular.
+    6. Purchases requiring OMB review, made with either State or non-State funds, excluding those
+       purchased solely with federal funds, will be subject to a thorough review of all aspects of the
+       request including, but not limited to, confirmation of account number(s) and available
+       balances, analysis of current/projected fiscal position, documentation of need, and other
+       analyses as needed or required. If such information is not included in the purchase
+       justification, the request will be automatically rejected. For federal funds purchases, a
+       summary review will be completed by OMB to ensure the account number is correct and the
+       funding is in place.
+   7. With the exception of a DPA, and excluding purchases made by departments exercising
+      statutory independent procurement authority, DPP will not process any IT-related
+      procurements, or purchases as defined herein, without the approval of OIT and, if applicable,
+      OMB.
+   8. Procurement requests submitted after May 30th for the current fiscal year will not be reviewed
+      unless deemed an urgent, or emergency purchase, and must receive advance approval from
+      OMB before submission.
+   9. GSA procurements for IT are also subject to the Circular entitled, Purchases from Federal
+      Supply Schedules or Schedules of Other Federal Procurement Programs. Equipment
+      purchased for road maintenance and construction is not subject to this Circular. Procurements
+
+                               ORIGINATING AGENCY:
+NO.: 24-04-OMB                 OFFICE OF MANAGEMENT AND BUDGET (OMB)                         PAGE 3 OF 5
+                               DIVISION OF PURCHASE AND PROPERTY (DPP)
+                               OFFICE OF INFORMATION TECHNOLOGY (OIT)
+
+       of vehicles are subject to the Circular entitled, Procurement of State Motor Vehicles. Line of
+       Credit purchases are subject to the Circular entitled, Master Lease/Line of Credit (LOC)
+       Program. Furniture and carpeting purchases are governed by the Circular entitled, Procedures
+       for the Acquisition of Furniture and Carpeting. IT purchases made by the Office of Information
+       Technology (OIT) are not subject to this Circular.
+
+B. IT INFRASTRUCTURE PURCHASES
+   1. Agencies are not permitted to purchase any “information technology infrastructure”, regardless
+      of dollar value, unless granted approval, due to exceptional circumstances by OIT. Information
+      technology infrastructure is defined as computing, storage, network, and data center assets
+      (e.g., servers, routers, racks), including infrastructure in the cloud. All IT procurements must
+      conform to OIT’s standards and policies, and to approved departmental IT Tactical Plans, as
+      outlined in the OIT IT Procurement Technical Approval Request, except as otherwise approved
+      by the agency’s Chief Executive and the CTO.
+   2. OIT will fast track its approval process for procurements, or purchases over $25,000 for
+      maintenance renewal of existing licenses of shrink-wrapped software, which do not include
+      additional licenses, scope changes, or services, and have a written agreement signed by DPP
+      in place.
+
+           NOTE: Due to limitations of the e-Catalog system, OIT cannot distinguish commodity type in
+           purchases in order to exclude items listed in Section 2 (above) from full OIT review. To
+           facilitate a quick turnaround of these orders, agencies should send an e-mail to
+           OIT.oitprocure-req@tech.nj.gov, with the following text in the Subject line: Procurements
+           covered by the IT and Non-IT Equipment Circular. In the body of the e-mail, the agency should
+           list the e-Catalog number(s) of the procurement(s) needing approval. By sending this e-mail,
+           the agency is certifying that the only items contained in this procurement are those listed in
+           subsections a) and b) of this section.
+
+   3. OIT will oversee all aspects of IT spending, under current purchasing and budgetary statutes,
+      and guidelines.
+   4. OIT may conduct periodic audits to ensure that agencies are operating within the guidelines and
+      boundaries set by this Circular.
+   5. OIT is directed to place special scrutiny on any IT procurements related to infrastructure and
+      data center refurbishment, expansion, or the planning and building of new data centers. This is
+      directed to promote consolidation of network and data center infrastructure wherever possible
+      and practical.
+   6. Information submitted in a single package (one .pdf file) to OIT for review must include:
+      a) The NJCFS account number(s) being charged for the procurement;
+      b) The IT Procurement Technical Approval Request form;
+      c) A purchase document, or Agency Order, or Agency Order Draft that clearly identifies all
+         items to be purchased, and the vendor from which the items are to be purchased;
+      d) An explanation and/or justification sufficiently detailed to promote a diligent technical review;
+      e) All other requirements specified in the contract Method of Operation, if applicable; and
+      f)    Required price quotes.
+
+                                    ORIGINATING AGENCY:
+       NO.: 24-04-OMB               OFFICE OF MANAGEMENT AND BUDGET (OMB)                        PAGE 4 OF 5
+                                    DIVISION OF PURCHASE AND PROPERTY (DPP)
+                                    OFFICE OF INFORMATION TECHNOLOGY (OIT)
+
+III.    PROCEDURES
+
+       A. GENERAL
+
+           1. For IT procurements totaling more than $25,000, the agency must submit the IT Procurement
+              Technical Approval Request, and supporting documentation, to OIT for review and approval.
+              Approval will be noted in OIT’s Procurement Tracking Application.
+           2. For non-IT procurements totaling more than $75,000, the agency must submit a request to
+              OMB for review and approval.
+              a) For     all   MACSE       contracts:    Agencies      must      email    justification  to
+                 OMB.Equipment@treas.nj.gov when funds are pre-encumbered (i.e., requisitioned). The
+                 pertinent requisition number must be noted in the subject line of the agency email and the
+                 associated NJCFS account number(s) must be mentioned in the body of the submission.
+                 Please include all information covered in the Non-IT Procurement request checklist (see
+                 Attachment D). OMB will respond by email to the agency, approving or disapproving the
+                 request.
+              b) For all NJSTART contracts: Agencies must include a purchase justification as an
+                 attachment to the NJSTART requisition form. This justification should include the NJCFS
+                 account number(s) being used for the purchase. All other information and documents
+                 covered in the Non-IT Procurement request checklist (see Attachment D) should be
+                 attached as one package in .pdf format to the NJSTART requisition. If such information is not
+                 included, the request will be automatically rejected. OMB will approve, or disapprove each
+                 purchase request directly within the NJSTART system.
+           3. Term contracts must be used for all procurements when available.
+               a) Agencies should review all applicable Notices of Award for any special procurement
+                  instructions. The final decision should be based on lowest cost, price and other factors
+                  considered, e.g., delivery of the product and/or configuration, which best satisfies agency
+                  requirements.
+               b) If the lowest cost or priced vendor is not selected, a Memorandum of Justification must be
+                  attached to the purchasing document and retained as part of the record.
+           4. Delegated Purchasing Authority is available for procurements whose dollar value is not in
+              excess of $200,000 in accordance with the Circular entitled Delegated Purchasing Authority
+              (DPA) for Goods and Services.
+                NOTE: Pursuant to N.J.S.A. 52:25-23(a), agencies shall not divide purchases exceeding the
+                DPA threshold by vendor, dollar amount, or items purchased, to circumvent the dollar limit
+                imposed.
+           5. If an existing contract does not meet the Agency requirements, competitive bidding is required
+              for all procurements whose dollar value is greater than $200,000; these requests must be
+              prepared and forwarded to OMB as follows:
+               a) Submit either a screen print of the Requisition – Encumbrance (PB/6) or a memorandum
+                  requesting establishment of a term contract and bid specifications.
+                  1) The memorandum must emphasize the using agency’s needs, required timeframes,
+                     and anticipated use of the item(s) and where applicable a project plan of the initiative
+                     must be submitted to support the request.
+                  2) Specifications must be thorough, accurate, and lend themselves to competitive bidding
+                     (do not favor specific brand names or vendors).
+               b) Upon approval, the agency should submit the approved request to DPP, which will review
+                  the specifications, and upon finalization and approval, will proceed with the formal
+                  advertised bidding.
+
+                             ORIGINATING AGENCY:
+NO.: 24-04-OMB               OFFICE OF MANAGEMENT AND BUDGET (OMB)                         PAGE 5 OF 5
+                             DIVISION OF PURCHASE AND PROPERTY (DPP)
+                             OFFICE OF INFORMATION TECHNOLOGY (OIT)
+
+    6. Waivers: If an item cannot be competitively procured and exceeds the DPA limit, refer to the
+       Delegated Purchasing Authority (DPA) for Goods and Services Circular, Requests for Waivers
+       of Advertising, for instructions.
+
+B. CONTINUATION WAIVER PAYMENTS FOR INFORMATION TECHNOLOGY RENTALS,
+   LEASE PURCHASES, MAINTENANCE AND SUBSCRIPTION RENEWALS
+
+    1. Each fiscal year, DPP and OIT will contact the primary fiscal and procurement staff from all
+       departments for the purpose of disseminating information and providing assistance to any
+       State public agency that may wish to participate and submit a Waiver of Advertising. This
+       Waiver applies to the continuation payments for rentals, lease/purchases, and maintenance
+       of installed IT hardware and software. Required OIT approval is coordinated by DPP and OIT.
+
+    2. Upon completion and approval of this Waiver, written notifications will be forwarded by DPP
+       and OIT to the appropriate agency contact person with the following information: notice of
+       approved vendor(s) and dollar amount(s), waiver number, and method of operation for issuing
+       orders and processing payments.
+
+       NOTE: Any using agency failing to participate in this annual meeting and failing to forward
+             Vendor quotations to OIT will be responsible for the submission of an individual Waiver of
+             Advertising to DPP following the procedures as noted above in Section III B.
+
+             All waiver requests must be supported by both price negotiation and a summary
+             of cost, or price analysis, by the requesting agencies.
+              AGENCIES MUST NOT EXCEED THEIR APPROVED DOLLAR AMOUNT ON THE
+              ANNUAL WAIVER. PROCUREMENTS/PAYMENTS AGAINST THIS WAIVER WILL
+              BE STRICTLY MONITORED BY DPP AND OIT.
+
+C. CURRENT PURCHASING SYSTEM RESTRICTIONS
+
+    Approval Authorization is restricted in the purchasing systems on all IT purchases related to this
+    Circular. Only the OIT approval officer will be able to advance an IT related purchase to the final,
+    or next approval level, for any purchases exceeding the approval dollar value set forth in this
+    Circular. As a result of these system restrictions:
+    1. On purchases exceeding the approval dollar value, the requesting department shall initiate
+       the purchase document(s) for the procurement and advance it to the appropriate approval
+       status for subsequent OIT review.
+    2. The system restrictions will apply to P-Card purchases. Therefore, the agency should avoid
+       “swiping” the card for purchases exceeding the approval dollar value. These transactions will
+       not clear the purchasing system until after OIT approves them.
+    3. OIT will approve, or deny, the purchase document(s) in the purchasing system for further
+       processing by the requesting department.
+
+       _______________________                              _________________________
+       Tariq Shabazz, Acting Director                       Amy F. Davis, Acting Director
+       Office of Management and Budget                      Division of Purchase and Property
+
+       _______________________
+       Christopher Rein, Chief Technology Officer
+       Office of Information Technology
+
+                                           Attachment A
+                                       Procurement Summary
+                      Information Technology (IT) Equipment, Software, Services
+                                         Non-IT Equipment
+
+Review Thresholds                                                                             OIT         OMB
+ IT Procurements (Equipment, Software, Subscription-based Solutions, Services)     $25,000 $250,000
+ Non-IT Equipment Procurements                                                       N/A       $75,000
+ Like purchases should be aggregated. Agencies should not subdivide common purchases simply to avoid the
+ review thresholds.
+
+Special Considerations
+ IT procurements made pursuant to a term contract must comply with all requirements listed in the associated
+ Method of Operation.
+ GSA procurements for IT are also subject to the Purchases from Federal Supply Schedules or Schedules of
+ Other Federal Procurement Programs Circular.
+ Vehicle procurements are also subject to the Procurement of State Motor Vehicles Circular.
+ This process does not apply to furniture or carpeting; see the Procedures for the Acquisitionof Furniture and
+ Carpeting Circular.
+ Line of Credit purchases are subject to the Master Lease/Line of Credit (LOC) Program Circular.
+
+Allowable Procurement Justifications
+ Purchases utilizing exclusively federal funds must include a federal certification form as part of the review
+ package. Such requests will receive expedited review from OIT and OMB. Failure to include the federal
+ certification form will require a complete review of the request.
+ Purchases using primarily State or dedicated funds will be considered if they meet one of the following
+ conditions:
+    When the project/initiative is ongoing and the disapproval would cause great loss of investment or
+    significantly increase future costs.
+    When the purchase is related to a program that is mandated by the federal government, State law, or a court
+    order.
+    When equipment or software is demonstrated as failing and without approval, mission critical business
+    functions would be impacted or halted.
+    When needed for ongoing maintenance costs.
+   All other justifications will be reviewed on a case-by-case basis.
+
+Submission Guidelines                                                                            IT     Non-IT
+ Complete documentation as referenced in Policy 18-03 Section II. B. 6                           X
+ Complete Non-IT Equipment request check list (Attachment D)                                               X
+ Complete federal funds certification form, if applicable (Attachment C)                         X         X
+ Submit IT procurements requiring approval to OIT.oitprocure-req@tech.nj.gov                     X
+ Submit Non-IT Equipment procurements requiring OMB approval to
+                                                                                                           X
+ OMB.Equipment@treas.nj.gov, or for NJSTART contracts attach to requisition.
+ Complete certification for IT maintenance and software renewal (Attachment E)                  X
+
+                                                Attachment B
+                                     IT vs. Non-IT Equipment Guidelines
+
+I. Information Technology Equipment
+
+   Unified Communications (Voice, Video, Data)
+   Wireless Devices and Services (e.g., Blackberries, smart phones, satellite phones, pagers)
+   Personal Digital Assistant (PDA)
+   Telecommunications Infrastructure and Systems (PBXs and associated products and services)
+   Video Teleconferencing Infrastructure and Systems
+   Communications Cable, Wire and Associated Products
+   Voice and Data Lines
+   Networking Infrastructure and Systems (e.g. Data Switches and Routers)
+   Radio Communications Equipment and Systems
+
+   Computer-Related Office Equipment, Software, Services
+   Servers/PCs/Laptops/Tablets
+   MFDs, Printers, Smart Boards and other Peripherals
+   Fax Machines
+   Scanners
+   Imaging and Records Management Systems, See Automated Records Management /StorageSystems and Related
+   Services Circular
+   Computerized Projection Systems
+
+II. Non-Information Technology Equipment
+
+   General Office Equipment (e.g. calculators/adding machines, etc.)
+   Vehicles
+   Building Maintenance and Security
+   Housekeeping
+   Landscaping
+   Food Preparation and Serving
+   Laundering and Cleaning
+   Medical and Hospital
+   Classroom Instruction
+   Agriculture and Conservation
+   Scientific Study
+
+   If in doubt about whether your procurement is IT or non-IT, please contact the OIT External IT Procurement Review
+   Unit.
+
+   IT purchases made by the Office of Information Technology (OIT) are not subject to this Circular.
+
+   Equipment purchased for road maintenance and construction is not subject to this Circular.
+
+   Furniture and carpeting purchases are governed by Procedures for the Acquisition of Furniture and Carpeting
+   Circular, and therefore are exempt from this Circular.
+
+                                              Attachment C
+                   Agency Certification for Expenditure of Federal Funds for Equipment
+
+Department:                                                                Request Date:
+
+Division:                                                                  Total Amount:
+
+Federal Grant Name:
+
+Federal Accounts to Be Charged:
+
+Account #:                                                          Amount:
+
+Account #:                                                          Amount:
+
+Account #:                                                          Amount:
+
+Account #:                                                          Amount:
+
+PO Number:
+
+Brief description of items to be purchased (attach separate sheet if necessary):
+
+This purchase must be completed by (date)                                  or else (check all that apply):
+    □    The Federal grant period will end and funds will no longer be available.
+    □    A vendor discount of $                     will be lost.
+    □    The manufacturer’s production order deadline will be missed.
+    □    Other (attach separate sheet if needed)
+
+AGENCY FISCAL OFFICER CERTIFICATION:
+
+The undersigned fiscal officer certifies the following statements to be true and correct:
+
+•   The Federal granting agency has approved this procurement.
+•   These funds must be used exclusively for this purpose and cannot be used to reduce State expenditures in any
+    other program or activity.
+•   No State matching funds are required as a condition of this federal grant.
+
+Signature:
+
+Print name:
+
+Title:
+
+Phone:                                    Email:
+
+Date:
+
+                                                Attachment D
+                                      Agency Submission Checklist
+                                   Procurement of Non-IT Equipment
+          Please include all the information below with your submission in a cover page or e-mail
+
+Department:
+
+Date Prepared:
+
+Contact Info:
+
+     Item(s) Requested
+
+     Total Cost of Item(s) Requested
+
+     Source of Payment (NJCFS Organization-Level Account)
+
+     Justification of Need
+
+     Additional Background
+
+     Justification Criteria (more than one may be selected):
+
+     1. Dedicated or non-State funds provide significant or sole funding for the initiative
+        and there is a compelling reason for the purchase.
+
+     2. Denial of an equipment purchase would significantly increase future costs.
+
+     3. The purchase is related to a program that is mandated by the federal
+        government, state law, or a court order.
+
+     4. Equipment is demonstrated as failing and, without approval, mission critical
+        business functions would be impacted or halted.
+
+     5. Equipment is needed for emergency maintenance or repairs.
+
+     Federal Fund Purchases (if applicable):
+     Agency Certification for Expenditure of Federal Funds for Equipment Form
+
+     Vehicle Purchases:
+     Justification language must include discussion of how requested item(s) will
+     impact the current vehicle fleet # and makeup.
+
+     Governor's Office approval if requested item(s) will increase the current vehicle
+     fleet #.
+
+                                         Attachment E
+                          Agency Certification for IT Procurements of
+                Annual Maintenance and Software Renewals of Existing Products
+
+Department/Division:
+
+Date Prepared:
+
+Contact Info:
+
+        NJSTART Requisition #:
+
+        Description of Item:
+
+                Maintenance Renewal
+                Software Renewal
+
+        Total Renewal Cost:
+
+        Renewal Period:
+
+        Source of Payment (NJCFS Account):
+
+        Total Prior Year Cost:
+
+        % Difference from Prior Year:
+
+AGENCY CERTIFICATION:
+
+The undersigned certifies that this requisition complies with the requirements of the State of New
+Jersey Joint Circular 24-04-OMB/DPP/OIT and that the purchase of the annual maintenance or
+software renewal of the existing product either does or does not exceed 10% of the prior year annual
+cost.
+
+                Exceeds 10% of the prior year annual cost
+                Does not exceed 10% of the prior year annual cost
+
+Signature: _________________________________________
+
+Print Name: ________________________________________
+
+Date:
