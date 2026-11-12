@@ -1,0 +1,76 @@
+                          West Virginia Office of Technology Policy
+                          Retention Policy for Google Email, Chat, and
+                          Personal Drive Data
+                                                                              Effective Data: 03/15/2024
+                                                                              Policy Number: CIO-24-001
+
+Purpose
+The purpose of this policy is to establish a uniform retention policy for end-user account data stored in
+the cloud.
+
+W.Va. Code §5A-6-4 authorizes the Chief Information Officer (CIO) to establish information technology
+governance and enterprise standards to support a unified approach to information technology across
+state government.
+
+Scope
+This policy applies to all user accounts created and managed by the WV Office of Technology.
+
+Policy
+Agencies own the data created by or originating with the Agency, data transferred to the Agency from a
+third party, and all data that is the output of computer processing or other electronic manipulation of
+any data that was created by or in any way originated with the Agency, whether such data or output is
+stored on the Agency’s hardware, WVOT’s hardware or exists in any system owned, maintained or
+otherwise controlled by either the Agency or by WVOT.
+
+The WVOT, as an IT service provider for Agencies, may hold or have access to data owned by the Agency.
+If Agencies delete their data stored outside the scope of this policy, WVOT only retains it for backup
+periods defined by the agency and provided to OT to support operational resiliency and IT service
+continuity. WVOT additionally makes available when requested certain long term storage or legal hold
+services for data that must be frozen or retained.
+
+WVOT does not backup data stored on state owned computers.
+
+User account data includes data associated with employee accounts, such as data stored in an employee
+personal cloud drive, an employee’s email account, or chats. This data is owned by the Agency. Agencies
+may inspect or review data associated with an employee’s personal drive, chat, or email account at any
+time by requesting that service from WVOT.
+
+Retention Periods of Agency data stored in a cloud. The following shall be applied to all accounts created
+and managed by the WVOT.
+
+ Data medium                                          Retention policy
+
+ Employee Email, Employee Cloud Drive and Indefinite as long as account is active--
+ Delegated Mailboxes                      Once an account is deprovisioned, data will
+
+                           West Virginia Office of Technology Policy
+                           Retention Policy for Google Email, Chat, and
+                           Personal Drive Data
+                                                                                Effective Data: 03/15/2024
+                                                                                Policy Number: CIO-24-001
+
+                                                       be retained for 2 years.
+
+ Chats/Instant Messages                                365 days
+
+Should an Agency require a more restrictive retention period for chats/instant messages for user email,
+the Agency may request a custom retention period through the self-service portal. The Agency must
+include the justification (e.g. cite to federal law requiring different retention or business case) with the
+request. If an agency requires a more restrictive retention period, it must be applied to the entire
+agency.
+
+When an account deprovision request is made, the agency may request that another employee be given
+access to the deprovisioned account to save any data associated with the account in another location,
+monitor the inbox, or perform any other functions necessary for business continuity. This request must
+be made within 30 days of the deprovisioning request.
+
+FOR ACCOUNTS CONTAINING DATA THAT MAY BE THE SUBJECT OF LITIGATION OR WHICH MAY
+OTHERWISE NEED TO BE PRESERVED, AGENCIES MUST REQUEST A LEGAL HOLD TO BE PLACED ON THE
+ACCOUNT. Agency legal counsel or agency leadership may request a legal hold on any user account that
+needs to be preserved. The legal hold will remain on the account until the Agency notifies the WVOT the
+hold may be released. WVOT will bill the Agency for the cost of providing this service.
+
+Relevant Authority
+W.Va. Code §5A-6-4
+
+The request for legal holds can be accessed here.Cloud Data Retention (Legal Hold) Request

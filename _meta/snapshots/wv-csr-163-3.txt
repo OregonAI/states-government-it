@@ -1,0 +1,51 @@
+TITLE 163
+
+LEGISLATIVE RULE
+
+WEST VIRGINIA OFFICE OF TECHNOLOGY
+
+SERIES 3
+
+CYBER REPORTING
+
+§ 163-3-1. General Provisions.
+
+1.1. Scope. -- This legislative rule establishes requirements relating to reporting of cyber incidents. This rule applies to all executive agencies, constitutional offices, local government entities, and county boards of education, as identified by W.Va. Code §5A-6C-2.
+
+1.2. Authority. -- W. Va. Code §5A-6C-3 and §5A-6B-3.
+
+1.3. Filing Date. -- March 27, 2026.
+
+1.4. Effective Date. -- April 1, 2026.
+
+1.5. Sunset Provision: This rule shall terminate and have no further force or effect upon the expiration of August 1, 2031.
+
+§163-3-2. Definitions.
+
+2.1. “Cyber attack” means an attack via cyberspace, targeting an enterprise’s use of cyberspace for the purpose of disrupting, disabling, destroying, or maliciously controlling a computing environment or infrastructure; or destroying the integrity of data or stealing controlled information.
+
+2.2. “Cybersecurity incident” or “incident” means a violation, or imminent threat of a violation, of computer security policies, acceptable use policies, or standard security practices.
+
+2.3. “Cybersecurity Office” means the office created in W.Va. Code §5A-6B-1.
+
+2.4. “Cyberspace” means a global domain within the information environment consisting of the interdependent network of information systems infrastructures, including the Internet, telecommunications networks, computer systems, or embedded processors and controllers.
+
+2.5 “Entity” means the State of West Virginia, including any department, division, agency, bureau, board, commission, office or authority thereof, any political subdivision of the State of West Virginia including, but not limited to, any county, municipality or school district.
+
+2.6. “Personally Identifiable Information” means any representation of information that permits the identity of an individual to whom the information applies to be reasonably inferred by either direct or indirect means.
+
+2.7. “Protected Health Information” means individually identifiable health information that is transmitted by electronic media, maintained on electronic media, or transmitted and maintained in any other form or medium. Protected health information does not include individually identifiable health information in education records covered by the Family Education Rights and Privacy Act, as amended, 20 U.S.C. 1232g; records described at 20 U.S.C. 1232g(a)(4)(B)(iv); or employment records held by a covered entity in its role as an employer.
+
+§163-3-3. Reporting by any entity.
+
+3.1. All entities shall report qualified cyber incidents to the Cybersecurity Office via online portal incident.wv.gov within 10 days of discovery of an incident. Notification to the Cybersecurity Office should be made before any citizen notification of the incident.
+
+3.2. The report of a qualified cyber incident shall not include any personally identifiable information (PII), protected health information (PHI), passwords or login information.
+
+§163-3-4. Reporting by executive branch agencies.
+
+4.1. Any executive branch agency that discovers a cyber incident, cyber attack, substantial vulnerability or other electronic threat shall immediately notify the Cybersecurity Office by submitting a report at incident.wv.gov if:
+
+4.1.1. The incident, cyber attack, vulnerability, or threat has an immediate impact on state-owned or state-managed data, systems, or services; or
+
+4.1.2. The incident, cyber attack, vulnerability, or threat can potentially impact state-owned or state-managed data, systems, or services.

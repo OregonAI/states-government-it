@@ -1,0 +1,563 @@
+---
+schema_version: 1
+corpus: states-government-it
+jurisdiction: west-virginia
+id: wv-wvot-po1012
+title: Contract Management Policy
+doc_type: policy
+citation: WVOT-PO1012
+authority_level: ''
+issuing_body: West Virginia Office of Technology (Chief Information Officer)
+source_url: https://drive.google.com/uc?export=download&id=110N70NUHgzIiE4RSJnbHAHEiofSFLYlu
+source_format: pdf
+retrieved: '2026-11-12'
+source_sha256: 2eb91fc98e66889b55ce8c6c61c3cbf686a58f0b14433cd5f3e436368451390b
+effective_date: null
+source_version: Revised 03/18/2026
+status: current
+content_mode: verbatim
+conversion_notes: Text extracted with pdftotext -layout (page headers, footers and column layout kept
+  as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their
+  letters). Google Drive's PDF puts a zero-width space (U+200B) around runs of text; they are kept as
+  extracted. source_version is the revision or issue date the policy prints, as printed.
+last_verified: ''
+verified_by: ''
+maintainer: ''
+relationships:
+  implements: []
+  implemented_by: []
+  references_external: []
+  related: []
+  supersedes: []
+tags:
+- procurement
+- governance
+---
+
+> **NON-AUTHORITATIVE.** This is a convenience copy for machine reading. The official text is published at the source URL above. Verify at source before relying on it.
+
+# Contract Management Policy (WVOT-PO1012)
+
+## At a glance
+
+Requirements governing the use of contracts and contractors in an information technology environment, including the risks of misclassified contractors.
+
+## Full text
+
+I​ssued by the​                                                      ​Contract Management Policy​
+ ​Chief Information Officer​                                                       ​WVOT-PO1012​
+
+                                                                                           ​ 5/28/2010​
+                                                                                           0
+                                                                                  ​Revised 03/18/2026​
+                                                                           ​OPR: WVOT Procurement​
+                     ​COMPLIANCE WITH THIS PUBLICATION IS MANDATORY​
+                                    ​Publications are available online at​
+                  ​https://sites.google.com/wv.gov/othub/policy-governance/ot-policies​
+​ uestions​ ​and​ ​change​ ​recommendations​​related​​to​​this​​publication​​shall​​be​​directed​​to​
+Q
+​this​ ​publication's​ ​Office​ ​of​ ​Primary​​Responsibility​​(OPR).​ ​This​​policy​​shall​​be​​reviewed​
+ ​annually​ ​to​ ​ensure​ ​continued​ ​alignment​ ​with​ ​current​ ​legal,​ ​operational,​ ​and​ ​strategic​
+  ​requirements. Revisions will be undertaken as necessary.​
+
+​SUMMARY OF VERSIONS AND CHANGES​
+ ​Version​          ​Date​            ​Revision Description​
+
+ ​1​                ​01/30/2015​      ​ dded​ ​Log​ ​History,​ ​Policy-Specific​ ​Definitions,​ ​Related​
+                                      A
+                                      ​Materials/Documents​
+
+ ​2​                ​09/01/2016​      ​Reviewed - No Changes​
+
+ ​3​                ​10/20/2017​      ​Reviewed - No Changes​
+
+ ​4​                ​12/28/2023​      ​Updated website information​
+
+ ​5​                ​03/18/2026​      ​Reformated and updated some basic verbage​
+
+ ​1.​   ​PURPOSE​
+
+        ​1.1.​     ​ his policy establishes requirements to govern the use of contracts and​
+                   T
+                   ​contractors in an Information Technology (IT) environment. The use of​
+                    ​contractors in State agencies involves certain risks in an IT environment,​
+                     ​as these agencies may be subject to sanctions if individuals are incorrectly​
+                      ​classified and are given inappropriate access to State systems. When a​
+                       ​contract worker separates from employment with the State, it is important​
+                        ​to ensure an orderly decommissioning of access, to maintain the​
+                         ​protection of the State’s assets.​
+
+        ​1.2.​     ​The State of West Virginia utilizes three types of contracts for services:​
+
+                 ​1.2.1.​    ​Individual Contracts​
+
+                 ​1.2.2.​    ​Temporary Services Contracts​
+
+                 ​1.2.3.​    ​State-Use Contracts​
+
+                                                ​Page​​1​​of 10​
+
+                                ​Contract Management Policy​
+​WVOT-PO1012                                Issue Date: 05/28/2010                           Revised: 03/18/2026​
+
+ ​2.​   ​SCOPE​
+
+        ​2.1.​     ​ his​​policy​​will​​provide​​the​​West​​Virginia​​Office​​of​​Technology​​(WVOT)​​with​
+                   T
+                   ​a​ ​standard​ ​methodology​ ​to​ ​help​ ​manage​ ​the​ ​activities​ ​surrounding​ ​the​
+                    ​engagement​ ​and​ ​termination​ ​of​ ​contractor​ ​services​ ​in​​the​​IT​​environment​
+                     ​for the State.​
+
+        ​2.2.​     ​ here​​there​​are​​policies​​in​​place​​which​​provide​​less​​restrictions​​or​​security​
+                   W
+                   ​than​ ​this​ ​policy,​ ​those​ ​policies​ ​will​ ​be​ ​superseded​ ​by​ ​this​ ​policy.​ ​In​
+                    ​instances​ ​where​ ​existing​ ​state​ ​and​ ​federal​ ​laws,​​regulations,​​and​​policies​
+                     ​are more restrictive than this policy, more restrictive provisions will prevail.​
+
+ ​3.​   ​POLICY​
+
+        ​3.1.​     ​ he​ ​WVOT​ ​will​ ​require​ ​the​ ​contractor’s​ ​State​ ​manager​ ​to​ ​read​ ​and​
+                   T
+                   ​acknowledge this policy annually.​
+
+        ​3.2.​     ​ he​ ​WVOT​ ​will​ ​require​ ​that​ ​all​ ​vendors​ ​accept​ ​the​ ​terms​ ​of​ ​this​ ​policy​
+                   T
+                   ​when contracts are renewed.​
+
+        ​3.3.​     ​ ontractors​ ​must​ ​not​ ​attach​ ​or​​use​​devices​​on​​the​​State​​network​​that​​are​
+                   C
+                   ​not owned by the State or authorized by the WVOT.​
+
+        ​3.4.​     ​ ll​ ​contractors​ ​providing​ ​IT​ ​services​ ​to​ ​the​ ​State​ ​must​ ​receive​ ​an​
+                   A
+                   ​appropriate​ ​criminal​​background​​check​​consistent​​with​​legislative​​rule​​and​
+                    ​West​ ​Virginia​ ​Division​ ​of​ ​Personnel​ ​policy​ ​(see​ ​policy​ ​WVOT-PO1001​ ​–​
+                     ​“Information​ ​Security”).​ ​Decisions​ ​to​ ​waive​ ​background​ ​checks​ ​must​ ​be​
+                      ​acknowledged in writing by the contractor’s State manager.​
+
+                 ​3.4.1.​   ​ ontractor​ ​providers​ ​will​ ​be​ ​responsible​ ​for​ ​the​ ​cost​ ​of​ ​any​
+                            C
+                            ​background​ ​checks​ ​associated​ ​with​ ​individuals​ ​provided​ ​to​ ​the​
+                             ​State under contract.​
+
+                 ​3.4.2.​   ​All findings must be reported to the contractor’s State manager.​
+
+        ​3.5.​     ​ ll​ ​contractors​ ​providing​ ​IT​ ​services​ ​to​ ​the​ ​State​ ​must​ ​meet​ ​all​ ​State​
+                   A
+                   ​criteria​ ​in​ ​order​ ​to​ ​begin​ ​work.​ ​This​ ​includes,​ ​but​ ​may​ ​not​ ​be​ ​limited​ ​to,​
+                    ​proof​ ​of​ ​U.S.​ ​residency​ ​status​ ​(i.e.​ ​I-9​ ​Form),​ ​required​ ​work​ ​permits​ ​for​
+                     ​non-residents,​​required​​certifications,​​WVOT-approved​​information​​security​
+                      ​training, privacy training, etc.​
+
+        ​3.6.​     ​ ll​ ​contractors​ ​must​ ​sign​ ​a​ ​confidentiality​ ​agreement​ ​upon​ ​hire​ ​and​
+                   A
+                   ​annually​ ​thereafter,​ ​if​ ​necessary,​ ​confirming​ ​that​ ​the​ ​contractor​ ​has​ ​read,​
+                    ​fully​ ​comprehends,​ ​and​ ​will​ ​abide​ ​by​ ​state​ ​policies​ ​and​ ​procedures​
+                     ​regarding privacy and information security.​
+
+                                                    ​Page​​2​​of 10​
+
+                           ​Contract Management Policy​
+​WVOT-PO1012                          Issue Date: 05/28/2010                           Revised: 03/18/2026​
+
+     ​3.7.​   ​ ll​ ​contracts​ ​will​ ​speak​ ​to​ ​the​ ​reimbursement​ ​of​ ​contractor​ ​expenses​
+              A
+              ​related​ ​to​ ​travel,​ ​and​ ​specify​ ​whether​ ​expenses​ ​are​ ​to​ ​be​ ​reimbursed​
+               ​separately or as part of the hourly rate.​
+
+     ​3.8.​   ​ nless​ ​otherwise​ ​specified,​ ​contractors​ ​will​ ​follow​ ​State​ ​regulations​ ​for​
+              U
+              ​lodging, mileage, and meals during travel.​
+
+     ​3.9.​   ​ very​​30​​days​​the​​contractor​​provider​​will​​confirm,​​in​​writing,​​to​​the​​WVOT​
+              E
+              ​Account​ ​Management​ ​Group​ ​that​ ​the​ ​contractor​ ​is​ ​still​ ​employed​ ​and​
+               ​actively​ ​engaged​ ​under​ ​the​ ​specified​ ​purchase​ ​order,​ ​by​ ​submitting​ ​a​
+                ​confirmation form provided as “Attachment B” to this document.​
+
+    ​3.10.​   ​ ontractors​ ​will​ ​not​ ​be​ ​permitted​ ​to​ ​access​ ​or​ ​develop​ ​in​ ​production​
+              C
+              ​environments​​or​​move​​production​​data​​unless​​authorized,​​in​​writing,​​by​​the​
+               ​contractor’s State manager or designee.​
+
+    ​3.11.​   ​ ll​ ​contractors​ ​will​ ​be​ ​expected​ ​to​ ​use​ ​the​ ​State’s​ ​centralized​ ​email​
+              A
+              ​system.​ ​Use​ ​of​ ​personal​ ​email​ ​to​ ​conduct​ ​State​ ​business​ ​is​ ​strictly​
+               ​prohibited. Any exception must be approved in writing by the WVOT.​
+
+    ​3.12.​   ​ ontractors​ ​should​ ​have​ ​no​ ​expectation​ ​of​ ​privacy​ ​while​ ​using​
+              C
+              ​State-provided​​information​​resources.​​WVOT​​reserves​​the​​right​​to​​perform​
+               ​audits​ ​on​ ​an​ ​ad​ ​hoc​ ​basis​ ​and​ ​to​ ​review​ ​and​ ​copy​ ​all​ ​email,​ ​files,​ ​and​
+                ​programs,​​including​​those​​which​​may​​be​​of​​personal​​or​​private​​nature​​(see​
+                 ​policy WVOT-PO1008 – “Information Security Auditing Program”).​
+
+    ​3.13.​   ​ ll​ ​contractors​ ​must​ ​adhere​ ​to​ ​rules​ ​regarding​ ​unacceptable​ ​uses​ ​of​ ​IT​
+              A
+              ​resources (see policy WVOT-PO1001 – “Information Security”).​
+
+    ​3.14.​   ​ ontractors​ ​must​ ​immediately​ ​notify​ ​the​ ​WVOT​ ​Cyber​ ​Security​ ​Office​
+              C
+              ​(CSO)​​at​​incident@wv.gov​​if​​a​​security​​breach​​is​​discovered​​which​​has,​​or​
+               ​may have, resulted in compromise to data or WVOT assets.​
+
+    ​3.15.​   ​ he​ ​contractor’s​ ​State​ ​manager​ ​is​ ​required​ ​to​ ​complete​ ​a​ ​standard​
+              T
+              ​Contractor​ ​Information​ ​Form​ ​(see​ ​“Attachment​ ​A”).​ ​This​ ​form​ ​will​ ​be​
+               ​retained at the contracting agency.​
+
+    ​3.16.​   ​When a contractor is terminated, the following steps must be taken:​
+
+          ​3.16.1.​    ​ he​ ​contractor’s​ ​State​ ​manager​ ​must​ ​notify​ ​the​ ​WVOT​ ​Service​
+                       T
+                       ​Desk​ ​to​ ​request​ ​that​ ​all​ ​access​ ​to​ ​State​ ​resources​ ​be​ ​disabled​
+                        ​immediately​ ​(see​ ​procedure​ ​WVOT-PR1010​ ​–​ ​“Account​
+                         ​Management”).​
+
+                                               ​Page​​3​​of 10​
+
+                           ​Contract Management Policy​
+​WVOT-PO1012                           Issue Date: 05/28/2010                           Revised: 03/18/2026​
+
+          ​3.16.2.​    ​ he​ ​contractor’s​ ​State​ ​manager​ ​must​ ​complete​ ​a​ ​“Separation​
+                       T
+                       ​Checklist”​ ​to​ ​ensure​ ​that​ ​all​ ​items​ ​issued​ ​at​ ​the​ ​beginning​ ​of​ ​the​
+                        ​engagement,​​such​​as​​access​​cards,​​equipment,​​critical​​documents,​
+                         ​and​ ​other​ ​pertinent​ ​items,​ ​have​ ​been​ ​returned​ ​to​ ​the​ ​WVOT,​ ​by​
+                          ​matching with the “Equipment Issued” form.​
+
+    ​3.17.​   ​ITECH Contracts​
+
+          ​3.17.1.​    ​ gencies​ ​will​ ​complete​ ​a​ ​Statement​ ​of​​Work​​(SOW)​​explaining​​the​
+                       A
+                       ​basic​ ​education,​ ​certification,​ ​training,​ ​and​ ​skill​ ​sets​ ​required.​ ​This​
+                        ​will​ ​be​ ​posted​ ​to​ ​the​ ​WVOT​ ​Bulletin​ ​Board​ ​for​​five​​to​​ten​​business​
+                         ​days.​ ​Project-based​ ​requests​ ​are​ ​good​ ​for​ ​up​ ​to​ ​24​ ​months​ ​and​​a​
+                          ​maximum​​of​​$2,000,000.​​Contractors​​must​​notify​​the​​agency​​if​​they​
+                           ​have previously worked for other State agencies.​
+
+          ​3.17.2.​    ​ gencies​ ​requiring​ ​Chief​ ​Information​ ​Officer​ ​(CIO)​ ​approval​ ​for​
+                       A
+                       ​procurement​ ​must​ ​contact​ ​the​ ​WVOT​ ​Contract​ ​Manager​ ​before​
+                        ​proceeding with any IT contractor request.​
+
+          ​3.17.3.​    I​f​ ​a​ ​contractor​ ​is​ ​hired​ ​outside​ ​of​ ​the​ ​prevailing​ ​ITECH​ ​contract,​
+                        ​specific​​provisions​​in​​addition​​to​​this​​policy​​must​​be​​followed.​​These​
+                         ​provisions​​can​​be​​obtained​​from​​the​​Scope​​of​​Work​​section​​of​​RFP​
+                          ​or RFQ documents.​
+
+    ​3.18.​   ​ ll​ ​contractors​ ​will​ ​demonstrate​ ​that​ ​they​ ​have​ ​received​ ​training​ ​in​
+              A
+              ​information​ ​security​ ​practices​ ​relevant​ ​to​ ​State​ ​policies​ ​and​ ​procedures,​
+               ​correct​ ​use​ ​of​ ​information​ ​resources,​ ​and​ ​other​ ​administrative​ ​controls.​
+                ​The​ ​contractor’s​ ​State​ ​manager​ ​will​ ​maintain​ ​documentation​ ​of​ ​this​
+                 ​training, which must not be completed on State time or at State expense.​
+
+    ​3.19.​   ​ VOT​ ​information​ ​resources​ ​are​ ​designated​ ​for​ ​authorized​ ​purposes.​
+              W
+              ​Only​ ​minimal​ ​personal​​use​​of​​State-provided​​IT​​resources​​is​​allowed,​​and​
+               ​should not interfere with the legitimate business of the State.​
+
+    ​3.20.​   ​ he​ ​State​ ​reserves​ ​the​ ​right​ ​to​ ​filter​ ​Internet​ ​site​ ​availability,​ ​and​ ​monitor​
+              T
+              ​and​ ​review​ ​use​ ​as​ ​required​ ​for​​legal,​​audit,​​or​​legitimate​​authorized​​State​
+               ​operational​ ​or​ ​management​ ​purposes​ ​(see​ ​policy​ ​WVOT-PO1001​ ​–​
+                ​“Information Security”).​
+
+    ​3.21.​   ​ ll​ ​access​ ​to​​computing​​resources​​will​​be​​granted​​on​​a​​need-to-use​​basis​
+              A
+              ​following the principle of least privilege.​
+
+    ​3.22.​   ​ ccess​ ​badges​ ​will​ ​be​ ​provided​ ​to​ ​contractors​ ​at​ ​the​ ​discretion​ ​of​ ​the​
+              A
+              ​contractor’s​ ​State​ ​manager.​ ​Badges​ ​must​ ​be​ ​visibly​ ​displayed​ ​and​
+               ​color-coded to indicate contractor status.​
+
+                                               ​Page​​4​​of 10​
+
+                              ​Contract Management Policy​
+​WVOT-PO1012                             Issue Date: 05/28/2010                        Revised: 03/18/2026​
+
+              ​3.22.1.​   ​ veryone​​is​​required​​to​​have​​a​​state​​and​​federal​​background​​check​
+                          E
+                          ​before being issued an access badge.​
+
+        ​3.23.​   ​ he​ ​performance​ ​standards​ ​for​ ​the​ ​contractor​ ​must​ ​be​ ​articulated​ ​in​ ​the​
+                  T
+                  ​contract​​and​​the​​contractor​​should​​demonstrate​​a​​complete​​understanding​
+                   ​of​ ​the​ ​requirements.​ ​A​ ​process​ ​must​ ​be​ ​established​ ​to​ ​validate​ ​each​ ​of​
+                    ​these standards.​
+
+        ​3.24.​   ​ he​​contractor’s​​State​​manager​​should​​hold​​regularly​​scheduled​​meetings​
+                  T
+                  ​with​​the​​contractor​​in​​order​​to​​effectively​​measure​​whether​​the​​contractual​
+                   ​objectives​​are​​being​​met.​​Periodic​​reviews​​should​​be​​completed​​to​​ensure​
+                    ​contractor​​adherence​​to​​standards​​and​​compliance​​with​​project​​processes​
+                     ​and schedules.​
+
+        ​3.25.​   ​ vidence​ ​of​ ​skill​ ​or​ ​performance​ ​deficiencies​ ​should​ ​be​ ​documented​​and​
+                  E
+                  ​communicated​ ​to​ ​the​ ​contractor​ ​provider,​ ​and​ ​steps​ ​should​ ​be​ ​taken​ ​to​
+                   ​resolve or terminate the contract.​
+
+ ​4.​     ​POLICY SPECIFIC DEFINITIONS​
+
+         ​4.1.​   ​ hief​​Information​​Officer​​(CIO)​​-​​the​​person​​designated​​by​​the​​governor​​to​
+                  C
+                  ​lead​ ​the​ ​WV​ ​Office​ ​of​ ​Technology​ ​and​ ​oversee​ ​information​ ​technology​
+                   ​practices​ ​and​​initiatives​​for​​the​​Executive​​Brand​​of​​WV​​State​​government,​
+                    ​excluding the constitutional officers.​
+
+         ​4.2.​   ​ hief​ ​Information​ ​Security​​Officer​​(CISO)​​-​​Person​​designated​​by​​the​​CIO​
+                  C
+                  ​to​ ​oversee​ ​information​ ​security​ ​practices​ ​and​ ​initiatives​ ​for​ ​the​ ​Executive​
+                   ​Branch of WV State government, excluding the constitutional officers.​
+
+         ​4.3.​   ​Contractor – Anyone having a contract with the State or one of its entities.​
+
+         ​4.4.​   I​ndividual​ ​Contracts​ ​–​ ​Contracts​ ​with​ ​individuals​ ​for​ ​the​ ​purpose​ ​of​
+                   ​providing a specific product or service to the State.​
+
+         ​4.5.​   I​nformation​ ​Technology​ ​(IT)​ ​–​ ​The​ ​technology​ ​involved​ ​with​ ​the​
+                   ​transmission​ ​and​ ​storage​ ​of​ ​information.​ ​This​ ​includes​ ​the​ ​development,​
+                    ​installation,​ ​implementation,​ ​and​ ​management​ ​of​ ​computer​ ​systems​ ​and​
+                     ​applications.​
+
+         ​4.6.​   I​TECH​ ​Contractors​ ​–​ ​A​ ​list​ ​of​ ​pre-approved​ ​vendors​ ​used​ ​by​ ​the​ ​State,​
+                   ​who​ ​compete​ ​for​ ​individual​ ​staffing​ ​needs​ ​based​ ​upon​ ​criteria​ ​developed​
+                    ​by the agency and the WVOT.​
+
+         ​4.7.​   ​ ffice​​of​​Primary​​Responsibility​​(OPR)​​-​​The​​primary​​section​​within​​WVOT​
+                  O
+                  ​that​ ​takes​ ​the​ ​lead​ ​on​ ​a​ ​specific​ ​policy​ ​or​​procedure.​ ​Usually​​the​​WVOT​
+                   ​service provider/owner that the policy is related to or governs.​
+
+                                                 ​Page​​5​​of 10​
+
+                                ​Contract Management Policy​
+​WVOT-PO1012                                Issue Date: 05/28/2010                         Revised: 03/18/2026​
+
+         ​4.8.​     ​ emporary​ ​Services​ ​Contracts​ ​–​ ​Contracts​ ​with​ ​temporary​ ​service​
+                    T
+                    ​agencies, which offer clerical or secretarial assistance.​
+
+         ​4.9.​     ​ tate-Use​ ​Contracts​ ​–​ ​Contracts​ ​with​ ​specific​ ​outside​ ​companies​ ​to​
+                    S
+                    ​provide custodial services to State agencies.​
+
+        ​4.10.​     ​ est​ ​Virginia​ ​Office​ ​of​ ​Technology​ ​(WVOT)​ ​-​ ​The​ ​division​ ​of​ ​the​
+                    W
+                    ​Department​​of​​Administration​​established​​by​​WV​​Code​​§​​5A-6-4a,​​et.​​seq.,​
+                     ​which​ ​is​ ​led​ ​by​ ​the​ ​State’s​ ​CIO​ ​and​ ​designated​ ​to​ ​acquire,​ ​operate,​ ​and​
+                      ​maintain​ ​the​ ​State’s​ ​technology​ ​infrastructure.​ ​The​ ​WVOT​ ​is​ ​responsible​
+                       ​for​ ​evaluating​ ​equipment​ ​and​ ​services,​ ​and​ ​reviewing​ ​information​
+                        ​technology contracts.​
+
+ ​5.​     ​RELEVANT MATERIALS AND DOCUMENTS​
+
+         ​5.1.​     ​This policy is consistent with the following federal and state authorities:​
+
+                  ​5.1.1.​   ​45 Code of Federal Regulations (CFR) §§ 164.308-316​
+
+                  ​5.1.2.​   ​Freedom of Information Act​
+
+                  ​5.1.3.​   ​Gramm-Leach Bliley Act (GLBA)​
+
+                  ​5.1.4.​   ​Health Insurance Portability and Accountability Privacy Rule​
+
+                  ​5.1.5.​   ​NIST SP 800-14 and NIST SP 800-53​
+
+                  ​5.1.6.​   ​State Health Privacy Laws​
+
+                  ​5.1.7.​   ​WV Code § 5A-6-4a​
+
+                  ​5.1.8.​   ​WV Executive Order No. 7-03​
+
+                  ​5.1.9.​   ​ VOT​ ​Policies​ ​Issued​ ​by​ ​the​ ​Chief​ ​Information​ ​Officer​ ​(CIO),​
+                             W
+                             ​https://sites.google.com/wv.gov/othub/policy-governance/ot-policies​
+
+              ​5.1.10.​      ​Attachment A: Contract Information Form​
+
+              ​5.1.11.​      ​Attachment B: Contract Employment Confirmation Form​
+
+                                                    ​Page​​6​​of 10​
+
+                        ​Contract Management Policy​
+​WVOT-PO1012                     Issue Date: 05/28/2010               Revised: 03/18/2026​
+
+        ​ATTACHMENT A: Contract Information Form (Page 1 of 3)​
+
+​This form is to be used for all contracted individuals providing services within WVOT​
+
+​facilities, and must be completed and submitted as indicated PRIOR to the contract​
+
+​worker reporting to work. All fields must be completed.​
+
+​State Agency Information:​
+
+​Agency/Bureau/Division __________________________________________________​
+
+​Hiring Supervisor ________________________________________________________​
+
+​Email ____________________________________ Phone _______________________​
+
+​Contracting Company Information:​
+
+​Contract Company Name__________________________________________________​
+
+​Contract Company Representative __________________________________________​
+
+​Email ____________________________________ Phone _______________________​
+
+​Contractor Information:​
+
+​Contractor Name ________________________________________________________​
+
+​Hourly Rate ____________________________________________________________​
+
+​Email ____________________________________ Phone _______________________​
+
+​Has a criminal background check been performed on this Contractor? Yes No​​(circle one​​)​
+       ​(Note: All results must be provided to the contractor’s State manager.)​
+
+​Projected Start Date __________________ Projected End Date ___________________​
+
+                                       ​Page​​7​​of 10​
+
+                       ​Contract Management Policy​
+​WVOT-PO1012                    Issue Date: 05/28/2010                Revised: 03/18/2026​
+
+        ​ATTACHMENT A: Contract Information Form (Page 2 of 3)​
+
+​Area of Assignment (State Facility or Remote Location) __________________________​
+
+​Work Schedule:​
+
+                           ​Sunday Hours:_____________________________​
+                           ​Monday Hours:_____________________________​
+                           ​Tuesday Hours:_____________________________​
+                           ​Wednesday Hours:__________________________​
+                           ​Thursday Hours:____________________________​
+                           ​Friday Hours:_______________________________​
+                           ​Saturday Hours:_____________________________​
+
+​WVOT Supervisor/Manager________________________________________________​
+
+​Job Title _______________________________________________________________​
+
+​Has the contractor been employed by the State or agency in the past? Yes No​​(circle one)​
+
+​Previous employment start date ___________________End date__________________​
+
+​Hourly rate associated with previous employment ________________________​
+
+​Will contractor connect to the WVOT network with State-issued equipment? Yes No​
+
+​Items needed by contractor:​
+
+      ​ omputer Access​
+      C
+      ​VPN Access​
+       ​Software (List) ____________________________________________________​
+
+      ​_________________________________________________________________​
+
+      ​_________________________________________________________________​
+
+      ​Portable Devices (List) ______________________________________________​
+
+      ​_________________________________________________________________​
+
+      ​Building and Garage Access Card(s)​
+
+                                       ​Page​​8​​of 10​
+
+                           ​Contract Management Policy​
+​WVOT-PO1012                          Issue Date: 05/28/2010                     Revised: 03/18/2026​
+
+             ​ATTACHMENT A: Contract Information Form (Page 3 of 3)​
+
+​Items completed and/or furnished by contractor:​
+
+        ​Proof of Criminal Background Check​
+        ​Proof of Residency Status and/or Work Permit​
+        ​Signed Confidentiality Statement​
+        ​Signed Policy Statement​
+        ​Other (List)________________________________________________________​
+
+        ​_________________________________________________________________​
+
+        ​_________________________________________________________________​
+
+​Other Contract Information:​
+
+​Funding Source _________________________________________________________​
+
+​Contract Cap Amount: Hours: _________________ Dollar Amount: ________________​
+
+​Reason for Request (Project function this person will fill) _________________________​
+
+​______________________________________________________________________​
+
+​Approvals:​
+
+​ his​​form​​must​​be​​signed​​by​​all​​of​​the​​following​​individuals​​prior​​to​​contractor​​beginning​
+T
+​work​
+
+​Agency Director ______________________________________ Date ______________​
+
+​Agency Secretary ___________________________________ Date _______________​
+
+​Contractor Manager __________________________________ Date _______________​
+
+​Chief Technology Officer ______________________________ Date _______________​
+
+                                             ​Page​​9​​of 10​
+
+                            ​Contract Management Policy​
+​WVOT-PO1012                          Issue Date: 05/28/2010                      Revised: 03/18/2026​
+
+​ATTACHMENT B: Contract Employment Information Form (Page 1 of 1)​
+
+​ his form is to be used for all contracted individuals providing IT services within the​
+T
+​Executive Branch, and must be completed by the Contractor Provider and submitted​
+ ​every thirty (30) days to the WVOT.​​All fields must​​be completed.​
+
+​Date _____________________________​
+
+​Name of Contractor ______________________________________________________​
+
+​Name of Contractor Manager​​(state employee)​ ​__________________________________​
+
+​Agency/Bureau/Division __________________________________________________​
+
+​State Contractor Manager Email ____________________________________________​
+
+​State Contractor Manager Phone ___________________________________________​
+
+​P.O. # of Contract _______________________________________________________​
+
+​Date of Last Confirmation _________________________________________________​
+
+​Expiration Date of Contract ________________________________________________​
+
+​ y​ ​signing​ ​this​ ​form,​ ​I​ ​acknowledge​ ​that​ ​the​ ​abovementioned​ ​individual​ ​is​ ​currently​
+B
+​employed with the State of West Virginia.​
+
+​ _____________________________________________________________________​
+_
+​Contractor Provider Name (Print)​
+
+​ _____________________________________________________________________​
+_
+​Contractor Provider Name (Signature) Date​
+
+                                             ​Page​​10​​of 10​
+
+## Curator notes
+
+Text extracted with pdftotext -layout (page headers, footers and column layout kept as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their letters). Google Drive's PDF puts a zero-width space (U+200B) around runs of text; they are kept as extracted. source_version is the revision or issue date the policy prints, as printed.

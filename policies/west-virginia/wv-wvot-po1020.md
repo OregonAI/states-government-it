@@ -1,0 +1,484 @@
+---
+schema_version: 1
+corpus: states-government-it
+jurisdiction: west-virginia
+id: wv-wvot-po1020
+title: Data Center Security
+doc_type: policy
+citation: WVOT-PO1020
+authority_level: ''
+issuing_body: West Virginia Office of Technology (Chief Information Officer)
+source_url: https://drive.google.com/uc?export=download&id=1EV-P32fmIKEKP6YnBAOrip6fHQnRmq3K
+source_format: pdf
+retrieved: '2026-11-12'
+source_sha256: 74b2dbca78ee1726aa4899c01bb15b27a4dbbcf6fe242de4b4d98eb1414449b2
+effective_date: null
+source_version: Revised 03/23/26
+status: current
+content_mode: verbatim
+conversion_notes: Text extracted with pdftotext -layout (page headers, footers and column layout kept
+  as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their
+  letters). Google Drive's PDF puts a zero-width space (U+200B) around runs of text; they are kept as
+  extracted. source_version is the revision or issue date the policy prints, as printed.
+last_verified: ''
+verified_by: ''
+maintainer: ''
+relationships:
+  implements: []
+  implemented_by: []
+  references_external: []
+  related: []
+  supersedes: []
+tags:
+- cybersecurity
+- cloud-resilience
+---
+
+> **NON-AUTHORITATIVE.** This is a convenience copy for machine reading. The official text is published at the source URL above. Verify at source before relying on it.
+
+# Data Center Security (WVOT-PO1020)
+
+## At a glance
+
+Security of the Office of Technology's data centers: authorization levels, controls and vetting so personnel and vendors are authenticated and escorted (the file is titled 'Data Center Security Policy').
+
+## Full text
+
+I​ssued by the​                                                               ​Data Center Security Policy​
+ ​Chief Information Officer​                                                               ​WVOT-PO1020​
+
+                                                                                                   ​ 3/01/2015​
+                                                                                                   0
+                                                                                             ​Revised 03/23/26​
+                                                                                 ​OPR: WVOT Cybersecurity​
+                    ​COMPLIANCE WITH THIS PUBLICATION IS MANDATORY​
+                                   ​Publications are available online at​
+                 ​https://sites.google.com/wv.gov/othub/policy-governance/ot-policies​
+    ​ uestions​​and​​change​​recommendations​​related​​to​​this​​publication​​shall​​be​​directed​​to​
+    Q
+​this​ ​publication's​ ​Office​ ​of​ ​Primary​​Responsibility​​(OPR).​ ​This​​policy​​shall​​be​​reviewed​
+ ​annually​ ​to​ ​ensure​ ​continued​ ​alignment​ ​with​ ​current​ ​legal,​ ​operational,​ ​and​ ​strategic​
+  ​requirements. Revisions will be undertaken as necessary.​
+
+​SUMMARY OF VERSIONS AND CHANGES​
+ ​Date​               ​Revision Description​
+
+ ​03/23/2026​         ​ eformatted​ ​and​ ​added​ ​Change​ ​Summary,​ ​Definitions,​ ​and​ ​Relevant​
+                      R
+                      ​Materials and Documents​
+
+ ​1.​     ​PURPOSE​
+
+        ​1.1.​     ​ his policy outlines objectives and responsibilities to ensure the security of​
+                   T
+                   ​the West Virginia Office of Technology (WVOT) Data Center(s) by​
+                    ​establishing authorization levels, controls, and vetting processes to ensure​
+                     ​all personnel and vendors are properly authenticated and escorted.​
+
+ ​2.​     ​SCOPE​
+
+        ​2.1.​     ​ his​ ​policy​ ​applies​ ​to​ ​all​ ​departments​ ​(including​ ​agencies,​ ​boards,​
+                   T
+                   ​authorities,​ ​and​ ​commissions)​ ​within​ ​the​ ​Executive​ ​Branch​ ​of​ ​WV​ ​State​
+                    ​Government,​​excluding​​constitutional​​officers,​​the​​WV​​Board​​of​​Education,​
+                     ​the​​WV​​Department​​of​​Education,​​and​​the​​county​​boards​​of​​education​​that​
+                      ​have​ ​access​ ​to​​or​​use​​State-provided​​resources.​ ​This​​policy​​also​​applies​
+                       ​to​ ​all​ ​State​ ​departments,​ ​vendors,​ ​contractors,​ ​and​ ​service​ ​providers​
+                        ​requiring access to WVOT-run data centers.​
+
+        ​2.2.​     ​ here​​there​​are​​policies​​in​​place​​which​​provide​​less​​restrictions​​or​​security​
+                   W
+                   ​than​ ​this​ ​policy,​ ​those​ ​policies​ ​will​ ​be​ ​superseded​ ​by​ ​this​ ​policy.​ ​In​
+                    ​instances​ ​where​ ​existing​ ​state​ ​and​ ​federal​ ​laws,​​regulations,​​and​​policies​
+                     ​are​ ​more​ ​restrictive​ ​than​ ​this​ ​policy,​ ​the​ ​more​ ​restrictive​ ​provisions​ ​will​
+                      ​prevail.​
+
+                                                    ​Page​​1​​of 6​
+
+                                    ​Data Center Security Policy​
+​WVOT-PO1020                              Issue Date: 03/01/2015                         Revised: 03/23/2026​
+
+ ​3.​   ​POLICY​
+        ​3.1.​     ​Physical Access​
+                 ​3.1.1.​   ​ ccess​ ​cards​ ​are​ ​issued​ ​only​ ​to​ ​individuals​ ​whose​ ​job​ ​functions​
+                            A
+                            ​require​ ​physical​ ​entry.​ ​All​ ​requests​ ​require​ ​a​ ​Data​ ​Center​ ​Access​
+                             ​Request​ ​Form​ ​approved​ ​by​ ​an​ ​agency​ ​authority​ ​and​ ​the​ ​OT​ ​Data​
+                              ​Center Manager. Types of access:​
+
+                       ​3.1.1.1.​     ​ nescorted:​ ​State​ ​employees​ ​whose​ ​work​ ​functions​
+                                      U
+                                     ​necessitate regular admittance.​
+
+                       ​3.1.1.2.​     ​ ontrolled​ ​Escorted:​ ​Individuals​ ​requiring​​occasional​​access​
+                                      C
+                                      ​must​ ​be​ ​escorted​ ​at​ ​all​ ​times​ ​by​ ​an​ ​authorized​ ​state​
+                                     ​employee.​
+
+                       ​3.1.1.3.​     I​ncident​ ​Qualified:​​Emergency​​personnel​​(police,​​fire)​​issued​
+                                     ​temporary access for the duration of an incident.​
+
+                       ​3.1.1.4.​     ​ hree-Barrier​ ​Rule:​ ​Critical​ ​assets​ ​must​ ​be​ ​protected​ ​by​ ​at​
+                                      T
+                                      ​least​​three​​physical​​barriers​​(e.g.,​​Building​​Access,​​DC​​Door,​
+                                     ​Locked Cabinet).​
+
+        ​3.2.​      ​ endor & Visitor Access Procedures​
+                    V
+                 ​3.2.1.​ ​Vendor​ ​and​ ​Visitor​ ​access​ ​is​ ​subject​ ​to​ ​mandatory​ ​vetting,​​identity​
+                           ​authentication,​ ​and​ ​continuous​ ​authorized​ ​escorting.​ ​All​ ​vendors​
+                            ​and​​visitors​​must​​operate​​in​​accordance​​with​​West​​Virginia​​Office​​of​
+                             ​Technology​ ​policies​ ​and​ ​remain​ ​compliant​ ​with​ ​all​ ​governing​ ​local,​
+                              ​state, and federal laws.​
+
+                 ​3.2.2.​   ​Scheduling and Vetting Visits​
+
+                       ​3.2.2.1.​    ​Coordination:​ ​All​ ​visits​ ​must​ ​be​ ​coordinated​ ​through​ ​the​
+                                     ​ ponsor Agency or OT Service Owner.​
+                                     S
+
+                       ​3.2.2.2.​     ​ equired​ ​Information:​ ​The​ ​sponsor​ ​must​ ​provide​ ​the​
+                                      R
+                                      ​vendor’s​​staff​​name(s),​​company,​​estimated​​arrival​​time,​​and​
+                                     ​a detailed reason for visiting the Data Center in advance.​
+
+                       ​3.2.2.3.​     ​ eferral​​Process:​​If​​a​​vendor​​contacts​​the​​Data​​Center​​Team​
+                                      R
+                                      ​directly,​​staff​​will​​refer​​them​​to​​their​​appropriate​​sponsor​​(e.g.,​
+                                     ​referring a telecom vendor to the OT networking team).​
+
+                       ​3.2.2.4.​     ​ mergent​​Access:​​In​​urgent​​cases​​to​​prevent​​outages,​​long​
+                                      E
+                                      ​lead​ ​times​ ​are​ ​not​ ​required,​ ​but​ ​vendors​ ​and​ ​visitors​ ​must​
+                                     ​still be vetted and authenticated prior to entry.​
+
+                                                    ​Page​​2​​of 8​
+
+                                 ​Data Center Security Policy​
+​WVOT-PO1020                            Issue Date: 03/01/2015                       Revised: 03/23/2026​
+
+              ​3.2.3.​   ​Arrival and Check-In​
+
+                    ​3.2.3.1.​     I​dentification:​ ​Visitors​ ​must​​present​​a​​valid​​State​​ID,​​Driver’s​
+                                    ​License,​ ​Military​ ​ID,​ ​or​ ​Federal​ ​Employer​ ​ID.​ ​Vendors​ ​must​
+                                  ​also present valid company-issued identification.​
+
+                    ​3.2.3.2.​    ​Validation:​ ​Credentials​ ​must​ ​be​ ​validated​ ​to​ ​ensure​ ​they​
+                                  ​ atch the scheduled party.​
+                                  m
+
+                    ​3.2.3.3.​     ​ isitor​ ​Log:​ ​All​​visitors​​and​​vendors​​must​​sign​​in​​to​​the​​Data​
+                                   V
+                                  ​Center visitor log upon entry and sign out upon exit.​
+
+                         ​3.2.3.3.1.​     ​All visitor logs are to be maintained for 5 years.​
+
+                    ​3.2.3.4.​    ​Escort Requirements​
+
+                         ​3.2.3.4.1.​      ​ uthorized​ ​Escorts:​ ​Vendors​ ​must​ ​be​ ​escorted​ ​at​ ​all​
+                                           A
+                                           ​times​ ​by​ ​an​ ​authorized​ ​Sponsor​ ​Agency​ ​or​ ​OT​
+                                          ​personnel (the "Escorting Official").​
+
+                         ​3.2.3.4.2.​      ​ scort​ ​Responsibilities:​ ​The​ ​official​ ​is​ ​responsible​ ​for​
+                                           E
+                                           ​ensuring​ ​vendors​ ​only​ ​access​ ​equipment​ ​authorized​
+                                          ​by the sponsoring agency.​
+
+                         ​3.2.3.4.3.​      ​ rohibitions:​​Unescorted​​access​​for​​vendors​​or​​visitors​
+                                           P
+                                          ​is strictly prohibited.​
+
+              ​3.2.4.​   ​Denial of Access​
+
+                    ​3.2.4.1.​    ​Access will be denied if:​
+
+                         ​3.2.4.1.1.​      ​ he​ ​visit​ ​was​ ​not​​vetted​​through​​a​​sponsor​​or​​service​
+                                           T
+                                          ​owner.​
+
+                         ​3.2.4.1.2.​      ​ he​ ​vendor​ ​does​ ​not​ ​match​ ​the​ ​scheduled​​identity​​or​
+                                           T
+                                          ​cannot present valid company ID.​
+
+                         ​3.2.4.1.3.​     ​The vendor arrives outside of the scheduled date.​
+
+     ​3.3.​     ​Monitoring and Auditing​
+
+              ​3.3.1.​   ​ uthorization​​List:​​The​​Data​​Center​​Manager​​or​​designee​​maintains​
+                         A
+                         ​a master list of all authorized Data Center Cardholders.​
+
+              ​3.3.2.​   ​ eekly​ ​Review:​ ​The​ ​Data​ ​Center​ ​Manager​ ​reviews​ ​all​ ​physical​
+                         W
+                         ​access​ ​attempts​ ​weekly.​ ​Unusual​ ​attempts​ ​are​ ​reported​ ​to​ ​Capitol​
+                          ​Police.​
+
+                                                ​Page​​3​​of 8​
+
+                                 ​Data Center Security Policy​
+​WVOT-PO1020                           Issue Date: 03/01/2015                        Revised: 03/23/2026​
+
+                    ​3.3.2.1.​     ​ ata​ ​Center​ ​corridor​ ​footage​ ​is​ ​monitored​ ​24/7​ ​by​ ​Capitol​
+                                   D
+                                  ​Police and the footage is retained for 28 days.​
+
+              ​3.3.3.​   ​ onthly​ ​Reconciliation:​ ​Cardholder​ ​necessity​ ​is​ ​verified​ ​with​
+                         M
+                         ​sponsors monthly. Rack key inventories are reconciled monthly.​
+
+              ​3.3.4.​   ​ tatus​ ​Changes:​ ​Sponsors​ ​must​ ​notify​ ​the​ ​Data​ ​Center​ ​Manager​
+                         S
+                         ​immediately​ ​(within​ ​24​ ​hours)​ ​upon​ ​an​ ​employee’s​ ​termination​ ​or​
+                          ​transfer to revoke access.​
+
+              ​3.3.5.​   ​ ost​ ​Cards:​ ​Lost​ ​cards​ ​are​ ​deactivated​ ​immediately;​ ​replacement​
+                         L
+                         ​requires a new approved request form.​
+
+     ​3.4.​     ​Operational Standards and Media Handling​
+
+              ​3.4.1.​   ​ edia​ ​Destruction:​ ​Decommissioned​ ​servers​ ​are​ ​de-racked​ ​with​
+                         M
+                         ​drives​ ​intact​ ​for​ ​destruction​ ​by​ ​OT​ ​surplus;​ ​drives​ ​must​ ​never​ ​be​
+                          ​repurposed.​
+
+              ​3.4.2.​   ​ aulty​​Media:​​Bad​​drives​​must​​be​​labeled​​(server,​​owner,​​date)​​and​
+                         F
+                         ​secured until destruction.​
+
+              ​3.4.3.​   ​ andling​​Protocol:​​All​​media​​removed​​from​​the​​data​​center​​must​​be​
+                         H
+                         ​treated as if it contains FTI or SSA data.​
+
+              ​3.4.4.​   ​ raining:​ ​Employees​ ​with​ ​access​ ​to​ ​FTI/SSA​ ​data​ ​must​ ​complete​
+                         T
+                         ​annual compliant data handling training.​
+
+              ​3.4.5.​   ​ abling:​ ​New​ ​cables​ ​must​ ​be​ ​installed​ ​in​ ​overhead​ ​trays​
+                         C
+                         ​(ANSI/TIA-568-C​ ​standards),​ ​labeled​ ​at​ ​both​ ​ends,​ ​and​ ​old​ ​cables​
+                          ​must be discarded.​
+
+                    ​3.4.5.1.​     ​Only​ ​authorized​ ​Data​ ​Center​ ​Staff​ ​may​ ​access​ ​cabling​
+                                  c​ onduits.​
+
+                    ​3.4.5.2.​     ​Agency​ ​authorized​ ​personnel​ ​may​ ​only​ ​access​ ​their​ ​own​
+                                  c​ abling runs.​
+
+     ​3.5.​     ​General Procedures​
+
+              ​3.5.1.​   ​ ll​​servers,​​storage​​devices,​​and​​networking​​equipment​​in​​the​​Data​
+                         A
+                         ​Center​ ​must​ ​be​ ​rack​ ​mountable​ ​or​ ​capable​ ​of​ ​being​ ​stored​ ​in​ ​a​
+                          ​server rack and properly secured within.​
+
+              ​3.5.2.​   ​ erver​ ​cabinets​ ​will​ ​be​ ​closed​ ​and​ ​locked​ ​when​ ​equipment​ ​is​ ​not​
+                         S
+                         ​actively being accessed.​
+
+                                                ​Page​​4​​of 8​
+
+                         ​Data Center Security Policy​
+​WVOT-PO1020                       Issue Date: 03/01/2015                          Revised: 03/23/2026​
+
+         ​3.5.3.​   ​No food or drinks are allowed in the Data Center.​
+
+         ​3.5.4.​   ​ o​ ​unauthorized​ ​hazardous​ ​materials​ ​are​ ​allowed​ ​within​ ​the​ ​Data​
+                    N
+                    ​Center.​
+
+         ​3.5.5.​   ​ iquid​ ​cleaning​ ​supplies​ ​are​ ​not​ ​allowed​ ​within​ ​the​ ​Data​ ​Center​
+                    L
+                    ​without prior approval.​
+
+         ​3.5.6.​   ​ o​ ​cutting​ ​of​ ​materials​ ​(pipes,​ ​floor​ ​tile,​ ​etc.)​ ​will​ ​be​ ​performed​
+                    N
+                    ​within​ ​the​ ​Data​ ​Center​ ​unless​ ​special​ ​arrangements​ ​have​ ​been​
+                     ​made with the Data Center Manager.​
+
+         ​3.5.7.​   ​ loor​ ​tile​ ​is​ ​to​ ​be​ ​raised​ ​or​ ​removed​ ​only​ ​by​ ​Office​ ​of​ ​Technology​
+                    F
+                    ​Data Center Staff.​
+
+         ​3.5.8.​   ​ o​ ​server,​ ​storage,​ ​or​ ​network​ ​equipment​ ​may​ ​be​ ​stored​ ​on​ ​the​
+                    N
+                    ​floor,​ ​tables,​ ​window​ ​sills,​ ​on​ ​top​ ​of​ ​racks,​ ​or​ ​in​ ​any​ ​area​ ​that​
+                     ​obstructs air circulation.​
+
+         ​3.5.9.​   ​ aper​ ​products,​ ​boxes,​ ​or​ ​other​ ​disposable​ ​materials​ ​may​ ​not​ ​be​
+                    P
+                    ​stored​​within​​the​​Data​​Center​​other​​than​​the​​Visitor’s​​Log,​​Signs​​for​
+                     ​Procedures, or Safety Information.​
+
+        ​3.5.10.​   ​ pare​ ​backup​ ​tapes,​ ​unused​​cabling,​​tools,​​or​​other​​miscellaneous​
+                    S
+                    ​equipment​​may​​not​​be​​stored​​within​​equipment​​racks​​or​​open​​areas​
+                     ​of the Data Center without Data Center Manager approval.​
+
+        ​3.5.11.​   ​ o​ ​hanging​ ​or​ ​mounting​ ​of​ ​items​ ​on​ ​cage​ ​mesh​ ​walls​ ​or​ ​cabinets​
+                    N
+                    ​unless authorized by the Data Center Manager.​
+
+        ​3.5.12.​   ​ quipment​ ​must​ ​be​ ​mounted​​within​​cabinets​​in​​a​​manner​​that​​heat​
+                    E
+                    ​is exhausted into hot aisles and never cold aisles.​
+
+        ​3.5.13.​   ​No staging and unboxing of equipment within the Data Center.​
+
+        ​3.5.14.​   ​ hysical​ ​alterations​ ​or​ ​modifications​ ​of​ ​any​ ​space​ ​within​ ​the​ ​Data​
+                    P
+                    ​Center​ ​may​ ​not​ ​be​​made​​without​​the​​express​​written​​permission​​of​
+                     ​the Data Center Manager.​
+
+        ​3.5.15.​   ​ on-compliance​ ​with​ ​cabinet​ ​or​ ​room​ ​requirements​ ​may​ ​result​ ​in​
+                    N
+                    ​removal​​of​​equipment​​and​​time​​and​​materials​​fees​​assessed​​if​​Data​
+                     ​Center staff must remediate the non-compliance.​
+
+        ​3.5.16.​   ​ ll​ ​power​ ​distribution​ ​units​ ​must​ ​be​ ​UL​ ​or​ ​industry​ ​approved,​ ​and​
+                    A
+                    ​reviewed​ ​in​ ​advance​ ​with​ ​Data​ ​Center​ ​staff.​ ​Daisy-chaining​ ​power​
+                     ​strips or other practices which violate electrical code is prohibited.​
+
+                                            ​Page​​5​​of 8​
+
+                                 ​Data Center Security Policy​
+​WVOT-PO1020                            Issue Date: 03/01/2015                           Revised: 03/23/2026​
+
+     ​3.6.​     ​Inventory Management​
+
+              ​3.6.1.​   ​ ll​ ​hardware​ ​installations​ ​and​ ​removals​ ​must​ ​be​ ​coordinated​ ​and​
+                         A
+                         ​scheduled​ ​with​ ​Data​ ​Center​ ​staff.​ ​Advanced​ ​notice​ ​of​ ​at​ ​least​ ​ten​
+                          ​business​ ​days​ ​is​ ​required,​ ​although​ ​exceptions​ ​for​ ​emergent​
+                           ​situations may be granted by the Data Center Manager.​
+
+                    ​3.6.1.1.​     ​ mergent​ ​situations​ ​are​ ​circumstances​ ​where​ ​equipment​
+                                   E
+                                   ​installation​ ​or​ ​removal​ ​are​ ​necessary​ ​to​ ​prevent​ ​outages​ ​or​
+                                  ​safeguard equipment.​
+
+              ​3.6.2.​   ​ ll​ ​equipment​ ​in​ ​the​ ​Data​ ​Center​​will​​be​​identified​​and​​inventoried.​
+                         A
+                         ​The inventory will contain basic system and agency information.​
+
+              ​3.6.3.​   ​ he​ ​installation​​and​​removal​​of​​hardware​​will​​be​​monitored​​and​​the​
+                         T
+                         ​inventory updated to reflect the changes.​
+
+              ​3.6.4.​   ​ gency​ ​hardware​ ​including​ ​racks,​ ​servers,​ ​networking​ ​equipment,​
+                         A
+                         ​and​ ​computing​ ​equipment​ ​are​ ​to​ ​be​ ​clearly​ ​labeled​ ​with​ ​agency​
+                          ​contact information and device name.​
+
+              ​3.6.5.​   ​ ecommissioned​ ​equipment​ ​is​ ​to​ ​be​ ​promptly​ ​removed​ ​from​ ​the​
+                         D
+                         ​Data​ ​Center​​by​​the​​owning​​agency.​​Data​​Center​​staff​​members​​will​
+                          ​be available to assist upon request.​
+
+              ​3.6.6.​   ​ gency​ ​shipments​ ​destined​ ​for​ ​the​ ​Data​ ​Center​ ​must​ ​be​
+                         A
+                         ​coordinated​​and​​scheduled​​with​​Data​​Center​​staff.​​Advanced​​notice​
+                          ​of​ ​at​ ​least​ ​5​ ​business​ ​days​ ​is​ ​required,​ ​although​ ​exceptions​ ​for​
+                           ​emergent​ ​situations​ ​may​ ​be​ ​granted​ ​by​ ​the​ ​Data​ ​Center​​Manager.​
+                            ​Shipments​ ​that​ ​have​ ​not​ ​been​ ​coordinated​ ​in​ ​advance​ ​will​ ​be​
+                             ​refused.​ ​Data​ ​Center​ ​staff​ ​are​ ​not​ ​responsible​ ​for​ ​the​ ​inventory​ ​or​
+                              ​security of any shipments received on behalf of agencies.​
+
+     ​3.7.​     ​Key Control​
+
+              ​3.7.1.​   ​Data Center keys shall be inventoried and reconciled monthly.​
+
+              ​3.7.2.​   ​ he​​combination​​to​​the​​Data​​Center​​Rack​​Keybox​​shall​​be​​changed​
+                         T
+                         ​quarterly​ ​and​ ​immediately​​upon​​the​​departure​​of​​any​​OT​​employee​
+                          ​with Keybox access.​
+
+              ​3.7.3.​   ​ nly​ ​OT​ ​employees​ ​with​ ​job​ ​functions​ ​that​ ​necessitate​ ​access​ ​to​
+                         O
+                         ​data center racks shall be given access to the Data Center Keybox.​
+
+                                                  ​Page​​6​​of 8​
+
+                                    ​Data Center Security Policy​
+​WVOT-PO1020                              Issue Date: 03/01/2015                         Revised: 03/23/2026​
+
+                 ​3.7.4.​   ​ ack​​keys​​shall​​be​​inventoried​​each​​time​​the​​Data​​Center​​Keybox​​is​
+                            R
+                            ​opened​​and​​any​​discrepancies​​shall​​be​​reported​​to​​the​​Data​​Center​
+                             ​Manager immediately.​
+
+        ​3.8.​     ​Environmental and Emergency Controls​
+
+                 ​3.8.1.​   ​ CSES​ ​Alerts:​ ​Systems​ ​must​ ​alert​ ​staff​ ​to​ ​out-of-range​
+                            D
+                            ​temperature/humidity,​ ​water​ ​detection,​ ​power​ ​loss,​ ​and​ ​fire​ ​alarm​
+                             ​activation.​
+
+                 ​3.8.2.​   ​ mergency​ ​Power:​ ​Generators​ ​must​ ​start​ ​automatically​ ​and​
+                            E
+                            ​exercise​ ​under​ ​load​ ​weekly.​ ​UPS​​must​​provide​​at​​least​​10​​minutes​
+                             ​of load time.​
+
+                 ​3.8.3.​   ​ ire/Smoke:​ ​Personnel​ ​must​ ​evacuate​ ​immediately​ ​upon​ ​detection​
+                            F
+                            ​and notify the fire department and Capitol Police.​
+
+                       ​3.8.3.1.​    ​Fire suppression systems are inspected annually.​
+
+                 ​3.8.4.​   ​ mergency​​Procedures:​​in​​the​​event​​of​​critical​​emergencies​​such​​as​
+                            E
+                            ​fire,​ ​water​​intrusion,​​HVAC​​failure,​​or​​power​​loss,​​Data​​Center​​Staff​
+                             ​will follow the WVOT Data Center Emergency Response Procedure.​
+
+        ​3.9.​     ​Enforcement​
+
+                 ​3.9.1.​   ​ trict​ ​adherence​ ​to​ ​this​ ​policy​ ​is​ ​mandatory.​ ​Non-compliance​​may​
+                            S
+                            ​result​ ​in​ ​revocation​ ​of​ ​access,​ ​disciplinary​ ​action​ ​up​ ​to​ ​dismissal,​
+                             ​financial​ ​penalties,​ ​or​ ​criminal​ ​prosecution​ ​under​ ​applicable​ ​state​
+                              ​and federal laws.​
+
+ ​4.​   ​POLICY SPECIFIC DEFINITIONS​
+
+        ​4.1.​     ​ hief​​Information​​Officer​​(CIO)​​-​​the​​person​​designated​​by​​the​​governor​​to​
+                   C
+                   ​lead​ ​the​ ​WV​ ​Office​ ​of​ ​Technology​ ​and​ ​oversee​ ​information​ ​technology​
+                    ​practices​ ​and​​initiatives​​for​​the​​Executive​​Brand​​of​​WV​​State​​government,​
+                     ​excluding the constitutional officers.​
+
+        ​4.2.​     ​ hief​ ​Information​ ​Security​​Officer​​(CISO)​​-​​Person​​designated​​by​​the​​CIO​
+                   C
+                   ​to​ ​oversee​ ​information​ ​security​ ​practices​ ​and​ ​initiatives​ ​for​ ​the​ ​Executive​
+                    ​Branch of WV State government, excluding the constitutional officers.​
+
+        ​4.3.​     ​ ffice​​of​​Primary​​Responsibility​​(OPR)​​-​​The​​primary​​section​​within​​WVOT​
+                   O
+                   ​that​ ​takes​ ​the​ ​lead​ ​on​ ​a​ ​specific​ ​policy​ ​or​​procedure.​ ​Usually​​the​​WVOT​
+                    ​service provider/owner that the policy is related to or governs.​
+
+                                                   ​Page​​7​​of 8​
+
+                               ​Data Center Security Policy​
+​WVOT-PO1020                            Issue Date: 03/01/2015                         Revised: 03/23/2026​
+
+        ​4.4.​   ​ est​ ​Virginia​ ​Office​ ​of​ ​Technology​ ​(WVOT)​ ​-​ ​The​ ​division​ ​of​ ​the​
+                 W
+                 ​Department​​of​​Administration​​established​​by​​WV​​Code​​§​​5A-6-4a,​​et.​​seq.,​
+                  ​which​ ​is​ ​led​ ​by​ ​the​ ​State’s​ ​CIO​ ​and​ ​designated​ ​to​ ​acquire,​ ​operate,​ ​and​
+                   ​maintain​ ​the​ ​State’s​ ​technology​ ​infrastructure.​ ​The​ ​WVOT​ ​is​ ​responsible​
+                    ​for​ ​evaluating​ ​equipment​ ​and​ ​services,​ ​and​ ​reviewing​ ​information​
+                     ​technology contracts.​
+
+ ​5.​   ​RELEVANT MATERIALS AND DOCUMENTS​
+
+        ​5.1.​   ​ VOT​ ​Policies​ ​Issued​ ​by​ ​the​ ​Chief​ ​Information​ ​Officer​ ​(CIO),​
+                 W
+                 ​https://sites.google.com/wv.gov/othub/policy-governance/ot-policies​
+
+                                                 ​Page​​8​​of 8​
+
+## Curator notes
+
+Text extracted with pdftotext -layout (page headers, footers and column layout kept as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their letters). Google Drive's PDF puts a zero-width space (U+200B) around runs of text; they are kept as extracted. source_version is the revision or issue date the policy prints, as printed.

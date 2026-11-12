@@ -1,0 +1,286 @@
+Artificial Intelligence Code of Ethics Policy: WVOT-PO1034
+Issued by the Chief Information Officer on 10/07/2026.
+OPR: WVOT Operations
+
+                      COMPLIANCE WITH THIS POLICY IS MANDATORY
+                                    Publications are available online at
+                   https://sites.google.com/wv.gov/othub/policy-governance/ot-policies
+
+     Direct questions and change recommendations related to this publication to the assigned Office
+     of Primary Responsibility (OPR), WVOT Operations. The OPR will review the policy annually to
+     ensure continued alignment with current legal, operational, and strategic requirements.
+     Revisions will be undertaken as necessary.
+
+       1.   PURPOSE
+
+            1.1.   This policy establishes the basic principles for the responsible and ethical
+                   deployment of Artificial Intelligence (AI) tools across state government
+                   operations. This policy aligns with preliminary findings of the West Virginia
+                   Artificial Intelligence Task Force. The Task Force is mandated by W. Va. Code
+                   §5A-6-9 to develop comprehensive policies that address data privacy, algorithmic
+                   transparency, and the legal and ethical use of AI.
+
+       2.   SCOPE
+
+            2.1.   This policy applies to all departments (including agencies, boards, authorities,
+                   and commissions) within the Executive Branch of the West Virginia government
+                   that have access to or use state-provided resources.
+
+            2.2.   An agency may impose additional restrictions on an employee's use of AI in the
+                   workplace. However, the agency cannot allow exceptions to this policy unless it
+                   receives permission from WVOT.
+
+            2.3.   This policy does not supersede any federal, state, local, or agency rules, law,
+                   policy, or ordinance that are more restrictive and applicable to state offices, or
+                   state networks.
+
+       3.   UTILIZATION OF AI IN STATE GOVERNMENT
+
+            3.1.   AI plays a pivotal role in advancing the mission of the West Virginia state
+                   government by optimizing the delivery of public services. By harnessing AI
+                   capabilities, government agencies can operate with greater efficiency and
+                   effectiveness, ensuring a seamless experience for citizens.
+
+            3.2.   At all times, AI applications must comply with state and federal laws; must
+                   maintain transparency, fairness, and accountability in government operations;
+                   and must protect confidential information from disclosure. Responsible AI usage
+
+                                                     1
+
+                      Artificial Intelligence Code of Ethics Policy
+WVOT-PO1034                           Issue Date:07/23/2026                 Revised: New Policy
+
+               ensures equitable access to public services while upholding legal and ethical
+               standards.
+
+      3.3.     Human in the Loop (HITL) is required to ensure all input and output of AI
+               Applications are accurate and free of errors before being delivered as a final
+               product or part of a delivered service.
+
+ 4.   PRINCIPLES FOR THE CREATION AND IMPLEMENTATION OF AI SYSTEMS
+
+      4.1.     By integrating AI effectively, the State can empower employees, enhance service
+               delivery, and drive innovation, all while ensuring compliance with regulatory
+               frameworks.
+
+      4.2.     All AI systems operating on the state network and state devices must adhere to
+               fundamental principles that ensure responsible and ethical use. These systems
+               must be fair, transparent, accountable, and designed with the understanding that
+               they function within broader human systems.
+
+      4.3.     Considerations for the WVOT network and connected devices:
+
+               Every phase of AI creation and implementation must incorporate the following
+               ethical safeguards and basic AI Principles of use (reference US EO 13960
+               Principles of use in Government). Additionally, these minimal requirements apply
+               to any application, device, or software connected to the WVOT network.
+
+             4.3.1.     Non-Discrimination: To prevent discrimination, AI platforms must be
+                        developed without biases related to race, religion, sex, or political
+                        affiliations.
+
+             4.3.2.     Public Benefit and Human-Centered: AI should be used to enhance and
+                        improve the lives of the people it serves, not replace human judgment.
+                        The primary goal is to empower the workforce and provide more efficient
+                        and effective public services.
+
+             4.3.3.     Privacy and Consent: User data, sensitive information, and citizen rights
+                        must be protected through stringent security measures.
+
+             4.3.4.     Unintended Consequences: AI outcomes should align with intended goals
+                        and avoid negative impacts on users or affected communities.
+
+             4.3.5.     Lawful and Respectful of Values: AI being used on the WVOT network or
+                        WVOT connected devices must comply with the U.S. Constitution and all
+                        applicable federal and state laws, rules, and policies.
+
+                                                 2
+
+                      Artificial Intelligence Code of Ethics Policy
+WVOT-PO1034                           Issue Date:07/23/2026                  Revised: New Policy
+
+             4.3.6.     Accurate, Reliable, and Effective: AI applications must be consistent with
+                        the use cases for which they were trained and must be accurate, reliable,
+                        and effective in their function.
+
+             4.3.7.     Safe, Secure, and Resilient: AI systems must be secure against
+                        vulnerabilities, adversarial manipulation, and other malicious exploitation
+                        to ensure their safety and resilience.
+
+             4.3.8.     Users must ensure proper data entry into AI systems with accurate data
+                        classifications.
+
+                  4.3.8.1.     Data Security and Input: Employees must never enter
+                               confidential, sensitive, or protected state data, such as Personally
+                               Identifiable Information (PII) or Protected Health Information (PHI),
+                               into public-facing or otherwise unapproved generative AI systems
+                               unless explicitly authorized under WVOT-PO1035. It must be
+                               cautioned that even when employees are authorized to use
+                               confidential information in generative AI systems, it is imperative
+                               that employees take all reasonable and necessary measures to
+                               ensure that the confidential information is secured and is not
+                               improperly incorporated in public-facing documents.
+
+             4.3.9.     Understandable: The operations and outcomes of AI applications should
+                        be sufficiently understandable to subject matter experts, users, and other
+                        relevant parties. This principle is key to building trust and enabling
+                        effective oversight.
+
+            4.3.10.     Responsible and Traceable: Accountability for AI requires a shared
+                        responsibility model. While WVOT is responsible for approving AI tools
+                        and ensuring baseline technical audit capabilities, individual state
+                        agencies are responsible for defining the human roles and oversight
+                        processes for their specific use cases. Retention of AI inputs and outputs
+                        is governed by WVOT-PO1035, Section 7.
+
+     4.4.      Continuous Monitoring and Improvement.
+
+               The oversight of deployed AI systems is a shared responsibility. WVOT is
+               responsible for continuously monitoring approved enterprise AI platforms for
+               security, compliance, and network integrity. However, individual state agencies
+               are strictly responsible for actively monitoring the outputs, accuracy, and ethical
+               alignment of the final public products of the AI tools they deploy. Regular
+               agency-level review ensures these systems operate as expected, do not develop
+               biases, and continue to serve the public effectively.
+
+     4.5.      Agency Activities.
+
+                                                  3
+
+                      Artificial Intelligence Code of Ethics Policy
+WVOT-PO1034                           Issue Date:07/23/2026                  Revised: New Policy
+
+             4.5.1.     Purposeful and Performance-Driven: Agencies should pursue AI
+                        applications where the benefits significantly outweigh the risks, and those
+                        risks can be properly assessed and managed.
+
+             4.5.2.     Regularly Monitored: Agencies must regularly test their AI applications
+                        against these principles. Mechanisms should be in place to supersede,
+                        disengage, or deactivate systems that do not perform as intended.
+
+             4.5.3.     Transparent: Where practicable and in accordance with applicable laws,
+                        agencies must be transparent and should disclose relevant information
+                        about the AI systems they deploy and AI-assisted consequential
+                        decisions to appropriate stakeholders, including the WV Legislature and
+                        its Committees, the Governor, the WVOT, and the public.
+
+             4.5.4.     Accountable: Agencies are responsible and accountable for implementing
+                        and enforcing proper safeguards for the use and function of their AI
+                        applications. This includes but is not limited to, monitoring, auditing,
+                        proper data classification use, and documenting compliance with these
+                        safeguards, including monitoring for accuracy as defined in the Risk Tier
+                        Classification Framework (Section 7).
+
+ 5.   AI GOVERNANCE AND OVERSIGHT
+
+      5.1.     The CIO must approve all new artificial intelligence (AI) initiatives and projects
+               before adoption or deployment. See CIO Review Services for details. This review
+               mechanism ensures that the project or initiative adheres to established ethical
+               and acceptable use policies.
+
+             5.1.1.     Agencies must use the CIO Review process for the authorization of pilot
+                        projects. For all Tier 2 and Tier 3 initiatives, agencies must submit a
+                        completed Algorithmic Impact Assessment (AIA) as a prerequisite for CIO
+                        Review approval.
+
+             5.1.2.     Through the CIO Review process, WVOT will maintain an inventory of all
+                        AI use cases and verify that all projects satisfy stipulated security and
+                        data privacy standards.
+
+ 6.   RELEVANT MATERIALS AND DOCUMENTS
+
+      6.1.     This policy is consistent with the following federal and state authorities:
+
+             6.1.1.     Generative Artificial Intelligence Acceptable Use Policy WVOT-PO1035
+
+             6.1.2.     Approved/Prohibited AI Software
+
+             6.1.3.     W. Va. Code §5A-6-9. West Virginia Task Force on Artificial Intelligence.
+
+                                                 4
+
+                                     Artificial Intelligence Code of Ethics Policy
+          WVOT-PO1034                                    Issue Date:07/23/2026                      Revised: New Policy
+
+                            6.1.4.      US EO 13960 Principles of use in Government
+
+            7.       DEFINITIONS / RISK TIER CLASSIFICATION FRAMEWORK
+
+                     Algorithmic Impact Assessment (AIA): A formal evaluation process used to identify and
+                     mitigate the potential risks of an automated system. (Click here to access the form).
+
+                     Consequential Decision: A decision made or substantially influenced by an AI system
+                     that meaningfully affects an individual’s rights, access to public services, opportunities,
+                     safety, or economic wellbeing. Consequential decisions also include AI‑assisted actions
+                     that create significant legal, financial, equity, safety, or security risks for the public or the
+                     state.
+
+                     High-Risk AI System: An AI system that significantly affects individuals’ rights,
+                     opportunities, safety, or economic well-being. This includes any system whose errors or
+                     misuse could cause meaningful harm, inequitable outcomes, legal violations, or major
+                     risks to business continuity and core operations.
+
+                     Risk Tiers: The chart below establishes the classification framework.
+
+                                                                                                                    Approval
+Risk Tier           Class            Definition & Criteria    Example Use Cases       AIA        Oversight Level
+                                                                                                                    Timeline
+
+                                 Internal productivity         Grammar                            Standard         Immediate
+                                 tools with no impact on       checking, email                    Acceptable       (No formal
+                                 citizen rights, safety, or    drafting, meeting      Not         Use Policy       approval
+ Tier 1          Minimal Risk    legal status.                 summarization,                     (AUP)            required if
+                                                                                    Required
+                                                               internal                           compliance.      AUP
+                                                               scheduling.                                         compliant).
+
+                                 Internal-facing tools         Market research,                   Agency-level     Within 5
+                                 that assist in research       technical code                     supervisor       business
+                                 or programmatic               generation,                        approval;        days of
+                                 support but do not            internal data       Abbreviated    recorded in AI   Abbreviated
+ Tier 2          Limited Risk
+                                 make final                    categorization,        AIA         Use Case         AIA
+                                 determinations.               drafting                           Inventory.       submission.
+                                                               non-binding
+                                                               policy.
+
+                                                                       5
+
+                                   Artificial Intelligence Code of Ethics Policy
+          WVOT-PO1034                                   Issue Date:07/23/2026                      Revised: New Policy
+
+                                                                                                                   Approval
+Risk Tier         Class            Definition & Criteria     Example Use Cases        AIA       Oversight Level
+                                                                                                                   Timeline
+
+                               ●     Public-Facing            Public-facing                      CIO Review       Initial review
+                                     Status.                  chatbots, benefit                  Committee        within 10
+                               ●     External-facing bots     eligibility (DHHR),                approval;        business
+                                     or systems making        fraud detection                    mandatory        days; formal
+                High Risk /                                                          Full AIA
+ Tier 3                              "Consequential           (DMV), hiring/                     quarterly        Committee
+               Consequential                                                        Mandatory
+                                     Decisions" affecting     personnel, law                     monitoring for   decision
+                                     life, liberty, money,    enforcement                        bias.            within 15
+                                     or rights.               tools.                                              business
+                                                                                                                  days.
+
+          8.       IMPLEMENTATION GUIDELINES
+
+                   Compliance: All AI utilization must also adhere to the Generative AI Acceptable Use
+                   Policy (WVOT-PO1035) regarding data classification, security protocols, and
+                   procurement risk management.
+
+                   The "External-Facing" Rule: All public-facing AI (e.g., website chatbots) are automatically
+                   classified as Tier 3 due to public trust and legal liability risks.
+
+                   Human-in-the-Loop: Tier 2 and Tier 3 systems require a documented human override
+                   process.
+
+                   Procurement: For Tier 3 systems, the AIA must be completed during the
+                   RFP/Purchasing phase.
+
+                   References: NIST AI Risk Management Framework, Utah SB 149, West Virginia
+                   PO1034 & PO1035.
+
+                                                                      6

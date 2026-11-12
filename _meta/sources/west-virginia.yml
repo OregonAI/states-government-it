@@ -1,0 +1,1648 @@
+# West Virginia seed list: every instrument this state's part of the corpus holds or knows about.
+# Key reference: _meta/sources/README.md. Rules: _meta/CLAUDE.md.
+# Issue #49. Discovery 2026-11-12 (all through the toolkit Fetcher): the Office of Technology's site (technology.wv.gov, a Google
+# Site: policy library, AI, project management, CIO review, cyber security, forms, vendor, infrastructure, telecom, records
+# center pages), the West Virginia Code (code.wvlegislature.gov chapter 5A and the other chapters named in left_out), the Secretary
+# of State's Code of State Rules and Executive Journal (apps.sos.wv.gov) and the Governor's executive order page.
+sources:
+- id: wv-code-5a-6-1
+  sha256: "8105755c2d2ab71a8dcbca5ce747d4cbff7826011a8a2038d3c9ac83614a8436"
+  url: https://code.wvlegislature.gov/5A-6-1/
+  format: html
+  citation: W. Va. Code § 5A-6-1
+  title: §5A-6-1. Findings and purposes.
+  doc_type: statute
+  jurisdiction: west-virginia
+  issuing_body: West Virginia Legislature; published on code.wvlegislature.gov
+  tags:
+  - governance
+  recheck: monthly
+  found_via: https://code.wvlegislature.gov/5A-6/ (the article's contents page links this section)
+  why_relevant: 'Findings and purposes: the Office of Technology continued within the Department of Administration to establish IT services for state agencies and promulgate IT standards, with authority to advise state spending units on information systems and oversee coordination of the state''s technical infrastructure; the section also records the 2024 merger of the Information Services and Communications Division into the Office.'
+- id: wv-code-5a-6-2
+  sha256: "3287ba31a662dcfb81207438f7241bb461b5c73a890a97baffca13092f03e0ad"
+  url: https://code.wvlegislature.gov/5A-6-2/
+  format: html
+  citation: W. Va. Code § 5A-6-2
+  title: §5A-6-2. Definitions.
+  doc_type: statute
+  jurisdiction: west-virginia
+  issuing_body: West Virginia Legislature; published on code.wvlegislature.gov
+  tags:
+  - governance
+  recheck: monthly
+  found_via: https://code.wvlegislature.gov/5A-6/ (the article's contents page links this section)
+  why_relevant: Definitions for Article 6 (information systems, information technology, technology services and the other terms the article uses).
+- id: wv-code-5a-6-3
+  sha256: "98bd9161acedae4c2ee7f06036599577459e72e1873828bdbfc2322ab83d4f73"
+  url: https://code.wvlegislature.gov/5A-6-3/
+  format: html
+  citation: W. Va. Code § 5A-6-3
+  title: §5A-6-3. Office of Technology; Chief Information Officer; appointment and qualifications; continuation of special funds.
+  doc_type: statute
+  jurisdiction: west-virginia
+  issuing_body: West Virginia Legislature; published on code.wvlegislature.gov
+  tags:
+  - governance
+  recheck: monthly
+  found_via: https://code.wvlegislature.gov/5A-6/ (the article's contents page links this section)
+  why_relevant: Continues the Office of Technology under a Chief Information Officer appointed by and serving at the pleasure of the Governor, with qualifications for the office and the continuation of its special funds.
+- id: wv-code-5a-6-4
+  sha256: "82a10cf0291f0a7e9b35e20daa6ba1be4b749fdd15f712116b08b838afeb46c4"
+  url: https://code.wvlegislature.gov/5A-6-4/
+  format: html
+  citation: W. Va. Code § 5A-6-4
+  title: §5A-6-4. Powers and duties of the Chief Information Officer generally.
+  doc_type: statute
+  jurisdiction: west-virginia
+  issuing_body: West Virginia Legislature; published on code.wvlegislature.gov
+  tags:
+  - governance
+  - oversight
+  recheck: monthly
+  found_via: https://code.wvlegislature.gov/5A-6/ (the article's contents page links this section)
+  why_relevant: 'Powers and duties of the Chief Information Officer generally: authority over state spending units and executive agencies'' information technology, including legislative rules, unified information systems, priorities, data retention and electronic discovery guidance, an IT recycling program, telecommunications oversight and central mail.'
+- id: wv-code-5a-6-4b
+  sha256: "4f329e5785415363a4996cdcf4714bc351bccc44961a27b318cf462ec37f73c5"
+  url: https://code.wvlegislature.gov/5A-6-4B/
+  format: html
+  citation: W. Va. Code § 5A-6-4b
+  title: §5A-6-4b. Project management duties of the Chief Information Officer; establishment of the Project Management Office and authority of the Project Management Office.
+  doc_type: statute
+  jurisdiction: west-virginia
+  issuing_body: West Virginia Legislature; published on code.wvlegislature.gov
+  tags:
+  - oversight
+  - governance
+  recheck: monthly
+  found_via: https://code.wvlegislature.gov/5A-6/ (the article's contents page links this section)
+  why_relevant: 'Project management duties of the Chief Information Officer: the approval process and methodology for technology projects, and the Project Management Office and its authority.'
+- id: wv-code-5a-6-4c
+  sha256: "98915b6b98eb3a17c94a0937cad15a2ae63c5b68e2878d1c37cb50ee692d7bc9"
+  url: https://code.wvlegislature.gov/5A-6-4C/
+  format: html
+  citation: W. Va. Code § 5A-6-4c
+  title: §5A-6-4c. Technology project proposals and the establishment of steering committees.
+  doc_type: statute
+  jurisdiction: west-virginia
+  issuing_body: West Virginia Legislature; published on code.wvlegislature.gov
+  tags:
+  - oversight
+  recheck: monthly
+  found_via: https://code.wvlegislature.gov/5A-6/ (the article's contents page links this section)
+  why_relevant: 'Technology project proposals: an agency must submit a proposal (business case, proposed solution, support for the state''s IT strategic plan) to the Project Management Office before proceeding, and the section provides for steering committees.'
+- id: wv-code-5a-6-4d
+  sha256: "046521a5d1c87157e25a3c9d0b6ffcd0b5c1efc86450383e1f607863ddba6311"
+  url: https://code.wvlegislature.gov/5A-6-4D/
+  format: html
+  citation: W. Va. Code § 5A-6-4d
+  title: §5A-6-4d. Responsibilities of the Chief Information Officer to implement information technology modernization.
+  doc_type: statute
+  jurisdiction: west-virginia
+  issuing_body: West Virginia Legislature; published on code.wvlegislature.gov
+  tags:
+  - cloud-resilience
+  - oversight
+  recheck: monthly
+  found_via: https://code.wvlegislature.gov/5A-6/ (the article's contents page links this section)
+  why_relevant: The Chief Information Officer's responsibilities to implement information technology modernization, including cloud computing services (the section defines the term).
+- id: wv-code-5a-6-4e
+  sha256: "d2b0dbd54be4493368c83b8e9222f9e46924a2e8e2bd1204722a7a0440b994a2"
+  url: https://code.wvlegislature.gov/5A-6-4E/
+  format: html
+  citation: W. Va. Code § 5A-6-4e
+  title: §5A-6-4e. Digitization of state forms.
+  doc_type: statute
+  jurisdiction: west-virginia
+  issuing_body: West Virginia Legislature; published on code.wvlegislature.gov
+  tags:
+  - digital-services
+  recheck: monthly
+  found_via: https://code.wvlegislature.gov/5A-6/ (the article's contents page links this section)
+  why_relevant: 'Digitization of state forms: agencies explore paper forms and applications so that they can be made conveniently available to residents, and the Chief Information Officer works with agencies and vendors to deliver services through digital media.'
+- id: wv-code-5a-6-5
+  sha256: "445af0f8e49fa5e92916f5cc2605ca766805f443e90301a58210c3145f01cea9"
+  url: https://code.wvlegislature.gov/5A-6-5/
+  format: html
+  citation: W. Va. Code § 5A-6-5
+  title: §5A-6-5. Notice of request for proposals by state spending units required to make purchases through the state Purchasing Division.
+  doc_type: statute
+  jurisdiction: west-virginia
+  issuing_body: West Virginia Legislature; published on code.wvlegislature.gov
+  tags:
+  - procurement
+  - oversight
+  recheck: monthly
+  found_via: https://code.wvlegislature.gov/5A-6/ (the article's contents page links this section)
+  why_relevant: A state spending unit that must submit a request for proposal to the Purchasing Division and pursues an information technology purchase that is not a technology project must obtain the Chief Information Officer's written approval.
+- id: wv-code-5a-6-6
+  sha256: "feb1ea762dd1ca2a60e550a73bfe2ba53e5a7c4b36df3134441dc0485553805c"
+  url: https://code.wvlegislature.gov/5A-6-6/
+  format: html
+  citation: W. Va. Code § 5A-6-6
+  title: §5A-6-6. Notice of request for proposals by state spending units exempted from submitting purchases to the state Purchasing Division.
+  doc_type: statute
+  jurisdiction: west-virginia
+  issuing_body: West Virginia Legislature; published on code.wvlegislature.gov
+  tags:
+  - procurement
+  - oversight
+  recheck: monthly
+  found_via: https://code.wvlegislature.gov/5A-6/ (the article's contents page links this section)
+  why_relevant: A state spending unit not required to submit purchases to the Purchasing Division must notify the Chief Information Officer in writing of a proposed purchase related to its information technology or telecommunication systems.
+- id: wv-code-5a-6-7
+  sha256: "1852bd2c01931b6b7ce44df5259d93477fcfd5c4cb7f14f47f77c8ca22942a22"
+  url: https://code.wvlegislature.gov/5A-6-7/
+  format: html
+  citation: W. Va. Code § 5A-6-7
+  title: §5A-6-7. Biannual report.
+  doc_type: statute
+  jurisdiction: west-virginia
+  issuing_body: West Virginia Legislature; published on code.wvlegislature.gov
+  tags:
+  - oversight
+  recheck: monthly
+  found_via: https://code.wvlegislature.gov/5A-6/ (the article's contents page links this section)
+  why_relevant: The Chief Information Officer's biannual report to the Legislative Joint Committee on Government and Finance.
+- id: wv-code-5a-6-8
+  sha256: "66537fb31b0fb934fa5b6c1c61a443c91d4f72317785c7eb41c09aef1af819ce"
+  url: https://code.wvlegislature.gov/5A-6-8/
+  format: html
+  citation: W. Va. Code § 5A-6-8
+  title: §5A-6-8. Exemptions.
+  doc_type: statute
+  jurisdiction: west-virginia
+  issuing_body: West Virginia Legislature; published on code.wvlegislature.gov
+  tags:
+  - governance
+  recheck: monthly
+  found_via: https://code.wvlegislature.gov/5A-6/ (the article's contents page links this section)
+  why_relevant: 'Exemptions from Article 6: the Legislature, the judiciary, constitutional officers, and (with qualifications) the education bodies and higher education institutions (which must still cooperate with the CIO), and the Emergency Management Division as to the Statewide Interoperable Radio Network.'
+- id: wv-code-5a-6-9
+  sha256: "9ab140b9655ef5fafe1185b52d6e7b5904e2f4738067f8afd843d86212a87c27"
+  url: https://code.wvlegislature.gov/5A-6-9/
+  format: html
+  citation: W. Va. Code § 5A-6-9
+  title: §5A-6-9. West Virginia Task Force on Artificial Intelligence.
+  doc_type: statute
+  jurisdiction: west-virginia
+  issuing_body: West Virginia Legislature; published on code.wvlegislature.gov
+  tags:
+  - ai
+  - governance
+  recheck: monthly
+  found_via: https://code.wvlegislature.gov/5A-6/ (the article's contents page links this section)
+  why_relevant: Creates the West Virginia Task Force on Artificial Intelligence within the Office of the Governor (members, responsibilities including best practices for public sector use of AI, reports) and ends it on July 1, 2027. The Office of Technology's AI policies cite it.
+- id: wv-code-5a-6b-1
+  sha256: "738831c61d60975ee3e87f6af4f1be8d766ebcc8a24b97a3ceaa64673396e5ea"
+  url: https://code.wvlegislature.gov/5A-6B-1/
+  format: html
+  citation: W. Va. Code § 5A-6B-1
+  title: §5A-6B-1. West Virginia Cybersecurity Office; scope; exemptions.
+  doc_type: statute
+  jurisdiction: west-virginia
+  issuing_body: West Virginia Legislature; published on code.wvlegislature.gov
+  tags:
+  - cybersecurity
+  - governance
+  recheck: monthly
+  found_via: https://code.wvlegislature.gov/5A-6B/ (the article's contents page links this section)
+  why_relevant: Creates the West Virginia Cybersecurity Office within the Office of Technology, led by the Chief Information Security Officer, which may set cybersecurity standards and manages the cybersecurity framework; says to whom Article 6B applies and who is excluded.
+- id: wv-code-5a-6b-2
+  sha256: "b2341ed91203d48b5b329ead43f45cf44b0c8b7793026d05899c5163b0bee602"
+  url: https://code.wvlegislature.gov/5A-6B-2/
+  format: html
+  citation: W. Va. Code § 5A-6B-2
+  title: §5A-6B-2. Definitions.
+  doc_type: statute
+  jurisdiction: west-virginia
+  issuing_body: West Virginia Legislature; published on code.wvlegislature.gov
+  tags:
+  - cybersecurity
+  recheck: monthly
+  found_via: https://code.wvlegislature.gov/5A-6B/ (the article's contents page links this section)
+  why_relevant: Definitions for Article 6B (cybersecurity framework, cyber incident and the other terms the article uses).
+- id: wv-code-5a-6b-3
+  sha256: "780116051438f65c8903416a5011209386482da2581a8c39dbf9a793f428715f"
+  url: https://code.wvlegislature.gov/5A-6B-3/
+  format: html
+  citation: W. Va. Code § 5A-6B-3
+  title: §5A-6B-3. Powers and duties of Chief Information Security Officer; staff; rule-making.
+  doc_type: statute
+  jurisdiction: west-virginia
+  issuing_body: West Virginia Legislature; published on code.wvlegislature.gov
+  tags:
+  - cybersecurity
+  - governance
+  recheck: monthly
+  found_via: https://code.wvlegislature.gov/5A-6B/ (the article's contents page links this section)
+  why_relevant: 'Powers and duties of the Chief Information Security Officer: staffing, enterprise cybersecurity policies, procedures and standards, and rule-making.'
+- id: wv-code-5a-6b-4
+  sha256: "eee2949c25591e37caffdade3d209e780f0a9786dcfeac8c22df6395d79b9463"
+  url: https://code.wvlegislature.gov/5A-6B-4/
+  format: html
+  citation: W. Va. Code § 5A-6B-4
+  title: §5A-6B-4. Responsibilities for cybersecurity.
+  doc_type: statute
+  jurisdiction: west-virginia
+  issuing_body: West Virginia Legislature; published on code.wvlegislature.gov
+  tags:
+  - cybersecurity
+  recheck: monthly
+  found_via: https://code.wvlegislature.gov/5A-6B/ (the article's contents page links this section)
+  why_relevant: 'Responsibilities for cybersecurity of each information custodian receiving centralized support from the Office of Technology: cyber risk assessment, adherence to the cybersecurity standard and enterprise policies, and the annual cybersecurity program review.'
+- id: wv-code-5a-6b-5
+  sha256: "a0c17927ba04e4063a275f98592f94de3cf91af69443aec541abf60f35e0704e"
+  url: https://code.wvlegislature.gov/5A-6B-5/
+  format: html
+  citation: W. Va. Code § 5A-6B-5
+  title: §5A-6B-5. Exemption from disclosure.
+  doc_type: statute
+  jurisdiction: west-virginia
+  issuing_body: West Virginia Legislature; published on code.wvlegislature.gov
+  tags:
+  - cybersecurity
+  - data
+  recheck: monthly
+  found_via: https://code.wvlegislature.gov/5A-6B/ (the article's contents page links this section)
+  why_relevant: Exempts cyber risk assessments, program reviews, remediation plans and threat or vulnerability information from the Freedom of Information Act.
+- id: wv-code-5a-6b-6
+  sha256: "09c695df77b13fc662ee2f64e6267efcc91357d1f38d2ef08363dfcd3ed13451"
+  url: https://code.wvlegislature.gov/5A-6B-6/
+  format: html
+  citation: W. Va. Code § 5A-6B-6
+  title: §5A-6B-6. Annual reports.
+  doc_type: statute
+  jurisdiction: west-virginia
+  issuing_body: West Virginia Legislature; published on code.wvlegislature.gov
+  tags:
+  - cybersecurity
+  - oversight
+  recheck: monthly
+  found_via: https://code.wvlegislature.gov/5A-6B/ (the article's contents page links this section)
+  why_relevant: The Chief Information Security Officer's annual report on December 1 to the Joint Committee on Government and Finance and the Governor on the status of the cybersecurity program.
+- id: wv-code-5a-6c-1
+  sha256: "46728cf98fca658f709203587df93b65169789b25cee5311d6ba01d5a2f3f521"
+  url: https://code.wvlegislature.gov/5A-6C-1/
+  format: html
+  citation: W. Va. Code § 5A-6C-1
+  title: §5A-6C-1. Definitions.
+  doc_type: statute
+  jurisdiction: west-virginia
+  issuing_body: West Virginia Legislature; published on code.wvlegislature.gov
+  tags:
+  - cybersecurity
+  recheck: monthly
+  found_via: https://code.wvlegislature.gov/5A-6C/ (the article's contents page links this section)
+  why_relevant: Definitions for the cyber incident reporting article (including the Cybersecurity Office created by 5A-6B-1).
+- id: wv-code-5a-6c-2
+  sha256: "1d022aa0e57187963430cd516cc67af9cacd2550e0049ba20aeca77c09a9f9a6"
+  url: https://code.wvlegislature.gov/5A-6C-2/
+  format: html
+  citation: W. Va. Code § 5A-6C-2
+  title: §5A-6C-2. Scope.
+  doc_type: statute
+  jurisdiction: west-virginia
+  issuing_body: West Virginia Legislature; published on code.wvlegislature.gov
+  tags:
+  - cybersecurity
+  recheck: monthly
+  found_via: https://code.wvlegislature.gov/5A-6C/ (the article's contents page links this section)
+  why_relevant: 'Scope of cyber incident reporting: state agencies in the executive branch, constitutional officers, local government entities, county boards of education, the Judiciary and the Legislature.'
+- id: wv-code-5a-6c-3
+  sha256: "f727548ddd511a57a17e6a625dde65344740300ad5d45c42c6ed70a2e61d1402"
+  url: https://code.wvlegislature.gov/5A-6C-3/
+  format: html
+  citation: W. Va. Code § 5A-6C-3
+  title: §5A-6C-3. Cyber Incident reporting; when required.
+  doc_type: statute
+  jurisdiction: west-virginia
+  issuing_body: West Virginia Legislature; published on code.wvlegislature.gov
+  tags:
+  - cybersecurity
+  recheck: monthly
+  found_via: https://code.wvlegislature.gov/5A-6C/ (the article's contents page links this section)
+  why_relevant: 'When a qualified cybersecurity incident must be reported to the Cybersecurity Office: before any citizen notification and no later than 10 days after the entity determines the incident qualifies, with the criteria for a qualified incident.'
+- id: wv-code-5a-6c-4
+  sha256: "d48ca666f8781754eb957b5029af281612a2abf219c0715fd15d1963004edf52"
+  url: https://code.wvlegislature.gov/5A-6C-4/
+  format: html
+  citation: W. Va. Code § 5A-6C-4
+  title: §5A-6C-4. Cybersecurity Office annual report.
+  doc_type: statute
+  jurisdiction: west-virginia
+  issuing_body: West Virginia Legislature; published on code.wvlegislature.gov
+  tags:
+  - cybersecurity
+  - oversight
+  recheck: monthly
+  found_via: https://code.wvlegislature.gov/5A-6C/ (the article's contents page links this section)
+  why_relevant: The Cybersecurity Office's annual report to the Joint Committee on Government and Finance on the number and nature of reported incidents.
+- id: wv-code-39a-3-1
+  sha256: "5bb568fc2acae1548450de7051e511211076796fbba9a891dc0a056e0cede3c9"
+  url: https://code.wvlegislature.gov/39A-3-1/
+  format: html
+  citation: W. Va. Code § 39A-3-1
+  title: §39A-3-1. Definitions.
+  doc_type: statute
+  jurisdiction: west-virginia
+  issuing_body: West Virginia Legislature; published on code.wvlegislature.gov
+  tags:
+  - digital-services
+  recheck: monthly
+  found_via: https://code.wvlegislature.gov/39A-3/ (the article's contents page links this section)
+  why_relevant: Definitions for the article on digital signatures and state electronic records (certificate, certification authority, digital mark and others).
+- id: wv-code-39a-3-2
+  sha256: "4d91e988be947e1eab80d4efdc071976b0da3a4409c01fb8cc9fd7322314afd4"
+  url: https://code.wvlegislature.gov/39A-3-2/
+  format: html
+  citation: W. Va. Code § 39A-3-2
+  title: §39A-3-2. Acceptance of electronic signature by governmental entities in satisfaction of signature requirement.
+  doc_type: statute
+  jurisdiction: west-virginia
+  issuing_body: West Virginia Legislature; published on code.wvlegislature.gov
+  tags:
+  - digital-services
+  recheck: monthly
+  found_via: https://code.wvlegislature.gov/39A-3/ (the article's contents page links this section)
+  why_relevant: A governmental entity may authorize acceptance of electronic signatures in place of original signatures, and may use the Secretary of State's digital signature authority and registry.
+- id: wv-code-39a-3-3
+  sha256: "38cc2110c11b97f35dad1728527b632c5398526a7ace02442dc9285d7de5afd9"
+  url: https://code.wvlegislature.gov/39A-3-3/
+  format: html
+  citation: W. Va. Code § 39A-3-3
+  title: §39A-3-3. Duties of the Secretary of State; state agencies use of electronic signatures.
+  doc_type: statute
+  jurisdiction: west-virginia
+  issuing_body: West Virginia Legislature; published on code.wvlegislature.gov
+  tags:
+  - digital-services
+  - governance
+  recheck: monthly
+  found_via: https://code.wvlegislature.gov/39A-3/ (the article's contents page links this section)
+  why_relevant: The Secretary of State's duty to propose rules setting minimum standards for secure use of electronic signatures in governmental transactions by state agencies.
+- id: wv-code-39a-3-4
+  sha256: "1f5168bf58a5bce9017d566e277fa5fee65d4d327f905ea124a02362853b7c40"
+  url: https://code.wvlegislature.gov/39A-3-4/
+  format: html
+  citation: W. Va. Code § 39A-3-4
+  title: §39A-3-4. Secretary of state; liability.
+  doc_type: statute
+  jurisdiction: west-virginia
+  issuing_body: West Virginia Legislature; published on code.wvlegislature.gov
+  tags:
+  - digital-services
+  recheck: monthly
+  found_via: https://code.wvlegislature.gov/39A-3/ (the article's contents page links this section)
+  why_relevant: The Secretary of State, as authority and repository of signature keys for governmental entities, must revoke a signature key believed compromised; the article creates no liability for transactions compromised by illegal or inappropriate use.
+- id: wv-code-46a-2a-101
+  sha256: "5988875787e83b4a2e9ab38d9c71e8c22f351a131764a54ca327154cdd708cca"
+  url: https://code.wvlegislature.gov/46A-2A-101/
+  format: html
+  citation: W. Va. Code § 46A-2A-101
+  title: §46A-2A-101. Definitions.
+  doc_type: statute
+  jurisdiction: west-virginia
+  issuing_body: West Virginia Legislature; published on code.wvlegislature.gov
+  tags:
+  - data
+  recheck: monthly
+  found_via: https://code.wvlegislature.gov/46A-2A/ (the article's contents page links this section)
+  why_relevant: 'Definitions for the breach-notice article; ''entity'' is defined to include governments, governmental subdivisions, agencies or instrumentalities, so the article reaches state agencies; also defines breach of the security of a system, personal information and notice.'
+- id: wv-code-46a-2a-102
+  sha256: "34c4a392e25489dacf73fbdde73fcd3774adc55376cdc2c18278a27f73c32581"
+  url: https://code.wvlegislature.gov/46A-2A-102/
+  format: html
+  citation: W. Va. Code § 46A-2A-102
+  title: §46A-2A-102. Notice of breach of security of computerized personal information.
+  doc_type: statute
+  jurisdiction: west-virginia
+  issuing_body: West Virginia Legislature; published on code.wvlegislature.gov
+  tags:
+  - data
+  - cybersecurity
+  recheck: monthly
+  found_via: https://code.wvlegislature.gov/46A-2A/ (the article's contents page links this section)
+  why_relevant: 'An individual or entity that owns or licenses computerized data that includes personal information must notify residents of a breach of the security of the system, with the content of the notice, delay for law enforcement and notice to consumer reporting agencies above one thousand persons.'
+- id: wv-code-46a-2a-103
+  sha256: "988c654d105518a884213041857d104f07584955b62fa63b74e0683856210a17"
+  url: https://code.wvlegislature.gov/46A-2A-103/
+  format: html
+  citation: W. Va. Code § 46A-2A-103
+  title: §46A-2A-103. Procedures deemed in compliance with security breach notice requirements.
+  doc_type: statute
+  jurisdiction: west-virginia
+  issuing_body: West Virginia Legislature; published on code.wvlegislature.gov
+  tags:
+  - data
+  recheck: monthly
+  found_via: https://code.wvlegislature.gov/46A-2A/ (the article's contents page links this section)
+  why_relevant: 'An entity that follows its own notification procedures consistent with the article''s timing, or those of its primary or functional regulator, is deemed in compliance.'
+- id: wv-code-46a-2a-104
+  sha256: "aa9639399f17560b4e12daf1b62dc9ac20d578f2241a6f3d14f426b802b33cbb"
+  url: https://code.wvlegislature.gov/46A-2A-104/
+  format: html
+  citation: W. Va. Code § 46A-2A-104
+  title: §46A-2A-104. Violations.
+  doc_type: statute
+  jurisdiction: west-virginia
+  issuing_body: West Virginia Legislature; published on code.wvlegislature.gov
+  tags:
+  - data
+  recheck: monthly
+  found_via: https://code.wvlegislature.gov/46A-2A/ (the article's contents page links this section)
+  why_relevant: 'Failure to comply with the article''s notice provisions is an unfair or deceptive act under chapter 46A, enforced exclusively by the Attorney General (a licensed financial institution by its functional regulator); civil penalty limit of $150,000 per breach.'
+- id: wv-code-46a-2a-105
+  sha256: "3c1587f594a2523b6e8814e0291f949bcb72ea8bb33848871942d1ce75253e99"
+  url: https://code.wvlegislature.gov/46A-2A-105/
+  format: html
+  citation: W. Va. Code § 46A-2A-105
+  title: §46A-2A-105. Applicability.
+  doc_type: statute
+  jurisdiction: west-virginia
+  issuing_body: West Virginia Legislature; published on code.wvlegislature.gov
+  tags:
+  - data
+  recheck: monthly
+  found_via: https://code.wvlegislature.gov/46A-2A/ (the article's contents page links this section)
+  why_relevant: 'The article applies to breaches discovered or notified on or after its effective date.'
+- id: wv-csr-163-1
+  sha256: "5e8139354f1bd66c85e78a194e2554f74d1b51bb76470051182eb8ab846394cd"
+  url: https://apps.sos.wv.gov/adlaw/csr/readfile.aspx?DocId=26599&Format=PDF
+  format: pdf
+  citation: W. Va. CSR § 163-1
+  title: Procedures for Sanitization, Retirement and Disposition of Information Technology Equipment
+  doc_type: rule
+  jurisdiction: west-virginia
+  issuing_body: West Virginia Office of Technology; legislative rule filed with the Secretary of State
+  tags:
+  - governance
+  - cloud-resilience
+  recheck: monthly
+  rule_page: https://apps.sos.wv.gov/adlaw/csr/ruleview.aspx?document=9630
+  found_via: https://apps.sos.wv.gov/adlaw/csr/rule.aspx?agency=Office%20of%20Technology (Office of Technology, Type Legislative, status Active; the Final File links of the rule page)
+  why_relevant: The Office of Technology's legislative rule, Title 163 Series 1, on sanitization, retirement and disposition of information technology equipment (effective 7/1/2015 per the Secretary of State's rule page). The only file the Secretary of State serves for this rule is a scan (a PDF with no text layer; the other file is WordPerfect), read by the two-engine OCR procedure.
+  ocr: true
+  identity_text: PROCEDURES FOR SANITIZATION, RETIREMENT
+- id: wv-csr-163-2
+  sha256: "106a48a17980c3a3655aa003abbdca4c14e7c2e86b8cc2e98f9a07524a402149"
+  url: https://apps.sos.wv.gov/adlaw/csr/readfile.aspx?DocId=55101&Format=WORD&KeyWord=
+  format: docx
+  citation: W. Va. CSR § 163-2
+  title: Chief Information Officer Review
+  doc_type: rule
+  jurisdiction: west-virginia
+  issuing_body: West Virginia Office of Technology; legislative rule filed with the Secretary of State
+  tags:
+  - oversight
+  - procurement
+  - governance
+  recheck: monthly
+  rule_page: https://apps.sos.wv.gov/adlaw/csr/ruleview.aspx?document=17460
+  found_via: https://apps.sos.wv.gov/adlaw/csr/rule.aspx?agency=Office%20of%20Technology (Office of Technology, Type Legislative, status Active; the Final File links of the rule page)
+  why_relevant: 'Legislative rule 163CSR2: review and management of technology projects by the Chief Information Officer (the rule prints a $250,000 threshold and sensitive-data trigger and its own sunset). The Secretary of State''s page lists an amended version as In Progress (not in force).'
+- id: wv-csr-163-3
+  sha256: "c0d72e7f0ae923a5b7f85de7c4789ace74889cd7980aa9324d9d458169143342"
+  url: https://apps.sos.wv.gov/adlaw/csr/readfile.aspx?DocId=58795&Format=WORD&KeyWord=
+  format: docx
+  citation: W. Va. CSR § 163-3
+  title: Cyber Reporting
+  doc_type: rule
+  jurisdiction: west-virginia
+  issuing_body: West Virginia Office of Technology; legislative rule filed with the Secretary of State
+  tags:
+  - cybersecurity
+  recheck: monthly
+  rule_page: https://apps.sos.wv.gov/adlaw/csr/ruleview.aspx?document=18386
+  found_via: https://apps.sos.wv.gov/adlaw/csr/rule.aspx?agency=Office%20of%20Technology (Office of Technology, Type Legislative, status Active; the Final File links of the rule page)
+  why_relevant: 'Legislative rule 163CSR3: reporting of cyber incidents by executive agencies, constitutional offices, local government entities and county boards of education (effective 4/1/2026). The Secretary of State''s page lists an amendment as In Progress (not in force). The Word file is the rule text; the notice of filing is in the PDF only.'
+- id: wv-csr-163-4
+  sha256: "61f9d9774c4426d8b5bfbc3a9b7073300380355da14e29eafc00d1a01b3382f5"
+  url: https://apps.sos.wv.gov/adlaw/csr/readfile.aspx?DocId=57950&Format=WORD&KeyWord=
+  format: docx
+  citation: W. Va. CSR § 163-4
+  title: Plan of Operation
+  doc_type: rule
+  jurisdiction: west-virginia
+  issuing_body: West Virginia Office of Technology; legislative rule filed with the Secretary of State
+  tags:
+  - governance
+  recheck: monthly
+  rule_page: https://apps.sos.wv.gov/adlaw/csr/ruleview.aspx?document=18083
+  found_via: https://apps.sos.wv.gov/adlaw/csr/rule.aspx?agency=Office%20of%20Technology (Office of Technology, Type Legislative, status Active; the Final File links of the rule page)
+  why_relevant: 'Legislative rule 163CSR4: the Office of Technology''s plan of operation for data processing, telecommunication and central mailing office services (effective 4/22/2025).'
+- id: wv-csr-163-5
+  sha256: "f77a873a1a1c63867d82633aec1f44a6ec582713f68e21a7184722eef9c04b3c"
+  url: https://apps.sos.wv.gov/adlaw/csr/readfile.aspx?DocId=57949&Format=WORD&KeyWord=
+  format: docx
+  citation: W. Va. CSR § 163-5
+  title: Telecommunications Payments Made By State Spending Units
+  doc_type: rule
+  jurisdiction: west-virginia
+  issuing_body: West Virginia Office of Technology; legislative rule filed with the Secretary of State
+  tags:
+  - funding
+  - governance
+  recheck: monthly
+  rule_page: https://apps.sos.wv.gov/adlaw/csr/ruleview.aspx?document=18084
+  found_via: https://apps.sos.wv.gov/adlaw/csr/rule.aspx?agency=Office%20of%20Technology (Office of Technology, Type Legislative, status Active; the Final File links of the rule page)
+  why_relevant: 'Legislative rule 163CSR5: procedures for collecting payments from state spending units for telecommunications services the Office of Technology provides (effective 4/22/2025). The printed title is ''Telecommunications Payments by Spending Units''.'
+  identity_text: SERIES 5
+- id: wv-cio-19-001
+  sha256: "120da437a2ed1ebf7bec5884dda154ea0acbcc35e71831e3f8b55d9a6397798d"
+  url: https://drive.google.com/uc?export=download&id=160PJpBspqP6Vdqr1is-4n0abUiX5QG3r
+  format: pdf
+  citation: CIO-19-001
+  title: Chief Information Officer (CIO) Review Approval
+  doc_type: policy
+  jurisdiction: west-virginia
+  issuing_body: West Virginia Office of Technology (Chief Information Officer)
+  tags:
+  - oversight
+  - procurement
+  - governance
+  recheck: monthly
+  index_link: https://drive.google.com/file/d/160PJpBspqP6Vdqr1is-4n0abUiX5QG3r/view
+  found_via: https://technology.wv.gov/policy-governance/ot-policies (the Drive download form of the linked file; the URL is built from the file id in the index link)
+  listed_as: CIO-19-001 - Chief Information Officer (CIO) Review Approval - 08/01/2022
+  why_relevant: 'The CIO review policy: the framework for technology procurement requests that need the Chief Information Officer''s approval under W. Va. Code 5A-6 (pre-approval below $5,000, expedited review, appendices on the $250,000 oversight route and the cloud SaaS addendum). Pages 7 and 8 of the PDF are a scanned memorandum of the Governor''s office (an appendix) and are read by OCR; the other pages have a text layer. The CIO Review Services page links the same file under another Drive id (1HS5h_y-rjjk0JwEhUnHI7ferzOTKCFqI, identical size).'
+  ocr:
+  - 7
+  - 8
+- id: wv-cio-24-001
+  sha256: "9452d7631413d0ca3f144785b7430ae1b19a33bfdaa5c3a34c9f82320222d561"
+  url: https://drive.google.com/uc?export=download&id=1yGsaQJ5THW9qQpe8EWVEsbzn9nOtuZQA
+  format: pdf
+  citation: CIO-24-001
+  title: Cloud Data Retention
+  doc_type: policy
+  jurisdiction: west-virginia
+  issuing_body: West Virginia Office of Technology (Chief Information Officer)
+  tags:
+  - data
+  - cloud-resilience
+  recheck: monthly
+  index_link: https://drive.google.com/file/d/1yGsaQJ5THW9qQpe8EWVEsbzn9nOtuZQA/view
+  found_via: https://technology.wv.gov/policy-governance/ot-policies (the Drive download form of the linked file; the URL is built from the file id in the index link)
+  listed_as: CIO-24-001 - Cloud Data Retention - 03/15/2024
+  why_relevant: The Office of Technology's retention policy for end-user account data in the cloud (the file is titled 'Retention Policy for Google Email, Chat, and Personal Drive Data'); it cites W. Va. Code 5A-6-4 as the authority to set enterprise IT standards.
+  identity_text: CIO-24-001
+- id: wv-wvot-po1000
+  sha256: "fd20fc1499d101cbb9b41c910fff03cdb6699a9c10d7ae41b069647ddce45f86"
+  url: https://drive.google.com/uc?export=download&id=1Loix8NHlHPBHwZgyX7CmYBT2qj40L6X5
+  format: pdf
+  citation: WVOT-PO1000
+  title: Policy, Procedure, Plan Development Policy
+  doc_type: policy
+  jurisdiction: west-virginia
+  issuing_body: West Virginia Office of Technology (Chief Information Officer)
+  tags:
+  - governance
+  recheck: monthly
+  index_link: https://drive.google.com/file/d/1Loix8NHlHPBHwZgyX7CmYBT2qj40L6X5/view
+  found_via: https://technology.wv.gov/policy-governance/ot-policies (the Drive download form of the linked file; the URL is built from the file id in the index link)
+  listed_as: WVOT-PO1000 - Policy, Procedure, Plan Development Policy - 03/30/2026
+  why_relevant: 'Establishes the Office of Technology''s publications program: the format, content, management, maintenance and distribution of its policies, procedures, plans and other official publications.'
+- id: wv-wvot-po1001
+  sha256: "aedb6ca1f16f719510639c24eb84a87d1d3e6d92a624b99696b8cba536860300"
+  url: https://drive.google.com/uc?export=download&id=1-CrEqbeE5N4YphrTOiIiWbiBehkf2CZJ
+  format: pdf
+  citation: WVOT-PO1001
+  title: Information Security Policy
+  doc_type: policy
+  jurisdiction: west-virginia
+  issuing_body: West Virginia Office of Technology (Chief Information Officer)
+  tags:
+  - cybersecurity
+  - governance
+  recheck: monthly
+  index_link: https://drive.google.com/file/d/1-CrEqbeE5N4YphrTOiIiWbiBehkf2CZJ/view
+  found_via: https://technology.wv.gov/policy-governance/ot-policies (the Drive download form of the linked file; the URL is built from the file id in the index link)
+  listed_as: WVOT-PO1001 - Information Security Policy - 03/10/2026
+  why_relevant: 'The statewide Information Security Policy: objectives and responsibilities for executive branch agencies, employees, vendors and business associates for protecting information resources.'
+- id: wv-wvot-po1002
+  sha256: "6a47dfa14a2f666ef37f28140f6a6e43c9994aeb59abad19573edaf23e97590f"
+  url: https://drive.google.com/uc?export=download&id=1h8F0K-6Gzzti6e-Hq9hANCUC6S3ANaCM
+  format: pdf
+  citation: WVOT-PO1002
+  title: Acceptable Use of State-Issued Portable/Mobile Devices
+  doc_type: policy
+  jurisdiction: west-virginia
+  issuing_body: West Virginia Office of Technology (Chief Information Officer)
+  tags:
+  - cybersecurity
+  recheck: monthly
+  index_link: https://drive.google.com/file/d/1h8F0K-6Gzzti6e-Hq9hANCUC6S3ANaCM/view
+  found_via: https://technology.wv.gov/policy-governance/ot-policies (the Drive download form of the linked file; the URL is built from the file id in the index link)
+  listed_as: WVOT-PO1002 - Acceptable Use of State-Issued Portable/Mobile Devices - 12/27/2023
+  why_relevant: Framework for procurement, possession and appropriate use of state-owned or state-paid wireless devices and services in the executive branch. The index flags no status; the file is the 12/27/2023 revision.
+- id: wv-wvot-po1005
+  sha256: "a6e9c2be31264305e3a1e4edf6b0048f639c92cd5e954995c1947148dfe45370"
+  url: https://drive.google.com/uc?export=download&id=1tohsQ4cp8E6Llx5EZQvBHT9812mdIaeb
+  format: pdf
+  citation: WVOT-PO1005
+  title: Email Use Standards Policy
+  doc_type: policy
+  jurisdiction: west-virginia
+  issuing_body: West Virginia Office of Technology (Chief Information Officer)
+  tags:
+  - cybersecurity
+  recheck: monthly
+  index_link: https://drive.google.com/file/d/1tohsQ4cp8E6Llx5EZQvBHT9812mdIaeb/view
+  found_via: https://technology.wv.gov/policy-governance/ot-policies (the Drive download form of the linked file; the URL is built from the file id in the index link)
+  listed_as: WVOT-PO1005 - Email Use Standards Policy - 12/27/2023 - Under Review
+  why_relevant: Acceptable use of, access to and disclosure of the state-provided e-mail system. The index marks it 'Under Review'; it is still the published policy, so it is held.
+- id: wv-wvot-po1006
+  sha256: "6a687b677ba2c68131cf39d0995624d0813ef88f1ac400de7dff9366b5b141b6"
+  url: https://drive.google.com/uc?export=download&id=1sb4BG3CW9IRnOxxYKgSICGDURJYgYjrU
+  format: pdf
+  citation: WVOT-PO1006
+  title: Data Classification Policy
+  doc_type: policy
+  jurisdiction: west-virginia
+  issuing_body: West Virginia Office of Technology (Chief Information Officer)
+  tags:
+  - data
+  - cybersecurity
+  recheck: monthly
+  index_link: https://drive.google.com/file/d/1sb4BG3CW9IRnOxxYKgSICGDURJYgYjrU/view
+  found_via: https://technology.wv.gov/policy-governance/ot-policies (the Drive download form of the linked file; the URL is built from the file id in the index link)
+  listed_as: WVOT-PO1006 - Data Classification Policy - 03/25/2026
+  why_relevant: Framework to classify state data and systems by sensitivity and criticality (with a sensitivity and criticality grid).
+- id: wv-wvot-po1008
+  sha256: "30f4b0278c4488049a2438f8500f7a267f3c5cc494c7a626ef29021f20a177fc"
+  url: https://drive.google.com/uc?export=download&id=1M40M1K2jO2uwP3a8ekILoKbznEUFMlHB
+  format: pdf
+  citation: WVOT-PO1008
+  title: Information Security Audit Policy
+  doc_type: policy
+  jurisdiction: west-virginia
+  issuing_body: West Virginia Office of Technology (Chief Information Officer)
+  tags:
+  - cybersecurity
+  - oversight
+  recheck: monthly
+  index_link: https://drive.google.com/file/d/1M40M1K2jO2uwP3a8ekILoKbznEUFMlHB/view
+  found_via: https://technology.wv.gov/policy-governance/ot-policies (the Drive download form of the linked file; the URL is built from the file id in the index link)
+  listed_as: WVOT-PO1008 - Information Security Audit Policy - 03/30/2026
+  why_relevant: Objectives for an independent information security audit program serving the executive branch.
+- id: wv-wvot-po1010
+  sha256: "799be698a6b4b25e22dc910616d0807b5f0cf546d0a85dee9a22ef4eb3ac6418"
+  url: https://drive.google.com/uc?export=download&id=1u_mJ1xFgF0E58o6-9RwS5kFwQW1z7-jM
+  format: pdf
+  citation: WVOT-PO1010
+  title: Acceptable Use of Instant Messaging
+  doc_type: policy
+  jurisdiction: west-virginia
+  issuing_body: West Virginia Office of Technology (Chief Information Officer)
+  tags:
+  - cybersecurity
+  recheck: monthly
+  index_link: https://drive.google.com/file/d/1u_mJ1xFgF0E58o6-9RwS5kFwQW1z7-jM/view
+  found_via: https://technology.wv.gov/policy-governance/ot-policies (the Drive download form of the linked file; the URL is built from the file id in the index link)
+  listed_as: WVOT-PO1010 - Acceptable Use of Instant Messaging - 12/28/2023 - Under Review
+  why_relevant: 'Use of state-approved instant messaging systems: limits, protection of state information, privacy considerations. The index marks it ''Under Review''; it is still the published policy, so it is held.'
+- id: wv-wvot-po1011
+  sha256: "3bd5cc781960c66a78e1f27546b91e00d66d0bf7e0549c76e82a770bc452cd9b"
+  url: https://drive.google.com/uc?export=download&id=1Lh_UrKne8oI4fdRmgzMntALstTjR-p8A
+  format: pdf
+  citation: WVOT-PO1011
+  title: Digital Media Protection Policy
+  doc_type: policy
+  jurisdiction: west-virginia
+  issuing_body: West Virginia Office of Technology (Chief Information Officer)
+  tags:
+  - cybersecurity
+  - data
+  recheck: monthly
+  index_link: https://drive.google.com/file/d/1Lh_UrKne8oI4fdRmgzMntALstTjR-p8A/view
+  found_via: https://technology.wv.gov/policy-governance/ot-policies (the Drive download form of the linked file; the URL is built from the file id in the index link)
+  listed_as: WVOT-PO1011 - Digital Media Protection Policy - 03/26/2026
+  why_relevant: Standards, procedures and restrictions for executive branch employees who use devices to connect to a WVOT-supported network to store, back up, relocate or otherwise access enterprise data.
+- id: wv-wvot-po1012
+  sha256: "2eb91fc98e66889b55ce8c6c61c3cbf686a58f0b14433cd5f3e436368451390b"
+  url: https://drive.google.com/uc?export=download&id=110N70NUHgzIiE4RSJnbHAHEiofSFLYlu
+  format: pdf
+  citation: WVOT-PO1012
+  title: Contract Management Policy
+  doc_type: policy
+  jurisdiction: west-virginia
+  issuing_body: West Virginia Office of Technology (Chief Information Officer)
+  tags:
+  - procurement
+  - governance
+  recheck: monthly
+  index_link: https://drive.google.com/file/d/110N70NUHgzIiE4RSJnbHAHEiofSFLYlu/view
+  found_via: https://technology.wv.gov/policy-governance/ot-policies (the Drive download form of the linked file; the URL is built from the file id in the index link)
+  listed_as: WVOT-PO1012 - Contract Management Policy - 03/18/2026
+  why_relevant: Requirements governing the use of contracts and contractors in an information technology environment, including the risks of misclassified contractors.
+- id: wv-wvot-po1013
+  sha256: "365408383fbd7b2dae4dd0660f46639bd5acd8ab11a3374e42e42877a4446154"
+  url: https://drive.google.com/uc?export=download&id=1IL0qguGAHQydBWvfSAQH6QzLQ8JY7HrE
+  format: pdf
+  citation: WVOT-PO1013
+  title: Data Protection and Backup Policy
+  doc_type: policy
+  jurisdiction: west-virginia
+  issuing_body: West Virginia Office of Technology (Chief Information Officer)
+  tags:
+  - data
+  - cloud-resilience
+  recheck: monthly
+  index_link: https://drive.google.com/file/d/1IL0qguGAHQydBWvfSAQH6QzLQ8JY7HrE/view
+  found_via: https://technology.wv.gov/policy-governance/ot-policies (the Drive download form of the linked file; the URL is built from the file id in the index link)
+  listed_as: WVOT-PO1013 - Data Protection and Backup Policy - 10/01/2026
+  why_relevant: Standard requirements for availability, protection and backup of data on the state's executive domain.
+- id: wv-wvot-po1014
+  sha256: "a3c55f48eb217ba93e54dc2b56f536ffb7720498debfba9bb38d616aa58443b1"
+  url: https://drive.google.com/uc?export=download&id=1ojj02ch1Ufl6tfdNx22IkcGA0Kdx3z4q
+  format: pdf
+  citation: WVOT-PO1014
+  title: Malicious Software Protection Policy
+  doc_type: policy
+  jurisdiction: west-virginia
+  issuing_body: West Virginia Office of Technology (Chief Information Officer)
+  tags:
+  - cybersecurity
+  recheck: monthly
+  index_link: https://drive.google.com/file/d/1ojj02ch1Ufl6tfdNx22IkcGA0Kdx3z4q/view
+  found_via: https://technology.wv.gov/policy-governance/ot-policies (the Drive download form of the linked file; the URL is built from the file id in the index link)
+  listed_as: WVOT-PO1014 - Malicious Software Protection Policy - 03/13/2026
+  why_relevant: 'The Office of Technology''s Malicious Software Protection Policy (OPR: WVOT Cybersecurity).'
+- id: wv-wvot-po1015
+  sha256: "d6b4c175f66548c5945528c985b234128fb1ce89fe45a095ce28299ee623bd95"
+  url: https://drive.google.com/uc?export=download&id=1LjOwh1UW8sE1meY1SIi74HQ2PfxNuOiY
+  format: pdf
+  citation: WVOT-PO1015
+  title: Change & Configuration Management Policy
+  doc_type: policy
+  jurisdiction: west-virginia
+  issuing_body: West Virginia Office of Technology (Chief Information Officer)
+  tags:
+  - cloud-resilience
+  - governance
+  recheck: monthly
+  index_link: https://drive.google.com/file/d/1LjOwh1UW8sE1meY1SIi74HQ2PfxNuOiY/view
+  found_via: https://technology.wv.gov/policy-governance/ot-policies (the Drive download form of the linked file; the URL is built from the file id in the index link)
+  listed_as: WVOT-PO1015 - Change & Configuration Management Policy - 02/25/2026
+  why_relevant: 'Enterprise change management: identification, evaluation, planning, coordination and communication of changes to the state computing environment.'
+- id: wv-wvot-po1017
+  sha256: "bf2f97dae73ff8cde202c0d5cee033544802c03c72b11e0ff1a2caa877024fc9"
+  url: https://drive.google.com/uc?export=download&id=1kGB4Hhyc93r-hPIxJ2iyPoj0RAJx-2EX
+  format: pdf
+  citation: WVOT-PO1017
+  title: Social Media Access and Use
+  doc_type: policy
+  jurisdiction: west-virginia
+  issuing_body: West Virginia Office of Technology (Chief Information Officer)
+  tags:
+  - digital-services
+  - governance
+  recheck: monthly
+  index_link: https://drive.google.com/file/d/1kGB4Hhyc93r-hPIxJ2iyPoj0RAJx-2EX/view
+  found_via: https://technology.wv.gov/policy-governance/ot-policies (the Drive download form of the linked file; the URL is built from the file id in the index link)
+  listed_as: WVOT-PO1017 - Social Media Access and Use - 12/31/2023 - Under Review
+  why_relevant: Access to and use of social media by state agencies and employees. The index marks it 'Under Review'; it is still the published policy, so it is held.
+- id: wv-wvot-po1018
+  sha256: "64a1ed1ae7dab7f5602427a37fb169c4bedb2e2ece1d1904f710653a206be735"
+  url: https://drive.google.com/uc?export=download&id=1C3gA9stnwlkL_8ThGe-eZtd5c_Ea10pJ
+  format: pdf
+  citation: WVOT-PO1018
+  title: Network Violation Management
+  doc_type: policy
+  jurisdiction: west-virginia
+  issuing_body: West Virginia Office of Technology (Chief Information Officer)
+  tags:
+  - cybersecurity
+  recheck: monthly
+  index_link: https://drive.google.com/file/d/1C3gA9stnwlkL_8ThGe-eZtd5c_Ea10pJ/view
+  found_via: https://technology.wv.gov/policy-governance/ot-policies (the Drive download form of the linked file; the URL is built from the file id in the index link)
+  listed_as: WVOT-PO1018 - Network Violation Management - 12/31/2023 - Under Review
+  why_relevant: How the state protects its IT assets, employees and system integrity from network misuse (hostile-environment sites, explicit material and other violations). The index marks it 'Under Review'; it is still the published policy, so it is held.
+- id: wv-wvot-po1019
+  sha256: "7c0f17242f9719e72b7520b188f21cc5ee9acf6017cf0f193ee85e66d1dd47bc"
+  url: https://drive.google.com/uc?export=download&id=1mb5Ei0Qc5uxIUcVhYjyolFgpWEQX2tL_
+  format: pdf
+  citation: WVOT-PO1019
+  title: Wireless Access Points
+  doc_type: policy
+  jurisdiction: west-virginia
+  issuing_body: West Virginia Office of Technology (Chief Information Officer)
+  tags:
+  - cybersecurity
+  - cloud-resilience
+  recheck: monthly
+  index_link: https://drive.google.com/file/d/1mb5Ei0Qc5uxIUcVhYjyolFgpWEQX2tL_/view
+  found_via: https://technology.wv.gov/policy-governance/ot-policies (the Drive download form of the linked file; the URL is built from the file id in the index link)
+  listed_as: WVOT-PO1019 - Wireless Access Points - 12/31/2023 - Under Review
+  why_relevant: How wireless technologies are deployed, administered and supported on state networks, and the security of the wireless network. The index marks it 'Under Review'; it is still the published policy, so it is held.
+- id: wv-wvot-po1020
+  sha256: "74b2dbca78ee1726aa4899c01bb15b27a4dbbcf6fe242de4b4d98eb1414449b2"
+  url: https://drive.google.com/uc?export=download&id=1EV-P32fmIKEKP6YnBAOrip6fHQnRmq3K
+  format: pdf
+  citation: WVOT-PO1020
+  title: Data Center Security
+  doc_type: policy
+  jurisdiction: west-virginia
+  issuing_body: West Virginia Office of Technology (Chief Information Officer)
+  tags:
+  - cybersecurity
+  - cloud-resilience
+  recheck: monthly
+  index_link: https://drive.google.com/file/d/1EV-P32fmIKEKP6YnBAOrip6fHQnRmq3K/view
+  found_via: https://technology.wv.gov/policy-governance/ot-policies (the Drive download form of the linked file; the URL is built from the file id in the index link)
+  listed_as: WVOT-PO1020 - Data Center Security - 03/23/2026
+  why_relevant: 'Security of the Office of Technology''s data centers: authorization levels, controls and vetting so personnel and vendors are authenticated and escorted (the file is titled ''Data Center Security Policy'').'
+- id: wv-wvot-po1021
+  sha256: "90e169bfd064a763ed5b96614c1142fe55b06a38f95a59603a6441fe2774759a"
+  url: https://drive.google.com/uc?export=download&id=1yOI7u4cMb5njEXLrJkmpqy4h-CQvCt0R
+  format: pdf
+  citation: WVOT-PO1021
+  title: Account Management
+  doc_type: policy
+  jurisdiction: west-virginia
+  issuing_body: West Virginia Office of Technology (Chief Information Officer)
+  tags:
+  - cybersecurity
+  recheck: monthly
+  index_link: https://drive.google.com/file/d/1yOI7u4cMb5njEXLrJkmpqy4h-CQvCt0R/view
+  found_via: https://technology.wv.gov/policy-governance/ot-policies (the Drive download form of the linked file; the URL is built from the file id in the index link)
+  listed_as: WVOT-PO1021 - Account Management 03/27/2026
+  why_relevant: 'The Office of Technology''s Account Management Policy (OPR: WVOT Operations); the file is titled ''Account Management Policy''.'
+- id: wv-wvot-po1022
+  sha256: "34c15da9834096c15570c7c136b295466b1454b5ae7513bbe80bfaf7bcf74440"
+  url: https://drive.google.com/uc?export=download&id=1Vzds-P5e4g0Z_2koj3UqFHXcVEzgNVzD
+  format: pdf
+  citation: WVOT-PO1022
+  title: Acceptable Internet Usage Policy
+  doc_type: policy
+  jurisdiction: west-virginia
+  issuing_body: West Virginia Office of Technology (Chief Information Officer)
+  tags:
+  - cybersecurity
+  recheck: monthly
+  index_link: https://drive.google.com/file/d/1Vzds-P5e4g0Z_2koj3UqFHXcVEzgNVzD/view
+  found_via: https://technology.wv.gov/policy-governance/ot-policies (the Drive download form of the linked file; the URL is built from the file id in the index link)
+  listed_as: WVOT-PO1022 - Acceptable Internet Usage Policy - 03/19/2026
+  why_relevant: Acceptable and unacceptable uses of state-provided internet access.
+- id: wv-wvot-po1025
+  sha256: "4ef276b5895dc279e50c20adfeccef50743da5864497d60e471e9f62d6920b0d"
+  url: https://drive.google.com/uc?export=download&id=1CCj5pPVdb9RiG-E61oel9If-1qQ7kb-L
+  format: pdf
+  citation: WVOT-PO1025
+  title: Assessment and Authorization Policy (formerly Accreditation and Certification)
+  doc_type: policy
+  jurisdiction: west-virginia
+  issuing_body: West Virginia Office of Technology (Chief Information Officer)
+  tags:
+  - cybersecurity
+  - oversight
+  recheck: monthly
+  index_link: https://drive.google.com/file/d/1CCj5pPVdb9RiG-E61oel9If-1qQ7kb-L/view
+  found_via: https://technology.wv.gov/policy-governance/ot-policies (the Drive download form of the linked file; the URL is built from the file id in the index link)
+  listed_as: WVOT-PO1025 - Assessment and Authorization Policy (formerly Accreditation and Certification) - 02/19/2026
+  why_relevant: Security-readiness validation (reviews and testing of configurations) of devices, systems, applications and system software before deployment to production.
+- id: wv-wvot-po1026
+  sha256: "14c3106d3f35c501ed23d8d09416a127b84a0afd70b498bda1bb57f2f14ed151"
+  url: https://drive.google.com/uc?export=download&id=1x3ae8elFh6m8VX6UOvk5brkhE4Rp20Ct
+  format: pdf
+  citation: WVOT-PO1026
+  title: Network Monitoring Policy (Formerly WVOT Backbone Monitoring)
+  doc_type: policy
+  jurisdiction: west-virginia
+  issuing_body: West Virginia Office of Technology (Chief Information Officer)
+  tags:
+  - cybersecurity
+  - cloud-resilience
+  recheck: monthly
+  index_link: https://drive.google.com/file/d/1x3ae8elFh6m8VX6UOvk5brkhE4Rp20Ct/view
+  found_via: https://technology.wv.gov/policy-governance/ot-policies (the Drive download form of the linked file; the URL is built from the file id in the index link)
+  listed_as: WVOT-PO1026 - Network Monitoring Policy (Formerly WVOT Backbone Monitoring) - 03/26/2026
+  why_relevant: 'The Office of Technology''s Network Monitoring Policy (OPR: WVOT Cybersecurity).'
+- id: wv-wvot-po1034
+  sha256: "cffff7fb9918a4c9c3b02137cb31fad0ac74b059f35c7f8ff16b5414f2672fda"
+  url: https://drive.google.com/uc?export=download&id=1Cfx53Z4RDxhrpCAyC1ARg1v8WK28r67A
+  format: pdf
+  citation: WVOT-PO1034
+  title: Artificial Intelligence Code of Ethics Policy
+  doc_type: policy
+  jurisdiction: west-virginia
+  issuing_body: West Virginia Office of Technology (Chief Information Officer)
+  tags:
+  - ai
+  - governance
+  recheck: monthly
+  index_link: https://drive.google.com/file/d/1Cfx53Z4RDxhrpCAyC1ARg1v8WK28r67A/view
+  found_via: https://technology.wv.gov/policy-governance/ot-policies (the Drive download form of the linked file; the URL is built from the file id in the index link)
+  listed_as: WVOT-PO1034 - Artificial Intelligence Code of Ethics Policy - 10/07/2026
+  why_relevant: Basic principles for the responsible and ethical deployment of AI tools across state government operations, aligned with preliminary findings of the West Virginia AI Task Force created by W. Va. Code 5A-6-9. Also linked from the Office's Artificial Intelligence page.
+- id: wv-wvot-po1035
+  sha256: "65b067c7ff88f3c7b46c5e6248c46424105bfc982714ab50ce7e27402818f021"
+  url: https://drive.google.com/uc?export=download&id=1h0RoiXvDJvZS4_RDFrOnhR5yROLydv_S
+  format: pdf
+  citation: WVOT-PO1035
+  title: Generative Artificial Intelligence Acceptable Use Policy
+  doc_type: policy
+  jurisdiction: west-virginia
+  issuing_body: West Virginia Office of Technology (Chief Information Officer)
+  tags:
+  - ai
+  recheck: monthly
+  index_link: https://drive.google.com/file/d/1h0RoiXvDJvZS4_RDFrOnhR5yROLydv_S/view
+  found_via: https://technology.wv.gov/policy-governance/ot-policies (the Drive download form of the linked file; the URL is built from the file id in the index link)
+  listed_as: WVOT-PO1035 - Generative Artificial Intelligence Acceptable Use Policy - 10/07/2026
+  why_relevant: Acceptable use of generative large language model and AI systems (ChatGPT, Copilot, Gemini and Grammarly are named as examples), based on preliminary findings of the AI Task Force. Also linked from the Office's Artificial Intelligence page.
+- id: wv-wvot-po2001
+  sha256: "6fa8e782fec1983a103625243e948ed72f78fb27f5c1b28da1526b4643aa14e3"
+  url: https://drive.google.com/uc?export=download&id=11YauyxbeXQNXJx51A1ADM-us7m7hVcqN
+  format: pdf
+  citation: WVOT-PO2001
+  title: Supply Chain Risk Management Policy
+  doc_type: policy
+  jurisdiction: west-virginia
+  issuing_body: West Virginia Office of Technology (Chief Information Officer)
+  tags:
+  - cybersecurity
+  - procurement
+  recheck: monthly
+  index_link: https://drive.google.com/file/d/11YauyxbeXQNXJx51A1ADM-us7m7hVcqN/view
+  found_via: https://technology.wv.gov/policy-governance/ot-policies (the Drive download form of the linked file; the URL is built from the file id in the index link)
+  listed_as: WVOT-PO2001 - Supply Chain Risk Management Policy - 12/15/2025
+  why_relevant: Requirements to identify, assess and manage supply chain risks across executive branch departments.
+- id: wv-wvot-po2002
+  sha256: "b8883786a9157c7e0b80618d1cc04cdb7d2148b5267ccb0b181c2dbfe615786a"
+  url: https://drive.google.com/uc?export=download&id=1E974a0zSztb8Ah802ms2Y7x1GxDsXHEq
+  format: pdf
+  citation: WVOT-PO2002
+  title: Cybersecurity and International Travel Policy
+  doc_type: policy
+  jurisdiction: west-virginia
+  issuing_body: West Virginia Office of Technology (Chief Information Officer)
+  tags:
+  - cybersecurity
+  recheck: monthly
+  index_link: https://drive.google.com/file/d/1E974a0zSztb8Ah802ms2Y7x1GxDsXHEq/view
+  found_via: https://technology.wv.gov/policy-governance/ot-policies (the Drive download form of the linked file; the URL is built from the file id in the index link)
+  listed_as: WVOT-PO2002 - Cybersecurity and International Travel Policy - 03/11/2026
+  why_relevant: Practices to mitigate the risks of international travel with state devices (loss and theft, foreign networks, seizure of equipment). The Cyber Security page links a second Drive file, a presentation ('Passport to Cybersecurity') that overviews this policy; it is left out.
+- id: wv-wvot-po2005
+  sha256: "9f5db7fd8a528472cbd48ec7439a88b414a458a795c554177fd5776d9dcfea9b"
+  url: https://drive.google.com/uc?export=download&id=1RJVnuscRjAughsImNvKJrBvVfaFi0chA
+  format: pdf
+  citation: WVOT-PO2005
+  title: Memorandum of Understanding(MOU) Policy
+  doc_type: policy
+  jurisdiction: west-virginia
+  issuing_body: West Virginia Office of Technology (Chief Information Officer)
+  tags:
+  - governance
+  - data
+  recheck: monthly
+  index_link: https://drive.google.com/file/d/1RJVnuscRjAughsImNvKJrBvVfaFi0chA/view
+  found_via: https://technology.wv.gov/policy-governance/ot-policies (the Drive download form of the linked file; the URL is built from the file id in the index link)
+  listed_as: WVOT-PO2005 - Memorandum of Understanding(MOU) Policy - 01/22/2026
+  why_relevant: Guidelines and procedures for creating, reviewing, approving and managing memoranda of understanding. The file prints its first-page number as 'WVOT-P02005' (a zero for the letter O) and its title as 'Memorandum of Understanding Management (MOU) Policy'; it prints the correct number elsewhere in its pages.
+- id: wv-wvot-po2007
+  sha256: "d69dbc050483278d7a653416ab4fd341835c39971c48a6e2014a74f2e5b3d783"
+  url: https://drive.google.com/uc?export=download&id=1TfYMgwEHDz9RBU5fNZ0wFNDtJQMxg13J
+  format: pdf
+  citation: WVOT-PO2007
+  title: Data Sharing Agreement (DSA) Policy
+  doc_type: policy
+  jurisdiction: west-virginia
+  issuing_body: West Virginia Office of Technology (Chief Information Officer)
+  tags:
+  - data
+  - governance
+  recheck: monthly
+  index_link: https://drive.google.com/file/d/1TfYMgwEHDz9RBU5fNZ0wFNDtJQMxg13J/view
+  found_via: https://technology.wv.gov/policy-governance/ot-policies (the Drive download form of the linked file; the URL is built from the file id in the index link)
+  listed_as: WVOT-PO2007 - Data Sharing Agreement (DSA) Policy - 04/28/2026
+  why_relevant: A framework for sharing data across state government agencies and with external partners.
+- id: wv-wvot-pl1007
+  sha256: "547fbe5b0da8305e22fddc65e546a7ae82cb19686c89cbbe39b5a0db4d0e875a"
+  url: https://drive.google.com/uc?export=download&id=1wno_39TI_MEu46gFbTxeEDG4W8eLwumq
+  format: pdf
+  citation: WVOT-PL1007
+  title: Incident Management Plan
+  doc_type: policy
+  jurisdiction: west-virginia
+  issuing_body: West Virginia Office of Technology (Chief Information Officer)
+  tags:
+  - cybersecurity
+  recheck: monthly
+  index_link: https://drive.google.com/file/d/1wno_39TI_MEu46gFbTxeEDG4W8eLwumq/view
+  found_via: https://technology.wv.gov/policy-governance/ot-policies (the Drive download form of the linked file; the URL is built from the file id in the index link)
+  listed_as: WVOT-PL1007 - Incident Management Plan - 03/03/2026
+  why_relevant: The state's plan for responding to security incidents that threaten the confidentiality, integrity or availability of state information assets, systems and networks (listed under Plans on the index).
+- id: wv-wvot-pr1001
+  sha256: "53753068160e14e02fb59ffdf9c0c12388318b61a281df2b11f784460bb67546"
+  url: https://drive.google.com/uc?export=download&id=1Frk3hFAjTsTw8l-9q2fP5ImonTH0Dd2a
+  format: pdf
+  citation: WVOT-PR1001
+  title: Technical Investigation Request Procedure
+  doc_type: policy
+  jurisdiction: west-virginia
+  issuing_body: West Virginia Office of Technology (Chief Information Officer)
+  tags:
+  - cybersecurity
+  - governance
+  recheck: monthly
+  index_link: https://drive.google.com/file/d/1Frk3hFAjTsTw8l-9q2fP5ImonTH0Dd2a/view
+  found_via: https://technology.wv.gov/policy-governance/ot-policies (the Drive download form of the linked file; the URL is built from the file id in the index link)
+  listed_as: WVOT-PR1001 - Technical Investigation Request Procedure - 11/18/2025
+  why_relevant: The process by which state agencies request an investigation into an employee's technology-based activity (listed under Procedures on the index). The request form is a separate file, left out as a form.
+- id: wv-wvot-pr1009
+  sha256: "422cc15b59ddba5420cf2c1e3f2402e1861e339871df364d83a26ecee16821f5"
+  url: https://drive.google.com/uc?export=download&id=1lbEpL3DmrbyAqsa1B5B4zF_VKtZsfkvU
+  format: pdf
+  citation: WVOT-PR1009
+  title: Vulnerability Assessment and Remediation Procedure
+  doc_type: policy
+  jurisdiction: west-virginia
+  issuing_body: West Virginia Office of Technology (Chief Information Officer)
+  tags:
+  - cybersecurity
+  recheck: monthly
+  index_link: https://drive.google.com/file/d/1lbEpL3DmrbyAqsa1B5B4zF_VKtZsfkvU/view
+  found_via: https://technology.wv.gov/policy-governance/ot-policies (the Drive download form of the linked file; the URL is built from the file id in the index link)
+  listed_as: WVOT-PR1009 - Vulnerability Assessment and Remediation Procedure - 03/13/2026
+  why_relevant: Requirements for information security vulnerability assessments and remediation on the executive domain (listed under Procedures on the index). The index also lists an older 'Vulnerability Scanning' 2012 version of the same number, left out as superseded.
+- id: wv-wvot-pr1013
+  sha256: "b3f398d71d888c5554ebedce4370d04e512dee06f17c901689b8818aee09a443"
+  url: https://docs.google.com/document/d/1923XC1sdhyRyS5j00FyKSplvU5E6SXXs/export?format=docx
+  format: docx
+  citation: WVOT-PR1013
+  title: WVOT Patch Management
+  doc_type: policy
+  jurisdiction: west-virginia
+  issuing_body: West Virginia Office of Technology (Chief Information Officer)
+  tags:
+  - cybersecurity
+  - cloud-resilience
+  recheck: monthly
+  index_link: https://docs.google.com/document/d/1923XC1sdhyRyS5j00FyKSplvU5E6SXXs/edit?usp=sharing&ouid=114679628680676147366&rtpof=true&sd=true
+  found_via: https://technology.wv.gov/policy-governance/ot-policies (a Google Doc; the URL is Google Docs' export-as-Word form of the linked document id, built from the pattern)
+  listed_as: WVOT-PR1013 - WVOT Patch Management - 06/01/2016 - Under Review
+  identity_text: routine maintenance of its computing assets
+  why_relevant: The Office of Technology's patch management procedure for Windows-based systems (security patches, software updates, drivers). The index marks it 'Under Review'; it is still the published procedure, so it is held. The title block (number, title, dates) is in the document's page header, which the Word reader does not read, so identity is checked by a phrase the body prints.
+- id: wv-wvot-po1033
+  url: https://drive.google.com/uc?export=download&id=1DX8Ix5XazRKL7PsRGlQ8KDLC4yF-wbdB
+  format: pdf
+  citation: WVOT-PO1033
+  title: Acceptable Use of Google Drive Policy
+  doc_type: policy
+  jurisdiction: west-virginia
+  issuing_body: West Virginia Office of Technology (Chief Information Officer)
+  tags:
+  - cybersecurity
+  - data
+  recheck: monthly
+  stub: true
+  stub_reason: 'Google Drive answered the Fetcher''s download request (drive.google.com/uc?export=download&id=1DX8Ix5X...) with HTTP 200 and its sign-in page (text/html, final URL accounts.google.com/v3/signin/identifier, title ''Google Drive: Sign-in''), measured 2026-11-12: the file is not public. The text is not available from the official source without a Google sign-in.'
+  index_link: https://drive.google.com/file/d/1DX8Ix5XazRKL7PsRGlQ8KDLC4yF-wbdB/view?usp=drive_link
+  found_via: https://technology.wv.gov/policy-governance/ot-policies (the Drive download form of the linked file; the URL is built from the file id in the index link)
+  listed_as: WVOT-PO1033 - Acceptable Use of Google Drive Policy - 12/20/2023 - Under Review
+  why_relevant: Acceptable use of Google Drive on state accounts (the title on the index; the text is not available). Index marks it 'Under Review'.
+- id: wv-wvot-po2003
+  url: https://drive.google.com/uc?export=download&id=1Z3kcCCy44WknF98YfalG59vUvRbk2AOd
+  format: pdf
+  citation: WVOT-PO2003
+  title: Cybersecurity Risk Assessment Policy
+  doc_type: policy
+  jurisdiction: west-virginia
+  issuing_body: West Virginia Office of Technology (Chief Information Officer)
+  tags:
+  - cybersecurity
+  - oversight
+  recheck: monthly
+  stub: true
+  stub_reason: 'Google Drive answered the Fetcher''s download request (drive.google.com/uc?export=download&id=1Z3kcCCy...) with HTTP 200 and its sign-in page (text/html, final URL accounts.google.com/v3/signin/identifier, title ''Google Drive: Sign-in''), measured 2026-11-12: the file is not public. The text is not available from the official source without a Google sign-in.'
+  index_link: https://drive.google.com/file/d/1Z3kcCCy44WknF98YfalG59vUvRbk2AOd/view?usp=sharing
+  found_via: https://technology.wv.gov/policy-governance/ot-policies (the Drive download form of the linked file; the URL is built from the file id in the index link)
+  listed_as: WVOT-PO2003 - Cybersecurity Risk Assessment Policy - 05/28/2026
+  why_relevant: The Cybersecurity Risk Assessment Policy listed on the index (the text is not available).
+- id: wv-wvot-po2004
+  url: https://drive.google.com/uc?export=download&id=1IXRmfezN30TAO51XCQoaKKPimVAbgsYQ
+  format: pdf
+  citation: WVOT-PO2004
+  title: Audit Logging Policy
+  doc_type: policy
+  jurisdiction: west-virginia
+  issuing_body: West Virginia Office of Technology (Chief Information Officer)
+  tags:
+  - cybersecurity
+  recheck: monthly
+  stub: true
+  stub_reason: 'Google Drive answered the Fetcher''s download request (drive.google.com/uc?export=download&id=1IXRmfez...) with HTTP 200 and its sign-in page (text/html, final URL accounts.google.com/v3/signin/identifier, title ''Google Drive: Sign-in''), measured 2026-11-12: the file is not public. The text is not available from the official source without a Google sign-in.'
+  index_link: https://drive.google.com/file/d/1IXRmfezN30TAO51XCQoaKKPimVAbgsYQ/view?usp=drive_link
+  found_via: https://technology.wv.gov/policy-governance/ot-policies (the Drive download form of the linked file; the URL is built from the file id in the index link)
+  listed_as: WVOT-PO2004 - Audit Logging Policy - 07/06/2026
+  why_relevant: The Audit Logging Policy listed on the index (the text is not available).
+- id: wv-wvot-po-computrace
+  url: https://drive.google.com/uc?export=download&id=1Iu1q8Plk-R87ahaVwWW5jKCMIjZRW0fh
+  format: pdf
+  citation: WVOT-PO? (number not printed on the index)
+  title: Computrace
+  doc_type: policy
+  jurisdiction: west-virginia
+  issuing_body: West Virginia Office of Technology (Chief Information Officer)
+  tags:
+  - cybersecurity
+  recheck: monthly
+  stub: true
+  stub_reason: 'Google Drive answered the Fetcher''s download request (drive.google.com/uc?export=download&id=1Iu1q8Pl...) with HTTP 200 and its sign-in page (text/html, final URL accounts.google.com/v3/signin/identifier, title ''Google Drive: Sign-in''), measured 2026-11-12: the file is not public. The text is not available from the official source without a Google sign-in.'
+  index_link: https://drive.google.com/file/d/1Iu1q8Plk-R87ahaVwWW5jKCMIjZRW0fh/view?usp=sharing
+  found_via: https://technology.wv.gov/policy-governance/ot-policies (the Drive download form of the linked file; the URL is built from the file id in the index link)
+  listed_as: WVOT-PO? - Computrace
+  why_relevant: A policy the index lists as 'WVOT-PO? - Computrace' with no number or date (the text is not available).
+- id: wv-wvot-pr1002
+  url: https://drive.google.com/uc?export=download&id=1q5Vk4FtdkIQVZZj0hFpX7Z9Bki90RfAV
+  format: pdf
+  citation: WVOT-PR1002
+  title: Protecting Sensitive Information
+  doc_type: policy
+  jurisdiction: west-virginia
+  issuing_body: West Virginia Office of Technology (Chief Information Officer)
+  tags:
+  - data
+  - cybersecurity
+  recheck: monthly
+  stub: true
+  stub_reason: 'Google Drive answered the Fetcher''s download request (drive.google.com/uc?export=download&id=1q5Vk4Ft...) with HTTP 200 and its sign-in page (text/html, final URL accounts.google.com/v3/signin/identifier, title ''Google Drive: Sign-in''), measured 2026-11-12: the file is not public. The text is not available from the official source without a Google sign-in.'
+  index_link: https://drive.google.com/file/d/1q5Vk4FtdkIQVZZj0hFpX7Z9Bki90RfAV/view?usp=sharing
+  found_via: https://technology.wv.gov/policy-governance/ot-policies (the Drive download form of the linked file; the URL is built from the file id in the index link)
+  listed_as: WVOT-PR1002 - Protecting Sensitive Information
+  why_relevant: The procedure listed under Procedures as 'Protecting Sensitive Information' (the text is not available).
+- id: wv-wvot-pr1027
+  url: https://drive.google.com/uc?export=download&id=1IISvdyKTI0SSD74mPuUtrZSNyrXccl4E
+  format: pdf
+  citation: WVOT-PR1027
+  title: Phishing Campaigns
+  doc_type: policy
+  jurisdiction: west-virginia
+  issuing_body: West Virginia Office of Technology (Chief Information Officer)
+  tags:
+  - cybersecurity
+  recheck: monthly
+  stub: true
+  stub_reason: 'Google Drive answered the Fetcher''s download request (drive.google.com/uc?export=download&id=1IISvdyK...) with HTTP 200 and its sign-in page (text/html, final URL accounts.google.com/v3/signin/identifier, title ''Google Drive: Sign-in''), measured 2026-11-12: the file is not public. The text is not available from the official source without a Google sign-in.'
+  index_link: https://drive.google.com/file/d/1IISvdyKTI0SSD74mPuUtrZSNyrXccl4E/view
+  found_via: https://technology.wv.gov/policy-governance/ot-policies (the Drive download form of the linked file; the URL is built from the file id in the index link)
+  listed_as: WVOT-PR1027 - Phishing Campaigns
+  why_relevant: The procedure listed under Procedures as 'Phishing Campaigns' (the text is not available).
+- id: wv-wvot-pr1017
+  url: https://docs.google.com/document/d/1cz8LTSeVVH0rzM2mrhmA7a2_Rw3CHGGF8Vp5byyexxc/export?format=docx
+  format: docx
+  citation: WVOT-PR1017
+  title: WVOT Password Standards
+  doc_type: policy
+  jurisdiction: west-virginia
+  issuing_body: West Virginia Office of Technology (Chief Information Officer)
+  tags:
+  - cybersecurity
+  recheck: monthly
+  stub: true
+  stub_reason: 'Google Docs answered the export request (docs.google.com/document/d/1cz8LTSe.../export?format=docx) with HTTP 401, measured 2026-11-12: the document is not public. The text is not available from the official source without a Google sign-in.'
+  index_link: https://docs.google.com/document/d/1cz8LTSeVVH0rzM2mrhmA7a2_Rw3CHGGF8Vp5byyexxc/edit?usp=sharing
+  found_via: https://technology.wv.gov/policy-governance/ot-policies (a Google Doc; the URL is Google Docs' export-as-Word form of the linked document id, built from the pattern)
+  listed_as: WVOT-PR1017 - WVOT Password Standards
+  why_relevant: The WVOT Password Standards procedure listed under Procedures (the text is not available). The Cyber Security page also links a 'Password Standards' Drive file, which also answers with the sign-in page.
+- id: wv-wvot-pr1023
+  url: https://docs.google.com/document/d/1bhZSK4hzpjRsgJenJa9PYz9jicqfDUBL/export?format=docx
+  format: docx
+  citation: WVOT-PR1023
+  title: Media Sanitization
+  doc_type: policy
+  jurisdiction: west-virginia
+  issuing_body: West Virginia Office of Technology (Chief Information Officer)
+  tags:
+  - cybersecurity
+  - data
+  recheck: monthly
+  stub: true
+  stub_reason: 'Google Docs answered the export request (docs.google.com/document/d/1bhZSK4h.../export?format=docx) with HTTP 401, measured 2026-11-12: the document is not public. The text is not available from the official source without a Google sign-in.'
+  index_link: https://docs.google.com/document/d/1bhZSK4hzpjRsgJenJa9PYz9jicqfDUBL/edit?usp=sharing&ouid=118186691699027754518&rtpof=true&sd=true
+  found_via: https://technology.wv.gov/policy-governance/ot-policies (a Google Doc; the URL is Google Docs' export-as-Word form of the linked document id, built from the pattern)
+  listed_as: WVOT-PR1023 - Media Sanitization
+  why_relevant: The Media Sanitization procedure listed under Procedures (the text is not available). Rule 163CSR1 covers sanitization of IT equipment.
+- id: wv-wvot-pr1009-2012
+  url: https://drive.google.com/uc?export=download&id=1uwqBSo4gmkaYTXVQliMME5RoiDd_AEGS
+  format: pdf
+  citation: WVOT-PR1009 (2012 Vulnerability Scanning)
+  title: Vulnerability Scanning
+  doc_type: policy
+  jurisdiction: west-virginia
+  issuing_body: West Virginia Office of Technology (Chief Information Officer)
+  tags:
+  - cybersecurity
+  recheck: monthly
+  stub: true
+  stub_reason: 'Google Drive answered the Fetcher''s download request for both links of this row (drive.google.com/uc?export=download&id=1uwqBSo4gmkaYTXVQliMME5RoiDd_AEGS and id=1R17vDEPpIJ4ad_0px0BYl78OVIAvJWwc) with HTTP 200 and its sign-in page (text/html, title ''Google Drive: Sign-in''), measured 2026-11-12: the file is not public. The text is not available from the official source without a Google sign-in.'
+  index_link: https://drive.google.com/file/d/1uwqBSo4gmkaYTXVQliMME5RoiDd_AEGS/view?usp=sharing
+  found_via: https://technology.wv.gov/policy-governance/ot-policies (the Drive download form of the linked file; the URL is built from the file id in the index link)
+  listed_as: WVOT-PR1009 - Vulnerability Scanning - 11/01/2012 - Under Review To Consolidate With Above Version
+  why_relevant: The older 'Vulnerability Scanning' row of the same procedure number, listed under Procedures with the status 'Under Review To Consolidate With Above Version' (the row above it is the 03/13/2026 Vulnerability Assessment and Remediation Procedure, seeded as wv-wvot-pr1009). The index states no supersession; the text is not available.
+- id: wv-wveb-memo-2017-06-12
+  sha256: "e5966048ee7ecc9b67b74a1a714726a667c21ac63ea0b5c10f32783d51fdc15d"
+  url: https://brim.wv.gov/media/612/download?inline
+  format: pdf
+  citation: 'BRIM Memorandum, June 12, 2017'
+  title: Memo to reaffirm privacy policies
+  doc_type: policy
+  jurisdiction: west-virginia
+  issuing_body: West Virginia State Privacy Office, Board of Risk and Insurance Management (originally issued by the Health Care Authority)
+  tags:
+  - data
+  - governance
+  recheck: monthly
+  index_link: https://brim.wv.gov/media/612/download?inline
+  found_via: https://brim.wv.gov/privacy/privacy-policies (the link the page prints; the Privacy Policies list of the State Privacy Office)
+  listed_as: 'Memo to reaffirm privacy policies'
+  identity_text: 'West Virginia Executive Branch Privacy Policies'
+  why_relevant: 'The memorandum of the Director of the Board of Risk and Insurance Management to the Chief of Staff and Cabinet Secretaries, dated June 12, 2017, saying that after Executive Order 3-17 moved the State Privacy Office to the Board the current Executive Branch Privacy Policies and Procedures remain in effect. The page says the policies were reaffirmed by it.'
+- id: wv-wveb-p100
+  sha256: "9e6ea839eab7cdd9100888b74a29702c73df13a97ad4161e804c73531e045090"
+  url: https://brim.wv.gov/media/618/download?inline
+  format: pdf
+  citation: WVEB-P100
+  title: Privacy Policy Introduction
+  doc_type: policy
+  jurisdiction: west-virginia
+  issuing_body: West Virginia State Privacy Office, Board of Risk and Insurance Management (originally issued by the Health Care Authority)
+  tags:
+  - data
+  - governance
+  recheck: monthly
+  index_link: https://brim.wv.gov/media/618/download?inline
+  found_via: https://brim.wv.gov/privacy/privacy-policies (the link the page prints; the Privacy Policies list of the State Privacy Office)
+  listed_as: 'Privacy Policy Introduction'
+  identity_text: 'Policy No: WVEB-P100'
+  why_relevant: 'The introduction to the Executive Branch privacy policies: background (Executive Order 6-06), the six privacy principles, and the responsibility of departments and privacy officers. The index lists it without a number; the file prints ''Policy No: WVEB-P100''. The page links the same file twice (media 618 and 621, identical bytes).'
+- id: wv-wveb-privacy-definitions
+  sha256: "3509a4b45d0aff7b64ef72bdf9a88be1fa5751fba6a9aaa02931f208839b92e1"
+  url: https://brim.wv.gov/media/619/download?inline
+  format: pdf
+  citation: WVEB Privacy Policy Definitions
+  title: Privacy Policy Definitions
+  doc_type: policy
+  jurisdiction: west-virginia
+  issuing_body: West Virginia State Privacy Office, Board of Risk and Insurance Management (originally issued by the Health Care Authority)
+  tags:
+  - data
+  recheck: monthly
+  index_link: https://brim.wv.gov/media/619/download?inline
+  found_via: https://brim.wv.gov/privacy/privacy-policies (the link the page prints; the Privacy Policies list of the State Privacy Office)
+  listed_as: 'Privacy Policy Definitions'
+  identity_text: 'PRIVACY POLICY DEFINITIONS'
+  why_relevant: 'The definitions (personally identifiable information, protected health information, access, breach and the other terms) that each privacy policy adopts for terms it does not define itself. No number is printed. The page links the same file twice (media 619 and 622, identical bytes).'
+- id: wv-wveb-p101
+  sha256: "601bd9213646edc5f70a98b9c3d3d0aede767720118eca6e288b32d283ef7f3d"
+  url: https://brim.wv.gov/media/613/download?inline
+  format: pdf
+  citation: WVEB-P101
+  title: Accountability Policy
+  doc_type: policy
+  jurisdiction: west-virginia
+  issuing_body: West Virginia State Privacy Office, Board of Risk and Insurance Management (originally issued by the Health Care Authority)
+  tags:
+  - data
+  - governance
+  recheck: monthly
+  index_link: https://brim.wv.gov/media/613/download?inline
+  found_via: https://brim.wv.gov/privacy/privacy-policies (the link the page prints; the Privacy Policies list of the State Privacy Office)
+  listed_as: 'Accountability Policy - WVEB-P101'
+  identity_text: 'Policy No: WVEB-P101 Issue Date'
+  why_relevant: 'Each department assigns roles and responsibilities for applying the privacy principles to personally identifiable information, including a designated Privacy Officer and workforce training. The index prints ''Issued 3/16/2012 Revised 11/16/2023'' beside the row; the file prints its own header dates.'
+- id: wv-wveb-p101-1
+  sha256: "de83692176c77c3168729bbc1c69f5966783d54aea3fb513d6f1a051cd309b1d"
+  url: https://brim.wv.gov/media/617/download?inline
+  format: pdf
+  citation: WVEB-P101.1
+  title: Response to Unauthorized Disclosures Procedure
+  doc_type: policy
+  jurisdiction: west-virginia
+  issuing_body: West Virginia State Privacy Office, Board of Risk and Insurance Management (originally issued by the Health Care Authority)
+  tags:
+  - data
+  - cybersecurity
+  recheck: monthly
+  index_link: https://brim.wv.gov/media/617/download?inline
+  found_via: https://brim.wv.gov/privacy/privacy-policies (the link the page prints; the Privacy Policies list of the State Privacy Office)
+  listed_as: 'Response to Unauthorized Disclosures Procedure - WVEB-P101.1'
+  identity_text: 'Procedure No: WVEB-P101.1'
+  why_relevant: 'The steps Executive Branch workforce members take to report, contain, investigate and mitigate an unauthorized disclosure of personally identifiable information, including protected health information.'
+- id: wv-wveb-p101-2
+  sha256: "ede48f012e88f93da1c0be3c44cf6c479d45f477c27a9ce3dc221582eb766f8e"
+  url: https://brim.wv.gov/media/616/download?inline
+  format: pdf
+  citation: WVEB-P101.2
+  title: Execution of Confidentiality Agreements Procedure
+  doc_type: policy
+  jurisdiction: west-virginia
+  issuing_body: West Virginia State Privacy Office, Board of Risk and Insurance Management (originally issued by the Health Care Authority)
+  tags:
+  - data
+  - governance
+  recheck: monthly
+  index_link: https://brim.wv.gov/media/616/download?inline
+  found_via: https://brim.wv.gov/privacy/privacy-policies (the link the page prints; the Privacy Policies list of the State Privacy Office)
+  listed_as: 'Execution of Confidentiality Agreements Procedure - WVEB-P101.2'
+  identity_text: 'Procedure No: WVEB-P101.2'
+  why_relevant: 'Requires every member of the Executive Branch workforce to sign the Executive Branch Confidentiality Agreement. The agreement itself (media 614) is a form and is left out.'
+- id: wv-wveb-p101-3
+  sha256: "a31aae1ca65e765ef1c267181b4ec0b987c33597d4be8fb639c5ee3979c45bb6"
+  url: https://brim.wv.gov/media/615/download?inline
+  format: pdf
+  citation: WVEB-P101.3
+  title: Privacy Impact Assessment Guidance
+  doc_type: policy
+  jurisdiction: west-virginia
+  issuing_body: West Virginia State Privacy Office, Board of Risk and Insurance Management (originally issued by the Health Care Authority)
+  tags:
+  - data
+  - governance
+  recheck: monthly
+  index_link: https://brim.wv.gov/media/615/download?inline
+  found_via: https://brim.wv.gov/privacy/privacy-policies (the link the page prints; the Privacy Policies list of the State Privacy Office)
+  listed_as: 'Privacy Impact Assessment Guidance - WVEB-P101.3'
+  identity_text: 'No: WVEB-101.3'
+  why_relevant: 'Guidance on when and how departments perform a privacy impact assessment. The file prints its number without the letter P (''WVEB-101.3'') and calls itself an educational resource and best-practices guide; the page lists it among the policies, so it is held, with that caveat.'
+- id: wv-wveb-p102
+  sha256: "4c5bf88a8eec92bd784fef2031171cdae34b9dc7b1d3b82ba3d2c750b0694ca9"
+  url: https://brim.wv.gov/media/620/download?inline
+  format: pdf
+  citation: WVEB-P102
+  title: Consent Policy
+  doc_type: policy
+  jurisdiction: west-virginia
+  issuing_body: West Virginia State Privacy Office, Board of Risk and Insurance Management (originally issued by the Health Care Authority)
+  tags:
+  - data
+  recheck: monthly
+  index_link: https://brim.wv.gov/media/620/download?inline
+  found_via: https://brim.wv.gov/privacy/privacy-policies (the link the page prints; the Privacy Policies list of the State Privacy Office)
+  listed_as: 'Consent Policy - WVEB-P102'
+  identity_text: 'Policy No: WVEB-P102 Issue Date'
+  why_relevant: 'Departments give individuals a reasonable opportunity to object to the collection, use or disclosure of their personally identifiable information and do not use it inconsistently with their notice without further consent.'
+- id: wv-wveb-p103
+  sha256: "6f2df92399a6d428fbd919ba39f5e0739d55c83079d702047e362ea904acd9ae"
+  url: https://brim.wv.gov/media/623/download?inline
+  format: pdf
+  citation: WVEB-P103
+  title: Individual Rights Policy
+  doc_type: policy
+  jurisdiction: west-virginia
+  issuing_body: West Virginia State Privacy Office, Board of Risk and Insurance Management (originally issued by the Health Care Authority)
+  tags:
+  - data
+  recheck: monthly
+  index_link: https://brim.wv.gov/media/623/download?inline
+  found_via: https://brim.wv.gov/privacy/privacy-policies (the link the page prints; the Privacy Policies list of the State Privacy Office)
+  listed_as: 'Individual Rights Policy - WVEB-P103'
+  identity_text: 'Policy No: WVEB-P103 Issue Date'
+  why_relevant: 'Individuals can access and copy their personally identifiable information held by a department, request amendment, and have means of redress.'
+- id: wv-wveb-p104
+  sha256: "028418973d031153cb2e2490764dc7a04c2b5a95c4aff05f2eb3d4eb63e92e41"
+  url: https://brim.wv.gov/media/624/download?inline
+  format: pdf
+  citation: WVEB-P104
+  title: Minimum Necessary and Limited Use Policy
+  doc_type: policy
+  jurisdiction: west-virginia
+  issuing_body: West Virginia State Privacy Office, Board of Risk and Insurance Management (originally issued by the Health Care Authority)
+  tags:
+  - data
+  recheck: monthly
+  index_link: https://brim.wv.gov/media/624/download?inline
+  found_via: https://brim.wv.gov/privacy/privacy-policies (the link the page prints; the Privacy Policies list of the State Privacy Office)
+  listed_as: 'Minimum Necessary and Limited Use Policy - WVEB-P104'
+  identity_text: 'Policy No: WVEB-P104 Issue Date'
+  why_relevant: 'Departments collect and disclose only the personally identifiable information reasonably needed for a legitimate departmental purpose, within their legal authority.'
+- id: wv-wveb-p105
+  sha256: "d4c80855d28581934c9bf62ee9f47bb9793fa7fae60f368cc6b36439e9f63eea"
+  url: https://brim.wv.gov/media/625/download?inline
+  format: pdf
+  citation: WVEB-P105
+  title: Notice Policy
+  doc_type: policy
+  jurisdiction: west-virginia
+  issuing_body: West Virginia State Privacy Office, Board of Risk and Insurance Management (originally issued by the Health Care Authority)
+  tags:
+  - data
+  recheck: monthly
+  index_link: https://brim.wv.gov/media/625/download?inline
+  found_via: https://brim.wv.gov/privacy/privacy-policies (the link the page prints; the Privacy Policies list of the State Privacy Office)
+  listed_as: 'Notice Policy - WVEB-P105'
+  identity_text: 'Policy No: WVEB-P105 Issue Date'
+  why_relevant: 'Departments that collect personally identifiable information directly from individuals post a privacy notice with stated minimum contents.'
+- id: wv-wveb-p106
+  sha256: "f03edbc8571d3fdcebf1f4a70660f5c280e7e08c1edf910066d072b9f9baf18c"
+  url: https://brim.wv.gov/media/626/download?inline
+  format: pdf
+  citation: WVEB-P106
+  title: Security Safeguards Policy
+  doc_type: policy
+  jurisdiction: west-virginia
+  issuing_body: West Virginia State Privacy Office, Board of Risk and Insurance Management (originally issued by the Health Care Authority)
+  tags:
+  - data
+  - cybersecurity
+  recheck: monthly
+  index_link: https://brim.wv.gov/media/626/download?inline
+  found_via: https://brim.wv.gov/privacy/privacy-policies (the link the page prints; the Privacy Policies list of the State Privacy Office)
+  listed_as: 'Security Safeguards Policy - WVEB-P106'
+  identity_text: 'Policy No: WVEB-P106 Issue Date'
+  why_relevant: 'Departments apply management, operational, physical and technical controls to protect personally identifiable information, in compliance with the Office of Technology''s policies and procedures.'
+- id: wv-wveb-p106-1
+  sha256: "de107c791c1459a14a608b19fd8db91cd3c6d0c85be7e476e2dde8894a0546bb"
+  url: https://brim.wv.gov/media/627/download?inline
+  format: pdf
+  citation: WVEB-P106.1
+  title: Redaction Procedure
+  doc_type: policy
+  jurisdiction: west-virginia
+  issuing_body: West Virginia State Privacy Office, Board of Risk and Insurance Management (originally issued by the Health Care Authority)
+  tags:
+  - data
+  recheck: monthly
+  index_link: https://brim.wv.gov/media/627/download?inline
+  found_via: https://brim.wv.gov/privacy/privacy-policies (the link the page prints; the Privacy Policies list of the State Privacy Office)
+  listed_as: 'Redaction Procedure - WVEB-P106.1'
+  identity_text: 'Procedure No: WVEB-P106.1'
+  why_relevant: 'The procedure for removing personally identifiable information from printed documents before they are shared with a third party, including in response to information requests.'
+- id: wv-watch-wvot-policies
+  url: https://technology.wv.gov/policy-governance/ot-policies
+  format: html
+  citation: WVOT Policies & Standards
+  title: 'Office of Technology: Policies & Standards (the policy library index)'
+  doc_type: policy
+  jurisdiction: west-virginia
+  tags:
+  - governance
+  recheck: monthly
+  watch_only: true
+  why_relevant: 'The statewide policy library: Policies, Plans, Procedures, Forms and Miscellaneous Other Publications, each row a Google Drive file with number, title and date. States the policies are issued by the CIO under W. Va. Code 5A-6 and Executive Orders 6-06 and 3-17. A new, removed or re-dated row shows here.'
+- id: wv-watch-wvot-ai
+  url: https://technology.wv.gov/policy-governance/artificial-intelligence
+  format: html
+  citation: WVOT Artificial Intelligence
+  title: 'Office of Technology: Artificial Intelligence'
+  doc_type: policy
+  jurisdiction: west-virginia
+  tags:
+  - ai
+  recheck: monthly
+  watch_only: true
+  why_relevant: 'The Office''s AI page: the AI Task Force''s agendas and minutes, links to WVOT-PO1034 and WVOT-PO1035, and its lists of approved and prohibited AI software. A change to those lists shows here.'
+- id: wv-watch-wvot-pmo
+  url: https://technology.wv.gov/policy-governance/project-management
+  format: html
+  citation: WVOT Project Management
+  title: 'Office of Technology: Project Management Office'
+  doc_type: policy
+  jurisdiction: west-virginia
+  tags:
+  - oversight
+  recheck: monthly
+  watch_only: true
+  why_relevant: 'The Project Management Office page: the oversight criteria ($250,000, sensitive data, technical complexity) and the CIO authorization step. Its working documents are on a sign-in extranet.'
+- id: wv-watch-wvot-cio-review
+  url: https://technology.wv.gov/technology-services_1/cio-review-services
+  format: html
+  citation: WVOT CIO Review Services
+  title: 'Office of Technology: CIO Review Services'
+  doc_type: policy
+  jurisdiction: west-virginia
+  tags:
+  - oversight
+  - procurement
+  recheck: monthly
+  watch_only: true
+  why_relevant: 'The CIO Review Services page: the CIO review policy (CIO-19-001), the privacy impact assessment form and the cloud SaaS addendum, with the statutory sections cited.'
+- id: wv-watch-wvot-cyber-security
+  url: https://technology.wv.gov/technology-services_1/cyber-security
+  format: html
+  citation: WVOT Cyber Security
+  title: 'Office of Technology: Cyber Security'
+  doc_type: policy
+  jurisdiction: west-virginia
+  tags:
+  - cybersecurity
+  recheck: monthly
+  watch_only: true
+  why_relevant: 'The Cybersecurity Office''s page: its services, links to the audit and risk assessment pages, the risk assessment guide and awareness material.'
+- id: wv-watch-code-5a-6
+  url: https://code.wvlegislature.gov/5A-6/
+  format: html
+  citation: W. Va. Code ch. 5A, art. 6
+  title: 'West Virginia Code: Article 6. Office of Technology (contents page)'
+  doc_type: statute
+  jurisdiction: west-virginia
+  tags:
+  - governance
+  - oversight
+  recheck: monthly
+  watch_only: true
+  why_relevant: The article's contents page, listing every section with its title. A section added or retitled shows here; a section that is repealed prints its notice in the section's own text, not here.
+- id: wv-watch-code-5a-6b
+  url: https://code.wvlegislature.gov/5A-6B/
+  format: html
+  citation: W. Va. Code ch. 5A, art. 6B
+  title: 'West Virginia Code: Article 6B. Cyber Security Program (contents page)'
+  doc_type: statute
+  jurisdiction: west-virginia
+  tags:
+  - cybersecurity
+  recheck: monthly
+  watch_only: true
+  why_relevant: The article's contents page, listing every section with its title. A section added or retitled shows here; a section that is repealed prints its notice in the section's own text, not here.
+- id: wv-watch-code-5a-6c
+  url: https://code.wvlegislature.gov/5A-6C/
+  format: html
+  citation: W. Va. Code ch. 5A, art. 6C
+  title: 'West Virginia Code: Article 6C. West Virginia Cyber Incident Reporting (contents page)'
+  doc_type: statute
+  jurisdiction: west-virginia
+  tags:
+  - cybersecurity
+  recheck: monthly
+  watch_only: true
+  why_relevant: The article's contents page, listing every section with its title. A section added or retitled shows here; a section that is repealed prints its notice in the section's own text, not here.
+- id: wv-watch-csr-office-of-technology
+  url: https://apps.sos.wv.gov/adlaw/csr/rule.aspx?agency=Office%20of%20Technology
+  format: html
+  citation: 'Code of State Rules: Office of Technology (Title 163)'
+  title: 'Secretary of State: Office of Technology rules (Title 163)'
+  doc_type: rule
+  jurisdiction: west-virginia
+  tags:
+  - governance
+  recheck: monthly
+  watch_only: true
+  why_relevant: 'The Secretary of State''s list of every Office of Technology rule with its type, status and effective date (on 2026-11-12: 163-01, 163-02, 163-03, 163-04, 163-05 Active; amended 163-02 and 163-03 In Progress).'
+- id: wv-watch-governor-executive-orders
+  url: https://governor.wv.gov/executive-orders
+  format: html
+  citation: Governor's executive orders
+  title: 'Office of the Governor: Executive Orders'
+  doc_type: executive_order
+  jurisdiction: west-virginia
+  tags:
+  - governance
+  recheck: monthly
+  watch_only: true
+  why_relevant: The Governor's list of executive orders (ten on 2026-11-12, Executive Orders 1-25 to 10-25 of January 2025, none on state IT, cybersecurity, data or AI). A new order shows here.
+- id: wv-watch-brim-privacy-policies
+  url: https://brim.wv.gov/privacy/privacy-policies
+  format: html
+  citation: BRIM Privacy Policies
+  title: 'State Privacy Office (Board of Risk and Insurance Management): Privacy Policies (the privacy policy list)'
+  doc_type: policy
+  jurisdiction: west-virginia
+  tags:
+  - data
+  recheck: monthly
+  watch_only: true
+  found_via: https://brim.wv.gov/privacy (the Privacy menu of the Board's site; the page was found by web search, discovery only, and read in bytes fetched through the Fetcher)
+  why_relevant: 'The list of the Executive Branch Privacy Policies and Procedures (WVEB-P101 to P106.1), which the page says were reaffirmed on June 12, 2017 by the Director of the Board of Risk and Insurance Management after Executive Order 3-17 moved the State Privacy Office to the Board. A new, removed or re-dated row shows here.'
+left_out:
+- text: |-
+    ---- West Virginia found and left out (read 2026-11-12 through the toolkit Fetcher; counts are of rows read).
+    Reconciliation of the Office of Technology's Policies & Standards page (https://technology.wv.gov/policy-governance/ot-policies), row by row: 48 rows (34 under Policies, 1 under Plans, 8 under Procedures, 3 under Forms, 2 under Miscellaneous Other Publications). Outcome: 32 documents, 9 stubs, 7 left out (below). The seven left out: WVOT-PO1023, WVOT-PO2006, the three forms, the Data Protection Addendum and the cabling specification. The 2012 WVOT-PR1009 row is a stub (wv-wvot-pr1009-2012).
+- text: |-
+    Policy library, left out:
+     - WVOT-PO1023 'E-Recycle (See WV Admin Code Title 163)': the row links the Secretary of State's rule page (ruleview.aspx?document=9630), not a policy file. The instrument is rule 163CSR1, seeded as wv-csr-163-1.
+     - WVOT-PO2006 'Elevated Rights Policy - First Draft Version Under Review': no link and no date on the index; a draft, not in force.
+     - WVOT-PR1009 'Vulnerability Scanning - 11/01/2012 - Under Review To Consolidate With Above Version' (two Drive links, ids 1R17vDEPpIJ4ad_0px0BYl78OVIAvJWwc and 1uwqBSo4gmkaYTXVQliMME5RoiDd_AEGS; the first link's text is the single letter 'W'): NOT left out; it is the stub wv-wvot-pr1009-2012 (below). The index status is quoted as printed; it states no supersession, only that the row is under review to be consolidated with the row above it (the 03/13/2026 procedure, seeded).
+     - Forms (3): 'Agency Request for FOIA Data' (a form; the Drive download answers the sign-in page), 'Vulnerability Scanning Request Form' (a 2-page authorization form), 'Technical Investigation Request Procedure From [sic]' (a one-page request form that carries the procedure number WVOT-PR1001; the procedure itself is seeded). Forms are not instruments.
+     - Miscellaneous: 'Data Protection Addendum for Procurement - 02/26/2026 (replaced WV Cloud Software As A Service Addendum for Procurement)' (Drive id 13pdURC1x9ZjtMLOxy_frYNPM5WjfWQm8, a text PDF read in full): a contract addendum whose terms bind a vendor to the state's data protection rules. It is a template attached to contracts. OWNER DECISION on whether a model contract addendum is an instrument (the corpus's interim practice, e.g. Texas, leaves such templates out). The older 'WV Cloud Software as a Service Addendum' (Drive id 1IWSI3rPNVmuyulvl6Bgp9cxn1M2FyZap, 'Version 11-1--19') is replaced and left out.
+     - Miscellaneous: 'WVOT Communication Cabling Standards and Specifications 2024-2026' (Drive id 11FN71PZXhikTsEIr3VL_G0ylKw10w5Il; the IT Infrastructure page links the same file under id 1AIayJCwu-yZ5qcngVzKscHslxLcpfVuU), read in full as a text PDF in the first pass: a model Division 27 construction specification for contractors. It opens with blank 'Location:' and 'Scope of Work:' fields and says the owner's professionals shall review and amend it to match specific project requirements, so it is a template, left out for the same reason as the Data Protection Addendum. It was seeded in the first pass and removed after review. OWNER DECISION on whether a model construction specification is an instrument (the same decision as the addendum).
+     - Held with a caveat: the policies the index marks 'Under Review' that are not drafts (PO1005, PO1010, PO1017, PO1018, PO1019, PR1013, and stub PO1033) are the published, in-force text, so they are held. WVOT-PO1013 on the index and in the file is dated 10/01/2026, WVOT-PO1034 and -PO1035 10/07/2026 (both before the day of this run).
+- text: 'Policy library, stubs (9): WVOT-PO1033, WVOT-PO2003, WVOT-PO2004, ''WVOT-PO? Computrace'', WVOT-PR1002, WVOT-PR1027, the 2012 WVOT-PR1009 Vulnerability Scanning (both of its Drive links) (Drive download answered the Google sign-in page, HTTP 200, text/html, measured for each on 2026-11-12) and WVOT-PR1017, WVOT-PR1023 (Google Docs export answered HTTP 401). These are linked from the index as public sharing links, but anonymous access is refused; nothing was fetched another way. Re-test: the same two URL forms with no sign-in.'
+- text: |-
+    Other pages of the Office's site read, and what was left out of them:
+     - Cyber Security (technology-services_1/cyber-security), its Audits and Risk Assessment pages: awareness material and guides, not instruments: 'Insider Threat Presentation' (Drive 1GywDQY9kOdQNjFtgrf9C4e7XOcYBIZ9B), 'Social Engineering' and 'The Transparent Network' (sign-in answers), 'Passport to Cybersecurity' (the presentation Drive 1C5yUJHCaPtqO1ngYBs9Ew5btbc8lHDHE that overviews WVOT-PO2002, whose policy is seeded), 'IP23 Handout' (a statewide contract handout, linked on every page), 'Password Standards' (Drive 1Zdb4weegj1zx8cDoCJfnXMF_eABsl-Xh, sign-in answer; it is probably WVOT-PR1017, a stub), and the 'WVOT Risk Assessment Guide' (Drive 13aZGWJQ8ISo1ZqANrYbd9MAiYQQzeCtA, a 15-page guide to completing the 2026 WV CSF assessment: a guide, left out).
+     - CIO Review Services: the Privacy Impact Assessment form (Drive 1tmZfWFMY-Q1I3IxYDt7YNItiu7R7B5ZF, a form), the replaced SaaS addendum (above), and a second Drive id for CIO-19-001 (seeded once).
+     - Artificial Intelligence page: the AI Task Force agendas and minutes (ten agendas and minutes files, 2024 to 2026: meeting records, not instruments), course lists, and the page's own lists of approved AI software (Google Gemini for Workspace, Microsoft CoPilot Chat, Microsoft CoPilot Studio with CIO review, Grammarly with a full license, Gemini Apps) and prohibited AI software (ChatGPT, DeepSeek, any model that transmits data outside the United States, any model banned under the FCC Secure Networks Act). The page is a Google Sites page with no policy number; it is watched (wv-watch-wvot-ai) but its lists are not mirrored as a document. OWNER DECISION: the lists are directive; WVOT-PO1035 and -PO1034 are the seeded policies.
+     - Project Management page: states the oversight criteria; the forms, intake and templates are behind a sign-in extranet (sites.google.com/wv.gov/wvot-extranet).
+     - Forms page (8 rows: the 4 above, plus four telecommunications request forms, Data TCR, Voice TCR, VOIP TCR, Telecommunications Backup): forms. 'Approved & Recommended Software', Vendor Resources, WVOT Rates, Service Desk, Training, Central Mail, Printing, Warehouse, State Records Center (forms, retention schedules and the Records Retention and Disposition Guidelines, a 283-page scan; records management is a non-IT chapter of law), Telecom (user guides, forms, billing inquiry), IT Statewide Contracts (statewide contract PDFs and a price list on state.wv.us: contracts, not instruments), About Us (the 2025-2030 Strategic Plan and the 2026 organizational chart: a strategy document and a chart), IT Infrastructure (the cabling file seeded once): not instruments.
+- text: |-
+    Statutes. Seeded: 32 sections, one entry each, because code.wvlegislature.gov serves one page per section and an article page holds only a contents list (the article page's 'Display all sections' loads the text by script from an internal endpoint, not used; its /pdf/ file prints the fetch date on every page and a watermark through the text, so it was not taken). Seeded: 5A-6-1 to 5A-6-9 except the repealed 5A-6-4a (13), all of 5A-6B (6), all of 5A-6C (4), 39A-3-1 to 39A-3-4 (4), and all of 46A-2A Breach of Security of Consumer Information (5, added after review: section 46A-2A-101(2) defines 'entity' to include governments, governmental subdivisions, agencies or instrumentalities, and 46A-2A-102(a) obliges an individual or entity that owns or licenses computerized data that includes personal information to give breach notice, so it binds state agencies; the enforcement section 46A-2A-104 is an unfair-or-deceptive-act remedy under the consumer chapter that the Attorney General enforces, and the article does not say in terms how it is enforced against an agency; the article sits in the consumer-protection chapter 46A, so OWNER DECISION on keeping it).
+     - Left out, repealed (read from the section pages' own text, which the contents lists do not mark): 5A-6-4a ('[Repealed.]' Acts 2019 ch. 123); all of article 5A-6A Permitting and Licensing Information Act (nine sections 'Repealed', Acts 2016 ch. 37); all of article 5A-7 Information Services and Communications Division (sections 1 to 11 and 4a read, each prints '[Repealed]'; the division was merged into the Office of Technology on July 1, 2024, see 5A-6-1); articles 5-1B Chief Technology Officer (eight sections) and 5-1C Science and Technology Council (five sections), contents pages printing 'Repealed' under every section.
+     - Left out, non-IT chapter: 5A-8-21 and 5A-8-22 (limits on release of state employees' personal information and personal information maintained by state entities, in the Public Records Management and Preservation Act, 5A-8) and the rest of 5A-8 (records management): OWNER DECISION on section-level slicing of non-IT chapters. 5A-3 (Purchasing Division) and 29B-1 (public records) were not sliced.
+     - Left out: 39A-3-5 Severability. 39A-1 (Uniform Electronic Transactions Act) and 39A-2 are private-transaction law.
+     - Bills: Senate Bill 694 (2025) and Senate Bill 70 (2026), proposed Data Protection Act articles barring state agencies from foreign-adversary technology including AI, were found only by web search; their status was not confirmed in fetched bytes and unenacted bills are out of scope. No enacted AI statute binding state agencies was found other than 5A-6-9 (the Task Force, ending July 1, 2027). The Office's Cybersecurity expansion of 2026 (a bill the press calls HB 5638) is in 5A-6B as the page prints it today.
+- text: |-
+    State Privacy Office (Board of Risk and Insurance Management), Executive Branch Privacy Policies (https://brim.wv.gov/privacy/privacy-policies, read 2026-11-12 through the toolkit Fetcher, HTTP 200; the site privacy.wv.gov named in the policies was not used). Reconciliation of the page's links row by row: 21 links (the 'Additional Sample Notices' line has no link of its own). Outcome: 13 documents (from 15 links) and 6 links left out.
+     - Documents (13): the memo reaffirming the policies (media 612), 'Privacy Policy Introduction' (file number WVEB-P100), 'Privacy Policy Definitions', WVEB-P101 Accountability, P101.1 Response to Unauthorized Disclosures, P101.2 Execution of Confidentiality Agreements, P101.3 Privacy Impact Assessment Guidance, P102 Consent, P103 Individual Rights, P104 Minimum Necessary and Limited Use, P105 Notice, P106 Security Safeguards and P106.1 Redaction Procedure. The Introduction and Definitions are each linked twice (media 618 and 621, 619 and 622; each pair is byte-identical) and are seeded once. Every file is a PDF with a text layer on every page (checked page by page). The dates the page prints beside rows sit between links and cannot be assigned to rows with certainty (for example 'Issued 1/20/2011' follows both P101.1 and P102); each document's source_version is read from the file's own header line as printed. WVEB-P101.3 prints its number as 'WVEB-101.3' and calls itself an educational resource and best-practices guide; it is held because the page lists it among the policies.
+     - Left out, forms, templates and training material (6 links, plus two headings that carry no link of their own): 'Executive Branch Confidentiality Agreement Document' (media 614, the agreement every workforce member signs, a form; its PDF fonts extract as unreadable symbols), 'Executive Branch Short Form Notice' (media 628, a notice template, printed number WVEB-S108), 'Guide to Supporting Individual Rights' (media 629, a staff guide), 'Training Slides' (media 630, 15 slides), 'SPII Flow Chart' (media 631, a one-page chart) and 'Data Use Agreement Template' (media 632, a Word template with drafting notes). The headings 'Additional Sample Notices' and 'Minimum Necessary Training' carry no link.
+     - The page says the policies were issued by the Chair of the Health Care Authority and reaffirmed on June 12, 2017 by the Director of the Board of Risk and Insurance Management after Executive Order 3-17 (the memo says the same); Executive Order 3-17 is not in bytes (see the executive order record below). The page says departments may issue their own policies; none were searched. Watched: wv-watch-brim-privacy-policies.
+- text: 'Rules. Office of Technology, Title 163, from the Secretary of State''s agency list (https://apps.sos.wv.gov/adlaw/csr/rule.aspx?agency=Office%20of%20Technology): five rule sets Active (163-01 to 163-05), seeded. Left out: two amended versions the list shows ''In Progress'', not in force (163-02, ruleview.aspx?document=18519; 163-03, document=18518), and the Historical 163-03 of 3/2/2022 (document=17459, superseded by the 4/1/2026 rule). 163-01''s only readable file is a scan (the other file is WordPerfect), so it goes through the two-engine OCR procedure. Rules 163-02, -03, -04, -05 are read from the Word file filed with the rule (the 163-03 notice of filing, with its effective and sunset dates, is in the PDF only; the rule''s own section 1 prints them). Other agencies'' rules that touch IT (for example Title 148 Department of Administration, Purchasing) were not searched; the Code of State Rules agency list has no other IT agency.'
+- text: 'Executive orders. None seeded. The Governor''s executive order page lists ten orders (Executive Orders 1-25 to 10-25, dated 1/14/2025 to 1/30/2025; titles read: Backyard Brawl, school choice, cessation of DEI, review of spending decisions, plan for more efficient government, plan to reduce rules, religious exemptions for school vaccines, review of outdated executive orders, Department of Revenue and Division of Financial Institutions, implementation of the President''s immigration orders): none on state IT, cybersecurity, data or AI. Executive Order 8-25 (read: the page''s PDF is an image-only scan, read once by tesseract for discovery only, not as text of record) directs the General Counsel to review old orders and does not itself rescind any. The Office of Technology''s policy page says its policies are issued under W. Va. Code 5A-6 ''and the Governor''s Executive Order 6-06 and 3-17''; those two orders (by the page''s text, of 2006 and 2017; web search says 3-17 is Governor Justice''s order giving the Office cyber risk oversight and the Board of Risk and Insurance Management the privacy duties) were NOT found in bytes: the Secretary of State''s Executive Journal (apps.sos.wv.gov/adlaw/executivejournal/searchexecutiveorders.aspx) is a form that needs a POST, which the Fetcher does not send, and the Governor''s page lists only the current governor''s orders. OWNER DECISION: they are in force on the page''s own word and in scope; seed them if the owner can supply the Executive Journal document addresses (readpdf.aspx?DocID=...). Both are probably image scans (Executive Order 8-25 is), so each would need ocr: true.'
+- text: |-
+    Mechanics and risks recorded for the reviewer:
+     - Fetch forms: Drive files by drive.google.com/uc?export=download&id=<id> (the form Colorado's seed uses; the id is the one in the index's /view link), Google Docs by docs.google.com/document/d/<id>/export?format=docx (a documented export link of the document the index links; the URL is built from the pattern, the title and number were confirmed in the fetched bytes). Drive re-renders its PDFs on each download (Colorado recorded the same): the byte hash may change while the text does not.
+     - The newer WVOT policy PDFs carry a zero-width space (U+200B) around runs of text; it is kept as extracted, and the ingester's identity and version checks look through it.
+     - Drift: the toolkit hashes an html page's text. The Code's section pages print a page-generation time in a hidden element (id='duration', for example 0.37599992752075 then 0.29164218902588 on two fetches a few minutes apart) and the Secretary of State's rule list prints the current time; each would report a change on every drift run. The Google Sites and governor pages were byte-text stable across two fetches. Needed shared change: corpus.yml volatile_patterns for those two elements (see the PR).
+     - The seed list was not drift-run (not allowed in this run).

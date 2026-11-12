@@ -1,0 +1,481 @@
+---
+schema_version: 1
+corpus: states-government-it
+jurisdiction: west-virginia
+id: wv-wvot-po1000
+title: Policy, Procedure, Plan Development Policy
+doc_type: policy
+citation: WVOT-PO1000
+authority_level: ''
+issuing_body: West Virginia Office of Technology (Chief Information Officer)
+source_url: https://drive.google.com/uc?export=download&id=1Loix8NHlHPBHwZgyX7CmYBT2qj40L6X5
+source_format: pdf
+retrieved: '2026-11-12'
+source_sha256: fd20fc1499d101cbb9b41c910fff03cdb6699a9c10d7ae41b069647ddce45f86
+effective_date: null
+source_version: Revised 03/30/2026
+status: current
+content_mode: verbatim
+conversion_notes: Text extracted with pdftotext -layout (page headers, footers and column layout kept
+  as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their
+  letters). Google Drive's PDF puts a zero-width space (U+200B) around runs of text; they are kept as
+  extracted. source_version is the revision or issue date the policy prints, as printed.
+last_verified: ''
+verified_by: ''
+maintainer: ''
+relationships:
+  implements: []
+  implemented_by: []
+  references_external: []
+  related: []
+  supersedes: []
+tags:
+- governance
+---
+
+> **NON-AUTHORITATIVE.** This is a convenience copy for machine reading. The official text is published at the source URL above. Verify at source before relying on it.
+
+# Policy, Procedure, Plan Development Policy (WVOT-PO1000)
+
+## At a glance
+
+Establishes the Office of Technology's publications program: the format, content, management, maintenance and distribution of its policies, procedures, plans and other official publications.
+
+## Full text
+
+I​ssued by the​                                         ​Policy, Procedure, Plan Development Policy​
+ ​Chief Information Officer​                                                         ​WVOT-PO1000​
+
+                                                                                                  ​ 1/03/2008​
+                                                                                                  1
+                                                                                         ​Revised 03/30/2026​
+                                                         ​OPR: WVOT Outreach and Communications​
+                    ​COMPLIANCE WITH THIS PUBLICATION IS MANDATORY​
+                                   ​Publications are available online at​
+                 ​https://sites.google.com/wv.gov/othub/policy-governance/ot-policies​
+    ​ uestions​​and​​change​​recommendations​​related​​to​​this​​publication​​shall​​be​​directed​​to​
+    Q
+​this​ ​publication's​ ​Office​ ​of​ ​Primary​​Responsibility​​(OPR).​ ​This​​policy​​shall​​be​​reviewed​
+ ​annually​ ​to​ ​ensure​ ​continued​ ​alignment​ ​with​ ​current​ ​legal,​ ​operational,​ ​and​ ​strategic​
+  ​requirements. Revisions will be undertaken as necessary.​
+
+​SUMMARY OF VERSIONS AND CHANGES​
+ ​Version​          ​Date​            ​Revision Description​
+
+ ​1​                ​11/03/2008​      ​New Issue​
+
+ ​2​                ​07/01/2015​      ​ dded​ ​Log​ ​History,​ ​Definitions,​ ​Authority​ ​&​ ​Enforcement,​
+                                      A
+                                      ​Compliance​
+
+ ​3​                ​09/01/2016​      ​Reviewed - No Changes​
+
+ ​4​                ​10/20/2017​      ​Reviewed - No Changes​
+
+ ​5​                ​12/27/2023​      ​Updated website information in para. 3.2​
+
+ ​6​                ​DRAFT​           ​Reformatted, renamed, and did a complete rewrite​
+
+ ​1.​   ​PURPOSE​
+
+        ​1.1.​     ​ his policy establishes the West Virginia Office of Technology(WVOT)​
+                   T
+                   ​publications program. It outlines requirements for the format, content,​
+                    ​management, maintenance, and distribution of WVOT policies,​
+                     ​procedures, plans, and other official publications.​
+
+ ​2.​   ​SCOPE​
+
+        ​2.1.​     ​ his​ ​policy​ ​applies​ ​to​ ​all​ ​the​ ​West​ ​Virginia​ ​Office​ ​of​ ​Technology​ ​and​ ​all​
+                   T
+                   ​publications within the WVOT.​
+
+        ​2.2.​     ​ here​​there​​are​​policies​​in​​place​​which​​provide​​less​​restrictions​​or​​security​
+                   W
+                   ​than​ ​this​ ​policy,​ ​those​ ​policies​ ​will​ ​be​ ​superseded​ ​by​ ​this​ ​policy.​ ​In​
+                    ​instances​ ​where​ ​existing​ ​state​ ​and​ ​federal​ ​laws,​​regulations,​​and​​policies​
+                     ​are more restrictive, the more restrictive provisions will prevail.​
+
+                                                    ​Page​​1​​of 8​
+
+                 ​Policy, Procedure, and Plan Development Policy​
+​WVOT-PO1000                               Issue Date: 11/03/2008                       Revised: 03/30/2026​
+
+ ​3.​   ​POLICY​
+
+        ​3.1.​     ​WVOT Responsibilities​
+
+                 ​3.1.1.​   ​ he​ ​WVOT​ ​is​ ​responsible​ ​for​ ​establishing​ ​and​​coordinating​​IT​​and​
+                            T
+                            ​Cybersecurity​ ​publications​ ​to​ ​include​ ​policies,​ ​procedures,​ ​plans,​
+                             ​standards,​ ​and​ ​other​ ​documentation​ ​for​ ​the​ ​Executive​ ​Branch​ ​of​
+                              ​State Government.​
+
+                       ​3.1.1.1.​    ​ inal​ ​authority​ ​for​ ​WVOT​ ​policies​ ​falls​ ​to​ ​the​ ​WVOT​ ​Chief​
+                                     F
+                                    ​Information Officer(CIO).​
+
+                 ​3.1.2.​   ​ he​ ​Publications​ ​Team​ ​within​ ​the​ ​WVOT​ ​Communications​ ​and​
+                            T
+                            ​Outreach​ ​Unit​ ​is​ ​responsible​ ​for​ ​coordinating​ ​the​ ​development​ ​of​
+                             ​new​ ​and​ ​review​ ​and​ ​maintenance​ ​of​ ​current​ ​IT​ ​and​ ​Cybersecurity​
+                              ​publications.​ ​This​ ​Unit​ ​works​ ​closely​ ​with​ ​the​ ​WVOT​ ​CIO,​ ​writers,​
+                               ​technical​​subject​​matter​​experts,​​OPRs,​​and​​functions​​that​​fall​​within​
+                                ​the scope of the publication.​
+
+                 ​3.1.3.​   ​ he​ ​WVOT​ ​is​ ​responsible​ ​for​ ​maintaining​ ​a​ ​central​ ​library​ ​of​
+                            T
+                            ​publications​​and​​ensuring​​availability​​by​​all​​current​​State​​employees​
+                             ​within the scope of said publications.​
+
+                 ​3.1.4.​   ​ he​ ​WVOT​ ​is​ ​responsible​ ​for​ ​developing​ ​and​ ​maintaining​
+                            T
+                            ​publications​ ​in​ ​accordance​ ​with​ ​this​ ​policy​ ​to​ ​provide​ ​consistency​
+                             ​and standardization.​
+
+        ​3.2.​     ​Agency Responsibilities​
+
+                 ​3.2.1.​   ​ ach​ ​agency​ ​is​​responsible​​for​​ensuring​​their​​agency’s​​compliance​
+                            E
+                            ​with all WVOT publications.​
+
+                 ​3.2.2.​   ​ gencies​ ​may​ ​establish​ ​more,​ ​but​ ​not​ ​less,​ ​stringent​ ​publications​
+                            A
+                            ​and​ ​supplements;​ ​however,​ ​duplication​ ​of​ ​content​ ​should​ ​be​
+                             ​avoided.​
+
+                       ​3.2.2.1.​    ​ gency​ ​IT​ ​and​ ​Cybersecurity​ ​publications​ ​and​ ​supplements​
+                                     A
+                                    ​should be submitted to the WVOT for review and awareness.​
+
+                                                   ​Page​​2​​of 8​
+
+              ​Policy, Procedure, and Plan Development Policy​
+​WVOT-PO1000                            Issue Date: 11/03/2008                         Revised: 03/30/2026​
+
+              ​3.2.3.​   ​ gency​ ​representatives​ ​in​ ​the​ ​Information​ ​Technology​ ​Advisory​
+                         A
+                         ​Council​​(ITAC)​​will​​review​​and​​provide​​feedback​​on​​new​​and​​revised​
+                          ​WVOT​ ​publications​ ​primarily​ ​through​ ​the​ ​ITAC​ ​Chat​ ​Space​ ​and​
+                           ​other communications channels..​
+
+     ​3.3.​     ​Creation, Review, Maintenance, and Changes​
+
+              ​3.3.1.​   ​Format Standardization​
+
+                    ​3.3.1.1.​    ​ his​ ​policy,​ ​WVOT-PO1000​ ​WVOT​ ​Policy,​ ​Procedure,​ ​and​
+                                  T
+                                  ​Plan​ ​Development,​ ​will​ ​serve​ ​as​ ​the​ ​formatting​ ​template​ ​for​
+                                 ​all WVOT publications.​
+
+                         ​3.3.1.1.1.​    ​The​ ​header​ ​and​ ​footer​ ​format​ ​for​ ​all​ ​new​​policies​​will​
+                                         ​ irror those used in this policy.​
+                                         m
+
+                         ​3.3.1.1.2.​    ​The​ ​main​ ​body​ ​text​ ​of​ ​all​ ​new​ ​policies​​will​​be​​in​​Arial​
+                                         ​ 2 font.​
+                                         1
+
+                         ​3.3.1.1.3.​    ​Policy numbering schema will be as follows:​
+
+                                         ​WVOT-PO1000​
+                                             ​●​ ​First​ ​four​ ​characters​ ​represent​ ​WV​ ​Office​ ​of​
+                                                    ​Technology​
+                                              ​●​ ​Next​ ​two​ ​characters​​are​​either​​PO​​for​​policy​​or​
+                                                     ​PR for procedure of PL for plan.​
+                                               ​●​ ​Last​ ​four​ ​characters​ ​are​ ​a​ ​unique​ ​four​ ​digit​
+                                                      ​number specific to each individual publication​
+
+                         ​3.3.1.1.4.​     ​All​ ​policies,​ ​procedures,​ ​and​ ​plans​ ​will​ ​have​ ​the​
+                                         f​ollowing sections at a minimum:​
+
+                                             ​ ​ ​Summary Of Versions And Changes​
+                                             ●
+                                             ​●​ ​Purpose​
+                                              ​●​ ​Scope​
+                                               ​●​ ​Policy, Procedure, or Plan (main body)​
+                                                ​●​ ​Policy, Procedure, or Plan Specific Definitions​
+                                                 ​●​ ​Relevant Materials And Documents​
+
+              ​3.3.2.​   ​ riggers​ ​are​ ​situations​ ​and/or​ ​circumstances​ ​that​ ​necessitate​ ​the​
+                         T
+                         ​creation​​of​​a​​new​​publication​​or​​the​​review​​and/or​​change​​to​​existing​
+                          ​publications.​
+
+                    ​3.3.2.1.​   ​Recognition​ ​of​ ​a​ ​need​ ​(for​ ​example,​​legislative​​requirement,​
+
+                                               ​Page​​3​​of 8​
+
+         ​Policy, Procedure, and Plan Development Policy​
+​WVOT-PO1000                       Issue Date: 11/03/2008                       Revised: 03/30/2026​
+
+                            ​audit outcomes, higher level law/policy changes).​
+
+               ​3.3.2.2.​   ​Changes in strategic direction and/or plans.​
+
+               ​3.3.2.3.​   ​Identification of content gaps, overlaps, or inconsistencies.​
+
+               ​3.3.2.4.​    ​ he​​review​​date​​of​​the​​policy​​or​​procedure,​​usually​​an​​annual​
+                             T
+                             ​review​ ​requirement​ ​that​ ​is​ ​365​ ​days​ ​from​ ​the​ ​Revised​ ​Date​
+                            ​on the publication..​
+
+         ​3.3.3.​   ​Creation​
+
+               ​3.3.3.1.​    I​T​​and​​Cybersecurity​​publications​​are​​typically​​initiated​​by​​the​
+                              ​WVOT​ ​but​ ​any​​Executive​​Branch​​State​​agency​​or​​employee​
+                            ​can propose the creation or change of a policy or procedure.​
+
+                    ​3.3.3.1.1.​     ​ ew​ ​publications​ ​can​ ​be​ ​proposed​ ​through​ ​the​
+                                     N
+                                     ​Intergovernmental​ ​Relationship​ ​Managers(IRMs).​ ​and​
+                                      ​changes​ ​to​ ​existing​ ​publications​ ​can​ ​be​ ​proposed​
+                                       ​through​ ​the​ ​Office​ ​of​ ​Primary​ ​Responsibility(OPR)​ ​of​
+                                    ​the publication or the IRMs.​
+
+               ​3.3.3.2.​    ​ hen​​the​​creation​​of​​a​​publication​​is​​deemed​​necessary,​​the​
+                             W
+                             ​WVOT​ ​will​ ​designate​ ​an​ ​OPR​ ​to​ ​assume​ ​responsibility​ ​and​
+                            ​ownership of the policy/procedure/plan..​
+
+                    ​3.3.3.2.1.​     ​ PRs​ ​are​ ​usually​ ​the​ ​workcenter​ ​or​ ​section​ ​of​ ​the​
+                                     O
+                                     ​primary​ ​service​ ​provider​ ​for​ ​the​ ​service(s)​ ​governed​
+                                      ​by​​the​​publication.(example​​Cyber​​Security​​is​​the​​OPR​
+                                    ​for IT security publications)​
+
+                    ​3.3.3.2.2.​     ​ PR​ ​is​​always​​a​​section​​or​​office,​​never​​an​​individual​
+                                     O
+                                    ​by name.​
+
+                    ​3.3.3.2.3.​     ​ PRs​ ​write​ ​the​ ​draft​ ​policy/procedure​​and​​coordinate​
+                                     O
+                                     ​with​ ​other​ ​writers,​ ​contributors,​ ​technical​ ​subject​
+                                      ​matter​ ​experts,​ ​and​ ​other​ ​service​ ​providers​ ​that​ ​may​
+                                    ​be impacted or affected by the new publication.​
+
+                    ​3.3.3.2.4.​    ​OPRs​ ​work​ ​with​ ​the​ ​Publications​ ​Team​ ​to​ ​ensure​
+                                    ​ roper formatting.​
+                                    p
+
+                    ​3.3.3.2.5.​     ​ o​​ensure​​consistency​​and​​standardization,​​the​​WVOT​
+                                     T
+                                     ​has​​established​​a​​template​​with​​a​​standardized​​format​
+                                      ​for​ ​publications​ ​to​ ​facilitate​ ​the​ ​adoption​ ​of​ ​clear,​
+                                    ​concise, and consistent publications.​
+
+                                          ​Page​​4​​of 8​
+
+         ​Policy, Procedure, and Plan Development Policy​
+​WVOT-PO1000                       Issue Date: 11/03/2008                       Revised: 03/30/2026​
+
+               ​3.3.3.3.​    ​Emergency and/or Temporary Policies and Procedures​
+
+                            ​3.3.3.3.1.1.​     ​ nder​ ​extenuating​ ​circumstances,​ ​the​ ​WVOT​
+                                               U
+                                               ​CIO​ ​may​ ​need​ ​to​ ​set​ ​emergency​ ​or​​temporary​
+                                                ​policy​ ​or​ ​procedures,​ ​which​ ​will​ ​take​ ​effect​
+                                                 ​immediately.​
+
+                            ​3.3.3.3.1.2.​     ​ mergency/Temporary​ ​policies​​and​​procedures​
+                                               E
+                                               ​do​​not​​require​​full​​coordination​​and​​review.​ ​The​
+                                                ​CIO​​can​​implement​​an​​emergency​​or​​temporary​
+                                                 ​policy or procedure at their discretion.​
+
+                            ​3.3.3.3.1.3.​     ​ he​ ​emergency​ ​and​ ​temporary​ ​publication​ ​will​
+                                               T
+                                               ​remain​​in​​effect​​for​​180​​calendar​​days​​from​​the​
+                                                ​date​ ​signed​ ​by​ ​the​ ​CIO.​ ​The​ ​date​ ​may​ ​be​
+                                                 ​extended as necessary.​
+
+         ​3.3.4.​   ​Reviews​
+
+               ​3.3.4.1.​    ​Existing publications will be reviewed annually.​
+
+               ​3.3.4.2.​     ​ ​​typical​​annual​​review​​is​​conducted​​by​​the​​OPR(s)​​for​​each​
+                              A
+                             ​publication in coordination with the Publication Team.​
+
+                    ​3.3.4.2.1.​      ​ he​ ​Publications​ ​Team​ ​notifies​ ​the​ ​OPR(s)​ ​when​ ​a​
+                                      T
+                                      ​review​ ​is​ ​due.​ ​(usually​ ​11​ ​months​ ​after​ ​the​ ​last​
+                                     ​revision date)​
+
+                    ​3.3.4.2.2.​      ​ eview​ ​Completion​ ​will​ ​be​ ​documented​ ​in​ ​the​
+                                      R
+                                      ​Summary​ ​of​ ​Versions​ ​and​ ​Changes​ ​Table​ ​on​ ​page​ ​1​
+                                     ​of each publication.​
+
+                    ​3.3.4.2.3.​      ​ he​ ​OPR​ ​reviews​ ​the​ ​publications​ ​for​ ​currency​ ​and​
+                                      T
+                                      ​accuracy​ ​and​ ​notifies​ ​the​ ​Publications​ ​Team​ ​that​ ​the​
+                                       ​publications​ ​is​ ​either​ ​Current,​ ​Needs​ ​Updated,​ ​or​
+                                     ​Needs Rescinded.​
+
+                            ​3.3.4.2.3.1.​     ​ urrent​ ​Publications​ ​are​ ​updated​ ​with​ ​the​​new​
+                                               C
+                                               ​Revised Date and reposted to the library.​
+
+                            ​3.3.4.2.3.2.​     ​ ublications​ ​that​ ​Need​ ​Changed​ ​and​ ​updated​
+                                               P
+                                               ​are​ ​revised​ ​by​ ​the​ ​OPR(s)​ ​and​ ​any​ ​other​
+                                                ​necessary​ ​Subject​ ​Matter​ ​Experts​ ​(SMEs)​ ​and​
+                                                 ​then​ ​provided​ ​to​ ​the​ ​Publications​ ​Team​ ​for​
+                                                  ​coordination and approval by the CIO.​
+
+                            ​3.3.4.2.3.3.​     ​Publications​​that​​Need​​Rescinded​​are​​provided​
+                                             ​Page​​5​​of 8​
+
+              ​Policy, Procedure, and Plan Development Policy​
+​WVOT-PO1000                           Issue Date: 11/03/2008                        Revised: 03/30/2026​
+
+                                                  t​o​ ​the​ ​Publications​ ​Team​ ​for​ ​coordination​ ​and​
+                                                   ​approval by the CIO.​
+
+              ​3.3.5.​   ​Changes​
+
+                    ​3.3.5.1.​    ​ hanges​​can​​be​​proposed​​through​​the​​publication’s​​Office​​of​
+                                  C
+                                  ​Primary​ ​Responsibility(OPR),​ ​found​ ​near​ ​the​ ​top​ ​of​ ​the​ ​first​
+                                   ​page​ ​of​ ​the​ ​publication​ ​or​ ​through​ ​.Intergovernmental​
+                                 ​Relationship Managers(IRMs).​
+
+                    ​3.3.5.2.​    ​ he​​OPR(s)​​in​​collaboration​​with​​applicable​​WVOT​​SMEs​​will​
+                                  T
+                                  ​consider​ ​proposed​ ​changes​ ​to​ ​publications​ ​and​ ​formulate​ ​a​
+                                 ​new draft version of the publication.​
+
+                    ​3.3.5.3.​    ​ ustomer​ ​agencies​ ​affected​ ​by​ ​draft​ ​publications​ ​will​ ​be​
+                                  C
+                                  ​given​​an​​opportunity​​to​​provide​​input​​through​​the​​Information​
+                                   ​Technology​ ​Advisory​ ​Council​ ​(ITAC).​ ​Feedback​ ​is​ ​usually​
+                                    ​solicited​ ​through​ ​the​ ​ITAC​ ​Chat​ ​Space​ ​by​ ​the​ ​WVOT​
+                                 ​Publications Team..​
+
+                    ​3.3.5.4.​    ​All​​draft​​publications​​with​​new​​changes​​require​​final​​approval​
+                                 f​rom the WVOT CIO.​
+
+                    ​3.3.5.5.​    ​ hen​​changes​​to​​a​​publication​​are​​completed,​​finalized,​​and​
+                                  W
+                                  ​approved,​ ​the​ ​WVOT​ ​Policy​ ​Team​ ​will​ ​post​ ​the​ ​new​ ​or​
+                                 ​updated publication to the WVOT library.​
+
+              ​3.3.6.​   ​Maintenance​
+
+                    ​3.3.6.1.​    ​ pproved​ ​policies​ ​and​ ​procedures​ ​are​ ​maintained​ ​in​ ​the​
+                                  A
+                                 ​WVOT Central Publication Library on the WVOT Extranet.​
+
+                    ​3.3.6.2.​    ​ pproved​ ​policies​ ​and​ ​procedures​ ​remain​ ​in​ ​effect​ ​and​ ​are​
+                                  A
+                                  ​only​​current​​until​​replaced​​at​​the​​release​​of​​a​​new​​or​​modified​
+                                 ​document or permanently rescinded.​
+
+                    ​3.3.6.3.​    ​ revious​ ​versions​ ​of​ ​existing​ ​policies​​and​​rescinded​​policies​
+                                  P
+                                  ​are​ ​maintained​ ​on​ ​the​ ​WVOT​ ​shared​ ​drive​ ​under​
+                                 ​WVOT-Policies, Standards, Processes & Guidelines.​
+
+     ​3.4.​     ​Policy and Procedure Notification Communications​
+
+              ​3.4.1.​   ​ ny​ ​new,​ ​changed,​ ​or​ ​temporary​ ​policies​ ​or​ ​procedures​ ​that​
+                         A
+                         ​materially​ ​affects​ ​the​ ​usage​ ​rights​ ​or​ ​responsibilities​ ​of​ ​employees​
+                          ​will​ ​be​ ​communicated​ ​to​ ​affected​ ​agencies​ ​to​ ​include​ ​all​ ​WVOT​
+                           ​staff.​
+
+                                                ​Page​​6​​of 8​
+
+                 ​Policy, Procedure, and Plan Development Policy​
+​WVOT-PO1000                              Issue Date: 11/03/2008                         Revised: 03/30/2026​
+
+                     ​3.4.1.1.​     ​ ommunications​ ​methods​ ​include​ ​email,​ ​chat​ ​spaces,​ ​ITAC​
+                                    C
+                                    ​member​​notification,​​and​​IRM​​contacts​​notification.​ ​Any​​or​​all​
+                                     ​channels​​will​​be​​used​​depending​​on​​the​​situation​​while​​giving​
+                                   ​consideration to subject matter, urgency, and time sensitivity.​
+
+                     ​3.4.1.2.​     ​ rimary​ ​notification​ ​method​ ​will​​be​​email​​through​​the​​WVOT​
+                                    P
+                                   ​Communications Team.​
+
+ ​4.​   ​POLICY SPECIFIC DEFINITIONS​
+
+        ​4.1.​    ​ hief​​Information​​Officer​​(CIO)​​-​​the​​person​​designated​​by​​the​​governor​​to​
+                  C
+                  ​lead​ ​the​ ​WV​ ​Office​ ​of​ ​Technology​ ​and​ ​oversee​ ​information​ ​technology​
+                   ​practices​ ​and​​initiatives​​for​​the​​Executive​​Brand​​of​​WV​​State​​government,​
+                    ​excluding the constitutional officers.​
+
+        ​4.2.​    ​ hief​ ​Information​ ​Security​​Officer​​(CISO)​​-​​Person​​designated​​by​​the​​CIO​
+                  C
+                  ​to​ ​oversee​ ​information​ ​security​ ​practices​ ​and​ ​initiatives​ ​for​ ​the​ ​Executive​
+                   ​Branch of WV State government, excluding the constitutional officers.​
+
+        ​4.3.​    I​nformation​ ​Technology​ ​Advisory​ ​Council​ ​(ITAC)​ ​-​ ​interactive​ ​forum​ ​for​
+                   ​West​ ​Virginia​ ​Agencies​ ​to​ ​discuss​ ​technology-related​ ​decisions​ ​on​ ​items​
+                    ​that​ ​have​​the​​potential​​to​​have​​an​​impact​​on​​the​​enterprise​​from​​either​​an​
+                     ​operational or functional perspective.​
+
+        ​4.4.​    I​ntergovernmental​ ​Relations​ ​Manager​ ​(IRM)​ ​-​ ​dedicated​ ​point​ ​of​ ​contact,​
+                   ​assigned​​to​​support​​each​​agency’s​​unique​​technology​​needs​​and​​serve​​as​
+                    ​advocates​ ​and​ ​subject​ ​matter​​experts,​​ensuring​​seamless​​communication​
+                     ​and collaboration between agencies and The WVOT.​
+
+        ​4.5.​    ​ ffice​​of​​Primary​​Responsibility​​(OPR)​​-​​The​​primary​​section​​within​​WVOT​
+                  O
+                  ​that​ ​takes​ ​the​ ​lead​ ​on​ ​a​ ​specific​ ​policy​ ​or​​procedure.​ ​Usually​​the​​WVOT​
+                   ​service provider/owner that the policy is related to or governs.​
+
+        ​4.6.​    ​ rocedure​ ​–​ ​A​ ​defined​ ​series​ ​or​ ​sequence​ ​of​ ​steps​ ​followed​​in​​a​​definite​
+                  P
+                  ​regular order ensuring the consistent and repetitive approach to actions.​
+
+        ​4.7.​    ​ ubject​ ​Matter​ ​Expert(SME)​ ​-​ ​Someone​ ​with​ ​extensive,​ ​specialized​
+                  S
+                  ​knowledge and experience in a particular area, process, or topic.​
+
+        ​4.8.​    ​ est​ ​Virginia​ ​Office​ ​of​ ​Technology​ ​(WVOT)​ ​-​ ​The​ ​division​ ​of​ ​the​
+                  W
+                  ​Department​​of​​Administration​​established​​by​​WV​​Code​​§​​5A-6-4a,​​et.​​seq.,​
+                   ​which​ ​is​ ​led​ ​by​ ​the​ ​State’s​ ​CIO​ ​and​ ​designated​ ​to​ ​acquire,​ ​operate,​ ​and​
+                    ​maintain​ ​the​ ​State’s​ ​technology​ ​infrastructure.​ ​The​ ​WVOT​ ​is​ ​responsible​
+                     ​for​ ​evaluating​ ​equipment​ ​and​ ​services,​ ​and​ ​reviewing​ ​information​
+                      ​technology contracts.​
+
+                                                  ​Page​​7​​of 8​
+
+                  ​Policy, Procedure, and Plan Development Policy​
+​WVOT-PO1000                              Issue Date: 11/03/2008                        Revised: 03/30/2026​
+
+         ​4.9.​    ​ VOT​​Communications​​Team​​-​​work​​unit​​in​​WVOT​​tasked​​with​​formalizing​
+                   W
+                   ​and​ ​standardizing​ ​communications​ ​via​ ​email.​ ​Chat,​ ​websites,​ ​graphics,​
+                    ​and branding.​
+
+        ​4.10.​    ​ VOT​ ​Extranet​ ​-​ ​website(s)​ ​and​ ​hub​ ​that​ ​is​ ​open​ ​to​ ​all​ ​users​ ​on​ ​the​
+                   W
+                   ​Executive Domain but not the general public.​
+
+        ​4.11.​    ​ VOT​ ​Policy​ ​Team​ ​-​ ​team​ ​within​ ​the​ ​WVOT​ ​Communications​ ​and​
+                   W
+                   ​Outreach​ ​work​ ​unit​ ​responsible​ ​for​ ​coordinating​ ​the​ ​development​ ​of​​new,​
+                    ​and​ ​the​ ​review​ ​and​ ​maintenance​ ​of​ ​current,​ ​WVOT​ ​policies​ ​and​
+                     ​procedures.​
+
+ ​5.​     ​RELEVANT MATERIALS AND DOCUMENTS​
+
+         ​5.1.​    ​ V​ ​Code​ ​§5A-6-4.​ ​Powers​ ​and​ ​duties​ ​of​ ​the​ ​Chief​ ​Information​ ​Officer​
+                   W
+                   ​generally.​
+
+         ​5.2.​    ​ VOT​ ​Policies​ ​Issued​ ​by​ ​the​ ​Chief​ ​Information​ ​Officer​ ​(CIO),​
+                   W
+                   ​https://sites.google.com/wv.gov/othub/policy-governance/ot-policies​
+
+                                                  ​Page​​8​​of 8​
+
+## Curator notes
+
+Text extracted with pdftotext -layout (page headers, footers and column layout kept as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their letters). Google Drive's PDF puts a zero-width space (U+200B) around runs of text; they are kept as extracted. source_version is the revision or issue date the policy prints, as printed.

@@ -1,0 +1,121 @@
+---
+schema_version: 1
+corpus: states-government-it
+jurisdiction: west-virginia
+id: wv-csr-163-4
+title: Plan of Operation
+doc_type: rule
+citation: W. Va. CSR § 163-4
+authority_level: ''
+issuing_body: West Virginia Office of Technology; legislative rule filed with the Secretary of State
+source_url: https://apps.sos.wv.gov/adlaw/csr/readfile.aspx?DocId=57950&Format=WORD&KeyWord=
+source_format: docx
+retrieved: '2026-11-12'
+source_sha256: c9235fe0bcc688c74e89a9ac9f7d67989c8d851c224d958428890222c902c96a
+effective_date: '2025-04-22'
+source_version: ''
+status: current
+content_mode: verbatim
+conversion_notes: Text extracted from the Word file (.docx) with pandoc's docx reader, tracked changes
+  accepted and the result rendered one line per paragraph, heading, list item and table row (a table row's
+  cells are joined by ' | '; list markers are written out as the file numbers them, bullets as a bullet
+  character; footnotes follow the text as [n]). Running headers and footers, pictures and the text inside
+  text boxes (such as a cover-page title) are not read. Headings carry no markup.
+last_verified: ''
+verified_by: ''
+maintainer: ''
+relationships:
+  implements: []
+  implemented_by: []
+  references_external: []
+  related: []
+  supersedes: []
+tags:
+- governance
+---
+
+> **NON-AUTHORITATIVE.** This is a convenience copy for machine reading. The official text is published at the source URL above. Verify at source before relying on it.
+
+# Plan of Operation (W. Va. CSR § 163-4)
+
+## At a glance
+
+Legislative rule 163CSR4: the Office of Technology's plan of operation for data processing, telecommunication and central mailing office services (effective 4/22/2025).
+
+## Full text
+
+TITLE 163
+
+LEGISLATIVE RULES
+
+OFFICE OF TECHNOLOGY
+
+SERIES 4
+
+PLAN OF OPERATION
+
+§163-4-1. General.
+
+1.1. Scope -- This legislative rule establishes the plan of operation for the Office of Technology of the Department of Administration for data processing, telecommunication, and central mailing office services. These rules supplement West Virginia Code §5A-6-1 et seq., and must be read in conjunction with this article.
+
+1.2. Authority -- West Virginia Code §5A-6-4.
+
+1.3. Filing Date -- April 21, 2025.
+
+1.4. Effective Date -- April 22, 2025.
+
+1.5. Sunset Date -- This rule shall terminate and have no further force or effect upon August 1, 2030.
+
+§163-4-2. Applicability.
+
+2.1. This legislative rule applies to each spending unit of the executive branch of state government utilizing the services of the Office of Technology.
+
+§163-4-3. Definitions.
+
+3.1. As used in this rule, all terms shall have the same meaning as provided in West Virginia Code §5A-6-2, and as follows:
+
+3.1.1. "Cost center" means expenses related to a specific resource.
+
+3.1.2. "Purchasing Division" means the Purchasing Division of the Department of Administration.
+
+3.1.3. "Resource" means a service or commodity provided by WVOT.
+
+3.1.4. "Revenue center" means a specific type of resource that generates revenue.
+
+3.1.5. "Secretary" means the Secretary of the Department of Administration.
+
+3.1.6. "User" means a spending unit of the executive branch of state government utilizing the services of the Purchasing Division or any other entity utilizing the services of WVOT.
+
+§163-4-4. Rate Schedules and Invoicing.
+
+4.1. Rate Schedules.
+
+WVOT's rate schedules are developed prior to the beginning of each fiscal year and reviewed quarterly for the first three quarters. Each revenue center charges for goods or services to enable that revenue center to be self-sufficient. Actual costs are accumulated for each revenue center and compared against the revenues received for the corresponding period. Differences between costs and revenues will be evaluated to determine if an adjustment of the rate is required and if debits or credits are required to remedy large variances between billing and operating expenses by an individual revenue center. Comparisons are made for each revenue center for the current fiscal year or quarter using the cumulative history of all revenues and expenses and usage that would affect the rate structure. Rate revisions shall be announced to users prior to implementation.
+
+4.2. Rates for Services.
+
+4.2.1. Each user shall be invoiced for services rendered, with charges to be fixed in a schedule or schedules prepared by the Chief Financial Officer and approved by the Chief Information Officer. The WVOT billing rate is the rate all WVOT users will pay for services.
+
+4.2.2. WVOT charges standard rates for services provided. WVOT calculates standard rates by dividing the known and anticipated fiscal year resource costs by the projected usage expressed in terms of billable units. Billings reflect the most up to date projections of actual costs incurred in the performance of services rendered. Rates may be adjusted to compensate for variances between actual costs and projections.
+
+4.3. Rates for Administrative Charges.
+
+Users may be assessed an administrative service expense fee up to 10%. The fee will be based on each user’s portion of service and usage. The Chief Information Officer will determine the fee percentage.
+
+4.4. Invoicing.
+
+Users will be invoiced on a monthly basis for WVOT services. Invoices will show each chargeable service performed for the user during the previous month in addition to any administrative service fee assessed. Invoices will be provided to each user by the end of each month. An exception to this schedule is when a user's monthly WVOT charges are less than $5.00. Invoices in this category may be held and sent only once a year.
+
+§163-4-5. Requisition Review.
+
+5.1. Technology Procurements.
+
+WVOT shall review all technology procurements prior to purchase. WVOT must approve any procurement requests before an agency submits them to the Purchasing Division. This includes technology procurements such as hardware, software, professional services, and associated maintenance. Documentation should include the justification for the purchase, any alternative solutions considered and the desired contract length and renewals, if appropriate. Exceptions to the review process may be granted by the secretary.
+
+5.2. Procedures for Review.
+
+WVOT’s approval must be attached to the procurement file. When reviewing a purchase, WVOT will examine the cost of the purchase and its suitability within the overall environments of the user and the state in relation to integration and communication with existing systems. The cost of the purchase includes, but is not limited to, all items associated with the procurement effort.
+
+## Curator notes
+
+Text extracted from the Word file (.docx) with pandoc's docx reader, tracked changes accepted and the result rendered one line per paragraph, heading, list item and table row (a table row's cells are joined by ' | '; list markers are written out as the file numbers them, bullets as a bullet character; footnotes follow the text as [n]). Running headers and footers, pictures and the text inside text boxes (such as a cover-page title) are not read. Headings carry no markup.
