@@ -20,6 +20,7 @@ run "provenance"     corpus-verify-provenance --config _meta/corpus.yml
 run "graph current"  python3 src/build_graph.py --check
 run "status current" corpus-generate-status --config _meta/corpus.yml --output STATUS.md --check
 run "seed list"      python3 src/check_seed_list.py --check
+run "analyst questions" python3 src/eval_questions.py --check
 run "ingest current" python3 src/ingest.py --check
 run "codeowners"     python3 .github/scripts/check-codeowners-paths.py
 run "ingester loads" python3 -c "import src.ingest, src.states; src.states.modules()"
