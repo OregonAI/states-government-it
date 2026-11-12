@@ -1,0 +1,127 @@
+---
+schema_version: 1
+corpus: states-government-it
+jurisdiction: nebraska
+id: ne-nitc-1-202
+title: 1-202. Project reviews; information technology projects submitted as part of the state biennial
+  budget process.
+doc_type: policy
+citation: NITC Technical Standards and Guidelines 1-202
+authority_level: ''
+issuing_body: Nebraska Information Technology Commission
+source_url: https://nitc.nebraska.gov/docs/1-202.pdf
+source_format: pdf
+retrieved: '2026-11-12'
+source_sha256: 954209f98d844908b975b1a3b38538814e15af584370d12225da490813224c01
+effective_date: null
+source_version: History through July 14, 2023
+status: current
+content_mode: verbatim
+conversion_notes: Text extracted with pdftotext -layout (page headers, footers and column layout kept
+  as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their
+  letters). source_version is the latest date on the section's History line (adoption, renumbering or
+  amendment); the section prints no separate effective date, so effective_date stays empty.
+last_verified: ''
+verified_by: ''
+maintainer: ''
+relationships:
+  implements: []
+  implemented_by: []
+  references_external: []
+  related: []
+  supersedes: []
+tags:
+- oversight
+- funding
+---
+
+> **NON-AUTHORITATIVE.** This is a convenience copy for machine reading. The official text is published at the source URL above. Verify at source before relying on it.
+
+# 1-202. Project reviews; information technology projects submitted as part of the state biennial budget process. (NITC Technical Standards and Guidelines 1-202)
+
+## At a glance
+
+NITC Technical Standards and Guidelines section 1-202, adopted by the Commission under Neb. Rev. Stat. 86-516 and applying to state agencies, boards and commissions (1-102).
+
+## Full text
+
+                                                           Nebraska Information Technology Commission
+                                                                      Technical Standards and Guidelines
+
+1-202. Project reviews; information technology projects submitted as part of the state
+biennial budget process.
+   Neb. Rev. Stat. § 86-516 provides, in pertinent part:
+       “The commission shall: …. (5) Adopt guidelines regarding project planning and
+       management and administrative and technical review procedures involving state-owned
+       or state-supported technology and infrastructure. Governmental entities, state agencies,
+       and noneducation political subdivisions shall submit all projects which use any
+       combination of general funds, federal funds, or cash funds for information technology
+       purposes to the process established by sections 86-512 to 86-524. The commission may
+       adopt policies that establish the format and minimum requirements for project
+       submissions. The commission may monitor the progress of any such project and may
+       require progress reports; …. (8) By November 15 of each even-numbered year, make
+       recommendations on technology investments to the Governor and the Legislature,
+       including a prioritized list of projects, reviewed by the technical panel pursuant to section
+       86-521. The recommendations submitted to the Legislature shall be submitted
+       electronically; ….”
+    This policy provides the format, minimum requirements, and review procedures for
+information technology projects submitted as part of the state biennial budget process. The
+requirements are as follows:
+   (1) Format. Budget requests for information technology projects that meet the minimum
+requirements set forth in subsection (2) must include a completed information technology project
+proposal form. The form provided in the Nebraska Budget Request and Reporting System is the
+approved format for information technology project proposals.
+   (2) Minimum Requirements for Project Submissions.
+    (a) Information technology projects that meet the following criteria are subject to the project
+review requirements of this section: (i) the estimated total project costs are more than $500,000,
+or (ii) the estimated total project costs are more than $50,000, and the project will have a
+significant effect on a core business function or multiple agencies.
+    (b) Exceptions. The following information technology projects are not subject to the project
+review requirements of this section and do not require the submission of a project proposal: (i)
+multi-year projects that have been reviewed as part of a previous budget submission; or (ii)
+projects utilizing the enterprise content management system managed by the Office of the CIO.
+
+   (3) Technical Review Procedures. The technical review of information technology projects
+submitted pursuant to this section will consist of the following steps:
+    (a) Individual Technical Reviewers. Each project will be reviewed and scored by three
+individual technical reviewers using review and scoring criteria approved by the Technical
+Panel. Qualified reviewers include: members of the Technical Panel, members and alternates of
+the advisory councils chartered by the commission, and such other individuals as approved by
+the Technical Panel.
+    Assignment of Reviewers. Individual technical reviewers will be assigned to projects as
+follows: (1) staff will assign three reviewers for each project based on the subject matter of the
+project; (2) staff will notify Technical Panel members by email of the initial assignment of
+reviewers; (3) members will have 24 hours to object to any of the reviewer assignments,
+objections to be made by email to the other members noting the specific assignment for which
+there is an objection and the reason(s) for the objection; (4) if there are objections, reassignments
+will be made and communicated in the same manner as the initial assignment, or the Technical
+Panel chairperson may call a special meeting of the Technical Panel to assign reviewers; (5) staff
+will provide the assigned reviewers with the project review documents; (6) in the event a
+reviewer is unable to complete an assigned review, a new reviewer will be assigned using the
+same process as the initial assignment; and (7) if for any reason less than three individual
+reviews are completed prior to the Technical Panel’s review referenced in subsection (3)(d), the
+Technical Panel may complete the project review without regard to the requirements of this
+subsection.
+    (b) Agency Response. The requesting agency will be provided with the reviewer scores and
+comments. The agency may submit a written response to the reviewer scores and comments. The
+deadline for submitting a response will be one week prior to the Technical Panel review
+referenced in subsection (3)(d).
+    (c) Advisory Council Review. Depending on the subject matter of a project, one or more of
+the commission’s advisory councils may review the project and provide recommendations to the
+Technical Panel and commission.
+    (d) Technical Panel Review. The Technical Panel will review each project including the
+reviewer scores and comments, any agency response, and any recommendations by the advisory
+councils. The Technical Panel will provide its analysis to the commission.
+    (e) Commission Review and Recommendations. The commission will review each project
+including any recommendations from the Technical Panel and advisory councils. The
+commission will make recommendations on each project for inclusion in its report to the
+Governor and the Legislature.
+--
+     History: Adopted on June 18, 2008. Amended on June 16, 2010; August 15, 2012; August 14, 2014; July 14, 2016; July 12, 2018; and July
+     14, 2023.
+
+URL: https://nitc.nebraska.gov/standards/1-202.pdf
+
+## Curator notes
+
+Text extracted with pdftotext -layout (page headers, footers and column layout kept as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their letters). source_version is the latest date on the section's History line (adoption, renumbering or amendment); the section prints no separate effective date, so effective_date stays empty.

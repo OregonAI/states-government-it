@@ -1,0 +1,68 @@
+00
+State of New Mexico
+Michelle Lujan Grisham
+Governor
+EXECUTIVE ORDER 2024-011
+STRENGTHENING STATE AGENCY CYBERSECURITY
+WHEREAS, a surge in cybersecurity breaches and hacks poses a severe threat to the
+integrity of sensitive information held by state agencies;
+WHEREAS, recognizing the escalating nature of cyber threats, there is an urgent need to
+fortify the defenses of New Mexico's state agencies against potential cyber intrusions;
+WHEREAS, the protection of citizen data and critical infrastructure requires immediate
+and comprehensive action to enhance cybersecurity measures; and
+WHEREAS, implementing and enforcing strengthened cybersecurity requirements will
+bolster the overall resilience of state agencies in the face of evolving cyber threats.
+NOW, THEREFORE, I, Michelle Lujan Grisham, Governor of the State of New Mexico,
+by the authority vested in me by the Constitution and laws of the State of New Mexico do hereby
+ORDER and DIRECT as follows:
+1.
+The Department of Information Technology shall conduct information technology
+and security assessments on state agencies to detect security vulnerability incidents and support
+mitigation efforts as necessary and within capabilities.
+2.
+State agencies shall adopt and implement cybersecurity, information security, and
+privacy policies, standards, and procedures based upon no less than moderate-impact security
+State Capitol · Room 400· Santa Fe, New Mexico 87501 · 505-476-2200
+control baselines, frameworks, and standards issued by the National Institute of Standards and
+Technology. State agencies shall certify, in the form and manner specified by the Department of
+Information Technology and the Office of the Governor, compliance with the applicable standard
+by November 1, 2024, and on an annual basis thereafter. The Department of Information
+Technology shall compile state agency certifications and submit them to the Office of the
+Governor.
+3.
+If a state agency is unable to certify compliance pursuant to Section 2 of this Order,
+the agency shall submit to the Department of Information Technology a request for an exemption
+together with a plan outlining the steps the agency is taking to come into compliance and the
+approximate timeline it anticipates each plan item will be completed. The Department of
+Information Technology shall review the request for exemption and forward it to the Office of the
+Governor together with a recommendation to approve or deny the request and the reasons
+therefore. If the Office of the Governor denies the request for exemption, the agency shall promptly
+submit an updated plan and timeline for consideration.
+All public bodies not subject to this Order are strongly encouraged to voluntarily
+comply with the rules, standards, and other requirements of the Cybersecurity Act or this Order
+and participate in the cybersecurity and information security programs offered by the
+Cybersecurity Office, the Cybersecurity Advisory Committee, or the Department of Information
+Technology.
+I FURTHER ORDER and DIRECT as follows:
+1. As used in this Order, “state agencies” means departments, offices, boards,
+commissions, and other agencies within the Executive Branch under gubernatorial control.
+Executive Order 2024-011
+Page 2
+State Capitol • Room 400· Santa Fe, New Mexico 87501 • 505-476-2200
+2.
+This Order shall take effect immediately and shall remain in effect until renewed,
+modified, or rescinded.
+ATTEST:
+DONE AT THE EXECUTIVE OFFICE
+Maggie Toulouse Olei
+THIS 5TH DAY OF APRIL 2024
+MAGGIE TOULOUSE OLIVER
+WITNESS MY HAND AND THE GREAT
+SECRETARY OF STATE
+SEAL OF THE STATE OF NEW MEXICO
+Michell huajan Bischen
+MICHELLE LUJAN GRISHAM
+GOVERNOR
+Executive Order 2024-011
+Page 3
+State Capitol • Room 400· Santa Fe, New Mexico 87501 · 505-476-2200

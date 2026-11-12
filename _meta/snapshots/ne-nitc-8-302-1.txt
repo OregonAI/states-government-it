@@ -1,0 +1,24 @@
+                                                            Nebraska Information Technology Commission
+                                                                       Technical Standards and Guidelines
+
+8-302.1. Public accounts; passwords.
+    This section sets forth the format, minimum requirements, and review procedures for public
+accounts accessing state resources. This section applies to all public accounts created for use
+within the State of Nebraska domain namespaces. Public accounts are accounts on state managed
+systems that are to be used by the general public and are not to be used by state employees or
+contractors to conduct state business.
+    (1) Information Access. A public account may only be used by the user to access their own
+information.
+     (2) Passwords. The following are the minimum requirements for public account passwords:
+     (a) Must contain a minimum of 12 characters;
+   (b) Must contain at least three of the following four complexity requirements: at least one
+uppercase letter; at least one lowercase letter; at least one numeric value; or, at least one special
+character; and
+     (c) Accounts must be locked temporarily after five failed password attempts.
+    (3) Review Process. Accounts with no successful login activity for a period of 24 months
+will be disabled. Accounts with no successful login activity for 26 months will be deleted.
+   (4) Misuse or Abuse. Any misuse or abuse of a public accounts will cause the account in
+question to be terminated.
+--
+     History: Adopted on July 8, 2021.
+     URL: https://nitc.nebraska.gov/standards/8-302.1.pdf

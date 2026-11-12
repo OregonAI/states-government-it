@@ -1,0 +1,187 @@
+DTS POLICY 2000-0014
+
+Policy Type: Internal Policy
+
+Section/Group: Human Resources
+
+Authority: UCA §53-10-108; UCA 63A-16-103; Governor's Executive Order: Directing the Chief Information Officer to Develop and Implement Policy Promoting Security of State Information and Information Systems; DHRM Rule R477-11; DPS Rule R722-900 Access to Bureau Records.
+
+Document History
+
+Original Submission
+
+Submitted On: NA
+
+Submitted by: J. Stephen Fletcher, CIO
+
+Approved by: Michael Hussey
+
+Issue Date: NA
+
+Effective Date: June 1, 2009
+
+Revisions
+
+Last Revised Date: 03/16/2026
+
+Last Revised By: Brooke Baker
+
+Last Approved By: Alan Fuller
+
+Reviews
+
+Last Reviewed Date: 03/16/2026
+
+Last Reviewed By: Brooke Baker, DHRM
+
+Next Review: 03/16/2027
+
+Dissemination
+
+DTS shall provide notification of policy implementation, revision, or repeal to appropriate personnel in accordance with DTS Policy 1000-0002 Establishing and Updating DTS Policies and Administrative Rules.
+
+1.0 Purpose
+
+This policy provides a mechanism for the Division of Technology Services (DTS) to ensure the security of information and resources entrusted to its care, reduce the risk of liability to the State of Utah, and promote the trust of DTS customers.
+
+1.1 Background
+
+The Chief Information Officer (CIO) must develop and implement policies that promote the security of State information and information systems. The CIO has determined that DTS must hire and retain qualified individuals whose criminal history will not adversely affect the confidentiality, integrity, or availability of information and resources maintained by the State of Utah.
+
+1.2 Scope
+
+This policy applies to all individuals employed by DTS and DTS contractors. This policy and procedure also applies to all personal computers, file servers, or electronic storage equipment supported, maintained, or administered by DTS and DTS employees with responsibilities related to these devices.
+
+1.3 Exceptions
+
+None.
+
+2.0 Definitions
+
+UCJIS Umbrella
+
+Positions within the UCJIS Umbrella are those which have the potential to access (and possibly misuse) UCJIS information by virtue of the job location, physical facility access, data access, etc. Business needs may require re-assessment of the UCJIS Umbrella status of any position at any time.
+
+BCI Approval
+
+Approval given by the Utah Bureau of Criminal Identification (BCI) to allow an employee to be in proximity of UCJIS equipment or data. This approval is required because DTS employees may be assigned at any time to work near UCJIS equipment or data.
+
+Security Level
+
+The Department of Technology Services designates a security level requirement to determine access authorization to classified systems and data. Systems and data are classified as restricted, protected, or public based on the sensitivity of the information stored and/or processed. Each security level designation correlates with the classification of the systems and data an employee is granted access to.
+
+3.0 Policy
+
+It is the policy of the Division of Technology Services to employ an honest and ethical workforce. As a result, DTS shall conduct criminal background checks of all new hires and current department employees. For the purpose of this policy, any current State employee transferring to employment with DTS is considered to be a new hire.
+
+3.1
+
+New employees of DTS shall be fingerprinted and undergo a background investigation at the time of hire. After the initial background investigation is completed, BCI provides DTS with ongoing status notifications of any criminal history reported on new and current DTS employees through the FBI Rap Back System.
+
+3.2
+
+Current employees and applicants for employment shall be provided notice that retention and/or an employment offer is conditional on BCI approval prior to a background check.
+
+3.3
+
+Background investigations shall not be conducted without the written consent of the individual being investigated. Refusal to sign the disclosure and consent forms shall disqualify the individual from being considered for or retained in the position.
+
+3.4
+
+DTS shall pay all fees associated with the background investigation.
+
+3.5
+
+Results of the background investigation will be sent to the Human Resource Director, or a designee. If BCI access is denied, the Human Resource Director, or a designee, will consult with the DTS Executive Director or designee to execute appeals procedures per section 3.6 of this policy. No DTS employee is authorized to obtain the results of the background investigation of an employee or contractor unless approved to receive the information verbally from the HR Director or designee, or the DTS Director or designee.
+
+3.6 Appeals
+
+3.6.1
+
+In the event that BCI denies access, an appeal to BCI may be filed by the subject of the background check or the Human Resource Director. The appeal may contain factors such as status of the case, pending fines, restitution, probation, education, and extent of history.
+
+3.6.2
+
+If the appeal is not successful, DTS management will first consider the factors in section 5.2 to determine whether the new hire may continue working for DTS. If the new hire is then retained, the paragraphs under Section 4.2 apply.
+
+3.7 Misuse
+
+3.7.1
+
+The Commissioner and Director of BCI will be notified if misuse of UCJIS information is suspected.
+
+3.7.2
+
+The agency will abide by UCA 53-10-108.
+
+4.0 Procedures
+
+4.1
+
+New Hires and Contractors – All job offers made to non-DTS employees are contingent on BCI granting full access following the background check. If BCI denies access, the Human Resource Director or the subject of the background investigation may submit an appeal to BCI. If the appeal is unsuccessful, then Paragraph 3.6.2 will apply.
+
+4.2
+
+Current Employees – There are four potential scenarios for current DTS employees whose access is denied by BCI depending on whether the employee's job is under the UCJIS Umbrella or not, and whether there is a vacant position outside the UCJIS Umbrella that matches the employee's qualifications and access restrictions.
+
+4.2.1
+
+Any current employee whose access has been denied by BCI, but whose position is outside the UCJIS Umbrella may be permitted to continue working under a written restriction. Restrictions under this circumstance may remain as long as the position remains outside of the UCJIS Umbrella.
+
+4.2.2
+
+Any current employee whose access has been denied by BCI and whose position is under the UCJIS Umbrella, but whose job duties can be modified to accommodate the limited access without hardship to DTS may be permitted to continue working in their current position with appropriate modifications to job duties and written restrictions. Restrictions under this circumstance may remain as long as the modification to job duties does not pose a hardship as determined by DTS.
+
+4.2.3
+
+Any current employee whose access has been denied by BCI, whose position is under the UCJIS Umbrella, and whose job duties cannot be modified to accommodate the limited access without hardship, may be placed in a vacant position for which they qualify and which is outside of the UCJIS Umbrella with written restrictions. Reassignment under this circumstance would be considered a permanent move and the restrictions may remain as long as the position remains outside the UCJIS Umbrella.
+
+4.2.4
+
+Any current employee whose access has been denied by BCI, whose position is under the UCJIS Umbrella, whose job duties cannot be modified to accommodate access restrictions, and there is no vacant position for which the employee is qualified, shall be terminated from employment.
+
+5.0 Special Circumstances for Existing Employees
+
+5.1
+
+DTS will avoid dismissing a current employee based on a record without disposition alone. For current employees, if BCI's denial is based only on a record without disposition, DTS shall first exercise the options listed in section 4.2 of this policy. If no option under 4.2 is available, DTS may grant an unpaid leave of absence for a reasonable time, determined by DTS, until a final disposition is recorded in the official record. Once said disposition is in the record, this section ceases operation and the policy applies as normal.
+
+5.2
+
+The following factors shall be reviewed and determined by management if DTS is considering dismissing an employee due to information in the criminal record despite BCI granting access:
+
+5.2.1
+
+Whether the crime is related to an employee's current job duties or which might reasonably be expected to prevent an employee from performing the duties of the position or which adversely affects the integrity of information resources maintained by the state.
+
+5.2.2
+
+Whether the conviction will adversely affect the trust of DTS customers and the citizens of the State of Utah.
+
+5.2.3
+
+The nature of the crime and the number of convictions.
+
+5.2.4
+
+The recency of the conviction.
+
+5.2.5
+
+The employee's conduct and demonstration of trust since the conviction.
+
+5.2.6
+
+False or misleading written or verbal statements, made by an employee regarding their criminal record.
+
+5.3
+
+Generally, the department considers a criminal conviction that relates to the job duties of the position to be sufficient cause for termination if it occurred within five years of the date of hire or of the last background investigation for misdemeanors or within ten years for felonies. However, convictions relating to fraud and/or serious crime or a pattern of violence will be considered sufficient cause for termination unless the convictions are cleared from the record entirely.
+
+5.4
+
+Any person with a DUI arrest or conviction may not drive a state vehicle if the driver’s license has been revoked or restrictions have been put in place by the State Driver Eligibility Board.
+
+5.5
+
+DTS employees are required to report any arrest to the DTS Director or designee within 30 days of the arrest.

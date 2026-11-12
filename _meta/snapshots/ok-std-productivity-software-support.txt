@@ -1,0 +1,47 @@
+                            Productivity Software Suite Standard
+
+Introduction
+State employees, agencies and external partners have an ever-increasing need for
+collaboration tools like interagency instant chatting and document sharing software. OMES is
+committed to balancing the convenience of such software against the threats of cybersecurity
+and risk exposure.
+
+Purpose
+This document establishes the productivity software suite standard for the State of Oklahoma.
+
+Standard
+The State of Oklahoma standard for productivity software used to create, modify or
+communicate information for business needs is Microsoft 365 in the State of Oklahoma tenant.
+The Microsoft 365 environment features system redundancy, network security and physical
+security at data center sites, as well as mailbox auditing and disaster recovery at geo-redundant
+data centers. Data is encrypted in transit and at rest.
+The tools Microsoft 365 offers support collaboration in a secure manner. OMES Cyber
+Command continually refines this guidance and releases additional products related to the
+secure use of productivity software solutions as they become available. The references below
+are helpful resources to learn more about these designated tools for state agencies.
+
+Compliance
+This standard shall take effect upon publication and is made pursuant to Title 62 O.S. §§ 34.11.1
+and 34.12 and Title 62 O.S. § 35.8. OMES IS may amend and publish the amended standards
+policies and standards at any time. Compliance is expected with all published policies and
+standards, and any published amendments thereof. Employees found in violation of this standard
+may be subject to disciplinary action, up to and including termination.
+
+Rationale
+To coordinate and require central approval of state agency information technology purchases
+and projects to enable the chief information officer to assess the needs and capabilities of state
+agencies as well as streamline and consolidate systems to ensure that the state delivers
+essential public services to its citizens in the most efficient manner at the lowest possible cost to
+taxpayers.
+
+References
+   •   Microsoft Office 365 Quick Start.
+   •   Microsoft training for Outlook.
+   •   Microsoft training for OneDrive.
+   •   Microsoft training for Teams.
+
+Revision history
+This standard is subject to periodic review to ensure relevancy.
+ Effective date: 01/31/2022                Review cycle: Annual
+ Last revised: 04/04/2025                  Last reviewed: 02/23/2026
+ Approved by: Dan Cronin, Chief Information Officer

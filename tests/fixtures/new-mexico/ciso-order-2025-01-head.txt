@@ -1,0 +1,70 @@
+Docusign Envelope ID: 1AAA6D10-7107-4496-8E2F-790D71EA04D8
+
+
+
+
+                                             BEFORE THE NEW MEXICO
+                                      CHIEF INFORMATION SECURITY OFFICER
+
+
+            IN THE MATTER CONCERNING                  )
+            CYBERSECURITY INCIDENT REPORTING )
+                                                      )
+            ORDER NO. 2025-01                         )
+            __________________________________________)
+
+
+                     THIS MATTER comes before the New Mexico Chief Information Security Officer
+            (“CISO”) sua sponte. The CISO, having considered the matter and being otherwise fully informed,
+            issues an Order as follows:
+
+
+            WHEREAS:
+            1.       Pursuant to Section 9-27A-3(A) of the New Mexico Cybersecurity Act, (Sections 9-27A-1
+            to 9-27A-5 NMSA 1978) (“Cybersecurity Act”), the New Mexico Legislature created the Office
+            of Cybersecurity (“OCS”). The OCS is managed by the CISO.
+            2.       Pursuant to Section 9-27A-3(B)(12) of the Cybersecurity Act, the OCS and the CISO may
+            create a model cybersecurity incident response plan and establish a centralized cybersecurity and
+            data breach reporting process for agencies and political subdivisions of the state.
+            3.       Cybersecurity incidents may include unauthorized access of an information technology
+            (IT) system, unauthorized access to or disclosure of electronic data, or the use of electronic
+            processes, devices or communications to manipulate conduct of human actors.                     In an
+            interconnected IT environment such as state government, any device, scheme or artifice that results
+            in or risks disruption of an IT system or unauthorized access to digital information or that risks
+            personal or economic injury to the state or any person is potentially repeatable, and therefore of
+            interest to all agencies and political subdivisions of the state.
+            4.       The Federal Information Security Modernization Act of 2014 (“FISMA”) defines a
+            cybersecurity "incident" as an occurrence that:
+                     A. actually or imminently jeopardizes, without lawful authority, the integrity,
+            confidentiality, or availability of information or an information system; or
+                     B. constitutes a violation or imminent threat of violation of law, security policies, security
+            procedures, or acceptable use policies.”
+Docusign Envelope ID: 1AAA6D10-7107-4496-8E2F-790D71EA04D8
+
+
+
+
+            5.       The National Institute of Standards and Technology (“NIST”) promulgates standards for
+            cybersecurity practices, including incident reporting and response. For large organizations, such
+            as state government, NIST standards encourage centralized reporting and response.
+            6.       NIST standards also recognize that timely notice of a cybersecurity incident, no matter the
+            severity, to the entity responsible for prevention, mitigation and response to the incident facilitates
+            risk and vulnerability assessment, promotes development and implementation of responsive
+            actions for the impacted entity and all similarly situated entities, and facilitates incident mitigation
+            and recovery.
+            7.       Minimizing the dissemination of cybersecurity incident information through centralized
+            reporting and management is a NIST recognized standard to avoid propagation of cybersecurity
+            vulnerabilities and associated intrusions, and attempted intrusions.
+
+
+            WHEREFORE:
+            A.       It is in the best interest of New Mexico state government for the OCS and the CISO to
+            receive prompt and exclusive notice of every cybersecurity incident experienced by agencies and
+            political subdivisions of the state.
+            B.       The OCS and the CISO are authorized by statutory law to be the first and exclusive
+            recipient of information concerning every cybersecurity incident experienced by agencies and
+            political subdivisions of the state.
+            C.       It is in the best interest of New Mexico state government for the OCS and the CISO to
+            determine when and who should receive notice of a cybersecurity incident.
+            D.       Having a single point of contact within state government for compliance with cybersecurity
+            incident reporting requirements applicable to any agency or political subdivision of the state will

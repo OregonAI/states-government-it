@@ -1,0 +1,804 @@
+---
+schema_version: 1
+corpus: states-government-it
+jurisdiction: nebraska
+id: ne-nitc-3-204
+title: 3-204. Imagery standard.
+doc_type: standard
+citation: NITC Technical Standards and Guidelines 3-204
+authority_level: ''
+issuing_body: Nebraska Information Technology Commission
+source_url: https://nitc.nebraska.gov/docs/3-204.pdf
+source_format: pdf
+retrieved: '2026-11-12'
+source_sha256: 325d1eed6be40e5b6bd1cd28e960c8f1e9a9a29ef782c18d604439125807cb28
+effective_date: null
+source_version: History through July 25, 2019
+status: current
+content_mode: verbatim
+conversion_notes: Text extracted with pdftotext -layout (page headers, footers and column layout kept
+  as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their
+  letters). source_version is the latest date on the section's History line (adoption, renumbering or
+  amendment); the section prints no separate effective date, so effective_date stays empty.
+last_verified: ''
+verified_by: ''
+maintainer: ''
+relationships:
+  implements: []
+  implemented_by: []
+  references_external: []
+  related: []
+  supersedes: []
+tags:
+- data
+---
+
+> **NON-AUTHORITATIVE.** This is a convenience copy for machine reading. The official text is published at the source URL above. Verify at source before relying on it.
+
+# 3-204. Imagery standard. (NITC Technical Standards and Guidelines 3-204)
+
+## At a glance
+
+NITC Technical Standards and Guidelines section 3-204, adopted by the Commission under Neb. Rev. Stat. 86-516 and applying to state agencies, boards and commissions (1-102).
+
+## Full text
+
+                                                                       Nebraska Information Technology Commission
+                                                                                  Technical Standards and Guidelines
+
+3-204. Imagery standard.
+[Section 3-204 appears after this cover page in a legacy format.]
+--
+     History: Adopted on October 28, 2014. Amended on July 25, 2019.
+     URL: https://nitc.nebraska.gov/standards/3-204.pdf
+
+1.0 Standard
+
+   1.1 Description
+
+       This standard provides requirements necessary for the creation, development, delivery, and
+       maintenance of aerial imagery acquisition to support a statewide Nebraska Imagery Program.
+       There are multiple uses for imagery and data acquisition is expensive and requires preplanning.
+       These standards are set at a minimum such that the majority of applications and needs are met
+       across the state.
+
+       It is important to collect ortho-rectified imagery so that ground features can be measured and
+       other data layers can be created from the data source which has a strong relationship to ground
+       control. The data required for ortho-rectification include orientation parameters for the source
+       image(s) and a digital elevation model (DEM) of the geographic area to be covered by the
+       imagery. Ortho-rectification corrects for tip and tilt of the aircraft and displacement in the
+       photograph caused by changes in the ground elevation.
+
+       Generally, the development of ortho-rectified imagery requires the acquisition of overlapping
+       photography of the same geography and some combination of surveyed ground control and
+       airborne (Global Positioning System) GPS collection at the time of photography. A
+       photogrammetrist performs image correlation techniques and aero-triangulation on the resulting
+       block of photographs to establish the orientation parameters of the individual image. Using a most
+       recent DEM source or new LiDAR DEM provides the base for which the new imagery is rectified.
+       These operations make ortho-rectified imagery more expensive than uncorrected aerial
+       photography, but also make it far more accurate and useful.
+
+       Ultimately, accurate base maps can be derived from ortho-rectified imagery because the image
+       has been geometrically corrected such that the scale is uniform. Streets and roads, curbs,
+       manholes, water edge, tree inventories, fire hydrants, and numerous other features can be
+       accurately mapped from the imagery. This also allows for accurate measurements of features
+       and relationships between features, directly on the photograph.
+
+       The standard provides a consistent structure for data producers and users to ensure compatibility
+       of datasets within the same framework layer and when used between other Nebraska Spatial
+       Data Infrastructure (NESDI) framework layers such as survey and geodetic control and LiDAR.
+
+       This standard does not restrict or limit additional buy-ups of imagery data and services. These
+       standards are meant to be a minimum set of standards and are subject to be updated based on
+       technology enhancements, necessary workflow changes, and other data requirements. Other
+       imagery data that is available at specifications that are above the minimum standard will be
+       evaluated on a case-by-case basis.
+
+       The standard is not intended to be a substitute for an implementation design. These standards
+       can be used at local, state and federal level to ensure interdisciplinary compatibility and
+       interoperability with other framework layers. These standards integrate with existing standards
+       such as the American Society for Photogrammetry and Remote Sensing (ASPRS) and other
+       NITC related standards.
+
+                                                                                                          1
+
+1.2 Acquisition and Processing
+
+   1.2.1   Flight Specifications
+
+           Proper planning and pre-flight requirements are necessary steps prior to acquiring
+           imagery. This includes consideration of temporal requirements, proper flight planning,
+           and ensuring that the characteristics of the sensors used in acquisition of imagery meet
+           these requirements.
+
+           1.2.1.1 Temporal Requirements
+
+                   Time of Day: Imagery will need to be acquired during minimal shadow conditions.
+                   Image acquisition shall occur when the sun angle is equal to or greater than 30-
+                   degrees.
+
+                   Time of Year: All imagery shall be collected during the late-Winter / early-Spring
+                   flying season during leaf-off conditions for deciduous vegetation in Nebraska.
+                   Exceptions can be made on a case-by-case basis for certain applications
+                   requiring leaf-on imagery.
+
+           1.2.1.2 Flight Plans
+
+                   Flight line orientation for all flight lines shall be in a cardinal direction, either
+                   north-south or east-west orientation when feasible. Flight plans must be
+                   approved prior to imagery acquisition. Information will need to be provided
+                   including project boundary, flight line numbers, flight line locations, and
+                   recommended ground control locations. If a frame sensor is used, exposure
+                   numbers should be included as well. For quality assurance purposes, the vendor
+                   shall submit copies of flight logs as part of the preliminary imagery deliverables.
+
+           1.2.1.3 Sensor Characteristics
+
+                   The entire mission in a given year must be flown with sensors having the same
+                   specifications. The system shall use square pixels (ground footprint) at all times
+                   during processing. The technique of using aggregated detectors resulting in a
+                   rectangular pixel before blending with other channels shall not be used. The
+                   aerial camera shall be a precision aerial mapping camera equipped with a low
+                   distortion, high resolution lens. Camera characteristics shall be such that the
+                   aerial photographs taken can be satisfactorily used with the vendor’s proposed
+                   photogrammetric compilation equipment and environment. Calibration certificates
+                   for all systems to be used for acquisition will need to be provided.
+
+           1.2.1.4 Sun Angle
+
+                   The images should be acquired only during the portion of the day when the sun
+                   angle exceeds the minimum of 30 degrees. To expedite acquisition within the
+                   photo periods, different sun angles may be permitted, provided the image does
+                   not have excessive shadows that preclude interpretation and data collection.
+
+                                                                                                        2
+
+1.2.2   Ground Control
+
+        Ground control needs to be established of sufficient density and accuracy to meet the
+        accuracy requirements of the ortho-rectified imagery.
+
+        Ground controls points used for aerial triangulation should be at least three times better
+        than the expected accuracy of aerial triangulation solution. For example, in order to
+        produce an orthophoto with an RMSEr of 15cm, the aerotriangulation results should have
+        an RMSExyz of 7.5 cm and the ground control used should have RMSExyz of 2.5 cm. The
+        control shall be sufficient to supplement the airborne GPS and Inertial Measurement Unit
+        (IMU) in order to meet the required product accuracies.
+
+        For all photogrammetric data sets, the accuracy of the aerial triangulation or INS
+        orientation (if used for direct orientation of the camera) should be at least twice the
+        accuracy of derived products, as evaluated at higher accuracy check points using stereo
+        photogrammetric measurements. Ground control and blind quality control points shall be
+        required for softcopy aero- triangulation and ortho-photography generation to meet the
+        accuracies specified.
+
+        Both ground control and quality control points will be based on a county or project area
+        size depending on the scope of the project to be flown. The control diagrams, indicating
+        the anticipated vertical and horizontal accuracies, will be reviewed before imagery
+        collection begins.
+
+        The availability and/or quality of any existing ground control will need to be determined
+        prior to flight acquisition. Any new control established for a project area will be delivered
+        including sketches, pictures of control locations, and an ISO 19115 compliant metadata
+        file. Those responsible for evaluating ground control should not assume that control
+        exists, but it could be beneficial to use existing control if possible.
+
+        1.2.2.1 Global Positioning Systems (GPS)
+
+                If additional ground control needs to be established, the ground control shall be
+                established with survey grade instrumentation. The GPS control survey needs to
+                be conducted with a licensed surveyor or engineer representing the quality
+                control process. A plan will need to be provided to recommend and coordinate
+                the placement of ground control target locations of a sufficient quantity and size
+                to control the photogrammetric accuracy specifications. Any new ground control
+                established must be tied to the Nebraska NAD83 horizontal datum. All ground
+                control points must be documented as such so that they are easily located by
+                other surveyors throughout the duration of the project.
+
+                The horizontal root-mean-square error (RMSE) of the airborne GPS control data
+                shall not exceed 0.2m. The vertical RMSE of the Airborne GPS control shall not
+                exceed 0.3m.
+
+        1.2.2.2 Digital Elevation Model (DEM)
+
+                Elevation data is necessary for ortho-rectifying imagery. A digital elevation model
+                (DEM) shall be developed at a density level necessary to support the imagery
+                ortho-rectification process.
+
+                                                                                                        3
+
+                The elevation data may come from various sources to build a DEM. Elevation
+                data may be derived from LiDAR, photogrammetry or autocorrelation as long as
+                it provides sufficient accuracy and precision to support imagery horizontal
+                accuracy requirements. Preference is to use LiDAR where it is available in the
+                state. The DEM shall consist of points spaced at regular intervals along a grid,
+                points of significant high or low elevations, and ortho-photography specific
+                breaklines at all significant terrain breaks. In cases, where breaklines are not
+                available suitable breaklines will need to be created to support an elevation
+                dataset. It is not necessary to capture break lines at all curbs, ditches, stream
+                banks, or other similar minor terrain breaks. The DEM shall be free of artifacts
+                and data voids. The vertical accuracy of the DEMs developed to support
+                production of the ortho-rectified imagery shall be sufficient to guarantee the
+                horizontal accuracy specified in these standards.
+
+                The U.S. Geological Survey's National Elevation Dataset (NED) has 1/3 arc-
+                second digital elevation model (DEM) data. Unless an area is very flat, the NED
+                should not be used for less than 12 inch resolution data where higher accuracy is
+                required.
+
+                There is no guarantee that the available DEM will be adequate to meet the final
+                product accuracy specifications. An updated DEM is necessary in order to
+                support the ortho-rectification production specifications and accuracy standards.
+                This may require the acquisition of LiDAR to complete this task.
+
+                Updates to the existing DEM need only support the ortho-rectification process
+                and are not required to support contour modeling or other applications. The DEM
+                data is not to be stored as a record (Z component) for each pixel of the ortho-
+                rectified image.
+
+1.2.3   Ground (Spatial) Resolution
+
+        The final imagery output needs to be at a minimum of 12 inch ground sample distance
+        (GSD). GSD is referred to as spatial resolution. This orthoimagery should meet ASPRS
+        Class II horizontal accuracy standards for digital Orthoimagery and 1:2,400 Digital
+        Planimetric Data.
+
+        A scale that equivalents higher resolutions (i.e., 6 inch) can be acquired as long as it
+        meets the respective scales and horizontal accuracies associated to its desired spatial
+        resolution found in section 1.2.6.
+
+1.2.4   Spectral Resolution
+
+        Imagery will need to be provided in four primary spectral bands at 12 bit including Red
+        (R), Green (G) and Blue (B) and Infrared (IR). All color imagery shall be the equivalent of
+        natural true color, to include 256 levels of value for each color band for RGB. The sensor
+        or camera shall save the bands in the following order: Red, Green, Blue, and infrared.
+
+1.2.5   Radiometric Resolution
+
+        The digital aerial images shall be clear and sharp in detail and of high radiometric quality.
+        The sensor shall capture the images in an uncompressed “lossless” image format. The
+
+                                                                                                    4
+
+        sensor shall, at minimum, utilize 12 bits per pixel radiometric resolution. Up-sampling
+        from a lower bit depth to a higher bit depth is not allowed (e.g. resampling 8 bit data to 12
+        bit data). Color balancing shall result in colors which appear natural to a human observer.
+        Image contract and brightness shall be adjusted to minimize perceptible differences
+        within and between adjacent images.
+
+1.2.6   Horizontal Accuracy
+
+        Horizontal accuracy assessment will be required for both in absolute and relative
+        conditions. The pixel size of the final digital orthoimagery is being considered for this
+        assessment not the GSD of the raw image that is used to establish the horizontal
+        accuracy class.
+
+               Absolute requires the use of ground control points for testing purposes. These
+                points, found in the image and coordinates from the ortho-rectified image, are
+                compared to the published coordinates.
+               Relative horizontal accuracy assessment involves the visual inspection of
+                adjacent images for edge matching, and the comparison of the ortho-rectified
+                image to planimetric data. The relative displacement would be quantified.
+               Recommendations for achieving the horizontal accuracy assessment shall be
+                provided prior to acquisition including the number of and the distribution of check
+                points within the project. QC points should be included in flight and control layout
+                prior to acquisition.
+
+        The final imagery output needs to meet horizontal accuracy requirements established by
+        ASPRS Class II accuracy for a minimum 12 inch GSD as defined in the following table.
+
+        Horizontal Data       RMSEx and          Orthophoto Mosaic          Aerial Triangulation or
+        Accuracy Class         RMSEy             Seamline Maximum             INS-based RMSEx
+                                                     Mismatch                RMSEy and RMSEz
+                 I           Pixel size x 1.0      Pixel size x 2.0             Pixel size x 0.5
+                II           Pixel size x 2.0      Pixel size x 4.0             Pixel size x 1.0
+                III          Pixel size x 3.0      Pixel size x 6.0             Pixel size x 1.5
+                …
+                N             Pixel size x N         Pixel size x 2N            Pixel size x 0.5N
+
+        When producing digital orthoimagery, the GSD as acquired by the sensor (and as
+        computed at mean average terrain) should not be more than 95% of the final
+        orthoimagery pixel size. In extremely steep terrain, additional consideration may need to
+        be given to the variation of the GSD across low lying areas in order to ensure that the
+        variation in GSD across the entire image does not significantly exceed the target pixel
+        size.
+
+                                                                                                    5
+
+        The following table serves as a guide for three common ASPRS horizontal accuracy
+        standards for planimetric maps intended for use at common map scales.
+
+        Orthophoto      Horizontal      RMSEx       RMSEr       Orthophoto            Horizontal
+         Pixel Size       Data            or         (cm)     Mosaic Seamline       Accuracy at the
+                        Accuracy        RMSEy                    Maximum            95% Confidence
+                          Class          (cm)                  Mismatch (cm)          Level (cm)
+                             I            7.5        10.6           15.0                 18.4
+           7.5-cm
+                            II           15.0        21.2           30.0                 36.7
+           (~3 in)
+                            III          22.5        31.8           45.0                 55.1
+                             I           15.0        21.2           30.0                 36.7
+            15-cm
+                            II           30.0        42.4           60.0                 73.4
+            (~6 in)
+                            III          45.0        63.6           90.0                110.1
+                             I           30.0        42.4           60.0                 73.4
+            30-cm
+                            II           60.0        84.9          120.0                146.9
+           (~12 in)
+                            III          90.0        127.3         180.0                220.3
+
+1.2.7   Projection and Datum
+
+        Imagery for the project will be referenced to the North American Datum of 1983 (NAD83)
+        using the 2007 HARN adjustment, and the North American Vertical Datum of 1988
+        (NAVD 88) with the latest ellipsoid and Geoid09 adjustments. Imagery shall be oriented
+        to the appropriate Nebraska State Plane using U.S. Feet.
+
+1.2.8   Pixel Clarity
+
+        Pixel clarity is defined by pixel size and relation to the ground sample distance (GSD) of
+        the specified pixel size. It is not recommended to resample from a coarser image to
+        obtain a finer image resolution. The image can be resampled from a sharper image for a
+        coarser image (i.e., obtaining an 18-inch pixel resolution from one foot).
+
+1.2.9   Image Quality
+
+        Images shall be tonally balanced and image mosaics shall be uniform in contrast without
+        abrupt variations between image tiles. Imagery shall be free of blemishes, and artifacts
+        that obscure ground feature detail. Pixel resolution shall not be degraded by excessive
+        image smear. Imagery shall have a tonal range that prevents the clipping of highlights or
+        shadow detail from the image.
+
+1.3.0   Environmental Conditions and Obstructions
+
+        To the extent possible, no clouds, snow, fog, haze, smoke, or other ground obscuring
+        conditions shall be present at the time of the flights. Ground conditions are free of snow,
+        flooding and excessive soil moisture. Streams and rivers should be within their normal
+        banks, unless otherwise negotiated. Spectral reflectance from water must be minimized
+        and should not obscure shoreline features. In no case will the maximum cloud cover
+        exceed 5% per image.
+
+1.3.1   Edge Effects
+
+        Sufficient end and side laps need to be taken into consideration to prevent any gaps in
+        coverage and to provide all necessary coverage for accurate ortho-rectification and visual
+
+                                                                                                      6
+
+            interpretation. The crab shall not be in excess of three (3) degrees; and, tilt of the camera
+            from verticality at the instant of exposure shall not exceed three (3) degrees.
+
+    1.3.2   Building Lean
+
+            Additional supplemental flight lines should be acquired in areas of tall buildings to limit
+            building lean in city blocks. Recommended supplemental flight lines should be provided
+            in preliminary flight layout for prior review and approval.
+
+1.3 Data Format
+
+    The data format provided will need to be in uncompressed tiles in a GeoTIFF format that can be
+    interpreted by commercial imagery and GIS software. Tile schemes will need to be provided at
+    5,000 feet x 5,000 feet. If mosaic imagery is suggested, the area of interest (AOI) or collection
+    area (i.e., county, quadrangle, city, etc) will need to be provided. The mosaic imagery need to be
+    compressed and provided as JPEG2000 with a compression ratio of 20:1.
+
+1.4 Maintenance
+
+    Entities responsible for data acquisition and deliverables will need to assure data meets
+    standards and are updated and maintained in a timely manner. After spatial and attribute updates
+    and/or modifications are performed to the data it shall be submitted to the appropriate entity(s)
+    responsible for performing quality control and maintenance of the data acquisition.
+
+    Maintenance of elevation data determines the suitability to support the greatest range of applications.
+    Many projects require up-to-date, accurate and consistent elevation data and maintenance of this
+    data is necessary to provide the maximum return on investment.
+
+    1.4.1   Reporting Errors and Handling Updates
+
+            The reporting of errors need to be directed to the appropriate entity in a timely manner.
+            Updated spatial and attribute information in the data will also need to be redistributed.
+            The date field in the metadata when the last record was modified will also need to be
+            updated to ensure proper records management and communication with others in the
+            workflow.
+
+1.5 Quality Control
+
+    A quality control process is required by a third-party to ensure the delivery of an image product
+    that satisfies the requirements as defined by these standards. The quality of imagery acquisition
+    is evaluated based on the overall functional correctness and completeness of the technical
+    requirements that also include a horizontal accuracy test. In the event that data does not meet
+    specific requirements of these standards, the imagery will be rejected and the vendor will be
+    required to either reacquire or re-process data appropriately to meet these standards.
+
+    1.5.1   Horizontal Accuracy Test
+
+            A number of check points will need to be collected within each area of interest to verify
+            the horizontal accuracy of the ortho-rectified production process. The check points must
+            be completely independent of ground control used during aero-triangulation and data
+
+                                                                                                          7
+
+            production. The recommended number of check points based on the size of area will
+            follow ASPRS guidelines.
+
+    1.5.2   Re-Flights
+
+            A plan for re-flights of areas will need to be provided in the event of image rejection
+            during the quality control process, or where original imagery could not be collected
+            because weather or ground cover conditions, or other factors outside the control of the
+            vendor precluded collection at the scheduled time of the flyover. Mechanical or technical
+            problems shall not be considered a legitimate reason for non-collection.
+
+1.6 Integration with other Standards
+
+    1.6.1   Street Centerline Standards (NITC 3-205)
+
+            These minimum standards for imagery acquisition are designed to ensure the acquisition
+            of imagery sufficient to meet the requirements for digitizing street centerlines as required
+            in the Street Centerline Standards NITC 3-205.
+
+    1.6.2   Address Standards (NITC 3-206)
+
+            These minimum standards for imagery acquisition are designed to ensure the acquisition
+            of imagery sufficient to meet the requirements for digitizing street centerlines as required
+            in the Address Standards NITC 3-206.
+
+1.7 Metadata
+
+    Complete and comprehensive metadata is required for the acquired imagery. The metadata will
+    require detailing the characteristics and quality of submitted imagery files. Information needs to
+    be provided to allow the user sufficient information so they can determine the data’s intended
+    purpose as well as how to access the data. The metadata requires a process description
+    summarizing collection parameters such as: contact information, data source, scale, accuracy,
+    projection, use restrictions, and imagery acquisition dates. The process description will also need
+    to be included to describe methodology towards the deliverable products.
+
+    1.7.1 Federal Metadata
+
+            The ISO 19115:2003(E) North American Profile (NAP) Metadata Standards should be
+            used when feasible and in every effort possible to assure high quality rigorous standards.
+            Metadata will need to be supplied for each tile and be provided in an XML format. All
+            imagery datasets, and their associated attribute databases should be documented with
+            ISO 19115 compliant metadata. Supplemental metadata information includes the
+            following: (1) tested horizontal accuracy statement, (2) lineage, including, but not limited
+            to: flight height, photo acquisition dates (and re-flights if any), overlap, sidelap, number of
+            flight lines, number of exposures, direction of flight lines, control, resolution, tiling
+            scheme, file sizes, description of the process used to create digital orthophotos, source of
+            DEM, and (3) spatial reference information: projection, ellipsoid, horizontal and vertical
+            datum, and horizontal and vertical units.
+
+    1.7.2   State Metadata
+
+            These standards need to apply to Nebraska’s metadata standards located within NITC 3-
+            201 Geospatial Metadata Standard. All metadata from imagery files will need to be
+            registered through the metadata portal at NebraskaMAP (http://NebraskaMAP.gov). All
+            developers of Nebraska-related geospatial data are encouraged to use the site to either
+
+                                                                                                         8
+
+                  upload existing metadata and/or use the online tools available on the site to create the
+                  metadata for imagery.
+
+2.0 Purpose and Objectives
+
+   2.1 Purpose
+
+       The purpose of this standard is to provide the necessary requirements for the creation,
+       development, delivery, and maintenance of aerial imagery data and services to support the
+       Nebraska Spatial Data Infrastructure (NESDI). These standards will help ensure that imagery
+       acquisition is consistent, accurate, publicly accessible, and cost-effective.
+
+   2.2 Objectives
+
+       These standards will guide the statewide imagery program having the following objectives:
+
+       2.2.1      Provide guidance and necessary workflows to state and local officials as they work, either
+                  in-house or with private vendors, to create, develop and maintain aerial imagery data and
+                  services. This can increase the likelihood that the data created will be suitable for the
+                  range of intended applications and likely future applications. The maintenance of aerial
+                  imagery data is necessary for the data to be current and accurate.
+
+       2.2.2      Enhance coordination and program management across jurisdictional boundaries by
+                  insuring that aerial imagery data can be horizontally integrated across jurisdictional
+                  and/or project boundaries, and other framework data layers for regional or statewide
+                  applications.
+
+       2.2.3      Save public resources by facilitating the sharing of aerial imagery data among public
+                  agencies or sub-divisions of agencies by incorporating data standards and following
+                  guidelines. Data that is developed by one entity can be done in a way that is suitable to
+                  serve the multiple needs of other entities. This avoids the costly duplication of developing
+                  and maintaining similar data in the state.
+
+       2.2.4      Make aerial imagery data current and readily accessible to the wide range of potential
+                  users through NebraskaMAP and other necessary resources.
+
+       2.2.5      Facilitate harmonious, trans-agency and public policy decision-making and
+                  implementation by enabling multiple agencies and levels of government to access and
+                  appropriately use current aerial imagery data. This can make it more likely that
+                  intersecting public policy decisions, across levels of government, will be based on the
+                  same information.
+
+       2.2.6      Lay the foundation for facilitating intergovernmental partnerships for the acquisition and
+                  development of high-quality aerial imagery data by defining standards that increase the
+                  likelihood that this data will meet the needs of multiple users.
+
+       2.2.7      Establish and promote the integration and interrelationships of aerial imagery data with
+                  related NESDI framework layers through geometric placement and attributes.
+
+3.0 Definitions
+
+       Accuracy
+                      Absolute - A measure of the location of features on a map compared to their true
+                      position on the face of the earth.
+
+                                                                                                               9
+
+            Relative - A measure of the accuracy of individual features on a map when compared
+            to other features on the same map.
+
+Band - A range of wavelengths of electromagnetic radiation.
+
+Check Point – One of the surveyed points in the sample used to estimate the positional accuracy
+           of the data set against an independent source of higher accuracy.
+
+Confidence Level – The percentage of points within a data set that are estimated to meet the
+           stated accuracy; i.e., accuracy reported at the 95% confidence level means that 95%
+           of the positions in the data set will have an error with respect to true ground position
+           that are equal to or smaller than the reported accuracy value.
+
+Datum – A set of values used to define a specific geodetic system.
+
+Digital Elevation Model - A digital cartographic representation of the elevation of the land at
+             regularly spaced intervals in x and y directions, using z-values referenced to a
+             common vertical datum. A DEM also assumes bare-earth terrain, void of vegetation
+             and manmade features. The USGS DEMs archived in the National Elevation Dataset
+             (NED) have different formats based on 1-arc-second, 1/3-arc-second, and 1/9-arc-
+             second grid spacing.
+
+Forward Lap or End Lap - The extent to which sequential exposures in a flight line overlap
+
+Ground Sample Distance (GSD) – The linear dimension of a sample pixel’s footprint on the
+          ground. Within these standards GSD is used when referring to the collection GSD of
+          the raw image, assuming near-vertical imagery. The actual GSD of each pixel is not
+          uniform throughout the raw image and varies significantly with terrain height and
+          other factors. The GSD is assumed to be the value computed using the camera focal
+          length and camera height above average mean terrain.
+
+Ground (spatial) resolution or pixel size – As used within these standards, pixel size is the ground
+           size of a pixel in a digital ortho-rectified imagery product, after all rectifications and
+           resampling procedures.
+
+Horizontal Accuracy - The horizontal component of the positional accuracy of a data set with
+            respect to a horizontal datum, defined at the 95% confidence level.
+
+Image Correlation – Directly comparing hardcopy or softcopy images, or patches of pixels on
+           conjugate digital images, or indirectly comparing information derived from the stereo
+           images, to determine that points on stereo images (viewed from different
+           perspectives) represent the same points on the imaged surface. Automated image
+           correlation is a computerized technique to match the similarities of pixels in one
+           digital image with comparable pixels in its digital stereo image in order to automate or
+           semi-automate photogrammetric compilation. Automated image correlation provides
+           an efficient method for generating DEMs photogrammetrically, but automated
+           correlation normally results in Digital Surface Models (DSMs) instead of DEMs
+           because such correlation generates elevations of rooftops, treetops and other
+           surface features as imaged on the stereo photographs.
+
+Inertial Measurement Unit (IMU) - An electronic device that measures and reports velocity,
+            orientation, and gravitational forces, using a combination of accelerometers and
+            gyroscopes, sometimes also magnetometers. IMUs work to detect changes in pitch,
+            roll, and yaw of an aircraft. IMUs are typically used to maneuver aircraft, including
+            unmanned aerial vehicles (UAVs), among many others, and spacecraft, including
+            satellites and landers.
+
+                                                                                                  10
+
+Leaf-Off / Leaf-On - Leaf-off and leaf-on refer to the presence or lack of the foliage of woody
+             species. Leaf-off means that there is no foliage or a reduced amount of foliage on the
+             tree or shrub species. Leaf-on imagery means that there is foliage on the tree or
+             shrub species (or the species of interest). Sometimes it is beneficial to have leaf-off
+             imagery so that you can see ground features more distinctly. This is helpful for
+             mapping features such as buildings and roads, which may be obscured by tree
+             foliage during the growing season. Leaf-off imagery is also used in forestry
+             applications because the lack of leaves on some trees facilitates the classification of
+             tree types. There are times when you might want leaf-on imagery, especially if the
+             tree or shrub species has a distinctive spectral reflectance that can be distinguished
+             from other vegetation. Leaf-on imagery is also used in agricultural applications to
+             measure the quantity and health of crops. Many woody species may have similar
+             spectral reflectance or structure that may benefit from either a leaf-off or leaf-on
+             flyover.
+
+Map or Cartographic Scale - The relationship between a given distance on the ground and the
+           corresponding distance on a photograph or image. Scale is expressed in at least two
+           different ways. Both are ratios. In the first, commonly used measuring systems are
+           compared; for example 1" = 200' (one inch on the map equals 200 feet on the earth).
+           In the second, the map unit is arbitrary; for example, 1:200 means that one of
+           anything (an inch, a foot, a centimeter, etc.) on the map equals 200 of that same unit
+           on the earth. (1"=200' is the same scale as 1:2400). Scale is presented in several
+           ways: as a bar at the bottom of the map, as a ratio (1:200), or as an equation
+           (1"=200').
+
+Nebraska Spatial Data Infrastructure (NESDI) - A framework of geospatial data layers that have
+          multiple applications, used by a vast majority of stakeholders, meet quality standards
+          and have data stewards to maintain and improve the data on an ongoing basis.
+          These layers are also consistent with the Federal National Spatial Data Infrastructure
+          (NSDI).
+
+Ortho-rectification - The process by which a photograph is prepared from a perspective
+             photograph by removing displacements of points caused by tilt, relief and
+             perspective.
+
+Planimetric - Data about non topographic features on the earth surface that are represented only
+             by their horizontal position.
+
+Projection – A map projection flattens the earth, allowing for locations to be systematically
+            assigned new positions so that a curved surface can be represented on a flat map.
+
+Resolution – The smallest unit a sensor can detect or the smallest unit an ortho-rectified image
+            depicts. The degree of fineness to which a measurement can be made.
+
+Root Mean Square Error (RMSE) – The square root of the average of the set of squared
+          differences between data set coordinate values and coordinate values from an
+          independent source of higher accuracy for identical points.
+
+RMSEr – The horizontal linear RMSE in the radial direction that includes both x- and y-coordinate
+          errors.
+
+RMSEx – The horizontal linear RMSE in the X direction (easting).
+
+RMSEy - The horizontal linear RMSE in the Y direction (northing).
+
+                                                                                                   11
+
+        RMSEz - The vertical linear RMSE in the Z direction (elevation).
+
+        Side Lap - The extent to which the exposures of adjacent flight lines overlap, typical side lap for a
+                    block of aerial photography is 30%.
+
+        State Plane Coordinate System - The State Plane Coordinate System is a set of 124 geographic
+                    zones or coordinate systems designed for specific regions of the United States. It
+                    uses a simple Cartesian coordinate system to specify locations rather than a more
+                    complex spherical coordinate system (the geographic coordinate system of latitude
+                    and longitude). By thus ignoring the curvature of the Earth, "plane surveying"
+                    methods can be used, speeding up and simplifying calculations. The system is highly
+                    accurate within each zone (error less than 1:10,000). Outside a specific state plane
+                    zone, accuracy rapidly declines, thus the system is not useful for regional or national
+                    mapping.
+
+4.0 Applicability
+
+    4.1 State Government Agencies
+
+        State agencies that have the primary responsibility for developing and maintaining aerial imagery
+        data for a particular jurisdiction(s) or geographic area (e.g. for counties for which it has assumed
+        the primary role) are required to comply with the standards as described in Section 1. Those state
+        agencies with oversight responsibilities in this area are required to ensure that their oversight
+        guidelines, rules, and regulations are consistent with these standards. The Nebraska Department
+        of Roads has other imagery acquisition requirements for wetland and reconnaissance projects.
+        They will continue to adhere to their independent photogrammetry requirements as suggested in
+        the NDOR On-Call Digital Aerial Photography, Photogrammetric and Airborne LiDAR Services.
+
+    4.2 State Funded Entities
+
+        Entities that are not State agencies but receive State funding, directly or indirectly, for aerial
+        imagery development and maintenance for a particular jurisdiction or geographic area are
+        required to comply with the standards as described in Section 1.
+
+    4.3 Other
+
+        Other entities, such as city and local government agencies (e.g. County Engineer, assessors, and
+        municipalities) that receive state funds have the primary responsibility for developing and
+        maintaining aerial imagery data are required to comply with the standards as described in Section
+        1.
+
+5.0 Responsibility
+
+    5.1 NITC
+
+        The NITC shall be responsible for adopting minimum technical standards, guidelines, and
+        architectures upon recommendation by the technical panel. Neb. Rev. Stat. § 86-516(6)
+
+    5.2 State Agencies
+
+        The State of Nebraska, Office of the CIO (OCIO) GIS Shared Services will be responsible for
+        assuring that metadata is completed and the data is registered and available for distribution
+        through NebraskaMAP.
+
+                                                                                                             12
+
+   5.3 Granting Agencies and Entities
+
+       State granting or fund disbursement entities or agencies will be responsible for ensuring that
+       these standards are included in requirements related to fund disbursements as they relate to
+       aerial imagery.
+
+   5.4 Other
+
+       Local government agencies that have the primary responsibility and authority for aerial imagery
+       acquisition will be responsible for ensuring that those sub-sections defined in Section 1 will be
+       incorporated in the overall imagery data development efforts and contracts.
+
+6.0 Authority
+
+   6.1 NITC GIS Council
+
+       According to Neb. Rev. Stat. § 86-572(2), the GIS Council shall: Establish guidelines and policies
+       for statewide Geographic Information Systems operations and management (a) The acquisition,
+       development, maintenance, quality assurance such as standards, access, ownership, cost
+       recovery, and priorities of data bases; (b) The compatibility, acquisition, and communications of
+       hardware and software; (c) The assessment of needs, identification of scope, setting of
+       standards, and determination of an appropriate enforcement mechanism; (d) The fostering of
+       training programs and promoting education and information about the Geographic Information
+       Systems; and (e) The promoting of the Geographic Information Systems development in the
+       State of Nebraska and providing or coordinating additional support to address Geographic
+       Information Systems issues as such issues arise.
+
+7.0 Related Documents
+
+       7.1      American Society for Photogrammetry and Remote Sensing (ASPRS), ASPRS Accuracy
+                Standards for Digital Geospatial Data (2014).
+
+       7.2      FGDC Content Standard for Digital Geospatial Data Version 2 (FGDC-STD-001-1998).
+
+       7.3      ISO 19115:2003(E) North American Profile (NAP) Metadata Standards. National Oceanic
+                and Atmospheric Administration (NOAA). January 2012.
+
+                                                                                                           13
+
+Addendum 1: License/Subscription Imagery Standards
+
+A1.0 Description. NITC imagery standard to address any imagery licensing or commercial off-the-shelf
+     (COTS) imagery subscription funded with state funds. Since the imagery is not a custom collection,
+     it needs to be best available. The imagery needs to be high enough quality to be able to derive
+     accurate street centerlines and address points (for example, to be able to digitize centerlines and
+     address points on 12” imagery).
+
+A2.0 Standards. For any imagery solution that is subscription based or licensed model, the vendor must
+     meet the following specifications.
+     A2.1 Image resolution. Minimum standard of 12” or 30 cm.
+     A2.2 Horizontal accuracy. Provide the horizontal accuracy expressed as RMSEr or CE90 and
+           CE95. Must document if the imagery meets NENA standards (draft or published). Must
+           provide documentation on how the horizontal accuracy was determined.
+     A2.3 Environmental. Environmental specifications such as cloud cover and snow/ice, bit depth and
+           sun angle, need to meet NITC imagery standard sections 1.2.1.1, 1.2.1.4, and 1.2.1.5 and be
+           documented.
+     A2.4 Metadata. Provide metadata on the imagery collection. Metadata needs to follow the NITC
+           metadata standards or at a minimum FGDC compliant metadata. Metadata should
+           accompany individual tile sets.
+     A2.5 Projections. Define what the data project is. The most common for Nebraska is Web Mercator
+           WGS84, Nebraska State Plane NAD 83 Feet or UTM NAD 83. Nebraska is covered by UTM
+           Zones 13, 14 and 15. Most of the state is UTM 14. NITC imagery standard is reference in
+           section 1.2.7.
+     A2.6 Datum. Define the datum used. The datum should meet the NITC imagery standard
+           referenced in section 1.2.7.
+
+A3.0 Guidelines. The following are items to be considered for any contract or Request for Proposal
+     (RFP) regarding subscription or licensed imagery.
+     A3.1 Accessing the imagery.
+          A3.1.1 Is the imagery available to be downloaded or streamed?
+          A3.1.2 If downloaded, what is the timeframe that the imagery can be downloaded or
+                   provided on hard drives and the format?
+          A3.1.3 If the imagery is streamed, what format will the REST service be? (For example,
+                   WMS, WTMS or other format.) Is the REST service tiled?
+          A3.1.4 Is a viewer also provided? If so, are there associated costs?
+          A3.1.5 Can the imagery be downloaded through the REST service?
+     A3.2 Cost, terms and restrictions of the license or subscription.
+          A3.2.1 Is there an option for a 4th band to achieve Color IR? If so, at what cost?
+          A3.2.2 Are there options for higher resolutions, such as 3”, 6”, 15cm, or other resolutions? If
+                   so, at what cost?
+          A3.2.3 What are licensing restrictions with the subscription? (For example, is the imagery
+                   available to state agencies, political subdivisions, and viewable to the public?) Can
+                   the imagery be used in mobile collection applications?
+          A3.2.4 What happens to the imagery and access to the imagery after the contract expires or
+                   is terminated?
+          A3.2.5 What happens to prior versions of imagery? (For example, may prior versions be
+                   made available to the public for free?)
+          A3.2.6 Can the vendor provide an evaluations sample of the imagery of Nebraska to review
+                   during an evaluation period?
+
+                                                                                                       14
+
+## Curator notes
+
+Text extracted with pdftotext -layout (page headers, footers and column layout kept as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their letters). source_version is the latest date on the section's History line (adoption, renumbering or amendment); the section prints no separate effective date, so effective_date stays empty.

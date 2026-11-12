@@ -1,0 +1,38 @@
+                                                             Nebraska Information Technology Commission
+                                                                        Technical Standards and Guidelines
+
+8-302. Passwords.
+   (1) Minimum Password Requirements. The following are the minimum password
+requirements for state government passwords:
+   (a) Must contain a minimum of 12 characters;
+    (b) Must contain at least three of the following: (i) at least one uppercase character; (ii) at
+least one lowercase character; (iii) at least one numeric character; or (iv) at least one symbol
+(!@#$%^&);
+   (c) Must expire after 90 days;
+   (d) Must have a minimum password age of at least 15 days prior to changing;
+   (e) Must use multi-factor authentication;
+   (f) Must not repeat any of the passwords used during the previous 366 days;
+    (g) Accounts must automatically lock after three consecutive unsuccessful password
+attempts;
+   (h) Authentication and credentials must be transmitted over secure protocols; and
+   (i) Default passwords must be changed before a system is put into production.
+   (2) Restricted Account and Service Account Passwords. Non-expiring passwords may be
+used for restricted accounts (“RA”) where the end user is not given the password and service
+accounts (“SA”) that are used only for machine-to-machine communications. These accounts are
+used for programmatic purposes only. For these use cases the following criteria apply:
+   (a) Must contain a minimum of 20 characters;
+   (b) Must only be used for a single purpose; and
+   (c) Must be approved by the state information security officer.
+    (3) System Equipment/Device Passwords. Agencies may use non-expiring passwords for
+system equipment/devices. It is common for many devices (e.g., IP cameras, HVAC controls) in
+today's IT environment to utilize login capabilities to protect the device from unauthorized
+access. While many of these devices make use of a user ID and password in a manner like those
+found while authenticating a user, the distinction to be made is that the user ID is used to
+authenticate the device itself to the system and not a person in which case the following
+requirements apply:
+
+     (a) Must contain a minimum of 20 characters; and
+     (b) Remote access and administration must use multi-factor authentication.
+--
+     History: Adopted on July 12, 2017. Amended on July 14, 2023 and November 8, 2024.
+     URL: https://nitc.nebraska.gov/standards/8-302.pdf

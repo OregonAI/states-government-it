@@ -1,0 +1,463 @@
+# Montana seed list: every instrument this state's part of the corpus holds or knows about.
+# Key reference: _meta/sources/README.md. Rules: _meta/CLAUDE.md.
+# Discovery 2026-11-12 through the toolkit Fetcher: the Legislature's Montana Code Annotated (mca.legmt.gov), the State
+# Information Technology Services Division's pages (sitsd.mt.gov), the Governor's executive order list (governor.mt.gov) and
+# the former governors' archive (formergovernors.mt.gov), the Department of Administration's centralization page and its
+# rules page, the statewide policy portal (montana.servicenowservices.com) and the rules site (rules.mt.gov).
+# Statute entries are bundles of section pages: each entry's url is the first section's page, so the monthly drift run
+# (corpus-detect-changes), which reads only that url, will not see a change to the other sections; the watch entries on
+# the part indexes are the detector. Drift was not run here.
+# The statewide IT policy library (the Montana Operations Manual policies) is not in the list: see left_out.
+sources:
+- id: mt-mca-2-17-504
+  sha256: "9fcf1a64e791a3a2c696365a4d8989a7a4fe23a5b99e4f386f3fe4520d84f2fb"
+  url: https://mca.legmt.gov/bills/mca/title_0020/chapter_0170/part_0050/section_0040/0020-0170-0050-0040.html
+  format: html
+  citation: Mont. Code Ann. 2-17-504 to 2-17-527 and 2-17-546
+  title: Montana Information Technology Act
+  doc_type: statute
+  jurisdiction: montana
+  issuing_body: Montana Legislature
+  tags:
+  - governance
+  - oversight
+  - procurement
+  - funding
+  recheck: monthly
+  sections:
+  - 2-17-504
+  - 2-17-505
+  - 2-17-506
+  - 2-17-511
+  - 2-17-512
+  - 2-17-513
+  - 2-17-514
+  - 2-17-515
+  - 2-17-516
+  - 2-17-517
+  - 2-17-518
+  - 2-17-521
+  - 2-17-522
+  - 2-17-523
+  - 2-17-524
+  - 2-17-526
+  - 2-17-527
+  - 2-17-546
+  found_via: 'Section pages under https://mca.legmt.gov/bills/mca/ (Montana Code Annotated 2025, the Legislature''s static HTML tree): section numbers copied from the part''s section index, page addresses built from the numbers by the pattern in src/states/montana.py (section_url); every page''s printed section number is checked against the list at ingest.'
+  why_relevant: 'The enabling statute for the Department of Administration''s IT authority and the State Chief Information Officer (Title 2, chapter 17, part 5): the state''s IT policy, the CIO''s duties (2-17-511), the Department''s power to establish and enforce statewide IT policies, standards and the state strategic IT plan and to approve agency IT plans and IT budget requests (2-17-512), the Information Technology Board''s duties (2-17-513), enforcement and exceptions (2-17-514, 2-17-515), the exemptions of the Department of Justice, Secretary of State, university system, State Auditor and Office of Public Instruction (2-17-516, 2-17-546), rulemaking (2-17-518), the strategic plan and agency IT plans (2-17-521 to 2-17-527). Sections 2-17-532 to 2-17-534 and 2-17-550 to 2-17-561 of the same part are separate documents; 2-17-543 to 2-17-545 (9-1-1 and mutual aid radio frequencies) are left out.'
+- id: mt-mca-2-17-532
+  sha256: "1ea468219192c84ed1bd75b384930ec2d0acf971f0372a91eb3b917d97c88f77"
+  url: https://mca.legmt.gov/bills/mca/title_0020/chapter_0170/part_0050/section_0320/0020-0170-0050-0320.html
+  format: html
+  citation: Mont. Code Ann. 2-17-532 and 2-17-533
+  title: Digital access systems of state agencies
+  doc_type: statute
+  jurisdiction: montana
+  issuing_body: Montana Legislature
+  tags:
+  - digital-services
+  - governance
+  recheck: monthly
+  sections:
+  - 2-17-532
+  - 2-17-533
+  found_via: 'Section pages under https://mca.legmt.gov/bills/mca/ (Montana Code Annotated 2025, the Legislature''s static HTML tree): section numbers copied from the part''s section index, page addresses built from the numbers by the pattern in src/states/montana.py (section_url); every page''s printed section number is checked against the list at ingest.'
+  why_relevant: The Department of Administration maintains the IT resources through which citizens, businesses and other governments reach state information and services; agencies must establish digital access systems that meet the Department's minimum technical standards and publish specified information through them; the Department sets the policies, framework, controls and standards for those systems and provides security to protect their integrity.
+- id: mt-mca-2-17-534
+  sha256: "5d703e1df0173b9f84a61cb6a07b190fc066d2586b3402e69ff491726a5503b4"
+  url: https://mca.legmt.gov/bills/mca/title_0020/chapter_0170/part_0050/section_0340/0020-0170-0050-0340.html
+  format: html
+  citation: Mont. Code Ann. 2-17-534
+  title: Security responsibilities of the Department of Administration
+  doc_type: statute
+  jurisdiction: montana
+  issuing_body: Montana Legislature
+  tags:
+  - cybersecurity
+  recheck: monthly
+  sections:
+  - 2-17-534
+  found_via: 'Section pages under https://mca.legmt.gov/bills/mca/ (Montana Code Annotated 2025, the Legislature''s static HTML tree): section numbers copied from the part''s section index, page addresses built from the numbers by the pattern in src/states/montana.py (section_url); every page''s printed section number is checked against the list at ingest.'
+  why_relevant: 'The cybersecurity statute for state systems at the Department level: the Department provides centralized management and coordination of state policies for the security of data and IT resources, maintains the minimum security policies, framework, controls, standards, procedures and guidelines (implementing 2-15-114), sets guidelines for positions of special trust, standards for data exchange, a security training program, security requirements in solicitations, and technical help on request.'
+- id: mt-mca-2-15-114
+  sha256: "0089a2847d1b2476779fcb9b2e697044b694666738e7a29759ff21c6b7613912"
+  url: https://mca.legmt.gov/bills/mca/title_0020/chapter_0150/part_0010/section_0140/0020-0150-0010-0140.html
+  format: html
+  citation: Mont. Code Ann. 2-15-114
+  title: Security responsibilities of departments for data
+  doc_type: statute
+  jurisdiction: montana
+  issuing_body: Montana Legislature
+  tags:
+  - cybersecurity
+  - data
+  recheck: monthly
+  sections:
+  - 2-15-114
+  found_via: 'Section pages under https://mca.legmt.gov/bills/mca/ (Montana Code Annotated 2025, the Legislature''s static HTML tree): section numbers copied from the part''s section index, page addresses built from the numbers by the pattern in src/states/montana.py (section_url); every page''s printed section number is checked against the list at ingest. This section is the only one taken from Title 2, chapter 15, part 1.'
+  why_relevant: 'The cybersecurity statute for state agencies: each department head is responsible for an adequate level of security for all data in the department, must keep written internal security policies, designate an information security manager, implement safeguards, have the security program evaluated internally, include security requirements in solicitations, and describe the security program in the agency IT plan. This section sits in Title 2, chapter 15, part 1 (general provisions on the executive branch); it is taken alone because it is the data-security duty the IT Act (2-17-534) implements.'
+- id: mt-mca-2-17-550
+  sha256: "28119b7bd31b8a7cb6df0afe7d241c8834a1e60c141ff213b2aee5b20a316039"
+  url: https://mca.legmt.gov/bills/mca/title_0020/chapter_0170/part_0050/section_0500/0020-0170-0050-0500.html
+  format: html
+  citation: Mont. Code Ann. 2-17-550 to 2-17-553
+  title: 'Internet privacy: state and local government operators of websites'
+  doc_type: statute
+  jurisdiction: montana
+  issuing_body: Montana Legislature
+  tags:
+  - data
+  - digital-services
+  recheck: monthly
+  sections:
+  - 2-17-550
+  - 2-17-551
+  - 2-17-552
+  - 2-17-553
+  found_via: 'Section pages under https://mca.legmt.gov/bills/mca/ (Montana Code Annotated 2025, the Legislature''s static HTML tree): section numbers copied from the part''s section index, page addresses built from the numbers by the pattern in src/states/montana.py (section_url); every page''s printed section number is checked against the list at ingest.'
+  why_relevant: 'Government-held data and digital services: a government operator of a website or online service may not collect personally identifiable information online unless it identifies itself, describes its information practices and security steps, and meets the further conditions of 2-17-552; the Department of Administration may act against an agency that does not meet the state security policies. ''Governmental entity'' covers the state and its political subdivisions.'
+- id: mt-mca-2-17-560
+  sha256: "9c740e1429bbcbc5787e5f8e001799dfba2e005950d9f2788f91fcd4c370407d"
+  url: https://mca.legmt.gov/bills/mca/title_0020/chapter_0170/part_0050/section_0600/0020-0170-0050-0600.html
+  format: html
+  citation: Mont. Code Ann. 2-17-560 and 2-17-561
+  title: Long-range information technology capital projects
+  doc_type: statute
+  jurisdiction: montana
+  issuing_body: Montana Legislature
+  tags:
+  - funding
+  - oversight
+  recheck: monthly
+  sections:
+  - 2-17-560
+  - 2-17-561
+  found_via: 'Section pages under https://mca.legmt.gov/bills/mca/ (Montana Code Annotated 2025, the Legislature''s static HTML tree): section numbers copied from the part''s section index, page addresses built from the numbers by the pattern in src/states/montana.py (section_url); every page''s printed section number is checked against the list at ingest.'
+  why_relevant: 'IT funding and oversight: balances of long-range IT capital projects approved by the legislature are reappropriated until the projects are complete, and funds appropriated to executive branch agencies for such projects may not be encumbered until project and security plans are approved by the chief information officer and the budget director when the appropriation act so directs.'
+- id: mt-mca-2-17-1101
+  sha256: "8ed250d6dc89d7fd743e73b87c401d392781921f066e2be9293b57889d0c5335"
+  url: https://mca.legmt.gov/bills/mca/title_0020/chapter_0170/part_0110/section_0010/0020-0170-0110-0010.html
+  format: html
+  citation: Mont. Code Ann. 2-17-1101 to 2-17-1104
+  title: Montana Digital Government Services Act
+  doc_type: statute
+  jurisdiction: montana
+  issuing_body: Montana Legislature
+  tags:
+  - digital-services
+  - governance
+  recheck: monthly
+  sections:
+  - 2-17-1101
+  - 2-17-1102
+  - 2-17-1103
+  - 2-17-1104
+  found_via: 'Section pages under https://mca.legmt.gov/bills/mca/ (Montana Code Annotated 2025, the Legislature''s static HTML tree): section numbers copied from the part''s section index, page addresses built from the numbers by the pattern in src/states/montana.py (section_url); every page''s printed section number is checked against the list at ingest.'
+  why_relevant: 'Digital government: the Department of Administration provides a secure infrastructure for state agencies'' digital government services, a single point of entry, a common look and feel and the technological standards for them, and may adopt rules (Title 2, chapter 17, part 11).'
+- id: mt-mca-2-6-1501
+  sha256: "0f5c29e883b13cd8fb1c1d89bcadf1092626db8ffc0b9c8fa1dcf816b7f28fe6"
+  url: https://mca.legmt.gov/bills/mca/title_0020/chapter_0060/part_0150/section_0010/0020-0060-0150-0010.html
+  format: html
+  citation: Mont. Code Ann. 2-6-1501 to 2-6-1504
+  title: State agency protection of personal information
+  doc_type: statute
+  jurisdiction: montana
+  issuing_body: Montana Legislature
+  tags:
+  - data
+  - cybersecurity
+  recheck: monthly
+  sections:
+  - 2-6-1501
+  - 2-6-1502
+  - 2-6-1503
+  - 2-6-1504
+  found_via: 'Section pages under https://mca.legmt.gov/bills/mca/ (Montana Code Annotated 2025, the Legislature''s static HTML tree): section numbers copied from the part''s section index, page addresses built from the numbers by the pattern in src/states/montana.py (section_url); every page''s printed section number is checked against the list at ingest.'
+  why_relevant: 'Binds state agencies: procedures to protect personal information (2-6-1502), notice to affected persons of a breach of the security of a data system (2-6-1503) and immediate notice of a security incident to the chief information security officer (2-6-1504), with the definitions in 2-6-1501 (Title 2, chapter 6, part 15).'
+- id: mt-mca-2-21-101
+  sha256: "772fed108c4adec3c0f1cae71042bfa728a106ad3dec7ba1d30a31fe5b483d26"
+  url: https://mca.legmt.gov/bills/mca/title_0020/chapter_0210/part_0010/section_0010/0020-0210-0010-0010.html
+  format: html
+  citation: Mont. Code Ann. 2-21-101 to 2-21-104
+  title: Government use of artificial intelligence
+  doc_type: statute
+  jurisdiction: montana
+  issuing_body: Montana Legislature
+  tags:
+  - ai
+  recheck: monthly
+  sections:
+  - 2-21-101
+  - 2-21-102
+  - 2-21-103
+  - 2-21-104
+  found_via: 'Section pages under https://mca.legmt.gov/bills/mca/ (Montana Code Annotated 2025, the Legislature''s static HTML tree): section numbers copied from the part''s section index, page addresses built from the numbers by the pattern in src/states/montana.py (section_url); every page''s printed section number is checked against the list at ingest.'
+  why_relevant: 'The statute on government use of AI (Title 2, chapter 21, part 1, enacted as Chapter 427, Laws of 2025): definitions, uses a government entity or state officer may not make of an AI system (cognitive behavioral manipulation, classification resulting in unlawful discrimination or disparate impact, malicious purposes, surveillance of public spaces with stated exceptions), disclosure when AI-produced material is published without human review or when the public interface is with an AI system, and human review of AI recommendations or decisions that could affect a person''s rights, duties or privileges.'
+- id: mt-mca-2-15-1021
+  sha256: "bad09f686c72199b91cf86e0148a80580bab2b499d588f511a17412a40ec1c1e"
+  url: https://mca.legmt.gov/bills/mca/title_0020/chapter_0150/part_0100/section_0210/0020-0150-0100-0210.html
+  format: html
+  citation: Mont. Code Ann. 2-15-1021
+  title: 'Information technology board: membership, qualifications, vacancies, compensation'
+  doc_type: statute
+  jurisdiction: montana
+  issuing_body: Montana Legislature
+  tags:
+  - governance
+  recheck: monthly
+  sections:
+  - 2-15-1021
+  found_via: 'Section pages under https://mca.legmt.gov/bills/mca/ (Montana Code Annotated 2025, the Legislature''s static HTML tree): section numbers copied from the part''s section index, page addresses built from the numbers by the pattern in src/states/montana.py (section_url); every page''s printed section number is checked against the list at ingest. This section sits in Title 2, chapter 15, part 10 (Department of Administration) and is taken alone.'
+  why_relevant: 'The statutory basis of the Information Technology Board: its 18 members, the State CIO as presiding officer, appointing authorities, vacancies and compensation. The board''s duties are in 2-17-513.'
+- id: mt-mca-18-5-601
+  sha256: "0201230210860fb6f74224c9ecbb72bb589091a9be2bb7dbdef07ae4b027ad7b"
+  url: https://mca.legmt.gov/bills/mca/title_0180/chapter_0050/part_0060/section_0010/0180-0050-0060-0010.html
+  format: html
+  citation: Mont. Code Ann. 18-5-601 to 18-5-605
+  title: Nonvisual access technology procurement
+  doc_type: statute
+  jurisdiction: montana
+  issuing_body: Montana Legislature
+  tags:
+  - procurement
+  - digital-services
+  recheck: monthly
+  sections:
+  - 18-5-601
+  - 18-5-602
+  - 18-5-603
+  - 18-5-604
+  - 18-5-605
+  found_via: 'Section pages under https://mca.legmt.gov/bills/mca/ (Montana Code Annotated 2025, the Legislature''s static HTML tree): section numbers copied from the part''s section index (title_0180/chapter_0050/part_0060/sections_index.html, which lists 18-5-601 to 18-5-605), page addresses built from the numbers by the pattern in src/states/montana.py (section_url) and every page''s printed section number checked against the list at ingest. The part is linked from the SITSD accessibility page. This part sits in Title 18 (public contracts), chapter 5 (special purchasing conditions).'
+  why_relevant: 'Whole part on state IT procurement and accessibility (Title 18, chapter 5, part 6): when information technology equipment and software are procured for use by employees, program participants or the public, the state agency head shall ensure nonvisual access for blind or visually impaired users (18-5-603); the Department of Administration develops the technology access clause and nonvisual access standards, inserted in all state IT contracts (18-5-604); a state agency head may not approve excluding the clause (18-5-605). Owner decision: the playbook leaves sections inside procurement chapters out pending section-level slicing, but this is a whole part about IT, taken as one bundle.'
+- id: mt-eo-3-2025
+  sha256: "992d01204d49b1e0fac4389ef9f8c7bf959353bce98bdf48e62d656150adbe8a"
+  url: https://gov.mt.gov/Documents/GovernorsOffice/executiveorders/View?doc=250626_EO_03-2025_FINAL.pdf
+  format: pdf
+  citation: Executive Order No. 3-2025
+  title: Integrating Information Technology Resources and Creating an Enterprise Information Technology Governance
+  doc_type: executive_order
+  issuing_body: Office of the Governor
+  tags:
+  - governance
+  - oversight
+  - cybersecurity
+  - procurement
+  found_via: Row 'Integrating Information Technology Resources and Creating an Enterprise Information Technology Governance, Executive Order No. 3-2025, July 1, 2025' on the Governor's executive order list (governor.mt.gov/Newsroom/ExecutiveOrders), whose link is relative (View?doc=250626_EO_03-2025_FINAL.pdf); the address that serves the file is the one the Department of Administration's centralization page (centralization.mt.gov/faqs) links. The heading and title block were confirmed in the fetched bytes.
+  why_relevant: 'Governor''s order integrating executive branch IT under the Department of Administration and the State CIO: overall responsibility for management and operation of all IT resources of executive branch agencies (exempting the Department of Justice, Secretary of State, University System, State Auditor, Office of Public Instruction and Public Service Commission), IT staff functionally reporting to the State CIO, a hiring freeze on IT positions unless the State CIO approves, a central Integrated Management Office, budget alignment, and agency access to IT inventories, systems, data and contracts. Effective July 1, 2025 until amended or rescinded.'
+  jurisdiction: montana
+  recheck: monthly
+- id: mt-eo-9-2016
+  url: https://formergovernors.mt.gov/bullock/docs/2016EOs/EO-09-2016%20Convergence%20Plan.pdf
+  format: pdf
+  stub: true
+  stub_reason: 'A scan with no text layer (a copier''s image of two pages), read 2026-11-12 by the two-engine OCR procedure and NOT promoted: the engines agree on the words but on only 83% of the 17 figures (tesseract''s default layout and page-segmentation mode 4 gave the same 83%), under the 90% bar; the order''s paragraph numbers, the date and the signature are the contested figures, so the operative text would not be reliable and no text is committed. Reopens when a reading passes the figure bar (a third engine as tiebreaker) or the owner supplies a human transcription. The order was read from page images by the agent to confirm that it is in force until amended or rescinded and to see its heading (EXECUTIVE ORDER NO. 09-2016); those readings are not committed text.'
+  citation: Executive Order No. 9-2016
+  title: Implementing the State Information Technology Convergence Plan
+  doc_type: executive_order
+  issuing_body: Office of the Governor (Governor Bullock)
+  tags:
+  - governance
+  - cloud-resilience
+  - procurement
+  found_via: Governor Bullock's executive order list at formergovernors.mt.gov/bullock (row 'Implementing the State IT Convergence Plan', 2016 orders); the heading of the fetched file reads 'EXECUTIVE ORDER NO. 09-2016'. No order repealing it appears on the current Governor's list.
+  why_relevant: 'Directs the Department of Administration''s State Information Technology Services Division to implement an IT convergence plan (full use of shared enterprise infrastructure by December 31, 2017), restricts the purchase of servers, storage and cloud services to SITSD unless the Budget Director and State CIO direct otherwise, and requires agencies to use enterprise systems. It says it remains in effect until amended or rescinded; no rescission was found (a scan; see the stub reason).'
+  jurisdiction: montana
+  recheck: monthly
+- id: mt-itb-operating-procedures-2026
+  sha256: "5d6c419656eff37095553761fbdc231b45c916f601fff8260002f7b1a5c26f9d"
+  url: https://sitsd.mt.gov/_docs/sitsd/ITB/2026-Operating-Procedures.pdf
+  format: pdf
+  citation: Information Technology Board Operating Procedures (approved January 29, 2026)
+  title: Information Technology Board Operating Procedures
+  doc_type: policy
+  issuing_body: Department of Administration, State Information Technology Services Division (Information Technology Board)
+  tags:
+  - governance
+  identity_text: Information Technology Board (ITB) Operating Procedures
+  found_via: Link 'Operating Procedures' under the IT Board heading of the SITSD home page (sitsd.mt.gov/SITSD/index).
+  why_relevant: 'The IT Board''s own procedures under 2-17-513 and 2-15-1021: roles, membership, voting and quorum, meetings and public participation, SITSD support. A governance document of a statutory IT body; whether it counts as an instrument is a borderline call for the owner.'
+  jurisdiction: montana
+  recheck: monthly
+- id: mt-gov-memo-2023-05-17
+  url: https://gov.mt.gov/_docs/governor/Governors-Memo-to-CIO-Agency-Directors-Prohibiting-the-Use-of-Apps-Tied-To-Foreign-Adversaries.pdf
+  format: pdf
+  stub: true
+  stub_reason: 'The PDF (998,893 bytes, 2 pages, fetched through the Fetcher 2026-11-12) has an embedded text layer made by Adobe Paper Capture OCR (the file''s Producer field), and the layer has errors measured against the page image: the letterhead name reads GIANFOITTE for Gianforte, the app Lemon8 reads Lemons, and blogs reads biogs (footnote 1). Operative text of record cannot be hand-corrected, so no text is committed. Reopens when the Governor''s office publishes a clean text layer or the owner supplies a transcription.'
+  citation: Governor''s memorandum of May 17, 2023 to the Chief Information Officer and executive agency directors
+  title: Expanding TikTok prohibition to all social media applications that provide personal information or data to foreign adversaries
+  doc_type: policy
+  issuing_body: Office of the Governor
+  tags:
+  - cybersecurity
+  - governance
+  found_via: 'Reviewer finding, then fetched: the memorandum PDF on gov.mt.gov; its printed header reads DATE: May 17, 2023 and RE: Expanding TikTok prohibition to all social media applications that provide personal information or data to foreign adversaries; effective June 1, 2023. It extends the December 2022 prohibition (mt-gov-memo-2022-12-16). No order or memorandum rescinding it was found on the pages read.'
+  why_relevant: 'A directive of the Governor to the State CIO and executive agency directors: no executive branch entity, official or employee may download or access the named applications on government-issued devices or while connected to the state network, and third-party firms working for the State may not use them; agencies must block and remove them and report exceptions to the Office of the Governor. It binds state entities and their contractors and its subject is state IT security, so it meets the inclusion test. Owner decision whether a gubernatorial memorandum counts as an instrument.'
+  jurisdiction: montana
+  recheck: monthly
+- id: mt-gov-memo-2022-12-16
+  url: https://gov.mt.gov/_docs/governor/MEMO_221216_Banning_TikTok_on_State_Devices.pdf
+  format: pdf
+  stub: true
+  stub_reason: 'The PDF (189,967 bytes, 1 page, fetched through the Fetcher 2026-11-12) has an embedded text layer made by Adobe Paper Capture OCR (the file''s Producer field), and the layer has errors measured against the page image: the letterhead name reads GIANFOIRB for Gianforte. Operative text of record cannot be hand-corrected, so no text is committed. Reopens when the Governor''s office publishes a clean text layer or the owner supplies a transcription.'
+  citation: Governor''s memorandum of December 16, 2022 to the Chief Information Officer and executive agency directors
+  title: Prohibiting the Use of TikTok on State IT Infrastructure
+  doc_type: policy
+  issuing_body: Office of the Governor
+  tags:
+  - cybersecurity
+  - governance
+  found_via: 'The Governor''s news release on news.mt.gov (Governor_Gianforte_Prohibits_Use_of_TikTok_for_State_Business_on_State_Equipment, fetched) links the PDF; its printed header reads DATE: December 16, 2022 and RE: Prohibiting the Use of TikTok on State IT Infrastructure; effective immediately. The May 17, 2023 memorandum (mt-gov-memo-2023-05-17) says it expands this prohibition; whether it supersedes it is for the owner.'
+  why_relevant: 'A directive of the Governor to the State CIO and executive agency directors: no executive branch entity, official or employee may download or access the named applications on government-issued devices or while connected to the state network, and third-party firms working for the State may not use them; agencies must block and remove them and report exceptions to the Office of the Governor. It binds state entities and their contractors and its subject is state IT security, so it meets the inclusion test. Owner decision whether a gubernatorial memorandum counts as an instrument.'
+  jurisdiction: montana
+  recheck: monthly
+- id: mt-arm-2-12
+  url: https://rules.mt.gov/
+  format: html
+  citation: ARM Title 2, chapter 12
+  title: Administrative rules of the State Information Technology Services Division (ARM Title 2, chapter 12)
+  doc_type: rule
+  issuing_body: Department of Administration, State Information Technology Services Division
+  tags:
+  - governance
+  - oversight
+  stub: true
+  stub_reason: 'The rule text of record is the Secretary of State''s Administrative Rules of Montana at rules.mt.gov, a JavaScript application: the Fetcher received the same 894-byte page shell (a <div id="root"> and two script bundles, no rule text) for the home page and for every path tried on 2026-11-12 (/, /gateway/ChapterHome.asp?Chapter=2.12, /gateway/RuleNo.asp?RN=2.12.201, /gateway/Subchapterhome.asp, /gateway/ShowNoticeFile.asp?TID=11010), and the older mtrules.org host answered the same shell (www.mtrules.org failed with an incomplete TLS chain). The site''s internal data calls are not used. The rules cannot be listed or read, so no ARM section is named; chapter 2.12 is the chapter the Department of Administration files its SITSD notices under (MAR 2-12-623, 2-12-646) and 2-17-518 directs these rules (review and approval of IT acquisitions and software, exceptions, agency IT plans, policy-setting and appeals).'
+  found_via: 'SITSD section of the Department of Administration''s administrative rules page (sitsd.mt.gov/About/administrative-rules): MAR notices 2-12-623 (2022: amendment and repeal of rules on review and approval of IT procurement and development, exceptions, centralized state facilities, agency IT plans, policies and standards, appeals) and 2-12-646 (2024: adopting ARM 2.12.208, local government public meeting recordings, authority 2-17-518).'
+  why_relevant: The Department's administrative rules implementing the Montana Information Technology Act. Reopens when a rule text is readable through a documented route or the owner supplies one.
+  jurisdiction: montana
+  recheck: monthly
+- id: mt-watch-sitsd-home
+  url: https://sitsd.mt.gov/SITSD/index
+  format: html
+  citation: State Information Technology Services Division home page (links the Policies portal, IT Board, strategic plans, accessibility and cybersecurity pages)
+  title: State Information Technology Services Division home page (links the Policies portal, IT Board, strategic plans, accessibility and cybersecurity pages)
+  doc_type: policy
+  tags:
+  - governance
+  watch_only: true
+  why_relevant: The SITSD home page. It links the statewide policy library (a ServiceNow portal that cannot be read), the IT Board page with its Operating Procedures, the strategic plans and the accessibility and cybersecurity pages. A new or removed link raises a review-the-seed-list report.
+  jurisdiction: montana
+  recheck: monthly
+- id: mt-watch-governor-eos
+  url: https://governor.mt.gov/Newsroom/ExecutiveOrders
+  format: html
+  citation: Governor's executive order list (2021 to date)
+  title: Governor's executive order list (2021 to date)
+  doc_type: executive_order
+  tags:
+  - governance
+  watch_only: true
+  why_relevant: The Governor's order list (Governor Gianforte's orders, 2021 onward). A new order on IT, cybersecurity, data or AI, or the repeal of Executive Order 3-2025, raises a review report. The page's raw bytes change on every fetch (form state), its text does not.
+  jurisdiction: montana
+  recheck: monthly
+- id: mt-watch-doa-rules
+  url: https://sitsd.mt.gov/About/administrative-rules
+  format: html
+  citation: Department of Administration administrative rule notices (SITSD section)
+  title: Department of Administration administrative rule notices (SITSD section)
+  doc_type: rule
+  tags:
+  - governance
+  watch_only: true
+  why_relevant: The Department of Administration's list of rulemaking notices, with a section for the State Information Technology Services Division. A new SITSD notice raises a review report; the rule text itself is not readable (see mt-arm-2-12).
+  jurisdiction: montana
+  recheck: monthly
+- id: mt-watch-mca-2-17-p5
+  url: https://mca.legmt.gov/bills/mca/title_0020/chapter_0170/part_0050/sections_index.html
+  format: html
+  citation: 'MCA Title 2, chapter 17, part 5: Information Technology -- Internet Privacy (section index)'
+  title: 'MCA Title 2, chapter 17, part 5: Information Technology -- Internet Privacy (section index)'
+  doc_type: statute
+  tags:
+  - governance
+  watch_only: true
+  why_relevant: Section index of a part of the Montana Code Annotated that holds seeded sections. A section added to, renumbered in or repealed from the part raises a review-the-seed-list report (the part also holds sections that are not seeded).
+  jurisdiction: montana
+  recheck: monthly
+- id: mt-watch-mca-2-17-p11
+  url: https://mca.legmt.gov/bills/mca/title_0020/chapter_0170/part_0110/sections_index.html
+  format: html
+  citation: 'MCA Title 2, chapter 17, part 11: Montana Digital Government Services Act (section index)'
+  title: 'MCA Title 2, chapter 17, part 11: Montana Digital Government Services Act (section index)'
+  doc_type: statute
+  tags:
+  - digital-services
+  watch_only: true
+  why_relevant: Section index of a part of the Montana Code Annotated that holds seeded sections. A section added to, renumbered in or repealed from the part raises a review-the-seed-list report (the part also holds sections that are not seeded).
+  jurisdiction: montana
+  recheck: monthly
+- id: mt-watch-mca-2-6-p15
+  url: https://mca.legmt.gov/bills/mca/title_0020/chapter_0060/part_0150/sections_index.html
+  format: html
+  citation: 'MCA Title 2, chapter 6, part 15: State Agency Protection of Personal Information (section index)'
+  title: 'MCA Title 2, chapter 6, part 15: State Agency Protection of Personal Information (section index)'
+  doc_type: statute
+  tags:
+  - data
+  watch_only: true
+  why_relevant: Section index of a part of the Montana Code Annotated that holds seeded sections. A section added to, renumbered in or repealed from the part raises a review-the-seed-list report (the part also holds sections that are not seeded).
+  jurisdiction: montana
+  recheck: monthly
+- id: mt-watch-mca-2-21-p1
+  url: https://mca.legmt.gov/bills/mca/title_0020/chapter_0210/part_0010/sections_index.html
+  format: html
+  citation: 'MCA Title 2, chapter 21, part 1: Government Use of Artificial Intelligence (section index)'
+  title: 'MCA Title 2, chapter 21, part 1: Government Use of Artificial Intelligence (section index)'
+  doc_type: statute
+  tags:
+  - ai
+  watch_only: true
+  why_relevant: Section index of a part of the Montana Code Annotated that holds seeded sections. A section added to, renumbered in or repealed from the part raises a review-the-seed-list report (the part also holds sections that are not seeded).
+  jurisdiction: montana
+  recheck: monthly
+- id: mt-watch-mca-2-15-p1
+  url: https://mca.legmt.gov/bills/mca/title_0020/chapter_0150/part_0010/sections_index.html
+  format: html
+  citation: 'MCA Title 2, chapter 15, part 1: General Provisions (section index)'
+  title: 'MCA Title 2, chapter 15, part 1: General Provisions (section index)'
+  doc_type: statute
+  tags:
+  - cybersecurity
+  watch_only: true
+  why_relevant: Section index of a part of the Montana Code Annotated that holds seeded sections. A section added to, renumbered in or repealed from the part raises a review-the-seed-list report (the part also holds sections that are not seeded).
+  jurisdiction: montana
+  recheck: monthly
+- id: mt-watch-mca-2-15-p10
+  url: https://mca.legmt.gov/bills/mca/title_0020/chapter_0150/part_0100/sections_index.html
+  format: html
+  citation: 'MCA Title 2, chapter 15, part 10: Department of Administration (section index)'
+  title: 'MCA Title 2, chapter 15, part 10: Department of Administration (section index)'
+  doc_type: statute
+  tags:
+  - governance
+  watch_only: true
+  why_relevant: Section index of a part of the Montana Code Annotated that holds seeded sections. A section added to, renumbered in or repealed from the part raises a review-the-seed-list report (the part also holds sections that are not seeded).
+  jurisdiction: montana
+  recheck: monthly
+- id: mt-watch-mca-18-5-p6
+  url: https://mca.legmt.gov/bills/mca/title_0180/chapter_0050/part_0060/sections_index.html
+  format: html
+  citation: 'MCA Title 18, chapter 5, part 6: Nonvisual Access Technology Procurement (section index)'
+  title: 'MCA Title 18, chapter 5, part 6: Nonvisual Access Technology Procurement (section index)'
+  doc_type: statute
+  tags:
+  - digital-services
+  watch_only: true
+  why_relevant: Section index of a part of the Montana Code Annotated whose sections are all seeded (mt-mca-18-5-601). A section added to, renumbered in or repealed from the part raises a review-the-seed-list report.
+  jurisdiction: montana
+  recheck: monthly
+left_out:
+- text: '---- Montana: found and left out (each was seen on an official page on 2026-11-12; the reason is recorded here). ''Owner decision'' marks a judgment call a reviewer should confirm.'
+- text: 'The statewide IT policy and standards library, owner decision on how to proceed: the SITSD home page''s ''Policies'' link goes to the Department of Administration''s ServiceNow knowledge portal (montana.servicenowservices.com/citizen; the Montana Operations Manual policies and standards live there). The Fetcher got a 173 KB page whose entire visible text is ''Citizen Knowledge Home - Citizen Loading...'' (and ''Knowledge Article View - Montana Loading...'' for the knowledge article that the SITSD cybersecurity page links, KB0015400): an AngularJS shell whose content is loaded by the portal''s own script. The shell differs byte for byte on every fetch (it carries session values), so it is not watched either. No policy title, number or file could be read, so there are no per-policy stubs and no row-by-row reconciliation of the library: the library is unread, not empty. The portal''s internal data calls were not used. Reopens when a static listing or documented export is found or the owner supplies the list. The sites that used to hold the library (sitsd.mt.gov /Governance/IT-Policies, /Governance/Policy, /SITSD/policies, the policy.tech host montana.policytech.com) answered 404 or ''This is not a valid site''.'
+- text: 'Montana Operations Manual policy copies hosted by other agencies, left out: a State Auditor host serves POL-Internet Privacy and Security Policy (printed Effective Date 02/01/2002, Last Revised 02/18/2015), a Department of Transportation host serves POL-Information Security Policy - Appendix B, Security Roles and Responsibilities (Effective Date 09/04/2015, Last Revised 12/13/2017) and mt.gov serves an older-format MOM-SITSD-POL-Internet Privacy and Security Policy. All three were fetched and read. They are copies of the Department of Administration''s policies on other agencies'' sites, last revised 2015 and 2017 by their own dates (the first took effect in 2002), and whether any is the version in force cannot be confirmed because the library of record cannot be read; the playbook''s rule is in force only and text of record from the issuing body. Owner decision: they could be seeded as policies if the owner accepts an agency-hosted copy as the text of record.'
+- text: 'Rules, left out or stubbed: the SITSD rules are one stub (ARM Title 2, chapter 12): rules.mt.gov is a JavaScript application with no readable text (see that entry). The rulemaking notices the Department of Administration lists for SITSD are not instruments of themselves (they amend rules and give reasons), and the Department''s page links only the 2024 adoption notice as a file it hosts. Left out: ARM 2.12.208, Local Government Public Meeting Recordings (adopted by MAR 2-12-646, read in the Department''s PDF of the adoption notice: it binds local governing bodies, out of scope); MAR notices 2-13-585, 2-13-592, 2-13-593 and 2-13-605 (chapter 2.13: 9-1-1 grants, PSAP certification and Next Generation 9-1-1 technology standards, which are 9-1-1 and telecom, out of scope). The notice files linked from the Department''s page through rules.mt.gov/gateway/ShowNoticeFile.asp returned the same unreadable shell. The rule text of the other agencies'' notices on that page (banking, lottery, state financial services, state human resources, public meetings, permits) is outside the domain.'
+- text: 'Statute sections found in Title 2, chapter 17, part 5 and left out: 2-17-543 to 2-17-545 (9-1-1 program, mutual aid frequencies and the mutual aid frequencies manual for land mobile radio, run by the Department of Justice: 9-1-1 and radio, out of scope); 2-17-501 to 2-17-503, 2-17-531, 2-17-541 and 2-17-542 (repealed or renumbered, printed as such on the part''s index). Chapter 17 parts 1 to 4, 6, 8 and 12 (real property and buildings, property and supplies, mailing and copying, vehicles, competition with private internet providers, the Capitol Complex master plan, building construction loans) were listed and not read: not IT. Part 6, government competition with private internet providers, is broadband, out of scope.'
+- text: 'Other statutes considered and left out, owner decisions: Title 2, chapter 6, parts 10 to 12 (public information, records management and the State Records Committee, local government records): records and open-records law, not IT, and sections in chapters on other subjects are left out pending the owner''s decision on section-level slicing (2-6-1102, the Department of Administration''s records duties, is the nearest to IT); Title 2, chapter 15, part 10 other than 2-15-1021 and part 1 other than 2-15-114 (the Department''s and executive branch''s organization); procurement law (Title 18, chapter 4) and the Uniform Electronic Transactions Act (Title 30, chapter 18), which bind state agencies in sections inside non-IT chapters, were not read; private-sector breach, consumer data privacy and any 2025 ''right to compute'' law bind persons, not state agencies, and were not read. Law-enforcement uses of AI named in 2-21-102(4)(b) (Title 44, chapter 15, part 1, facial surveillance) are law-enforcement technology, out of scope. Not read: the Education and Workforce Data Governing Board''s statute (the Board is attached to the Department of Administration), and the Disaster and Emergency Services cybersecurity framework (Emergency Support Function 16), a plan.'
+- text: 'Statute sections taken from outside Title 2, chapter 17: 2-15-114 and 2-15-1021 are sections of Title 2, chapter 15 (executive branch officers and agencies), taken because they are the agency data-security duty that 2-17-534 implements and the statute of the IT Board that 2-17-513 gives duties to. Owner decision: the playbook leaves sections inside non-IT chapters out, and these two are the exception. 2-17-546 (exemption of the criminal justice information network) is bundled with the IT Act because the Act''s scope sentences cite it with 2-17-516.'
+- text: 'Executive orders, the lists read: the Governor''s list at governor.mt.gov (Governor Gianforte''s orders, 63 rows, Executive Order No. 1-2021 to 11-2026, read in full on 2026-11-12); the former governors'' archive''s list for Governor Bullock (formergovernors.mt.gov, orders 1-2013 to 13-2020) and for Governor Schweitzer (2005 to 2012, one page). The lists of Governors Martz, Racicot and earlier were not read. Seeded: 3-2025 (Gianforte) and 9-2016 (Bullock). By title, no other order on those lists is on state IT, cybersecurity, data or AI, except the ones below.'
+- text: 'Executive orders found and left out: No. 5-2025, Creating the 406 Jobs Initiative (a workforce-development framework: its mentions of AI concern AI skills training and automation in the labor market and ask the Department of Administration to support workforce strategies; it does not set rules for state IT or for state use of AI); No. 4-2026 (repeals Executive Orders 3-2018 and 6-2018, on net neutrality in state contracting, telecom); No. 5-2026 (repeals Executive Orders 4-2014, 4-2016 and 12-2016, read: workforce and anti-discrimination in contracting); Bullock orders No. 5-2015 (created the Montana Information Security Advisory Council, ''shall exist for a period of four years''), No. 12-2017 (amended it, ''shall exist until June 12, 2019'') and No. 13-2020 (continued it, ''shall exist until June 30, 2021''): each read and expired by its own terms, and the Governor''s list since shows no continuation; No. 20-2019 (declares a cyber incident at a school district and authorizes spending: a one-time incident declaration); No. 14-2019 (designates a state health information exchange: health data outside state government IT; not read in full); No. 15-2018 (disclosure in state contracting; repealed by Executive Order No. 3-2021 per the list). The Bullock list''s row ''MISAC Continuance'' (Executive Order 21-2016) links a file that is the order continuing the Invasive Species Advisory Council, so the row is mislabeled on the official list; that order is not IT. The Bullock list''s links to the scans 5-2015, 12-2017, 13-2020 were fetched: 5-2015 and 12-2017 have no text layer and were read from page images only to find their end dates.'
+- text: 'Not instruments, left out (forms, templates, plans, reports, minutes, contracts and guides found on the SITSD pages read): the State IT Strategic Plans 2016-18 to 2026-28 and the draft 2026-28 plan; the agency IT plans page; the IT biennial reports (2011 to 2026) and Volume 10 reports; the IT Board''s quarterly reports, LFC reports, presentations and minutes; the Enterprise IT Financial Workgroup''s agendas, minutes and presentations; the Esri subgroup charter, the DocuSign and Granicus master services agreements and the Esri enterprise agreement link (contracts); the accessibility resource center''s checklists, GIS accessibility guide, map alternative-text guide and inventory spreadsheet (guidance and workbooks; the page restates federal ADA Title II); the centralization site''s emails, org chart, timeline and transition-topics pages (the order itself is seeded); the MT-ISAC resource link (Acceptable Use) found by search, which answered 404 on the SITSD host.'
+- text: 'Seed notes for the reviewer: (1) the statute bundles take each section page''s content block; the pages carry a host-injected script that differs per fetch, which is not kept. (2) Section page addresses are built from section numbers by a pattern (checked against all 44 section pages fetched, each printed number matching its path); the part section indexes (watched) print the same paths. (3) mt-eo-9-2016 is a scan whose two OCR readings agree on only 83% of its 17 figures (under the 90% bar), so it is a stub with the measured reason. (4) The Governor''s order links on governor.mt.gov are relative and do not resolve on that host (404 for the Fetcher at the page-relative path); the files are served under gov.mt.gov/Documents/GovernorsOffice/executiveorders/ (the address the Department of Administration''s page links for order 3-2025), so every order''s address there is built from the filename on the list: only 3-2025 is seeded and its title block was confirmed in the fetched bytes.'
+- text: 'Owner decision, Information Technology Board Operating Procedures (mt-itb-operating-procedures-2026, ingested as a policy): the document is the procedural rules of a statutory advisory board (roles, membership, voting and quorum, meetings, SITSD support), not a statewide policy that binds agencies. It was ingested because it is the board''s own governing document under 2-17-513 and 2-15-1021. Decide whether board operating procedures count as an instrument; if not, move the entry to left_out.'
+- text: 'Governor''s memoranda on state IT security (owner decision): the memoranda of December 16, 2022 (TikTok) and May 17, 2023 (social media applications tied to foreign adversaries) bind executive branch entities, officials, employees and third-party firms on state devices and the state network, so they are in scope if a gubernatorial memorandum counts as an instrument. Both are stubs because their PDF text layers are OCR with errors (see the two entries). Read: the Governor''s news release of December 2022 on news.mt.gov; the May 2023 release was not fetched.'

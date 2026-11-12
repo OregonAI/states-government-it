@@ -1,0 +1,40 @@
+                            Robotic Process Automation Standard
+
+Introduction
+Robotic process automation streamlines workflows, making organizations more profitable, flexible
+and responsive. It also increases employee satisfaction, engagement and productivity by removing
+mundane tasks from their workdays.
+
+Purpose
+This document sets the standard for robotic process automation.
+
+Definitions
+Robotic process automation (RPA) – A software technology that makes it easy to build, deploy and
+manage software robots that emulate human actions interacting with digital systems and software.
+
+Standard
+Processes that are desired to be automated should be presented to the Automation Center of
+Excellence (ACoE). All UiPath automations should be implemented within the state platform.
+
+Compliance
+This standard shall take effect upon publication and is made pursuant to Title 62 O.S. §§ 34.11.1
+and 34.12 and Title 62 O.S. § 35.8. OMES IS may amend and publish the amended standards
+policies and standards at any time. Compliance is expected with all published policies and
+standards, and any published amendments thereof. Employees found in violation of this standard
+may be subject to disciplinary action, up to and including termination.
+
+Rationale
+To coordinate and require central approval of state agency information technology purchases and
+projects to enable the chief information officer to assess the needs and capabilities of state
+agencies as well as streamline and consolidate systems to ensure that the state delivers essential
+public services to its citizens in the most efficient manner at the lowest possible cost to taxpayers.
+
+References
+   •   UiPath.
+   •   UiPath RPA Resources.
+
+Revision history
+This standard is subject to periodic review to ensure relevancy.
+ Effective date: 07/27/2022           Review cycle: Annual
+ Last revised: 08/01/2023             Last reviewed: 08/18/2026
+ Approved by: Dan Cronin, Chief Information Officer

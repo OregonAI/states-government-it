@@ -1,0 +1,548 @@
+---
+schema_version: 1
+corpus: states-government-it
+jurisdiction: nebraska
+id: ne-nitc-3-202
+title: 3-202. Land record information and mapping standard.
+doc_type: standard
+citation: NITC Technical Standards and Guidelines 3-202
+authority_level: ''
+issuing_body: Nebraska Information Technology Commission
+source_url: https://nitc.nebraska.gov/docs/3-202.pdf
+source_format: pdf
+retrieved: '2026-11-12'
+source_sha256: b3c06d800ba6b9cd66356d8798732bdcb920ecf3ee1a15ec83d639ae8829d2b3
+effective_date: null
+source_version: History through March 1, 2011
+status: current
+content_mode: verbatim
+conversion_notes: Text extracted with pdftotext -layout (page headers, footers and column layout kept
+  as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their
+  letters). source_version is the latest date on the section's History line (adoption, renumbering or
+  amendment); the section prints no separate effective date, so effective_date stays empty.
+last_verified: ''
+verified_by: ''
+maintainer: ''
+relationships:
+  implements: []
+  implemented_by: []
+  references_external: []
+  related: []
+  supersedes: []
+tags:
+- data
+---
+
+> **NON-AUTHORITATIVE.** This is a convenience copy for machine reading. The official text is published at the source URL above. Verify at source before relying on it.
+
+# 3-202. Land record information and mapping standard. (NITC Technical Standards and Guidelines 3-202)
+
+## At a glance
+
+NITC Technical Standards and Guidelines section 3-202, adopted by the Commission under Neb. Rev. Stat. 86-516 and applying to state agencies, boards and commissions (1-102).
+
+## Full text
+
+                                                                       Nebraska Information Technology Commission
+                                                                                  Technical Standards and Guidelines
+
+3-202. Land record information and mapping standard.
+[Section 3-202 appears after this cover page in a legacy format.]
+--
+     History: Adopted on January 27, 2006. Amended on March 1, 2011.
+     URL: https://nitc.nebraska.gov/standards/3-202.pdf
+
+1. Standard
+
+These standards/guidelines are primarily focused on those public entities responsible for maintaining
+property parcel maps for their particular jurisdiction. The last line following each standard or guideline
+refers to the type(s) of agency or entity to which that standard/guideline applies and whether it is a
+standard (adherence required) or guideline (adherence voluntary) for each type of entity.
+
+1.1 Data
+
+Local government multipurpose GIS/LIS (Geographic Information System/Land Information System) and
+their associated geospatial data layers should be based on the North American Datum (NAD) 83 and the
+North American Vertical Datum (NAVD) 88. Any existing systems developed based on other datums
+should consider conversion to these datum.
+
+State Agencies: Standard
+State Funded Entities: Standard
+Other: Standard
+
+1.2 Projection
+
+The Nebraska (State) Plane Coordinate System, NAD 83, should be used as the primary map projection
+system for the recording of positions in local land-data systems in Nebraska. Selection of any other
+projection should be done reluctantly and only after most careful consideration. The plane coordinate
+values for a point on the earth's surface may be expressed in either meters or feet.
+
+State Agencies: Standard
+State Funded Entities: Standard
+Other: Standard
+
+1.3 Geodetic Control
+
+GIS/LIS systems developed with the goal of providing a multipurpose cadastre for local government use
+should be referenced to a local geodetic reference framework that is properly connected to the National
+Spatial Reference System (NSRS).
+
+State Agencies: Standard
+State Funded Entities: Standard
+Other: Standard
+
+1.4 Public Land Survey System Control
+
+1.4.1 PLSS Geodetic Framework
+
+For all land in Nebraska that is subdivided according to the Public Land Survey System (PLSS), the
+geodetic reference framework for the cadastre should be the section corners of the PLSS for each
+section.
+
+State Agencies: Standard
+State Funded Entities: Standard
+Other: Standard
+
+1.4.2 Locate, Monument, and GPS Primary Corners
+
+At a minimum, local government entities developing a geospatial land information system should
+initially invest in a precision Global Positioning System (GPS) survey to locate, re-monument as
+necessary, and obtain the geographic coordinates of the major boundary defining corners that legally
+define the boundaries of their county jurisdiction(s). These precision GPS survey coordinates for the
+boundary defining corners should be collected and integrated as framework data into the land
+information system. This effort should be coordinated with officials from the adjacent county(ies) to
+ensure agreement on the location of the shared corners.
+
+State Agencies: Standard
+State Funded Entities: Standard
+Other: Guideline
+
+1.4.3 Progressive Monumentation
+
+In addition, each county (or municipality) that is planning to develop a GIS/LIS-based cadastre program
+should also consider initiating a progressive program to locate and/or re-monument, as necessary, and
+collect geographic coordinates on other PLSS corners according to the legally established procedures
+and properly connect them to the National Spatial Reference System to obtain geodetic coordinates.
+
+State Agencies: Guideline
+State Funded Entities: Guideline
+Other: Guideline
+
+1.5 PLSS Base Map
+
+Local governments considering the development of a multipurpose GIS, should consult with the
+Nebraska State Surveyor's Office to locate and access the best available data on the Public Land Survey
+System (PLSS) for their geographic area. To assist the State Surveyors Office in maintaining a repository
+of the best available PLSS data, local governments participating in the Nebraska Land Information
+System Program should share any enhanced PLSS data, for their geographic area, with the State
+Surveyors Office so that it might be integrated into the PLSS repository database.
+
+State Agencies: Standard
+State Funded Entities: Standard
+Other: Standard
+
+1.6 Ortho-base (Aerial Layer) or Base Maps
+
+Both a Public Land Survey System base map and an orthophoto (surface features) imagery base map
+should be used to provide the geospatial reference framework upon which a local government
+multipurpose land information system is developed. Both base maps should be tied to the National
+Spatial Reference System and have a level of spatial accuracy appropriate to the range of applications
+planned for a given area. Jurisdictions should acquire new imagery of urban areas at least every five
+years and of rural areas at least every ten years. Jurisdictions experiencing rapid or slow growth may
+need to adjust this timetable (IAAO 2009).
+
+State Agencies: Standard
+State Funded Entities: Standard
+Other: Standard
+
+1.7 Map Scale and Spatial Accuracy
+
+1.7.1 Minimum Horizontal Accuracy Standard
+
+Public entities developing a GIS/LIS program should conduct data collection and development in a
+manner to achieve at least the minimum level of horizontal spatial accuracy consistent with the National
+Horizontal Map Accuracy Standards corresponding to a 1:12,000 (1"= 1,000') scale map (90% of the
+"well defined" horizontal locations must be within ±33.3 ft. of their real world location).
+
+State Agencies: Standard
+State Funded Entities: Standard
+Other: Standard
+
+1.7.2 Additional Accuracy Considerations
+
+Beyond this minimum horizontal map accuracy, public entities are encouraged to consider the following
+recommended map scales and their corresponding National Horizontal Map Accuracy Standards in
+determining the positional accuracy needed for base maps in the development of a local government
+GIS/LIS:
+
+ Relative Size of Property                                 Nat'l Horizontal Map     Equivalent Metric
+ Parcels                       Map Scale                   Accuracy Standard        Scale
+
+ Urban areas                   1:600 (1" = 50')            ±1.7 ft.                 1:500
+                               1:1,200 (1" = 100'          ±3.3 ft.                 1:1,000
+
+ Large urban & suburban        1:2,400 (1" = 200')         ±6.7 ft.                 1:2,500
+
+ Rural areas                   1:4,800 (1" = 400')         ±13.3 ft.                1:5,000
+                               1:9,600 (1" = 800')         ±26.7 ft.                1:10,000
+                               1:12,000 (1"= 1,000')       ±33.3 ft.                1:10,000
+
+State Agencies: Guideline
+State Funded Entities: Guideline
+Other: Guideline
+
+1.8 Legal Lot and Parcel Layers
+
+Data on two interrelated types of land subdivision (i.e. legally subdivided lots and ownership tracts) are
+necessary to provide the foundation for a wide variety of local government GIS/LIS applications that
+involve land subdivision and/or ownership.
+
+a. The legal lot feature or layer consists of legal land subdivisions. These are aliquot portions of the PLSS,
+filed subdivision plats and irregular tracts defined by filed deeds.
+
+b. The parcel feature or layer defines ownership tracts of land. These tracts may group multiple legal lots
+into one taxable account and that typically represents the boundaries of a landowner's property. These
+data features or layers include locational coordinates for points representing property corners, lines
+between property corners representing property boundaries and closed polygons representing the
+property area.
+
+State Agencies: Standard
+State Funded Entities: Standard
+Other: Standard
+
+1.9 Parcel Identifiers
+
+a. Each county/region should adopt a system of unique, permanent feature identifiers (PID) that provide
+the link between each graphic land ownership parcel polygon and the attribute information (ownership,
+size, situs address, value, etc.) related to that specific land ownership property parcel.
+
+b. A county/region PID system must be designed in a manner such that a unique, statewide PID can be
+defined and maintained for each property parcel by using the county FIPS code (Federal Information
+Processing Standards Publications) as a prefix to the county/region's PID system.
+
+c. To maintain this unique one-to-one association between a specific property parcel and its related
+attribution information, new PIDs should be assigned whenever a property parcel is altered by either
+splitting it into two or more parcels or by combining two or more parcels to form a new parcel. The
+previous PIDs should not be used for these new modified parcels, but the historical PID associations
+should be maintained through a parent/child PID reference table.
+
+State Agencies: Standard
+State Funded Entities: Standard
+Other: Standard
+
+1.10 Spatial Data Format
+
+A broad range of state and regional applications require property parcel information. Many of these
+applications require the combining of data across jurisdictional boundaries. To facilitate these
+applications, the property parcel spatial (graphic) data should be either maintained in a manner that
+allows it to be readily integrated into a spatial relational database format or be capable of being
+exported into a common geographic data format (i.e., shapefile), while including the parcel identifiers.
+
+State Agencies: Standard
+State Funded Entities: Standard
+Other: Guideline
+
+1.11 Metadata
+
+All geospatial land record databases, and their associated attribute databases should be documented
+with Federal Geographic Data Committee (FGDC) compliant metadata outlining how the data was
+
+derived, attribute field definitions and values, map projections, appropriate map scale, contact
+information, access and use restrictions, etc.
+
+State Agencies: Standard
+State Funded Entities: Standard
+Other: Standard
+
+1.11.1 NebraskaMAP Metadata
+
+The NebraskaMAP (http://NebraskaMAP.gov) is a state sponsored GIS web-based portal for finding and
+accessing a wide variety of GIS/geospatial data related to the geographic area of Nebraska. Many of the
+NebraskaMAP functions required metadata. All developers of Nebraska-related GIS data are encouraged
+to use the site to either upload existing metadata and/or use the online tools available on the site to
+create metadata for your GIS/geospatial land record information and mapping. Before metadata can be
+either created or uploaded on the site, a brief user registration is necessary.
+
+State Agencies: Guideline
+State Funded Entities: Guideline
+Other: Guideline
+
+1.12 Attribute Data
+
+To provide the foundation necessary for a wide variety of local government applications, non-graphic,
+attribute data should be organized within the GIS/LIS, which describes individual property parcels
+relative to their basic parcel characteristics, tenure, value, history, buildings and units within the parcel,
+and tax status. In most cases, much of this attribute data will already exist in separate databases within
+a variety of local agencies and should be referenced to the graphic property parcel via the unique PID.
+To meet a range of state and regional applications that require property parcel information, the
+following types of property parcel data should be maintained and be available in a manner that allows it
+to be harvested, translated, and integrated into a statewide property parcel attribute dataset. These
+attribute values may be maintained in one or more separate relational databases that are referenced by
+a unique PID and not directly integrated into a GIS.
+
+PID#: Parcel identifier (county FIPS code plus local government PID)
+Situs Address: Address of parcel (may be multiple fields)
+Owner Address: Address of property owner (may be multiple fields)
+Township: Township #
+Section: Section #
+Range: Range #
+Range Direction: East or West
+Legal Description: Narrative legal description of parcel
+Assessed Value: Total assessed value of property (land and improvements)
+Land Value: Assessed value of land
+Area (Deeded): Area of parcel according to the deed
+Property Class: (Res, Ag, Com, Rec., Ind.)
+Property Sub-class : i.e., Ag (Dryland, Irrigated, Grassland/Pasture, Waste)
+Ownership type: Federal, State, County, Private, Tribal, Exempt, Other and Unknown
+
+Tax District: County ID plus Tax Dist. #
+School District : State number definition
+Landuse : Actual landuse with NPAT defined general categories
+Property Parcel Type: NPAT defined categories: (i.e., Single Family, Multi-Family, Commercial, Industrial,
+Agriculture, Recreational, Mineral Interest-Nonproducing, Mineral Interest-Producing, State Assessed, or
+Exempt)
+Status : NPAT defined categories: (Improved, Unimproved, or IOLL)
+Location: NPAT defined: (Urban, Sub-urban, Rural)
+City Size: 1st class, 2nd class, primary, metro, or village
+Source Document: Sales/transfer reference or document (book & page & date)
+Sales Date: Most recent sales/transfer date
+Sales Value: Most recent sales value
+
+State Agencies: Standard
+State Funded Entities: Standard
+Other: Standard
+
+2. Purpose and Objectives
+
+The purpose of these standards and guidelines is to help realize the maximum long-term return on and
+overall utility of the public's investment in the modernization of how Nebraska's land records are
+maintained and distributed.
+
+2.1 Background
+
+Land records and land ownership records are public records that are used by wide cross-section of our
+society and its institutions. Ready access to current and accurate land records is critical to our state's
+overall economy and the efficient functioning of many of its public and private institutions.
+
+Historically land records have been maintained on paper records and paper maps. This made it very
+difficult and costly to update and keep current records and maps in areas where there was significant
+turnover in property ownership. Paper records and maps also made it difficult to share land record
+information outside of the physical office where they were maintained. Paper records and maps also
+made it difficult to conduct analyses of broader land ownership and land valuation patterns.
+Computerization in general, and GIS/geospatial technologies in particular, have revolutionized how land
+and land ownership records can be maintained, analyzed, shared, and distributed.
+
+Modern computerized land records and maps make it relatively easy to update and keep current land
+records and maps. Computerization and GIS/geospatial technologies now routinely enable easy, reliable
+access to land records and maps via the Internet to a wide variety of users. Land records in
+computerized relational databases and GIS parcel maps have provided a wide array of new information
+management tools that can be used to integrate land records with other data and analyze and display
+land ownership, land valuation and other broader land-related patterns. Among other uses, these tools
+help ensure that all property is on the tax rolls and that the property is taxed equally.
+
+Modern computerized land records and maps can provide a wide array of potential benefits to a wide
+array of users. However, to realize many of these benefits, it is important that when these databases
+and maps are originally developed they follow a minimal set of standards and guidelines that support
+
+this potential broad array of applications and benefits. In many instances, it is not this broader array of
+potential uses that is the immediate stimulus, which causes a local or state agency to undertake a
+modernization of its land records and maps. Therefore, these standards and guidelines serve the
+function of raising the awareness of these potential future applications and the related need to
+incorporate minimal standards beyond those needed for immediate applications.
+
+These standards and guidelines are intended to help ensure that modernized land records are
+developed on a solid technical foundation. A foundation, which will enable both the original developing
+agency, and other interested entities, to build on this initial investment and maintain and enhance the
+data and enable it to be utilized for multi-purposes by multiple users. These standards and guidelines
+are also intended to facilitate partnerships between local, state, and federal entities to support the
+development and maintenance of modernized land records.
+
+2.2 Objectives
+
+These standards and guidelines to guide the modernization of land records in Nebraska have the
+following objectives:
+
+2.2.1
+
+Provide guidance to state and local officials as they work, either in-house or with private contractors, to
+develop and/or acquire computerized, geospatial data related to land records and maps and thereby
+increase the likelihood that the data acquired and/or developed will be suitable for the range of
+intended applications and likely future applications.
+
+2.2.2
+
+Improve public policy development and implementation by helping to make land records more current
+and readily accessible and by making available to land record management applications the wide range
+of analytical tools available through GIS/geospatial technology.
+
+2.2.3
+
+Enhance coordination and program management across jurisdictional boundaries by insuring that
+modernized land records and maps can be readily integrated across jurisdictional boundaries for
+regional applications (e.g., school districts, NRDs, emergency response, etc.) or statewide applications.
+
+2.2.4
+
+Save public resources by facilitating the sharing of computerized land records among public agencies or
+sub-divisions of agencies by incorporating data standards and following guidelines which will make it
+more likely that the computerized land records developed by one entity will also be suitable to serve the
+multiple needs of other entities and thereby avoid the costly duplication of developing and maintaining
+similar land records.
+
+2.2.5
+
+Make land records and land ownership maps more readily accessible to the wide range of potential
+users.
+
+2.2.6
+
+Facilitate harmonious, trans-agency public policy decision-making and implementation by enabling
+multiple agencies and levels of government to access and appropriately use common geospatial
+datasets and thereby make it more likely that intersecting public policy decisions, across levels of
+government, will be based on the same information.
+
+2.2.7
+
+Lay the foundation for facilitating intergovernmental partnership to the modernization of land records
+by defining standards and guidelines that increase the likelihood that computerized land records will
+meet the needs of multiple users.
+
+3. Definitions
+
+Attribute Data : Properties and characteristics of property parcel or other spatial data entities.
+
+Datum: A Geodetic Reference System is the true technical name for a datum. A datum is a combination
+of an ellipsoid, which specifies the size and shape of the earth, and a base point from which the latitude
+and longitude of all other points are referenced.
+
+Entity: Any object about which an organization chooses to collect data.
+
+Geodetic Control: A set of surveyed monuments used to define a spatial reference system and used to
+register map sheets and transform coordinates for a particular project.
+
+Geographic Information System (GIS): A system of computer hardware, software, and procedures
+designed to support the compiling, storing, retrieving, analyzing, and display of spatially referenced data
+for addressing planning and management problems. In addition to these technical components, a
+complete GIS must also include a focus on people, organizations, and standards.
+
+Geospatial Data: A term used to describe a class of data that has a geographic or spatial nature. The
+data will usually include locational information (latitude/longitude or other mapping coordinates) for at
+least some of the features within the database/dataset.
+
+Global Positioning System (GPS): GPS is a method for identifying locations on earth using triangulation
+calculations of satellite positions. Originally created by the United States Military, it has since found
+numerous commercial applications.
+
+Land Information System (LIS): A special type of GIS that manages and analyzes data related to land
+ownership (e.g., tax parcels, urban infrastructure, property assessment). A GIS used for municipal or
+county level applications is typically structured as an LIS.
+
+Map Scale: The scale of a map is the ratio between a distance on the map and the corresponding
+distance on the earth, with the distance on the map typically expressed as 1. Thus, a scale of 1:100,000
+means 1 inch on the map equals 100,000 inches (approximately 1.6 miles) on the earth. Large scale
+maps depict a small area and show more detail. Small scale maps depict a large area and show less
+detail.
+
+Metadata: Data describing a GIS database or data set including, but not limited to, a description of a
+data transfer medium-, format, and contents, source lineage data, and any other applicable data
+processing algorithms or procedures.
+
+Monumentation of PLSS Corners: Monumentation in surveying refers to the practice of marking known
+horizontal and vertical control points with permanent structures such as concrete pedestals and metal
+plaques. Once surveyed and marked, these monuments can be used for further surveying and for the
+alignment of land-parcel boundaries and infrastructure.
+
+National Spatial Reference System (NSRS): A consistent national coordinate system that defines
+latitude, longitude, height, scale, gravity, and orientation throughout the Nation, and how these values
+change with time. Consequently, it ties spatial data to geo-referenced positions.
+
+Nebraska Plane Coordinate System: Nebraska Plane Coordinate System means the system of plane
+coordinates for designating the geographic position of points on the surface of the earth, within the
+State of Nebraska, which have been established by the National Ocean Service/National Geodetic
+Survey, or its successors. The Nebraska Plane Coordinate System is a Lambert conformal conic
+projection of the North American Datum of 1983, having standard parallels at north latitudes 40 degrees
+00 minutes and 43 degrees 00 minutes along which parallels the scale shall be exact. The origin of
+coordinates is at the intersection of the meridian 100 degrees 00 minutes west of Greenwich and the
+parallel 39 degrees 50 minutes north latitude. This origin is given the coordinates. N = 0 meters and E =
+500,000 meters. (Neb. Rev. Stat. § 76-2502)
+
+Orthophoto: An aerial photo that has been corrected to eliminate the effects of camera tilt and relief
+displacement. The ground geometry is recreated as it would appear from directly above each and every
+point. Digital orthophotos can be created by scanning the original photograph and applying a process
+called differential rectification to each pixel in the image. In creating digital orthophotos, it is also
+possible to remove the effects of tangential displacement.
+
+Parcel Identifier (PID): A unique number identifying a specific property on the assessment and tax rolls
+and used as a cross reference between graphic/mapping data and tabular attribute data.
+
+Projection: A system to portray all or part of the earth, which is an irregular sphere, on a planar, or flat
+surface.
+
+Public Land Survey System (PLSS): The Public Land Survey System (PLSS) is a way of subdividing and
+describing land in the United States. All lands in the public domain are subject to subdivision by this
+rectangular system of surveys (townships, ranges, sections, quarter-sections, etc.), which is regulated by
+the U.S. Department of the Interior, Bureau of Land Management.
+
+Shapefile: A Shapefile is an ESRI digital vector (non-topological) storage format for storing geometric
+location and associated attribute information that can be generated by a wide variety of GIS software
+packages.
+
+Spatial Accuracy: The accuracy of a map in representing the geographic location of an object relative to
+its true location on the surface of the Earth based on geographic coordinates.
+
+4. Applicability
+
+4.1 State Government Agencies
+
+State agencies that have the primary responsibility for maintaining land ownership records and property
+parcel maps for a particular jurisdiction(s) or geographic area (e.g. Nebraska Dept. of Property
+
+Assessment and Taxation for counties for which it has assumed the primary assessment role) are
+required to comply with those sub-sections identified as a "Standard" for "State Agencies" in Section 1.
+Those state agencies with oversight responsibilities in this area are required to ensure that their
+oversight guidelines, rules, and regulations are consistent with these standards.
+
+4.2 State Funded Entities
+
+Entities that are not State agencies but receive State funding, directly or indirectly, for property parcel
+mapping and/or property tax assessment and have the primary responsibility for maintaining property
+parcel maps for a particular jurisdiction or geographic area are required to comply with those sub-
+sections identified as a "Standard" for "State Funded Entities" in Section 1.
+
+4.3 Other
+
+Other entities, such as local government agencies (e.g. County Assessor, County Register of Deeds,
+municipalities) that have the primary responsibility for developing and maintaining land ownership
+records and property parcel maps are required to comply with those sub-sections identified as a
+"Standard" for "Other" in Section 1.
+
+5. Responsibility
+
+5.1 NITC
+
+The NITC shall be responsible for adopting minimum technical standards, guidelines, and architectures
+upon recommendation by the technical panel. (Neb. Rev. Stat. § 86-516(6))
+
+5.2 State Agencies
+
+The Nebraska Department of Property Assessment and Taxation will be responsible for ensuring that its
+rules and regulations relative to land ownership records and property parcel (tax) mapping include those
+subsections in Section 1 that are identified as a "Standard" for "Other" and are consistent overall with
+those standards.
+
+5.3 Granting Agencies and Entities
+
+State granting or fund disbursement entities or agencies will be responsible for ensuring that these
+standards are included in requirements and regulations related to fund disbursements as they relate to
+land (property parcel) records or property parcel mapping.
+
+5.4 Other
+
+Local government agencies that have the primary responsibility for land ownership records and property
+parcel mapping will be responsible for ensuring that those sub-sections defined for "Other" as a
+"Standard" in Section 1 will be incorporated in land record modernization and geospatial data
+development efforts and contracts.
+
+## Curator notes
+
+Text extracted with pdftotext -layout (page headers, footers and column layout kept as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their letters). source_version is the latest date on the section's History line (adoption, renumbering or amendment); the section prints no separate effective date, so effective_date stays empty.

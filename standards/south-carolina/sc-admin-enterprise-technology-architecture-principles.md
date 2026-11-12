@@ -1,0 +1,298 @@
+---
+schema_version: 1
+corpus: states-government-it
+jurisdiction: south-carolina
+id: sc-admin-enterprise-technology-architecture-principles
+title: Enterprise Architecture Framework and Principles
+doc_type: standard
+citation: 'SC Admin: Enterprise Architecture Framework and Principles'
+authority_level: ''
+issuing_body: South Carolina Department of Administration
+source_url: https://www.admin.sc.gov/sites/admin/files/Documents/PMOOTIS/Enterprise_Technology_Architecture_Principles.pdf
+source_format: pdf
+retrieved: '2026-11-12'
+source_sha256: 1cee86bc665c0bdcd31df0d0b6b87863200441b26e64ceb33b3055979dc23463
+effective_date: null
+source_version: ''
+status: current
+content_mode: verbatim
+conversion_notes: Text extracted with pdftotext -layout (page headers, footers and column layout kept
+  as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their
+  letters).
+last_verified: ''
+verified_by: ''
+maintainer: ''
+relationships:
+  implements: []
+  implemented_by: []
+  references_external: []
+  related: []
+  supersedes: []
+tags:
+- cloud-resilience
+- governance
+---
+
+> **NON-AUTHORITATIVE.** This is a convenience copy for machine reading. The official text is published at the source URL above. Verify at source before relying on it.
+
+# Enterprise Architecture Framework and Principles (SC Admin: Enterprise Architecture Framework and Principles)
+
+## At a glance
+
+The principles of the State's Enterprise Technology Architecture (ETA): planning horizon, scope (all IT at all state agencies), the degree of compliance sought, exceptions through governance, technology maturity and vendor position. The index names it 'Enterprise Architecture Framework and Principles'; the file prints 'Enterprise Technology Architecture Principles'.
+
+## Full text
+
+South Carolina Statewide Information
+        Technology Shared Services
+
+       ENTERPRISE TECHNOLOGY ARCHITECTURE PRINCIPLES
+
+                                   ETA Principle - Time Horizon
+  Zero Horizon – Address today’s needs with       What is our planning horizon for                 More than 5 year Horizon – long-term
+  today’s technology                                                                                  needs and anticipated technology
+                                                         the architecture?
+• Provides certainty about SC requirements and                                                  • Allows strategic perspective not bound up in
+  market capabilities                                                                             tactical constraints
+• Favors incremental change                                                                     • Favors innovation
+
+                                    Low                                                                 High
+
+                                                        2 year 3 year       4 year
+
+    The State’s Enterprise Technology Architecture will address a 3-year target state horizon
+
+    Rationale
+    •    An agreed-upon horizon is needed so that architects for different topics have a synchronized understanding of the
+         development of SC requirements and of technologies in the marketplace
+    •    A three-year horizon for architecture does not mean that the architecture must be implemented in 3 years, merely that the
+         target state
+    •    Three years is reasonable because shorter time frames can be too influenced by tactical concerns, and longer time frames can
+         be too speculative for practical planning
+    •    Supports achieving a balance between driving innovation and leveraging current investments
+    •    Given that the State’s budget process also uses a 3 year view it makes sense that the ETA planning horizon be set at a similar
+         point
+    •    This will be a “rolling 3 year” window that will be updated annually
+
+                           ETA Principle – Architecture Scope
+  Centralized Shared Services environment              What environment(s) will be                                    All State IT infrastructure
+  only
+                                                         addressed by the ETA?
+• Simpler scope to solve for                                                                        • Addresses full breadth of SC needs
+• No adoption challenges                                                                            • Provides more opportunities forconsolidation
+                                                                                                      and standardization
+
+                                 Narrow                                                                    Broad
+
+                                                                                            All State Agencies
+
+     The Enterprise Technology Architecture will apply to all IT at all State Agencies
+
+     Rationale
+     •    The ETA is a tool for driving standardization for cost efficiency as directed by Executive Order. The scope of standardization is
+          not limited to technology hosted within the shared services environment; it includes all Cabinet-level Agency IT directly and
+          must include smaller Agency IT as well to achieve the State’s goals
+     •    Any Agency systems that are future candidates for consolidation need to be designed from the start to be compatible with
+          shared services infrastructure
+     •    A robust exception process will be instituted to address Agency-unique needs and other exceptional circumstances
+
+                ETA Principles – Architecture Compliance
+  ETA is a suggestion                               What degree of compliance is                        ETA compliance is mandatory and
+                                                                                                                               enforced
+                                                             desired?
+• Consensus is much easier to reach                                                            • Adoption/compliance is assured
+• Lightweight - no compliance processes needed                                                 • Reduces uncertainty for projects, contracts, etc
+
+                                  Limited                                                             Strong
+
+                                                                  100% with allowance for exceptions
+
+    We seek 100% compliance with the ETA but will allow exceptions through a well-defined
+    governance process
+
+    Rationale
+    •    The architecture will only be effective if it is followed
+    •    The ETA development process will be designed to be inclusive of diverse agency requirements and objectives; if this is achieved
+         there should be little need for non-compliance except in the case of unique needs or new requirements
+    •    A well-defined and documented governance process will be created to permit Agencies to request exceptions where needed
+
+                      ETA Principles – Architecture Diversity
+  Promote diverse architectural approaches           Do we seek to establish one or             Single Standardized Model for each service
+• Flexible for different needs and usecases         many architectural models for each            • 100% standardization
+• Allows for more innovation                                                                      • Simpler to understand, apply, measure
+                                                         technology capability?
+
+                                    Diverse                                                             Unitary
+
+                                              Prefer fewer, but some domains will require more
+
+     We strive to standardize on as few architectural approaches as possible, but expect that the number
+     will vary by domain and subject area
+
+     Rationale
+     •    The preference is to define fewer architectural approaches in the ETA, as that will provide greater standardization and cost
+          efficiency and make the architecture simpler to apply
+     •    However, some technology areas will require multiple architectural solutions to be supported due to diversity of Agency
+          requirements or current state investments. The degree of variability will be addressed topic-by-topic by the architects for each
+          domain and approved by the Security and Architecture Review Board(SARB).
+
+                 ETA Principle – Technology Maturity
+  Mature Technology Only                             What is our preference for the                       Seek “Bleeding Edge” Technology
+                                                       market maturity of our
+• Increased confidence in technology solutions                                                   • Takes advantage of latest technology advances
+• Higher marketplace availability oftechnology,              technologies?                       • Enables business process innovation
+  skills, and support
+
+                                                      Most domains        Security tech
+
+                                     High                                                                Low
+
+     The ETA will favor market-tested technologies, but will allow less mature technologies to be used
+     where needed to respond to new risks, such as in Security Technology
+
+     Rationale
+     •    The State prefers architectural approaches and technologies that have been proven in the marketplace in order to reduce the
+          risk associated with new technology
+     •    The State also favors technologies that can be sustained with the State workforce, and do not require the State to seek scarce
+          skills from the market
+     •    However there are areas where new technologies are needed to deal with emerging business risks, such as in Security. The
+          State will accept a lower level of technology maturity where it provides a clear advantage in overall risk management
+
+             ETA Principle – Vendor Market Position
+  Market Leaders Only                                    What is our preference for the       Hungry startups and challengers preferred
+
+• Higher marketplace availability of technology,
+                                                        market position of vendor/product      • Better terms and more attentive support
+  skills, and support                                      standards, where needed?            • Greater vendor readiness to customize solutions t o
+• Increased confidence in long-term viabilityof                                                  meet SC needs
+  solutions
+
+                                    Leaders                                                         Newcomers
+
+                                                   Market Leaders and Challengers
+
+     Where vendors or products are identified in the ETA, we will favor vendors that are identified as
+     Market Leaders or Challengers
+
+     Rationale
+     • In those circumstances where the architecture drives us to identify vendor or product names, the State will seek to use vendors
+       that have a high ability to execute
+     • Will identify Market Leaders and Challengers using Gartner Research Magic Quadrants as a neutralreference
+
+                     ETA Principle - Solution Integration
+  Prefer integrated suites                           What is our preference for                                           Prefer Best of Breed
+• Integration comes in the box                   integrated product suites vs bestof             • Allows better fit of solution to unique needs
+• Maximizes vendor relationships                               breed?                            • More diversity of vendors
+
+                                   Suites                                                            Best of Breed
+
+                                                          Will vary by solution
+
+    The State has a preference for solutions that minimize the need for custom integration, but
+    expects high variability from one solution to another
+
+    Rationale
+    • The State prefers solutions that do not require complex integration. Pre-integrated suites are therefore preferable to best of
+      breed approaches
+    • However, this position is likely to vary across solutions, as integrated suites are not available for all technology services
+
+                             ETA Principle - Cost Sensitivity
+  Aggressive Cost Containment                      What is the posture towardscosts                                           Seek to Invest
+
+• Reduced capital spend for new infrastructure
+                                                           of infrastructure?                  • Enables more innovation and functionality
+• Makes business cases for architecture adoption                                               • Can enable longer-term cost efficiency
+  easier
+
+                                     High                                                              Low
+
+                                                               Balanced
+
+     The Architecture should balance cost containment and investment in new technology
+
+     Rationale
+     •    The State needs to balance investment in innovative technology that brings improved long-term cost efficiency and
+          functionality with reduced capital spend
+
+                                 ETA Principle – Buy Vs Build
+  Build always                                    What is our preference for buy,                                 COTS / GOTS only
+• High degree of customization to meet SCneeds   build and reuse for infrastructure        • Cost Containment
+• Lifecycle management under SC control                      software                      • Much faster speed to market
+• Reduced licensing costs
+
+                                   Build                                                        Buy
+
+                                                                Cloud/SaaS/COTS/GOTS preferred
+
+  The ETA will specify services and packaged applications over custom developed software for any
+  infrastructure applications
+
+  Rationale
+  •    The State does not wish to develop, own or maintain custom applications
+  •    Cloud and SaaS solutions are the State’s first preference
+  •    Reuse of existing, and purchase of new COTS/GOTS packaged software is also acceptable
+  •    A well-developed and documented exception process implemented by the SARB and the other Shared Services governance
+       boards will allow for custom software to be specified in the architecture by exception, where justified
+
+          ETA Principle – Preservation of Current Architecture
+
+  Disregard current architecture                    What degree of change from the               Preserve as much as possible of current
+                                                    current state is appropriate when                                      architecture
+• More freedom to meet emerging needs with new
+  approaches
+                                                          developing the ETA?                  • Easier migrations / implementation
+                                                                                               • Preserves value of existing investments in
+• Creates opportunity to eliminate technical debt                                                technology, procedures and skills
+
+                                   Zero                                                                High
+
+                                                          Leverage best practices of Agencies
+
+    The ETA will leverage Agency best practices wherever possible but will allow for new approaches
+    and solutions
+
+    Rationale
+    •    Preserve current approaches used by Agencies, where they reflect industry best practices and are readily leveraged by the
+         entire enterprise
+    •    Build new in case of obsolete and deprecated architectures
+
+ETA Principle – Proprietary & Open Architecture Standards
+
+    Vendor-specific Standards are always              What is our position on open                                        Open standards only
+    acceptable                                                 standards?
+ • Leverages unique capabilities of vendors and                                                    • Less chance of being locked in by aspecific
+   products                                                                                          technology and/or vendor.
+ • Aligns well with a Suite (vs Best of Breed)                                                     • More vendors can participate to offer solutions
+   preference
+
+                                   Proprietary                                                             Open
+
+                                                                    Lean toward vendor agnostic
+
+         The ETA will favor vendor-agnostic standards but allow for vendor-specific architectural standards
+         where required
+         Rationale
+         •    Vendor-agnostic standards allow greater flexibility at the product/solution level , and enable interoperability between disparate solutions.
+         •    Vendor-specific standards will be considered where they are the de facto industry standard and/or they allow the State to best meet its
+              objectives. The SARB will consider all proposed standards for approval as part of the architecture development process.
+
+    ETA Principles – Technology Management
+  High-touch support is preferred             What degree of in-person              Zero management technologies only
+                                              management is required?
+• Greater customization of support services                                    • Reduced operating & resources costs
+• Higher customer satisfaction with support                                    • Resources can be centralized
+
+                                     High                                              Zero
+
+                                                            Minimize resource demands
+
+ The ETA will strongly favor technologies that support high automation and limited management
+
+ Rationale
+ • The State strongly prefers architectural approaches that minimize the need for on-site labor and for
+     specialized skill sets. Consequently approaches that allow automation or remote management will be
+     favored.
+
+## Curator notes
+
+Text extracted with pdftotext -layout (page headers, footers and column layout kept as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their letters).

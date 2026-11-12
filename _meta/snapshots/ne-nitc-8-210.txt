@@ -1,0 +1,30 @@
+                                                                   Nebraska Information Technology Commission
+                                                                              Technical Standards and Guidelines
+
+8-210. Information security strategic plan.
+    Proper risk-based planning is critical to ensure the most appropriate projects are prioritized
+and funded by the state and its agencies. Information security planning is no exception. Planning
+for information protection should be given the same level of executive scrutiny at the state as
+planning for information technology changes. This plan should be updated and published on a
+biennial basis, and should include a two-year projection of key security business drivers and
+planned security infrastructure implementation. This plan is necessary to ensure that information
+security is viewed as a strategic priority, and is included as part of the overall planning process.
+     Contents of the information security strategic plan:
+     (1) Summary of the information security, mission, scope, and guiding principles;
+    (2) Analysis of the current and planned technology and infrastructure design, and the
+corresponding changes required for information security to stay aligned with these plans;
+     (3) Summary of the overall information risks assessments and current risk levels;
+   (4) Assessment of the current information security posture related to the future targeted
+posture, identified gaps, and high-level timeline necessary to close or mitigate those gaps;
+    (5) Summary of the policies, standards, and procedures for information security, and
+projected changes necessary to stay current and relevant;
+   (6) Summary of the information security education and awareness program, progress, and
+timeline of events;
+   (7) Summary of disaster recovery and business continuity activity and plans if the agency is
+required to maintain these documents by other requirement or policy;
+   (8) Analysis of the regulatory and contractual compliance environment, including potential
+new regulations or pending contractual requirements that will affect information security; and
+     (9) Proposed two-year timeline of events and key deliverables or milestones.
+--
+     History: Adopted on July 12, 2017. Amended on July 8, 2021.
+     URL: https://nitc.nebraska.gov/standards/8-210.pdf

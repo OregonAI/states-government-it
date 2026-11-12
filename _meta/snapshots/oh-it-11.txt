@@ -1,0 +1,84 @@
+IT-11 Use of State Telephones
+
+State of Ohio Administrative Policy
+No: IT-11 - Information Technology
+Effective: January 30, 2026
+Issued By: Kathleen C. Madden, Director
+
+I. Purpose
+This state policy provides requirements regarding the use of Wired and Wireless state Telephone Service. All defined terms are capitalized and a link to the glossary of definitions is found in section IV.
+
+II. Scope
+This policy applies to all state Agencies, boards, and commissions under the authority of the Governor (collectively referred to as Agency or Agencies).
+
+III. Policy
+Each Agency is responsible for the effective, efficient and responsible use of state‐acquired Telephone Services. At a minimum, Agencies shall implement the following requirements regarding state Telephone Services:
+
+A. Limitations on Personal Calls
+Personal calls made using state Wired or Wireless Telephone Services shall comply with the following minimum requirements:
+1. When using a state Wireless Telephone Service, personal calls made or received are only acceptable in emergency situations when Wired Telephone Service is not available.
+2. When using a state Wired Telephone Service, the number, frequency and duration of personal calls shall be kept to a minimum and, whenever possible, made during lunch hours or authorized breaks.
+3. Personal long-distance calls made using the state’s Wired Telephone Service are only acceptable if charged to a personal credit card or personal telephone card, or if billed to a non‐state third party number. In the case of an emergency, personal long-distance calls may be made using the state’s Wired Telephone Service and charged to the state.
+4. Personal business, which involves an activity undertaken for profit or gain of any kind, shall not be conducted using a state Telephone Service. Employees are prohibited from circulating their state telephone number as a telephone number at which they can be reached for personal business. Personal business cards and other such materials shall not have a state telephone number listed as a contact number.
+5. Agencies may, at their discretion, prohibit the use of any state Telephone Services to receive or originate personal calls.
+
+B. Prohibited Calls
+The following types of calls are prohibited if not related to official state business:
+1. Pay per call numbers
+2. Collect calls to state Telephone Services
+3. Calls billed to state Telephone Services
+
+C. Penalties
+Violation of this policy may result in disciplinary action and may be a cause for termination.
+
+D. Evaluation and Acquisition of Wireless Telephone Service
+Agencies shall determine the Wireless Telephone Service required for each individual or group of individuals identified to be issued a Wireless telephone. Agencies shall consider at a minimum the following criteria for each group or individual for whom a state Wireless Telephone Service is purchased:
+1. How the Wireless telephone will be used.
+2. Number of minutes required per month.
+3. Desired coverage area.
+4. When the Wireless telephone will be used (e.g., weekdays, evenings, weekends, etc.).
+5. If there is a need for data transmission.
+6. Agencies shall acquire state Wireless Telephone Service in accordance with Ohio Administrative Policy IT‐12, "Telecommunications Utility Services," and select the most cost‐effective plan that meets the criteria identified.
+
+E. Authorization of State Wireless Telephone Services and Issuing Wireless Telephones
+Each Agency shall develop guidelines for the authorization and allocation of state Wireless Telephone Services and a process for tracking the custody of Wireless telephones issued to its employees. At a minimum, Agency guidelines shall include the following:
+1. The job responsibilities for which the use of a state Wireless Telephone Service is required.
+2. The factors that determine whether a Wireless telephone is to be shared by a group of employees.
+3. The factors that determine whether a Wireless telephone is to be issued to an individual employee.
+4. The methodology for how group and individual Wireless telephones are issued.
+5. The use of shared Wireless telephones, when practical, is preferable to issuing individual Wireless telephones. If a Wireless telephone is shared, a log shall be maintained to track the responsible user and the dates and times the Wireless telephone was checked out and checked in.
+6. Each state employee assigned a Wireless telephone shall be given a copy of Ohio Administrative Policy IT‐11, "Use of State Telephones," along with any associated Agency guidelines developed to provide additional details or restrictions.
+
+F. Education & Awareness
+Agencies shall establish an education and awareness program regarding the appropriate use of telecommunications services provided by the state whether Wired or Wireless. Managers and supervisors shall also receive training on how to detect and respond to instances of abuse of privilege.
+
+IV. Definitions
+All defined terms are capitalized within the policy and the online glossary of definitions can be found at IT Policy Glossary - Department of Administrative Services.
+
+V. Authority
+ORC 125.18
+
+VI. Resources
+None
+
+VII. Inquiries
+
+Direct inquiries about this policy to:
+State IT Policy Manager
+Office of Information Technology
+Ohio Department of Administrative Services
+30 East Broad Street, 39th Floor
+Columbus, Ohio 43215
+1-614-466-6930 | DAS.State.ITPolicy.Manager@das.ohio.gov
+State of Ohio Administrative Policies may be found online at
+Policy Finder - Department of Administrative Services
+
+VIII. Revision History
+Date | Description of Change
+12/07/1992 | Original policy.
+12/01/2004 | This policy replaces all previously released memoranda and specifically obsoletes Ohio IT Policy ITP H.2, “Personal Use of State Telephones,” issued March 14, 2001. Policy revisions reflect substantive changes in policy and procedure.
+05/25/2011 | Requirements for personal phone call reimbursement were removed from the policy. In addition, the requirement to establish and document a management review process for employee usage of Telephone Services was removed. Education and awareness requirements were added to the policy.
+10/13/2016 | Transferred policy content to a new State of Ohio Administrative Policy Template. Re‐numbered policy to IT‐11 to be consistent with new numbering format.
+07/22/2021 | Updated the policy template to reflect the DAS director change.
+01/30/2026 | Updated the policy template.
+01/30/2028 | Scheduled policy review.

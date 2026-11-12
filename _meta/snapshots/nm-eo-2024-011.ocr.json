@@ -1,0 +1,108 @@
+{
+  "agreement": 0.9849,
+  "dict_ratio": 0.9886,
+  "disagreements": [
+    {
+      "before": [],
+      "paddle": "00",
+      "tesseract": ""
+    },
+    {
+      "before": [
+        "and",
+        "DIRECT",
+        "as",
+        "follows"
+      ],
+      "paddle": "1",
+      "tesseract": "l"
+    },
+    {
+      "before": [
+        "necessary",
+        "and",
+        "within",
+        "capabilities"
+      ],
+      "paddle": "2",
+      "tesseract": "Lie"
+    },
+    {
+      "before": [
+        "and",
+        "timeline",
+        "for",
+        "consideration"
+      ],
+      "paddle": "",
+      "tesseract": "4"
+    },
+    {
+      "before": [
+        "AT",
+        "THE",
+        "EXECUTIVE",
+        "OFFICE"
+      ],
+      "paddle": "Maggie Toulouse Olei",
+      "tesseract": "p 9 RPA"
+    },
+    {
+      "before": [
+        "p",
+        "9",
+        "RPA",
+        "THIS"
+      ],
+      "paddle": "5 TH",
+      "tesseract": "STH"
+    },
+    {
+      "before": [
+        "DAY",
+        "OF",
+        "APRIL",
+        "2024"
+      ],
+      "paddle": "MAGGIE",
+      "tesseract": "MA E"
+    },
+    {
+      "before": [
+        "STATE",
+        "OF",
+        "NEW",
+        "MEXICO"
+      ],
+      "paddle": "Michell huajan Bischen",
+      "tesseract": "ats jc"
+    },
+    {
+      "before": [
+        "MEXICO",
+        "ats",
+        "jc",
+        "MICHELLE"
+      ],
+      "paddle": "LUJAN",
+      "tesseract": "LUJAW"
+    }
+  ],
+  "engines": [
+    "tesseract (ocrmypdf)",
+    "paddleocr PP-OCRv6"
+  ],
+  "figure_agreement": 0.9091,
+  "figures": 32,
+  "forced_rotation": false,
+  "glued": 0,
+  "paddle_sha256": "2367dece5c937aabaab8610853be1dd8da957c04d742ffdd4c77ad9e36fe302d",
+  "pdf_sha256": "3961fada1ee461cd52d9b8fea215e912d1d5d546d312e62c270cc8ea1fd7b821",
+  "psm": null,
+  "text_sha256": "eff6c3606c299c9217f40322e3fe09dc36eb6b90061869e5c0fc007fee1c8903",
+  "tools": {
+    "ocrmypdf": "15.2.0+dfsg1",
+    "tesseract": "tesseract 5.3.4"
+  },
+  "words": 528
+}

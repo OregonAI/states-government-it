@@ -1,0 +1,19 @@
+                                                            Nebraska Information Technology Commission
+                                                                       Technical Standards and Guidelines
+
+8-207. Facilities; identification badges; visitors.
+    Only authorized individuals are allowed to enter secure areas of state facilities that contain
+information technology infrastructure. Those individuals will be issued an electronic ID badge.
+All authorized individuals are required to scan their ID badge before entry into these secure
+areas. ID badges must be visible, and staff are encouraged to question anyone they do not
+recognize who is not wearing a badge. Staff who forget their badges will be issued a temporary
+badge after management approval. Temporary badges must be returned at the end of the day.
+    All visitors are required to sign a visitor’s log, including the following information: name,
+organization, signature, purpose of visit, date, time in, time out, and person to see. Visitors will
+be assigned a temporary badge that must be visible at all times. Visitors are not allowed into
+secure areas such as data centers. If it is necessary for a visitor to enter a secure area, they must
+be escorted at all times. When exiting the facility, the visitor must sign out and return the badge
+while under staff supervision.
+--
+     History: Adopted on July 12, 2017.
+     URL: https://nitc.nebraska.gov/standards/8-207.pdf

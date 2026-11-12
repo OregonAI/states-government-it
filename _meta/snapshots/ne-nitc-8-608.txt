@@ -1,0 +1,18 @@
+                                                          Nebraska Information Technology Commission
+                                                                     Technical Standards and Guidelines
+
+8-608. Low-code/no-code and containerization development.
+    Low-code/no-code and containerization development platforms are types of visual software
+development environments that allow enterprise developers to drag and drop application
+components, connect them together and create mobile or web apps and microservices. These
+types of environments allow for the dynamic allocation of resources. While these types of
+environments allow for swift and agile development without the necessity to write fully coded
+applications, the platforms also present architectural, security and governance challenges. The
+following are low-code/no-code and containerization development standards:
+    (1) All projects involving low-code/no-code in the cloud must be reviewed and approved by
+the OCIO Cloud Review Board;
+     (2) Low-code/no-code projects must maintain compliance with all applicable standards; and
+     (3) All vendor supplied software deployed and operational must be supported by the vendor.
+--
+     History: Adopted on November 10, 2022.
+     URL: https://nitc.nebraska.gov/standards/8-608.pdf

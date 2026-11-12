@@ -1,0 +1,237 @@
+---
+schema_version: 1
+corpus: states-government-it
+jurisdiction: new-mexico
+id: nm-nmac-1-12-5
+title: Oversight of Information Technology Projects
+doc_type: rule
+citation: 1.12.5 NMAC
+authority_level: ''
+issuing_body: Information Technology Commission (1.12 NMAC; now the Department of Information Technology)
+source_url: https://www.doit.nm.gov/files/docs/1.12.5-OversightOfITProjects.pdf
+source_format: pdf
+retrieved: '2026-11-12'
+source_sha256: 6cd6ff1f3f77465506a63e41c15e2e9d52cc589f3793c2599ccb6af5a7bf6b22
+effective_date: '2005-09-30'
+source_version: ''
+status: current
+content_mode: verbatim
+conversion_notes: Text extracted with pdftotext -layout (page headers, footers and column layout kept
+  as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their
+  letters).
+last_verified: ''
+verified_by: ''
+maintainer: ''
+relationships:
+  implements: []
+  implemented_by: []
+  references_external: []
+  related: []
+  supersedes: []
+tags:
+- oversight
+- governance
+---
+
+> **NON-AUTHORITATIVE.** This is a convenience copy for machine reading. The official text is published at the source URL above. Verify at source before relying on it.
+
+# Oversight of Information Technology Projects (1.12.5 NMAC)
+
+## At a glance
+
+Oversight of information technology projects undertaken by executive agencies. DoIT's rulemaking page records that the Department adopted a repeal and replacement of this part on 2026-10-30, to be published in the New Mexico Register and to take effect on 2026-12-08; until then this text is the rule in force, and the replacement is not yet an instrument.
+
+## Full text
+
+                     New Mexico Register / Volume XVI, Number 18 / September 30, 2005
+
+TITLE 1          GENERAL GOVERNMENT ADMINISTRATION
+CHAPTER 12       INFORMATION TECHNOLOGY
+PART 5           OVERSIGHT OF INFORMATION TECHNOLOGY PROJECTS
+
+1.12.5.1       ISSUING AGENCY. Information Technology Commission.
+[1.12.5.1 NMAC - Rp 1.12.5.1 NMAC, 9/30/2005]
+
+1.12.5.2         SCOPE. This rule applies to the oversight of all information technology projects undertaken by
+executive agencies.
+[1.12.5.2 NMAC - Rp 1.12.5.2 NMAC, 9/30/2005]
+
+1.12.5.3       STATUTORY AUTHORITY. Sections 15-1C-5 and 15-1C-8 NMSA 1978.
+[1.12.5.3 NMAC - Rp 1.12.5.3 NMAC, 9/30/2005]
+
+1.12.5.4       DURATION. Permanent.
+[1.12.5.4 NMAC - Rp 1.12.5.4 NMAC, 9/30/2005]
+
+1.12.5.5       EFFECTIVE DATE. September 30, 2005, unless a later date is cited at the end of a section.
+[1.12.5.5 NMAC - Rp 1.12.5.5 NMAC, 9/30/2005]
+
+1.12.5.6          OBJECTIVE. The purpose of this rule is to set forth agency and office IT project management
+oversight responsibilities.
+[1.12.5.6 NMAC - Rp 1.12.5.6 NMAC, 9/30/2005]
+
+1.12.5.7           DEFINITIONS.
+          A.       “Agency” means a state organizational entity of the executive branch, used interchangeably with
+department.
+          B.       “Independent” is used to describe the autonomous and impartial verification and validation
+assessment of compliance to a project and the project’s products requirements. These independent assessments are
+performed by a contractor that is not responsible for developing the product or performing the activity being
+evaluated.
+          C.       “Independent verification and validation (IV&V)” means the process of evaluating a project and
+the project’s product to determine compliance with specified requirements and the process of determining whether
+the products of a given development phase fulfill the requirements established during the previous stage, both of
+which are performed by an organization independent of the lead agency.
+          D.       “Executive sponsor” is the person or group that provides the financial resources, in cash or kind,
+for the project.
+          E.       “Lead agency” of a multi-agency project is the agency that is indicated as lead agency in the
+General Appropriations Act or as designated by the office. In the case that a single agency sponsors a project then
+that agency shall be known as the lead agency.
+          F.       “Office” means the office of the chief information officer.
+          G.       “Oversight” means a continuous process of project review and evaluation to ensure that project
+objectives are achieved in accordance with an approved project plan and project schedule and that IT projects are in
+scope, on time and within budget.
+          H.       “Product development life cycle” is a series of sequential , non-overlapping phases comprised of
+iterative disciplines such as requirements, analysis and design, implementation, test, and deployment implemented to
+build a product or develop a service.
+          I.       “Project” means a temporary process undertaken to solve a well-defined goal or objective with
+clearly defined start and end times, a set of clearly defined tasks, and a budget. The project terminates once the
+project scope is achieved and project approval is given by the project executive sponsor and verified by the office.
+          J.        “Project director” means a qualified person from the lead agency whose responsibility is to
+manage a series of related projects.
+          K.        “Project manager” means a qualified person from the lead agency responsible for all aspects of
+the project over the entire project management lifecycle (initiate, plan, execute, control, close). Must be familiar
+with project scope and objectives, as well as effectively coordinate the activities of the team. In addition,
+responsible for developing the project plan and project schedule with the project team to ensure timely completion
+
+1.12.5 NMAC                                                                                                        1
+
+                         New Mexico Register / Volume XVI, Number 18 / September 30, 2005
+
+of the project. Interfaces with all areas affected by the project including end users, distributors, and vendors.
+Ensures adherence to the best practices and standards of the office.
+         L.        “Project management plan” is a formal document approved by the executive sponsor and the
+office and developed in the plan phase used to manage both project execution, control, and project close. The
+primary uses of the project plan are to document planning assumptions and decisions, facilitate communication
+among stakeholders, and documents approved scope, cost, and schedule baselines. A project plan includes at least
+other plans for issue escalation, change control, communications, deliverable review and acceptance, staff
+acquisition, and risk management.
+         M.        “Project product” means the final project deliverable as defined in the project plan meeting all
+agreed and approved acceptance criteria.
+         N.        “Project schedule” is a tool used to indicate the planned dates, dependencies, and assigned
+resources for performing activities and for meeting milestones.
+         O.         “Qualified” means demonstrated experience managing IT projects. Demonstrated experience
+includes exhibiting the ability to apply project management methodology to maintain projects on time, on budget,
+and on schedule. Qualified also includes those employees who have the demonstrated ability to manage resources,
+lead people to accomplishing project objectives and who possess a working knowledge of the project scope.
+         P.        “Quality” means the degree to which a system, system component, or process meets specified
+requirements, customer needs, and user expectations.
+         Q.        “Quality assurance” means a planned and systematic pattern of all actions necessary to provide
+adequate confidence that a product or system component conforms to established requirements.
+         R.        “Validation” means ensuring a system meets documented performance outcomes and requirements
+of the project.
+         S.        “Verification” means application of an appropriate test yielding documentable, measurable
+evidence that ensures a process executed or the technical system developed produces required performance
+outcomes.
+[1.12.5.7 NMAC - Rp 1.12.5.7 NMAC, 9/30/2005]
+
+1.12.5.8              PROJECT MANAGEMENT METHODOLOGY.
+           A.         All IT projects shall be managed:
+                (1)   using a qualified project manager;
+                (2)   using a formal project management methodology, processes, and techniques approved by the
+office; and
+             (3) by analyzing and monitoring risk at periodic intervals during the project management lifecycle,
+and mitigating risks before they negatively impact the IT project schedule, scope, or budget.
+         B.       During the project management lifecycle, agencies shall select and implement a phase product
+development lifecycle methodology approved by the office.
+         C.       The project budget must be documented in the project management plan by the phases and by
+deliverable.
+[1.12.5.8 NMAC - Rp 1.12.5.8 NMAC, 9/30/2005]
+
+1.12.5.9           LEAD AGENCY RESPONSIBILITIES.
+           A.      A lead agency shall perform the following functions.
+              (1) Manage its own information technology (IT) projects and project resources and use the state
+project management methodology for planning, executing, and controlling the project.
+              (2) Appoint a qualified state employee as the lead project manager and if applicable a project
+director. If the agency hires a contract project manager, the lead project manager/director shall be responsible for
+ensuring that the consulting firm and/ or contract project manager is managed to the best interests of the state.
+              (3) Provide to the office all project management and product deliverables. Deliverables shall include
+but not limited to the project plan, project schedule, initial and periodic risk assessments, quality strategies and plan,
+periodic project status reports, requirement and design documents for all projects. The lead agency must make
+available all deliverables in a repository with open access for the Information Technology Commission (ITC) and
+office review.
+              (4) Prepare and submit a written project status report at least monthly to the office, and more
+frequently at the request of the ITC or the office.
+
+1.12.5 NMAC                                                                                                              2
+
+                     New Mexico Register / Volume XVI, Number 18 / September 30, 2005
+
+            (5) Prepare a written risk assessment report at the inception of a project and at the end of each
+product development lifecycle phase or more frequently for large and high-risk projects. Each risk assessment shall
+be included as a project activity in the project schedule.
+            (6) Develop and provide quality strategies, including Independent Verification and Validation, in
+compliance with the office best practices and standards.
+         B.       The lead agency shall fully cooperate and seek the assistance of the office regarding the planning
+and execution of IT projects.
+[1.12.5.9 NMAC - Rp 1.12.5.9 NMAC, 9/30/2005]
+
+1.12.5.10         RESPONSIBILITIES OF THE OFFICE. The office shall:
+         A.       provide oversight of all IT projects;
+         B.       review agency IT plans;
+         C.       make recommendations to the ITC regarding prudent allocation of IT resources, reduction of
+redundant data, hardware, and software, and improve interoperability and data accessibility between agencies;
+         D.       approve agency RFPs, contract vendor requests and IT contracts including amendments,
+emergency procurements, sole source contracts and price agreements;
+         E.       recommend procedure and rules to the ITC to improve oversight of IT procurement;
+         F.       monitor agency compliance and report to the Governor, ITC and agency management on
+noncompliance;
+         G.       review IT cost recovery mechanisms and rate structures and make recommendations to the ITC;
+         H.       provide technical support to agencies for IT plan development;
+         I.       review appropriation requests to ensure compliance with agency plans and the strategic plan;
+         J.       monitor the progress of agency IT projects, including ensuring adequate project management, risk
+management and disaster recovery practices;
+         K.       submit project portfolio status reports to the ITC; and
+         L.       recommend IT project funding as required by law.
+[1.12.5.10 NMAC - Rp 1.12.5.10 NMAC, 9/30/2005]
+
+1.12.5.11          REPORTING REQUIREMENTS.
+          A.       Project status reports. For all projects that require office oversight, the lead agency project
+manager shall submit an agency approved project status report on a monthly basis to the office.
+          B.       Independent verification and validation assessment reporting. The office requires all projects
+subject to oversight to engage an independent verification and validation contractor unless waived by the office.
+The IV&V contractor shall perform the following activities.
+             (1) Prepare an initial risk assessment report at project inception. This assessment will include
+recommended mitigation activity to reduce the impact and probability of the identified risk.
+             (2) Prepare initial status report at project inception to disclose the effectiveness of project
+management and whether the documented project activities are meeting the objectives set forth by project.
+             (3) Prepare interim reports based on the phases as indicated within the project schedule. Included in
+the report will be an evaluation on whether product development requirements are being met, project management is
+effective, continuing risk analysis, and how the project is implementing previous recommended risk mitigation
+strategies.
+             (4) Prepare a post implementation assessment at project close to indicate whether project objectives
+were met based on the project’s scope and acceptance criteria.
+             (5) Submit each risk assessment report, status report, interim report, and post-implementation
+assessment report to the office within five (5) business days of each deliverable due date as indicated on the project
+schedule. All reports must be submitted to the agency heads and the office.
+[1.12.5.11 NMAC - Rp 1.12.5.11 NMAC, 9/30/2005]
+
+HISTORY OF 1.12.5 NMAC:
+
+History of Repealed Material:
+1.12.5 NMAC, Oversight of Project and Program Management and Certification (filed 8/30/2000) and amendment
+(filed 4/30/2004) is repealed effective 9/30/2005.
+
+NMAC History:
+
+1.12.5 NMAC                                                                                                          3
+
+                   New Mexico Register / Volume XVI, Number 18 / September 30, 2005
+
+1.12.5 NMAC, Oversight of Project and Program Management and Certification (filed 8/30/2000) and amendment
+(filed 4/30/2004) is replaced with 1.12.5 NMAC, Oversight of Information Technology Projects, effective
+9/30/2005.
+
+1.12.5 NMAC                                                                                                  4
+
+## Curator notes
+
+Text extracted with pdftotext -layout (page headers, footers and column layout kept as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their letters).

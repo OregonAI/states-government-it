@@ -1,0 +1,22 @@
+                                                                    Nebraska Information Technology Commission
+                                                                               Technical Standards and Guidelines
+
+8-601. Application documentation.
+    To ensure that security is built into applications, security requirements, including the need for
+rollback arrangements, must be identified during the requirements phase of a project and
+justified, agreed to, and documented as part of the overall business case for the system. To
+ensure this activity is performed, the agency information security officer must be involved in all
+phases of the application development life cycle from the requirements definition phase, through
+implementation and eventual application retirement.
+    Controls in applications may be placed in many places and serve a variety of purposes. The
+specific control mechanisms must be documented at the application level, and included in the
+agency's security standards documents. The security measures that are implemented must be
+based on the threat, vulnerability, and risk assessments of the information being processed and
+cost-benefit analysis.
+    Significant changes involving applications that store, access, or process HIGH IMPACT or
+MODERATE IMPACT information must go through a formal change management process. For
+recurring maintenance of these applications, an abbreviated change management process may
+suffice if that abbreviated process has been approved by the state information security officer.
+--
+     History: Adopted on July 12, 2017. Amended on July 14, 2023.
+     URL: https://nitc.nebraska.gov/standards/8-601.pdf

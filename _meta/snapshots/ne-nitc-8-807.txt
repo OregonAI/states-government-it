@@ -1,0 +1,21 @@
+                                                             Nebraska Information Technology Commission
+                                                                        Technical Standards and Guidelines
+
+8-807. Third party cyber risk management.
+   The State of Nebraska provides a wide range of services utilizing information technology.
+These numerous and complex services can only be accomplished with the support of third-party
+vendors, contractors, and service providers. Risks associated with these third parties must be
+managed by agencies.
+     The following are the requirements for monitoring and evaluating third-party cyber risk:
+   (1) Agencies must maintain a list of third-party vendors, the services those third parties
+provide to the agency, and define the business processes in which they are involved;
+    (2) A documented cyber risk analysis should be performed prior to the initiation of
+information technology projects involving third-party participants, except where the third party is
+already engaged in activities with the agency, in which case the additional services may be added
+to an existing assessment;
+   (3) The agency should design and implement additional oversight of third-party relationships
+involving critical business processes; and
+     (4) Written contracts must outline the roles and responsibilities of all parties.
+--
+     History: Adopted on July 14, 2023.
+     URL: https://nitc.nebraska.gov/standards/8-807.pdf

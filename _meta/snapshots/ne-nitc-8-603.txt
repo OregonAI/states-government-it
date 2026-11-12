@@ -1,0 +1,25 @@
+                                                          Nebraska Information Technology Commission
+                                                                     Technical Standards and Guidelines
+
+8-603. Separation of test and production environments.
+    Development software and testing tools can cause serious problems to the production
+environment if separation of these environments does not exist. Separation of the development,
+test and production environments is required, either on physically separate machines or separated
+by access controlled domains or directories. Processes must be documented and implemented to
+govern the transfer of software from the development environment to the production platform.
+Each agency must consider the use of a quality assurance environment where user acceptance
+testing can be conducted. The following controls must be considered:
+    (1) Access to compilers, editors and other system utilities must be removed from production
+systems when not required;
+   (2) Logon procedures and environmental identification must be sufficiently unique for
+production testing and development;
+    (3) Access to systems and business applications must be restricted to those individuals who
+have a business need to access those resources in the performance of their job responsibilities;
+and
+    (4) It is recognized that at times, business or technical requirements dictate the need to test
+with live data. In those cases, it is mandatory to have approval from the state information
+security officer, and to implement production-class controls in the applicable test environment to
+protect that information.
+--
+     History: Adopted on July 12, 2017.
+     URL: https://nitc.nebraska.gov/standards/8-603.pdf

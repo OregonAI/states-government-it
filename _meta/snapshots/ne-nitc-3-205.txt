@@ -1,0 +1,31 @@
+                                                                              Nebraska Information Technology Commission
+                                                                                         Technical Standards and Guidelines
+
+3-205. Street centerlines.
+    (1) The commission adopts by reference the most recent version of sections 2, 3, and 3.1 of
+the NENA Standard for NG9-1-1 GIS Data Model released by the National Emergency Number
+Association [https://www.nena.org/page/ng911gisdatamodel] for GIS data that consists of street
+centerlines.
+     (2) The following are optional additional attributes for street centerlines:
+
+                    From Road Level                  FromLevel O                     P        1
+
+                    To Road Level                    ToLevel           O             P        1
+
+                    FromLevel: Specifies the ‘elevation’ of a segment FROM node (start point). This
+                    field does not require actual elevation in terms of real-world measurements. The
+                    value is only used to determine whether a turn is allowed from one street to a
+                    street that intersects it in a 2-dimensional space, similar to floors in a building.
+                    Nodes at the lowest level would be assigned 0, with overlapping nodes
+                    representing additional level(s)/overpass(es) will be assigned the next sequential
+                    integer value accordingly.
+                    ToLevel: Specifies the ‘elevation’ of a segment TO node (end point). This field
+                    does not require actual elevation in terms of real-world measurements. The value
+                    is only used to determine whether a turn is allowed from one street to a street that
+                    intersects it in a 2-dimensional space, similar to floors in a building. Nodes at the
+                    lowest level would be assigned 0, with overlapping nodes representing additional
+                    level(s)/overpass(es) will be assigned the next sequential integer value
+                    accordingly.
+--
+     History: Adopted on March 27, 2015. Amended on July 25, 2019 and November 10, 2022.
+     URL: https://nitc.nebraska.gov/standards/3-205.pdf

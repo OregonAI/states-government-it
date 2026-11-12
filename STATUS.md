@@ -6,21 +6,21 @@ Generated 2026-11-12. Non-authoritative; see DISCLAIMER.md.
 
 | doc_type | count |
 |---|---|
-| policy | 693 |
-| standard | 500 |
-| statute | 334 |
-| executive_order | 63 |
-| rule | 27 |
+| policy | 847 |
+| standard | 718 |
+| statute | 391 |
+| executive_order | 76 |
+| rule | 46 |
 
-**Total: 1617**
+**Total: 2078**
 
 ## Source manifest
 
-1980 declared source(s) across 26 group(s) in `sources`.
+2563 declared source(s) across 38 group(s) in `sources`.
 
 ## Freshness (reverify every 90 days)
 
-1617 of 1617 document(s) overdue for re-verification.
+2078 of 2078 document(s) overdue for re-verification.
 
 | id | doc_type | last_verified |
 |---|---|---|
@@ -74,5 +74,5 @@ Generated 2026-11-12. Non-authoritative; see DISCLAIMER.md.
 | ca-gov-7929-210 | statute | never |
 | ca-gov-8586-5 | statute | never |
 | ca-gov-8592-30-8592-50 | statute | never |
-| … | *1567 more* | |
+| … | *2028 more* | |
 

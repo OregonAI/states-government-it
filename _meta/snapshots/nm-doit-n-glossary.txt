@@ -1,0 +1,41 @@
+                  State of New Mexico Statewide
+                   Architectural Configuration
+               Requirement Title: Glossary of Terms
+                           N-DEF001.001
+                            Effective Date: October 18, 2005
+
+1. Glossary
+Term           Definition
+
+BCI           Business Continuity Institute (BCI) Business Continuity Management Teams
+
+               Link:
+               http://www.thebci.org/glossary.pdf
+
+ITIL           Information Technology Infrastructure Library (ITIL) glossary and abbreviations
+
+               Link:
+               https://www.axelos.com/Corporate/media/Files/Glossaries/ITIL_2011_Glossary_GB-v1-0.pdf
+
+NIST           National Institute of Standards and Technology (NIST) Glossary of Key Information
+               Security Terms
+
+               Link:
+               http://nvlpubs.nist.gov/nistpubs/ir/2013/NIST.IR.7298r2.pdf
+
+PMI            Project Management Institute (PMI) Glossary of Terms.
+
+               Link:
+               http://www.pmgloss.com/about/
+
+TOGAF          The Open Group Architecture Framework (TOGAF)
+
+               Link:
+               http://www.opengroup.org/public/arch/p4/glossary/glossary.htm
+
+2. Version Control
+  DEF001.002
+
+3. Revision History
+  Original 10/18/05
+  Revised 04/23/15

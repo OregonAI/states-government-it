@@ -1,0 +1,9 @@
+                                                          Nebraska Information Technology Commission
+                                                                     Technical Standards and Guidelines
+
+3-102. NebraskaMAP portal.
+   All agency geospatial data and GIS web applications that are available to the public shall be
+made accessible through the NebraskaMAP portal.
+--
+     History: Adopted on November 8, 2018.
+     URL: https://nitc.nebraska.gov/standards/3-102.pdf

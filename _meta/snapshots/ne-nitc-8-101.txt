@@ -1,0 +1,12 @@
+                                                            Nebraska Information Technology Commission
+                                                                       Technical Standards and Guidelines
+
+8-101. Purpose.
+    The purpose of this Information Security Policy is to provide a uniform set of reasonable and
+appropriate security safeguards for protection of the confidentiality, integrity, and availability of
+State of Nebraska information collected, stored, and used to serve the citizens of the state. This
+Information Security Policy contains the safeguards, responsibilities and acceptable behaviors
+required to establish and maintain a secure environment.
+--
+     History: Adopted on July 12, 2017.
+     URL: https://nitc.nebraska.gov/standards/8-101.pdf

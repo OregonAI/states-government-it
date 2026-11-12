@@ -1,0 +1,36 @@
+                                                            Nebraska Information Technology Commission
+                                                                       Technical Standards and Guidelines
+
+8-213. International travel.
+    International travel increases cyber risks to the information technology infrastructure of the
+State of Nebraska. These risks include the use of unsecured public Wi-Fi, device loss, data loss,
+and cyber espionage. To mitigate these risks, anyone traveling outside the legal jurisdictional
+boundary of the United States (outside of the United States, its territories, embassies, or military
+installations) must comply with cybersecurity best practices. The following are requirements
+when traveling internationally:
+   (1) If traveling with a state-issued device, you must contact the Office of the CIO at least 72
+hours prior to departure. In part, this is to avoid service disruptions and international data charges
+on mobile devices;
+    (2) All state-issued devices must be factory reset, or wiped, upon return. The agency may
+contact the Office of the CIO to obtain temporary loaner equipment to be used while traveling
+internationally;
+    (3) Always maintain positive control over devices. Never leave a device unattended and do
+not place in checked baggage;
+     (4) Multi-factor authentication must be used to access state resources;
+     (5) OCIO-approved VPN must be used to access state resources;
+    (6) State-issued devices must have full disk encryption enable to prevent unauthorized access
+to your data in case a device is lost or stolen;
+   (7) Software and operating systems must be patched and up to date with the latest patches
+and updates to mitigate known vulnerabilities and limit cyber risk exposure and attack surface;
+    (8) User passwords should be changed before leaving to ensure they do not expire while
+traveling. User passwords must be changed after returning to ensure that they are safe in the
+event that any may have become compromised while traveling;
+    (9) Only certain state personnel will be able to access OWA or other cloud-based resources
+when traveling internationally. This means that email on mobile devices may not update
+automatically; and
+   (10) Based on the level of threat and risk from the region of travel, the state information
+security officer may restrict access to certain state resources.
+--
+     History: Adopted on July 12, 2024.
+
+URL: https://nitc.nebraska.gov/standards/8-213.pdf

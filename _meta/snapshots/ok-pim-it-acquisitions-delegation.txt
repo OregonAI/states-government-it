@@ -1,0 +1,90 @@
+                                     Central Purchasing
+
+               PROCUREMENT INFORMATION MEMORANDUM
+
+             Subject:            Delegation of Authority from CIO for Purchase of Certain Information
+                                 Technology and Telecommunication Products
+             Effective Date:     November 15, 2023
+             Issued by:          Amanda Otis, Esq., State Purchasing Director
+
+As a means of disseminating relevant state procurement information to state entities, the Central
+Purchasing division of the Office of Management and Enterprise Services (OMES) periodically issues
+Procurement Information Memoranda. To the extent any information in this Procurement Information
+Memorandum (“PIM”) conflicts with information in a previously issued memorandum, the information in
+this PIM controls.
+
+Summary
+
+The Chief Information Officer has statutory approval authority over all information technology and
+telecommunication acquisitions (as defined in the Oklahoma Central Purchasing Act) of executive state
+agencies and has delegated approval authority for certain purchases to the agencies as set forth in the
+attached letter.
+
+The delegation of authority is limited as described in the criteria below and each executive agency
+continues to be required to follow its approved internal purchasing procedures on file with OMES Central
+Purchasing as well as other applicable statutory and regulatory requirements.
+Approval criteria
+
+1. All purchases less than or equal to $5,000.00 will not be routed through ePro for the Chief
+   Information Officer’s approval if:
+       a. The item is purchased using a P-card.
+       b. The item is listed on either list for OMES Approved Hardware or Approved Software.
+
+2. Purchases over $5,000 and less than $25,000 will not be routed through ePro for the Chief
+   Information Officer’s approval if:
+       a. The item is purchased using a P-card.
+       b. The item is listed on an information technology or telecommunications statewide contract.
+       c. The item is listed on either list for OMES Approved Hardware or Approved Software.
+
+3. A purchase of computer hardware or software or any services related to software development,
+   software modifications, or any other services related to the operation and maintenance of computer
+   hardware and software or both independently that is made by the Oklahoma Military Department will
+   not be routed through ePro for the Chief Information Officer’s approval.
+
+    Any acquisition of an information technology and telecommunication item that equals or exceeds
+    $25,000 or that does not meet the above criteria must be routed through ePro for the Chief
+    Information Officer’s approval.
+
+    Any interagency information technology or telecommunication acquisition where OMES is the
+    supplier does not require Chief Information Officer approval and should be acquired by the agency
+    through a direct purchase order.
+
+Practitioner comments
+
+1. The introductory paragraph contains a reference acknowledging that this PIM may contain
+   information which conflicts with information in a previously issued PIM. The statement is intended to
+   resolve any such conflict in favor of the most current PIM issued.
+
+2. This PIM contains references to both purchases and acquisitions to recognize the distinction between
+   transactions in which an agency buys and owns hardware or software and transactions in which
+   products are leased or ownership is not transferred to the state. A purchase is only one type of
+   acquisition, as defined in the Oklahoma Central Purchasing Act; thus, there are certain transactions
+   that are outside the scope of the delegated approval authority even if the item otherwise fits within the
+   criteria. An example follows:
+
+    Facts:
+    Agency A wishes to use a P-card to rent or lease a piece of telecommunication equipment for $4,800
+    that is on the OMES Approved Hardware list.
+
+    Conclusion:
+    This transaction is outside the scope of the delegated approval authority.
+    Rental or lease of goods is encompassed in the statutory definition of an acquisition; however, the
+    rental or lease transaction does not fit within the approval criteria because the agency is not
+    purchasing the telecommunications equipment.
+
+    Facts:
+    Agency B wishes to use a P-card to acquire the services of a supplier for implementation of a product
+    that is on the OMES Approved Hardware or Approved Software list, but the services are not included
+    in the purchase of the product.
+
+   Conclusion:
+   This transaction is outside the scope of the delegated approval authority.
+   The delegation of authority does not apply to information technology and telecommunication services
+   except to the extent services that are customarily included with a product on the OMES Approved
+   Hardware or Approved Software list.
+
+3. The information in this PIM is not intended to restrict, expand, or conflict with current P-card
+   Procedures approved by the State Purchasing Director or with authority order requirements of such
+   procedures; all such procedures continue to apply.
+
+Last updated May 2025

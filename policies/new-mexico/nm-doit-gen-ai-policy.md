@@ -1,0 +1,294 @@
+---
+schema_version: 1
+corpus: states-government-it
+jurisdiction: new-mexico
+id: nm-doit-gen-ai-policy
+title: Generative AI Use Guidelines Policy
+doc_type: policy
+citation: Generative AI Use Guidelines Policy, version 1.0 (6/2025)
+authority_level: ''
+issuing_body: Department of Information Technology; Office of Cybersecurity
+source_url: https://www.doit.nm.gov/files/docs/Generative_AI_Use_Guidelines_Policy_Signed.pdf
+source_format: pdf
+retrieved: '2026-11-12'
+source_sha256: c72ec6f1207203ea031df27744e13b39b3d1d72197445fe8a2241915c4cc89e2
+effective_date: null
+source_version: Version 1.0 (6/2025)
+status: current
+content_mode: verbatim
+conversion_notes: Text extracted with pdftotext -layout (page headers, footers and column layout kept
+  as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their
+  letters). The PDF's text layer prints the 'ff' ligature as the stray letter Ư (for example 'eƯiciency'
+  for 'efficiency'); the text is kept as extracted, so a keyword search for such words must allow for
+  it.
+last_verified: ''
+verified_by: ''
+maintainer: ''
+relationships:
+  implements: []
+  implemented_by: []
+  references_external: []
+  related: []
+  supersedes: []
+tags:
+- ai
+- governance
+- data
+- cybersecurity
+---
+
+> **NON-AUTHORITATIVE.** This is a convenience copy for machine reading. The official text is published at the source URL above. Verify at source before relying on it.
+
+# Generative AI Use Guidelines Policy (Generative AI Use Guidelines Policy, version 1.0 (6/2025))
+
+## At a glance
+
+The state's policy for executive agencies' use of generative AI: definitions, the NIST AI Risk Management Framework as its basis, review and fact-checking of outputs, labelling of public-facing AI content, protection of non-public data in prompts. It describes itself as requiring self-regulation. Signed by the Secretary of Information Technology and the State CISO.
+
+## Full text
+
+%*( $$+"%&        
+
+                                                                                  Governor Michelle Lujan Grisham
+
+                                       Manny Barreras
+                                       Secretary of Information Technology & State CIO
+
+                                       Raja Sambandam
+                                       State Chief Information Security Officer
+
+             State of New Mexico: Generative AI Use Guidelines Policy                     Version 1.0 (6/2025)
+
+             PURPOSE:
+
+             The rapid advancement of generative artificial intelligence (Gen-AI) capabilities has the potential to
+             transform government operations, improve how state employees perform their work, and ultimately
+             increase government eƯiciency. But Gen-AI solutions also pose new and significant risks that, if not
+             managed eƯectively, can negatively impact delivery of public services and operations by the State.
+             Gen-AI risks prompted the National Institute of Standards and Technology’s (NIST) to promulgate an
+             AI Risk Management Framework (RMF), which encourages prudent adoption of Gen-AI development
+             and deployment guidelines.
+
+             This policy leverages the NIST RMF to establish guidelines for agency deployment of Gen-AI that will
+             promote purposeful and responsible use of Gen-AI by executive agencies. Adherence to these
+             guidelines will foster public trust, support eƯective business outcomes, and ensure the ethical,
+             transparent, accountable, and responsible implementation of Gen-AI within the New Mexico state
+             government.
+
+             This guidance requires self-regulation. Recognizing the rapidly evolving nature of Gen-AI, and the
+             expanding governance responsibilities of the Department of Information Technology (DoIT) and the
+             OƯice of Cybersecurity (OCS), these guidelines will be periodically updated to align with best
+             practices and emerging oversight capabilities, to include reporting and compliance functions.
+
+             DEFINITIONS:
+
+             “Gen-AI” means a technology that can be prompted to generate user facing output, such as text,
+             images, audio, or video, code, plans, devices or components, based on automated synthesis of data.
+             Gen-AI includes Gen-AI Agents that are prompted to perform specific tasks, including data analysis
+             or problem solving.
+
+             “Gen-AI Implementation Activities” includes the planning, design, development, deployment, or
+             operation of Gen-AI to facilitate an executive agency operation or function.
+
+             “Non-public data” means any record or information that is legally protected from public disclosure,
+             including records that are not subject to disclosure pursuant to an Inspection of Public Records Act
+             request.
+
+                                                                                                         1|Pa ge
+
+%*( $$+"%&        
+
+                                                                                  Governor Michelle Lujan Grisham
+
+                                       Manny Barreras
+                                       Secretary of Information Technology & State CIO
+
+                                       Raja Sambandam
+                                       State Chief Information Security Officer
+
+             State of New Mexico: Generative AI Use Guidelines Policy                     Version 1.0 (6/2025)
+
+             “Agency” is as defined in Section 9-27-3(A) NMSA 1978.
+
+             PRINCIPLES:
+
+             The intention of the State of New Mexico is to follow the principles in the NIST RMF, which serves as
+             the basis for the guidelines in this document. A foundational part of this Framework is to ensure the
+             reliability of Gen-AI outputs. The guiding principles are:
+                  • Safe, secure, and resilient: Gen-AI shall be used with safety and security in mind,
+                      minimizing potential harm and ensuring that systems are reliable, resilient, and controllable
+                      by humans. Gen-AI systems used by state agencies shall not endanger human life, health,
+                      property, operations, service or the environment.
+                  x Valid and reliable: Agencies must ensure that Gen-AI use produces accurate and valid
+                      outputs and demonstrates the reliability of system performance.
+                  x Fairness, inclusion, and non-discrimination: Gen-AI applications must avoid
+                      discriminatory or biased outputs.
+                  x Privacy and data protection: Gen-AI must respect privacy, ensure data protection, and
+                      comply with relevant privacy regulations and standards. Privacy values such as anonymity,
+                      confidentiality, and control should guide choices for Gen-AI system design, development,
+                      and deployment. Gen-AI should safeguard human autonomy and identity.
+                  x Accountability and responsibility: As public stewards, agencies are responsible for
+                      adherence to these policies and accountable for the performance, impact, and
+                      consequences of Gen-AI use in agency work.
+                  x Transparency and auditability: Gen-AI deployment shall be as transparent as possible
+                      considering privacy expectations and disclosure risks, including the risk of creating system
+                      and process vulnerabilities. Transparency builds trust and fosters collective learning.
+                      Transparency reflects the extent to which information about a Gen-AI system and its outputs
+                      are available to the individuals interacting with the system. Transparency answers “what
+                      happened” in the system.
+                  x Explainable and interpretable: Agencies must ensure that Gen-AI processes can be
+                      explained, meaning “how” the decision was made by the system. Interpretability of a system
+                      means an agency can answer the “why” for a decision made by the system, and its meaning
+                      or context to the user.
+                  x Public purpose and social benefit: The use of Gen-AI should support the state’s work in
+                      delivering better and more equitable constituent services.
+
+                                                                                                         2|Pa ge
+
+%*( $$+"%&        
+
+                                                                                  Governor Michelle Lujan Grisham
+
+                                       Manny Barreras
+                                       Secretary of Information Technology & State CIO
+
+                                       Raja Sambandam
+                                       State Chief Information Security Officer
+
+             State of New Mexico: Generative AI Use Guidelines Policy                     Version 1.0 (6/2025)
+
+             In partnership with DoIT and OCS, the Chief Information OƯicer of a State Agency conducting Gen-
+             AI Implementation Activities shall ensure that the Gen-AI solution is assessed in accordance with
+             the NIST AI Risk Management Framework and state guidelines, before deployment and periodically
+             after deployment.
+
+             GUIDELINES:
+
+             Fact-checking, Bias Reduction, and Review
+
+             Gen-AI systems may be trained on data that can change over time, sometimes significantly and
+             unexpectedly, aƯecting the Gen-AI system’s functionality and trustworthiness in ways that are hard
+             to perceive. Gen-AI systems and the contexts in which they are deployed are frequently complex,
+             making it diƯicult to detect and respond to failures when they occur. Gen-AI systems can be
+             influenced by societal dynamics and human behavior. Gen-AI risks, and benefits, can emerge from
+             the interplay of technical aspects combined with societal factors related to how a system is used, its
+             interactions with other Gen-AI systems, who operates it, and the social context in which it is
+             deployed.
+
+             All Gen-AI outputs must be reviewed and fact-checked by accountable agency personnel. State
+             personnel generating content with Gen-AI shall verify that the content does not contain inaccurate,
+             private, or outdated information and potentially harmful or oƯensive material.
+
+             When relying on Gen-AI-generated output, an agency must be mindful of the potential biases and
+             inaccuracies that may be present. Gen-AI solutions should be tested regularly to ensure non-
+             discriminatory eƯects.
+
+             Disclosure and Attribution
+
+             An agency must clearly label Gen-AI generated content that is public facing. Details of its review and
+             editing process (how the material was reviewed, edited, and by whom) must be provided. This allows
+             for transparent authorship and responsible content evaluation.
+                  • Sample disclosure line: This memo was summarized by Gen-AI using the following prompt:
+                     “Summarize the following memo: (memo content)”. The summary was reviewed and edited
+                     by [insert name(s)].
+
+                                                                                                         3|Pa ge
+
+%*( $$+"%&        
+
+                                                                                  Governor Michelle Lujan Grisham
+
+                                       Manny Barreras
+                                       Secretary of Information Technology & State CIO
+
+                                       Raja Sambandam
+                                       State Chief Information Security Officer
+
+             State of New Mexico: Generative AI Use Guidelines Policy                     Version 1.0 (6/2025)
+
+                 •   Sample disclosure line: (In the file header comments section) This code was written with the
+                     assistance of Gen-AI. The initial code was created using the following prompt: “Write HTML
+                     code for an Index.HTML page that says, ‘Hello World’”. The code was then modified,
+                     reviewed, and tested by the web development team at DoIT.
+
+             Additionally, agency personnel should conduct due diligence to ensure that no copyrighted material
+             is published without appropriate attribution to the copyright owner or the procurement of necessary
+             rights. This includes content generated by Gen-AI which could inadvertently infringe upon existing
+             copyrights.
+
+             Sensitive or Confidential Data
+
+             Agency personnel shall not integrate, enter, or otherwise incorporate any non-public data or
+             information, such as trade secrets or personal identifying information, into publicly available Gen-AI
+             systems for which DoIT or the agency does not have a current license agreement. The use of such
+             data could lead to unauthorized disclosures, legal liabilities, and other harmful consequences.
+
+             State law restricts the sharing of confidential information with unauthorized third parties.
+             Gen-AI shall not be used to share legally protected information beyond authorized disclosures.
+
+             Record Retention
+
+             A Gen-AI solution may record prompts, generate databases, or produce output that constitutes a
+             public record subject to retention schedules established by the State Commission of Public Records.
+             Contact your agency’s legal counsel and records custodian for more guidance on record retention
+             requirements.
+
+             IT GOVERNANCE AND COMPLIANCE:
+
+             EƯective IT governance and compliance are crucial for the successful deployment and management
+             of Gen-AI systems within the New Mexico state government. This involves establishing clear policies,
+             procedures, and controls to ensure that Gen-AI development and use aligns with state objectives,
+             regulatory requirements, and industry best practices.
+
+                x    Governance Framework: Before developing or deploying Gen-AI, an agency shall implement
+                     a comprehensive governance framework to oversee Gen-AI initiatives. This includes defining
+
+                                                                                                         4|Pa ge
+
+ %*( $$+"%&        
+
+                                                                                     Governor Michelle Lujan Grisham
+
+                                        Manny Barreras
+                                        Secretary of Information Technology & State CIO
+
+                                        Raja Sambandam
+                                        State Chief Information Security Officer
+
+              State of New Mexico: Generative AI Use Guidelines Policy                         Version 1.0 (6/2025)
+
+                       roles and responsibilities, setting strategic goals, and establishing governance committees to
+                       monitor progress and address issues.
+                  x    Policy Development: An agency shall develop and enforce policies that guide the ethical use,
+                       data management, and operational practices of Gen-AI systems; and ensure policies comply
+                       with these guidelines and applicable laws and regulations, including privacy, security, and
+                       anti-discrimination statutes.
+                  x    Risk Management: An agency shall establish robust risk management practices to identify,
+                       assess, and mitigate potential risks associated with Gen-AI implementations. This involves
+                       continuous monitoring, regular audits, and timely updates to risk mitigation plans.
+                  x    Compliance Monitoring: An agency shall regularly review Gen-AI systems and processes for
+                       compliance with established policies, standards, and legal requirements; and conduct
+                       internal and external audits to ensure adherence to compliance obligations and readiness for
+                       potential regulatory inspections.
+                  x    Training and Awareness: An agency shall provide ongoing training and awareness programs
+                       for state personnel involved in Gen-AI projects. This ensures that all stakeholders understand
+                       their roles, responsibilities, and the importance of adhering to governance and compliance
+                       standards.
+                  x    Security Review: An agency shall not procure or deploy Gen-AI or use publicly available Gen-
+                       AI to process non-public data, unless the solution has successfully completed a security
+                       review, the agency has implemented and applied sensitivity labeling and data classification
+                       to their data, and the agency has received prior written authorization from OCS and DoIT.
+
+                                                          Version Approved By
+ Version Date                                                                                                    Version Comments
+                                        DoIT                                          OCS
+                               Name, Title, & Signature                      Name, Title, & Signature
+                      $$,'''(                               !#$#
+
+1.0 - June 2025        $)')',                            )) $%'#) %$*' ), '
+
+                                                                                                              5|Pa ge
+
+## Curator notes
+
+Text extracted with pdftotext -layout (page headers, footers and column layout kept as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their letters). The PDF's text layer prints the 'ff' ligature as the stray letter Ư (for example 'eƯiciency' for 'efficiency'); the text is kept as extracted, so a keyword search for such words must allow for it.

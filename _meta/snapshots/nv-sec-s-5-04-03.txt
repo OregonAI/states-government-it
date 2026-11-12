@@ -1,0 +1,165 @@
+                                    State of Nevada
+                               Information Security Committee
+
+                                            Standard
+Document ID      Title                                           Revision      Effective Date       Page
+  S.5.04.03      Remote Access                                       D            9/01/2021        1 of 4
+
+1.0   PURPOSE
+      This standard provides minimum requirements for the basic security of devices and methods
+      used to establish remote connections into the protected business network from untrusted
+      networks.
+
+2.0   SCOPE
+      This standard applies to all state agencies and authorized users meeting the criteria identified in
+      the State Information Security Program Policy, Section 1.2, Scope and Applicability.
+
+3.0   EFFECTIVE DATES
+      This standard becomes effective at the time of approval of the State Chief Information Officer
+      (CIO).
+
+4.0   RESPONSIBILITIES
+      The agency head and appointed Information Security Officer (ISO) have the responsibility to
+      ensure the implementation of and compliance with this standard.
+
+5.0   RELATED DOCUMENTS
+      NRS 281.195, Use of Computers
+      State Information Security Program Policy, 100
+
+6.0   STANDARD
+
+      6.1     Dedicated Access
+              Dedicated access will be allowed to state networks on a case-by-case basis. All requests to
+              create or change current configurations to support access shall be submitted at least 60
+              days in advance of the need.
+
+      6.2     Modem Use
+              Internet access via Dial-Up modem to or from State equipment is not permitted in any case.
+              Dial-Up modem use between State of Nevada systems and any other system is subject to
+              approval by the CISO.
+
+      6.3     Virtual Private Networks (VPN)
+              Virtual Private Networks generally fall into two categories, client-based and network-based.
+              VPN technology is used to extend network services, virtually, across untrusted or semi-
+              trusted networks. All VPNs shall meet the following standards:
+
+              A. Unauthorized users are not allowed access to internal networks.
+              B. All VPN connection services must be managed by State IT staff. Personal (non-
+                 business) VPN connections are not permitted.
+
+                                     State of Nevada
+                               Information Security Committee
+
+                                            Standard
+Document ID      Title                                            Revision      Effective Date        Page
+  S.5.04.03      Remote Access                                        D            9/01/2021          2 of 4
+
+              C. VPN connections must be encrypted using Federal Information Processing Standard
+                 (FIPS) validated cryptographic modules.
+
+      6.4     VPN Client-based Systems
+              A. VPN connections shall be disconnected after a reasonable amount of inactivity,
+                 determined by classification and risk.
+              B. Client VPN connections shall be terminated after 12 hours, regardless of activity.
+              C. All VPN users shall have personal firewalls installed and properly configured.
+              D. Methods for authentication, authorization, and accounting must be used on any VPN
+                 client system.
+              E. VPN Software clients must be managed by State IT staff.
+
+      6.5     VPN Network-based Systems
+              A. VPN tunnels must encrypt the payload of each packet, providing confidentiality, data
+                 origin authentication, connectionless integrity, an anti-replay service, perfect forward
+                 secrecy, and limited traffic flow confidentiality.
+              B. Within State networks, equipment that terminates a VPN tunnel (peer) must be
+                 managed by the administrators of the network that the tunnel terminates within.
+                 Agencies creating binding agreements for VPN or network services may be exempt
+                 from this requirement, subject to approval by the CISO.
+              C. Agencies that create VPN tunnels to devices managed by another network provider
+                 shall isolate the equipment (nodes) that the remote entity connects to behind a firewall
+                 system. The remote entity nodes shall not be able to access other nodes within
+                 SilverNet through the tunnel. The segregated State nodes shall be strictly controlled by
+                 the firewall system, allowing only limited access to other SilverNet nodes (only as
+                 required)
+
+      6.6     Remote Control (remote session)
+              A. Remote-control sessions from non-state-owned devices to state-owned devices must
+                 be authorized by the agency ISO and reviewed periodically.
+              B. Remote control products may be restricted by managed security systems based on
+                 business need or possible malicious impact.
+              C. Remote control products used by an agency must be documented with the agency’s
+                 ISO.
+
+7.0   DEFINITIONS
+      Network Provider: The agency, group, or unit responsible for the allocation and management of
+      network addresses on a day-to-day basis. This does not include LAN addressing (individual
+      nodes).
+
+                                  State of Nevada
+                             Information Security Committee
+
+                                          Standard
+Document ID    Title                                           Revision      Effective Date      Page
+  S.5.04.03    Remote Access                                       D           9/01/2021         3 of 4
+
+      Dedicated Access: Defined as access to the State of Nevada data communications network via
+      any accepted method across dedicated communication circuits. These circuits are continually
+      active 24 hours a day, 365 days a year.
+
+      Dial-Up: Any connection made with a modem over plain old telephone system (POTS) public
+      wiring.
+
+      Gateway: Any device, whether virtual or physical, that serves as an entrance/exit to another
+      network
+
+      Remote Control (session): Includes but is not limited to the following kinds of connections:
+
+          1. A terminal emulator is a hardware device or program that makes a computer respond like
+             a particular type of terminal. Typically, an emulator is provided when a popular hardware
+             device becomes outdated and no longer marketed but legacy applications exist that still
+             need to communicate with the older devices. The practice of using an emulator to make
+             an older program work with a new end-use device is called terminal emulation. Windows
+             HyperTerminal is an example of a VT100 terminal emulator.
+
+          2. A remote control program such as Microsoft Remote Desktop, Windows Admin Center,
+             Virtual Desktop Infrastructure (VDI), VNC, GoToMyPC, Dameware, Citrix, RDWeb,
+             Skype, PCAnywhere, Netmeeting, Cisco WebEx, Google Chrome Remote Desktop or
+             Teamviewer, allowing users to connect to a remote display system or share displays. It
+             allows a user to view and access a computing 'desktop' environment not only on the
+             machine where it is running but from anywhere on the Internet and from a wide variety of
+             machine architectures as well as share displays and take control of remote displays (for
+             unauthorized or unauthenticated users).
+
+          3. Remote system administration programs or plug-ins include programs such as Microsoft
+             console, powershell, SecureCRT, telnet or putty (SSH).
+
+      SilverNet: The protected business network of the State of Nevada.
+
+8.0   RESOURCES
+      Federal Information Processing Standard (FIPS) 140-3 Security Requirements for Cryptographic
+      Modules
+
+9.0   EXCEPTIONS
+      Requests for exception to the requirements of this Information Security Standard must be
+      documented, provided to the Office of Information Security (OIS), and approved by the State
+      Chief Information Security Officer (CISO).
+
+                                     State of Nevada
+                                Information Security Committee
+
+                                             Standard
+ Document ID      Title                                            Revision    Effective Date       Page
+   S.5.04.03      Remote Access                                       D          9/01/2021          4 of 4
+
+Approved By
+ Title                                                 Signature                         Approval Date
+ State Information Security Committee                  Approved by Committee                    8/26/2021
+ State Chief Information Security Officer (CISO)       Signature on File                        8/30/2021
+ State Chief Information Officer (CIO)                 Signature on File                        9/01/2021
+
+Document History
+ Revision      Effective Date   Change
+     A             4/26/2018    Initial release
+     B            12/26/2018    Renumbering (140 to S.5.04.03) and compliance to ADA standards.
+     C            12/31/2020    Biennial review for alignment with the CIS Controls v7.1, Implementation
+                                Group1 (IG1)
+     D             9/01/2021    Update for changes in technologies and industry best practices.

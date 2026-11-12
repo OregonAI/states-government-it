@@ -1,0 +1,14 @@
+                                                                                Nebraska Information Technology Commission
+                                                                                           Technical Standards and Guidelines
+
+8-204. Email.
+    (1) Users of the state email system must not set up rules, or use any other methodology, to
+automatically forward emails to a personal or other account outside of the state network unless
+approved by the state information security officer and, if applicable, the agency information
+security officer.
+    (2) HIGH IMPACT or MODERATE IMPACT data must not be sent by email, or stored in
+the email system, unless it has been encrypted using technology approved by the state
+information security officer and, if applicable, the agency information security officer.
+--
+     History: Adopted on July 12, 2017. Amended on March 12, 2020 and July 14, 2023.
+     URL: https://nitc.nebraska.gov/standards/8-204.pdf

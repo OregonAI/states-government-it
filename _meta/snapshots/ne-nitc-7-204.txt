@@ -1,0 +1,39 @@
+                                                                                Nebraska Information Technology Commission
+                                                                                           Technical Standards and Guidelines
+
+7-204. Video and audio compression standard for synchronous distance learning and
+videoconferencing.
+    (1) Purpose. The purpose of this section is to establish video and audio protocol standards
+that will enable all existing and future synchronous distance learning and videoconferencing
+facilities in Nebraska to achieve interoperability and maintain an acceptable quality of service.
+     (2) Standards.
+    (a) Video protocol standards for synchronous distance learning and videoconferencing: (i)
+for data rates above 384 Kbps, H.263; and (ii) for data rates at or below 384 Kbps, H.264
+(MPEG-4 Part 10). The CODECs selected for purchase or use should be capable of
+accommodating both standards and be capable of manual rate selection and/or automatic rate
+selection. The interconnecting CODECs should be allowed to automatically negotiate the best
+data rate.
+    (b) Audio protocol standards for synchronous distance learning and videoconferencing: (i)
+for data rates above 128 Kbps, G.722; and (ii) for data rates at or below 128 Kbps, G.722 or
+G.722.1 or G.728. The CODECs selected for purchase or use should have the ability to use
+G.722 at all speeds and one or both of the other two standards listed for lower speeds. If any two
+CODECs do not have a common protocol at or below 128Kbps then they should continue to use
+G.722. The CODECs selected for purchase or use should be capable of accommodating audio
+standard G.722 and be capable of manual rate selection and/or automatic rate selection. The
+interconnecting CODECs should be allowed to automatically negotiate the best data rate.
+    (3) Applicability. This section applies to synchronous distance learning and
+videoconferencing facilities as follows:
+    (a) If utilizing state-owned or state-leased communications networks: (i) any synchronous
+distance learning facility or videoconferencing application which utilizes state-owned or state-
+leased communications networks must comply with the compression standards listed in this
+section; or (ii) the entity must provide, or arrange for, the necessary gateway technology to
+transcode to the adopted standards.
+    (b) If using state funding: (i) all new facilities or applications receiving state funding must
+comply with the compression standards listed in this section; and (ii) all existing facilities or
+applications receiving state funding for ongoing operations must convert to the standards listed
+in this section as soon as fiscally prudent or upon renewal of any existing communications
+service contract, whichever comes first.
+--
+     History: Adopted on September 9, 2004. Renumbered on July 12, 2018 (previously was § 7-402). Amended on July 12, 2018.
+
+URL: https://nitc.nebraska.gov/standards/7-204.pdf

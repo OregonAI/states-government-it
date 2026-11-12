@@ -1,0 +1,25 @@
+                                                                                Nebraska Information Technology Commission
+                                                                                           Technical Standards and Guidelines
+
+1-103. Waiver policy.
+    (1) Purpose. There may be circumstances that justify noncompliance with a standard issued
+by the commission. This policy authorizes the Technical Panel, upon a determination of good
+cause shown, to issue waivers relating to the commission’s technical standards.
+   (2) Request. An agency may request a waiver by submitting the following information to the
+Technical Panel:
+     (a) The specific section(s) at issue;
+     (b) A description of the problem and justification for the waiver; and
+     (c) A description of the agency's preferred solution.
+     Requests may be submitted by email to: ocio.nitc@nebraska.gov.
+   (3) Temporary Waiver. The state information security officer may grant a temporary waiver,
+subject to further review as provided in this section.
+    (4) Review. The Technical Panel will consider the request at their next regularly scheduled
+meeting. The panel may ask for additional information from the submitting agency and may
+postpone their decision for one meeting. After reviewing the request, and any comments
+received, the panel may approve the request, approve the request with conditions, or deny the
+request.
+    (5) Appeal. A denial or an approval with conditions by the Technical Panel may be appealed
+to the commission.
+--
+     History: Adopted on March 4, 2008. Amended on July 12, 2018 and July 12, 2024.
+     URL: https://nitc.nebraska.gov/standards/1-103.pdf

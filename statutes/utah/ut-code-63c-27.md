@@ -1,0 +1,199 @@
+---
+schema_version: 1
+corpus: states-government-it
+jurisdiction: utah
+id: ut-code-63c-27
+title: Cybersecurity Commission
+doc_type: statute
+citation: Utah Code chapter 63C-27
+authority_level: ''
+issuing_body: Utah Legislature
+source_url: https://le.utah.gov/xcode/Title63C/Chapter27/C63C-27_2022050420220504.xml
+source_format: xml
+retrieved: '2026-11-12'
+source_sha256: 178a19afd68cf7d5dea9b98422734240bff6c669f54afbea8266b90a3c90b5a3
+effective_date: null
+source_version: ''
+status: current
+content_mode: verbatim
+conversion_notes: 'Text rendered from the Legislature''s per-chapter XML download of the Utah Code (the
+  file the chapter page''s Download Options link to): the chapter line, its effective date and any repeal
+  date the file carries (a section that takes effect later carries its own, printed under its heading),
+  each part and section heading, each subsection on its own line indented by depth with its own label,
+  cross-references as their text, and each section''s amendment history after it. The file is a versioned
+  URL: when the chapter is amended the Legislature publishes a new file name.'
+last_verified: ''
+verified_by: ''
+maintainer: ''
+relationships:
+  implements: []
+  implemented_by: []
+  references_external: []
+  related: []
+  supersedes: []
+tags:
+- cybersecurity
+- governance
+---
+
+> **NON-AUTHORITATIVE.** This is a convenience copy for machine reading. The official text is published at the source URL above. Verify at source before relying on it.
+
+# Cybersecurity Commission (Utah Code chapter 63C-27)
+
+## At a glance
+
+Creates the Cybersecurity Commission, its duties, staffing and reporting requirement. The file carries a repeal date of 7/1/2032 (63I-1-263).
+
+## Full text
+
+Chapter 63C-27 Cybersecurity Commission
+Effective 5/4/2022
+Repeal date 7/1/2032 (Section 63I-1-263)
+
+Part 63C-27-1 General Provisions
+
+63C-27-101 Definitions.
+As used in this chapter:
+  (1) "Commission" means the Cybersecurity Commission created in this chapter.
+  (2) "Critical infrastructure" includes the following sectors the United States Department of Homeland Security identifies as critical:
+    (a) chemical;
+    (b) commercial facilities;
+    (c) communications;
+    (d) critical manufacturing;
+    (e) dams;
+    (f) defense industrial base;
+    (g) emergency services;
+    (h) energy;
+    (i) financial services;
+    (j) food and agriculture;
+    (k) government facilities;
+    (l) healthcare and public health;
+    (m) information technology;
+    (n) nuclear reactors, nuclear materials, and nuclear waste;
+    (o) transportation systems; and
+    (p) water and wastewater systems.
+Enacted by Chapter 153, 2022 General Session
+
+Part 63C-27-2 Cybersecurity Commission
+
+63C-27-201 Cybersecurity Commission created.
+  (1) There is created the Cybersecurity Commission.
+  (2) The commission shall be composed of the following members:
+    (a) one member the governor designates to serve as the governor's designee;
+    (b) the commissioner of the Department of Public Safety;
+    (c) the lieutenant governor, or an election officer, as that term is defined in Section 20A-1-102, the lieutenant governor designates to serve as the lieutenant governor's designee;
+    (d) the chief information officer of the Division of Technology Services;
+    (e) the chief information security officer, as described in Section 63A-16-210;
+    (f) the chairman of the Public Service Commission shall designate a representative with professional experience in information technology or cybersecurity;
+    (g) the executive director of the Department of Transportation shall designate a representative with professional experience in information technology or cybersecurity;
+    (h) the director of the Division of Finance shall designate a representative with professional experience in information technology or cybersecurity;
+    (i) the executive director of the Department of Health and Human Services shall designate a representative with professional experience in information technology or cybersecurity;
+    (j) the director of the Division of Indian Affairs shall designate a representative with professional experience in information technology or cybersecurity;
+    (k) the Utah League of Cities and Towns shall designate a representative with professional experience in information technology or cybersecurity;
+    (l) the Utah Association of Counties shall designate a representative with professional experience in information technology or cybersecurity;
+    (m) the attorney general, or the attorney general's designee;
+    (n) the commissioner of financial institutions, or the commissioner's designee;
+    (o) the executive director of the Department of Environmental Quality shall designate a representative with professional experience in information technology or cybersecurity;
+    (p) the executive director of the Department of Natural Resources shall designate a representative with professional experience in information technology or cybersecurity;
+    (q) two local education agency employees tasked with job duties that include systems and security management from one charter school and one school district whom the state superintendent selects;
+    (r) the highest ranking information technology official, or the official's designee, from each of:
+      (i) the Judicial Council;
+      (ii) the Utah Board of Higher Education;
+      (iii) the State Board of Education;
+      (iv) the Utah Education and Telehealth Network; and
+      (v) the State Tax Commission;
+    (s) the governor shall appoint:
+      (i) one representative from the Utah National Guard; and
+      (ii) one representative from the Governor's Office of Economic Development;
+    (t) the president of the Senate shall appoint one member of the Senate; and
+    (u) the speaker of the House of Representatives shall appoint one member of the House of Representatives.
+  (3)
+    (a) The governor's designee shall serve as cochair of the commission.
+    (b) The commissioner of the Department of Public Safety shall serve as cochair of the commission.
+  (4)
+    (a) The members described in Subsection (2) shall represent urban, rural, and suburban population areas.
+    (b) No fewer than half of the members described in Subsection (2) shall have professional experience in cybersecurity or in information technology.
+  (5) In addition to the membership described in Subsection (2), the commission shall seek information and advice from state and private entities with expertise in critical infrastructure.
+  (6) As necessary to improve information and protect potential vulnerabilities, the commission shall seek information and advice from federal entities including:
+    (a) the Cybersecurity and Infrastructure Security Agency;
+    (b) the Federal Energy Regulatory Commission;
+    (c) the Federal Bureau of Investigation; and
+    (d) the United States Department of Transportation.
+  (7)
+    (a) Except as provided in Subsections (7)(b) and (c), a member is appointed for a term of four years.
+    (b) A member shall serve until the member's successor is appointed and qualified.
+    (c) Notwithstanding the requirements of Subsection (7)(a), the governor shall, at the time of appointment or reappointment, adjust the length of terms to ensure that the terms of commission members are staggered so that approximately half of the commission members appointed under Subsection (2)(s) are appointed every two years.
+  (8)
+    (a) If a vacancy occurs in the membership of the commission, the member shall be replaced in the same manner in which the original appointment was made.
+    (b) An individual may be appointed to more than one term.
+    (c) When a vacancy occurs in the membership for any reason, the replacement shall be appointed for the unexpired term.
+  (9)
+    (a) A majority of the members of the commission is a quorum.
+    (b) The action of a majority of a quorum constitutes an action of the commission.
+  (10) The commission shall meet at least two times a year.
+Amended by Chapter 170, 2026 General Session
+
+63C-27-202 Commission duties.
+The commission shall:
+  (1) identify and inform the governor of:
+    (a) cyber threats and vulnerabilities towards Utah's critical infrastructure;
+    (b) cybersecurity assets and resources; and
+    (c) an analysis of:
+      (i) current cyber incident response capabilities;
+      (ii) potential cyber threats; and
+      (iii) areas of significant concern with respect to:
+        (A) vulnerability to cyber attack; or
+        (B) seriousness of consequences in the event of a cyber attack;
+  (2) provide resources with respect to cyber attacks in both the public and private sector, including:
+    (a) best practices;
+    (b) education; and
+    (c) mitigation;
+  (3) promote cyber security awareness;
+  (4) share information;
+  (5) promote best practices to prevent and mitigate cyber attacks;
+  (6) enhance cyber capabilities and response for all Utahns;
+  (7) provide consistent outreach and collaboration with private and public sector organizations;
+  (8) share cyber threat intelligence to operators and overseers of Utah's critical infrastructure; and
+  (9) in accordance with Title 63G, Chapter 3, Utah Administrative Rulemaking Act, make rules establishing minimum cybersecurity standards for a local education agency, as that term is defined in Section 53G-3-402, that:
+    (a) align with industry recognized cybersecurity frameworks and standards, including frameworks developed by the National Institute of Standards and Technology, the Center for Internet Security, or a successor organization;
+    (b) take into account varying local education agency resources, capacity, and needs;
+    (c) establish phased implementation timelines based on local education agency size, existing cybersecurity infrastructure, and available resources; and
+    (d) as appropriate based on the local education agency's size, risk profile, and available resources, shall address:
+      (i) identity and access management;
+      (ii) asset management and inventory of hardware, software, and data systems;
+      (iii) data protection;
+      (iv) security monitoring and logging capabilities;
+      (v) vulnerability management, including regular security assessments and patching procedures;
+      (vi) incident response and recovery planning;
+      (vii) security awareness training requirements for staff and administrators;
+      (viii) third-party risk management for vendors with access to local education agency systems or data;
+      (ix) network security controls;
+      (x) backup and disaster recovery procedures; and
+      (xi) governance structures for cybersecurity oversight within a local education agency.
+Amended by Chapter 170, 2026 General Session
+
+63C-27-203 Compensation of members.
+  (1) A member who is not a legislator may not receive compensation or benefits for the member's service, but may receive per diem and travel expenses incurred as a member of the commission at the rates established by the Division of Finance under:
+    (a) Sections 63A-3-106 and 63A-3-107; and
+    (b) rules made by the Division of Finance in accordance with Sections 63A-3-106 and 63A-3-107.
+  (2) Compensation and expenses of a member who is a legislator are governed by Section 36-2-2 and Legislative Joint Rules, Title 5, Legislative Compensation and Expenses.
+Enacted by Chapter 153, 2022 General Session
+
+63C-27-204 Staffing.
+The Department of Public Safety shall provide staff and support to the commission.
+Enacted by Chapter 153, 2022 General Session
+
+63C-27-205 Reporting requirement.
+On or before November 30, the commission shall report to the Public Utilities, Energy, and Technology Interim Committee:
+  (1) an assessment of cyber threats to Utah;
+  (2) recommendations for legislation that would reduce the state's vulnerability to attack; and
+  (3) recommendations for best practices for state government with respect to cybersecurity.
+Enacted by Chapter 153, 2022 General Session
+
+63C-27-206 Closure of meetings.
+The commission may, in accordance with Section 52-4-204, close to the public a meeting to discuss an item described in Subsections 63C-27-202(1) and (8).
+Enacted by Chapter 153, 2022 General Session
+
+## Curator notes
+
+Text rendered from the Legislature's per-chapter XML download of the Utah Code (the file the chapter page's Download Options link to): the chapter line, its effective date and any repeal date the file carries (a section that takes effect later carries its own, printed under its heading), each part and section heading, each subsection on its own line indented by depth with its own label, cross-references as their text, and each section's amendment history after it. The file is a versioned URL: when the chapter is amended the Legislature publishes a new file name.

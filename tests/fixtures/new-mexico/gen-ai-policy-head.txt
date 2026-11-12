@@ -1,0 +1,70 @@
+%*( $$+"%&        
+
+
+                                                                                  Governor Michelle Lujan Grisham
+
+
+                                       Manny Barreras
+                                       Secretary of Information Technology & State CIO
+
+
+                                       Raja Sambandam
+                                       State Chief Information Security Officer
+
+
+             State of New Mexico: Generative AI Use Guidelines Policy                     Version 1.0 (6/2025)
+
+             PURPOSE:
+
+             The rapid advancement of generative artificial intelligence (Gen-AI) capabilities has the potential to
+             transform government operations, improve how state employees perform their work, and ultimately
+             increase government eƯiciency. But Gen-AI solutions also pose new and significant risks that, if not
+             managed eƯectively, can negatively impact delivery of public services and operations by the State.
+             Gen-AI risks prompted the National Institute of Standards and Technology’s (NIST) to promulgate an
+             AI Risk Management Framework (RMF), which encourages prudent adoption of Gen-AI development
+             and deployment guidelines.
+
+             This policy leverages the NIST RMF to establish guidelines for agency deployment of Gen-AI that will
+             promote purposeful and responsible use of Gen-AI by executive agencies. Adherence to these
+             guidelines will foster public trust, support eƯective business outcomes, and ensure the ethical,
+             transparent, accountable, and responsible implementation of Gen-AI within the New Mexico state
+             government.
+
+             This guidance requires self-regulation. Recognizing the rapidly evolving nature of Gen-AI, and the
+             expanding governance responsibilities of the Department of Information Technology (DoIT) and the
+             OƯice of Cybersecurity (OCS), these guidelines will be periodically updated to align with best
+             practices and emerging oversight capabilities, to include reporting and compliance functions.
+
+             DEFINITIONS:
+
+             “Gen-AI” means a technology that can be prompted to generate user facing output, such as text,
+             images, audio, or video, code, plans, devices or components, based on automated synthesis of data.
+             Gen-AI includes Gen-AI Agents that are prompted to perform specific tasks, including data analysis
+             or problem solving.
+
+             “Gen-AI Implementation Activities” includes the planning, design, development, deployment, or
+             operation of Gen-AI to facilitate an executive agency operation or function.
+
+             “Non-public data” means any record or information that is legally protected from public disclosure,
+             including records that are not subject to disclosure pursuant to an Inspection of Public Records Act
+             request.
+
+
+
+                                                                                                         1|Pa ge
+%*( $$+"%&        
+
+
+                                                                                  Governor Michelle Lujan Grisham
+
+
+                                       Manny Barreras
+                                       Secretary of Information Technology & State CIO
+
+
+                                       Raja Sambandam
+                                       State Chief Information Security Officer
+
+
+             State of New Mexico: Generative AI Use Guidelines Policy                     Version 1.0 (6/2025)
+

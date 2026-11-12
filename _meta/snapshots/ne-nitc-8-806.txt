@@ -1,0 +1,10 @@
+                                                          Nebraska Information Technology Commission
+                                                                     Technical Standards and Guidelines
+
+8-806. Security deficiencies.
+   All security deficiencies reported or identified in any security review, scan, assessment, or
+analysis must be documented in the state or agency plan of action and milestones report. These
+gaps must be managed to mitigation, remediation, or approved risk acceptance.
+--
+     History: Adopted on July 12, 2017.
+     URL: https://nitc.nebraska.gov/standards/8-806.pdf

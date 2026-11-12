@@ -1,0 +1,134 @@
+                                  STATE OF MONTANA
+                               OFFICE OF THE GOVERNOR
+                              EXECUTIVE ORDER No. 3-2025
+
+
+EXECUTIVE ORDER INTEGRATING INFORMATION TECHNOLOGY RESOURCES
+AND CREATING AN ENTERPRISE INFORMATION TECHNOLOGY GOVERNANCE
+
+
+WHEREAS, the State of Montana invests significant resources in information technology (IT)
+to improve government services, protect individual privacy, and enhance the quality of life for its
+citizens;
+
+WHEREAS, effective use of information technology requires organized, deliberate, and cost­
+effective management to ensure efficient use of public funds and maximize value for Montanans;
+
+WHEREAS, centralizing IT governance, management, and support under the Department of
+Administration and the State Information Technology Services Division will streamline planning,
+procurement, security, and support, reduce duplication, and enable standardization across
+executive agencies;
+
+WHEREAS, standardizing IT tools, policies, and security practices reduces risk, strengthens
+cybersecurity, and improves service delivery to citizens;
+
+WHEREAS, integrated IT support creates economies of scale, improves accountability, and
+allows agencies to focus resources on core services rather than IT administration;
+
+WHEREAS, an enterprise approach to IT enables better information sharing, system
+compatibility, and coordinated investment, while enhancing the overall security posture of the
+State;
+
+WHEREAS, the Department ofAdministration and the State Chief Information Officer are
+responsible for setting IT strategy, overseeing implementation, and ensuring compliance with
+state law and policy; and
+
+WHEREAS, an integrated IT strategy will improve organizational and operational efficiency,
+streamline data collection and sharing, and enhance the security of State of Montana information
+systems.
+
+NOW, THEREFORE, I, GREG GIANFORTE, Governor of the State of Montana, by virtue of
+the authority vested in me by the Constitution and the laws of the State of Montana, do hereby
+INTEGRATE INFORMATION TECHNOLOGY RESOURCES, and order as follows:
+
+   1. The Montana Department of Administration, State Information Technology Services
+      Division ("DOA/SITSD") led by the State Chief Information Officer ("State CIO"), has
+      overall responsibility for the management and operation of all IT resources for all
+      Executive Branch Agencies. The Department of Justice, the Secretary of State, the
+      University System, the State Auditor, the Office of Public Instruction, and the Public
+   Service Commission are exempt from this executive order. The CIO, with the approval of
+   the Governor, may exempt other agencies from this executive order.
+
+2. DOA/SITSD has the authority to make enterprise decisions regarding restructuring and
+   operational matters related to IT integration, delivery of shared services, IT project
+   management, and other responsibilities for Executive Branch Agencies within the scope
+   of this executive order.
+
+   •   All Executive Branch Agency personnel engaged in IT functions, including project
+       managers and business analysts, are directed to functionally report to the State CIO.
+   •   Day-to-day IT operations remain temporarily within agencies; however, all strategic
+       direction, hiring decisions, and major IT decisions must be coordinated through the
+       State CIO.
+   •   There is a hiring freeze on all IT positions, unless approved through the State CIO.
+       The State CIO, with approval from the Governor, has the authority to end the hiring
+       freeze.
+   •   DOA/SITSD is authorized to:
+       o Direct IT integration activities across agencies,
+       o Restructure IT delivery models,
+       o Transition and reclassify positions across the enterprise,
+       o DOA will oversee all human resources policy application, decision-making, and
+           related activities, and
+       o Consolidate IT contracts and infrastructure.
+       o Deliver quarterly progress updates to the Governor's Office, including:
+               • Integrated Management Office (IMO) project plan and project milestones
+               • Stakeholder engagement and change management
+               • Budget impacts and the development of a new funding model
+
+3. A centralized IMO created under DOA/SITSD shall operate as follows:
+
+   •   DOA/SITSD shall appoint members to the IMO, including:
+       o Agency representatives,
+       o A member representing the State Procurement Division,
+       o A member of DOA Human Resources,
+       o A member of State Human Resources, and
+       o A member from Office of Budget and Planning.
+   •   The IMO is responsible for:
+       o Coordinating cross-agency teams,
+       o Leading the multi-phase IT integration effort,
+       o Developing implementation plans,
+       o Establish the governance framework, and
+       o Ensuring minimal disruption to services.
+
+4. The Office of Budget and Program Planning, based on DOA/SITSD recommendations
+   and approval from Governor, shall:
+
+   •   Align budget authority to support integration,
+       •   Create or move positions from Executive Branch Agencies to DOA/SITSD in support
+           of this Executive Order.
+       •   Withhold or reallocate IT-related appropriations as necessary to achieve the objectives
+           of this Executive Order.
+
+   5. All Executive Branch Agencies' full cooperation is mandated to take all steps necessary
+      to implement this Executive Order, including:
+
+       •   All Executive Branch Agencies must provide full access to IT inventories, systems,
+           personnel, data, and contracts to DOA/SITSD.
+       •   Agencies are expected to support DOA/SITSD AND IMO-led assessments, planning
+           efforts, and implementation phases of this Executive Order.
+
+Exempt agencies are strongly encouraged to implement this Executive Order.
+
+This Executive Order shall be implemented consistently with applicable law. This Executive
+Order is not intended to, and does not create, any right or benefit, substantive or procedural,
+enforceable at law or in equity by any party against the State of Montana, its departments,
+agencies, or entities, its officers, employees, or agents, or any other person.
+
+This Executive Order shall take effect on July 1, 2025, and shall remain in effect unless further
+amended or rescinded by the Governor.
+
+                                              GIVEN under my hand and the GREAT SEAL of
+                                              the State of Montana this '16 day of June 2025.
+
+
+
+
+                                              ATTEST:
+
+
+
+
+                                               ~
+                                              cRITIJAc
+                                                     oBSEN~                       -   l,., ~J
+                                                                                 of State   -
+

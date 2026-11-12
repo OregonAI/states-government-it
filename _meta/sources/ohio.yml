@@ -1,0 +1,755 @@
+# Ohio seed list: every instrument this state's part of the corpus holds or knows about.
+# Key reference: _meta/sources/README.md. Rules: _meta/CLAUDE.md.
+# Issue #42. Discovery 2026-11-12 through the toolkit Fetcher (v1.37.1): codes.ohio.gov (Revised Code section and chapter pages, Administrative Code title and chapter pages),
+# das.ohio.gov (policy pages, standards PDFs), governor.ohio.gov (executive order pages) and dam.assets.ohio.gov (PDF). See left_out for what was and was not readable.
+sources:
+- id: oh-orc-125-18
+  sha256: "f2717d78fe6a72f1b6d3688e5acdc452293f79fb6aa745e4dec5282c7cf82560"
+  url: https://codes.ohio.gov/ohio-revised-code/section-125.18
+  format: html
+  citation: R.C. 125.18
+  title: Office of information technology - duties of director - contracts.
+  doc_type: statute
+  jurisdiction: ohio
+  issuing_body: Ohio General Assembly; published by the Legislative Service Commission on Ohio Laws (codes.ohio.gov)
+  tags:
+  - governance
+  - oversight
+  - procurement
+  - cybersecurity
+  - data
+  why_relevant: 'The enabling statute for the Office of Information Technology in the Department of Administrative Services and the state chief information officer: the office and CIO (division A), the CIO''s duty to set policies and standards for state agency IT, including security and the extension of service life, with which state agencies shall comply, project alignment and oversight criteria, policies for the security of personal information, the chief information security officer and the chief privacy officer (division B), and IT purchase review. R.C. 125.18 is one section of chapter 125 (Department of Administrative Services - Office Services, mostly procurement), so it is seeded as its own page, which codes.ohio.gov serves per section.'
+  recheck: monthly
+- id: oh-orc-125-183
+  sha256: "ab5cac1f22af5e63e1e619ef01570bf9408be6de86e041367042631cfc754e64"
+  url: https://codes.ohio.gov/ohio-revised-code/section-125.183
+  format: html
+  citation: R.C. 125.183
+  title: Applications prohibited on state networks and devices.
+  doc_type: statute
+  jurisdiction: ohio
+  issuing_body: Ohio General Assembly; published by the Legislative Service Commission on Ohio Laws (codes.ohio.gov)
+  tags:
+  - cybersecurity
+  - governance
+  why_relevant: Directs the state chief information officer to require state agencies to remove, and to prevent the use of, covered applications owned or controlled by a foreign adversary on state-owned or state-leased equipment and state-provided internet connections (as amended by H.B. 96, effective September 30, 2025).
+  recheck: monthly
+- id: oh-orc-125-32
+  sha256: "59735782f8a3a432093ac8b55c658c4fee2ad4e146ea8edfca9c3037082e50f8"
+  url: https://codes.ohio.gov/ohio-revised-code/section-125.32
+  format: html
+  citation: R.C. 125.32
+  title: Enterprise data management and analytics program.
+  doc_type: statute
+  jurisdiction: ohio
+  issuing_body: Ohio General Assembly; published by the Legislative Service Commission on Ohio Laws (codes.ohio.gov)
+  tags:
+  - data
+  - governance
+  why_relevant: Lets the Department of Administrative Services run an enterprise data management and analytics program to which state agencies shall provide data, with a data-sharing protocol and a security plan.
+  recheck: monthly
+- id: oh-orc-125-70
+  sha256: "8568730fb1292ec64feedb73a02f7d41e1a59c9b37d1df415619bbd77b0be183"
+  url: https://codes.ohio.gov/ohio-revised-code/section-125.70
+  format: html
+  citation: R.C. 125.70
+  title: Data matching agreements.
+  doc_type: statute
+  jurisdiction: ohio
+  issuing_body: Ohio General Assembly; published by the Legislative Service Commission on Ohio Laws (codes.ohio.gov)
+  tags:
+  - digital-services
+  - data
+  why_relevant: Directs the Department of Administrative Services to work with the departments of job and family services and medicaid to deploy private sector tools for digital identity management, authentication and verification for benefit recipients.
+  recheck: monthly
+- id: oh-orc-126-41
+  sha256: "71c0e7add80a138d398fc9a9fdc09da6b941f41a7167c5005cee541e21fec63c"
+  url: https://codes.ohio.gov/ohio-revised-code/section-126.41
+  format: html
+  citation: R.C. 126.41
+  title: Cybersecurity and fraud advisory board.
+  doc_type: statute
+  jurisdiction: ohio
+  issuing_body: Ohio General Assembly; published by the Legislative Service Commission on Ohio Laws (codes.ohio.gov)
+  tags:
+  - cybersecurity
+  - governance
+  why_relevant: 'Creates the cybersecurity and fraud advisory board, chaired by the chief information security officer employed under R.C. 125.18, to recommend best practices for cybersecurity and fraud prevention in the IT systems and shared services used across state agencies; the section provides for the board''s report and its abolition after the report (a temporary body: confirm status on review). One section of chapter 126 (Office of Budget and Management), seeded as its own page.'
+  recheck: monthly
+- id: oh-orc-126-506
+  sha256: "2297d9a0483f69e2ba115eeb95d857ff77b5aee9ce0878a9a2fce7cd052b05e3"
+  url: https://codes.ohio.gov/ohio-revised-code/section-126.506
+  format: html
+  citation: R.C. 126.506
+  title: Participation in technology consolidation projects.
+  doc_type: statute
+  jurisdiction: ohio
+  issuing_body: Ohio General Assembly; published by the Legislative Service Commission on Ohio Laws (codes.ohio.gov)
+  tags:
+  - governance
+  - oversight
+  - cloud-resilience
+  why_relevant: Each state agency shall take part in the IT consolidation projects the state chief information officer implements under R.C. 125.18 and shall keep a list of its IT assets and their costs in the format the director of administrative services specifies. One section of chapter 126, seeded as its own page.
+  recheck: monthly
+- id: oh-orc-1306-21
+  sha256: "b9f8e9807f6ef6d6e8ceaa1d0ac425b9b117f8ead58f1274923a2b2b7e83b0ba"
+  url: https://codes.ohio.gov/ohio-revised-code/section-1306.21
+  format: html
+  citation: R.C. 1306.21
+  title: Rules for state agency use of electronic records or electronic signatures.
+  doc_type: statute
+  jurisdiction: ohio
+  issuing_body: Ohio General Assembly; published by the Legislative Service Commission on Ohio Laws (codes.ohio.gov)
+  tags:
+  - digital-services
+  - data
+  - governance
+  why_relevant: Directs the Department of Administrative Services to adopt rules on the creation, maintenance and security of state agencies' electronic records and electronic signatures (the rules are OAC chapter 123:3-1). One section of the Uniform Electronic Transactions Act chapter, which otherwise binds private persons, seeded as its own page.
+  recheck: monthly
+- id: oh-orc-1306-23
+  sha256: "cd85762c8d68102c1dc288d1325977c8c87798f4323f08132ade0ebdca14ccd9"
+  url: https://codes.ohio.gov/ohio-revised-code/section-1306.23
+  format: html
+  citation: R.C. 1306.23
+  title: Exemptions to public records laws.
+  doc_type: statute
+  jurisdiction: ohio
+  issuing_body: Ohio General Assembly; published by the Legislative Service Commission on Ohio Laws (codes.ohio.gov)
+  tags:
+  - cybersecurity
+  - data
+  why_relevant: Records that would jeopardize the state's continued use or security of computer or telecommunications devices or services associated with electronic signatures, records or transactions are not public records. One section of chapter 1306, seeded as its own page.
+  recheck: monthly
+- id: oh-orc-9-16
+  sha256: "6279927015cc236f73d4d37071175ba8947e93a6dafd06b869f7e1801554abea"
+  url: https://codes.ohio.gov/ohio-revised-code/section-9.16
+  format: html
+  citation: R.C. 9.16
+  title: Governmental use of distributed ledger technology.
+  doc_type: statute
+  jurisdiction: ohio
+  issuing_body: Ohio General Assembly; published by the Legislative Service Commission on Ohio Laws (codes.ohio.gov)
+  tags:
+  - digital-services
+  - cloud-resilience
+  why_relevant: A governmental entity (the state or a political subdivision) may use distributed ledger technology, including blockchain, in the exercise of its authority. One short section of chapter 9, seeded as its own page.
+  recheck: monthly
+- id: oh-orc-5162-90
+  sha256: "9f471d1bb16e959d0e78e43c20ec3580df51585a30282d1c09e4903bd4f8245e"
+  url: https://codes.ohio.gov/ohio-revised-code/section-5162.90
+  format: html
+  citation: R.C. 5162.90
+  title: Use of automated review tools.
+  doc_type: statute
+  jurisdiction: ohio
+  issuing_body: Ohio General Assembly; published by the Legislative Service Commission on Ohio Laws (codes.ohio.gov)
+  tags:
+  - ai
+  - oversight
+  why_relevant: 'Binds the Department of Medicaid when it uses automated review tools, including artificial intelligence, in implementing sections 5162.17 to 5162.19: no automatic action without human review, and the responsible employee confirms the tool''s determination. Effective October 6, 2026 (Senate Bill 315). One section of chapter 5162, seeded as its own page.'
+  recheck: monthly
+- id: oh-orc-5164-11
+  sha256: "4eeb41b2776875815a50ccb6a20b1cac8b8b5c47f369b5eae6379df75d2a0921"
+  url: https://codes.ohio.gov/ohio-revised-code/section-5164.11
+  format: html
+  citation: R.C. 5164.11
+  title: Use of automated review tools.
+  doc_type: statute
+  jurisdiction: ohio
+  issuing_body: Ohio General Assembly; published by the Legislative Service Commission on Ohio Laws (codes.ohio.gov)
+  tags:
+  - ai
+  - oversight
+  why_relevant: The same human-review rule for the Department of Medicaid's use of automated review tools, including artificial intelligence, in implementing the listed sections of chapter 5164. Effective October 6, 2026 (Senate Bill 315). One section of chapter 5164, seeded as its own page.
+  recheck: monthly
+- id: oh-orc-ch1347
+  sha256: "ddb5df187b3ba464be3f78ee7455910b428ad025db2526501b306b530e5d1596"
+  url: https://codes.ohio.gov/ohio-revised-code/chapter-1347
+  format: html
+  citation: R.C. ch. 1347
+  title: Personal Information Systems
+  doc_type: statute
+  jurisdiction: ohio
+  issuing_body: Ohio General Assembly; published by the Legislative Service Commission on Ohio Laws (codes.ohio.gov)
+  tags:
+  - data
+  - cybersecurity
+  - governance
+  why_relevant: 'How state and local agencies that keep personal information systems collect, use, secure and disclose personal information: definitions, the information owner, rules, interconnection of systems, rights of data subjects, wrongful disclosure, agency disclosure of a security breach of computerized personal information (1347.12) and access rules for confidential personal information (1347.15). The chapter also binds local agencies, which ride along; the page serves the whole chapter.'
+  recheck: monthly
+- id: oh-orc-ch5922
+  sha256: "41bec9d94e92b174bb9f47dd810f066b6edcdc595375c3a77826207960f91cb3"
+  url: https://codes.ohio.gov/ohio-revised-code/chapter-5922
+  format: html
+  citation: R.C. ch. 5922
+  title: Civilian Cyber Security Reserve Forces
+  doc_type: statute
+  jurisdiction: ohio
+  issuing_body: Ohio General Assembly; published by the Legislative Service Commission on Ohio Laws (codes.ohio.gov)
+  tags:
+  - cybersecurity
+  - governance
+  why_relevant: 'Creates the Ohio cyber reserve under the adjutant general''s department: civilian cyber security reserve forces to educate and protect state, county and local government entities, critical infrastructure and others from cyber attacks (sections 5922.01 to 5922.08). The chapter serves county and local entities and businesses as well as state government; kept whole because the page serves the whole chapter.'
+  recheck: monthly
+- id: oh-oac-123-3-1
+  sha256: "30a71b4ddb477da5e2b1c7f25c0d4ed21b57b3049abd80df4fd435927ad60ad9"
+  url: https://codes.ohio.gov/ohio-administrative-code/chapter-123:3-1
+  format: html
+  citation: OAC ch. 123:3-1
+  title: Electronic Signatures and Records
+  doc_type: rule
+  jurisdiction: ohio
+  issuing_body: Ohio Department of Administrative Services; published on Ohio Laws (codes.ohio.gov)
+  tags:
+  - digital-services
+  - data
+  - governance
+  why_relevant: 'The Department of Administrative Services'' rule (123:3-1-01) on state agencies'' use of electronic signatures and records: transaction risk assessment, minimum security levels, records retention and the Office of Information Technology''s waiver. Promulgated under R.C. 111.15 and authorized by R.C. 1306.21. Title 123:3 is the Office of Information Technology''s title of the Administrative Code.'
+  recheck: monthly
+- id: oh-oac-123-3-2
+  sha256: "83e599bb679b72daf3dfe66f085b5568972b3ef068cef4dbc33a23023c54d8c6"
+  url: https://codes.ohio.gov/ohio-administrative-code/chapter-123:3-2
+  format: html
+  citation: OAC ch. 123:3-2
+  title: Personal Information Systems Definitions
+  doc_type: rule
+  jurisdiction: ohio
+  issuing_body: Ohio Department of Administrative Services; published on Ohio Laws (codes.ohio.gov)
+  tags:
+  - data
+  - governance
+  why_relevant: Definitions for the personal information systems rules that every state agency adopts under R.C. 1347.15 (computer system, confidential personal information, information owner, and others). Title 123:3 of the Administrative Code.
+  recheck: monthly
+- id: oh-oac-123-4
+  sha256: "a9c910584a6ab67de3bc689484e28565d6d06292427203ab12d7827386198b1b"
+  url: https://codes.ohio.gov/ohio-administrative-code/chapter-123-4
+  format: html
+  citation: OAC ch. 123-4
+  title: Accessing Confidential Personal Information
+  doc_type: rule
+  jurisdiction: ohio
+  issuing_body: Ohio Department of Administrative Services; published on Ohio Laws (codes.ohio.gov)
+  tags:
+  - data
+  - cybersecurity
+  why_relevant: 'The Department of Administrative Services'' own rules under R.C. 1347.15 on its employees'' access to confidential personal information: procedures, valid reasons, confidentiality statutes, and restricting and logging access in computerized personal information systems (rules 123-4-01 to 123-4-05).'
+  recheck: monthly
+- id: oh-it-01
+  sha256: "86be6872fd1ba3f86d39e3e0242a0aa7d9a3692de586a2e9086ac30039f47349"
+  url: https://das.ohio.gov/technology-and-strategy/policies/it-01
+  format: html
+  citation: IT-01
+  title: Authority of the State Chief Information Officer to Establish Ohio IT Policy
+  doc_type: policy
+  jurisdiction: ohio
+  issuing_body: Ohio Department of Administrative Services, Office of Information Technology
+  tags:
+  - governance
+  found_via: URL built from the it-NN pattern of the policy pages' addresses (the Policy Finder list is drawn by script and was not read); fetched at https://das.ohio.gov/technology-and-strategy/policies/it-01 on 2026-11-12 and the title block of the fetched page, 'IT-01 Authority of the State Chief Information Officer to Establish Ohio IT Policy', confirms number and title
+  why_relevant: 'State of Ohio Administrative Policy IT-01, effective October 15, 2025, issued by Kathleen C. Madden, Director. The policy states its purpose: The purpose of this policy is to communicate the information technology (IT) policy-making authority of the state chief information officer (state CIO), who is also the assistant director for the Ohio Department of Administrative Services (DAS). The DAS page is the policy''s publication (full text in the page; no separate PDF is linked).'
+  recheck: monthly
+- id: oh-it-02
+  sha256: "bd2a0e6b7bd91e41bad43b153aba17d8d60e66665d1af7de5703869b3eccee29"
+  url: https://das.ohio.gov/technology-and-strategy/policies/it-02
+  format: html
+  citation: IT-02
+  title: Information Technology Strategic Investment Planning
+  doc_type: policy
+  jurisdiction: ohio
+  issuing_body: Ohio Department of Administrative Services, Office of Information Technology
+  tags:
+  - oversight
+  - procurement
+  found_via: URL built from the it-NN pattern of the policy pages' addresses (the Policy Finder list is drawn by script and was not read); fetched at https://das.ohio.gov/technology-and-strategy/policies/it-02 on 2026-11-12 and the title block of the fetched page, 'IT-02 Information Technology Strategic Investment Planning', confirms number and title
+  why_relevant: 'State of Ohio Administrative Policy IT-02, effective April 15, 2026, issued by Kathleen C. Madden, Director. The policy states its purpose: This policy addresses state requirements for information technology (IT) strategic investment planning, which ensures alignment with the priorities of the Administration, as well as IT-related budgeting and purchasing requirements. The DAS page is the policy''s publication (full text in the page; no separate PDF is linked).'
+  recheck: monthly
+- id: oh-it-03
+  sha256: "ead8d79a6d6f89c0b8d27ee0f53fe635eb733d335a9fbc3ae1fd225b02a74c76"
+  url: https://das.ohio.gov/technology-and-strategy/policies/it-03
+  format: html
+  citation: IT-03
+  title: Software Licensing
+  doc_type: policy
+  jurisdiction: ohio
+  issuing_body: Ohio Department of Administrative Services, Office of Information Technology
+  tags:
+  - governance
+  - procurement
+  found_via: URL built from the it-NN pattern of the policy pages' addresses (the Policy Finder list is drawn by script and was not read); fetched at https://das.ohio.gov/technology-and-strategy/policies/it-03 on 2026-11-12 and the title block of the fetched page, 'IT-03 Software Licensing', confirms number and title
+  why_relevant: 'State of Ohio Administrative Policy IT-03, effective January 30, 2026, issued by Kathleen C. Madden, Director. The policy states its purpose: This policy requires Agencies to establish controls for the use, management and protection of Licensed Software required to conduct official state business. The DAS page is the policy''s publication (full text in the page; no separate PDF is linked).'
+  recheck: monthly
+- id: oh-it-04
+  sha256: "e76b27b166e93a19deb090750153a2e9f99188f6339e793d6dd5796119487baf"
+  url: https://das.ohio.gov/technology-and-strategy/policies/it-04
+  format: html
+  citation: IT-04
+  title: Use of Internet, E-mail and Other IT Resources
+  doc_type: policy
+  jurisdiction: ohio
+  issuing_body: Ohio Department of Administrative Services, Office of Information Technology
+  tags:
+  - cybersecurity
+  - governance
+  found_via: the link to it on the policy page https://das.ohio.gov/technology-and-strategy/policies/it-03 (fetched 2026-11-12); fetched at https://das.ohio.gov/technology-and-strategy/policies/it-04 the same day
+  why_relevant: 'State of Ohio Administrative Policy IT-04, effective April 29, 2025, issued by Kathleen C. Madden, Director. The policy states its purpose: This state policy establishes controls on the use of state-provided Information Technology (IT) Resources to ensure that they are appropriately used for the purposes for which they were acquired. The DAS page is the policy''s publication (full text in the page; no separate PDF is linked).'
+  recheck: monthly
+- id: oh-it-05
+  sha256: "b292d28960f2c1b84eaf4647c64d414119c7f09013a6d163b8bb5c4dd8963e5e"
+  url: https://das.ohio.gov/technology-and-strategy/policies/it-05
+  format: html
+  citation: IT-05
+  title: Disposal, Servicing and Transfer of IT Equipment
+  doc_type: policy
+  jurisdiction: ohio
+  issuing_body: Ohio Department of Administrative Services, Office of Information Technology
+  tags:
+  - cybersecurity
+  - data
+  found_via: the link to it on the policy page https://das.ohio.gov/technology-and-strategy/policies/it-03 (fetched 2026-11-12); fetched at https://das.ohio.gov/technology-and-strategy/policies/it-05 the same day
+  why_relevant: 'State of Ohio Administrative Policy IT-05, effective April 29, 2025, issued by Kathleen C. Madden, Director. The policy states its purpose: The purpose of this policy is to mitigate risk with regard to state Data, Licensed Software and Intellectual Property, and rechargeable batteries and other hazardous materials in the Disposal, servicing or transfer of Agency Information Technology (IT) Equipment. The DAS page is the policy''s publication (full text in the page; no separate PDF is linked).'
+  recheck: monthly
+- id: oh-it-06
+  sha256: "803f344fc8138aec2f8cf7ddb1e8da0856f01d4b03557f478187fade7654bb9c"
+  url: https://das.ohio.gov/technology-and-strategy/policies/it-06
+  format: html
+  citation: IT-06
+  title: Ohio.gov Standardization & Registration of Domain Names
+  doc_type: policy
+  jurisdiction: ohio
+  issuing_body: Ohio Department of Administrative Services, Office of Information Technology
+  tags:
+  - digital-services
+  found_via: URL built from the it-NN pattern of the policy pages' addresses (the Policy Finder list is drawn by script and was not read); fetched at https://das.ohio.gov/technology-and-strategy/policies/it-06 on 2026-11-12 and the title block of the fetched page, 'IT-06 Ohio.gov Standardization & Registration of Domain Names', confirms number and title
+  why_relevant: 'State of Ohio Administrative Policy IT-06, effective August 26, 2024, issued by Kathleen C. Madden, Director. The policy states its purpose: This policy provides requirements for how Agencies standardize, obtain, and safeguard certain Domain Names by establishing naming requirements, and a central registration, tracking, and management process. The DAS page is the policy''s publication (full text in the page; no separate PDF is linked).'
+  recheck: monthly
+- id: oh-it-07
+  sha256: "0121f502e09ade749a5d8f90a01965ade7db28ceb377117cc4ffc5bb6eaf09a8"
+  url: https://das.ohio.gov/technology-and-strategy/policies/it-07
+  format: html
+  citation: IT-07
+  title: Electronic Records
+  doc_type: policy
+  jurisdiction: ohio
+  issuing_body: Ohio Department of Administrative Services, Office of Information Technology
+  tags:
+  - data
+  found_via: URL built from the it-NN pattern of the policy pages' addresses (the Policy Finder list is drawn by script and was not read); fetched at https://das.ohio.gov/technology-and-strategy/policies/it-07 on 2026-11-12 and the title block of the fetched page, 'IT-07 Electronic Records', confirms number and title
+  why_relevant: 'State of Ohio Administrative Policy IT-07, effective January 30, 2026, issued by Kathleen C. Madden, Director. The policy states its purpose: The purpose of this electronic Records policy is to (a) establish uniform electronic Records guidelines for all Agencies; and (b) support the creation and maintenance of electronic records to ensure Integrity, usability and survivability. The DAS page is the policy''s publication (full text in the page; no separate PDF is linked).'
+  recheck: monthly
+- id: oh-it-08
+  sha256: "eb71b0154a696158feeb535c0bc6e5bbb8f25d503b7c8f95ed08ba8655197d9f"
+  url: https://das.ohio.gov/technology-and-strategy/policies/it-08
+  format: html
+  citation: IT-08
+  title: Website Standardization
+  doc_type: policy
+  jurisdiction: ohio
+  issuing_body: Ohio Department of Administrative Services, Office of Information Technology
+  tags:
+  - digital-services
+  - cybersecurity
+  found_via: the link to it on the policy page https://das.ohio.gov/technology-and-strategy/policies/it-06 (fetched 2026-11-12); fetched at https://das.ohio.gov/technology-and-strategy/policies/it-08 the same day
+  why_relevant: 'State of Ohio Administrative Policy IT-08, effective April 29, 2025, issued by Kathleen C. Madden, Director. The policy states its purpose: The purpose of this policy is to establish website standardization, content management, and security requirements for Agency websites. The DAS page is the policy''s publication (full text in the page; no separate PDF is linked).'
+  recheck: monthly
+- id: oh-it-09
+  sha256: "ef830a22b594811c5385d5a2bf29e9ccc4448dddb8d3197e3b6040342e89683b"
+  url: https://das.ohio.gov/technology-and-strategy/policies/it-09
+  format: html
+  citation: IT-09
+  title: Digital Accessibility
+  doc_type: policy
+  jurisdiction: ohio
+  issuing_body: Ohio Department of Administrative Services, Office of Information Technology
+  tags:
+  - digital-services
+  found_via: URL built from the it-NN pattern of the policy pages' addresses (the Policy Finder list is drawn by script and was not read); fetched at https://das.ohio.gov/technology-and-strategy/policies/it-09 on 2026-11-12 and the title block of the fetched page, 'IT-09 Digital Accessibility', confirms number and title
+  why_relevant: 'State of Ohio Administrative Policy IT-09, effective January 10, 2025, issued by Kathleen C. Madden, Director. The policy states its purpose: This policy establishes minimum Digital Accessibility requirements for Agency Web Content and Mobile Applications that are made available to the public by state agencies, boards, and commissions. The DAS page is the policy''s publication (full text in the page; no separate PDF is linked).'
+  recheck: monthly
+- id: oh-it-10
+  sha256: "c6b8a5d4bdc759b31874ffc41648e583ab9f9ef1249cbeec4991bafb03f3d5d0"
+  url: https://das.ohio.gov/technology-and-strategy/policies/it-10
+  format: html
+  citation: IT-10
+  title: Moratorium on the Use of Advertisements, Endorsements, and Sponsorships on State-Controlled Websites
+  doc_type: policy
+  jurisdiction: ohio
+  issuing_body: Ohio Department of Administrative Services, Office of Information Technology
+  tags:
+  - digital-services
+  - funding
+  found_via: URL built from the it-NN pattern of the policy pages' addresses (the Policy Finder list is drawn by script and was not read); fetched at https://das.ohio.gov/technology-and-strategy/policies/it-10 on 2026-11-12 and the title block of the fetched page, 'IT-10 Moratorium on the Use of Advertisements, Endorsements, and Sponsorships on State-Controlled Websites', confirms number and title
+  why_relevant: 'State of Ohio Administrative Policy IT-10, effective January 30, 2026, issued by Kathleen C. Madden, Director. The policy states its purpose: As the state makes services and information more available via the Internet, new challenges emerge. The DAS page is the policy''s publication (full text in the page; no separate PDF is linked).'
+  recheck: monthly
+- id: oh-it-11
+  sha256: "8fdb77ef1663ee070dd635ebdf80051f1abe13f08f50eff8ea97febdd571dff7"
+  url: https://das.ohio.gov/technology-and-strategy/policies/it-11
+  format: html
+  citation: IT-11
+  title: Use of State Telephones
+  doc_type: policy
+  jurisdiction: ohio
+  issuing_body: Ohio Department of Administrative Services, Office of Information Technology
+  tags:
+  - governance
+  found_via: URL built from the it-NN pattern of the policy pages' addresses (the Policy Finder list is drawn by script and was not read); fetched at https://das.ohio.gov/technology-and-strategy/policies/it-11 on 2026-11-12 and the title block of the fetched page, 'IT-11 Use of State Telephones', confirms number and title
+  why_relevant: 'State of Ohio Administrative Policy IT-11, effective January 30, 2026, issued by Kathleen C. Madden, Director. The policy states its purpose: This state policy provides requirements regarding the use of Wired and Wireless state Telephone Service. The DAS page is the policy''s publication (full text in the page; no separate PDF is linked).'
+  recheck: monthly
+- id: oh-it-12
+  sha256: "c3512ad9414a559dc04bd8fb9c4548ee3177b612278e76349d47e2b5c674144f"
+  url: https://das.ohio.gov/technology-and-strategy/policies/it-12
+  format: html
+  citation: IT-12
+  title: Telecommunications Utility Services
+  doc_type: policy
+  jurisdiction: ohio
+  issuing_body: Ohio Department of Administrative Services, Office of Information Technology
+  tags:
+  - procurement
+  found_via: URL built from the it-NN pattern of the policy pages' addresses (the Policy Finder list is drawn by script and was not read); fetched at https://das.ohio.gov/technology-and-strategy/policies/it-12 on 2026-11-12 and the title block of the fetched page, 'IT-12 Telecommunications Utility Services', confirms number and title
+  why_relevant: 'State of Ohio Administrative Policy IT-12, effective January 30, 2026, issued by Kathleen C. Madden, Director. The policy states its purpose: This policy provides requirements concerning the acquisition of Telecommunications Utility Services such as local and long-distance calling, and voice, data and Wireless services. The DAS page is the policy''s publication (full text in the page; no separate PDF is linked).'
+  recheck: monthly
+- id: oh-it-13
+  sha256: "ec1f99aa0585b3d3bba5e57a6aa2054684cd2dfbbe826075332ff70585032686"
+  url: https://das.ohio.gov/technology-and-strategy/policies/it-13
+  format: html
+  citation: IT-13
+  title: Data Classification
+  doc_type: policy
+  jurisdiction: ohio
+  issuing_body: Ohio Department of Administrative Services, Office of Information Technology
+  tags:
+  - data
+  - cybersecurity
+  found_via: the link to it on the policy page https://das.ohio.gov/technology-and-strategy/policies/it-17 (fetched 2026-11-12); fetched at https://das.ohio.gov/technology-and-strategy/policies/it-13 the same day
+  why_relevant: 'State of Ohio Administrative Policy IT-13, effective April 29, 2025, issued by Kathleen C. Madden, Director. The policy states its purpose: This policy establishes Data classification requirements that will provide consistency in understanding and appropriately managing State Data. The DAS page is the policy''s publication (full text in the page; no separate PDF is linked).'
+  recheck: monthly
+- id: oh-it-14
+  sha256: "102ef8f627371c341797dcc15e366eb1b7db0c65617336f3b520bee5a760e5ef"
+  url: https://das.ohio.gov/technology-and-strategy/policies/it-14
+  format: html
+  citation: IT-14
+  title: Data Encryption and Securing Confidential Data
+  doc_type: policy
+  jurisdiction: ohio
+  issuing_body: Ohio Department of Administrative Services, Office of Information Technology
+  tags:
+  - cybersecurity
+  - data
+  found_via: the link to it on the policy page https://das.ohio.gov/technology-and-strategy/policies/it-17 (fetched 2026-11-12); fetched at https://das.ohio.gov/technology-and-strategy/policies/it-14 the same day
+  why_relevant: 'State of Ohio Administrative Policy IT-14, effective April 29, 2025, issued by Kathleen C. Madden, Director. The policy states its purpose: This policy, in conjunction with Ohio IT Standard ITS-SEC-01/Data Encryption and Cryptography (ITS-SEC-01), provides guidance to Agencies as they take steps to protect Confidential Data and Information. The DAS page is the policy''s publication (full text in the page; no separate PDF is linked).'
+  recheck: monthly
+- id: oh-it-15
+  sha256: "0d677412667529650394facb0edfd458c9697d76bad1d50bc42de837966b5db9"
+  url: https://das.ohio.gov/technology-and-strategy/policies/it-15
+  format: html
+  citation: IT-15
+  title: Information Security and Privacy Awareness Training
+  doc_type: policy
+  jurisdiction: ohio
+  issuing_body: Ohio Department of Administrative Services, Office of Information Technology
+  tags:
+  - cybersecurity
+  found_via: URL built from the it-NN pattern of the policy pages' addresses (the Policy Finder list is drawn by script and was not read); fetched at https://das.ohio.gov/technology-and-strategy/policies/it-15 on 2026-11-12 and the title block of the fetched page, 'IT-15 Information Security and Privacy Awareness Training', confirms number and title
+  why_relevant: 'State of Ohio Administrative Policy IT-15, effective April 29, 2025, issued by Kathleen C. Madden, Director. The policy states its purpose: This policy provides information security and privacy awareness training requirements for Organizational Users. The DAS page is the policy''s publication (full text in the page; no separate PDF is linked).'
+  recheck: monthly
+- id: oh-it-16
+  sha256: "294871dda3807a180b3e34bbe4f3ced1e740aa13922eade74a1fa799976d8acf"
+  url: https://das.ohio.gov/technology-and-strategy/policies/it-16
+  format: html
+  citation: IT-16
+  title: Major Project Governance Policy
+  doc_type: policy
+  jurisdiction: ohio
+  issuing_body: Ohio Department of Administrative Services, Office of Information Technology
+  tags:
+  - oversight
+  found_via: the link to it on the policy page https://das.ohio.gov/technology-and-strategy/policies/it-02 (fetched 2026-11-12); fetched at https://das.ohio.gov/technology-and-strategy/policies/it-16 the same day
+  why_relevant: 'State of Ohio Administrative Policy IT-16, effective September 1, 2026, issued by Kathleen C. Madden, Director, Department of Administrative Services and Kimberly A. Murnieks, Director, Office of Budget and Management. The policy states its purpose: The Department of Administrative Services (DAS) and the Office of Budget and Management (OBM) are focused on and committed to partnering with Agencies to enable the efficient management and delivery of statewide and Agency-level technology initiatives. The DAS page is the policy''s publication (full text in the page; no separate PDF is linked).'
+  recheck: monthly
+- id: oh-it-17
+  sha256: "8b85dfdd6305db8fc584f89741d2fa40ab35699be540fdc21cdbc4b8613a5731"
+  url: https://das.ohio.gov/technology-and-strategy/policies/it-17
+  format: html
+  citation: IT-17
+  title: Use of Artificial Intelligence in State of Ohio Solutions
+  doc_type: policy
+  jurisdiction: ohio
+  issuing_body: Ohio Department of Administrative Services, Office of Information Technology
+  tags:
+  - ai
+  - governance
+  found_via: the link to it on the policy page https://das.ohio.gov/technology-and-strategy/policies/it-19 (fetched 2026-11-12); fetched at https://das.ohio.gov/technology-and-strategy/policies/it-17 the same day
+  why_relevant: 'State of Ohio Administrative Policy IT-17, effective January 5, 2026, issued by Kathleen C. Madden, Director. The policy states its purpose: The purpose of this policy is to provide statewide planning, implementation, procurement, security, privacy, and governance requirements for the use of Artificial Intelligence (AI). The DAS page is the policy''s publication (full text in the page; no separate PDF is linked).'
+  recheck: monthly
+- id: oh-it-18
+  sha256: "28c10330776d51c167e690ce70e1f97bd2be992e3be940a806415b6dac0f44f3"
+  url: https://das.ohio.gov/technology-and-strategy/policies/it-18
+  format: html
+  citation: IT-18
+  title: Information Security & Privacy Incident Response
+  doc_type: policy
+  jurisdiction: ohio
+  issuing_body: Ohio Department of Administrative Services, Office of Information Technology
+  tags:
+  - cybersecurity
+  found_via: the link to it on the policy page https://das.ohio.gov/technology-and-strategy/policies/it-14 (fetched 2026-11-12); fetched at https://das.ohio.gov/technology-and-strategy/policies/it-18 the same day
+  why_relevant: 'State of Ohio Administrative Policy IT-18, effective November 5, 2025, issued by Kathleen C. Madden, Director. The policy states its purpose: The purpose of this policy is to require Organizational Users and Agencies to report and respond to suspected Information Security and Privacy Incidents (Security Incident). The DAS page is the policy''s publication (full text in the page; no separate PDF is linked).'
+  recheck: monthly
+- id: oh-it-19
+  sha256: "e60fe705bbc49d6b1f3325419b531189992d2f088e8c8c48672bb236ad1da6bb"
+  url: https://das.ohio.gov/technology-and-strategy/policies/it-19
+  format: html
+  citation: IT-19
+  title: Data Governance
+  doc_type: policy
+  jurisdiction: ohio
+  issuing_body: Ohio Department of Administrative Services, Office of Information Technology
+  tags:
+  - data
+  - governance
+  found_via: the link to it on the policy page https://das.ohio.gov/technology-and-strategy/policies/it-17 (fetched 2026-11-12); fetched at https://das.ohio.gov/technology-and-strategy/policies/it-19 the same day
+  why_relevant: 'State of Ohio Administrative Policy IT-19, effective April 29, 2025, issued by Kathleen C. Madden, Director. The policy states its purpose: The purpose of this policy is to establish and maintain a formal Data Governance framework that ensures appropriate decision-making and accountability in the creation, consumption, control, and valuation of state Data and Analytics. The DAS page is the policy''s publication (full text in the page; no separate PDF is linked).'
+  recheck: monthly
+- id: oh-it-20
+  sha256: "4a1197dad12a5bff8bf1a3967af6e947eb2980f0c74f13f3c19168c12d299534"
+  url: https://das.ohio.gov/technology-and-strategy/policies/it-20
+  format: html
+  citation: IT-20
+  title: Vulnerability Management
+  doc_type: policy
+  jurisdiction: ohio
+  issuing_body: Ohio Department of Administrative Services, Office of Information Technology
+  tags:
+  - cybersecurity
+  found_via: URL built from the it-NN pattern of the policy pages' addresses (the Policy Finder list is drawn by script and was not read); fetched at https://das.ohio.gov/technology-and-strategy/policies/it-20 on 2026-11-12 and the title block of the fetched page, 'IT-20 Vulnerability Management', confirms number and title
+  why_relevant: 'State of Ohio Administrative Policy IT-20, effective November 20, 2024, issued by Kathleen C. Madden, Director. The policy states its purpose: The purpose of this policy is to provide statewide Vulnerability management requirements that will allow for the consistent identification, prioritization, and Remediation of known security Vulnerabilities across all Agency-Managed Information Systems and Agency-Managed System Assets. The DAS page is the policy''s publication (full text in the page; no separate PDF is linked).'
+  recheck: monthly
+- id: oh-it-21
+  sha256: "e76876b3cddac378bb695b2236217d8f5f95c7d1886a3b14a070eeaf854834a8"
+  url: https://das.ohio.gov/technology-and-strategy/policies/it-21
+  format: html
+  citation: IT-21
+  title: Information Technology Supplier Risk Management
+  doc_type: policy
+  jurisdiction: ohio
+  issuing_body: Ohio Department of Administrative Services, Office of Information Technology
+  tags:
+  - cybersecurity
+  - procurement
+  found_via: URL built from the it-NN pattern of the policy pages' addresses (the Policy Finder list is drawn by script and was not read); fetched at https://das.ohio.gov/technology-and-strategy/policies/it-21 on 2026-11-12 and the title block of the fetched page, 'IT-21 Information Technology Supplier Risk Management', confirms number and title
+  why_relevant: 'State of Ohio Administrative Policy IT-21, effective August 25, 2025, issued by Kathleen C. Madden, Director. The policy states its purpose: The purpose of this policy is to define statewide Information Technology (IT) Supplier Risk Management requirements for IT-related services, solutions, and products to help protect State Data and operations and mitigate the Risk of Information Security and Privacy Incidents. The DAS page is the policy''s publication (full text in the page; no separate PDF is linked).'
+  recheck: monthly
+- id: oh-its-sec-01
+  sha256: "8a15c259eb78d92f6a8175d48f09e9926ed6cfa64cdf4d34958c02292449f1a3"
+  url: https://das.ohio.gov/wps/wcm/connect/gov/eb911e71-a5eb-4c76-8a6f-6eee439a98a5/ITS-SEC-01.pdf?MOD=AJPERES
+  format: pdf
+  citation: ITS-SEC-01
+  title: Data Encryption and Cryptography
+  doc_type: standard
+  jurisdiction: ohio
+  issuing_body: Ohio Department of Administrative Services, Office of Information Technology
+  tags:
+  - cybersecurity
+  - data
+  found_via: the PDF attachment of the DAS page https://das.ohio.gov/technology-and-strategy/policies/its-sec-01-data-encryption-and-cryptography (linked from IT-14); the address here is the page's link without its CACHEID and CONVERT_TO query parts, fetched 2026-11-12 (8 pages, text layer on every page)
+  why_relevant: 'State of Ohio IT Standard ITS-SEC-01, effective April 29, 2025 (printed on its cover), approved by the State CIO: the minimum requirements for cryptographic algorithms and modules in security services that protect confidential data; IT-14 is the companion policy. Applies to state agencies, boards and commissions under the Governor.'
+  recheck: monthly
+- id: oh-its-sec-02
+  sha256: "3296fddef493fa0eae733a43c516ad5309c1bd3ed55f5a96aec7044232e28dba"
+  url: https://das.ohio.gov/wps/wcm/connect/gov/76216110-516a-4591-b1a2-37f205fdc01e/ITS-SEC-02.pdf?MOD=AJPERES
+  format: pdf
+  citation: ITS-SEC-02
+  title: Enterprise Security Controls Framework
+  doc_type: standard
+  jurisdiction: ohio
+  issuing_body: Ohio Department of Administrative Services, Office of Information Technology
+  tags:
+  - cybersecurity
+  - governance
+  found_via: the PDF attachment of the DAS page https://das.ohio.gov/technology-and-strategy/policies/its-sec-02-enterprise-security-controls-framework (linked from IT-17 and four other policies); the address here is the page's link without its CACHEID and CONVERT_TO query parts, fetched 2026-11-12 (7 pages, text layer on every page)
+  why_relevant: 'State of Ohio IT Standard ITS-SEC-02, effective April 29, 2025 (printed on its cover), approved by the State CIO: the minimum information security requirements for all agencies, with NIST SP 800-53 (Revision 4) as the controls framework, and the enterprise controls agencies must implement with DAS OIT.'
+  recheck: monthly
+- id: oh-its-sec-03
+  url: https://ohid.ohio.gov/wps/myportal/gov/myohio/my-resources/oisp/oisp-services/information-security-privacy-standards/its-sec-03-vulnerability-management
+  format: html
+  citation: ITS-SEC-03
+  title: Vulnerability Management
+  doc_type: standard
+  jurisdiction: ohio
+  issuing_body: Ohio Department of Administrative Services, Office of Information Technology
+  tags:
+  - cybersecurity
+  found_via: the link in IT-20 (https://das.ohio.gov/technology-and-strategy/policies/it-20) (a myOhio address); the title is the link text printed there
+  why_relevant: State of Ohio IT Standard ITS-SEC-03, a standard the DAS policies cite as binding on state agencies; DAS publishes ITS-SEC-01 and ITS-SEC-02 on das.ohio.gov but links this one only on the myOhio site.
+  recheck: monthly
+  stub: true
+  stub_reason: 'Sign-in only, measured 2026-11-12. The linked address on ohid.ohio.gov answered the Fetcher with HTTP 200 and a 15,770-byte page titled ''ODX Login ...'' (an IBM Security Access Manager sign-in form: ''Username:'', ''Password:''), the same bytes for ITS-SEC-03, -04 and -06. The das.ohio.gov address built from the same pattern as the published standards (/technology-and-strategy/policies/its-sec-03-vulnerability-management) answered 200 with the portal''s ''No content found'' page. No public copy was found on a state host.'
+- id: oh-its-sec-04
+  url: https://ohid.ohio.gov/wps/myportal/gov/myohio/my-resources/oisp/oisp-services/information-security-privacy-standards/its-sec-04-data-classification
+  format: html
+  citation: ITS-SEC-04
+  title: Data Classification
+  doc_type: standard
+  jurisdiction: ohio
+  issuing_body: Ohio Department of Administrative Services, Office of Information Technology
+  tags:
+  - data
+  - cybersecurity
+  found_via: the link in IT-13 (https://das.ohio.gov/technology-and-strategy/policies/it-13) (a myOhio address); the title is the link text printed there
+  why_relevant: State of Ohio IT Standard ITS-SEC-04, a standard the DAS policies cite as binding on state agencies; DAS publishes ITS-SEC-01 and ITS-SEC-02 on das.ohio.gov but links this one only on the myOhio site.
+  recheck: monthly
+  stub: true
+  stub_reason: 'Sign-in only, measured 2026-11-12. The linked address on ohid.ohio.gov answered the Fetcher with HTTP 200 and a 15,770-byte page titled ''ODX Login ...'' (an IBM Security Access Manager sign-in form: ''Username:'', ''Password:''), the same bytes for ITS-SEC-03, -04 and -06. The das.ohio.gov address built from the same pattern as the published standards (/technology-and-strategy/policies/its-sec-04-data-classification) answered 200 with the portal''s ''No content found'' page. No public copy was found on a state host.'
+- id: oh-its-sec-06
+  url: https://ohid.ohio.gov/wps/myportal/gov/myohio/my-resources/oisp/oisp-services/information-security-privacy-standards/its-sec-06-information-security-and-privacy-incident-response
+  format: html
+  citation: ITS-SEC-06
+  title: Information Security & Privacy Incident Response
+  doc_type: standard
+  jurisdiction: ohio
+  issuing_body: Ohio Department of Administrative Services, Office of Information Technology
+  tags:
+  - cybersecurity
+  found_via: the link in IT-18 (https://das.ohio.gov/technology-and-strategy/policies/it-18) (a myOhio address); the title is the link text printed there
+  why_relevant: State of Ohio IT Standard ITS-SEC-06, a standard the DAS policies cite as binding on state agencies; DAS publishes ITS-SEC-01 and ITS-SEC-02 on das.ohio.gov but links this one only on the myOhio site.
+  recheck: monthly
+  stub: true
+  stub_reason: 'Sign-in only, measured 2026-11-12. The linked address on ohid.ohio.gov answered the Fetcher with HTTP 200 and a 15,770-byte page titled ''ODX Login ...'' (an IBM Security Access Manager sign-in form: ''Username:'', ''Password:''), the same bytes for ITS-SEC-03, -04 and -06. The das.ohio.gov address built from the same pattern as the published standards (/technology-and-strategy/policies/its-sec-06-information-security-and-privacy-incident-response) answered 200 with the portal''s ''No content found'' page. No public copy was found on a state host.'
+- id: oh-eo-2019-15d
+  sha256: "a54cc99a0539434e8762c3a41154b36760b1635e94397ebde518320abf1e60af"
+  url: https://governor.ohio.gov/media/executive-orders/2019-15d
+  format: html
+  citation: Executive Order 2019-15D
+  title: Modernizing Information Technology Systems in State Agencies
+  doc_type: executive_order
+  jurisdiction: ohio
+  issuing_body: Office of the Governor
+  tags:
+  - governance
+  - cloud-resilience
+  - data
+  found_via: a web search for the order (discovery only); the address was fetched through the Fetcher on 2026-11-12 and the page heading reads 'Executive Order 2019-15D'. The Governor's order list (https://governor.ohio.gov/media/executive-orders) is drawn by script, so the row was not read there.
+  why_relevant: Establishes the InnovateOhio Platform and directs cabinet agencies, boards and commissions, at the direction of the Lieutenant Governor and the State CIO, to migrate websites and portals to it, to make data available to it under R.C. 125.32, and to migrate IT systems to the state cloud managed by DAS OIT by March 31, 2020. Signed April 29, 2019; the order prints that it will not expire unless it is rescinded. The page is the Governor's publication with the full text; the signed PDF linked from it is a second file of the same order and is not read. Whether a later order rescinded it could not be checked against the order list, which is drawn by script (see left_out).
+  recheck: monthly
+- id: oh-eo-2022-07d
+  sha256: "13de79daae95c3e4d3c0ff01ab7facddfecb6661b33089c30c8f5cb38c2b69a6"
+  url: https://governor.ohio.gov/media/executive-orders/executive-order-2022-07D
+  format: html
+  citation: Executive Order 2022-07D
+  title: Creation of the Cybersecurity Strategic Advisor
+  doc_type: executive_order
+  jurisdiction: ohio
+  issuing_body: Office of the Governor
+  tags:
+  - cybersecurity
+  - governance
+  found_via: a web search for the order (discovery only); the address was fetched through the Fetcher on 2026-11-12 and the page heading reads 'Executive Order 2022-07D'. The Governor's order list is drawn by script, so the row was not read there.
+  why_relevant: Orders a unified approach among state agencies to guide the state's cyber initiatives and the appointment of a State Cybersecurity Strategic Advisor, who coordinates protection of the state's IT infrastructure and data, a cyber-response plan and uniform reporting standards; the Adjutant General's Office, DAS and the Department of Public Safety support the Advisor, and cabinet agencies, boards and commissions work with the Advisor. Signed April 25, 2022; the order prints that it takes effect immediately and remains in force unless rescinded. The page is the Governor's publication with the full text; the signed PDF linked from it is not read.
+  recheck: monthly
+- id: oh-eo-2023-03d
+  sha256: "ee9fd7b7acd82155d6a760ce5eb040e0f6d90c1a79ac4cf2c93c6a817c731627"
+  url: https://governor.ohio.gov/media/executive-orders/Executive-Order-2023-03D-01092023
+  format: html
+  citation: Executive Order 2023-03D
+  title: Prohibition of Certain Applications, Platforms, and Websites on State-Owned and State-Leased Devices
+  doc_type: executive_order
+  jurisdiction: ohio
+  issuing_body: Office of the Governor
+  tags:
+  - cybersecurity
+  - governance
+  found_via: the address cited by the Legislative Service Commission analysis of H.B. 33, found by web search (discovery only); fetched through the Fetcher on 2026-11-12 and the page heading reads 'Executive Order 2023-03D'. The Governor's page lists the attachment 'Signed Executive Order 2023-03D.pdf' (/wps/wcm/connect/gov/3cf764ff-3513-4fbd-940f-55ddede237a0/), which is a 672,493-byte scanner-made PDF of the same size and producer as the GovDelivery file (content.govdelivery.com/attachments/OHIOGOVERNOR/2023/01/09/file_attachments/2373098/) used in the first pass; the page text, not the scan, is the text of record here.
+  why_relevant: Orders state agencies, boards and commissions to prohibit, on state-owned or state-leased internet-capable devices, the download or use of, and access to, social media applications and platforms owned by an entity located in China, and directs DAS, through the Office of Information Technology, to update statewide policies. Signed January 8, 2023; the order prints that it expires ten calendar days after the Governor's last day in office unless rescinded.
+  recheck: monthly
+- id: oh-ai-council-charter
+  sha256: "6e302b7ec34e66f16568eb43a72419204981651f6ad43efd839ba8114d77e42a"
+  url: https://dam.assets.ohio.gov/image/upload/das.ohio.gov/technology-strategy/policy/AI%20Council%20Charter.pdf
+  format: pdf
+  citation: State of Ohio AI Council Charter
+  title: State of Ohio Artificial Intelligence (AI) Council Charter
+  doc_type: policy
+  jurisdiction: ohio
+  issuing_body: Ohio Department of Administrative Services
+  tags:
+  - ai
+  - governance
+  - oversight
+  why_relevant: 'The charter (dated January 2024 on its face) of the multi-agency AI Council, which provides statewide oversight of generative AI solutions, implements the state''s governance framework and advises the Governor''s Office, the DAS Director and the State CIO. IT-17 requires agencies to submit approved use cases to the AI Council, and its page lists the charter under ''Additional Downloads'', not as a policy of the library. Kept as a governance instrument that sets up the body IT-17 relies on (owner decision: it is borderline, see left_out).'
+  recheck: monthly
+  identity_text: Council Charter
+  found_via: the 'Additional Downloads' of https://das.ohio.gov/technology-and-strategy/policies/it-17, which links https://das.ohio.gov/static/technology-strategy/policy/AI Council Charter.pdf; that address (fetched 2026-11-12, 88,134 bytes) is the same file as the dam.assets.ohio.gov address seeded here
+- id: oh-watch-oac-123-3
+  url: https://codes.ohio.gov/ohio-administrative-code/123:3
+  format: html
+  citation: OAC title 123:3
+  title: 'Ohio Administrative Code 123:3: Office of Information Technology'
+  doc_type: rule
+  jurisdiction: ohio
+  tags:
+  - governance
+  watch_only: true
+  why_relevant: 'The Administrative Code''s page for the Office of Information Technology''s title (2 chapters on 2026-11-12: 123:3-1 and 123:3-2). A new chapter raises a review-the-seed-list report.'
+  recheck: monthly
+- id: oh-watch-orc-ch125
+  url: https://codes.ohio.gov/ohio-revised-code/chapter-125
+  format: html
+  citation: R.C. ch. 125
+  title: Chapter 125 | Department of Administrative Services - Office Services
+  doc_type: statute
+  jurisdiction: ohio
+  tags:
+  - governance
+  - procurement
+  watch_only: true
+  why_relevant: The chapter that holds R.C. 125.18 (the Office of Information Technology) and 125.183, 125.32 and 125.70 (seeded). A new or renamed section raises a review report. The chapter is mostly procurement and other office services, so it changes often for reasons outside this corpus.
+  recheck: monthly
+- id: oh-watch-orc-ch126
+  url: https://codes.ohio.gov/ohio-revised-code/chapter-126
+  format: html
+  citation: R.C. ch. 126
+  title: Chapter 126 | Office of Budget and Management
+  doc_type: statute
+  jurisdiction: ohio
+  tags:
+  - oversight
+  - cybersecurity
+  watch_only: true
+  why_relevant: The chapter that holds R.C. 126.41 and 126.506 (seeded). A new IT-related section raises a review report.
+  recheck: monthly
+- id: oh-watch-das-policies
+  url: https://das.ohio.gov/technology-and-strategy/policies
+  format: html
+  citation: DAS Policy Finder
+  title: Policy Finder
+  doc_type: policy
+  jurisdiction: ohio
+  tags:
+  - governance
+  watch_only: true
+  why_relevant: The Department of Administrative Services' statewide policy page (title 'Policy Finder'), the library's index. Its list of policies is drawn by script (the rows are not in the page bytes), so it could not be read row by row; the policies were found from links on the policy pages themselves (see found_via of each). A change to this page raises a review-the-seed-list report; because the page carries portal session and cache tokens it can differ between fetches for reasons outside the list.
+  recheck: monthly
+- id: oh-watch-governor-eos
+  url: https://governor.ohio.gov/media/executive-orders
+  format: html
+  citation: Governor executive orders
+  title: Executive Orders
+  doc_type: executive_order
+  jurisdiction: ohio
+  tags:
+  - governance
+  watch_only: true
+  why_relevant: The Governor's list of executive orders. The list is drawn by script, so the rows are not in the page bytes and could not be read; the orders seeded here were found by search and fetched at their own pages. A change to this page raises a review-the-seed-list report; because the page carries portal session and cache tokens it can differ between fetches for reasons outside the list.
+  recheck: monthly
+left_out:
+- text: '---- Ohio: found and left out (each was seen in bytes fetched through the toolkit Fetcher on 2026-11-12, or in a web search where it says so; the reason is recorded here). ''Owner decision'' marks a judgment call a reviewer should confirm.'
+- text: 'The statewide IT policy library, reconciled as far as its pages allow. The library''s index, https://das.ohio.gov/technology-and-strategy/policies (title ''Policy Finder'', HTTP 200, 363,348 bytes), draws its list of policies by script: the rows are not in the page bytes, and the feed behind it is an internal endpoint that was not called. So the list could not be read row by row. The policies were found from links a visitor can follow: the per-policy pages'' own links to each other, the Resources of IT-17, the ''Related Policies'' page of IT Strategic Investment and Architecture (https://das.ohio.gov/technology-and-strategy/it-strategic-investment-and-architecture/related-policies, which lists IT-01, IT-02 and IT-16), the IT-01 page''s table of enumeration (IT-##, ITS-[domain]-##, OEP-[division].####) and the pattern of the policy addresses. Fetched with HTTP 200 and seeded: IT-01 to IT-21 (21 policies; 12 of the addresses, IT-01, 02, 03, 06, 07, 09, 10, 11, 12, 15, 20 and 21, are built from the it-NN pattern, say so in their found_via, and each page''s own heading confirms its number and title; IT-11 answered 502 Bad Gateway in the review run and 200 here; IT-21 answered 502 on the first request and 200 on retry); ITS-SEC-01 and ITS-SEC-02 (PDF attachments of their DAS pages); three more standards are stubs (ITS-SEC-03, -04, -06: sign-in only). IT-22, IT-23 and IT-24 and the das.ohio.gov address of ITS-SEC-03, -04, -05 and -06 answer 200 with the portal''s ''No content found'' page (its-sec-05 is a guessed address): nothing is published there. ''None found'' is claimed only for those addresses, not for the library as a whole. Every policy page seeded prints ''Effective:'' with a date on or before 2026-09-01 (IT-16 takes effect September 1, 2026, which is past on 2026-11-12) and none is marked rescinded, superseded or draft. ITS-SEC-05 ''IT Supplier Risk Management'' is named by IT-21 and has no page or file found (left out; owner decision: it belongs in the corpus when DAS publishes it). ''OEP-'' Enterprise IT Procedures are named by IT-01 and none was found published. The IT Policy Glossary (https://das.ohio.gov/technology-and-strategy/it-policy-glossary) defines the capitalized terms every policy uses by link: a reference list, left out (owner decision: the policies incorporate its definitions by reference, so it could be seeded as a policy).'
+- text: 'Left out of the library, by type (each seen on an IT-17, IT-02, IT-18 or IT-20 page fetched 2026-11-12). Spreadsheets: AI_Governance_Roles_and_Responsibilities.xlsx and State_of_Ohio_Generative_AI_Central_Repository.xlsx (linked from IT-17), the AI Governance Operations Chart (xlsx). Word templates: AI_Procurement_Checklist_for_State_Agencies.dotx and State_of_Ohio_Generative_AI_Central_Repository_Template_Accessible.dotx (IT-17). Forms: the Supplier Assessment for Generative AI Solutions form on the State of Ohio IT Hub (IT-17; a form, linked not fetched). Supporting pages: ''AI Governance Operations Chart'' (https://das.ohio.gov/technology-and-strategy/policies/ai+governance+operations+chart, an HTML table of roles) and ''AI Comparison Criteria'' (https://das.ohio.gov/technology-and-strategy/policies/ai+comparison+criteria, a table comparing conventional and generative AI): reference material the IT-17 page lists, not instruments. Planning tools of IT-02: the Enterprise Planning Portfolio Decision Making Framework and the Criteria for Prioritization and Rating Scale (PDFs on dam.assets.ohio.gov and das.ohio.gov/static, not fetched; process tools and rating scales, not instruments), and the ''Strategic Resources'' strategy pages. Guidance documents by the State CISO that support a policy: ''State of Ohio Cybersecurity Guidance: Incident Response'' (7 pages, issued 11/05/2025, supports IT-18 and ITS-SEC-06) and ''Vulnerability Management Implementation Support'' (4 pages, issued 09/22/2025, supports IT-20 and ITS-SEC-03), both fetched with a text layer: left out as guidance, not policy (owner decision: they are DAS publications that state agencies are expected to follow, so they could be seeded as policies). The ''Use of AI FAQs'' (seen in web search only, not fetched: a FAQ). The OIT Strategic Vision 2024-2026 and IT Innovation Strategic Plan (seen in web search only: strategy documents). DAS policies outside IT that the pages link (PM-01 Purchasing Goods and Services, PM-02 Emergency Purchasing Procedures, AM-02 Disposal of Excess Surplus Property, the employee-relations disability inclusion and accessibility policy, the State of Ohio Procurement Manual): procurement, property and personnel policies, out of this domain (owner decision for PM-01 and the Procurement Manual, which govern IT purchases among others). DAS internal policies 700-01, 700-02, 100-11 and 2100-04 were seen in web search results on older addresses only; they were not found in the pages read and were not fetched.'
+- text: 'AI Governance Framework and AI Council Charter: decided from the IT-17 page, 2026-11-12. The IT-17 page lists both, with the AI Governance Operations Chart, as ''Additional Downloads'' under the policy, not as library policies. The State of Ohio AI Governance Framework (https://dam.assets.ohio.gov/image/upload/das.ohio.gov/technology-strategy/policy/State%20of%20Ohio%20AI%20Governance%20Framework.pdf, the first pass seeded it; 2 pages: a diagram of the governing bodies and their roles and a narrative of the principles) is a diagram with a narrative, the kind of strategy document the playbook leaves out, and its content is in IT-17''s own text: LEFT OUT and removed from the seed list (owner decision: borderline). The State of Ohio AI Council Charter (seeded, oh-ai-council-charter) is kept: it is not a diagram or a plan but the governing document of the AI Council to which IT-17 sends agency use cases, with membership and duties (owner decision: borderline; a reviewer may prefer to treat it as a supporting download and drop it).'
+- text: 'Enterprise Architecture: ''State of Ohio Technology Standards Document'' (revision history to 03/04/2024; the PDF https://dam.assets.ohio.gov/image/upload/ohioairquality.ohio.gov/About%20Us/RFQ/State_of_Ohio_-_Enterprise_Architecture_Technology_Standards_03042024.pdf, fetched 2026-11-12, 12 pages with a text layer) is the DAS statewide technology standards document, but this copy is an attachment on the Ohio EPA air quality office''s RFQ page, not the DAS library''s own file, and a later revision may exist: left out because the in-force version cannot be confirmed: the library''s list is drawn by script and the DAS IT Strategic Investment and Architecture pages read (the section page, Strategic Resources, Agency EPP Resources and Tools, Related Policies) link no technology standards document (owner decision; it should be seeded from the DAS library when a DAS page for it is found). The Office of Procurement''s solicitation attachments ''Supplement 2: State Architecture, Security, Privacy and Data Handling'' (e.g. https://dam.assets.ohio.gov/image/upload/procure.ohio.gov/pdf/CSP902320%20DOH046%20Supplement%20Two.pdf, 24 pages, revision history to 2017) and ''Supplement 1: State IT Policy, Standard and Service Requirements'' are DAS/OIT requirements for vendors, but the copies found are per-solicitation attachments of various vintages, not the library''s current files: left out (owner decision: they bind vendors under state contracts, which is in scope, if a current canonical copy is found).'
+- text: 'Executive orders. The Governor''s list, https://governor.ohio.gov/media/executive-orders (and /executive-orders/executive-orders), answered HTTP 200 through the Fetcher (376,593 and 376,741 bytes), but the list is drawn by script (the rows are not in the page bytes; the feed behind it is an internal endpoint that was not called), so no order list was read and no all-governors check was possible: ''none found'' is not claimed. Each order''s own page is a visitor''s link and was fetched: Executive Order 2022-07D (governor.ohio.gov/media/executive-orders/, page executive-order-2022-07D), 2019-15D (.../2019-15d) and 2023-03D (.../Executive-Order-2023-03D-01092023, an address cited by the Legislative Service Commission''s analysis of H.B. 33; the pattern executive-order-2023-03D answered 200 with a ''Media'' page and no order). All three are seeded from the page text, each page heading being the order''s number (the Governor''s pages print the order text in HTML and attach a signed PDF). Executive Order 2023-03D is therefore no longer a stub: the earlier stub rested on a scanner-made PDF with a poor text layer, which is a file of the same size (672,493 bytes) as the one the Governor''s page links as its attachment. In force: each order prints its own term (2019-15D ''will not expire unless it is rescinded''; 2022-07D ''remain in force unless rescinded''; 2023-03D expires ten calendar days after the Governor''s last day in office); whether a later order rescinded any of them could not be checked against the list (owner decision: confirm on the Governor''s list). Executive Order 2019-14D (InnovateOhio advisory board) was seen in web search; the Governor''s page address built from the 2019-15D pattern (''executive-order-2019-14D'') answered 200 with a ''Media'' page, not an order, and the address of 2019-14D was not found: left out, not examined. Executive Order 2022-02D (Russia and Ukraine: divestment and purchasing) was fetched in the first pass (3 pages) and is left out: it is not about state IT. Executive orders 2025-01D, 2025-07D and 2026-01D to 2026-05D were seen in search snippets as unrelated (return to office, TANF, Medicaid revalidation, recovery housing, student-athlete eligibility, dyed diesel). No Ohio executive order on AI was found in search; a GovTech piece names an ''Executive Order 26-02'' on AI that is not an Ohio numbering and was not pursued.'
+- text: 'Statutes about AI: R.C. 5162.90 and 5164.11 (the Department of Medicaid''s automated review tools, effective October 6, 2026) are the only provisions found that bind a state agency on AI, by web search and the codes.ohio.gov pages. Left out: R.C. 3301.24 (AI policy for school districts, community schools and STEM schools, H.B. 96, effective September 30, 2025; it binds local school entities and the Department of Education and Workforce''s model policy: K-12 is out of scope per domain.yml; owner decision if the Department''s model-policy duty should count). A Legislative Service Commission analysis of October 2025 describing a bill that would define ''state agency'' and AI systems was seen in search and not confirmed as enacted. ''Not found'' is stated only for the searches made: three web searches for ''artificial intelligence'' with state-agency terms and the full texts of 125.18, 125.183, 125.32, 125.70, 126.41, 126.506, 1347, 5922, 1306.21 and 1306.23.'
+- text: 'Statutes in chapter 125 seen on the chapter page and left out: 125.073 (promotes electronic procurement and reverse auctions: procurement-method law; left out as a section in a procurement chapter, pending the owner''s decision on section-level slicing of procurement chapters), 125.112 (web site listing contract awards; transparency of contracts), 125.182 (the official public notice web site, run by a newspaper trade association: not a state IT function), 125.20 (publishes state employee pay and tax credit databases: transparency, not IT governance; owner decision), 125.901 and 125.902 (the geographically referenced information program council, chaired by the state CIO but its text coordinates state-owned real property; owner decision), 125.903 (database of real property under state control) and the other procurement, surplus, fleet, printing and community rehabilitation sections of chapter 125 (the chapter page lists 86 section headings, read on 2026-11-12). The chapter page is a watch entry.'
+- text: 'Other statutes seen and left out: R.C. 9.64 (political subdivision cybersecurity: local government, out per the issue), R.C. 3301.24 (above), R.C. 1354.02 (affirmative defense for private businesses with cybersecurity programs: private persons), the rest of chapter 1306 (the Uniform Electronic Transactions Act between private persons; 1306.22 says the general assembly and courts need not use electronic records), R.C. 149.21 (uniform electronic legal material: legal publication), 149.45 and 149.434 (public offices'' personal information and employee databases: public records law), R.C. 5923.12 (military pay rates for the cyber reserve: a pay section of the militia chapter), and chapters 123 and 124 of title 1 (public works and personnel). Chapters 9, 125, 126, 149 and 1306 were read as chapter pages and filtered by section heading for information, technology, computer, electronic, cyber, data, digital, internet, system and record words; chapter 121 (State Departments) and the rest of title 1 were not read.'
+- text: 'Administrative Code: Title 123:3 (Office of Information Technology) lists two chapters (123:3-1, 123:3-2), both seeded; the DAS chapter 123-4 is seeded. Every other state agency adopts its own rule under R.C. 1347.15 on its employees'' access to confidential personal information, one chapter per agency in that agency''s title (the rule''s own definitions are 123:3-2): those agency rule chapters were not enumerated (the site''s search is an internal endpoint and was not used), so they are left out as a pattern, not counted (owner decision: enumerate them from the title pages if the corpus should hold them). Other titles of the Administrative Code were not searched for IT rules; the Ohio Cyber Reserve''s rules under R.C. 5922.02 were not searched for. The codes.ohio.gov rules pages are the Administrative Code as the Joint Committee on Agency Rule Review publishes it; each rule prints its effective date and a five-year review date, and no rule read is marked rescinded.'
+- text: 'Access terms, for the owner. https://codes.ohio.gov/robots.txt (fetched 2026-11-12, 26 bytes) reads ''User-agent: * Disallow: /'', a blanket disallow of every path for every agent. The toolkit Fetcher does not enforce robots.txt, and docs/spec.md decision 7 sets robots.txt and no-scrape terms aside for the pilot, so the Revised Code and Administrative Code pages were fetched (about 40 pages in all, at the Fetcher''s per-host rate); the owner should confirm that decision for Ohio, whose research row (docs/research/02-source-availability.md) rates it ''Medium: blanket robots disallow'', and whose codes.ohio.gov/legal/disclaimer was not re-read in this run. https://das.ohio.gov/robots.txt answers 200 (512 bytes): it disallows /wps/wcm/connect/gov/ohio+content+english/ (four spellings), /wps/portal/gov/das/search/, /search/ and the public records request pages, and names https://das.ohio.gov/sitemap.xml (which lists only five section pages, no policy). The policy pages (/technology-and-strategy/policies/...) and the standards'' PDFs (/wps/wcm/connect/gov/<id>/...) are outside those disallowed paths. https://governor.ohio.gov/robots.txt answers 200 with the same disallowed content paths and /search/; the order pages are outside them. https://dam.assets.ohio.gov/robots.txt answers 200 with comment lines only (no disallow). https://ohid.ohio.gov/robots.txt answers HTTP 403 (refused); the ohid.ohio.gov standards addresses answer 200 with a sign-in form (see the stubs). https://content.govdelivery.com/robots.txt answers 404.'
+- text: 'Fetching notes. Every request went through the toolkit Fetcher (src.ingest.make_fetcher) of the pinned corpus-toolkit v1.37.1, whose User-Agent is ''Mozilla/5.0 (compatible; OregonAI-CivicCorpus/1.37.1; +https://github.com/OregonAI/states-government-it)'' (printed from the Fetcher on 2026-11-12). The first pass recorded the User-Agent as ''OregonAI-CivicCorpus/1.26.1'', a toolkit older than the pin that was loaded from outside the worktree''s virtual environment (the system Python of the build machine has 1.26.1; the repository itself has no trace of which one ran), and that non-Mozilla form is the likely reason every das.ohio.gov, governor.ohio.gov, ohio.gov and procure.ohio.gov page answered 404 to that run: with v1.37.1 das.ohio.gov, governor.ohio.gov, ohio.gov and procure.ohio.gov answer 200. Each section or chapter page of codes.ohio.gov is one HTML file; the page prints the section''s own effective date, which is kept in the text, and the Code is ''updated on an ongoing basis'' by the Legislative Service Commission after its act review, so a very recent act may not yet be reflected (the page says so). The version printed is the current version. The DAS policy pages and the Governor''s order pages are HTML pages of the state''s web portal (IBM WebSphere): the content between the page''s heading and the end-of-body comment is read, with list numbers written out, and the policy''s own ''Effective:'' date is kept. The two standards'' PDFs and the charter have a text layer on every page.'

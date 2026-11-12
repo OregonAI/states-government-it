@@ -1,0 +1,84 @@
+IT-07 Electronic Records
+
+State of Ohio Administrative Policy
+No: IT-07 - Information Technology
+Effective: January 30, 2026
+Issued By: Kathleen C. Madden, Director
+
+I. Purpose
+The purpose of this electronic Records policy is to (a) establish uniform electronic Records guidelines for all Agencies; and (b) support the creation and maintenance of electronic records to ensure Integrity, usability and survivability. All defined terms are capitalized and a link to the glossary of definitions is found in section IV.
+
+II. Scope
+This policy applies to all state Agencies, boards, and commissions under the authority of the Governor (collectively referred to as Agency or Agencies).
+
+III. Policy
+
+A. Electronic information is a Record if it satisfies the criteria defined by Ohio law
+1. Electronic records are compilations of Data that are created or received by an Agency or Agency employee during the course of official duties and that document the organization, functions, policies, procedures, operations, or other activities of the office, as defined by ORC 149.011.
+2. In an electronic environment, Records may exist in structures other than that of familiar documents traditionally found in paper Record‐keeping systems.
+3. Electronic records may be Public Records as defined by ORC 149.43 and, thus, subject to the public access provisions of ORC 149.43 (B). Certain IT and telecommunications systems and systems infrastructure Records may not be subject to release. Information such as but not limited to configurations, schematics, IP addresses, systems administration, security controls, business continuity, and incident response may not constitute information subject to mandatory disclosure. Ensure “security Records” and “infrastructure Records” have been properly identified as required in ORC 149.433.
+4. Electronic Records are subject to audit and legal proceedings such as discovery and subpoenas.
+
+B. Electronic Records should be managed effectively as part of a comprehensive Records management program
+1. In accordance with ORC 149.34 (A), the "head of each state agency, office, institution, board, or commission shall...establish, maintain, and direct an active continuing program for the effective management of the Records of the state agency...".
+2. Employing Records management procedures (i.e., scheduling systems/files to allow for the legal Destruction of Data) will facilitate the most cost effective use of the state's computer resources.
+
+C. Agencies should keep and manage their electronic Records in compliance with standards, best practices and guidelines
+1. Agencies should make the fullest possible commitment to the required use of open, public, non‐proprietary standards that facilitate communication between multiple systems and software.
+2. American National Standards Institute or other industry‐wide standards, Office of Enterprise IT Architecture and Policy‐issued best practices should be used where applicable.
+
+D. Work processes and tools should support the creation and management of electronic Records
+1. Provision for adequate maintenance, Disposal and preservation of electronic Records should be built into work process and tools so that electronic Records management is a routine and time‐efficient activity. If private communication accounts or privately owned portable computing devices are permitted to conduct state business, Agencies shall ensure that electronic communication Records documenting state business are retained in accordance with the Agency’s Record retention schedule.
+2. Appropriate descriptive Data about electronic Records must be captured at the time of creation. Unlike paper Records, that Data cannot be determined at a later date.
+3. Appropriate Records management principles should be an essential component in the design of new systems or the upgrading of existing systems.
+
+E. Electronic Records should be created and maintained in reliable and secure systems
+1. Agencies should identify systems that create and maintain Records. The development, modification, operation and use of these systems should be documented and measures should be taken to ensure reliability and security of Records over time.
+2. Reliability refers to a Record's authority and trustworthiness at the time of creation. To ensure reliability, Agencies must establish procedures for creating official Records electronically.
+3. Agencies must take measures to prevent unauthorized access to electronic Records.
+4. Data must be captured that document the context, content and structure of electronic Records. Context establishes who created the Record and the transaction of which it was a part. Content is the actual Data. Structure is the format of the Record. Structure must be captured so that the Record can be migrated into the latest generation of hardware and software as necessary.
+
+F. In most cases, electronic Records should be maintained in electronic form, because preserving the context and structure of and facilitating access to those Records are best accomplished in the electronic environment
+1. Electronic Records can be classified as system‐dependent or –independent.
+2. System‐dependent Records are Records that require an electronic environment to provide meaning, context or accessibility. System‐dependent Records should be migrated at least every five years.
+3. System‐independent Records are Records that can exist independently of an electronic environment. System‐independent Records may be reformatted, with necessary metadata, into an eye‐readable media.
+
+G. Maintaining and providing access to electronic Records over time is a shared responsibility
+1. Records managers and information technology managers of the originating Agencies, the Department of Administrative Services' State Records Administrator and the State Archives of Ohio must work together to manage, preserve and provide access to electronic Records.
+2. Transferring all historically significant electronic Records from the originating Agencies to the State Archives is neither cost effective nor practically feasible. However, in cases where the State Archives does not take physical custody of electronic Records, staff will provide appropriate guidance to ensure long‐term accessibility and physical preservation consistent with the applicable retention schedule.
+
+IV. Definitions
+All defined terms are capitalized within the policy and the online glossary of definitions can be found at IT Policy Glossary - Department of Administrative Services.
+
+V. Authority
+ORC 125.18
+
+VI. Resources
+None
+
+VII. Inquiries
+
+Direct inquiries about electronic Records to:
+State Archives
+Ohio History Connection
+800 E. 17th Avenue
+Columbus, Ohio 4322811
+614-297-2536 | statearchives@ohiohistory.org
+
+Direct inquiries about this policy to:
+State IT Policy Manager
+Office of Information Technology
+Ohio Department of Administrative Services
+30 East Broad Street, 39th Floor
+Columbus, Ohio 43215
+1-614-466-6930 | DAS.State.ITPolicy.Manager@das.ohio.gov
+State of Ohio Administrative Policies may be found online at
+Policy Finder - Department of Administrative Services
+
+VIII. Revision History
+Date | Description of Change
+05/01/1999 | This Policy supersedes all previously released memoranda or policies on this topic.
+01/21/2005 | Removed responsibility references throughout the policy. Updated to current policy format. No substantive changes were made to policy content.
+10/13/2016 | Incorporated content from the rescinded Ohio IT Bulletins ITB‐2007.01, “Electronic Communication and Public Records,” and ITB‐2006.01, “Public Records Requests Concerning IT and Telecommunications Systems.” Transferred policy content to a new State of Ohio Administrative Policy Template. Re‐numbered policy to IT‐07 to be consistent with new numbering format.
+07/22/2021 | Updated the policy template to reflect the DAS director change.
+01/30/2026 | Updated the policy template.

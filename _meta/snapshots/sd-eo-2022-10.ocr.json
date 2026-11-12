@@ -1,0 +1,158 @@
+{
+  "agreement": 0.9387,
+  "dict_ratio": 0.9574,
+  "disagreements": [
+    {
+      "before": [],
+      "paddle": "",
+      "tesseract": "PD FS I oo BS FS SS a Se Fee"
+    },
+    {
+      "before": [
+        "OFFICE",
+        "OF",
+        "THE",
+        "GOVERNOR"
+      ],
+      "paddle": "EXECUTIVEORDER",
+      "tesseract": "EXECUTIVE ORDER"
+    },
+    {
+      "before": [
+        "Maintaining",
+        "the",
+        "cybersecurity",
+        "of"
+      ],
+      "paddle": "SouthDakota",
+      "tesseract": "South Dakota"
+    },
+    {
+      "before": [
+        "United",
+        "States",
+        "and",
+        "is"
+      ],
+      "paddle": "ownedby",
+      "tesseract": "owned by"
+    },
+    {
+      "before": [
+        "owned",
+        "by",
+        "Chinese",
+        "company"
+      ],
+      "paddle": "ByteDance",
+      "tesseract": "ByteDanee"
+    },
+    {
+      "before": [
+        "government",
+        "entities",
+        "including",
+        "the"
+      ],
+      "paddle": "UnitedStates",
+      "tesseract": "United States"
+    },
+    {
+      "before": [
+        "the",
+        "Transportation",
+        "Security",
+        "Administration"
+      ],
+      "paddle": "havebanned",
+      "tesseract": "haye banned"
+    },
+    {
+      "before": [
+        "on",
+        "TikTok",
+        "due",
+        "to"
+      ],
+      "paddle": "itsunique",
+      "tesseract": "its unique"
+    },
+    {
+      "before": [
+        "South",
+        "Dakota",
+        "NOW",
+        "THEREFORE"
+      ],
+      "paddle": "I",
+      "tesseract": ""
+    },
+    {
+      "before": [
+        "NOW",
+        "THEREFORE",
+        "Kristi",
+        "Noem"
+      ],
+      "paddle": "Governorof",
+      "tesseract": "Governor of"
+    },
+    {
+      "before": [
+        "or",
+        "state",
+        "leased",
+        "equipment"
+      ],
+      "paddle": "",
+      "tesseract": "ke te ee ae ee Pe eS a SS PS"
+    },
+    {
+      "before": [
+        "day",
+        "of",
+        "November",
+        "2022"
+      ],
+      "paddle": "Kristi Noe Governor",
+      "tesseract": "r"
+    },
+    {
+      "before": [
+        "of",
+        "South",
+        "Dakota",
+        "ATTEST"
+      ],
+      "paddle": "Steve TBarnelt",
+      "tesseract": "Mie Sarco te"
+    },
+    {
+      "before": [
+        "Barnett",
+        "Secretary",
+        "of",
+        "State"
+      ],
+      "paddle": "",
+      "tesseract": "Joa ee SSS eo ST"
+    }
+  ],
+  "engines": [
+    "tesseract (ocrmypdf)",
+    "paddleocr PP-OCRv6"
+  ],
+  "figure_agreement": 1.0,
+  "figures": 5,
+  "forced_rotation": false,
+  "glued": 0,
+  "paddle_sha256": "c367f13eb51ecf272e2b1c32cb354ed5b57e0e3c333945a4120d028ec29930f2",
+  "pdf_sha256": "0622bd49149406b0db715e3558a804e69db67260a0e5847a32ddaf0efd81a1b7",
+  "psm": null,
+  "text_sha256": "84d40e23a31fccd0b3891cd77a243b6ede1c2d97ab5544a49a50f958c82265ea",
+  "tools": {
+    "ocrmypdf": "15.2.0+dfsg1",
+    "tesseract": "tesseract 5.3.4"
+  },
+  "words": 446
+}

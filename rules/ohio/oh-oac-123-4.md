@@ -1,0 +1,172 @@
+---
+schema_version: 1
+corpus: states-government-it
+jurisdiction: ohio
+id: oh-oac-123-4
+title: Accessing Confidential Personal Information
+doc_type: rule
+citation: OAC ch. 123-4
+authority_level: ''
+issuing_body: Ohio Department of Administrative Services; published on Ohio Laws (codes.ohio.gov)
+source_url: https://codes.ohio.gov/ohio-administrative-code/chapter-123-4
+source_format: html
+retrieved: '2026-11-12'
+source_sha256: 0854007b963978f18de5856e5e735e7baefbb57ed2c4762aed9aeae7ab8e3ea3
+effective_date: null
+source_version: ''
+status: current
+content_mode: verbatim
+conversion_notes: 'Text taken from the page on codes.ohio.gov (Ohio Laws): the heading, then for each
+  section or rule its heading, the `Effective:` and `Latest Legislation:` (or `Promulgated Under:`) lines,
+  the paragraphs and the version history or supplemental information, one line per paragraph. The menus,
+  search form, breadcrumb, previous/next pager, the Download Authenticated PDF and View Version links
+  and the site''s ''Last updated'' note were removed. The page prints an effective date for each section
+  or rule, not for the document, so none is recorded for the document. Sections or rules marked repealed
+  or expired ride along as the page prints them.'
+last_verified: ''
+verified_by: ''
+maintainer: ''
+relationships:
+  implements: []
+  implemented_by: []
+  references_external: []
+  related: []
+  supersedes: []
+tags:
+- data
+- cybersecurity
+---
+
+> **NON-AUTHORITATIVE.** This is a convenience copy for machine reading. The official text is published at the source URL above. Verify at source before relying on it.
+
+# Accessing Confidential Personal Information (OAC ch. 123-4)
+
+## At a glance
+
+The Department of Administrative Services' own rules under R.C. 1347.15 on its employees' access to confidential personal information: procedures, valid reasons, confidentiality statutes, and restricting and logging access in computerized personal information systems (rules 123-4-01 to 123-4-05).
+
+## Full text
+
+Chapter 123-4 | Accessing Confidential Personal Information
+
+Rule 123-4-01 | Definitions.
+Effective: July 31, 2011
+Promulgated Under: 119.03
+For the purposes of Chapter 123-4 of the Administrative Code, the following definitions apply:
+(A) "Access" as a noun means an instance of copying, viewing, or otherwise perceiving whereas "access" as a verb means to copy, view, or otherwise perceive.
+(B) "Acquisition of a new computer system" means the purchase of a "computer system," as defined in this rule, that is not a computer system currently in place nor one for which the acquisition process has been initiated as of the effective date of the agency rule addressing requirements in section 1347.15 of the Revised Code.
+(C) "Agency" means the department of administrative services.
+(D) "Computer system" means a "system," as defined by section 1347.01 of the Revised Code, that stores, maintains, or retrieves personal information using electronic data processing equipment.
+(E) "Confidential personal information" (CPI) has the meaning as defined by division (A)(1) of section 1347.15 of the Revised Code and identified by rules promulgated by the agency in accordance with division (B)(3) of section 1347.15 of the Revised Code that reference the federal or state statutes or administrative rules that make personal information maintained by the agency confidential.
+(F) "Employee of the state agency" means each employee of a state agency regardless of whether he/she holds an elected or appointed office or position within the state agency. "Employee of the state agency" is limited to the specific employing state agency.
+(G) "Incidental contact" means contact with the information that is secondary or tangential to the primary purpose of the activity that resulted in the contact.
+(H) "Individual" means a natural person or the natural person's authorized representative, legal counsel, legal custodian, or legal guardian.
+(I) "Information owner" means the individual appointed in accordance with division (A) of section 1347.05 of the Revised Code to be directly responsible for a system.
+(J) "Person" means a natural person.
+(K) "Personal information" has the same meaning as defined in division (E) of section 1347.01 of the Revised Code.
+(L) "Personal information system" means a "system" that "maintains" "personal information" as those terms are defined in section 1347.01 of the Revised Code. "System" includes manual and computer systems.
+(M) "Research" means a methodical investigation into a subject.
+(N) "Routine" means commonplace, regular, habitual, or ordinary.
+(O) "Routine information that is maintained for the purpose of internal office administration, the use of which would not adversely affect a person" as that phrase is used in division (F) of section 1347.01 of the Revised Code means personal information relating to employees and maintained by the agency for internal administrative and human resource purposes.
+(P) "System" has the same meaning as defined by division (F) of section 1347.01 of the Revised Code.
+(Q) "Upgrade" means a substantial redesign of an existing computer system for the purpose of providing a substantial amount of new application functionality, or application modifications that would involve substantial administrative or fiscal resources to implement, but would not include maintenance, minor updates and patches, or modifications that entail a limited addition of functionality due to changes in business or legal requirements.
+Supplemental Information
+Authorized By: 1347.15
+Amplifies: 1347.15
+Five Year Review Date: 12/15/2026
+
+Rule 123-4-02 | Procedures for accessing confidential personal information.
+Effective: July 31, 2011
+Promulgated Under: 119.03
+For personal information systems, whether manual or computer systems, that contain confidential personal information, the agency shall do the following:
+(A) Criteria for accessing confidential personal information. Personal information systems of the agency are managed on a "need-to-know" basis whereby the information owner determines the level of access required for an employee of the agency to fulfill his/her job duties. The determination of access to confidential personal information shall be approved by the employee's supervisor and the information owner prior to providing the employee with access to confidential personal information within a personal information system. The agency shall establish procedures for determining a revision to an employee's access to confidential personal information upon a change to that employee's job duties including, but not limited to, transfer or termination. Whenever an employee's job duties no longer require access to confidential personal information in a personal information system, the employee's access to confidential personal information shall be removed.
+(B) Individual's request for a list of confidential personal information. Upon the signed written request of any individual for a list of confidential personal information about the individual maintained by the agency, the agency shall do all of the following:
+(1) Verify the identity of the individual by a method that provides safeguards commensurate with the risk associated with the confidential personal information;
+(2) Provide to the individual the list of confidential personal information that does not relate to an investigation about the individual or is otherwise not excluded from the scope of Chapter 1347. of the Revised Code; and
+(3) If all information relates to an investigation about that individual, inform the individual that the agency has no confidential personal information about the individual that is responsive to the individual's request.
+(C) Notice of invalid access.
+(1) Upon discovery or notification that confidential personal information of a person has been accessed by an employee for an invalid reason, the agency shall notify the person whose information was invalidly accessed as soon as practical and to the extent known at the time. However, the agency shall delay notification for a period of time necessary to ensure that the notification would not delay or impede an investigation or jeopardize homeland or national security. Additionally, the agency may delay the notification consistent with any measures necessary to determine the scope of the invalid access, including which individuals' confidential personal information invalidly was accessed, and to restore the reasonable integrity of the system.
+"Investigation" as used in this paragraph means the investigation of the circumstances and involvement of an employee surrounding the invalid access of the confidential personal information. Once the agency determines that notification would not delay or impede an investigation, the agency shall disclose the access to confidential personal information made for an invalid reason to the person.
+(2) Notification provided by the agency shall inform the person of the type of confidential personal information accessed and the date(s) of the invalid access.
+(3) Notification may be made by any method reasonably designed to accurately inform the person of the invalid access, including written, electronic, or telephone notice.
+(D) Appointment of a data privacy point of contact. The agency director shall designate an employee of the agency to serve as the data privacy point of contact. The data privacy point of contact shall work with the chief privacy officer within the office of information technology to assist the agency with both the implementation of privacy protections for the confidential personal information that the agency maintains and compliance with section 1347.15 of the Revised Code and the rules adopted pursuant to the authority provided by that chapter.
+(E) Completion of a privacy impact assessment. The agency director shall designate an employee of the agency to serve as the data privacy point of contact who shall timely complete the privacy impact assessment form developed by the office of information technology.
+Supplemental Information
+Authorized By: 1347.15
+Amplifies: 1347.15
+Five Year Review Date: 12/15/2026
+
+Rule 123-4-03 | Valid reasons for accessing confidential personal information.
+Effective: May 10, 2024
+Promulgated Under: 119.03
+Pursuant to the requirements of division (B)(2) of section 1347.15 of the Revised Code, this rule contains a list of valid reasons, directly related to the agency's exercise of its powers or duties, for which only employees of the agency may access confidential personal information (CPI) regardless of whether the personal information system is a manual system or computer system:
+Performing the following functions constitute valid reasons for authorized employees of the agency to access confidential personal information:
+(A) Responding to a public records request;
+(B) Responding to a request from an individual for the list of CPI the agency maintains on that individual;
+(C) Administering a constitutional provision or duty;
+(D) Administering a statutory provision or duty;
+(E) Administering an administrative rule provision or duty;
+(F) Complying with any state or federal program requirements;
+(G) Processing or payment of claims or otherwise administering a program with individual participants or beneficiaries;
+(H) Auditing purposes;
+(I) Licensure, permit, eligibility, filing, certifications or other similar processes;
+(J) Investigation or law enforcement purposes;
+(K) Administrative hearings;
+(L) Litigation, complying with an order of the court, or subpoena;
+(M) Human resource matters, including but not limited to hiring, promotion, demotion, discharge, salary and compensation issues, leave requests and related issues, time card approvals and related issues;
+(N) Complying with an executive order or policy;
+(O) Complying with an agency policy or a state administrative policy issued by the department of administrative services, the office of budget and management or other similar state agency; or
+(P) Complying with a collective bargaining agreement provision.
+Supplemental Information
+Authorized By: R.C. 1347.15
+Amplifies: R.C. 1347.15
+Five Year Review Date: 12/15/2026
+Prior Effective Dates: 7/31/2011
+
+Rule 123-4-04 | Confidentiality statutes.
+Effective: May 10, 2024
+Promulgated Under: 119.03
+The following federal statutes or regulations or state statutes and administrative rules make personal information maintained by the agency confidential and identify the confidential personal information within the scope of rules promulgated by this agency in accordance with section 1347.15 of the Revised Code:
+(A) For social security numbers, 5 U.S.C. 552a., as long as the individual has a reasonable expectation of privacy with respect to the social security number.
+(B) Section 109.5721 of the Revised Code and rule 4501:2-10-06 of the Administrative Code.
+(C) _To the extent the agency maintains personal information in a system defined by this chapter:
+(1) Sections 262 and 264 of the Health Insurance Portability and Accountability Act of 1996, 42 U.S.C 1320d-2 and 1320d-4; Pub. L. No. 104-191 as implemented in 45 C.F.R. Parts 160 and 164.
+(2) The Family Medical Leave Act of 1993, Pub. L. No. 103-3; 29 U.S.C. Sec. 2601 as implemented in 29 C.F.R. 825.500.
+(3) Section I of The Americans with Disabilities Act of 1990, 42 U.S.C. 12112(d).
+Supplemental Information
+Authorized By: R.C. 1347.15
+Amplifies: R.C. 1347.15
+Five Year Review Date: 12/15/2026
+Prior Effective Dates: 7/31/2011
+
+Rule 123-4-05 | Restricting and logging access to confidential personal information in computerized personal information systems.
+Effective: July 31, 2011
+Promulgated Under: 119.03
+For personal information systems that are computer systems and contain confidential personal information, the agency shall do the following:
+(A) Access restrictions. Access to confidential personal information that is kept electronically shall require a password or other authentication measure.
+(B) Acquisition of a new computer system. When the agency acquires a new computer system that stores, manages or contains confidential personal information, the agency shall include a mechanism for recording specific access by employees of the agency to confidential personal information in the system.
+(C) Upgrading existing computer systems. When the agency modifies an existing computer system that stores, manages or contains confidential personal information, the agency shall make a determination whether the modification constitutes an upgrade. Any upgrades to a computer system shall include a mechanism for recording specific access by employees of the agency to confidential personal information in the system.
+(D) Logging requirements regarding confidential personal information in existing computer systems.
+(1) The agency shall require employees of the agency who access confidential personal information within computer systems to maintain a log that records that access.
+(2) Access to confidential information is not required to be entered into the log under the following circumstances:
+(a) The employee of the agency is accessing confidential personal information for official agency purposes, including research, and the access is not specifically directed toward a specifically named individual or a group of specifically named individuals.
+(b) The employee of the agency is accessing confidential personal information for routine office procedures and the access is not specifically directed toward a specifically named individual or a group of specifically named individuals.
+(c) The employee of the agency comes into incidental contact with confidential personal information and the access of the information is not specifically directed toward a specifically named individual or a group of specifically named individuals.
+(d) The employee of the agency accesses confidential personal information about an individual based upon a request made under either of the following circumstances:
+(i) The individual requests confidential personal information about himself/herself.
+(ii) The individual makes a request that the agency takes some action on that individual's behalf and accessing the confidential personal information is required in order to consider or process that request.
+(3) For purposes of this paragraph, the agency may choose the form or forms of logging, whether in electronic or paper formats.
+(E) Log management. The agency shall issue a policy that specifies the following:
+(1) Who shall maintain the log;
+(2) What information shall be captured in the log;
+(3) How the log is to be stored; and
+(4) How long information kept in the log is to be retained.
+Nothing in this rule limits the agency from requiring logging in any circumstance that it deems necessary.
+Supplemental Information
+Authorized By: 1347.15
+Amplifies: 1347.15
+Five Year Review Date: 12/15/2026
+
+## Curator notes
+
+Text taken from the page on codes.ohio.gov (Ohio Laws): the heading, then for each section or rule its heading, the `Effective:` and `Latest Legislation:` (or `Promulgated Under:`) lines, the paragraphs and the version history or supplemental information, one line per paragraph. The menus, search form, breadcrumb, previous/next pager, the Download Authenticated PDF and View Version links and the site's 'Last updated' note were removed. The page prints an effective date for each section or rule, not for the document, so none is recorded for the document. Sections or rules marked repealed or expired ride along as the page prints them.

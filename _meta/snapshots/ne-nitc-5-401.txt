@@ -1,0 +1,27 @@
+                                                                        Nebraska Information Technology Commission
+                                                                                   Technical Standards and Guidelines
+
+5-401. Active Directory; user photographs.
+    (1) Purpose. Microsoft Active Directory has an attribute ("thumbnailPhoto") to store a
+thumbnail photograph of each user. Other applications, including Microsoft Outlook and the
+Exchange Global Address List, will display these photographs automatically in the context of
+providing information about the user. This policy provides guidance on the use of this feature in
+the state's shared Active Directory forest.
+   (2) Optional Use. Each agency has the option to use, or not use, the thumbnail photograph
+functionality in the state's shared Active Directory forest.
+    (3) Requirements. If an agency chooses to use the thumbnail photograph functionality, the
+following requirements will apply:
+     (a) Image file type: JPEG;
+     (b) Image file size: 10 KB or smaller;
+   (c) Image file name: Same as the user login ID plus the .jpg extension (for example,
+john.doe.jpg);
+     (d) Image size: 96x96 pixels is recommended;
+   (e) Image content: A recent head-and-shoulders photograph of the user (not an avatar, icon,
+drawing, etc.);
+     (f) The agency is responsible for obtaining photographs of their users;
+   (g) The agency must use the mechanism provided by the Office of the CIO for uploading
+agency image files; and
+     (h) The agency must not modify the Active Directory “thumbnailPhoto” attribute directly.
+--
+     History: Adopted on December 10, 2013. Amended on July 12, 2018.
+     URL: https://nitc.nebraska.gov/standards/5-401.pdf

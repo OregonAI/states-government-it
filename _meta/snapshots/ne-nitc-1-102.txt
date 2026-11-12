@@ -1,0 +1,24 @@
+                                                            Nebraska Information Technology Commission
+                                                                       Technical Standards and Guidelines
+
+1-102. Authority; applicability.
+    (1) Authority. These technical standards and guidelines are adopted pursuant to Neb. Rev.
+Stat. § 86-516, which provides:
+          “The commission shall: … (6) Adopt minimum technical standards, guidelines, and
+          architectures upon recommendation by the technical panel. Such standards and guidelines
+          shall not unnecessarily restrict the use of new technologies or prevent commercial
+          competition, including competition with Network Nebraska; ….”
+   (2) Applicability. These technical standards and guidelines apply to all state agencies,
+boards, and commissions, except the following:
+     (a) The Legislature;
+     (b) The Supreme Court and other judicial branch entities;
+   (c) Offices of the constitutional officers established in article IV of the Nebraska
+Constitution;
+     (d) Educational entities established in article VII of the Nebraska Constitution; and
+     (e) Such other agencies or entities established by the Nebraska Constitution.
+    (3) For the agencies and entities listed in subsections (2)(a) through (2)(e), standards or other
+mandatory requirements contained in these technical standards and guidelines should be treated
+as guidelines or recommendations.
+--
+     History: Adopted on March 12, 2020.
+     URL: https://nitc.nebraska.gov/standards/1-102.pdf

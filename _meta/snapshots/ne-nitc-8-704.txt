@@ -1,0 +1,18 @@
+                                                                    Nebraska Information Technology Commission
+                                                                               Technical Standards and Guidelines
+
+8-704. Logging.
+    All systems that handle HIGH IMPACT or MODERATE IMPACT information, allow
+interconnectivity with other systems, or make access control (authentication and authorization)
+decisions, must record and retain audit-logging information sufficient to answer the following
+questions:
+     (1) What activity was performed?
+    (2) Who or what performed the activity, including on what system the activity was
+performed?
+     (3) What the activity was performed on (object)?
+     (4) When was the activity performed?
+     (5) What tool(s) was the activity performed with?
+     (6) What was the status (such as success vs. failure), outcome, or result of the activity?
+--
+     History: Adopted on July 12, 2017. Amended on July 14, 2023.
+     URL: https://nitc.nebraska.gov/standards/8-704.pdf

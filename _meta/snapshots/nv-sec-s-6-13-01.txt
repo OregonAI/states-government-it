@@ -1,0 +1,62 @@
+                                     State of Nevada
+                               Information Security Committee
+
+                                             Standard
+Document ID       Title                                             Revision      Effective Date       Page
+  S.6.13.01       Data Protection                                       A           12/31/2020         1 of 2
+
+1.0   PURPOSE
+      This standard establishes the minimum requirements for data protection, as required to
+      implement the CIS Controls v7.1, Implementation Group 1.
+
+2.0   SCOPE
+      This standard applies to all state agencies and authorized users meeting the criteria identified in
+      the State Information Security Program Policy, Section 1.2, Scope and Applicability.
+
+3.0   EFFECTIVE DATES
+      This standard becomes effective at the time of approval of the State Chief Information Officer
+      (CIO).
+
+4.0   RESPONSIBILITIES
+      The agency head and appointed Information Security Officer (ISO) have the responsibility to
+      ensure the implementation of and compliance with this standard.
+
+5.0   RELATED DOCUMENTS
+      State Information Security Program Policy, 100
+      Data Sensitivity, S.3.02.01
+      Mobile and Non-State Device Security Management, S.4.02.02
+
+6.0   STANDARD
+
+      6.1     Mobile Data Encryption
+              Confidential, restricted, sensitive, or internal use data will only be maintained on mobile
+              devices if said data is encrypted in accordance with the identified data classification level.
+
+7.0   DEFINITIONS
+      None
+
+8.0   RESOURCES
+      Center for Internet Security (CIS), CIS Controls v7.1 Guide
+
+9.0   EXCEPTIONS
+      Requests for exception to the requirements of this Information Security Standard must be
+      documented, provided to the Office of Information Security (OIS), and approved by the State
+      Chief Information Security Officer (CISO).
+
+                                    State of Nevada
+                                Information Security Committee
+
+                                            Standard
+ Document ID      Title                                            Revision     Effective Date      Page
+   S.6.13.01      Data Protection                                     A          12/31/2020         2 of 2
+
+Approved By
+ Title                                                 Signature                          Approval Date
+ State Information Security Committee                  Approved by Committee                  11/19/2020
+ State Chief Information Security Officer (CISO)       Signature on File                      11/24/2020
+ State Chief Information Officer (CIO)                 Signature on File                      11/30/2020
+
+Document History
+ Revision      Effective Date   Change
+     A            12/31/2020    Initial release to align with CIS Controls v7.1, Implementation Group 1
+                                (IG1)

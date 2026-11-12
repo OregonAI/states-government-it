@@ -1,0 +1,9 @@
+                                                                                Nebraska Information Technology Commission
+                                                                                           Technical Standards and Guidelines
+
+7-103. SMTP routing standard.
+   All inbound and outbound SMTP traffic must be routed through the anti-spam and anti-virus
+appliance managed by the Office of the CIO.
+--
+     History: Adopted on June 27, 2007. Amended on March 4, 2008, and July 12, 2018.
+     URL: https://nitc.nebraska.gov/standards/7-103.pdf

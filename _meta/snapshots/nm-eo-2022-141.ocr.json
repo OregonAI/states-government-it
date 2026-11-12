@@ -1,0 +1,128 @@
+{
+  "agreement": 0.975,
+  "dict_ratio": 0.9831,
+  "disagreements": [
+    {
+      "before": [],
+      "paddle": "0 tM ic 0 Mi Govenor 4 I SGGEE",
+      "tesseract": "State of New Mexico Michelle Lujan Grisham Governor EXECUTIVE ORDER 2022 141 ESTABLISHING THE CYBER SECURITY PLANNING COMMITTEE"
+    },
+    {
+      "before": [
+        "the",
+        "Indian",
+        "Affairs",
+        "Department"
+      ],
+      "paddle": "1",
+      "tesseract": "L"
+    },
+    {
+      "before": [
+        "schedule",
+        "for",
+        "the",
+        "Committee"
+      ],
+      "paddle": "iii",
+      "tesseract": "ili"
+    },
+    {
+      "before": [
+        "Per",
+        "Diem",
+        "and",
+        "Mileage"
+      ],
+      "paddle": "Act",
+      "tesseract": "Acct"
+    },
+    {
+      "before": [
+        "performance",
+        "of",
+        "its",
+        "duties"
+      ],
+      "paddle": "7 If necessary",
+      "tesseract": "te Ifnecessary"
+    },
+    {
+      "before": [
+        "to",
+        "the",
+        "Task",
+        "Force"
+      ],
+      "paddle": "IFURTHER",
+      "tesseract": "I FURTHER"
+    },
+    {
+      "before": [
+        "and",
+        "DIRECT",
+        "as",
+        "follows"
+      ],
+      "paddle": "1",
+      "tesseract": "ls"
+    },
+    {
+      "before": [
+        "AT",
+        "THE",
+        "EXECUTIVE",
+        "OFFICE"
+      ],
+      "paddle": "Mazge IAnlouse Olei",
+      "tesseract": "Megp dotr CoA"
+    },
+    {
+      "before": [
+        "DAY",
+        "OF",
+        "SEPTEMBER",
+        "2022"
+      ],
+      "paddle": "MAGGI",
+      "tesseract": "MAGGIE"
+    },
+    {
+      "before": [
+        "STATE",
+        "OF",
+        "NEW",
+        "MEXICO"
+      ],
+      "paddle": "",
+      "tesseract": "8 e Mukdle am"
+    },
+    {
+      "before": [
+        "e",
+        "Mukdle",
+        "am",
+        "MICHELLE"
+      ],
+      "paddle": "hujan Bichen MICHELLE LUJAN",
+      "tesseract": "LUJA"
+    }
+  ],
+  "engines": [
+    "tesseract (ocrmypdf)",
+    "paddleocr PP-OCRv6"
+  ],
+  "figure_agreement": 0.9204,
+  "figures": 55,
+  "forced_rotation": false,
+  "glued": 2,
+  "paddle_sha256": "95e13c744ece69d2607ce7b7a2fc14c0a6f26be471353a887782b257851d2001",
+  "pdf_sha256": "7578e707ec1d6c0407cd6c42463f9ea32cff40c4a4eb83e8bafe2e8910a93a80",
+  "psm": null,
+  "text_sha256": "a38ea3dc9f215970f182def35522de60c323d37933f17b78dc901042cdc36e89",
+  "tools": {
+    "ocrmypdf": "15.2.0+dfsg1",
+    "tesseract": "tesseract 5.3.4"
+  },
+  "words": 947
+}

@@ -1,0 +1,14 @@
+                                                                                 Nebraska Information Technology Commission
+                                                                                            Technical Standards and Guidelines
+
+1-201. Information technology plans.
+     Neb. Rev. Stat. § 86-524.01 provides:
+          “On or before September 15 of each even-numbered year, all state agencies, boards, and
+          commissions shall report to the Chief Information Officer, in a format determined by the
+          commission, an information technology plan that includes an accounting of all
+          technology assets, including planned acquisitions and upgrades."
+    The form posted at the following URL is the approved format for information technology
+plans: https://cioapps.nebraska.gov/ITPlan.
+--
+     History: Adopted on June 18, 2008. Amended on July 12, 2010; May 29, 2012; August 14, 2014; July 14, 2016; and July 12, 2018.
+     URL: https://nitc.nebraska.gov/standards/1-201.pdf

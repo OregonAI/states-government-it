@@ -1,0 +1,51 @@
+                       Endpoint Protection and Connectivity Standard
+
+Introduction
+Oklahoma Cyber Command is responsible for protecting state users, their managed devices, and
+connectivity to data and applications. Oklahoma Cyber Command’s top priority is safeguarding
+the state’s data and computer infrastructure against unauthorized data use, disclosure,
+modification, damage and loss.
+
+Purpose
+This document defines the authority and services provided by Oklahoma Cyber Command.
+
+Standard
+Oklahoma Cyber Command is required to provide information security services to all state
+agencies, as defined in Title 62 O.S. §§ 34.11.1, including, but not limited to the following endpoint
+protection and connectivity services:
+    • Endpoint management and resilience.
+    • Endpoint Detection and Response (EDR).
+    • Endpoint encryption.
+    • Secure Web Gateway (SWG).
+    • Virtual Private Network (VPN).
+    • Multi-Factor Authentication (MFA).
+    • Privilege Access Management (PAM).
+    • Individual and shared account password management.
+    • Virtual Desktop Infrastructure (VDI).
+
+It is the responsibility of Oklahoma Cyber Command to interpret, design, implement and manage
+required regulatory controls. Staff performing similar functions within state agencies must
+collaborate and coordinate all activities with Oklahoma Cyber Command and defer interpretation
+of regulations and final decisions/solutions to Oklahoma Cyber Command.
+
+Compliance
+This standard shall take effect upon publication and is made pursuant to Title 62 O.S. §§ 34.11.1
+and 34.12 and Title 62 O.S. § 35.8. OMES IS may amend and publish the amended standards
+policies and standards at any time. Compliance is expected with all published policies and
+standards, and any published amendments thereof. Employees found in violation of this standard
+may be subject to disciplinary action, up to and including termination.
+
+Rationale
+To ensure efficient, secure, and cost-effective delivery of essential public services, all state agency
+IT purchases and projects must receive central approval. This allows the Chief Information Officer
+to evaluate agency needs and capabilities, strengthen data protection and security, and streamline
+and consolidate systems to reduce costs for taxpayers.
+
+References
+   • Oklahoma OMES Cyber Command.
+
+Revision history
+This standard is subject to periodic review to ensure relevancy.
+ Effective date: 12/12/2023           Review cycle: Annual
+ Last revised: 12/12/2023             Last reviewed: 09/02/2026
+ Approved by: Dan Cronin, Chief Information Officer

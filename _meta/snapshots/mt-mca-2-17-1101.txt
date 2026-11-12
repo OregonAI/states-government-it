@@ -1,0 +1,30 @@
+Montana Code Annotated 2025
+TITLE 2. GOVERNMENT STRUCTURE AND ADMINISTRATION
+CHAPTER 17. PROPERTY AND SYSTEMS DEVELOPMENT AND MANAGEMENT
+Part 11. Montana Digital Government Services Act
+
+2-17-1101. Short title. This part may be cited as the "Montana Digital Government Services Act".
+History: En. Sec. 1, Ch. 265, L. 2001; amd. Sec. 20, Ch. 365, L. 2023.
+
+2-17-1102. Definitions. As used in this part, unless the context requires otherwise, the following definitions apply:
+(1) "Convenience fee" means a fee charged to recover the costs of providing digital government services.
+(2) "Costs" means the overall costs that the department may incur to provide digital government services, including the costs of contracts entered into with private entities to assist in providing digital government services.
+(3) "Department" means the department of administration provided for in 2-15-1001.
+(4) "Infrastructure" means the underlying technology necessary to provide digital government services.
+History: En. Sec. 2, Ch. 265, L. 2001; amd. Sec. 2, Ch. 274, L. 2015; amd. Sec. 21, Ch. 365, L. 2023.
+
+2-17-1103. Responsibilities of department for digital government. (1) The department shall:
+(a) provide the ability for state agencies to offer digital government services by providing a reasonable and secure infrastructure;
+(b) provide a point of entry for digital government services to achieve a single face of government;
+(c) encourage a common look and feel for all digital government services for the benefit of the customers of the services;
+(d) set technological standards for digital government services;
+(e) use technology that enables the greatest number of customers to obtain access to digital government services;
+(f) promote the benefits of digital government services through educational, marketing, and outreach initiatives;
+(g) promote transparency in information management; and
+(h) share and coordinate information with political subdivisions whenever possible.
+(2) To fulfill the responsibilities in subsection (1), the department may contract with private entities. The department may charge convenience fees and may allow private entities to collect the convenience fees on selected digital government services in order to provide funding for the support and furtherance of digital government services.
+(3) The department or a private entity under a contract as provided in subsection (2) may not use any data associated with providing digital government services for any purpose that is not provided for by law.
+History: En. Sec. 3, Ch. 265, L. 2001; amd. Sec. 3, Ch. 274, L. 2015; amd. Sec. 22, Ch. 365, L. 2023.
+
+2-17-1104. Rulemaking. The department may adopt rules to implement this part.
+History: En. Sec. 4, Ch. 265, L. 2001.

@@ -1,0 +1,43 @@
+                                                          Nebraska Information Technology Commission
+                                                                     Technical Standards and Guidelines
+
+8-103. Roles and responsibilities.
+    (1) State Agencies. Agencies that create, use, or maintain information systems for the state
+must establish and manage an information security program consistent with this policy to ensure
+the confidentiality, availability, and integrity of the state’s information assets. Agencies may
+work with the Office of the Chief Information Officer for assistance with implementing an
+information security program.
+    (2) Office of the Chief Information Officer. The Office of the Chief Information Officer is
+responsible for recommending policies and guidelines for acceptable and cost-effective use of
+information technology in noneducation state government.
+    (3) State Information Security Officer. The state information security officer serves as a
+security consultant to agencies and agency information security officers to assist the agencies in
+meeting the requirements of this policy and other policies. The state information security officer
+may also perform assessments of agency security for risk and compliance with this policy and
+other security related policies and frameworks as applicable.
+    (4) Agency Information Security Officer. An agency information security officer may be
+designated at the discretion of the agency. The agency information security officer has the
+responsibility for ensuring implementation, enhancement, monitoring, and enforcement of
+information security policies and standards for their agency. The agency information security
+officer may collaborate with the Office of the CIO on information security initiatives within the
+agency.
+    (5) Nebraska Information Technology Commission. The Nebraska Information Technology
+Commission is the owner of this policy with statutory responsibility to adopt minimum technical
+standards, guidelines, and architectures.
+    (6) Technical Panel. The Technical Panel is responsible for recommending technical
+standards and guidelines to be considered for adoption by the Nebraska Information Technology
+Commission.
+    (7) State Government Council. The State Government Council is an advisory group chartered
+by the Nebraska Information Technology Commission to provide recommendations relating to
+state government agencies.
+    (8) Security Architecture Workgroup. The Security Architecture Workgroup is chartered by
+the State Government Council to make recommendations to the State Government Council and
+Technical Panel on matters relating to security within state government; provide information to
+state agencies, policy makers, and citizens about real or potential security threats or
+
+vulnerabilities that could impact state business; document and communicate existing problems,
+potential points of vulnerability, and related risks; and determine security requirements of state
+agencies stemming from state and federal laws, regulations, and other applicable standards.
+--
+     History: Adopted on July 12, 2017. Amended on March 12, 2020 and July 8, 2021.
+     URL: https://nitc.nebraska.gov/standards/8-103.pdf

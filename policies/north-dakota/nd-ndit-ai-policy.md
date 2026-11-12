@@ -1,0 +1,385 @@
+---
+schema_version: 1
+corpus: states-government-it
+jurisdiction: north-dakota
+id: nd-ndit-ai-policy
+title: Artificial Intelligence Policy
+doc_type: policy
+citation: 'NDIT: Artificial Intelligence Policy'
+authority_level: ''
+issuing_body: North Dakota Information Technology (NDIT)
+source_url: https://www.ndit.nd.gov/sites/default/files/documents/about-Us/it-governance/doc/Artificial-Intelligence-Policy.pdf
+source_format: pdf
+retrieved: '2026-11-12'
+source_sha256: 2bf88d2ea5a63e69d6dfeeb0cf482640d85135acf7ae24e685b0a44e1ae84918
+effective_date: null
+source_version: ''
+status: current
+content_mode: verbatim
+conversion_notes: Text extracted with pdftotext -layout (page headers, footers and column layout kept
+  as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their
+  letters).
+last_verified: ''
+verified_by: ''
+maintainer: ''
+relationships:
+  implements: []
+  implemented_by: []
+  references_external: []
+  related: []
+  supersedes: []
+tags:
+- ai
+- governance
+- data
+- cybersecurity
+---
+
+> **NON-AUTHORITATIVE.** This is a convenience copy for machine reading. The official text is published at the source URL above. Verify at source before relying on it.
+
+# Artificial Intelligence Policy (NDIT: Artificial Intelligence Policy)
+
+## At a glance
+
+The statewide policy on use of artificial intelligence by executive branch state agencies (the PDF prints Created 8/10/2023, Revised and Reviewed 11/17/2025). Listed first on the IT Policies page.
+
+## Full text
+
+                                                                                    Created: 8/10/2023
+                                                                                   Revised: 11/17/2025
+                                                                                  Reviewed: 11/17/2025
+
+                                 Artificial Intelligence Policy
+
+INTRODUCTION
+
+1.0 PURPOSE
+The purpose of the Artificial Intelligence (AI) Policy is to embrace the innovative benefits AI can
+provide to increase productivity and citizen experience, while reducing risks and concerns in
+using this emerging technology. This policy protects the safety, privacy, and intellectual property
+rights of the State of North Dakota by ensuring all forms of AI are handled in a transparent,
+consistent, responsible, ethical and secure manner.
+
+2.0 BACKGROUND
+Artificial Intelligence develops data processing systems that perform functions normally
+associated with human intelligence, such as reasoning, learning, and self-improvement.
+Generative AI is a prevalent example of AI and includes examples such as chatbots, virtual
+assistants, and other systems based on it, including:
+
+    •   Standalone systems (i.e. OpenAI ChatGPT, DALL-E, Microsoft Copilot)
+
+    •   Integrated as features within search engines (i.e. Microsoft Copilot for Bing, Google
+        Gemini)
+
+    •   Embedded in other software tools (i.e. Adobe Acrobat AI Assistant)
+
+Generative AI tools can enhance productivity by assisting with tasks, like drafting documents,
+editing text, generating ideas, creating images, and software coding. However, these
+technologies also come with potential risks that include inaccuracies, bias, and unauthorized use
+of intellectual property in generated content. Content created by AI, and the public availability
+of information submitted to AI, could pose security and privacy concerns.
+
+Cybersecurity is one of the greatest challenges facing organizations in North Dakota State
+Government. Protecting information and communications technology (ICT) from threats and
+vulnerabilities is critical to ensuring that the confidentiality, availability, and integrity of citizen
+and organizational data remains protected.
+
+                                                                                                           1
+
+                                                                                 Created: 8/10/2023
+                                                                                Revised: 11/17/2025
+                                                                               Reviewed: 11/17/2025
+
+3.0 SCOPE
+This policy applies to all North Dakota executive branch state agencies including the University
+Systems Office, but excluding other higher education institutions, i.e., campuses and agricultural
+and research centers. All other state agencies outside the scope of this policy are encouraged to
+adopt this policy or use it to frame their own policy.
+
+4.0 STATEMENT OF MANAGEMENT COMMITMENT
+The North Dakota Chief Information Officer (CIO) directs that Information Technology (IT) Policy
+be created, as defined within the North Dakota Century Code (Chapter 54-59-09). The NDIT
+Governance Review Team is responsible for review and updating of this policy. Reviews and
+updates to the policy and procedures will be a coordinated effort, routinely reviewed, and
+updated annually, or as immediate changes are required.
+
+North Dakota’s Chief Information Security Officer (CISO) directs that this policy is created to
+provide appropriate security and privacy safeguards and countermeasures against the threats
+and vulnerabilities that may impact the confidentiality, integrity, and/or availability of
+information and information systems.
+
+5.0 GOVERNANCE AND COMPLIANCE
+Violations of this policy will be handled in accordance with applicable State of ND policies,
+procedures, laws, executive orders, directives, regulations, standards, and guidelines. Team
+members may report non-compliance with this policy to the NDIT Security Governance, Risk,
+and Compliance team for initial review. The Report for Non-Compliance is completed through
+NDIT’s ServiceNow platform. NDIT will address submissions with Entity leadership.
+
+This policy shall take effect upon publication. Compliance is expected with all State policies,
+procedures, and standards. Policies, procedures, and standards may be amended at any time.
+
+If compliance with this policy is not feasible or technically possible, or if deviation from this
+policy is necessary to support business function, entities shall request an exception through
+NDIT’s exception process. Exceptions to this policy shall be requested though the Policy
+Exceptions request.
+
+                                                                                                    2
+
+                                                                                Created: 8/10/2023
+                                                                               Revised: 11/17/2025
+                                                                              Reviewed: 11/17/2025
+
+6.0 DEFINITIONS
+Agentic Artificial Intelligence (AI Agent) – “Agentic” refers to the capability of an artificial
+intelligence system to operate with a degree of autonomy in pursuing assigned objectives. An AI
+Agent is a software-based system that uses artificial intelligence methods to perceive inputs,
+make context-aware decisions, and take actions—either digital or physical—toward achieving
+defined goals. AI Agents may perform tasks on behalf of individuals or organizations, can
+interact with other systems or users, and may adapt their behavior based on data, rules, or
+learned patterns.
+
+Artificial Intelligence (AI) – A field in computer science that focuses on independent decisions
+based on supervised and unsupervised learning.
+
+Business Owner – An Entity’s senior or executive team member who is responsible for the
+security and privacy interests of organizational systems and supporting mission and business
+functions.
+
+Data Owner – Individual/individuals responsible and accountable for data assets.
+
+Data Steward – Individual/individuals with assigned responsibility for the direct operational-
+level management of data.
+
+Deep Learning – A subfield of machine learning that focuses on algorithms that adaptively
+learn from data without instruction or labeling. Also referred to as "unsupervised learning."
+
+       Examples: self-driving cars, facial recognition, ChatGPT et al.
+
+Generative AI – A type of AI that uses machine learning to generate new outputs based on
+training data. Generative AI algorithms can produce brand new content in the form of images,
+text, audio, code, or synthetic data.
+
+Large Language Models (LLMs) – A type of AI that has been trained on large amounts of text
+and datasets to understand existing content and generate original content.
+
+Machine Learning (ML) – A subfield of AI that focuses on the development of algorithms and
+statistical models to make independent decisions, but still needs humans to guide and correct
+inaccurate information. ML is the most common type of AI.
+
+7.0 POLICY
+It is important for entities and users to identify the characteristics of trustworthy AI systems so
+organizations can continue innovation and growth through AI while reducing risks.
+
+                                                                                                      3
+
+                                                                                      Created: 8/10/2023
+                                                                                     Revised: 11/17/2025
+                                                                                    Reviewed: 11/17/2025
+
+7.1 VALID AND RELIABLE
+AI technologies shall be reliable and consistently valid or accurate in their responses.
+
+       • Entities shall confirm the validity and reliability of output produced by AI technologies.
+
+7.2 TRANSPARENCY1
+Increased transparency increases trust in AI technology. AI technology transparency utilized with
+risk management strategy, can minimize the impact of risks and negative outcomes.
+Transparency on use of AI shall be clearly explained and understandable.
+
+       •   Entities shall be transparent about AI technologies and their outputs, disclosing where
+           citizens are interacting with AI, the outcome and/or impact (if applicable), and the
+           business purposes where AI is used.
+
+       •   When using medium to high-risk data outlined in the Data Classification Policy, entities
+           shall ensure all systems and processes employing artificial intelligence (AI) for decision-
+           making, or output generation, be clearly marked to enhance transparency and
+           accountability. The decision to inform end-users about the use of AI falls under the
+           discretion of the business process owner.
+
+7.3 ACCOUNTABILITY1
+       •   Entities shall ensure AI used within systems is securely developed, assessed for risk, and
+           monitored regularly.
+
+       •   Entities shall ensure a governance structure is in place to control and monitor both
+           agentic AI development and activity, as well as the quality, integrity, and security of data
+           used as input to these systems.1
+
+       •   Entities shall ensure AI is used responsibly, works correctly, and follows all relevant laws,
+           rules, policies, procedures, standards, guidelines, and best practices.
+
+7.4 SECURITY AND RISK MANAGEMENT
+Entities utilizing AI system technologies shall incorporate NDIT’s Security Risk Management
+
+1
+    Refer to NDIT Artificial Intelligence Guidelines for implementation guidance.
+
+                                                                                                       4
+
+                                                                                 Created: 8/10/2023
+                                                                                Revised: 11/17/2025
+                                                                               Reviewed: 11/17/2025
+
+Program (SRMP) into system development and operations.
+
+   •   Privacy impact assessments, third-party and security risk assessments shall be conducted
+       regularly to ensure that security, safety, confidentiality, civil liberties, civil rights, and
+       privacy are protected while continuing to promote and empower the use of AI to benefit
+       the State of North Dakota and its citizens.
+
+   •   Users shall not input any content into public, non-state managed AI/ML technology
+       services (i.e. ChatGPT) that contains moderate-risk or high-risk data based on the NDIT
+       Data Classification Policy. Low-risk data, which is publicly available data, is permitted for
+       use with public, non-state managed AI/ML technologies.
+
+   •   The data/business owner shall establish appropriate controls and risk mitigation
+       strategies with advisement from NDIT to mitigate identified risks and ensure the use of
+       AI does not compromise the safety, soundness, or integrity of the Entity’s data and
+       systems.
+
+   •   Team members shall not reuse any state-managed passwords to log into third-party
+       applications that are not managed by the State’s digital identity management solution
+       (Single Sign-On). See guidelines for more information on best pratices.1
+
+    7.4.1       Training
+
+            •   NDIT shall provide general AI training to State Agencies. Details of available
+                training options are outlined in the “Artificial Intelligence Guidelines”1.
+
+            •   The data/business owner shall provide role-based training for team members for
+                specific and unique AI technologies used for their business purposes.
+
+    7.4.2 Use of Approved Products
+
+            • All AI technologies shall be properly vetted by NDIT, including free software
+                services.
+
+            • An AI technology inventory list shall be maintained by NDIT.
+
+            •   Entities shall use approved technologies that have undergone IT Review and
+                vetting via NDIT Initiative Intake processes. Due to the rapid evolution of AI-based
+                tools, IT Reviews will be completed as significant changes arise.
+
+                                                                                                       5
+
+                                                                                Created: 8/10/2023
+                                                                               Revised: 11/17/2025
+                                                                              Reviewed: 11/17/2025
+
+    7.4.3 Privacy
+
+         • The data/business owner shall comply with all applicable data protection and
+             privacy laws, regulations, and guidelines.
+
+         • If citizen, entity, and regulated data is collected, it shall be stored, processed, and
+             shared in a secure and confidential manner, with explicit consent obtained (where
+             required), as stated in the Privacy Policy.
+
+         • Entities shall design and implement procedures for specific AI technologies being
+             used.
+
+         • Entities and users shall evaluate the accuracy and compliance of AI technologies on
+             a regular basis.
+
+7.5 ETHICS, FAIRNESS, AND BIAS1
+         •    AI technologies shall be ethical, fair, and unbiased in a manner that isn’t
+              discriminatory and negatively affects a specific group of people.
+
+         •    Human rights, civil liberties, and dignity shall be protected while making the
+              selection of AI technologies and using their output.
+
+         •    Users and entities shall ensure that AI technologies use an ethical and fair
+              representation of culture, economics, and society within their data sets, and that
+              the benefits are available to all citizens.
+
+7.6 LEGAL AND COPYRIGHT
+AI uses data models to generate output, and submitted data may incorporate source materials
+that are owned by individuals or organizations, especially using public AI sources. Source
+material generated into output, if used without permission, could violate copyright or licensing
+terms.
+
+    •    End-user licensing agreements, terms of use, privacy policies, and other legal
+         documents shall be reviewed in detail to determine the risks and legal parameters for
+         use of AI.1
+
+    •    The U.S. Copyright Office has determined AI-generated content is not protected by
+         copyright. Content must be human authored to be considered protected under
+                                                                                                     6
+
+                                                                             Created: 8/10/2023
+                                                                            Revised: 11/17/2025
+                                                                           Reviewed: 11/17/2025
+
+        copyright laws.
+
+    •   Use of AI technology is subject to open records as defined in NDCC 44-04-18. Open
+        records policy is not bound to any specific system, device or platform, nor by its owner.
+
+8.0 REVISION HISTORY
+   Date       Authored/Reviewed            Approved by          Version       Description of
+                     by                                                          Change
+
+ 8/14/2023        NDIT AI Team             Josh Kadrmas           0.1       Initial draft created
+
+ 9/1/2023         NDIT AI Team             Josh Kadrmas           0.2      Policy section created
+
+ 9/8/2023         NDIT AI Team             Josh Kadrmas           0.3         Policy updates
+
+ 9/12/2023        NDIT AI Team             Josh Kadrmas           0.4         Policy updates
+
+11/16/2023        NDIT AI Team             Josh Kadrmas           0.5         Policy updates
+
+12/11/2023        NDIT AI Team            Jason Anderson          0.6         Policy updates
+
+12/21/2023        NDIT AI Team            Jason Anderson          0.7         Policy updates
+
+ 1/3/2023         NDIT AI Team            Jason Anderson          0.8         Policy updates
+
+ 1/31/2024        NDIT AI Team          Governance Review         1.0          Finalize draft,
+                                              Team                               published
+
+ 2/8/2024         NDIT AI Team          Governance Review         1.1      Transparency section,
+                                              Team                            labeling AI use
+
+12/10/2024          NDIT GRT            Governance Review         1.2         Annual Review
+                                              Team
+
+11/17/2025          NDIT GRT            Governance Review         1.3     Policy updates, Annual
+                                         Team (pending)                           Review
+
+                                                                                                    7
+
+                                                                                  Created: 8/10/2023
+                                                                                 Revised: 11/17/2025
+                                                                                Reviewed: 11/17/2025
+
+                       APPENDIX. SUPPLEMENTAL GUIDANCE
+
+RESOURCES
+  •   National Institute of Standards and Technology (NIST):
+          o   Artificial Intelligence Risk Management Framework (AI RMF 1.0)
+          o   NIST SP 1270 Towards a Standard for Identifying and Managing Bias in Artificial
+              Intelligence
+  •   AI Supplementary Guidance: ndgov.sharepoint.com/sites/TeamND/SitePages/Artificial-
+      Intelligence
+  •   NDIT Artificial Intelligence Guideline:
+
+ADDITIONAL GUIDANCE
+  •   National Artificial Intelligence Initiative: The National Artificial Intelligence Initiative (NAII)
+      National Artificial Intelligence Initiative
+  •   United Nations Educational, Scientific, and Cultural Organization (UNESCO):
+      Recommendations on the Ethics of Artificial Intelligence
+  •   Microsoft 365 Definitions of AI: Unleash your productivity with AI and Microsoft 365
+      Copilot - Microsoft Support
+  •   Gartner: Gartner Information Technology Glossary
+  •   The United States Copyright Office: Copyright Registration Guidance: Works Containing
+      Material Generated by Artificial Intelligence
+
+  •   Artificial Intelligence Risk Management Framework: Generative Artificial Intelligence
+      Profile
+  •   Center for AI Standards and Innovation (CAISI) | NIST
+
+                                                                                                       8
+
+## Curator notes
+
+Text extracted with pdftotext -layout (page headers, footers and column layout kept as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their letters).

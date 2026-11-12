@@ -1,0 +1,14 @@
+                                                                               Nebraska Information Technology Commission
+                                                                                          Technical Standards and Guidelines
+
+7-203. IP communication protocol standard for synchronous distance learning and
+videoconferencing over Network Nebraska.
+    (1) Purpose. The purpose of this standard is to implement a consistent communication
+protocol to be used by all entities wishing to pass synchronous, interactive teleconference video
+over Network Nebraska.
+   (2) Standard. All state agencies, entities that receive state funding for telecommunications,
+and entities that wish to pass synchronous video over Network Nebraska must use IP as their
+communication protocol for synchronous video.
+--
+     History: Adopted on November 13, 2003. Renumbered on July 12, 2018 (previously was § 7-401). Amended on July 12, 2018.
+     URL: https://nitc.nebraska.gov/standards/7-203.pdf

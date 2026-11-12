@@ -1,0 +1,15 @@
+                                                          Nebraska Information Technology Commission
+                                                                     Technical Standards and Guidelines
+
+8-904. Data security control assessment.
+    Each agency shall perform a security control assessment that assesses the adequacy of
+security controls for compliance with this policy and any applicable security frameworks (e.g.,
+NIST, PCI, CMS, and IRS). The assessment may be performed internally by the agency
+information security officer or with the assistance of the state information security officer. Each
+agency is required to have an assessment at least once every year, covering at least one-third of
+the applicable controls such that all control areas have been assessed over a three-year period.
+Agencies are also required to perform an assessment anytime significant changes to the technical
+environment occur.
+--
+     History: Adopted on July 12, 2017.
+     URL: https://nitc.nebraska.gov/standards/8-904.pdf

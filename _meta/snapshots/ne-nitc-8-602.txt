@@ -1,0 +1,18 @@
+                                                                       Nebraska Information Technology Commission
+                                                                                  Technical Standards and Guidelines
+
+8-602. Application code.
+    (1) Access to source code libraries for both agency business applications and operating
+systems must be tightly controlled to ensure that only authorized individuals have access to these
+libraries and that access is logged to ensure all activity can be monitored.
+     (2) All application code must be on a vendor-supported version.
+     (3) All associated libraries, code, and software must be on a vendor-supported version.
+    (4) All application source code must be backed up and access restricted to authorized
+personnel only.
+    (5) Application changes are required to go through a software development life cycle process
+that ensures the confidentiality of information, and integrity and availability of source and
+executable code. Application changes must follow the change management process as defined in
+section 8-202.
+--
+     History: Adopted on July 12, 2017. Amended on November 8, 2024.
+     URL: https://nitc.nebraska.gov/standards/8-602.pdf

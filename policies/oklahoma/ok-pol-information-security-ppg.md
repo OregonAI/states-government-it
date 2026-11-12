@@ -1,0 +1,242 @@
+---
+schema_version: 1
+corpus: states-government-it
+jurisdiction: oklahoma
+id: ok-pol-information-security-ppg
+title: Information Security Policy, Procedures and Guidelines
+doc_type: policy
+citation: OMES Information Security Policy, Procedures and Guidelines, Version 2.1
+authority_level: ''
+issuing_body: Office of Management and Enterprise Services, Information Services
+source_url: https://oklahoma.gov/content/dam/ok/en/omes/documents/InfoSecPPG.pdf
+source_format: pdf
+retrieved: '2026-11-12'
+source_sha256: 3d022f6897231389d870c7139f7fb9cdfbb4602c9494504bbd2d27195c01a750
+effective_date: null
+source_version: ''
+status: current
+content_mode: verbatim
+conversion_notes: Text extracted with pdftotext -layout (page headers, footers and column layout kept
+  as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their
+  letters).
+last_verified: ''
+verified_by: ''
+maintainer: ''
+relationships:
+  implements: []
+  implemented_by: []
+  references_external: []
+  related: []
+  supersedes: []
+tags:
+- cybersecurity
+---
+
+> **NON-AUTHORITATIVE.** This is a convenience copy for machine reading. The official text is published at the source URL above. Verify at source before relying on it.
+
+# Information Security Policy, Procedures and Guidelines (OMES Information Security Policy, Procedures and Guidelines, Version 2.1)
+
+## At a glance
+
+The compilation of the information security standards for the State of Oklahoma: the minimum security posture for state agency information systems and for vendors providing on-premises or cloud systems to the state (Version 2.1, revised September 2025 on its cover).
+
+## Full text
+
+                                                                                      Information Security
+                                                                         Policy, Procedures and Guidelines
+
+   STATE OF OKLAHOMA
+ INFORMATION SECURITY
+POLICY, PROCEDURES AND
+     GUIDELINES (PPG)
+
+   Version 2.1 Revised September 2025 | Office of Management and Enterprise Services | Information Services
+
+                                                                                            Information Security
+                                                                                  Policy, Procedures, Guidelines
+
+           THIS PAGE LEFT BLANK
+
+Version 2.1 Revised July 2025 | Office of Management and Enterprise Services | Information Services
+
+                                                                                                   Information Security
+                                                                                      Policy, Procedures and Guidelines
+
+INTRODUCTION
+
+This document is a compilation of the Information Security standards for the State of Oklahoma
+and provides an easy reference to the published security standards for the state.
+
+These standards describe the minimum acceptable security posture for state agency information
+systems, and for vendor partners providing either on-premises or cloud-based information systems
+to the state.
+
+Certain legacy systems might not be capable of meeting these standards, or proposed solutions
+might require either a full or partial exception to one or more of the standards. In general, as long
+as proposed changes or exceptions do not result in an overall reduction of security policy, they
+will be granted in a timely manner to ensure that ongoing work is not unduly delayed. In these
+instances, requests should be made to Oklahoma Cyber Command for any exceptions as needed.
+
+All information security standards are reviewed at least annually and updated as needed. The
+following link leads to all current standards for the State of Oklahoma approved by the OMES
+Chief Information Officer in accordance with Title 62 O.S. §§ 34.11.1 and 34.12 and Title 62 O.S.
+§ 35.8.
+
+Policy & Standards (oklahoma.gov).
+
+               Version 2.1 Revised July 2025 | Office of Management and Enterprise Services | Information Services
+
+                                                                                                        Information Security
+                                                                                           Policy, Procedures and Guidelines
+
+OMES IS SECURITY STANDARDS
+
+1. ACCESS CONTROL
+    •  Identity Management Standard.
+    •  Physical Security Systems Standard.
+
+2. AGENCY SECURITY
+    •  Non-unified agencies should follow the security standards listed on the OMES IS
+       Policy & Standards website.
+
+3. AWARENESS/TRAINING
+    •  Security Awareness Training Standard.
+
+4. CENTRAL SECURITY PROGRAM
+    •  Security Services Standard.
+
+5. CONTROLS ON MALICIOUS SOFTWARE
+    •  Security Services Standard
+    •  Endpoint Protections and Connectivity Standard.
+
+6. DISPOSAL OF MEDIA
+    •   Data Security Standard.
+
+7. ELECTRIC COMMERCE SECURITY
+    •  Guidelines for the Evaluation of Electronic Data Interchange Products – NIST Special
+       Publication 500-231.
+    •  Multifactor Authentication for E-Commerce - NIST SPECIAL PUBLICATION 1800-
+       17.
+
+8. EMAIL USAGE
+    •  Acceptable Use Standard.
+
+9. EXCHANGES OF INFORMATION AND SOFTWARE
+    •  Exchanges of Information and Software Standard.
+    •  API Management Standard.
+    •  Batch File Transfer Standard.
+
+Version 2.1 Revised July 2025 | Office of Management and Enterprise Services | Information Services                1
+
+                                                                                                        Information Security
+                                                                                           Policy, Procedures and Guidelines
+
+10. THIRD PARTY RISK
+     •   Account Management Standard.
+     •   Supply Chain Security Standard.
+     •   Data Security Standard.
+
+11. HOSTING AGENCY SECURITY
+     •  Data Security Standard.
+     •  Mobile Services Standard.
+     •  Mobile Device Platform Standard.
+     •  State Data Platform Standard.
+     •  Data Storage Standard.
+     •  Enterprise Reference Architecture Standard.
+
+12. INCIDENT MANAGEMENT & SECURITY REPORTING PROCEDURE
+     •   Security Services Standard.
+
+13. INFORMATION ACCESS
+     •   Decentralized Security Representative (DSR) Standard.
+
+14. INFORMATION AVAILABILITY
+     •   Data Retention Standard.
+     •   Data Storage Standard.
+
+15. INFORMATION CONFIDENTIALITY
+     •   Account Management Standard.
+     •   Identity Management Standard.
+
+16. INFORMATION CONTENT
+     •   Application Security Standard.
+
+17. INTRUSION DETECTION SYSTEMS (IDS)
+     •   Application Security Standard.
+
+18. MANAGEMENT OF REMOVABLE COMPUTER MEDIA
+    •   Data Security Standard.
+
+19. PERSONAL COMPUTER USAGE
+     •   Personal Device Standard.
+     •   System Acceptable Use Standard.
+
+Version 2.1 Revised July 2025 | Office of Management and Enterprise Services | Information Services                2
+
+                                                                                                        Information Security
+                                                                                           Policy, Procedures and Guidelines
+
+20. PHYSICAL AND ENVIRONMENTAL SECURITY
+     •   Physical Security Standard.
+
+21. PROTECTION OF INFORMATION
+     •  Data Storage Standard.
+     •  Data Classification Security Standard.
+
+22. PUBLICLY AVAILABLE SYSTEMS
+     •   Web Content Management System Standard.
+     •   Vulnerability Management Standard.
+     •   Security Services Standard.
+
+23. REMOVABLE MEDIA
+     •  Data Security Standard.
+
+24. SECURITY PROGRAM MANAGEMENT
+     •  Security Services Standard.
+
+25. SEGREGATION OF DUTIES
+     •  Acceptable Use Standard.
+
+26. SEPARATION OF DEVELOPMENT AND OPERATIONAL FACILITIES
+     •  DevOps Standard.
+     •  Development – Continuous Integration and Continuous Delivery Standard.
+
+27. USE OF SYSTEM UTILITIES
+     •   Use of System Utilities Standard.
+     •   Account Management Standard.
+     •   Security Services Standard.
+
+28. TELECOMMUNICATION SECURITY
+     •  Acceptable Use Standard.
+     •  Data Security Standard.
+     •  Personal Device Standard.
+
+Version 2.1 Revised July 2025 | Office of Management and Enterprise Services | Information Services                3
+
+                                                                                                        Information Security
+                                                                                              Policy, Procedures, Guidelines
+                                             APPENDIX A: REVISIONS
+
+This document is to be reviewed at least once per fiscal year. If operational need or
+system/environmental changes require more frequent changes, these are permitted if the annual cadence
+does not drop below once per year.
+
+ Version        Change             Accepted            Author                     Summary of Changes
+ Number         Request             Date
+               Number (if
+               applicable)
+ 2.0           N/A                                 Cyber              Document rewrite. Removed all sections
+                                                   Command            not part of Information Security.
+                                                                      Condensed summary information and
+                                                                      provided links to published standard.
+                                                                      Corrected formatting.
+ 2.1           N/A                                 Cyber              Updated hyperlinks to revised and new
+                                                   Command            standards.
+ 2.2           N/A                                 Cyber              Updated hyperlinks to appropriate
+                                                   Command            published standards.
+
+Version 2.0 Revised September 2024 | Office of Management and Enterprise Services | Information Services           4
+
+## Curator notes
+
+Text extracted with pdftotext -layout (page headers, footers and column layout kept as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their letters).

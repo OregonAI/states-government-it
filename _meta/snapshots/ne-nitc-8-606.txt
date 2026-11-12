@@ -1,0 +1,13 @@
+                                                                    Nebraska Information Technology Commission
+                                                                               Technical Standards and Guidelines
+
+8-606. Staff use of cloud storage websites.
+    Accessing online cloud storage websites (such as Dropbox, Google Drive, etc.) is a security
+risk that will be restricted based on an employee’s job functions. Use of these systems for any
+state purposes is prohibited unless approved by the employee’s supervisor or manager. Even if
+approved, it is prohibited to process or store any HIGH IMPACT or MODERATE IMPACT
+information with these services, unless the storage is encrypted with approved technology, and
+has been approved in advance by the state information security officer.
+--
+     History: Adopted on July 12, 2017. Amended on July 14, 2023.
+     URL: https://nitc.nebraska.gov/standards/8-606.pdf

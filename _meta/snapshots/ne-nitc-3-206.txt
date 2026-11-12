@@ -1,0 +1,11 @@
+                                                                              Nebraska Information Technology Commission
+                                                                                         Technical Standards and Guidelines
+
+3-206. Address points.
+   The commission adopts by reference the most recent version of sections 2, 3, and 3.2 of the
+NENA Standard for NG9-1-1 GIS Data Model released by the National Emergency Number
+Association [https://www.nena.org/page/ng911gisdatamodel] for GIS data that consists of
+address points.
+--
+     History: Adopted on March 27, 2015. Amended on July 25, 2019 and November 10, 2022.
+     URL: https://nitc.nebraska.gov/standards/3-206.pdf

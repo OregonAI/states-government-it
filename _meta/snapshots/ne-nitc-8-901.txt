@@ -1,0 +1,17 @@
+                                                            Nebraska Information Technology Commission
+                                                                       Technical Standards and Guidelines
+
+8-901. State data.
+   Data is a critical asset of the State of Nebraska. All staff have a responsibility to protect the
+confidentiality, integrity, availability of data generated, accessed, modified, transmitted, stored or
+used by the state, irrespective of the medium on which the data resides and regardless of format.
+    Agencies are responsible for establishing and implementing appropriate managerial,
+operational, physical, and technical controls for access to, use of, handling of, transmission of,
+and disposal of state data in compliance with this policy, federal requirements, and any
+applicable records retention schedule. The agency data owner should carefully evaluate and
+determine the appropriate data sensitivity or classification category for their information.
+Assigning classifications determines day-to-day practices with information: how it is handled,
+who handles it, how it is transported, how it is stored, and who has access.
+--
+     History: Adopted on July 12, 2017.
+     URL: https://nitc.nebraska.gov/standards/8-901.pdf

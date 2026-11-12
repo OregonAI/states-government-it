@@ -1,0 +1,145 @@
+---
+schema_version: 1
+corpus: states-government-it
+jurisdiction: nevada
+id: nv-nrs-233f
+title: CHAPTER 233F - STATE SYSTEM OF COMMUNICATIONS
+doc_type: statute
+citation: NRS ch. 233F
+authority_level: ''
+issuing_body: Nevada Legislature; published by the Legislative Counsel Bureau
+source_url: https://www.leg.state.nv.us/NRS/NRS-233F.html
+source_format: html
+retrieved: '2026-11-12'
+source_sha256: 113128cba09d8ea84c87ec22861bffc797eb4a4d926f720d9730d915dcb8453a
+effective_date: null
+source_version: ''
+status: current
+content_mode: verbatim
+conversion_notes: 'HTML paragraphs unwrapped to one line per source paragraph; markup, spacing paragraphs
+  and non-breaking spaces removed, and the Wingdings 3 continuation glyph the Legislative Counsel Bureau
+  prints after a list (read as the letter E-circumflex) dropped. The source serves the whole NRS chapter
+  as one page, so this document is the whole chapter: its revision stamp, its table of contents, every
+  section and the history line under each.'
+last_verified: ''
+verified_by: ''
+maintainer: ''
+relationships:
+  implements: []
+  implemented_by: []
+  references_external: []
+  related: []
+  supersedes: []
+tags:
+- governance
+- cloud-resilience
+---
+
+> **NON-AUTHORITATIVE.** This is a convenience copy for machine reading. The official text is published at the source URL above. Verify at source before relying on it.
+
+# CHAPTER 233F - STATE SYSTEM OF COMMUNICATIONS (NRS ch. 233F)
+
+## At a glance
+
+The state's own communications network run by the Chief of the Governor's Technology Office: the Network Transport Services Unit and Unified Communications Unit, extension of the state communications system by an agency with the Chief's approval (233F.117), agencies' duty to give the Chief information and assistance (233F.150), and the Board's advice. Owner decision: the domain excludes broadband, 911 and telecom in general; this chapter is the state agencies' internal network, so it is seeded as IT infrastructure.
+
+## Full text
+
+[Rev. 4/15/2026 11:43:22 AM--2025]
+CHAPTER 233F - STATE SYSTEM OF COMMUNICATIONS
+NRS 233F.010 Definitions.
+NRS 233F.015 “Administrator” defined. [Repealed.]
+NRS 233F.020 “Agency” defined.
+NRS 233F.030 “Board” defined.
+NRS 233F.035 “Chief” defined.
+NRS 233F.040 “Communication” defined.
+NRS 233F.055 “Department” defined. [Repealed.]
+NRS 233F.059 “Division” defined. [Repealed.]
+NRS 233F.0593 “Network Transport Services Unit” defined.
+NRS 233F.0595 “Office” defined.
+NRS 233F.060 “State communications system” defined.
+NRS 233F.065 “Unified Communications Unit” defined.
+NRS 233F.080 Legislative findings and declaration.
+NRS 233F.110 Assignment of microwave channels; failure of agency to pay for or use channel; approval of equipment for microwave station; reimbursement for facilities and equipment consolidated into system.
+NRS 233F.115 Designation of microwave channel for use by fire services.
+NRS 233F.116 Limitation on taking over communications system of agency.
+NRS 233F.117 Extension of state communications system by state agency; approval of Chief.
+NRS 233F.118 Addition of service which could be provided by private company.
+NRS 233F.150 State agencies to provide information and assistance to Chief.
+NRS 233F.160 Agreements concerning facilities; fees; gifts.
+NRS 233F.170 Emergency control of system.
+NRS 233F.260 Duty of Board to advise Unified Communications Unit.
+NRS 233F.270 Duties of Unified Communications Unit concerning state telecommunications system and switchboards for state offices.
+_________
+NRS 233F.010 Definitions. As used in this chapter, unless the context otherwise requires, the words and terms defined in NRS 233F.020 to 233F.065, inclusive, have the meanings ascribed to them in those sections.
+(Added to NRS by 1975, 1115; A 1985, 689; 1989, 1683; 1993, 1496; 2011, 2945; 2023, 175, 3553; 2025, 1963)
+NRS 233F.015 “Administrator” defined. Repealed. (See chapter 294, Statutes of Nevada 2025, at page 1970.)
+NRS 233F.020 “Agency” defined. “Agency” means an officer, board, commission, council, department, division, bureau or any other unit of government except the political subdivisions of this State.
+(Added to NRS by 1975, 1115)
+NRS 233F.030 “Board” defined. “Board” means the Information Technology Advisory Board.
+(Added to NRS by 1975, 1115; A 1993, 1496)
+NRS 233F.035 “Chief” defined. “Chief” means the Chief Information Officer of the Governor’s Technology Office within the Office of the Governor.
+(Added to NRS by 2023, 3553; A 2025, 1963)
+NRS 233F.040 “Communication” defined. “Communication” means any transmission, emission or reception of signs, signals, writings, images or sounds which convey intelligence of any nature by wire, radio, optical or other electromagnetic systems.
+(Added to NRS by 1975, 1115)
+NRS 233F.055 “Department” defined. Repealed. (See chapter 294, Statutes of Nevada 2025, at page 1970.)
+NRS 233F.059 “Division” defined. Repealed. (See chapter 294, Statutes of Nevada 2025, at page 1970.)
+NRS 233F.0593 “Network Transport Services Unit” defined. “Network Transport Services Unit” means the Network Transport Services Unit of the Network Services Division of the Office.
+(Added to NRS by 2023, 175; A 2025, 1963)
+NRS 233F.0595 “Office” defined. “Office” means the Governor’s Technology Office within the Office of the Governor.
+(Added to NRS by 2023, 3553; A 2025, 1963)
+NRS 233F.060 “State communications system” defined. “State communications system” means microwave equipment and associated facilities controlled by the Office and leased or used by state agencies, except the state telecommunications system.
+(Added to NRS by 1975, 1116; A 1979, 574; 1983, 520; 1989, 1684; 1997, 3085)
+NRS 233F.065 “Unified Communications Unit” defined. “Unified Communications Unit” means the Unified Communications Unit of the Network Services Division of the Office.
+(Added to NRS by 1993, 1496; A 1997, 3085; 2011, 2945; 2013, 3825; 2023, 175; 2025, 1963)
+NRS 233F.080 Legislative findings and declaration. The Legislature finds and declares that a state communications system is vital to the security and welfare of the State during times of emergency and in the conduct of its regular business, and that economies may be realized by joint use of the system by all state agencies. It is the purpose of the Legislature that a state communications system be developed whereby the greatest efficiency in the joint use of existing communications systems is achieved and that all communication functions and activities of state agencies be coordinated. It is not the intent of the Legislature to remove from the Office control over the state telecommunications system intended for use by state agencies and the general public.
+(Added to NRS by 1975, 1116; A 1979, 217, 574; 1985, 689; 1989, 1684; 1993, 1496; 1997, 3085; 2011, 2945)
+NRS 233F.110 Assignment of microwave channels; failure of agency to pay for or use channel; approval of equipment for microwave station; reimbursement for facilities and equipment consolidated into system.
+1. The Chief may, upon receiving a request for a microwave channel or channels from an agency, approve or disapprove that request. If the request is approved, the Office shall assign a channel or channels to the agency at a cost which reflects the actual share of costs incurred for services provided to the agency, in accordance with the comprehensive system of equitable billing and charges developed by the coordinator of communications.
+2. Except as otherwise provided in subsection 3, a microwave channel assigned by the Chief to an agency for its use must not be reassigned without the concurrence of the agency.
+3. The Chief may revoke the assignment of a microwave channel if an agency fails to pay for its use and may reassign that channel to another agency.
+4. Equipment for microwave channels which is purchased by a using agency becomes the property of the Office if the agency fails to use or pay for those channels. The equipment must be used by the Office to replace old or obsolete equipment in the state communications system.
+5. A state agency shall not purchase equipment for microwave stations without prior approval from the Chief unless:
+(a) The existing services do not meet the needs of the agency; or
+(b) The equipment will not be used to duplicate services which are provided by the state communications system or a private company.
+6. The Office shall reimburse an agency for buildings, facilities or equipment which is consolidated into the state communications system.
+(Added to NRS by 1975, 1117; A 1979, 576; 1981, 2012; 1983, 520; 1985, 690; 1993, 1496; 1997, 3085; 2011, 2946; 2023, 3554)
+NRS 233F.115 Designation of microwave channel for use by fire services. The Chief shall designate at least one microwave channel of the state communications system for use by the fire services.
+(Added to NRS by 1981, 1589; A 1997, 3086; 2011, 2946)
+NRS 233F.116 Limitation on taking over communications system of agency. The Office shall not take over the communications system of a state agency unless it does so pursuant to an agreement with the agency.
+(Added to NRS by 1985, 689; A 1997, 3086)
+NRS 233F.117 Extension of state communications system by state agency; approval of Chief. If a state agency other than the Network Transport Services Unit adds equipment which extends the state communications system to another location, the extension, if approved by the Chief, becomes part of the state communications system. An approved extension of the system is subject to the provisions of this chapter relating to the system.
+(Added to NRS by 1985, 689; A 1989, 1684; 1995, 640; 1997, 3086; 2023, 175; 2025, 1963)
+NRS 233F.118 Addition of service which could be provided by private company.
+1. If the Chief considers a proposal to add a service to the state communications system which could be provided by a private company, the Chief shall:
+(a) Upon the request of a private company which is able to provide the service, provide notice of the proposal and a copy of the related specifications;
+(b) Prepare a statement, based on the specifications, of the cost of the proposed service if it were provided through the state communications system; and
+(c) Compare its own statement of cost with any other bid submitted by considering at least the relative prices, the quality and reliability of the service proposed and the compatibility of the service proposed with any known future requirements. This comparison must be made available for public review.
+2. An interested party may appeal from the findings of the comparison to the Interim Finance Committee, which may approve or modify the findings or reverse the decision of the Chief.
+(Added to NRS by 1985, 689; A 1997, 3086)
+NRS 233F.150 State agencies to provide information and assistance to Chief. All state agencies shall provide the Chief with any information which the Chief requests for the purpose of implementing the provisions of this chapter except where the disclosure of such information is expressly prohibited by law, and otherwise cooperate and assist to the maximum extent possible in the development and joint use of the state communications system.
+(Added to NRS by 1975, 1117; A 1989, 1685; 1995, 640; 1997, 3087)
+NRS 233F.160 Agreements concerning facilities; fees; gifts.
+1. The Office may be substituted as the contracting party for a state agency in existing agreements entered into by the agency respecting shared facilities for communications. If substituted, the Office succeeds to all the rights and obligations of the substituted agency created by the agreement.
+2. The Office may collect and receive fees due on those agreements and any other agreements the Office enters pursuant to the provisions of this chapter. All these fees must be deposited in the Fund for Information Services created pursuant to NRS 242.211 and used by the Office to defray the costs of the state communications system.
+3. All gifts of money which the Office is authorized to accept must be deposited in the Fund for Information Services and used for the purpose specified by the donor or for the purpose of carrying out the provisions of this chapter.
+(Added to NRS by 1975, 1118; A 1979, 616; 1985, 714; 1989, 1685; 1993, 1498; 1997, 3087)
+NRS 233F.170 Emergency control of system. In the event of any emergency, the Governor may direct the Office of Emergency Management within the Office of the Governor to assume control over all or part of the state communications system.
+(Added to NRS by 1975, 1119; A 1983, 176; 1993, 1498; 2001, 2591; 2021, 2089; 2025, 1847)
+NRS 233F.260 Duty of Board to advise Unified Communications Unit. The Board shall provide advice to the Unified Communications Unit on the use of telecommunications by the State Government, including:
+1. The development of policies, standards, plans and designs;
+2. The procurement of systems, facilities and services;
+3. The integration of telecommunications systems with other state and local governmental systems; and
+4. New technology that may become or is available.
+(Added to NRS by 1989, 1683; A 1993, 1498; 1997, 3087; 2025, 1963)
+NRS 233F.270 Duties of Unified Communications Unit concerning state telecommunications system and switchboards for state offices.
+1. The Unified Communications Unit, with the advice of the Board, shall:
+(a) Plan, carry out and administer a state telecommunications system. When available at a competitive cost, the Unified Communications Unit shall use the facilities of telephone companies providing local exchange service.
+(b) Make arrangements for the installation of a central telephone switchboard or switchboards to serve the state offices in one or more buildings as may be practical or feasible.
+2. The system must be integrated and may include services between the State and any cities, counties and schools.
+3. The Office may consider for the system all the telecommunications requirements of the State and its political subdivisions.
+(Added to NRS by 1989, 1683; A 1993, 1499; 1997, 3087; 2025, 1963)
+
+## Curator notes
+
+HTML paragraphs unwrapped to one line per source paragraph; markup, spacing paragraphs and non-breaking spaces removed, and the Wingdings 3 continuation glyph the Legislative Counsel Bureau prints after a list (read as the letter E-circumflex) dropped. The source serves the whole NRS chapter as one page, so this document is the whole chapter: its revision stamp, its table of contents, every section and the history line under each.

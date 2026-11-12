@@ -1,0 +1,151 @@
+---
+schema_version: 1
+corpus: states-government-it
+jurisdiction: oklahoma
+id: ok-std-help-desk-management
+title: Help Desk Management Standard
+doc_type: standard
+citation: OMES Help Desk Management Standard
+authority_level: ''
+issuing_body: Office of Management and Enterprise Services, Information Services
+source_url: https://oklahoma.gov/content/dam/ok/en/omes/documents/help-desk-management-standard.pdf
+source_format: pdf
+retrieved: '2026-11-12'
+source_sha256: 71bffac72bc3d06333a76c5f65b45beaab0afd02405fcad5852959ade7b42ad8
+effective_date: '2024-12-30'
+source_version: Last revised 12/30/2024
+status: current
+content_mode: verbatim
+conversion_notes: Text extracted with pdftotext -layout (page headers, footers and column layout kept
+  as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their
+  letters).
+last_verified: ''
+verified_by: ''
+maintainer: ''
+relationships:
+  implements: []
+  implemented_by: []
+  references_external: []
+  related: []
+  supersedes: []
+tags:
+- governance
+---
+
+> **NON-AUTHORITATIVE.** This is a convenience copy for machine reading. The official text is published at the source URL above. Verify at source before relying on it.
+
+# Help Desk Management Standard (OMES Help Desk Management Standard)
+
+## At a glance
+
+A CIO standard in the 'Workplace Services' group of the OMES statewide IT policy and standards library, binding on state agencies under the Information Technology Consolidation and Coordination Act. Its Purpose or Introduction, as printed: To provide exceptional support that empowers our customers and drives business success, while delivering timely, effective and efficient support solution and fostering a culture of innovation and customer satisfaction.
+
+## Full text
+
+                             Help Desk Management Standard
+
+Introduction
+A world class help desk is characterized by responsiveness, knowledge, feedback and
+improvement. The speed at which issues are resolved, the number of requests handled by the
+first level in support, the follow-up with the user community on status, security and the
+monitoring of performance with the goal of continuous improvement are the characteristics that
+separate a progressive, secure, mission-critical operation from the ordinary, reactive operation.
+
+Purpose
+To provide exceptional support that empowers our customers and drives business success,
+while delivering timely, effective and efficient support solution and fostering a culture of
+innovation and customer satisfaction.
+
+Standard
+Help desk function should include:
+   • Adherence to standards: ensuring compliance with all established policies and
+       procedures as published.
+   • Process improvement: recommending new or improved policies and procedures to
+       enhance efficiency and effectiveness.
+   • Contact ownership: taking ownership of each incoming contact until it is resolved or
+       reassigned to the appropriate team member.
+   • Front-line support: providing immediate assistance for common issues, such as
+       password resets and other common issues.
+   • Issue escalation: routing complex problems to the relevant knowledge experts for
+       resolution.
+   • Call monitoring and reporting: tracking call volume, resolution times and other key
+       metrics to identify trends and areas for improvement.
+   • Security incident reporting: identifying and reporting any suspicious activity or security
+       breaches to the appropriate security team.
+
+The following is a list of suggested reports required for managing a help desk tracking
+successes through key performance indicators (KPIs):
+   • Average resolution time: the average time taken to resolve customer issues.
+   • Customer satisfaction ratings: feedback from customers on their overall satisfaction with
+        our services.
+   • Net promoter score (NPS): a measure of customer loyalty and advocacy.
+   • First contact resolution rate (FCR): the percentage of customer issues resolved on the
+        initial contact.
+   • Average resolution time: the average time it takes to resolve a ticket.
+   • Mean time to repair (MTTR): the average time to resolve a ticket.
+   • Ticket volume: the total number of tickets received.
+   • Ticket backlog: the number of unresolved tickets.
+   • Agent utilization rate: the percentage of time agents are actively working on tickets.
+   • Agent satisfaction score: how satisfied agents are with their work.
+   • Agent turnover rate: the rate at which agents leave the team.
+   • Escalation rate: the percentage of tickets escalated to higher-tier support.
+
+   •   Service level agreement (SLA) compliance: measures adherence to predefined service
+       level agreements.
+   •   Cost per ticket: the average cost associated with resolving a ticket.
+
+Supporting contacts:
+   • Ticket handling and routing are the responsibility of the hosting agency’s help desk
+      function. This function should present a standard front to all users of their services
+      including telephone calls, emails, self-service, chat and voice mails. Information on all
+      calls is logged and violations in security or suspicious activity is reported immediately to
+      the appropriate designated authority. The help desk function verifies the identity of the
+      caller by:
+          a) Obtaining their name.
+          b) Verifying a question and answer submitted on a system access authorization
+               request.
+          c) Requesting additional information, such as:
+                   I. User ID (interchangeable with log-on ID).
+                  II. Agency.
+                 III. Phone number.
+
+Password resets:
+   • Password resets are the responsibility of the hosting state agency’s help desk function.
+      Identities of requestors are verified by the help desk, logged and confirmed back to the
+      user at the respective state agency.
+   • It is the responsibility of the requestor from all state agencies, in requesting a password
+      reset, to confirm their identity.
+   • The responsibility of the host agency’s help desk is to:
+          a) Confirm the identity of the requestor.
+          b) Report all suspicious activity to the security administrator immediately.
+               Discrepancies in answers, inability to provide the correct user ID, frequent
+               requests for changes to the same user ID or obvious password sharing constitute
+               security breaches and will be reported.
+          c) Reset the password.
+          d) Log details of the call.
+          e) Confirm the password reset to the user registered to the user ID via email.
+          f) Report activity monthly to each state agency involved.
+
+Compliance
+This standard shall take effect upon publication and is made pursuant to Title 62 O.S. §§
+34.11.1 and 34.12 and Title 62 O.S. § 35.8. OMES IS may amend and publish the amended
+standards policies and standards at any time. Compliance is expected with all published policies
+and standards, and any published amendments thereof. Employees found in violation of this
+standard may be subject to disciplinary action, up to and including termination.
+
+Rationale
+To coordinate and require central approval of state agency information technology purchases
+and projects to enable the chief information officer to assess the needs and capabilities of state
+agencies as well as streamline and consolidate systems to ensure that the state delivers
+essential public services to its citizens in the most efficient manner at the lowest possible cost to
+taxpayers.
+
+Revision history
+This standard is subject to periodic review to ensure relevancy.
+ Effective date: 12/30/2024         Review cycle: Annual
+ Last revised: 12/30/2024           Last reviewed: 09/22/2025
+ Approved by: Dan Cronin, Chief Information Officer
+
+## Curator notes
+
+Text extracted with pdftotext -layout (page headers, footers and column layout kept as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their letters).

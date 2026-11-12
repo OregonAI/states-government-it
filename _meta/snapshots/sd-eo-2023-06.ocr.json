@@ -1,0 +1,153 @@
+{
+  "agreement": 0.9551,
+  "dict_ratio": 0.9262,
+  "disagreements": [
+    {
+      "before": [
+        "OFFICE",
+        "OF",
+        "THE",
+        "GOVERNOR"
+      ],
+      "paddle": "",
+      "tesseract": "b"
+    },
+    {
+      "before": [
+        "browsing",
+        "keystrokes",
+        "and",
+        "location"
+      ],
+      "paddle": "",
+      "tesseract": "0"
+    },
+    {
+      "before": [
+        "Tencent",
+        "Holdings",
+        "Ltd",
+        "including"
+      ],
+      "paddle": "",
+      "tesseract": "bd ae ot a gy 3 Pee wad GN Bi OS OS MN Se eT ST DS FS SSS IG re 3"
+    },
+    {
+      "before": [
+        "or",
+        "state",
+        "leased",
+        "equipment"
+      ],
+      "paddle": "",
+      "tesseract": "b 3"
+    },
+    {
+      "before": [
+        "Information",
+        "Telecommunications",
+        "shall",
+        "designate"
+      ],
+      "paddle": "",
+      "tesseract": "y"
+    },
+    {
+      "before": [
+        "Order",
+        "and",
+        "Executive",
+        "Order"
+      ],
+      "paddle": "",
+      "tesseract": "K"
+    },
+    {
+      "before": [
+        "3",
+        "of",
+        "this",
+        "Executive"
+      ],
+      "paddle": "",
+      "tesseract": "t"
+    },
+    {
+      "before": [
+        "day",
+        "of",
+        "May",
+        "2023"
+      ],
+      "paddle": "",
+      "tesseract": "Pd ye be al ae MO gee eg inet Sg Se ge ae"
+    },
+    {
+      "before": [
+        "ge",
+        "ae",
+        "Kristi",
+        "Noem"
+      ],
+      "paddle": "",
+      "tesseract": "a"
+    },
+    {
+      "before": [
+        "Governor",
+        "of",
+        "South",
+        "Dakota"
+      ],
+      "paddle": "",
+      "tesseract": "Seay"
+    },
+    {
+      "before": [
+        "Dakota",
+        "Seay",
+        "ATTEST",
+        "Monae"
+      ],
+      "paddle": "bhnsin Monae L",
+      "tesseract": "I"
+    },
+    {
+      "before": [
+        "ATTEST",
+        "Monae",
+        "I",
+        "Johnson"
+      ],
+      "paddle": "",
+      "tesseract": "ve"
+    },
+    {
+      "before": [
+        "ve",
+        "Secretary",
+        "of",
+        "State"
+      ],
+      "paddle": "",
+      "tesseract": "i Je o sg gerne ee NT Se 3% be Ln ae ae a ES cS DA DP a GE ER BC eet 3 Sy sf"
+    }
+  ],
+  "engines": [
+    "tesseract (ocrmypdf)",
+    "paddleocr PP-OCRv6"
+  ],
+  "figure_agreement": 0.9,
+  "figures": 33,
+  "forced_rotation": false,
+  "glued": 1,
+  "paddle_sha256": "c30a9e0ecca5f2daef327d8e20f0c2d408fbc5c2128233a03a2d63ed304c35ee",
+  "pdf_sha256": "f17145103e675115802f2e8d9c08cef167e265629a467d840ac980eecc5a6f47",
+  "psm": 4,
+  "text_sha256": "9cb15ba689d86bafa47ce205650c9f8951a3f98e9f5e5a49d721876441ddfb6b",
+  "tools": {
+    "ocrmypdf": "15.2.0+dfsg1",
+    "tesseract": "tesseract 5.3.4"
+  },
+  "words": 650
+}

@@ -1,0 +1,21 @@
+                                                                              Nebraska Information Technology Commission
+                                                                                         Technical Standards and Guidelines
+
+8-303. Identification and authorization.
+    (1) All employees and other persons performing work on behalf of the state, authorized to
+access any state information or IT resources, that have the potential to process, store, or access
+non-public information, must be assigned a unique identifier which resides in a State of
+Nebraska identity management system with the minimum necessary access required to perform
+their duties to align with the least privilege methodology.
+     (2) Staff are required to secure their user IDs from unauthorized use.
+     (3) Sharing user IDs is prohibited.
+    (4) To reduce the risk of accidental or deliberate system misuse, separation of duties must be
+implemented where practical. Whenever separation of duties is impractical, other compensatory
+controls such as monitoring of activities, increased auditing and management supervision must
+be implemented. At a minimum, the audit of security must remain independent and segregated
+from the security function.
+    (5) State credentials and email addresses may only be used for the conduct of state business,
+state government sponsored activities, and such other uses allowed by law.
+--
+     History: Adopted on July 12, 2017. Amended on March 10, 2022; November 10, 2022; and November 8, 2024.
+     URL: https://nitc.nebraska.gov/standards/8-303.pdf

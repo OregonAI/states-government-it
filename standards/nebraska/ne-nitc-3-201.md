@@ -1,0 +1,568 @@
+---
+schema_version: 1
+corpus: states-government-it
+jurisdiction: nebraska
+id: ne-nitc-3-201
+title: 3-201. Geospatial metadata standard.
+doc_type: standard
+citation: NITC Technical Standards and Guidelines 3-201
+authority_level: ''
+issuing_body: Nebraska Information Technology Commission
+source_url: https://nitc.nebraska.gov/docs/3-201.pdf
+source_format: pdf
+retrieved: '2026-11-12'
+source_sha256: 8254352b5645899aa3df9be52a7681a823b8e8e3d88df7a4d81db575691c0019
+effective_date: null
+source_version: History through July 14, 2016
+status: current
+content_mode: verbatim
+conversion_notes: Text extracted with pdftotext -layout (page headers, footers and column layout kept
+  as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their
+  letters). source_version is the latest date on the section's History line (adoption, renumbering or
+  amendment); the section prints no separate effective date, so effective_date stays empty.
+last_verified: ''
+verified_by: ''
+maintainer: ''
+relationships:
+  implements: []
+  implemented_by: []
+  references_external: []
+  related: []
+  supersedes: []
+tags:
+- data
+---
+
+> **NON-AUTHORITATIVE.** This is a convenience copy for machine reading. The official text is published at the source URL above. Verify at source before relying on it.
+
+# 3-201. Geospatial metadata standard. (NITC Technical Standards and Guidelines 3-201)
+
+## At a glance
+
+NITC Technical Standards and Guidelines section 3-201, adopted by the Commission under Neb. Rev. Stat. 86-516 and applying to state agencies, boards and commissions (1-102).
+
+## Full text
+
+                                                                         Nebraska Information Technology Commission
+                                                                                    Technical Standards and Guidelines
+
+3-201. Geospatial metadata standard.
+[Section 3-201 appears after this cover page in a legacy format.]
+--
+     History: Adopted on September 23, 2005. Amended on July 14, 2016.
+     URL: https://nitc.nebraska.gov/standards/3-201.pdf
+
+1.0 Standard
+
+   All state agencies and entities that receive state funding used, directly or indirectly, for geospatial
+   data development or maintenance shall ensure that geospatial data it collects, produces, maintains,
+   or purchases and which is used for policy development, implementation, or compliance review is
+   documented with metadata compliant with the latest version of the ISO 19115:2003 group of
+   metadata standards for geographic information. Metadata created for datasets using Federal
+   Geographic Data Committee (FGDC) Content Standards for Digital Geospatial Metadata or other
+   standards will need to be translated, updated, or recreated using the ISO 19115 standards.
+
+   1.1 Steps/Timeline for Implementation
+
+       a. State agencies and other applicable state funded entities shall institute procedures for
+          complying with standard for new geospatial data development or acquisition upon adoption of
+          standard by the NITC.
+
+       b. State agencies and other applicable state funded entities shall complete initial listing of
+          existing, applicable geospatial data holdings within three months of the adoption of standard
+          by NITC.
+
+       c.   State agencies and other applicable state funded entities shall complete minimum
+            documentation of existing, applicable geospatial data holdings within six months of the
+            adoption of standard by NITC. More information about minimum requirements are identified
+            in Appendix I. Metadata Categories and Definitions.
+
+       d. State agencies and other applicable state funded entities shall complete ISO 19115-
+          compliant metadata documentation of existing and applicable geospatial data holdings within
+          12 months of the adoption of standard by NITC. Complete metadata categories and
+          definitions are located in Appendix I.
+
+   1.2 Maintenance
+
+       The reporting of maintained metadata is important to assure correct documentation and support for
+       intended uses of the data. Entities responsible for creating geospatial data will need to assure
+       metadata is updated and maintained on an ongoing basis and in a timely manner. When
+       modifications to the spatial or attribute data is completed the metadata information will also need
+       to be updated. If necessary, these changes will need to be provided to the appropriate entity(s)
+       responsible for performing quality control and maintenance of the metadata.
+
+       1.2.1   Reporting Errors and Handling Updates
+
+               The reporting of errors need to be directed to the primary contact identified in the
+               metadata in a timely manner. Updated spatial and attribute information in the data will
+               also need to be redistributed. The date field in the metadata when the last record was
+               modified will also need to be updated to ensure proper records management and
+               communication with others in the workflow.
+
+2.0 Purpose and Objectives
+
+       The purposes of this standard is to preserve the public's investment in geospatial data, to save
+       public resources by avoiding unnecessary duplication of expensive geospatial data acquisition, to
+       minimize errors through inappropriate application of geospatial data, and to facilitate harmonious
+       trans-agency public policy decision-making and implementation through the use of shared
+       geospatial data.
+
+                                                                                                             1
+
+2.1 Background
+
+   Broadly defined, geospatial data is any data that includes locational or positional information
+   about features in the dataset. Geospatial data provides the data foundation for applications of
+   Geographic Information System (GIS) technology.
+
+   The development and maintenance of geospatial data is usually the most expensive component
+   in the implementation of GIS technology. In most cases, this high initial investment is justifiable
+   because of the powerful capabilities of the technology and the fact that, if appropriately
+   maintained, the data will be useful for a very long period, and in many cases, for a wide range of
+   applications.
+
+   Most geospatial datasets include numerous attributes and parameters that relate to data
+   variables, methodologies and assumptions. Knowledge and understanding of the implications of
+   these variables is a key to the appropriate utilization of that data. Without appropriate
+   documentation, this specialized knowledge usually resides only in the memory of the GIS
+   specialist(s) who developed the original data. Because of the power of the GIS technology, geo-
+   spatial analysis is increasingly being used to develop and implement a wide range of public
+   policy. In many cases, these public policy applications endure long past the availability of the
+   GIS-specialist(s) who developed one or more of the original geospatial datasets upon which the
+   public policy and its subsequent implementation are based. Without appropriate documentation of
+   attributes and parameters of a geospatial dataset assumptions and variables, it may be difficult
+   for an agency to determine the appropriate use of a dataset after the GIS specialist who originally
+   created the data is no longer available. Without this documentation, it may also be difficult to
+   appropriately maintain the dataset and therefore maintain the value of the original public
+   investment in the data. In the case of a legal challenge to a public policy or its implementation, for
+   which geospatial data application is integral, it may be difficult to defend that application if the
+   original data developer is no longer available and the dataset was not appropriately documented.
+
+   Due to the relatively high costs of developing and maintaining many geospatial datasets, it is
+   important that public investments in this data are undertaken in a manner to maximize the long-
+   term return on these public investments. Appropriately documenting a dataset is one way to
+   ensure a dataset's long-term usability. It is also a key to enabling the use of that dataset for
+   multiple applications by multiple users. Without documentation, it is difficult for other users within
+   the same agency, in other state agencies, or other public entities at various levels of government
+   to be confident they are appropriately utilizing a geospatial dataset.
+
+   One of the great strengths of GIS technology is the ability to integrate and analyze disparate data
+   based on its common or adjacent location. GIS has evolved to be a mainstream technology, used
+   for a very wide range of applications, highly integrated with other information technology, and
+   employed by users with a wide range of technical expertise and knowledge. As GIS has evolved,
+   users now routinely access geospatial data, via the Internet, from multiple sources and integrate
+   that data with other geospatial data and make public policy decisions based on analysis of the
+   interaction of those datasets. Only when a geospatial dataset is adequately documented is it
+   prudent to incorporate that data into a GIS analysis.
+
+   To address this wide range of concerns and needs for geospatial data documentation, the
+   Federal Geographic Data Committee (FGDC) has worked with a wide spectrum of geospatial
+   data users to develop a national standard for documenting geospatial data. The FGDC has
+   endorsed and are transitioning users from the Content Standard for Digital Geospatial Metadata
+   (CSDGM) to the ISO Metadata Standards.
+
+                                                                                                         2
+
+   2.2 Objectives
+
+       This standard requiring the documentation of geospatial data with standardized metadata has the
+       following objectives:
+
+       2.2.1      Preserve public investment in data collection/development beyond the tenure or
+                  availability of the original data developer.
+
+       2.2.2      Preserve the background geospatial information used to justify and make public policy
+                  decisions and preserve the information needed to guide appropriate implementation of
+                  those decisions beyond the tenure of a particular data developer.
+
+       2.2.3      Save public resources by facilitating the sharing of expensive geospatial data among
+                  public agencies or sub-divisions of agencies and avoid the costly duplication of
+                  developing similar geospatial datasets.
+
+       2.2.4      Minimize problems and potential liability that might be caused by the inappropriate use of
+                  undocumented geospatial data.
+
+       2.2.5      Facilitate harmonious, trans-agency public policy decision-making and implementation by
+                  enabling multiple agencies and levels of government to access and appropriately use
+                  common geospatial datasets and thereby make it more likely that intersecting public
+                  policy decisions, across levels of government, will be based on the same information.
+
+3.0 Definitions
+
+       Content Standard for Digital Geospatial Metadata - A comprehensive national metadata standard
+                  developed and adopted by the Federal Geographic Data Committee (FGDC) under
+                  the authority of Executive Order 12906, "Coordinating Geographic Data Acquisition
+                  and Access: The National Spatial Data Infrastructure," which was signed on April 11,
+                  1994, by President William Clinton. Section 3, Development of a National Geospatial
+                  Data Clearinghouse, paragraph (b) states: "Standardized Documentation of Data, ...
+                  each agency shall document all new geospatial data it collects or produces, either
+                  directly or indirectly, using the standard under development by the FGDC, and make
+                  that standardized documentation electronically accessible to the Clearinghouse
+                  network." This standard is the data documentation standard referenced in the
+                  executive order. Since its initial development, this metadata content standard has
+                  undergone revision as deemed necessary by the FGDC, and will like undergo further
+                  revisions in the future.
+
+       Geospatial Data - A term used to describe a class of data that has a geographic or spatial nature.
+                  The data will usually include locational information (latitude/longitude or other
+                  mapping coordinates) for at least some of the features within the database/dataset.
+
+       ISO 19115:2003 – International Standards Organization (ISO) defines the schema required for
+                  describing geographic information and services. It provides information about the
+                  identification, the extent, the quality, the spatial and temporal schema, spatial
+                  reference, and distribution of digital geographic data. It is applicable to: the
+                  cataloguing of datasets, clearinghouse activities, and the full description of datasets;
+                  and geographic datasets, dataset series, and individual geographic features and
+                  feature properties. It defines: mandatory and conditional metadata sections,
+                  metadata entities, and metadata elements; the minimum set of metadata required to
+                  serve the full range of metadata applications (data discovery, determining data
+                  fitness for use, data access, data transfer, and use of digital data); optional metadata
+                  elements - to allow for a more extensive standard description of geographic data, if
+
+                                                                                                           3
+
+                     required; and a method for extending metadata to fit specialized needs. It is
+                     applicable to digital data, its principles can be extended to many other forms of
+                     geographic data such as maps, charts, and textual documents as well as non-
+                     geographic data.
+
+        Metadata - Data describing a GIS database or data set including, but not limited to, a description
+                   of a data transfer mediums, format, and contents, source lineage data, and any other
+                   applicable data processing algorithms or procedures.
+
+4.0 Applicability
+
+    4.1 State Government Agencies
+
+        State agencies that have the primary responsibility for geospatial data development,
+        maintenance, or purchasing data which is used for policy development, implementation, or
+        compliance review for a particular jurisdiction(s) or geographic area (e.g. for counties for which it
+        has assumed the primary role) are required to comply with the standards as described in this
+        standard. Those state agencies with oversight responsibilities in this area are required to ensure
+        that their oversight guidelines, rules, and regulations are consistent with these standards.
+
+    4.2 State Funded Entities
+
+        Entities that are not State agencies but receive State funding, directly or indirectly, for geospatial
+        data development (i.e. Legislative appropriations, Enhanced Wireless 911 Fund, Infrastructure
+        Fund, etc.) are required to comply with this standard.
+
+    4.3 Other
+
+        Other entities, such as city and local government agencies that receive state funds for geospatial
+        data development, maintenance, or purchasing geospatial data which is used for policy
+        development, implementation, or compliance review are required to comply with this standard.
+
+5.0 Responsibility
+
+    5.1 NITC
+
+        The NITC shall be responsible for adopting minimum technical standards, guidelines, and
+        architectures upon recommendation by the technical panel. Neb. Rev. Stat. § 86-516(6)
+
+    5.2 State Agencies
+
+        Each state agency will be responsible for ensuring that geospatial data developed, maintained, or
+        purchased and which is used for policy development, implementation, or compliance review will
+        be documented consistent with this standard. The State of Nebraska, Office of the CIO (OCIO)
+        GIS Shared Services will be responsible for assuring that metadata is completed and the data is
+        registered and available for distribution through NebraskaMAP.
+
+    5.3 Granting Agencies and Entities
+
+        State granting or fund disbursement entities or agencies will be responsible for ensuring
+        geospatial metadata documentation requirements are included in requirements and regulations
+        related to fund disbursements.
+
+                                                                                                                 4
+
+   5.4 Other
+
+       Local government agencies that have the primary responsibility and authority for developing
+       geospatial datasets with state appropriated funds will be responsible for ensuring that those sub-
+       sections defined in Section 1 will be incorporated in the overall data development efforts and
+       publishing of metadata prior to distribution.
+
+6.0 Authority
+
+   6.1 NITC GIS Council
+
+       According to Neb. Rev. Stat. § 86-572(2), the GIS Council shall: Establish guidelines and policies
+       for statewide Geographic Information Systems operations and management (a) The acquisition,
+       development, maintenance, quality assurance such as standards, access, ownership, cost
+       recovery, and priorities of data bases; (b) The compatibility, acquisition, and communications of
+       hardware and software; (c) The assessment of needs, identification of scope, setting of
+       standards, and determination of an appropriate enforcement mechanism; (d) The fostering of
+       training programs and promoting education and information about the Geographic Information
+       Systems; and (e) The promoting of the Geographic Information Systems development in the
+       State of Nebraska and providing or coordinating additional support to address Geographic
+       Information Systems issues as such issues arise.
+
+7.0 Related Documents
+
+       7.1      Federal Geographic Data Committee (FGDC) Content Standards for Digital Geospatial
+                Metadata (FGDC-STD-001-1998). http://www.fgdc.gov/standards/projects/FGDC-
+                standards-projects/metadata/base-metadata/index_html
+
+       7.2      Federal Geographic Data Committee (FGDC) Geospatial ISO Metadata Standards
+                Transition. http://www.fgdc.gov/metadata/geospatial-metadata-standards
+
+       7.3      ISO 19115:2003(E) North American Profile (NAP) Metadata Standards. National Oceanic
+                and Atmospheric Administration (NOAA). January 2012.
+
+       7.4      International Standards Organization (ISO). ISO 19115:2003. http://www.iso.org
+
+       7.5      Technical Support Guides at NebraskaMAP.gov. Guides to translate existing metadata to
+                the new standard, required core elements, and workbook for ISO standards.
+
+                                                                                                            5
+
+Appendix I – Metadata Categories and Definitions
+
+This document provides categories and definitions of metadata information required for State of Nebraska
+geospatial data layers. The minimum and complete metadata requirements and timelines for completion
+involve the following:
+
+        Minimum, completed within six months of data origination
+         (Minimum fields are indicated with a bold (M) throughout this document.)
+
+         Minimum: A subset of the ISO 19115-compliant metadata used primarily for the purposes of
+         cataloging and enabling the use of automated search tools to find and access available
+         geospatial data. Does not fully document the dataset's variables, assumptions or development
+         process that is commonly needed to guide appropriate use.
+
+        Complete Metadata, optional categories, recommended to be completed within 12 months
+
+         Complete Metadata: Remainder of ISO 19115-compliant metadata beyond minimum as indicated
+         throughout this document.
+
+1. Overview
+
+        a. Item Description
+              i. (M) Title - The name by which the resource is known.
+             ii. Thumbnail - A small graphic file stored that graphically identifies the resource.
+            iii. Tags - A set of terms that can be used to search for the resource.
+           iv. Summary(Purpose) - A summary of the intentions with which the resource was developed.
+             v. (M) Description (Abstract) - A brief narrative summary of the resources content.
+           vi. Credits - A recognition of those who created or contributed to the resource.
+           vii. Use Limitation - Describes limitations affecting the fitness of use of the resource.
+          viii. Appropriate Scale Range - The range of scales at which this resource should be used.
+
+        b. Topics & Keywords
+            i. (M) ISO topic categories - Identifies the primary ISO themes associated with the
+               resources content.
+
+                 Utilities &                  Military & Intelligence   Boundaries       Farming
+                 Communication
+                 Atmospheric Sciences         Economy                   Elevation        Biota
+                 Environment                  Geoscientific             Health           Society
+                 Imagery & Base Maps          Structure                 Inland Waters    Transportation
+                 Planning & Cadastral         Oceans                    Location
+
+              ii. Content Type - Indicates how you can access a shared copy of the resource.
+             iii. Keywords - Keywords that associate the resource with a subject or topic.
+
+        c.   Citation
+              i. (M) Title – Title of the map that describes the manner in which the resource is
+                 represented. Could represent years and general idea of extent such as county or
+                 city.
+             ii. Presentation Form - Indicates the form in which the resource is provided.
+
+                                                                                                        6
+
+          iii. (M) Date - Date when the resource was created, published or revised.
+
+     d. Citation Contacts
+          i. Name - The name of a person associated with the resource.
+         ii. Organization - The name of an organization associated with the resource.
+        iii. Position - The name of a role or position associated with the resource.
+        iv. Role - Identifies the association between the responsible party and the resource.
+
+2. Metadata
+
+     a. Details
+           i. (M) File Identifier - A unique identifier for the metadata. Typically a GUID, or country
+              code.
+          ii. Parent Identifier - Unique identifier of the dataset to which this metadata is a subset.
+         iii. Dataset URI - The Uniform Resource Identifier (URI) of the resource.
+        iv. Function - Identifies the function available at the specified URI for this resource.
+          v. (M) Date - The date when the metadata was created or updated.
+        vi. (M) Language - The primary language of the information provided in the metadata.
+        vii. (M) Country - The country of the location.
+       viii. Character Set - The character encoding used for the metadata. Typically UTF-8.
+        ix. Hierarchy Level - The hierarchical scope to which the metadata applies.
+
+     b. Contacts
+          i. (M) Name - The name of a person associated with the resource metadata.
+         ii. (M) Organization - The name of an organization associated with the resource
+             metadata.
+        iii. (M) Position - The name of a role or position associated with the resource metadata.
+        iv. (M) Role - Identifies the association between the responsible party and the resource
+             metadata.
+
+                 Roles can include: Resource Provider, Custodian, Owner, User, Distributor, Originator,
+                 Point of Contact, Principal Investigator, Processor, Publisher, Author, Collaborator,
+                 Editor, Mediator, Rights Holder
+
+          v. (M) Address – The address for the point of contact.
+          vi. (M) Phone – The primary phone number for the point of contact.
+
+     c.   Maintenance
+            i. (M) Update Frequency - The frequency with which the metadata is updated.
+           ii. Next Update - The scheduled revision date.
+          iii. Scope - The scope of data for which this maintenance information applies.
+          iv. Contact - Contact information for the individual associated with metadata maintenance.
+           v. Maintenance Note - Describes the specific requirements for maintaining the metadata.
+
+     d. Constraints
+          i. General - Describes limitations affecting the fitness of use of the metadata.
+         ii. Legal - Restrictions, limitations, or warnings on using the metadata. (If applicable)
+        iii. Security - Identifies any handling restrictions on the metadata. (if applicable)
+
+                                                                                                       7
+
+3. Resource
+
+     a. Details
+           i. Status - The status of the resource. (Ex - Under Development, Ongoing, Completed, etc.)
+          ii. Credit - A recognition of those who created or contributed to the resource.
+         iii. Language - The language of the information used within the data.
+        iv. Country - The country of the location.
+          v. Spatial Representation Type - Identifies the method used to spatially represent geographic
+              information. (Ex - Vector, Raster, Tin, etc.)
+        vi. Scale/distance Resolution - Level of detail provided by the resource, expressed as the
+              scale of a comparable hardcopy map or chart.
+        vii. Browse Graphic - File name of the graphic that provides an illustration of the resource.
+       viii. Processing Environment - Describes the data’s processing environment, including the
+              software and operating system used, and the file name and size.
+        ix. Supplemental Information - Provides additional descriptive information about the resource.
+
+     b. Service Details
+          i. Name - A name identifying the type of service provided by the resource. (Ex - WFS)
+         ii. Codespace - Identifies the authority (Ex - 1.0.0 or 1.1.0)
+        iii. Access Properties
+               1. Fees - Describes any fees or terms for obtaining resource.
+               2. Availability Date/Period - The date and time when the resource will be available.
+               3. Ordering Instructions - Describes instructions, terms, and services provided by the
+                   distributor.
+
+     c.   Extents
+            i. Description - Describes the extent of the resource. (Ex - Nebraska)
+           ii. (M) Bounding box - Extents expressed in decimal degrees longitude and latitude.
+          iii. Temporal Period - The start and end time period associated with the resources content.
+
+     d. Points of Contact
+          i. Name - The name of a person associated with the resource.
+         ii. Organization - The name of an organization associated with the resource.
+        iii. Position - The name of a role or position associated with the resource.
+        iv. Role - Identifies the association between the responsible party and the resource.
+
+     e. Maintenance
+          i. Update Frequency - The frequency with which the resource is updated.
+         ii. Next Update - The scheduled revision date.
+        iii. Scope- The scope of data for which this maintenance information applies.
+        iv. Contact - Contact information for the individual associated with resource maintenance.
+         v. Maintenance Note - Describes the specific requirements for maintaining the resource.
+
+     f.   Constraints
+            i. General - Describes limitations affecting the fitness of use of the resource.
+           ii. Legal - Restrictions, limitations, or warnings on using the resource. (If applicable)
+          iii. Security - Identifies any handling restrictions on the resource. (if applicable)
+
+     g. Spatial Reference
+
+                                                                                                        8
+
+       i. (M) Dimension - Horizontal, vertical or temporal.
+      ii. (M) Code - An alphanumeric value that identifies an authoritative reference (WKID)
+     iii. (M) Code Space - An alphanumeric value that identifies an authoritative reference
+          (Ex - EPSG)
+     iv. (M) Version - An numeric value that identifies an authoritative reference (Ex - 8.2.6)
+      v. (M) Authority Citation
+             1. Title - The name by which the cited resource is known (Ex-
+                 NAD_1983_StatePlane_Nebraska_FIPS_2600_Feet)
+             2. Date - The date the cited resource was created, published or revised.
+
+h. Spatial Data Representation
+    i. Grid Spatial, Georectified, Georeferenceable, Vector or Indirect
+
+i.   Content Information
+       i. Coverage description- Identifies the information conveyed by the raster data.(if applicable)
+      ii. Image description - Identifies the information conveyed by the raster data.(if applicable)
+     iii. Feature Catalogue - Describes OGC catalogue compliance, name, codespace, language
+          and country. (if applicable)
+
+j.   Quality
+       i. Scope Level - Describes the specific data to which the data quality information applies.
+      ii. Level Description - Identifies the instance to which the information applies.
+     iii. Extent - Describes the extent of the resource.
+     iv. Report
+             1. Report Type - Identifies the characteristic of the data whose quality was measured.
+             2. Dimension - Identifies the axis to which the spatial quality information applies.
+             3. Description - A description of the evaluation method.
+             4. Evaluation Method - Identifies the type of method used to evaluate the quality of
+                 the data.
+
+k.   Lineage
+       i. Statement -Provides a general description of the resource’s lineage.
+      ii. Data Source - A detailed description of the source.
+     iii. Process Step -
+             1. (M) Description - Describes the event, transformation, or process that
+                occurred while maintaining the resource, including any parameters or
+                tolerances that were used.
+             2. Rationale - Describes why the process step occurred.
+             3. (M) Date - Identifies the date when the process step occurred.
+             4. Processor - The name of a person or organization associated with the process
+                step.
+
+l.   Distribution
+      i. (M) Distribution Format
+             1. (M) Format Name - The name of the data transfer format.
+             2. (M) Format Version - The version of the data transfer format (if applicable)
+     ii. Distributor
+             1. Contact- The name of a person or organization that is the distributor.
+             2. Ordering Process - Fees and availability and instructions.
+
+                                                                                                     9
+
+           3. Distribution Format - Format name and version.
+           4. Digital transfer options- Units and transfer size, or online resource.
+
+m. Fields
+    i. (M) Label - The name of the resource.
+          1. Entity Type
+                  a. Object - An indication of the resource’s type. (Ex. Table, feature class)
+                  b. Count - The number of objects contained by the resource.
+                  c. (M) Definition - A description of the features contained by the dataset.
+                  d. (M) Definition Source - The authority that provided the definition.
+          2. (M) Attribute (for each column)
+                  a. (M) Label - The name of the field. This must match the name of a
+                      column of data in the resource.
+                  b. (M) Definition - The description of the data contained by the field.
+                  c. (M) Definition Source - The authority that provided the description of
+                      the field.
+                  d. (M) Type - Indicates the data type used to store values in this field.
+                  e. (M) Width - The number of bytes that will be used to store the data in
+                      this column for one row.
+          3. (M) Domain
+                  a. (M) Value - Describes one of the repeating values that may occur in
+                      the field.
+                  b. (M) Definition - A description of the value or code stored in this field.
+                  c. (M) Source - The authority that provided the description of the value.
+   ii. Overview
+          1. Summary - A detailed summary of the information provided by the data.
+          2. Citation - A reference to the document that provides a complete description of the
+             features, fields, and values that are provided by the resource.
+
+n. References
+     i. Aggregate - Citation for the aggregate information.
+    ii. Portrayal Citation - The name by which the cited resource is known.
+   iii. Application Schema Information - Citation for the schema.
+
+o. Geoprocessing History
+
+                                                                                            10
+
+## Curator notes
+
+Text extracted with pdftotext -layout (page headers, footers and column layout kept as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their letters). source_version is the latest date on the section's History line (adoption, renumbering or amendment); the section prints no separate effective date, so effective_date stays empty.

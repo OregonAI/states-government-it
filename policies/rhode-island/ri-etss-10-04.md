@@ -1,0 +1,443 @@
+---
+schema_version: 1
+corpus: states-government-it
+jurisdiction: rhode-island
+id: ri-etss-10-04
+title: State Network Device Security Policy 10-04
+doc_type: policy
+citation: ETSS Policy 10-04
+authority_level: ''
+issuing_body: Division of Enterprise Technology Strategy and Services
+source_url: https://rigov-policies.s3.amazonaws.com/ETSS_Policy_10-04_State_Network_Device_Security.pdf
+source_format: pdf
+retrieved: '2026-11-12'
+source_sha256: 2aea80b8d9ec953219d0ea8add8261e945185d0e543e06760183cad974ecfa30
+effective_date: null
+source_version: 'Last Revision: 4/20/2025'
+status: current
+content_mode: verbatim
+conversion_notes: Text extracted with pdftotext -layout (page headers, footers and column layout kept
+  as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their
+  letters).
+last_verified: ''
+verified_by: ''
+maintainer: ''
+relationships:
+  implements: []
+  implemented_by: []
+  references_external: []
+  related: []
+  supersedes: []
+tags:
+- cybersecurity
+- cloud-resilience
+---
+
+> **NON-AUTHORITATIVE.** This is a convenience copy for machine reading. The official text is published at the source URL above. Verify at source before relying on it.
+
+# State Network Device Security Policy 10-04 (ETSS Policy 10-04)
+
+## At a glance
+
+Managing and securing State network devices.
+
+## Full text
+
+                    Division of Enterprise Technology
+                          Strategy and Services
+
+Enterprise Technology Strategy and Services Policy 10-04
+State Network Device Security Policy
+Last Revision: 4/20/2025                                                            doa.entsec@doit.ri.gov
+
+ 1. Purpose
+
+    Establish policy and guidance for appropriately managing and securing State Network Devices. Protect
+    employees and the workplace environment through reducing the risk of compromising state data,
+    disruption of network resources, and legal-related issues. The intent of this policy is to maintain the
+    confidentiality and integrity of state data, ensure the availability of network resources, and assist in the
+    reduction of financial and legal penalties associated with non-compliance of federal and state programs.
+
+ 2. Applicability
+
+    This policy is applicable to all State Executive Branch Departments 1 (including agencies, boards and
+    commissions), and its and their employees, whether permanent, non-permanent, full or part-time, and
+    interns as well as all individuals including, but not limited to, employees, whether permanent, non­
+    permanent, full or part-time, interns, and all consultants, contractors, vendors, contracted individuals, and
+    any entity with access to State data or computers and systems operated by the State or maintained on
+    behalf of the State, via a State Network Devices.
+
+ 3. Definitions
+
+   Apple Application Store
+   Store Managed by Apple, not ETSS. Apple’s platform for the digital distribution of applications via
+   iPhones, iPads, iPods, Apple TV, and computers.
+
+    Application Catalog
+    An organized collection of state information technology applications. The distinction between managed
+    and unmanaged applications is:
+      - Managed applications that allow for administrative control over some aspects of application
+        functionality. Applications in the Application Catalog tend to be business related (e.g. Microsoft
+        Office apps). The customer portal application is managed by ETSS, and authorized applications are
+        located there.
+      - Unmanaged applications – Applications not in the Application Catalog but available for download via
+        the Apple Application)
+
+    Chief Digital Officer (CDO)
+    Individual appointed by the Director of Administration who oversees ETSS.
+
+    Chief Information Security Officer (CISO)
+    The executive leader with oversight of the information security programs of the state of Rhode Island.
+
+    ______________________________________________________________________________
+    1 State Executive Branch Departments do not include the University of Rhode Island, the State
+    colleges, Lieutenant Governor, State Treasurer, the Attorney General and State Secretary of State.
+
+Enterprise Technology Strategy and Services (ETSS)
+Formerly known as the Division of Information Technology or DoIT. ETSS is the enterprise technology
+service delivery organization for the State of Rhode Island.
+
+Managed Devices
+Any type of device that is operated or configured under management of the State during any period of the
+device's lifecycle.
+
+State Network Devices
+A computing device managed by ETSS which can process, store, transmit, receive data electronically, has
+its own operating system (e.g. Microsoft Windows), and is able to run application software. Typically,
+State Network Devices also have a method to input data (e.g. touch screen, touch keyboard, miniature
+keyboard), and the ability to communicate and transfer data wirelessly (e.g. Wi-Fi, Bluetooth).
+
+Mobile Device
+A subset of State Network Devices that are easily portable. Examples of Mobile Devices include, but are
+not limited to, tablets, laptops, notebooks, smartphones, or any other portable computing device.
+
+Supervised Devices
+A subset of Mobile Devices that includes any State-owned (directly managed) or personally owned
+(indirectly managed) mobile device that run either the Apple iOS or Android operating system and are
+managed differently. Personally owned mobile devices must have a documented and formally approved
+business purpose before indirect state management is allowed.
+
+Mobile Wallet Applications
+State Network Device applications that allow for the use of a device to transfer funds or pay for in-store
+transactions at retail locations by linking the application to the user's credit card, debit card, or bank
+account. Transactions are usually initiated and performed by using either NFC (Near Field
+Communications) protocols or QR (Quick Response) barcodes at point-of-sale terminals. Mobile
+wallet applications include, among others, Apple Pay (for iPhones), Android Pay (NFC-enabled
+Android devices), Samsung Pay (Samsung phones), Google Wallet (NFC-enabled iOS and Android
+devices), and Current C (iOS and Android phones).
+
+User
+An individual who uses a personal or State Network devices, applications, and/or data.
+
+ Security controls in this policy will be implemented in accordance with the security
+ categorization of the information system. The security categorization is based on the
+ Information Assurance Level (IAL) requirements of the information system (see PM-1)
+
+ Low Risk Systems (IAL1)
+ Information systems that only contain data that is public by law or directly available to the
+ public via mechanisms such as the internet. In addition, desktops, laptops, and supporting
+ systems used by agencies are Low Risk unless they store, process, transfer, or communicate
+ private or sensitive data.
+
+ Moderate Risk Systems (IAL2)
+ Information systems that store, process, transfer, or communicate private or sensitive data
+ or have a direct dependency on a Moderate system. At a minimum, any information system
+ that stores, processes, transfers, or communicates PII or other sensitive data types is
+ classified as a Moderate system.           Page 2
+
+4. Procedures for Compliance
+
+  4.1. [IAL1, IAL2] Access restrictions (AC-17). ETSS and the agencies will implement, document and
+  maintain procedures to ensure that only state-owned Network Devices are authorized to access State data
+  and network resources. Personally owned Devices are explicitly prohibited from storing, processing, or
+  transmitting State data or connecting to State network resources unless prior authorization and formal
+  approval has been granted.
+
+  4.2. [IAL1, IAL2] User Agreement. ETSS and the agencies will implement, document and maintain
+  procedures for collection of a signed and formally approved State Network Device Security Policy User
+  Agreement form attached hereto as Appendix A on file. The form must be on file prior to using a State
+  Network Devices for storing, processing, or transmitting State data or connecting to State network
+  resources.
+  In addition, Users participating in the Bring Your Own Device Program must have a signed and formally
+  approved Bring Your Own Device Security Policy User Agreement form on file (form located in
+  Appendix A of ETSS Policy 10-27 entitled Bring Your Own Device Security). Existing users may
+  be able to accept and digitally sign this policy in response to an Office of Information Technology email
+  which would require a user to respond via electronic approval.
+
+  4.3. [IAL1, IAL2] Mobile Wallet Applications (CM-11). ETSS and the agencies will implement,
+  document and maintain procedures to ensure that Mobile Wallet Applications will not be authorized for
+  use or installed on any State-owned Network Devices. State credit cards will not be entered or
+  associated with any Mobile Wallet Application installed on personally owned devices.
+
+  4.4. [IAL1, IAL2] Network Authentication (IA-3). ETSS will implement, document and
+  maintain a procedure to ensure that users will authenticate to the State network with a unique
+  User ID and password combined with another factor (multi-factor authentication) prior to being
+  granted access. Any State Network Device software that utilizes a script file to access State data
+  and network resources will not contain the User ID or password within the script.
+
+  4.5. [IAL1, IAL2] Antivirus Software (SI-3). ETSS will implement, document and maintain a
+  procedure to ensure that State Network Devices will have up-to-date anti-virus software and the latest
+  security patches installed in accordance with ETSS Policy 10-25 entitled Risk Assessment Policy.
+  Mobile Devices will be verified to ensure that up-to-date anti-virus software and the latest security patches
+  are installed. Mobile Devices that do not meet the criteria will be denied access to the State network.
+
+  4.6. [IAL1, IAL2] Untrusted Networks. Users should not connect to untrusted networks (i.e. any non-
+  State network) because these networks are considered insecure and pose an increased risk of sensitive
+  or confidential data being compromised. If necessary and there is no other alternative, Users
+  connecting to any public or private non-State network (e.g. hotels, restaurants, airports, train stations,
+  home), either wired or wirelessly, should verify the name of the wireless network prior to connecting
+  to it (e.g. ask hotel front desk for the name of its wireless network).
+
+  4.7. [IAL1, IAL2] Incident Reporting (IR-6). ETSS and the agency will implement, document and
+  maintain a procedure for State Network Device Users to notify their supervisor, the Service Desk, and/or
+  the Chief Information Security Office immediately upon becoming aware of an actual or suspected loss,
+  theft, or unauthorized access of a State Network Device or indirectly managed personal device to report the
+  incident. Incidents involving all devices will be handled in accordance with ETSS Policy 10-12 entitled
+  Incident Handling and Response. Once every 24 months, the State will cover the replacement cost of the
+  first occurrence in which a State Network Device User breaks, loses, or has stolen, whether accidental or
+  not, his/her State Network Device. Upon the second and each subsequent occurrence during each 24-
+  month period, the State Network Device User will be responsible for covering the replacement cost of the
+                                                    Page 3
+
+State Network Device. The 24-month period commences on the date that the State Network Device is
+assigned to the User and expires 24 months from that date. Upon expiring, the 24-month period will
+automatically renew for a new term of 24 months for as long as the State Network Device remains assigned
+to the User.
+4.8. [IAL1, IAL2] Physical Security (PE-3). The user of the State Network Device will be responsible
+for ensuring that mobile State Network Devices are physically always secured, regardless of whether the
+device is being used. State Network Devices will not be left unattended within unsecured areas at
+any time (e.g. any non-State facility, any publicly accessible area, home). If this is not possible, physical
+access to the State Network Device will be appropriately restricted (e.g. placed inside a locked cabinet,
+locked office, behind a locked door). Mobile Devices will not be left in view of or physically accessible
+to others when not being used. Regarding vehicles, if no other option is available, Mobile Devices
+may temporarily be placed out of view in the trunk of a vehicle. However, Mobile Devices will
+not, at any time, be left anywhere inside a vehicle overnight.
+
+4.9. [IAL1, IAL2] Security Cable. ETSS will implement, document and maintain a procedure for
+providing a locking security cable the type of device (e.g. laptop) when appropriate at the time the State
+Network Device is issued. Users provided with a locking security cable will physically secure the State
+Network Device to an immovable object whenever the device is being used.
+
+4.10. [IAL1, IAL2] Passwords (IA-5). ETSS will implement, document and maintain a procedure to
+ensure that all S t a t e N e t w o r k Devices will be password protected. State Network Device
+passwords will be configured in accordance with ETSS Pol icy 1 0 - 2 0 Identification and
+Authentication (IA). If unable to meet these requirements, State Network Device passwords will be as
+strong as the device will allow. State Network Device passwords will be encrypted on the device.
+
+4.11. [IAL1, IAL2] Software Installation (CM-11). ETSS will implement, document and maintain a
+procedure to ensure State Network Device Users will not install any software on the device without
+prior authorization.
+
+4.12. [IAL1, IAL2] Screen Lock (AC-11). ETSS will implement, document and maintain a procedure to
+ensure that State Network Devices will have the password-protected screen locking feature (e.g.
+screensaver) always enabled. The screen lock feature will be set to automatically lock the State Network
+Device for no more than fifteen (15) minutes.
+
+4.13. [IAL1, IAL2] Wireless Ports (CM-7). ETSS will implement, document and maintain a procedure to
+ensure State Network Device wireless ports on State Network Devices will be disabled when not in use and
+Bluetooth should be set to “non-discoverable” mode.
+
+4.14. [IAL1, IAL2] Data (SC-28). ETSS will implement, document and maintain a procedure to ensure
+that all sensitive or confidential data stored on State Network Devices other than Supervised Devices will
+be encrypted. Data will be classified in accordance with ETSS Policy 10-02 entitled Data Classification
+and encrypted in accordance with ETSS Policy 10-15 entitled Systems and Communication Protection.
+Users should use good judgement and limit the amount of sensitive or confidential data stored on Mobile
+Devices to only what is necessary to minimize the risk of compromising sensitive or confidential data
+from a lost or stolen device. The entire drive (e.g. hard disk drive, solid state drive) of Mobile Devices
+containing sensitive or confidential data will be encrypted in accordance with ETSS Policy 10-15
+entitled Systems and Communication Protection. State Network Device Users will not disclose any
+data that is stored on or accessible via Mobile Devices to unauthorized individuals. Encryption keys
+stored on the Mobile Device will be automatically backed up. Data stored on Mobile Devices will be
+automatically backed up to OneDrive provided the user verifies their files are being stored on OneDrive.
+Any local files that are not backed up to OneDrive is a user responsibility and should be stored on state
+infrastructure.
+
+                                                   Page 4
+
+4.15 . [IAL1, IAL2] Supervised Device Security (AC-19).
+
+    4.15.1 ETSS will implement, document and maintain a procedure to manage and maintain authority
+            over all Supervised Devices. ETSS may disable or remotely wipe data on Supervised Devices
+            at any time in the event of an emergency, an actual or suspected security incident, a loss or
+            theft of the device, or for any other reason.
+
+    4.15.2 ETSS will implement, document and maintain a procedure to ensure that only applications
+           officially approved by ETSS to be installed on Supervised Devices are the managed apps
+           available in the Application Catalog. All other applications (those available via the Apple App
+           Store) are unmanaged applications and, therefore, not approved for install. Users should only
+           install unmanaged applications if there is justification for valid business use and a document
+           approval obtained prior to installation. ETSS will perform a quarterly review of installed
+           applications on all Supervised Deices and notify Agency directors, as appropriate, to ensure
+           valid business use and compliance with ETSS Policy 00-02 entitled Technology Acceptable
+           Use.
+
+    4.15.3 Users will not use personal email accounts to conduct State business and will not forward
+           emails or email attachments from State email accounts to personal email accounts. Users will
+           not use unmanaged apps to open files, documents, or attachments.
+
+    4.15.4 Applications often require permission to access specific functions on Supervised Devices to
+           enhance the user experience and provide functionality. However, some privileges allow
+           applications to access personally identifiable information and other sensitive data. Users will
+           thoroughly review all permissions prior to installing any unmanaged application to ensure
+           State data is not placed at undue risk of being compromised or leaked to/stored on an
+           unmanaged/unauthorized cloud or other hosting service.
+
+    4.15.5 User accounts created to download applications from the Apple App Store to Supervised
+           Devices will be set up using the State employee’s email address. Passwords for this account
+           will not be the same as any password used by the employee to access any State system or
+           network.
+
+    4.15.6 Apple App Store applications purchased via a Supervised Device will not appear on the
+           monthly State cell phone bill and can only be made via a personal credit card (not a state credit
+           card) that is linked to the User account. In general, these purchases are the responsibility of the
+           User and are not eligible for reimbursement. Unmanaged app purchases eligible for
+           reimbursement by the State must be submitted to the Office of Accounts and Control via an
+           expense report and allocated to the agency's RIFANS account.
+
+    4.15.7 Supervised Devices have limited memory. Users are responsible for ensuring that installed
+           unmanaged apps do not adversely affect the operational integrity and performance of
+           Supervised Devices. ETSS will not provide support for any issue arising from the use of
+           installed applications, including those in the Application Catalog.
+
+4.16. [IAL1, IAL2] Asset Management (CM-8). All mobile devices (e.g. laptops, supervised devices
+such as cellular telephones, and Mobile Broadband Devices) issued to employees are state property and
+as such must be returned to the ETSS Telecommunications Section when no longer needed by the
+individual to whom it was assigned.
+
+4.17 Issuance. This policy becomes effective upon approval and shall supersede all previously issued
+versions of this policy. The agency is responsible for ensuring the dissemination to and review of this
+                                                Page 5
+
+   policy by all applicable individuals within the scope of this policy.
+
+   4.18 Noncompliance. Any employee who willfully violates this policy may be subject to disciplinary
+   action up to and including termination of employment.
+
+   4.19 Waivers. An agency may request a waiver from this policy by formally submitting justification for
+   the waiver and demonstrating that compensating controls are in place to mitigate the risk. If approved,
+   the Agency Director must accept in writing all risk to IT system resources and data associated with the
+   waiver. Waivers require approval from and are granted solely by the Chief Digital Officer. Waivers
+   expire one year form date of issue, whereupon they must be renewed.
+
+5. Roles and Responsibilities
+
+    Chief Information Security Officer
+    • Periodically review and update this policy or assign designee to complete required action.
+    • Assist the agency when a State Network Device is lost or stolen, as required, and take appropriate
+      actions when sensitive or confidential data is compromised.
+
+   Agency
+   • Comply with all provisions documented in this policy.
+   • Require that all users issued a State Network Device sign the State Network Device Security Policy User
+     Agreement form within this policy and maintain the signed forms on file.
+   • Perform a quarterly review of installed applications on all managed devices (including Supervised
+     Devices) in cooperation with ETSS Enterprise Support. Agency personnel should also notify agency
+     directors, as appropriate, to ensure valid business use and compliance with ETSS Policy 00-02 entitled
+     Acceptable Use.
+   • Periodically account for all issued Mobile Devices.
+   • Allocate to the agency's RIFANS account and submit an expense report to the Office of Accounts and
+     Control all unmanaged app purchases that are eligible for reimbursement by the State.
+   • Submit an expense report to the Office of Accounts and Control and allocate to the agency's RIFANS
+     account all unmanaged app purchases that are eligible for reimbursement by the State.
+
+    ETSS Enterprise Support Teams
+   • ETSS will perform a quarterly review of installed applications on all Managed Devices (including
+     Supervised Devices) and notify Agency Directors, as appropriate, to ensure valid business use and
+     compliance with ETSS 00-02 entitled Acceptable Use.
+   • At a minimum, all sensitive data on the State Network Device will be encrypted.
+   • Assist the users and agency in the execution of their responsibilities.
+
+    User
+    • Comply with all provisions documented in this policy.
+    • Physically always secure the State Network Device.
+    • Immediately report any actual or suspected State Network Device incident, including the loss,
+      theft, or unauthorized access of the State Network Device, to the supervisor, Service Desk, and/or
+      Chief Information Officer.
+    • Password protect the State Network Device with a password that follows the ETSS Policy 10-20
+      Identification and Authentication (IA) password complexity criteria.
+    • Enable the password-protected screen locking feature to automatically lock the State Network
+      Device after a maximum of ten (10) minutes of inactivity for supervised devices and fifteen (15) minutes
+      for others.
+    • Mobile Devices will have up-to-date anti-virus software and the latest security patches installed.
+    • Do not disclose any sensitive data that is stored on or accessible via Mobile Devices to unauthorized
+      individuals.
+                                                      Page 6
+
+     • Ensure device files are backed up to OneDrive. The user is responsible for backing up data that is
+       relevant that does not reside in automated backups (e.g. OneDrive).
+     • Do not use any personal email account when conducting State business via email. Use only official
+       State email accounts Only use a valid State employee email account to create an Apple App Store
+       account.
+     • Only install unmanaged applications on any Managed Device that have a documented business use after
+       the use has also been justified and approved prior to the installation via the IT governance process.
+     • Review all permissions prior to installing any unmanaged application on Supervised Devices.
+     • Ensure installed unmanaged apps do not adversely affect the operational integrity and performance of
+        Supervised Devices.
+     • Pay for all costs associated with the download, installation, and on-going use of unmanaged apps that
+       are not eligible for reimbursement by the State.
+
+6.   Approval / Review Signatures:
+                          Digitally signed by Elvio Sciacca
+     Elvio Sciacca        Date: 2025.04.21 15:51:45
+     __________________________________
+                          -04'00'
+
+     Deputy Chief, IT Operations
+
+                          Digitally signed by Nathan Loura
+     Nathan Loura Date: 2025.04.21 16:01:01
+     __________________________________
+                  -04'00'
+
+     Chief Information Security Officer
+
+                          Digitally signed by Brian Tardiff
+     Brian Tardiff        Date: 2025.04.22 09:35:42
+     __________________________________
+                          -04'00'
+
+     Chief Digital Officer
+
+                                                              Page 7
+
+                 Division of Enterprise Technology
+                       Strategy and Services
+
+       State Network Device Security User Agreement
+I have been assigned a State Network Device to access State of Rhode Island data and information
+system resources. I acknowledge that, as a condition of receiving a State Network Device to
+access state data and resources, I must agree to comply with all provisions of ETSS Policy 10-04
+entitled State Network Device Security and promise the following, as they relate to the established
+policy:
+
+          1. I will protect against the unauthorized disclosure and/or use of State of Rhode Island
+             assets, sensitive or confidential data, facilities, and information system resources.
+          2. I will maintain all information resource access codes in the strictest of confidence.
+          3. I will immediately change any access code that I suspect has been compromised.
+          4. I will not install any Mobile Wallet Application on the State Network Device.
+          5. I will report all activity that is contrary to the provisions of the State Network Device
+             Security Policy and this agreement to my supervisor or the Chief Information Security
+             Officer.
+          6. I will immediately report the loss of my State Network Device to my supervisor, Service
+             Desk, or Chief Information Security Officer.
+          7. My agency will be responsible for covering the replacement cost of the State Network
+             Device upon the second and each subsequent occurrence during each 24-month period that
+             I report a State Network Device assigned to me as being broken, lost, or stolen, whether
+             accidental or not. The 24-initial month period commence on the date that I sign this
+             agreement and expires 24 months from this date. Upon expiring, the 24-month period will
+             automatically renew for a new term of 24 months for as long as I am assigned this State
+             Network Device.
+
+I have been given a copy of ETSS Policy 10-04 entitled State Network Device Security and have read
+and agree to comply with the policy. I understand that the willful violation or disregard of
+this User agreement and/or the provisions of ETSS Policy 10-04 entitled State Network Device Security
+may result in disciplinary action, as well as any legal action deemed appropriate, including
+possible prosecution.
+
+State Network Device Name or State Cell Phone Number        Device Serial #     State Asset Tag ID #
+
+User Signature                                                                  Employee I.D
+
+## Curator notes
+
+Text extracted with pdftotext -layout (page headers, footers and column layout kept as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their letters).

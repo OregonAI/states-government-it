@@ -1,0 +1,56 @@
+                                                           Nebraska Information Technology Commission
+                                                                      Technical Standards and Guidelines
+
+1-204. Procurement review policy.
+    (1) Purpose. Pursuant to Neb. Rev. Stat. §§ 81-1117, 81-1120.17, and 81-1120.20, certain
+state agency purchases of communications equipment and information management items
+require the approval of the Office of the CIO. This policy provides guidance to agencies for
+compliance with these statutory requirements.
+   (2) Information Needed for Procurement Reviews.
+    (a) Agency Information Technology Plan. The agency information technology plan, which is
+submitted in conjunction with the biennial budget request, provides the general context for
+procurement decisions. In some cases, a diagram and explanation of the technical architecture is
+necessary for determining the appropriate technology for the purpose. Technical architecture
+describes the hardware, software and network infrastructure needed to support the deployment of
+core, mission-critical applications. The specific documentation that is useful depends on the type
+of purchase.
+    (b) Documentation for Purchase Requisitions and Purchase Orders in NIS Using Document
+Types ON and 06. Agencies must attach sufficient information in NIS that allows the reviewer to
+determine what is being purchased, the purpose being served, total cost, and a contact for
+additional information. This information can be provided as either a text note or an attachment to
+the header in NIS. In addition, the following types of documents are helpful, if available: (1) bill
+of materiel from the vendor, or (2) quotation from the vendor.
+    (c) Documentation for Competitive Solicitations Request for Proposals (“RFP”), Requests
+for Information (“RFI”), and Invitations to Bid (“ITB”). Agencies must provide a draft copy of
+the solicitation—RFP, RFI, or ITB—to the Office of the CIO at least 30 days prior to its planned
+release.
+   (d) Documentation for Requests for Deviation from the Competitive Process. Agencies must
+document the reasons for not following the competitive process.
+   (3) Review Criteria. In making the decision to approve or deny the procurement request, the
+decision of the Office of the CIO shall be based upon, but not necessarily limited to: (a)
+compliance with NITC technical standards and enterprise architecture; (b) avoidance of
+unnecessary expenditures; (c) opportunities for collaboration or data sharing, if applicable; (d)
+appropriate technology for the task; and (e) needed skills or resources within the capability of the
+agency to provide or acquire.
+   (4) Review Timelines. The timelines for reviews to be complete are as follows:
+
+   (a) Routine purchases recorded in NIS (using document types ON and 06), such as
+computers, laptops, printers, and low cost items will be reviewed and acted upon within one
+workday;
+     (b) Procurement requests that are more complex will be reviewed and acted upon within
+three workdays. The action may be a request for clarification or additional information. The goal
+is to resolve all issues and provide a final action within ten workdays, excluding the time an
+agency requires to respond to requests for additional information; and
+   (c) Reviews of major solicitations (RFPs, RFIs, ITBs) will be reviewed and acted upon
+within seven workdays. The action may be a request for clarification or additional information.
+The goal is to resolve all issues and provide a final action within 12 workdays, excluding the
+time an agency requires to respond to requests for additional information.
+    (5) Pre-Approved Items for Purchase. The Office of the CIO will create, and update as
+needed, a list of pre-approved items for purchase by agencies. The list will identify
+communications equipment and information management items that by their nature pose little
+risk of violating the criteria established in subsection (3). The list will be posted as section 1-205
+of these standards. Agencies have prior approval to purchase items on this list. (See section 1-
+205, http://nitc.nebraska.gov/standards/1-205.pdf)
+--
+     History: Adopted on March 4, 2008. Amended on November 30, 2009 and July 12, 2018.
+     URL: https://nitc.nebraska.gov/standards/1-204.pdf

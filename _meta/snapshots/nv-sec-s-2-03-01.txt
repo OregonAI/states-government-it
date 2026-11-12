@@ -1,0 +1,61 @@
+                                     State of Nevada
+                               Information Security Committee
+
+                                              Charter
+ Document ID      Title                                             Revision    Effective Date        Page
+  S.2.03.01       Information Security Committee Charter               E            12/31/2020        1 of 2
+
+1.0     PURPOSE
+        This chapter establishes the State of Nevada, State Information Security Committee.
+
+2.0     MISSION
+        The State Information Security Committee is established to facilitate interaction between state
+        departments, divisions, boards, and commissions on identifying and addressing information
+        security related policies, standards, problems, and issues.
+
+        The secondary mission of the Committee is to serve as an advisory committee participating in
+        development of common information security policy and standards at the State level, regardless
+        of technology platform or agency size, and to assist in promoting State level Information Security
+        Standards. All established and new information security policy and standards are to assist and
+        provide guidance in providing a common direction to state agencies in developing individualized
+        Information Security Programs consistent with their IT operating environment.
+
+3.0     LIFE SPAN
+        The State Information Security Committee will exist indefinitely.
+
+4.0     RESPONSIBILITIES
+        4.1   The State Information Security Committee is sponsored by Enterprise IT Services (EITS)
+              and will be chaired by the State Chief Information Security Officer (CISO).
+
+        4.2   The responsibilities of the Information Security Committee shall include:
+
+              A. Serve as an advisory committee to the State on IT security issues.
+              B. Establish state level information security policy and standards.
+              C. Identify, review, and resolve state level information security problems and issues.
+              D. Function as a working body to define and develop common information security policy
+                 and standards that will apply to all agencies, all IT platforms, and the processing and
+                 security of electronic records.
+              E. Promote information security understanding and awareness throughout the State,
+                 particularly members’ respective agencies.
+
+Approved By
+Title                                                   Signature                          Approval Date
+State Information Security Committee                    Approved by Committee                    11/19/2020
+State Chief Information Security Officer (CISO)         Signature on File                        11/24/2020
+State Chief Information Officer (CIO)                   Signature on File                        11/25/2020
+
+                                    State of Nevada
+                               Information Security Committee
+
+                                                 Charter
+ Document ID     Title                                           Revision     Effective Date       Page
+  S.2.03.01      Information Security Committee Charter              E          12/31/2020         2 of 2
+
+Document History
+ Revision     Effective Date   Change
+    A             3/27/2001    Initial release
+    B             1/28/2004    Revision grammatical changes & change chair to CISO
+    C             1/22/2015    Office of Information Security biennial review, replaces standard 4.01
+    D            12/26/2018    Renumbering (101 to S.2.03.01) and compliance to ADA standards
+    E            12/31/2020    Biennial review for alignment with CIS Controls v7.1, Implementation
+                               Group 1 (IG1)

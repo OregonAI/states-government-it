@@ -1,0 +1,260 @@
+---
+schema_version: 1
+corpus: states-government-it
+jurisdiction: north-dakota
+id: nd-ndcc-54-46
+title: Chapter 54-46 - Records Management
+doc_type: statute
+citation: N.D.C.C. chapter 54-46
+authority_level: ''
+issuing_body: North Dakota Legislative Assembly
+source_url: https://ndlegis.gov/cencode/t54c46.pdf
+source_format: pdf
+retrieved: '2026-11-12'
+source_sha256: 369e8144801bb8a3b829e7258bf54cf5ff9ae9d7e507e6bb492dff61b9dcb1d0
+effective_date: null
+source_version: ''
+status: current
+content_mode: verbatim
+conversion_notes: Text extracted with pdftotext -layout (page headers, footers and column layout kept
+  as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their
+  letters).
+last_verified: ''
+verified_by: ''
+maintainer: ''
+relationships:
+  implements: []
+  implemented_by: []
+  references_external: []
+  related: []
+  supersedes: []
+tags:
+- data
+- governance
+---
+
+> **NON-AUTHORITATIVE.** This is a convenience copy for machine reading. The official text is published at the source URL above. Verify at source before relying on it.
+
+# Chapter 54-46 - Records Management (N.D.C.C. chapter 54-46)
+
+## At a glance
+
+The Records Management Act: the state chief information officer serves as state records administrator and runs the executive branch records management program, including retention of electronic mail data of agency heads. Seeded because the CIO is the administrator and it governs state-held electronic records; whether a records statute belongs in the corpus is an owner decision.
+
+## Full text
+
+                                        CHAPTER 54-46
+                                   RECORDS MANAGEMENT
+
+    54-46-01. Short title.
+    This chapter must be known as the Records Management Act.
+
+    54-46-02. Definitions.
+    As used in this chapter, unless the context or subject matter otherwise requires:
+    1. "Agency" means any department, office, commission, board, or other unit, however
+         designated, of the executive branch of state government, including the state board of
+         higher education and the entities under the control of the state board of higher
+         education.
+    2. "Data" does not include malware or regulated information as defined under section
+         54-59.1-01.
+    3. "Departmental agency" means an agency, not including a board or commission as
+         defined by titles 4.1 and 43.
+    4. "Record" means document, book, paper, photograph, electronic mail or
+         communication, sound recording or other material, regardless of physical form or
+         characteristics, made or received pursuant to law or in connection with the transaction
+         of official business activities, policies, or decisions that provide administrative,
+         operational, fiscal, historical, audit, or business value. Library and museum material
+         made or acquired and preserved solely for reference or exhibition purposes, extra
+         copies of documents preserved only for convenience of reference, nonbusiness-
+         related or draft electronic messages and stocks of publications and of processed
+         documents are not included within the definition of records as used in this chapter.
+    5. "State record" means:
+         a. A record of a department, office, commission, board, or other agency, however
+               designated, of the state government.
+         b. A record of the state legislative assembly held by an agency.
+         c. A record of any court of record, whether of statewide or local jurisdiction.
+         d. Any other record designated or treated as a state record under state law.
+
+     54-46-03. State records administrator.
+     The chief information officer of the state or an individual designated by the chief information
+officer shall serve as the state records administrator, in this chapter referred to as the
+administrator. The administrator shall establish and administer in the executive branch of state
+government a records management program, which will apply efficient and economical
+management methods to the creation, utilization, maintenance, retention, and final disposition of
+state records.
+
+    54-46-03.1. Transfer of records management functions authorized.
+    Repealed by S.L. 1985, ch. 82, § 162.
+
+    54-46-04. Duties of administrator.
+    The administrator shall, with due regard for the functions of the agencies concerned:
+    1. Establish standards, procedures, and techniques for effective management of records.
+    2. Make continuing surveys of operations and recommend improvements in current
+         records management practices including the use of space, equipment, and supplies
+         employed in creating, maintaining, storing, and servicing records.
+    3. Establish standards for the preparation of schedules providing for the retention of state
+         records of continuing value and for the final disposition of state records no longer
+         possessing administrative, legal, or fiscal value.
+    4. Ensure that each departmental agency maintains, for at least one year, data contained
+         in electronic mail accounts for agency heads, state officers appointed by the governor
+         under chapter 44-02, and elected executive branch officials.
+
+                                            Page No. 1
+
+    5.   Develop a training program for agencies regarding the management of state records.
+    6.   Obtain reports from agencies as are required for the administration of the program.
+    7.   Receive reports of noncompliance with the records management program. Upon
+         review of the report, the administrator shall:
+         a. Recommend training for the noncompliant agency;
+         b. Submit the report to human resource management services for consultation to
+              determine whether disciplinary action is appropriate;
+         c. Submit the report to the office of the state auditor to include noncompliance
+              findings in the agency's audit and to determine whether reporting findings of
+              noncompliance to the legislative audit and fiscal review committee is appropriate;
+              or
+         d. Submit the report to the office of the attorney general to determine appropriate
+              action, including prosecution or referral to human resource management services
+              or the agency's human resources department for disciplinary action.
+
+    54-46-05. Duties of agency heads.
+    The head of each agency shall:
+    1. Establish and maintain an active, continuing program for the economical and efficient
+         management of the records of the agency.
+    2. Make and maintain records containing adequate and proper documentation of the
+         organization, functions, policies, decisions, procedures, and essential transactions of
+         the agency designed to furnish information to protect the legal and financial rights of
+         the state and of persons directly affected by the agency's activities.
+    3. Submit to the administrator, in accordance with the standards adopted by the
+         administrator, schedules proposing the length of time each state record series
+         warrants retention for administrative, legal, or fiscal purposes after it has been
+         received by the agency.
+    4. Submit to the administrator lists of state records in the custody of the agency which
+         are not needed in the transaction of current business and which do not have
+         administrative, legal, or fiscal value.
+    5. Cooperate with the administrator in the conduct of surveys made by the administrator
+         pursuant to this chapter, including resolving findings of noncompliance with the records
+         management program as may be indicated in the final survey report. Failure to
+         cooperate with the administrator may result in reported noncompliance as authorized
+         under subsection 7 of section 54-46-04.
+    6. Comply with the rules, standards, and procedures adopted by the administrator.
+
+    54-46-06. Assistance to legislative and judicial branches.
+    Upon request, the administrator shall assist and advise in the establishment of records
+management programs in the legislative and judicial branches of state government and shall, as
+required by them, provide program services similar to those available to the executive branch of
+state government pursuant to the provisions of this chapter.
+
+     54-46-07. Records not to be destroyed or removed.
+     All records made or received by or under the authority of or coming into the custody, control,
+or possession of public officials of this state in the course of their public duties are the property
+of the state and may not be mutilated, destroyed, transferred, removed, sold, or otherwise
+damaged or disposed of, in whole or in part, except as provided by law. Each state agency and
+political subdivision of this state shall notify the state records management administrator of
+unlawful actions affecting records. Public records that have been unlawfully removed must be
+returned to the office of origin or to the state archivist.
+
+                                             Page No. 2
+
+    54-46-08. Determination necessary for final disposition of records - Review of state
+data.
+    1. Prior to the final disposition of any type or class of record, the administrator, after
+         consultation with the official or department head owning the record, the attorney
+         general, the state auditor, and the state archivist, shall determine that the type or class
+         of record has no further administrative, legal, or fiscal value and is subject to final
+         disposition under section 54-46-08.1 or section 54-46-09.
+    2. Each departmental agency shall maintain, for at least one year, data contained in
+         electronic mail accounts for agency heads, state officers appointed by the governor
+         under chapter 44-02, and elected executive branch officials.
+    3. a. Each agency shall develop policies related to the assumption of employee
+              account ownership upon employee departure. For an employee who holds a
+              supervisory position or above, the agency shall place on hold an employee
+              account to preserve the employee account if one of the following occurs:
+               (1) The employee is involuntarily terminated;
+               (2) The employee is placed on administrative leave;
+               (3) The employee resigns or departs without notice;
+               (4) The employee dies; or
+               (5) An event the agency deems sufficient to place the account on hold.
+         b. An agency shall ensure the employee account remains on hold until the account
+              has been reviewed by the appropriate individual. The head of an agency, a
+              records manager, or an employee designated by the head of an agency, shall
+              review the employee account for all supervisory employees, except as required
+              under subdivision c.
+         c. If the employee was the head of an agency, a state officer appointed by the
+              governor under chapter 44-02, or an elected executive branch official, the
+              employee account must be reviewed by the employee's successor and, if the
+              administrator deems it necessary, the state archivist.
+         d. For purposes of this subsection:
+               (1) "Employee account" means physical files and electronic files,
+                    communications, attachments, and other information stored in an employee
+                    electronic mail account or electronic file storage account;
+               (2) "Employee's successor" does not include an individual acting in the
+                    successor's role or position temporarily before a successor is appointed
+                    under section 44-02-03; and
+               (3) "On hold" means in a state of preservation in which nothing may be altered
+                    and for which access is immediately restricted to review by the appropriate
+                    individual as required under this subsection.
+    4. If a statute requiring retention of a record does not provide a specific retention period
+         or specifically provide that the record be permanently retained, the administrator, after
+         completing the consultation required by this section, shall establish a specific retention
+         period for the record. The administrator shall annually survey the state agencies and
+         shall order final disposition under section 54-46-08.1 or section 54-46-09 of any
+         records which have been determined to have no further administrative, legal, or fiscal
+         value pursuant to this section.
+
+    54-46-08.1. Preservation of records found to be archival resources.
+    The official or department head concerned and the state archivist shall review any records
+determined to be subject to final disposition under section 54-46-08. Any records found to be of
+permanent value for research, reference, or other use appropriate to document the organization,
+function, policies, and transactions of government must be transferred to the state archivist for
+preservation as archival resources.
+
+     54-46-09. Destruction of nonrecord materials and nonarchival resources.
+     Nonrecord materials or materials not included within the definition of records as contained in
+this chapter may, if not otherwise prohibited by law, be destroyed at any time by the agency in
+
+                                            Page No. 3
+
+possession of such materials without the prior approval of the administrator. The administrator
+may formulate procedures and interpretation to guide in the disposition of nonrecord materials.
+Records determined to be subject to final disposition under section 54-46-08 and not found to
+be of value as archival resources under section 54-46-08.1 must be destroyed by any suitable
+means as determined by the administrator.
+
+    54-46-10. Rules and regulations.
+    The administrator shall promulgate such rules and regulations as are necessary or proper to
+effectuate the purposes of this chapter.
+
+     54-46-11. Annual report.
+     The annual report of the information technology department made in accordance with
+section 54-59-19 must describe the status and progress of programs established pursuant to
+this chapter and must include the recommendations of the administrator for improvements in the
+management of records in the state government.
+
+    54-46-12. County, city, and park district records - Uniform program established by
+administrator.
+    The administrator shall establish a uniform program of standards, procedures, and
+techniques for the effective management of county, city, and park district records. All county, city,
+and park district offices, departments, and agencies may establish, utilize, and maintain the
+uniform program prescribed by the administrator.
+
+    54-46-13. Rules for state and human service zone records - Administrator to adopt.
+    The administrator shall adopt rules in accordance with chapter 28-32 for state and human
+service zone records. The rules adopted by the administrator must be consistent with records
+retention requirements imposed by federal law with respect to those records. The administrator,
+prior to adoption, amendment, or repeal of rules concerning state and human service zone
+records, shall consult with the commissioner of the department of health and human services or
+commissioner's designee.
+
+    54-46-14. Continued confidentiality of records.
+    The head of an agency may provide, and the administrator may receive, any record
+necessary to effect the purposes of this chapter without regard to the confidential or secret
+nature of the information in the record. However, the administrator and agents or employees of
+the administrator involved with records management under this chapter are subject to the same
+restrictions and penalties regarding the dissemination of the information as are the personnel of
+the agency involved.
+
+                                             Page No. 4
+
+## Curator notes
+
+Text extracted with pdftotext -layout (page headers, footers and column layout kept as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their letters).
