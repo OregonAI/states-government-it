@@ -1,0 +1,339 @@
+---
+schema_version: 1
+corpus: states-government-it
+jurisdiction: texas
+id: tx-dir-videoconferencing-standards
+title: Videoconferencing Standards
+doc_type: standard
+citation: DIR Videoconferencing Standards, September 7, 2021
+authority_level: ''
+issuing_body: Texas Department of Information Resources
+source_url: https://dir.texas.gov/sites/default/files/2021-09/Videoconferencing%20Standards.pdf
+source_format: pdf
+retrieved: '2026-11-11'
+source_sha256: 6bb411066a1333c6bc9fbf5d9646d0debe03b77396f9ec9604a076fee5671d51
+effective_date: null
+source_version: ''
+status: current
+content_mode: verbatim
+conversion_notes: Text extracted with pdftotext -layout (page headers, footers and column layout kept
+  as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their
+  letters).
+last_verified: ''
+verified_by: ''
+maintainer: ''
+relationships:
+  implements: []
+  implemented_by: []
+  references_external: []
+  related: []
+  supersedes: []
+tags:
+- digital-services
+---
+
+> **NON-AUTHORITATIVE.** This is a convenience copy for machine reading. The official text is published at the source URL above. Verify at source before relying on it.
+
+# Videoconferencing Standards (DIR Videoconferencing Standards, September 7, 2021)
+
+## At a glance
+
+The minimum technical standards (bandwidth, cameras, audio, high-definition and non-high-definition video) that governmental bodies' videoconference meetings must meet, set by DIR as Government Code 551.127(i) requires for meetings held by videoconference under the Open Meetings Act. Binds state and local governmental bodies; borderline as IT governance (OWNER DECISION). The library row is titled Guidelines and the file Standards; no newer version is listed.
+
+## Full text
+
+        Transforming How Texas Government Serves Texas
+
+Transforming How Texas
+Government Serves Texas
+
+                     Videoconferencing
+                         Standards
+
+                          Texas Department of Information Resources
+                                     September 07, 2021
+
+  Transforming How Texas Government Serves Texas
+
+Table of Contents
+Introduction ................................................................................................................................... 1
+Technical and Operational Standards ......................................................................................... 2
+   Computer-Based Videoconferencing Applications ....................................................................................... 2
+      General Equipment................................................................................................................................................ 2
+      Bandwidth Requirements.................................................................................................................................... 2
+   Dedicated Video Room Environment to Dedicated Video Room Environment ................................. 3
+Security Requirements.................................................................................................................. 4
+Open Meetings Act Requirements .............................................................................................. 4
+Additional Recommendations and Frequently Asked Questions ............................................. 5
+   Additional Recommendations ............................................................................................................................... 5
+   Frequently Asked Questions .................................................................................................................................. 6
+
+ Transforming How Texas Government Serves Texas
+
+Updated September 07, 2021
+
+Introduction
+The Department of Information Resources (DIR) is required by Texas Government Code §
+551.127(i) to specify minimum standards for audio and video signals at a meeting held by
+videoconference call. DIR establishes the following standards to offer technical and operational
+guidance for governmental bodies hosting an open meeting by videoconference in compliance
+with the Open Meetings Act.
+
+Texas Department of Information Resources | dir.texas.gov | #DIRisIT | @TexasDIR         Page 1
+
+ Transforming How Texas Government Serves Texas
+
+Technical and Operational Standards
+DIR establishes the below minimum standards for meetings subject to the Open Meetings Act that
+are held by videoconference. Governmental bodies shall comply with the relevant below minimum
+standards.
+
+Computer-Based Videoconferencing Applications
+All computer-based videoconferencing shall employ a bandwidth minimum transmission speed
+and/or adequate data compression algorithm to produce a sufficient quality such that audio
+volume and clarity and video clarity are sufficient to hear and view all speaking participants on
+the call clearly.
+
+If the videoconference call hosts a public audience at a location or locations specified by the
+official notice of the open meeting posted by the entity in compliance with Open Meetings Act
+requirements, then the entity shall establish a minimum of one host computer at such location(s)
+that will run the computer-based videoconferencing application. This host computer shall then be
+connected to:
+
+   1. either a separate video monitor of size proportional to the room and clearly visible to
+      all in the room or multiple video monitors so that all attendees may clearly view the
+      videostream; and
+   2. external speakers of suitable volume and sound quality such that all meeting attendees
+      may clearly hear the meeting.
+If audio or video clarity is lost to such a degree that attendees of the open meeting are unable to
+clearly view or hear or otherwise discern the demeanor of a speaking participant, then the
+computer-based videoconference application technical requirements are not met and any
+member of the entity’s governing body appearing at the open meeting using such technology
+may not be in compliance with the Open Meetings Act.
+
+General Equipment
+Any personal computer used for the purpose of videoconferencing for an open meeting subject
+to the Open Meetings Act shall contain a camera and speakers of sufficient quality to permit all
+meeting attendees to see the individual who is using the personal computer and for the individual
+to hear all speaking attendees.
+
+Computer-based applications specify unique minimum requirements for computer CPU, memory,
+and video capability. An entity shall comply with these unique minimum specifications.
+
+Bandwidth Requirements
+Group Video Calling
+Group video calling shall meet at least one of the below requirements. Video quality may meet or
+exceed any of the below standards at the choice of the entity, but shall not be of lower bandwidth
+than that required for Non-High Definition Quality Video.
+
+   •   For Non-High Definition Quality Video: 1.0 Mbps/600 kbps (up/down);
+
+   •   For 720p High Definition Video: 2.6 Mbps/1.8 Mbps (up/down);
+
+Texas Department of Information Resources | dir.texas.gov | #DIRisIT | @TexasDIR            Page 2
+
+ Transforming How Texas Government Serves Texas
+
+   •   For 1080p Full High Definition Video: 3.8Mbps/3.0Mbps (up/down); or
+
+   •   For a Gallery View with Over 25 Thumbnails: 4.0Mbps.
+
+An entity shall verify that its bandwidth meets the above standards at least 24 hours prior to
+the convening of an open meeting at the location identified by its primary notice. Any member
+of an entity’s governing body who is participating in an open meeting at a remote location
+using a computer-based videoconferencing application shall confirm that their bandwidth
+meets the above requirements at least 24 hours prior to the convening of an open meeting.
+
+One-to-One Calling
+To the extent allowed by the Open Meetings Act, if an entity requires and is allowed to utilize
+one-to-one meetings, then such one-to-meeting is subject to the below bandwidth requirements.
+
+One-to-one calling that is subject to the Open Meetings Act shall meet at least one of the below
+requirements. Video quality may meet any of the below standards at the choice of the entity, but
+shall not be of lower bandwidth then that required for Non-High Definition Quality Video:
+
+   •   For Non-High Definition Quality Video: 600kbps (up/down);
+
+   •   For 720 High Definition Video: 1.2 Mbps (up/down); or
+
+   •   For 1080p Full High Definition Video: 3.83 Mbps (up)/3.0 Mbps (down)
+
+Dedicated Video Room Environment to Dedicated Video Room
+  Environment
+Dedicated Video Room Environment is defined as a room that is specifically and exclusively built
+for the purpose of videoconferencing with specific acoustics, permanent microphone and camera
+placement, dedicated camera and system equipment, and other equipment that is permanently
+fixed in the room for videoconferencing. A dedicated video room environment generally uses
+specific, proprietary software to connect participants at remote locations through a private data
+network or through a proprietary software connection with the primary dedicated video room
+environment; this software is typically only compatible with the video room equipment that is
+used in the primary dedicated video room environment.
+
+A dedicated video room environment does not include a room that has nonpermanent
+connections set up to permit the entity to bring their own electronics into the room and connect
+them therein.
+
+Videoconferencing equipment used in a dedicated video room environment shall meet the below
+International Telecommunications Union (ITU) standards for the respective medium of
+transmission:
+
+   •   ITU H.320 or H.324 for videoconferencing over a public switched telephone network
+       (PSTN), private line facility, or integrated switched digital network (ISDN);
+
+   •   ITU H.323/SIP (Session Initiation Protocol) for videoconferencing over the Internet; or
+
+Texas Department of Information Resources | dir.texas.gov | #DIRisIT | @TexasDIR           Page 3
+
+ Transforming How Texas Government Serves Texas
+
+   •   Proprietary vendor protocols as long as the entity has received certification from the
+       vendor stating that the vendor’s equipment and proprietary software protocol release
+       version meets or exceeds the required ITU standards.
+
+If an entity uses a dedicated video room environment simply for the dedicated camera and
+speaker equipment but is using a computer-based application software that is not part of the
+proprietary dedicated video room equipment setup, then the entity must comply with all
+minimum standards for computer-based application software and is not subject to the
+requirements of a dedicated video room environment.
+
+When using a computer web conferencing system at the primary dedicated video room
+environment site, a large monitor and adequate speakers shall be used.
+
+Audio signals from the remote dedicated video room environment(s) shall be of similar quality
+and volume as the local audio at the primary dedicated video room environment.
+
+At least one monitor shall be available at the primary dedicated video room environment site for
+the audience to easily see remote meeting participants. When using a computer web conferencing
+system at the primary site, a large monitor and adequate speakers shall be used. The audience
+and members of the governmental body shall have full view of at least one monitor at each
+meeting location. Additional monitors shall be placed, as necessary, to ensure a clear view by all
+in attendance.
+
+Security Requirements
+Each entity subject to the Open Meetings Act shall review any additional, internal security
+requirements. If 1 Texas Administrative Code Chapter 202, concerning Information Security
+Standards, applies to the entity, then they shall ensure compliance with any security standards
+promulgated therein regarding the transmission of data through a public or data/IP network.
+
+Open Meetings Act Requirements
+The preceding technical requirements are provided to ensure the quality and security of
+videoconference transmission. These technical requirements do not constitute legal advice
+concerning the requirements of the Texas Open Meetings Act to any entity whatsoever and should
+not be in any way construed as legal advice. Questions about satisfying the specific procedural
+requirements of the Texas Open Meetings Act should be referred to an agency’s general counsel
+or the Office of the Attorney General. No requirements found herein shall be interpreted to
+overrule any section of Texas Government Code Chapter 551 or any rules adopted or opinions
+issued by the Office of the Attorney General interpreting Texas Government Code Chapter 551.
+
+Texas Department of Information Resources | dir.texas.gov | #DIRisIT | @TexasDIR           Page 4
+
+ Transforming How Texas Government Serves Texas
+
+Additional Recommendations and Frequently Asked Questions
+Additional Recommendations
+The below characterize generic recommendations informed by DIR’s experience with
+videoconference tools and include various considerations and necessities that may arise when
+hosting an open meeting by webinar. DIR recommends that an entity subject to the Open
+Meetings Act consider the following when using any videoconferencing software to host an open
+meeting:
+
+   •   It is always preferrable to have a “wired” network connection to a Wi-Fi connection. If
+       only Wi-Fi is available, then WLAN 802:11 Wireless ‘G’ or ‘N’ is preferred over Wireless
+       ’B’. This will reduce the risk of low bandwidth issues and dropped calls, especially if
+       there are many people using the Wi-Fi.
+
+   •   Videoconferences held between sites on different networks, linked through public or
+       private public switched networks, or between sites not under control by a single
+       government entity should be tested within an hour before the actual conference to
+       ensure that the hardware and software are performing as expected, especially if this
+       specific videoconferencing method has not been used before or recently. Generally,
+       commercially available computer-based videoconferencing applications used over the
+       Internet do not experience this challenge.
+
+   •   Meetings should be moderated by an assigned employee from the primary meeting
+       site. The moderator should act to facilitate technical and videoconferencing clarity
+       issues during the meeting. The moderator ensures that the video and audio at the
+       primary site is clear, and cooperates with remote site participants in resolving technical
+       difficulties. Moderator(s) should check camera focus, audio, and camera range prior to
+       each meeting. Moderators should ensure that all participants are within camera range
+       and centered throughout the meeting.
+
+   •   Ensure all blinds are down behind individuals participating in the meeting by
+       videoconference to reduce image “washout.”
+
+   •   Any individual participating in the meeting by videoconference should create a quiet
+       environment to limit distractions to the meeting and interference with audio quality,
+       i.e. background noises from pets, doorbells, TV/stereo, work crews, co-workers, other
+       non-participants, etc.
+
+   •   All participants should mute themselves or be muted when not speaking.
+
+   •   Materials to be presented at an open meeting should be displayed at all sites.
+
+   •   In addition to any unique minimum requirements specified by a computer-based
+       application, an entity or individual participating in an open meeting by
+       videoconference should consider using a personal computer with no less than a single-
+       core 1Ghz processor and 1Gb of RAM.
+
+Texas Department of Information Resources | dir.texas.gov | #DIRisIT | @TexasDIR             Page 5
+
+ Transforming How Texas Government Serves Texas
+
+Frequently Asked Questions
+   1. What hardware and software are needed for videoconferencing?
+Successful videoconferencing requires cameras, microphones, display monitors, video
+compression/decompression (codec) technology (or compatible personal computer running the
+videoconferencing application), and a telecommunications line (PSTN, Wide Area or Local Area
+Network, or public Internet) for proper transmission of video and audio signals.
+
+   2. What computer-based application should my entity use to host an open meeting
+      by videoconference in compliance with the Open Meetings Act?
+Numerous suitable commercially available applications are on the market today that are designed
+to facilitate videoconferencing between Personal Computers or to mobile devices, either one-to-
+one or in a group environment. These applications include Cisco WebEx, Microsoft Teams, Zoom,
+and Google Duo to name a few. More computer-based videoconferencing applications are
+introduced at the speed of technological development. Computer-based applications shall meet
+the requirements enumerated above. Questions regarding a specific computer-based
+application’s compliance with these technical requirements should be directed to the entity’s legal
+counsel and/or IT department.
+
+Please note: web conferencing systems specify minimum requirements for computer CPU,
+memory, and video capability. High-resolution cameras, microphones, and large monitors can be
+attached to a computer’s port or USB connection.
+
+   3. What are ITU standards and why do I need to use them?
+The International Telecommunications Union establishes standards for videoconferencing that
+define how video and audio are encapsulated for transmission. These standards only apply to
+videoconferencing standards for dedicated video room environments.
+
+Any equipment purchased or used should specify which videoconferencing standards are certified
+for that product. Standards ensure interoperability between the videoconferencing sites.
+
+   4. Will my local area network support the transmission of videoconferencing?
+The transmission of compressed video signals over a data network requires adequate bandwidth
+and quality of service, therefore testing with a local network administrator is recommended to
+ensure the network bandwidth can accommodate the robust video signals from the service or
+equipment you intend to use, and the resident firewall is set to allow passage of the session.
+Bandwidth requirements vary depending on the specific vendor equipment or service.
+
+   5. How can my entity procure a videoconferencing system?
+A computer-based application is required to host a Board meeting by videoconference. A tool of
+this nature can be purchased through DIR’s cooperative contracting purchase program. A
+complete list of cooperative contracts with videoconferencing tools available for purchase may be
+found on DIR’s website. As an example, DIR uses ZoomGov for its videoconferencing needs.
+
+Texas Department of Information Resources | dir.texas.gov | #DIRisIT | @TexasDIR            Page 6
+
+ Transforming How Texas Government Serves Texas
+
+   6. How can a member of my entity’s governing body verify that their bandwidth
+      meets the technical requirements for a computer-based videoconferencing
+      application?
+The member of the entity’s governing body should reach out to their entity’s IT department to
+determine the best method to test if the member’s bandwidth meets these technical standards.
+
+Texas Department of Information Resources | dir.texas.gov | #DIRisIT | @TexasDIR      Page 7
+
+## Curator notes
+
+Text extracted with pdftotext -layout (page headers, footers and column layout kept as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their letters).
