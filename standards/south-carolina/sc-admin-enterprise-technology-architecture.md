@@ -1,0 +1,1046 @@
+---
+schema_version: 1
+corpus: states-government-it
+jurisdiction: south-carolina
+id: sc-admin-enterprise-technology-architecture
+title: Enterprise Technology Architecture
+doc_type: standard
+citation: 'SC Admin: Enterprise Technology Architecture'
+authority_level: ''
+issuing_body: South Carolina Department of Administration
+source_url: https://www.admin.sc.gov/sites/admin/files/Documents/PMOOTIS/Enterprise_Technology_Architecture.pdf
+source_format: pdf
+retrieved: '2026-11-12'
+source_sha256: 2223fa3a2884ae03d4f41e207925ea57a9f3115bb55e7b7c0aafe34b57a995c5
+effective_date: null
+source_version: ''
+status: current
+content_mode: verbatim
+conversion_notes: Text extracted with pdftotext -layout (page headers, footers and column layout kept
+  as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their
+  letters).
+last_verified: ''
+verified_by: ''
+maintainer: ''
+relationships:
+  implements: []
+  implemented_by: []
+  references_external: []
+  related: []
+  supersedes: []
+tags:
+- cloud-resilience
+- governance
+---
+
+> **NON-AUTHORITATIVE.** This is a convenience copy for machine reading. The official text is published at the source URL above. Verify at source before relying on it.
+
+# Enterprise Technology Architecture (SC Admin: Enterprise Technology Architecture)
+
+## At a glance
+
+The Enterprise Technology Architecture for the statewide IT shared services: the RACI matrix for who sets, applies, reviews and grants exceptions to the architecture, the reference principles and the architecture itself (36 pages).
+
+## Full text
+
+                 South Carolina
+Statewide Information Technology Shared Services
+          Enterprise Technology Architecture
+
+                                      RACI matrix for ETA
+                                                       Executive                    Agency
+          Suggested ETA Guidance Area                  Oversight AWG TWG   SARB    Personnel     DTO
+                                                         Board                    (Architects)
+Set Shared Services vision, strategy, and objectives     R, A   C    C      I           I         I
+Define functional scope of new or changed shared
+                                                          A     R    C      C           I         I
+services
+Define technical requirements for new or changed
+                                                         FA     C   A,R     C          C          C
+shared services
+Establish Technology & Security Architecture -
+                                                         FA     I    A      R          C          C
+Patterns and Components
+Apply ETA to SSO projects                                            I      I          C         A,R
+Apply ETA to Agency projects                                    I    I      I          A,R        C
+Review Agency and DTO projects for ETA
+                                                          I     I    A      R          C          C
+compliance
+Grant Exceptions to ETA                                  FA     C    A      R           I         I
+Adapt ETA to address Agency need                                I    FA     A          R          C
+Adapt ETA to address Shared Service need                             FA     A          C          R
+Define methodologies/tools/design patterns for
+                                                          I     I    A      R          C          C
+SSO environment
+Provide agency requirements for SSO capacity                         I      I          A,R        I
+Capacity Planning for SSO environment                     I     I    I      C           I        A,R
+                        FA = Final Approver R = Responsible A = Accountable/Approver
+                                           C = Consulted I = Informed
+
+                                            Reference Principles
+
+Enterprise Technology Architecture Principles – 1 of 2
+
+       Principle                Question to Answer                                 SC position
+                      What is our planning horizon for the     The state’s Enterprise Technology Architecture will
+ Time Horizon
+                      architecture?                                   address a 3-year target state horizon
+                      What environment(s) will be addressed   The Enterprise Technology Architecture will apply to
+ Architecture Scope   by the ETA?                                          all IT at all state agencies
+                                                              We seek 100% compliance with the ETA but will allow
+ Architecture
+                      What degree of compliance is desired?      exceptions through a well-defined governance
+ Compliance                                                                        process
+                      Do we seek to establish one or many       We strive to standardize on as few architectural
+ Architecture
+                      architectural models for each           approaches as possible, but expect that the number
+ Diversity            technology capability?                         will vary by domain and subject area
+                                                               The ETA will favor market-tested technologies, but
+ Technology           What is our preference for the market   will allow less mature technologies to be used where
+ Maturity             maturity of our technologies?            needed to respond to new risks, such as in Security
+                                                                                   Technology
+                      What is our preference for the market   Where vendors or products are identified in the ETA,
+ Vendor Market
+                      position of vendor/product standards,    we will favor vendors that are identified as Market
+ Position             where needed?                                           Leaders or Challengers
+
+                                               Reference Principles
+
+Enterprise Technology Architecture Principles – 2 of 2
+
+       Principle                   Question to Answer                                   SC position
+                                                                   The state has a preference for solutions that minimize
+                        What is our preference for integrated
+ Solution Integration   product suites vs best of breed?
+                                                                     the need for custom integration, but expects high
+                                                                          variability from one solution to another
+                        What is the posture towards costs of      The Architecture should balance cost containment and
+ Cost Sensitivity
+                        infrastructure?                                        investment in new technology
+                                                                  The ETA will favor vendor-agnostic standards but allow
+ Proprietary & Open
+                        What is our position on open standards?      for vendor-specific architectural standards where
+ Standards                                                                                 required
+                                                                  The ETA will specify services and packaged applications
+                        What is our preference for buy, build and
+ Buy / Build            reuse for infrastructure software
+                                                                  over custom developed software for any infrastructure
+                                                                                         applications
+ Technology             What degree of in-person IT support is     The ETA will strongly favor technologies that support
+ Management             preferred for infrastructure?                   high automation and limited management
+
+ Preservation of        What degree of change from the current     The ETA will leverage agency best practices wherever
+ Current                state is appropriate when developing the     possible but will allow for new approaches and
+ Architecture           ETA?                                                              solutions
+
+                        ETA Artifacts: Patterns
+ Patterns are illustrations that show how technology components interact to
+  deliver infrastructure functionality.
+    – They provide specific guidance for use by solution designers and implementers
+        on how technologies need to interoperate to provide capabilities to users and
+        systems.
+    – They do not represent detailed designs for solutions which must be determined
+        based on specific business requirements.
+    – They typically show technology categories but usually not products; site types
+        but usually not specific locations; and levels of capacity/availability needed but
+        usually not the number of units, speeds and feeds
+                                                                                    COTS Stack                                   Custom Stack                                      Mainframe
+                                                                                     Mainstream                                        Mainstream                                       Retire
+
+                                                                         Desktop       Mobile        Tablet              Desktop         Mobile         Tablet                 Desktop
+
+                                                      Client Tier
+                                                                                                                                                                                                     3270
+                                                                                                                                      User Interface                       Thick Client
+                                                                                                                                                                                                    Terminal
+
+                                                                                Internet Browser                                     Internet Browser                          Browser
+
+                                                      Web Tier
+                                                                                    COTS Solution
+                                                                         (individual components vendor-specific
+                                                                                                                                       Web Server
+                                                                                     Web Server
+
+                                                                                                                              Application Architecture                         Screen
+                                                                                                                                                                                                     3270
+                                                                                Application Server                               Application Server                            Scrape
+
+                                                      Application Tier
+                                                                                                                                                                                    Mainframe
+                                                                                                                            Server-Side Programming
+                                                                                                                                                                               Web Server
+                                                                                                                                   Language
+                                                                                                                                                                               Application
+                                                                                                                                                                                 Server
+                                                                                   COTS Package                                                                                                     CICS
+                                                                                                                                                                               WebLogic
+                                                                                                                               Custom Application
+
+                                                                                   Database Server                                   Database Server                                    DASD
+                                                      Data Tier
+
+                                                                            data         data        data                     data         data         data                                 data
+
+                                                                                                                              Application Integration
+
+              Data Management Pattern                                                                                                    Legend
+                                                                                                                                         Tech.                    Other Tech
+                                                                                                         Logical Tier                                   Pattern
+                                                                                                                        Data Store      Roadmap                   Component
+
+                                                                                                            Application Platform Pattern
+
+                  ETA Artifacts: Components
+ Components specify the Enterprise standards for that technology, and organize them by
+  lifecycle designation. Components provide a view of current technology standards and
+  their evolution over time.
+ Components also provide information to guide transition planning from current to target
+  state
+
+                                                                            Typical Technology
+                                                                                 Lifecycle
+                                                              Baseline         Implications and Dependencies
+
+                                                              Retirement       Mainstream
+
+                                                              Containment                      Emerging
+
+Table of Contents
+
+ Shared Services Data Center
+  – Power
+  – Cooling
+  – Data Center Network Connectivity
+ Enterprise Storage
+  – Shared Block
+  – Shared File
+  – Shared Object
+  – Cloud Storage
+ Storage Area Network
+  – Switches and Directors
+ Backup, Restore and Recovery
+  – Backup and Restore
+  – Replication and Recovery
+ Enterprise Server
+  – Server Hardware
+  – Server Operating System
+ Server Virtualization
+  – x86 Hypervisor
+ Client Virtualization
+  – Application and Desktop Virtualization
+
+                                             7
+
+                                                                                                                                                               Legend
+
+Shared Services Data Center                                                                                                                                  Logical Tier
+
+Pattern                                                                                                                                                       Data Store
+
+                                                                                                                                                                Brick
+
+                                                                                                                                                               Other Tech
+                                                                                                                                                               Component
+
+             Virtual                                                            Internet                                                  DR domain is primarily to
+    segmentation of                                                                                                                       recover PROD but can
+  the Prod, Dev and                                                                                                                       also be used for DEV
+       Test domains                                                                                                                       recovery, should it be
+                                                                                MetroNet                                                  required
+                                                                                 MPLS
+
+                               Primary Datacenter                                                             Secondary Datacenter
+                                Broad River Road                                                                      DR
+
+   Presentation                                                                                       Presentation
+   Layer                                                                                              Layer
+
+   Logic                        Physical / Virtual               LAN                         LAN      Logic                   Physical / Virtual
+   Layer                            Servers                                                           Layer                       Servers
+
+   Data                                                                                               Data
+   Layer                                                                                              Layer
+                                      SAN                      Network                     Network                                  SAN
+                                                               Security                    Security
+                                     Storage                                                                                      Storage
+
+                        Prod       Dev         Test                                                                    DR
+
+                            Redundant                                                                                       Redundant
+                             Cooling                                                                                         Cooling
+                                   Redundant                                                                                     Redundant
+                       GenSet                         UPS                                                            GenSet                         UPS
+                                     Power                                                                                         Power
+
+                                                            Physical Security                                                                Physical Security
+                                                                                  8
+
+Shared Services Data Center
+Context
+
+ Location:                                                 Environments:
+  – Primary and Secondary datacenters                       – Prod, Dev and Test at Primary Data Center
+    approximately 100 – 115 miles apart
+                                                            – DR at Secondary Data Center
+ Power:
+                                                            Networking:
+  – Redundant Power (external feed from 2 distinct
+    substations)                                            – VLan-based segmentation by client and
+  – UPS (sized to maximum load for 5-10 minutes)              workload type
+  – Gen Set (sized to maximum for 72 hours)                 – Access to external networks
+ Cooling:                                                    • Internet (at Primary and Secondary
+  – Redundant Cooling (n+1 chilled water CRAC                   datacenters)
+    units)                                                    • MetroNet MPLS (at Primary and Secondary
+ Physical:                                                     datacenters)
+  – 7x24 Operations (onsite)                                  • Inter Data Center Link (Metro-E)
+  – 7x24 Protective Services [Primary Site only]            Data Center Management tool:
+  – Dry pipes fire Suppression system [Primary Site]        – None
+    and Inert Gas fire Suppression system
+    [Secondary]                                             – Johnson Controls on cooling and power
+                                                              components
+  – 2-factor (badge + biometric) access control
+    [Primary Site only]
+
+                                                       9
+
+Shared Services Data Center
+Technology Architecture Brick: Power
+
+Shared Services Data Center - Power
+Baseline                                                Guidance
+  Redundant Building Power Sources                      Ensure redundant Power feeds into the Data Center, preferably from two substations, using
+  Uninterruptible Power Supply (UPS) / Batteries         different ingress paths (north and south routes)
+  Diesel Generator                                      Leverage double-conversion UPS technology to condition power before it reaches equipment
+                                                          within the datacenter. UPS batteries should be able to maintain power for 5 to 10 minutes to allow
+  Redundant Intra-Data-Center Power Distribution and
+                                                          for generator start-up
+   cabling to each equipment rack
+                                                         Test generator twice yearly and ensure regular yearly maintenance of generator parts and fuel
+                                                          supply. Keep at least 48 hours of generator fuel on hand.
+                                                         Employ rigorous capacity management to stay ahead of equipment demands. Include this
+                                                          exercise as part of change management for infrastructure.
+
+Retirement                                              Mainstream
+
+  N/A                                                   Redundant Building Power Sources
+                                                         Uninterruptible Power Supply (UPS) / Batteries
+                                                         Diesel Generator
+                                                         Redundant Intra-Data-Center Power Distribution and cabling to each equipment rack
+Containment                                                                        Emerging
+
+  N/A                                                                              Modular self-contained Aisle and Racking System
+
+                                                                         10
+
+Shared Services Data Center
+Technology Architecture Brick: Cooling
+
+ Shared Services Data Center - Cooling
+ Baseline                                Guidance
+  Redundant Chilled Water CRAC Units     Use a n+1 approach to overprovisioning cooling capacity to allow for CRAC unit maintenance or
+                                           failure.
+                                          Employ rigorous capacity management to stay ahead of equipment demands. Include this
+                                           exercise as part of change management for infrastructure.
+                                          Investigate approaches to optimize cooling and airflow within the datacenter in order to maximize
+                                           energy efficiency.
+
+ Retirement                              Mainstream
+
+  N/A                                    Redundant Chilled Water CRAC Units
+
+ Containment                                                        Emerging
+
+  N/A                                                               Hot/Cold Aisles containment
+                                                                     Modular self-contained Aisle and Racking System
+
+                                                          11
+
+Shared Services Data Center
+Technology Architecture Brick: Data Center Network Connectivity
+
+ Shared Services Data Center – Data Center Network Connectivity
+ Baseline                                                  Guidance
+  Redundant Internet connectivity [Primary Site only]      Where possible, source redundant connectivity through different providers, using distinct ingress
+  Redundant Metro-Net (MPLS) connectivity [Primary Site     points and routes.
+   only]                                                    Leverage Metro-Net for client access where technically and economically feasible, otherwise use
+  Redundant Inter Data Center (Primary-Secondary)           VPN over public Internet. Consider wireless (4G or Satellite) backup to minimize the impact of
+   connectivity over Private links                           WAN outages.
+                                                            Select a link technology that will minimize latency (e.g. dark fibre, private links) for Intra Data
+                                                             Center communication to allow for extended clustering technology as well as low Recovery Point
+                                                             Objectives (RPO).
+
+ Retirement                                                Mainstream
+
+  N/A                                                      Redundant Internet connectivity [Primary and Secondary sites]
+                                                            Redundant Metro-Net (MPLS) connectivity [Primary and Secondary sites]
+                                                            Redundant Inter Data Center (Primary-Secondary) connectivity over Private links
+
+ Containment                                                                          Emerging
+
+  N/A
+
+                                                                            12
+
+                                                                                                                                                           Legend
+
+Enterprise Storage                                                                                                                                       Logical Tier
+
+Pattern                                                                                                                                                   Data Store
+
+                                                                                                                                                            Brick
+
+                                        Shared Unified Storage                                                                                             Other Tech
+                                                                                                                                                           Component
+
+                      Shared Block Strorage                Shared File Storage                Shared Object Storage
+
+                                                                                                                          Storage virtualization is a
+                                                                                                                           key function of block and
+                                                                                                                          shared storage arrays but
+                                                                                                                          should only be included in
+                                                                                                                         the I/O path when required.
+
+     Virtualization                      Storage Virtualization
+
+                      SnapShot      Rem. Copy           SnapShot        Rem. Copy            SnapShot        Rem. Copy
+
+     Physical                  Fibre
+                                                                   Ethernet                             Ethernet
+     Connectivity             Channel
+
+     Storage            FCP             FICON           CIFS (SMB)              NFS                      HTTP
+     Protocol
+
+                                                              Pooled Storage                                             Pooled storage is readily re-
+                                       Primary                      Secondary                  Cloud                      allocatable between SAN
+                                     Primary                      Secondary                  Cloud                        and NAS. It can consist of
+     Resources                         Storage
+                                     Storage
+                                                                     Storage
+                                                                   Storage                    Storage
+                                                                                            Storage                        one or multiple arrays.
+                                 HDD, SSD or Flash          High Capacity Disk        Private/Hybrid/Public
+
+                                                                                13
+
+Enterprise Storage
+Context
+
+ Storage Architecture Type:                            Storage Virtualization
+ – Shared File Storage                                  – HDS G1500 can provide storage virtualization
+   • Hitachi NAS Platform                               Storage Management
+   • Multiple department and agencies are using         – DTO, as well as the departments and
+     NetApp and rely on advanced features (e.g.           agencies surveyed use native element
+     SnapVault, SnapManager for SQL) for data             managers to manage storage
+     protection
+ – Shared Block Storage
+   • Hitachi G1500 for Open Systems
+   • IBM DS8870 for Mainframe
+   • A variety of storage platforms are used by
+     department and agencies
+ – Shared Object Storage
+   • Hitachi HCP
+
+                                                  14
+
+Enterprise Storage
+Technology Architecture Brick: Shared Block Storage
+
+Enterprise Storage - Shared Block Storage
+Baseline                                                   Guidance
+  HDS G1500 for Open Systems Storage                       While there is a logical division between open systems and mainframe storage, there might be
+  IBM DS8870 for Mainframe storage                          efficiency gained from consolidating both workloads in a single footprint.
+                                                            Storage virtualization (either built into the storage system or as an appliance that is external to the
+                                                             storage system) will simplify storage management and data migration. HDS’ G1500 platform
+                                                             provides this functionality; care should be taken to maintain it if the G1500 is ever replaced.
+                                                            NetApp technology is used as Shared Unified Storage by multiple departments and agencies. In
+                                                             some cases, backup and DR processes leverage NetApp specific features and APIs such as
+                                                             SnapVault or SnapManager for SQL, which can often be ‘ported’ to a different storage array but
+                                                             may require a change in scripts or even applications.
+                                                            At a minimum, the Shared Block Storage platform should offer Snapshot and Remote Copy
+                                                             capability. VM has this not needed.
+                                                            HDS, IBM and NetApp storage can be found in the leader’s quadrant of Gartner’s Magic Quadrant
+                                                             for General-Purpose Disk Arrays
+
+Retirement                                                 Mainstream
+
+  Non-enterprise storage arrays such as HP EVA and Dell    Hitachi (for Open Systems), including storage virtualization
+   Compellent                                               IBM (for Mainframe)
+  Direct attached storage
+  All other non mainstream or containment arrays
+
+Containment                                                                            Emerging
+
+                                                                                        Cloud based storage
+                                                                                        All-flash storage arrays
+                                                                                        Software-Defined storage
+
+                                                                             15
+
+Enterprise Storage
+Technology Architecture Brick: Shared File Storage
+
+Enterprise Storage – Shared File Storage
+Baseline                                        Guidance
+ Hitachi NAS                                    At Scale, NAS workload should reside on purpose-built arrays rather than being served from a
+                                                  Windows or Linux host front-ending block storage
+                                                 Look for NAS arrays that can be managed centrally and allow for workload migration between arrays
+                                                  for load balancing.
+                                                 Favor Unified Storage arrays that provide both block and file storage within the same array, in order
+                                                  to minimize management overhead and maximize storage efficiency.
+                                                 At a minimum, the Shared File Storage platform should offer Snapshot and Remote Copy capability.
+                                                 NAS arrays should include replication
+
+Retirement                                      Mainstream
+
+ Windows or Linux file servers                  Hitachi NAS
+ End-of-life NAS arrays, such as EMC Celerra
+ All other non-mainstream arrays
+Containment                                                                     Emerging
+
+                                                                                 Scale-out distributed file system, with global namespace
+
+                                                                     16
+
+Enterprise Storage
+Technology Architecture Brick: Shared Object Storage
+
+Enterprise Storage – Shared Object Storage
+Baseline                                            Guidance
+ Hitachi HCP                                        Infrastructure and operations groups are attracted by the lower total cost of ownership and the
+                                                      scalability of object storage, whereas enterprise developers are attracted to its programmability, cloud
+                                                      portability and productivity improvements, both contributing to strong growth of this segment
+                                                     Choose object storage products as alternatives to block and file storage when you need huge
+                                                      scalable capacity, reduced management overhead and lower cost of ownership
+                                                     Build on-premises object storage repositories with the hybrid cloud in mind, and evaluate their API
+                                                      support and level of compatibility with dominant public cloud providers for data portability
+                                                     At a minimum, the Shared Object Storage platform should offer Snapshot and Remote Copy
+                                                      capability.
+                                                     Hitachi HCP is found in the challenger quadrant of the Gartner Magic Quadrant for Distributed File
+                                                      Systems and Object Storage
+
+Retirement                                          Mainstream
+
+ End-of-life Object Storage, such as EMC Centera    Hitachi HCP
+ All other non mainstream or containment arrays
+
+Containment                                                                         Emerging
+
+ N/A                                                                                Cloud Storage Gateway
+
+                                                                         17
+
+                                                                                                                Legend
+
+Storage Area Network                                                                                          Logical Tier
+
+Pattern                                                                                                        Data Store
+
+                                                                                                                 Brick
+
+                                                                                                                Other Tech
+                                                                                                                Component
+
+                                   Redundant Ports                          Redundant Ports
+        Hosts                       with Failover                            with Failover
+
+                             Fabric “A”                                                 Fabric “B”
+
+        SAN                    Edge                                                      Edge
+        Edge                  Switches                                                  Switches
+
+                                          Aggregated                          Aggregated
+                                              ISL                                 ISL
+        SAN            Director                                                                    Director
+        Collapsed       Core                                                                        Core
+        Core
+
+                                                          Redundant Ports
+        Storage                                            with Failover
+
+        Devices
+
+                                                     18
+
+Storage Area Network
+Context
+
+ Storage Area Network Type:                            Open Systems
+ – Based on Cisco MDS technology                        – Fibre Channel Protocol (FCP)
+   • Cisco MDS 9710 Directors currently in use          Mainframe
+     at the Primary site                                – FICON (over FC)
+   • MDS 9250i switches currently in use at the
+     secondary site
+ – Mainframe SAN based on IBM (Brocade)
+   technology
+
+ Storage Area Network Architecture:
+ – Redundant fabrics
+ – Collapsed Core architecture:
+   • UCS chassis with integrated edge switches
+   • Storage connected directly to the Core
+
+                                                  19
+
+Storage Area Network
+Technology Architecture Brick: Switches and Directors
+
+Storage Area Network (SAN) – Switches and Directors
+Baseline                                                  Guidance
+ Cisco 9710 directors (core) and 6248 switches (edge      Single-vendor SAN are recommended as mixing technologies from multiple vendors will lead to
+  – part of UCS)                                            reduced feature sets (compatibility mode) and may be difficult to support.
+ Cisco 9250i switches                                     This includes extended links (e.g. to a remote datacenter) as well; DTO should stick to one SAN
+ IBM (Brocade) FICON directors                             vendor/technology through its environment.
+
+Retirement                                                Mainstream
+
+ Any non mainstream or containment SAN technology         Cisco 9710 directors (core) with 16Gb/s Fibre Channel SFPs
+                                                           Cisco 6248 edge switches with 16Gb/s Fibre Channel SFPs
+                                                           Cisco 9250i switches
+                                                           IBM (Brocade) FICON directors for the mainframe environment only
+Containment                                                                              Emerging
+
+ Switches and Directors supporting less than 10Gb/s link speed                           32 Gb/s FC
+
+                                                                              20
+
+                                                                                                                                                            Legend
+
+Backup, Restore and Recovery                                                                                                                              Logical Tier
+
+Pattern                                                                                                                                                    Data Store
+
+                                                                                                                                                             Brick
+
+                                         Backup & Restore                                     Recovery
+                                                                                                                                                            Other Tech
+                                                                                                                                                            Component
+
+                                                                                                                           Physical servers, servers
+                             General Purpose                   SQL           Fast Recovery               Fast Recovery   non supported by the VM DR
+                                 Server          Storage      Server         Virtual Server    Storage       Server      orchestration tool, as well as
+            Servers                               Array                                         Array                      high write IOPS workload
+
+            Backup                                         Database            VM DR
+                             File Backup
+            Infrastructure                                  Backup          Orchestration
+
+            Primary                        De-dupl. storage                                                Storage
+            Storage                           Appliance                                                     Array
+                                      metadata
+
+            Secondary                        De-Dupl. Storage                                              Storage
+            Storage                             Appliance                                                   Array
+
+            Secondary
+            Backup                                         Database            VM DR
+                             File Backup
+            Infrastructure                                  Backup          Orchestration
+
+                                                 Storage                                       Storage
+            Recovery                              Array                                         Array
+            Servers
+                             GeneralbPurpose                   SQL           Fast Recovery               Fast Recovery
+                                 Server                       Server         Virtual Server                  Server
+
+                                                                       21
+
+Backup, Restore and Recovery
+Context
+
+ Data Protection:                                Data Replication
+ – Tools for backup (data protection):            – two approaches for DR (Replication and
+   • Avamar + DataDomain for files                  Recovery):
+   • Idera + DataDomain for SQL Databases           • Snapshot + Remote Replication (on HDS)
+                                                    • VMWare SRM / Zerto
+
+                                            22
+
+Backup, Restore and Recovery
+Technology Architecture Brick: Backup and Restore
+
+Backup, Restore and Recovery – Backup and Restore
+Baseline                                                Guidance
+  Avamar for backing up files                           Both Avamar and Idera integrate well with DataDomain, enabling appliance-based de-duplication to
+  Idera for backing up SQL databases                     take place and minimize the size of backups
+  DataDomain as back-end storage for backup services    One of Avamar’s strength is backing up remote servers over WAN links as it will employ link
+                                                          optimization by de-duplicating information sent over the WAN. DTO could potentially offer this service
+                                                          to agencies and departments that have servers outside of DTO’s datacenters.
+                                                         Idera SQL Safe backup optimizes the online backup of SQL servers by employing dynamic
+                                                          compression. It also provides “instant restore”, which brings databases back online immediately,
+                                                          without requiring a long restore process.
+
+Retirement                                              Mainstream
+
+  Tivoli Storage Manager                                EMC Avamar
+  EMC Networker                                         Idera SQL Safe backup
+                                                         DataDomain
+Containment                                                                             Emerging
+
+  N/A                                                                                   Archive Platform: (Data Archiving Solution)
+
+                                                                            23
+
+Backup, Restore and Recovery
+Technology Architecture Brick: Replication and Recovery
+
+ Backup, Restore and Recovery – Replication and Recovery
+ Baseline                                      Guidance
+  VMWare Site Recovery Manager (SRM)           Virtual Machines: Both VMWare SRM and Zerto offer virtual machine replication across datacenters.
+  Zerto                                         These solutions ensure that virtual machines can be quickly ‘restarted’ at the secondary site, in the
+                                                 event that the protected virtual machine at the primary site becomes unavailable.
+  Hitachi Universal Replicator
+                                                Data Replication: Data replication allows for any data to be replicated across datacenters. This
+                                                 replication can be done synchronously (zero lag) using Hitachi TrueCopy using Hitachi Universal
+                                                 Replicator at any distance. Consistency points, usually created by using array-based snapshotting
+                                                 technology, are recommended, in order to ensure a recoverable copy is present at the secondary
+                                                 site.
+                                                Data Replication: File and content systems should be capable of performing snapshots and
+                                                 replicating data to secondary systems.
+ Retirement                                    Mainstream
+
+  VMWare Site Recovery Manager (SRM)           Zerto for virtual servers that require quick recovery
+  Hitachi Universal Replicator
+
+ Containment                                                                    Emerging
+
+  N/A                                                                           Cloud-based recovery service provider
+                                                                                 Container Management
+                                                                                 Long-distance Live VM migration
+
+                                                                    24
+
+                                                                                        Legend
+
+Enterprise Server                                                                     Logical Tier
+
+Component                                                                              Data Store
+
+                                                                                         Brick
+
+                                                                                        Other Tech
+                                                                                        Component
+                                       Enterprise Server
+
+                                          Application
+
+                                    Server Operating System
+                                        User Interface
+
+              Process Management     Storage Management              I/O Management
+
+                                        Server Platform
+
+                     BIOS           Secure/Trusted Element                CPU
+
+                Power / Cooling         I/O Bus & Cards                 Memory
+
+               Shared Data Center                             Network
+
+                                                               SAN
+
+                                              25
+
+Enterprise Server
+Context
+
+ Compute platforms:                                     Operating Systems:
+ – Main compute platform is x86                          – On x86
+   • Leveraging Cisco’s UCS Integrated                     • Windows
+     Systems platform to host VMWare,                      • Linux
+     providing horizontal scalability in a blade
+     form factor                                         – On IBM POWER
+
+   • Some legacy HPE ProLiant servers are also             • AIX
+     present but this form factor is no longer           – On IBM z
+     favored                                               • zOS
+ – There is a small number of RISC/Unix Servers
+   • IBM POWER
+ – DTO hosts a mainframe environment for
+   several department and agencies, under a
+   multi-tenancy model
+   • Based on IBM z technology, using LPARs to
+     segregate clients workloads
+
+                                                   26
+
+Enterprise Server
+Technology Architecture Brick: Server Hardware
+
+Enterprise Server – Server Hardware
+Baseline                                       Implications and Dependencies
+ Cisco UCS (Unified Computing Systems)         Through its integrated architecture and validated designs, UCS simplifies acquisition,
+ HPE ProLiant, Dell, IBM/Lenovo x86 servers     scalability and support of DTO’s x86 server environment.
+ IBM z (Mainframe)                             Where possible (if the software and non-functional requirements allow it), the industry is
+                                                 shifting away from proprietary server stacks such as IBM i, Unisys and IBM z Mainframes
+ IBM POWER (RISC)
+                                                 towards commodity x86 servers. This usually leads to lower hardware and maintenance
+ Sun/Oracle                                     costs but may require increased focus on availability, manageability and scalability
+ HPE                                            mechanisms to be able to match what has been offered by proprietary platforms.
+ IBM i (AS/400)
+ Unisys Mainframe
+Retirement                                     Mainstream
+
+ HPE ProLiant x86 rack mounted Servers         Cisco UCS
+ IBM POWER (RISC)                              Virtual server appliances
+ Sun/Oracle
+ HPE
+ IBM i (AS/400)
+ Server appliances (physical)
+
+Containment                                                          Emerging
+
+ IBM z (Mainframe)                                                   Hyperconverged Integrated Systems
+ Unisys Mainframe
+
+                                                          27
+
+Enterprise Server
+Technology Architecture Brick: Server Operating Systems
+
+Enterprise Server – Server Operating Systems
+Baseline                                                               Implications and Dependencies
+ x86 Servers                                                           SSO current strategic direction aligns with Gartner best practices. SSO should continue to
+            Microsoft Windows Server                                    proactively contain and retire RISC/Unix systems and actively support businesses in the
+                                                                         migration from RISC/Unix and other proprietary server operating systems to x86
+            RedHat Enterprise Linux, SUSE, CentOS
+                                                                         architecture where and when possible.
+ Mainframe
+                                                                        Gartner is forecasting a more rapid decline in the RISC/Unix marketplace over the next 5
+            IBM zOS                                                     years resulting in materially reduced ISV product support and availability.
+ Unix:                                                                 The x86 platform continues to grow while proprietary Server Operating Systems continue
+            IBM AIX                                                     to decline. For example, in the 2015 server OS market, Windows (server) and Linux
+            Solaris                                                     (server) are the only two subsegments that grew positively at 7.7% and 12.4%,
+                                                                         respectively. The combination of these two OSs has constituted a market share of 67.4%
+            HP-UX                                                       (although Linux being smaller) that demonstrates the prevalence of x86 platform in the
+ Other:                                                                 world's server computing environment
+            IBM i (OS/400)
+
+Retirement                                                             Mainstream
+
+ Microsoft Windows Server, unsupported versions of OS                  Microsoft Windows Server, Latest release
+ All Linux distributions other than RedHat Enterprise Linux,           Red Hat Enterprise Linux, Latest release
+  unsupported versions of RedHat Enterprise Linux
+ All Unix OS, including IBM AIX, Solaris and HP-UX
+ All other OS, including OS/400 and Unisys
+Containment                                                                                  Emerging
+
+ IBM zOS
+ Microsoft Windows Server, Still Supported OS version, not latest.
+ RedHat Enterprise Linux, , Still Supported OS version, not latest.
+ Unisys OS
+
+                                                                                  28
+
+                                                                                                                                                                                                      Legend
+
+ Server Virtualization                                                                                                                                                                              Logical Tier
+
+ Pattern                                                                                                                                                                                             Data Store
+
+                                                                                                                                                                                                       Brick
+
+                                                                                                                                                                                                      Other Tech
+                                                                                                                                                                                                      Component
+
+                                                                                                                       High-Availability
+                                                                                                                        Virtualization
+
+                                                        X86 Server Virtualization Infrastructure                                           X86 Server Virtualization Infrastructure
+
+                                                                 OS                 OS                      OS          Live                         OS                OS                      OS
+Virtualization                                                                                                        Migration
+                                                      Virtual Server     Virtual Server      Virtual Server                           Virtual Server        Virtual Server      Virtual Server
+                 System Management/Monitoring Tools
+
+                                                                        Hypervisor Cluster                                                                 Hypervisor Cluster
+                                                       Hypervisor                            Hypervisor                                    Hypervisor                           Hypervisor
+
+Physical                                               Enterprise                             Enterprise                                   Enterprise                            Enterprise
+Infrastructure                                           Server                                 Server                                       Server                                Server
+
+                                                        Enterprise                             Enterprise                                   Enterprise                            Enterprise
+                                                         Storage                                Storage                                      Storage                               Storage
+                                                                                                                 Shared Storage
+
+                                                                                                                 29
+
+Server Virtualization
+Description
+
+x86 server virtualization enables multiple operating system (OS) instances to be deployed, operated and
+managed concurrently on a single physical x86 server. x86 server virtualization is enabled by a virtual
+machine monitor (VMM), which runs on top of a hypervisor (most common) layer.
+
+Virtual machines (VMs) should be hosted on standardized configuration of blade servers or rack mounted
+x86 servers. Currently, industry norm ranges between 4-8 VMs per core. Standard file based and host
+based backup solutions should be in place to manage backup of file systems and data. Images and data
+should be hosted in a SAN environment for ease of management and migration (if needed). Separate
+test/development and production environments where possible.
+
+Virtual stack management in terms of hardware management, VM management, capacity planning,
+workload planning and measurement, and various utility tools that are coming up in the market should be
+provisioned to provide management of the environments.
+
+Although virtualization is applicable to the vast majority of workloads, not all are easy to virtualize as VMs.
+Workloads that require high CPU utilization, high memory and higher amounts of Input/Output may not be
+ideal candidates for virtualization. VM workloads should be selected based on a virtual strategy and
+workload analysis prior to hosting on virtual environments.
+
+                                                       30
+
+Server Virtualization
+Context
+
+Hypervisor:                                           VM Workload Management:
+ DTO is currently using VMWare for x86 Server         VCenter/VMotion is used to non-disruptively
+  virtualization                                        migrate workload from one server or UCS
+ Most department/agencies also use VMWare              frame to another for balancing workloads and to
+  while some use Hyper-V (mostly in smaller             minimize service disruption due to planned
+  deployment)                                           updates, upgrades or repairs
+                                                       Dynamic Resource Scheduler (DRS) is used to
+                                                        automatically migrate workload to balance
+                                                        resource utilization
+
+                                                 31
+
+Server Virtualization
+Technology Architecture Brick: x86 Hypervisor
+
+ Server Virtualization – x86 Hypervisor
+ Baseline                                 Implications and Dependencies
+  VMware vSphere                          Based on the understanding of the environment and the input reflected by stakeholders
+  Microsoft Hyper-V                        interviews, it is recommended that SSO maintain a single hypervisor for production
+                                            workloads. However, it is understood that specialized heterogeneous virtualization
+                                            solutions may be required in some instances due to technical, financial or political
+                                            considerations (and these exceptions should be reviewed on a case by case basis)
+                                           Microsoft Hyper-V has been used by a few agencies and has been deployed on select AD
+                                            Domain Controller (Tier 0) which Microsoft is supporting. In the near term, Microsoft
+                                            Hyper-V should be planned to be migrated to VMware in the future
+ Retirement                               Mainstream
+
+  N/A                                     VMware vSphere
+
+ Containment                                                                          Emerging
+
+  Microsoft Hyper-V
+
+                                                           32
+
+                                                                                                                                              Legend
+
+Client Virtualization                                                                                                                       Logical Tier
+
+Pattern                                                                                                                                      Data Store
+
+                                                                                                                                               Brick
+
+                                                                                                                                              Other Tech
+                                        Thick                            Thin                                     Zero                        Component
+                                        Client                          Client                                   Client
+
+                         Client OS                   Client OS       Client OS
+                          Local                    Application
+                       Applications                                Virtualization                          Virtualization
+                                                  Virtualization
+         Client                                                        Client                                  Client
+                       Virtualization                 Client
+         Tier
+                           Client
+
+                                                                                 Server OS                                Client OS
+                                                                             Shared Desktop                         Virtual Desktop
+         Virtual                                                             App       App                          App        App
+         Desktop                                                             App       App                          App        App
+         Tier
+                                                                                 Hypervisor                           Hypervisor
+                                                                     Hosted Shared Virtual Desktop       Hosted Dedicated Virtual Desktop
+                                                                                              Virtual Desktops
+
+                                  Server OS
+                           App Virtualization
+                                   Client OS Server
+                              App           App
+         Application
+         Tier                 App           App
+
+                                  Hypervisor
+
+                              Virtual Applications
+
+                                                                   33
+
+Client Virtualization
+Description
+
+For state of South Carolina- Shared Services Organization, client-side virtualization is defined by two capabilities—application and
+desktop—deployed across three end-point client types—thick, thin, and zero:
+ Application Virtualization : Streamline PC application deployment, and address packaging and application coexistence problems.
+ Hosted Virtual Desktop: Provide end-user flexibility, efficiency, possible energy savings and other benefits, enabling administrators
+  to manage desktops from a centralized location and end users to access their desktops from machines in any location.
+ Thick Client: A thick-client is generally considered to be a standard PC (in any of the various form factors such as desktop, laptop,
+  and tablet) designed to run an off-the-shelf operating system such as Microsoft Windows.
+ Thin Client: A thin-client is a purpose-built device with a hardware configuration and operating system that have been created
+  specifically to fill the virtualized client role. The goal is to create a device that is simpler to manage, more secure, and more power
+  efficient than a thick-client.
+ Zero Client: A zero-client is built around a proprietary hardware platform, usually in the form of application-specific integrated circuit
+  (ASIC), which includes processing power, memory, network, and graphics circuitry in a single chip. Zero-clients also eschew a
+  commercial operating system platform such as Windows in favor of an embedded operating system.
+
+Application virtualization with thick clients is mainstream at most agencies within the state, notably with the virtualization of the key GIS
+applications. This is delivered by an application virtualization server that delivers applications remotely to a thick client.
+ Application virtualization should be used to virtualize non-standard desktop applications. Unique applications such as GIS or imaging
+  systems that require heavy processing, or those that cause conflicts with other installed applications are candidates for virtualization.
+  Microsoft Office and other standard desktop builds should still be installed on the client until sufficient SSO staff and budget are
+  allocated to provide a comprehensive application virtualization strategy.
+ However, application virtualization can also be used to virtualize all desktop applications for small environments with a single
+  desktop build, and in which business users perform the same tasks and require little, if any, customization (e.g. call centers,
+  administrative).
+ Another common use case for desktop and application virtualization is environments that require additional security, particularly in
+  scenarios where information exfiltration would have devastating consequences.
+ Connectivity is important for application virtualization to be viable.
+
+                                                                     34
+
+Client Virtualization
+Context
+
+Desktop Virtualization:                            Major uses:
+ DTO is currently using VMWare Horizon             Implementation in place for a few hundred
+ Some agencies/departments use Citrix               endpoints
+  XenDesktop for Desktop virtualization, in         Primary use today is for remote access, to
+  addition to VMWare Horizon                         increase security (remote endpoint may not be
+                                                     fully managed by agency/department or DTO)
+Application Virtualization:
+ DTO uses Citrix XenApps for Application
+  virtualization
+
+                                              35
+
+Client Virtualization
+Technology Architecture Brick: Application and Desktop Virtualization
+
+ Client Virtualization – Application and Desktop Virtualization
+ Baseline                                   Implications and Dependencies
+ Desktop Virtualization:                     VMware Horizon is the mainstream product for desktop virtualization. VMware Thin App should
+  VMware Horizon                             be evaluated for deployments with both virtual applications and VMware desktops in the future
+ Application Virtualization:                 There are a few instances where Citrix is used which should be contained to specific instances
+                                              and should be migrated to VMware in the future.
+  XenApp
+
+ Retirement                                 Mainstream
+  None identified                          Desktop Virtualization:
+                                             VMWare Horizon
+                                            Application Virtualization:
+                                             XenApp
+
+ Containment                                                                                 Emerging
+  Citrix XenDesktop                                                                          Application Virtualization: Microsoft
+  ThinApp                                                                                     Software Grid (Softgrid)
+
+                                                                  36
+
+## Curator notes
+
+Text extracted with pdftotext -layout (page headers, footers and column layout kept as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their letters).

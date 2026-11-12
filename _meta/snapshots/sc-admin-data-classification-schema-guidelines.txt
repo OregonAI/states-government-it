@@ -1,0 +1,143 @@
+           ENTERPRISE PRIVACY OFFICE
+
+                    State of South Carolina
+Data Classification Schema and Guidelines
+                                  V.2.0 (07.15.15)
+
+                            Enterprise Privacy Office (EPO) – Data Classification Schema and Guidelines
+
+ Revision History
+ Update this table every time a new edition of the document is published
+
+Date          Authored by            Title                  Ver.   Notes
+
+              Enterprise Privacy
+3/6/2015                                                    1.3    Posted
+              Office
+                                                                   Updated to provide introductory data
+              Enterprise Privacy                                   schema section and improve
+7/15/15                                                     2.0
+              Office                                               examples of data types for each data
+                                                                   classification category
+
+                                                                                                          V.2.0 07.15.2015 | Page 2
+
+                           Enterprise Privacy Office (EPO) – Data Classification Schema and Guidelines
+
+DATA CLASSIFICATION PROCESS
+
+Protecting the State’s data is essentially a three-step process:
+    1. Locate your data (asset inventory)
+
+    2. Determine classification level (data classification)
+
+    3. Apply controls (implementation of administrative, physical, and technical safeguards)
+
+DATA CLASSIFICATION SCHEMA
+
+A Data Classification Schema has been developed to categorize the types of data that the State of South Carolina’s agencies and institutions use and hold. An
+agency must know the types of data that it uses and holds, as well as who can access the data and where the data is located, in order to be able to develop the
+policies and procedures that are necessary to prevent the unauthorized use or disclosure of any sensitive information. The data classification schema used to
+complete step #2 of the data classification process listed in the previous section, is comprised of four categories:
+    1. Public: Information that is intended, or required, to be shared with the public.
+
+    2. Internal Use: Non-sensitive information that is used in the daily operations of an agency.
+
+    3. Confidential: Sensitive information that is used or held by an agency. Considerable loss or harm could occur as a result of unauthorized access, use, or
+        disclosure of this information.
+
+    4. Restricted: Highly sensitive information that is used or held by an agency. Statutory or regulatory penalties, notification provisions, or other mandates
+        could result if the information is accessed, used or disclosed in an unauthorized manner.
+
+                                                                                                                                         V.2.0 07.15.2015 | Page 3
+
+                          Enterprise Privacy Office (EPO) – Data Classification Schema and Guidelines
+
+DATA CLASSIFICATION GUIDELINES
+
+The Enterprise Privacy Office (EPO) created Table 1, which assigns classification levels to a number of the types of sensitive data or records that State agencies
+maintain. In cases where data or records do not appear in the examples listed below, a classification template can help agencies determine an appropriate
+classification level. This template is available at http://dis.sc.gov/resources/Pages/default.aspx.
+
+A few notes to remember include:
+
+        Shared Drives
+        For each top-level folder, an individual can be assigned to identify or verify the contents of that folder. Once the contents are identified, the appropriate
+        security controls can be applied. For example, Jim Smith is the manager of a Division shared drive. For each top-level folder, Jim can assign responsibility
+        to an individual, who will identify the data. If a data element has not already been classified in these lists, the above referenced classification template
+        can be used to assist in the task.
+
+        Databases
+        If the information contained in a database belongs to the agency, individuals should be assigned to review the database and use the guidance given
+        above. Agencies are responsible for classifying their data, regardless of where it is physically located, as only the agency knows its business processes
+        and what data it collects and maintains.
+
+        Applications
+        Regardless of where the data is physically located, the “owner” of the application should classify the data collected by the application, as only the owner
+        of the application knows what the application collects.
+
+        Storage of Paper and Other Media
+        Regardless of format, data should be classified and protected according to Division of Information Security (DIS) controls. If the data contained therein is
+        Restricted or Confidential, physical locks should protect the data. Best practice is a locked filing cabinet in a locked office. Freestanding filing cabinets
+        containing Restricted or Confidential data, behind limited access doors, are acceptable. Consider measures that are necessary to minimize or protect
+        data that may be contained in email, on copy machine or printer hard drives, or on portable devices.
+
+        Context
+        For some of the types of data or records, context will play an important part in classifying the record. For example, although a name and a photograph,
+        grouped together, are considered Personally Identifiable Information, this may be considered Public Information if publicized in an agency newsletter
+        but considered restricted information in another context, such as a health registry. Privacy liaisons should consult with their agency’s Office of General
+        Counsel, or their agency Director’s office, for direction in these cases.
+
+                                                                                                                                             V.2.0 07.15.2015 | Page 4
+
+                         Enterprise Privacy Office (EPO) – Data Classification Schema and Guidelines
+
+       Multiple Applicable Levels
+       Records that cross classification levels should be protected at the higher level of security.
+
+       Aged Data
+       As data ages and/or is amended, it may raise or lower in classification (such as budget numbers before and after publication).
+
+If agencies would like additional assistance, the EPO can be contacted via email at privacyoffice@admin.sc.gov.
+
+                                                                                                                                        V.2.0 07.15.2015 | Page 5
+
+                            Enterprise Privacy Office (EPO) – Data Classification Schema and Guidelines
+
+Table 1. Examples of Data Types by Data Classification Level
+
+           RESTRICTED                           CONFIDENTIAL                          INTERNAL USE                     PUBLIC INFORMATION
+
+• Federal tax information received     • Biometric identifiers               • Agency policies, procedures,       • Public-facing website content
+  from, or derived from, the IRS or    • Photographs of individual people      and/or standards                   • Publicly distributed information
+  secondary sources (IRS Pub.          • Pension/Retirement benefit          • Training materials                 • Meeting agendas and minutes
+  1075)                                  information (actual amounts)        • Internal meeting information         from public meetings
+• Protected Health Information         • Personal demographics (race,        • Direct telephone line numbers to   • Brochures
+  (HIPAA/HITECH)                         place of birth, weight, religion)     staff                              • Press releases
+• Individual financial information     • Unpublished information about       • Aggregated data                    • Agency contact information
+  subject to GLBA                        agency personnel such as home
+• Social Security numbers                telephone numbers and home
+• Debit or credit card numbers           addresses used for emergency
+• Driver’s license information or        contact
+  State identification card            • All information exempt from
+  information                            disclosure pursuant to §30-4-40
+• Bank account numbers or                of the SC Code of Laws (SC
+  information with personal              Freedom of Information Act)
+  identification numbers (PINs) or     • Information received from
+  passwords                              and/or about a business (tax
+• Passport numbers                       information, business plans)
+• Child welfare and legal              • Security plans, network
+  information about minors               architecture, etc.
+  (juvenile justice, foster care       • Passwords
+  and/or adoption)
+• Witness protection information
+• DNA record & profile contained
+  in the State DNA database
+• Dates of birth (if linked to other
+  information about a person)
+• Student education records
+• Trade secrets
+• Employee Identification Number
+  (EIN) of a sole proprietor
+
+                                                                                                                                              V.2.0 07.15.2015 | Page 6

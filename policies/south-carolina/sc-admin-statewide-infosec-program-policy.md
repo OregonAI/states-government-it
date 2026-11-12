@@ -1,0 +1,579 @@
+---
+schema_version: 1
+corpus: states-government-it
+jurisdiction: south-carolina
+id: sc-admin-statewide-infosec-program-policy
+title: South Carolina Statewide Information Security Program Policy
+doc_type: policy
+citation: 'SC Admin DIS: Statewide Information Security Program Policy (January 1, 2026)'
+authority_level: ''
+issuing_body: South Carolina Department of Administration
+source_url: https://www.admin.sc.gov/sites/admin/files/Documents/PMOOTIS/SC%20Statewide%20Information%20Security%20Program%20Policy.pdf
+source_format: pdf
+retrieved: '2026-11-12'
+source_sha256: ab79f26878271e71696aebaf4a4a25e3149990daef6fd6e4a58255d672dcb950
+effective_date: null
+source_version: ''
+status: current
+content_mode: verbatim
+conversion_notes: Text extracted with pdftotext -layout (page headers, footers and column layout kept
+  as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their
+  letters). Pages 2, 16 of the PDF have no text layer (figures, blank pages or scanned forms) and add
+  no text here.
+last_verified: ''
+verified_by: ''
+maintainer: ''
+relationships:
+  implements: []
+  implemented_by: []
+  references_external: []
+  related: []
+  supersedes: []
+tags:
+- cybersecurity
+- governance
+---
+
+> **NON-AUTHORITATIVE.** This is a convenience copy for machine reading. The official text is published at the source URL above. Verify at source before relying on it.
+
+# South Carolina Statewide Information Security Program Policy (SC Admin DIS: Statewide Information Security Program Policy (January 1, 2026))
+
+## At a glance
+
+Establishes the Statewide Information Security Program (SC InfoSec Program): its authority (Provisos 93.9, 117.96, 117.102 and 117.107 of the 2025 General Appropriations Act, as the policy states), scope (all executive-branch state agencies; judicial and legislative agencies are exempt), program objectives and components, program governance and the roles shared between the Division of Information Security and agencies. Version 2.0 dated January 1, 2026, retitled from 'Information Security Program Master Policy'. PDF pages 2 (blank) and 16 have no text layer and add no text: page 16 is an image of the policy authorization block (the State Chief Information Security Officer's authorization, dated January 30, 2026, with a signature), which the text therefore lacks. Page 16 is readable: measured on 2026-11-12, page 16 alone OCRs cleanly through the shared Tesseract path (659 characters, including 'Date of Current Revision: January 1, 2026' and 'Authorized by: Ben Willis'). The two-engine procedure could not be used because of a limit in the shared OCR code, not because the page cannot be read: page 2 is blank but carries a whitespace-only text layer (an embedded font with no glyphs), so the shared check treats it as a scan that needs OCR (listing only page 16 fails with 'page 2 has no text layer'), and with pages 2 and 16 both listed ocrmypdf aborts with PriorOcrFoundError (page 2 'already has text'). See shared_changes_needed: src/ingest_ocr.py should treat a page whose text layer is only whitespace as blank, or OCR it with skip-text. Page 16 is therefore missing from the text until that change.
+
+## Full text
+
+   SOUTH CAROLINA
+STATEWIDE INFORMATION
+  SECURITY PROGRAM
+       POLICY
+       January 1, 2026
+
+                            South Carolina Statewide Information Security Program Policy
+
+                                     Revision History
+
+Version
+               Date                    Author(s)                          Description
+Number
+  1.0     March 7, 2014     Division of Information Security   Initial draft.
+                                                               Establish implementation
+                                                               timeline; refine titles and
+  1.1     March 25, 2014    Division of Information Security
+                                                               duties. Add Controls
+                                                               Deployment section.
+                                                               Established implementation
+  1.2     June 13, 2014     Division of Information Security   timeline for Information
+                                                               Security Controls Deployment.
+                                                               Complete revision to bring in
+                                                               alignment with current
+                                                               legislative requirements.
+  2.0     January 1, 2026   Division of Information Security
+                                                               Document title changed from
+                                                               “Information Security Program
+                                                               Master Policy.”
+
+                                             iii
+
+                                            South Carolina Statewide Information Security Program Policy
+
+Contents
+I.   Introduction ................................................................................................................ 1
+     1. Purpose ............................................................................................................................1
+     2. Authority ...........................................................................................................................1
+     3. Scope ...............................................................................................................................1
+II. Policy Statements........................................................................................................ 3
+     1. Program Objectives ...........................................................................................................3
+     2. Program Component Requirements ...................................................................................6
+     3. Program Governance .........................................................................................................8
+     4. Program Implementation ...................................................................................................9
+     5. Roles and Responsibilities .................................................................................................9
+III. Policy Governance ...................................................................................................... 11
+     1. Policy Development ........................................................................................................ 11
+     2. Policy Distribution ........................................................................................................... 11
+     3. Policy Maintenance ......................................................................................................... 11
+     4. Policy Exceptions ............................................................................................................ 11
+     5. Policy Authorization......................................................................................................... 12
+
+                                                                     iv
+
+                            South Carolina Statewide Information Security Program Policy
+
+I.    INTRODUCTION
+The South Carolina General Assembly has authorized the South Carolina Department of
+Administration’s (Admin) Division of Information Security (DIS) to establish a statewide
+information security program.
+This program policy describes the structure, governance and scope of the South Carolina
+Statewide Information Security Program (SC InfoSec Program) and the organizational roles
+and responsibilities shared between state agencies and DIS in matters relating to
+cybersecurity. (In this policy and throughout the SC InfoSec Program, the terms information
+security and cyber security, cybersecurity or cyber are treated as synonymous.)
+
+1. PURPOSE
+     The purpose of this policy is to establish the South Carolina Information Security Program,
+     including its authority, scope, objectives, implementation and governance by defining the
+     shared roles and responsibilities between DIS and the state agencies that safeguard state
+     and citizen information.
+
+2. AUTHORITY
+     The SC InfoSec Program and associated requirements set forth in this policy are based on
+     legislative authorities established by the South Carolina General Assembly in Provisos
+     93.9, 117.96, 117.102 and 117.107 of the 2025 General Appropriations Act.
+
+3. SCOPE
+     This policy and the SC InfoSec Program standards, policies and guidelines apply to all
+     South Carolina state government agencies with the following exceptions derived from the
+     legislative authorities referenced above.
+        Exempt: Judicial and Legislative Branch Agencies
+        The following state entities are exempt from this policy and the SC InfoSec Program:
+              The South Carolina Judicial Branch
+              The South Carolina House of Representatives
+              The South Carolina Senate
+              Legislative Council
+              Legislative Audit Council
+              Legislative Services Agency
+              Judicial Department
+               Note: The terms “state agencies” and “all state agencies,” as used in this policy
+               and in all SC InfoSec Program materials, shall always be understood to exclude
+               the judicial and legislative branch agencies listed in this section, unless they are
+               explicitly included by additional clarifying language.
+        All South Carolina government entities exempt from this policy and the SC InfoSec
+        Program are encouraged to review and evaluate the policies, standards, guidelines
+
+                                              1
+
+                   South Carolina Statewide Information Security Program Policy
+
+and other requirements contained within the program and adopt or adapt for their own
+use as appropriate.
+Modified Obligation: Public Institutions of Higher Learning, Technical Colleges,
+Quasi-Governmental Bodies and Political Subdivisions
+The following state agencies are included within the scope of this policy and SC
+InfoSec Program requirements; however, they are exempt from mandatory adoption of
+shared information technology and infrastructure services, from submitting IT Security
+Plans to DIS and from DIS audits of program compliance. (In lieu of an audit, DIS may
+request an agency provide compliance evidence.)
+      Public Institutions of Higher Learning and Technical Colleges:
+          o   Aiken Technical College
+          o   Central Carolina Technical College
+          o   Clemson University
+          o   Coastal Carolina University
+          o   College of Charleston
+          o   Denmark Technical College
+          o   Florence Darlington Technical College
+          o   Francis Marion University
+          o   Greenville Technical College
+          o   Horry-Georgetown Technical College
+          o   Lander University
+          o   Medical University of South Carolina
+          o   Midlands Technical College
+          o   Northeastern Technical College
+          o   Orangeburg-Calhoun Technical College
+          o   Piedmont Technical College
+          o   SC State University
+          o   Spartanburg Community College
+          o   Technical College of the Lowcountry
+          o   The Citadel
+          o   Tri-County Technical College
+          o   Trident Technical College
+          o   University of South Carolina (including all divisions, departments,
+              schools and colleges)
+          o   University of South Carolina – Aiken
+          o   University of South Carolina – Beaufort
+          o   University of South Carolina – Lancaster
+          o   University of South Carolina – Salkehatchie
+          o   University of South Carolina – Sumter
+          o   University of South Carolina – Union
+          o   University of South Carolina – Upstate
+          o   Williamsburg Technical College
+          o   Winthrop University
+          o   York Technical College
+
+                                    2
+
+                             South Carolina Statewide Information Security Program Policy
+
+                Quasi-Governmental Bodies:
+                     o   Connector 2000 Association
+                     o   Palmetto Railways
+                     o   SC Jobs-Economic Development Authority
+                     o   SC Lottery Commission
+                     o   SC Public Service Authority (Santee Cooper)
+                     o   SC Research Authority
+                     o   SC State Education Assistance Authority
+                     o   SC State Ports Authority
+
+                Political Subdivisions:
+                For purposes of the SC InfoSec Program, political subdivisions are all counties,
+                municipalities, school districts and public service or special districts.
+
+II.    POLICY STATEMENTS
+
+1. PROGRAM OBJECTIVES
+      The SC InfoSec Program shall be a statewide mechanism for developing, implementing,
+      adopting and monitoring information security capabilities across state government.
+      The program shall be a collaborative effort between DIS and state agencies wherein
+      responsibility for information security is shared. DIS shall provide both information
+      security leadership and support in service of state agencies while they retain overall
+      accountability for their own information security as they independently pursue their
+      individual mandates in service of the state and its citizens.
+            The activities within the SC InfoSec Program shall fall broadly into four categories:
+                 o   Continuous assessment of information security risk.
+                 o   Iterative development of information security requirements to mitigate
+                     information security risk.
+                 o   Collaborative implementation of information security requirements.
+                 o   Regular monitoring of compliance with information security requirements.
+            Neither DIS nor state agencies shall be wholly responsible for any of these
+             activities; they shall be jointly performed as DIS works in partnership with state
+             agencies through a shared responsibility model. By sharing responsibility for
+             information security, both parties partner to enable agencies to fulfill their
+             mandates with minimal information security risk.
+            Implementing a properly balanced shared responsibility model for statewide
+             information security shall be a primary objective of the SC InfoSec Program. Each
+             agency is accountable for its own mandate, mission, vision, objectives, federal
+             and state compliance burden, and risks (including business, operational and
+             information security risks). DIS is accountable to provide information security
+             leadership and services to South Carolina state government in accordance with
+             legislative requirements. There is therefore a shared responsibility for state
+
+                                               3
+
+                        South Carolina Statewide Information Security Program Policy
+
+         government information security between DIS and agencies. The SC InfoSec
+         Program shall be the means for that shared responsibility for information security
+         to be implemented.
+  A high-level view of the elements of the SC InfoSec Program and the governance
+  relationships between them are pictured below. The objectives of the program are
+  described in the following sections.
+
+Figure 1: The Statewide Information Security Program
+
+      Collaborative Information Security Governance
+      A fundamental purpose of the SC InfoSec Program is to provide a common information
+      security framework and approach across state government. At its heart, the program is
+      a governance effort — a collaboratively-developed collection of policies, standards,
+      guidelines and other elements that enable all in-scope state government agencies to
+      approach information security in a uniform manner, collectively improving the state’s
+      information security posture while ensuring each agency’s independence to pursue its
+      mission, goals and objectives.
+      DIS contributes to statewide information security governance by developing
+      information security policies, standards and guidelines in collaboration with state
+      agencies, ensuring they are regularly updated and maintained, and by monitoring and
+      reporting on levels of information security risk and levels of compliance with
+      information security requirements within state government. In addition, DIS supports
+      agencies by providing subject matter expertise and support in information security
+      governance and compliance activities when requested.
+      All state agencies contribute to statewide information security governance by
+      contributing to the development of information security policies, standards and
+      guidelines, implementing information security in accordance with those requirements
+      and partnering with DIS to respond to information security risk and incidents.
+
+                                          4
+
+                    South Carolina Statewide Information Security Program Policy
+
+Integrated Information Security Requirements
+The information security requirements established by the SC InfoSec Program are
+multifaceted. Some are deeply technical; others are process focused. Some focus on
+documentation; others focus on tools and operations. Some are preventive; others are
+responsive. Despite this variety, program requirements are integrated with one another
+into a single, holistic structure that provides traceability across the whole program —
+from requirement to authority, from risk to mitigation and from policy requirement to
+technical standard.
+Notable aspects of the program’s integrated requirements include:
+      SCDIS-200 Information Security and Privacy Standards.
+      Domain-specific information security policies that align with SCDIS-200
+       controls.
+      SCDIS-210 technical information security standards that align with SCDIS-200
+       controls.
+      Information security tools that meet the technical standards.
+      Information incident response plans that align people and processes with the
+       information security tools.
+      Information security risk assessment activities that align with both technical
+       and policy requirements.
+Information security requirements developed as part of the SC InfoSec Program are
+developed and published by DIS in collaboration with state agencies as information
+security policies, guidelines and standards. All such requirements exist and operate
+under the authority of this program policy.
+Publicly available SC InfoSec Program requirements are published to the Admin
+website. Confidential information related to the SC InfoSec Program is shared with
+authorized individuals through the DIS governance, risk and compliance (GRC)
+platform or upon request.
+Right-Sized Information Security Technology Enablement
+Information security technologies enabling automated detection and response are
+essential to a modern, effective information security program. Through the SC InfoSec
+Program, DIS partners with in-scope agencies to govern, design, procure and
+implement information security solutions that are best fit for the state and each
+agency’s needs.
+Governance of information security technologies is implemented by means of
+information security policies, standards and guidelines that establish a minimum
+information security technology baseline, and which must be met or exceeded by all
+state agencies subject to SC InfoSec Program requirements.
+Some information security solutions are designed, procured and implemented by DIS
+for use by all in-scope state agencies as a centralized service. Adoption of such
+solutions is a mandatory obligation for all state agencies subject to Admin’s shared
+services authority under legislative proviso. In addition, a portion of the DIS budget has
+been designated by the General Assembly for the distribution of information security
+
+                                      5
+
+                        South Carolina Statewide Information Security Program Policy
+
+     technologies to state agencies (even those exempt from shared services obligations)
+     to address the state's most serious information security vulnerabilities as determined
+     by DIS and Admin’s Office of Technology and Information Services (OTIS).
+     As part of the SC InfoSec Program, DIS also offers information security technology
+     support services such as risk assessments and design and engineering services.
+     Coordinated Cyber Incident Response
+     In the event of a cyber incident or breach, a rapid and skillful response is essential to
+     minimize any potential damage or impact on the state, its agencies and its citizens.
+     Ensuring all state agencies have timely access to high-quality, effective cyber incident
+     response resources is a primary driver for the SC InfoSec Program.
+     Some aspects of information security incident management are centralized across the
+     state by DIS. DIS provides one statewide security information and event management
+     (SIEM) system and one statewide Security Operations Center (SOC). DIS promulgates
+     a statewide cyber incident response plan. However, in partnership with these
+     centralized capabilities, each state agency also develops its own cyber incident
+     response plans and capabilities.
+     In the event of a cyber incident, DIS oversees cyber incident response under the SC
+     InfoSec Program with the level of engagement and direct oversight determined by DIS
+     in partnership with the affected agency(ies) to be most prudent. The end goal is always
+     the same: a collaborative and well-coordinated defense of the state, its interests and
+     its citizens.
+     Transparent Cyber Risk Management
+     In the state government context, apportionment of resources and prioritization of effort
+     is based on a collaborative, iterative legislative process. Providing decision makers
+     with clear visibility to accurate, up-to-date information about the presence and
+     urgency of information security risks and the effort needed to mitigate those risks is a
+     key objective of the SC InfoSec Program. Decision makers at both the agency and the
+     state level benefit from a clear, apples-to-apples picture of sources of information
+     security risk within their scope. This enables them to prioritize efforts and investments
+     in a manner best serving the interests of the state and its citizens.
+     The SC InfoSec Program provides a single cyber risk management framework for use
+     across all state agencies. This single framework allows all information security risks to
+     be identified, assessed, tracked and managed in a consistent and coordinated
+     manner, putting priority where it is needed most.
+
+2. PROGRAM COMPONENT REQUIREMENTS
+  The SC InfoSec Program shall consist of five types of components. The policy
+  requirements for each are provided in the following sections.
+     Sub-Programs
+            The SC InfoSec Program shall be structured into distinct, individually governed
+             sub-programs. This modular approach ensures each area can mature and
+
+                                           6
+
+                   South Carolina Statewide Information Security Program Policy
+
+       update at its own pace while allowing for more effective distribution of roles
+       and responsibilities.
+      Each sub-program shall be established and governed by its own program policy
+       which shall exist and operate under the overarching program policy authority.
+      The current sub-programs of the SC InfoSec Program are:
+            o   The Security and Privacy Compliance Program
+            o   The Cyber Risk Management Program
+            o   The Security Engineering and Operations Program
+            o   The State Agency Security Engagement Program
+            o   The Enterprise Privacy Office Program
+Policies
+      Information security policies shall be the highest-level of governance within the
+       SC InfoSec Program.
+      Policies shall be published as signed, versioned documents.
+      Standards, guidelines and services within the program shall be governed by
+       and must align with program policies.
+      Policies shall be developed by DIS in collaboration with state agencies and
+       approved by the DIS Chief Information Security Officer (CISO).
+      Policies shall be published to authorized individuals through the DIS GRC
+       platform and at the discretion of the DIS CISO on the Admin website.
+      Policies shall be reviewed and updated in a manner and at a cadence
+       documented in each individual policy.
+Standards
+      Information security standards shall be the second level of governance within
+       the SC InfoSec Program.
+      Standards shall guide and enable the implementation of policy requirements.
+      Standards shall address a variety of topics, including technical, process and
+       governance matters.
+      Standards shall be promulgated in a variety of forms, such as process or
+       procedure documents, plans, tabular lists, configurations within systems,
+       presentation slides and other such forms.
+      Standards shall be developed by DIS in collaboration with state agencies and
+       approved by the DIS CISO or persons authorized by the DIS CISO.
+      Standards shall be published in a manner and to an audience deemed
+       appropriate by DIS.
+      Standards shall be reviewed and updated in a manner and at a cadence that
+       complies with SC InfoSec Program policies.
+
+                                     7
+
+                        South Carolina Statewide Information Security Program Policy
+
+     Guidelines
+            Guidelines shall be the lowest level of governance within the SC InfoSec
+             Program.
+            Guidelines shall support the implementation of standards by providing
+             recommendations and guidance.
+            Guidelines shall address a variety of topics, including technical, process and
+             governance matters.
+            Guidelines shall be promulgated in a variety of forms, such as formal
+             documents, tabular lists, configurations within systems, presentation slides
+             and other such forms.
+            Guidelines shall be developed by DIS in collaboration with state agencies and
+             approved by DIS staff.
+            Guidelines shall be published to authorized individuals in the manner deemed
+             most appropriate by DIS.
+            Guidelines shall be reviewed and updated in a manner and at a cadence
+             determined by DIS.
+     Services
+            SC InfoSec Program services shall be technology or consulting services offered
+             by DIS to state agencies to support them in their implementation of SC InfoSec
+             Program requirements.
+            Adoption of some services as defined by DIS shall be mandatory for all in-
+             scope agencies.
+            Adoption of other services, as defined by DIS, shall be optional and may be
+             utilized by agencies in a manner and at a cadence that best suits their needs
+             and priorities.
+            DIS shall develop services and make them available to agencies based on DIS
+             priorities as defined through continual, collaborative engagement with state
+             agencies.
+
+3. PROGRAM GOVERNANCE
+        The SC InfoSec Program shall be governed by this program policy in accordance
+         with authorities conferred and requirements promulgated by the General
+         Assembly as referenced in Section 2 of this policy.
+        The constituent parts of the SC InfoSec Program shall be governed by the various
+         information security policies, standards and guidelines created as part of the SC
+         InfoSec Program.
+
+                                          8
+
+                          South Carolina Statewide Information Security Program Policy
+
+4. PROGRAM IMPLEMENTATION
+          DIS shall outline activities, projects, programs, phases and milestones by which
+           the SC InfoSec Program will be implemented and maintained.
+          DIS shall define SC InfoSec Program implementation priorities and plans in
+           coordination with state agencies.
+
+5. ROLES AND RESPONSIBILITIES
+   The SC InfoSec Program shall be a coordinated effort between DIS and state agencies as
+   outlined below.
+      SC DIS
+      DIS shall:
+          Develop, implement, update and maintain the SC InfoSec Program as a
+           collaborative effort between DIS and state agencies.
+          Provide information security leadership and support to state agencies through the
+           SC InfoSec Program as they independently pursue their individual mandates.
+          Develop, implement, update and maintain sub-programs and services in
+           collaboration with state agencies as part of the SC InfoSec Program.
+          Develop, implement, update and maintain information security policies, guidelines
+           and standards in collaboration with state agencies as part of the SC InfoSec
+           Program.
+          Ensure all requirements of the SC InfoSec Program integrate with one another into
+           a single, cohesive body of work.
+          Conduct audits of state agencies (except for public institutions of higher learning,
+           technical colleges, political subdivisions and quasi-governmental bodies) as
+           necessary to monitor compliance with established information security policies,
+           guidelines and standards.
+          As needed, request public institutions of higher learning, technical colleges,
+           political subdivisions and quasi-governmental bodies to submit sufficient
+           evidence that their information security policies, guidelines and standards meet or
+           exceed those adopted and implemented by the SC InfoSec Program.
+          Ensure documentation is acquired and recorded for all reported state agency
+           information security breaches.
+          Oversee information security incident response for state agencies in the manner
+           deemed most prudent by DIS.
+          Use funds for enterprise technology and remediation to address the state's most
+           serious information security vulnerabilities as determined by DIS and OTIS.
+          Partner with OTIS to provide shared information technology and infrastructure
+           services that promote information security to state agencies (except for public
+
+                                            9
+
+                    South Carolina Statewide Information Security Program Policy
+
+    institutions of higher learning, technical colleges, political subdivisions and quasi-
+    governmental bodies).
+   Determine the sequence of statewide information security technology and service
+    provisioning.
+   Coordinate with agencies to accomplish a strategic transition to statewide
+    information security technologies and services.
+   Specify the form and level of detail required in state agency IT security plans
+    submitted to DIS.
+   Annually review all state agency IT security plans (except for public institutions of
+    higher learning, technical colleges, political subdivisions and quasi-governmental
+    bodies).
+   Partner with state agencies to govern, design, procure and implement information
+    security solutions, technology and services.
+   Provide a single cyber risk management framework for use across all state
+    agencies.
+   Assess, track and oversee the management of information security risk across
+    state agencies.
+State Agencies
+All state agencies shall:
+   Adopt and implement information security policies, guidelines and standards
+    promulgated by DIS.
+   Formally report all information security breaches to DIS and provide or assist with
+    developing related documentation as requested.
+   Be subject to DIS oversight of information security incident response in the
+    manner deemed most prudent by DIS.
+   Use enterprise technology and remediation distributed to state agencies by DIS to
+    address the state’s most serious information security vulnerabilities as
+    determined by DIS and OTIS.
+State agencies with full obligation (agencies that are not public institutions of higher
+learning, technical colleges, political subdivisions and quasi-governmental bodies)
+shall:
+   Fully participate in information security audits conducted by DIS that monitor
+    compliance with established information security policies, guidelines and
+    standards.
+   Use the shared information technology and infrastructure services provided by DIS
+    as they become available and in a sequence determined by DIS.
+   Coordinate with DIS to accomplish a strategic transition to shared information
+    security services.
+
+                                     10
+
+                              South Carolina Statewide Information Security Program Policy
+
+             Submit an IT Security Plan to DIS in the form and level of detail required by DIS by
+              August 1 of the fiscal year.
+          State agencies with modified obligations (public institutions of higher learning,
+          technical colleges, political subdivisions and quasi-governmental bodies) shall:
+             Submit sufficient evidence upon request from DIS that their information security
+              policies, guidelines and standards meet or exceed those adopted and
+              implemented by the SC InfoSec Program.
+
+III.    POLICY GOVERNANCE
+
+1. POLICY DEVELOPMENT
+       This policy was developed by DIS to meet the requirements established by the General
+       Assembly in the authorities referenced in Section 2. It provides the information required to
+       develop, implement and maintain a statewide information security program.
+
+2. POLICY DISTRIBUTION
+   The Admin Strategic Communications Office shall ensure the latest approved version of
+   this policy is posted to the Admin website and emailed to state agencies and other
+   stakeholders as appropriate.
+
+3. POLICY MAINTENANCE
+   DIS shall maintain this SC InfoSec Program Policy, and shall:
+             Perform a formal review and renewal every fiscal year.
+             Include appropriate staff members, stakeholders and state agency representation
+              in the review and renewal process.
+
+4. POLICY EXCEPTIONS
+   All SC InfoSec Program requirements are mandatory for in-scope agencies. Exceptions to
+   program requirements are only available when external constraints beyond an agency’s
+   control (such as conflicting legislative mandates or compliance burdens) prevent an
+   agency from meeting program requirements.
+             State agencies shall request exceptions when external constraints prevent the
+              fulfillment of specific policy requirements.
+             DIS shall establish and implement a process for agencies to request exceptions,
+              approval criteria for exceptions and expiration of exceptions.
+
+                                               11
+
+## Curator notes
+
+Text extracted with pdftotext -layout (page headers, footers and column layout kept as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their letters). Pages 2, 16 of the PDF have no text layer (figures, blank pages or scanned forms) and add no text here.

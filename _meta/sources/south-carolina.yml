@@ -1,0 +1,325 @@
+# South Carolina seed list: every instrument this state's part of the corpus holds or knows about.
+# Key reference: _meta/sources/README.md. Rules: _meta/CLAUDE.md.
+# Discovery 2026-11-12 through the toolkit Fetcher: the General Assembly's Code of Laws (the master page, all 63 title pages
+# and the chapter pages named below) and Code of Regulations (master page and chapter 19), the Department of Administration's
+# technology pages (Governance and Resources, Information Security and Privacy, AI Center of Excellence, Forms and Forums,
+# IT Shared Services, IT Planning, Data Analytics, Agency Relationship Management, Cloud Services and the others the
+# technology menu lists) and every file the Governance and Resources page links, and the Governor's executive order list.
+sources:
+
+- id: "sc-code-1-ch-11"
+  sha256: "12c642417fc7afe5a517eb0831beaff7b961c10baab6c998bae6b6b9a231dfe3"
+  url: "https://www.scstatehouse.gov/code/t01c011.php"
+  format: "html"
+  citation: "S.C. Code Title 1, Chapter 11"
+  title: "Code of Laws, Title 1, Chapter 11. Department of Administration"
+  doc_type: "statute"
+  jurisdiction: "south-carolina"
+  issuing_body: "South Carolina General Assembly (Legislative Council)"
+  tags: [governance, oversight, cybersecurity, data, cloud-resilience]
+  recheck: "monthly"
+  why_relevant: "The Department of Administration's chapter, and the enabling statute for the State's central IT function. Section 1-11-10 creates the Department and transfers to it the Division of State Information Technology (including the Data Center, Telecommunications and Information Technology Services, the South Carolina Enterprise Information System and the Division of Information Security), and requires the Division to submit the Statewide Strategic Information Technology Plan to the Director biennially; section 1-11-190 lists the Department's responsibilities for assessing, evaluating and inventorying information technology and developing policies and standards for its management; section 1-11-430 covers the supply and use of telecommunication systems for state government; section 1-11-435 asks the Office of the State CIO for a Critical Information Technology Infrastructure Protection Plan and directs agencies and political subdivisions to assist; section 1-11-490 requires a state agency to notify residents of a breach of the security of agency-held personal identifying information. The page prints the whole chapter, and most of it is outside this corpus's scope and rides along: real property leasing and easements, fleet management, insurance and the Insurance Reserve Fund, the state ceiling on private activity bonds (Article 3), employee and retiree insurance (Article 5), the 211 network and other sections. Sections printed as repealed keep their line. OWNER DECISION, recorded for review: the chapter is taken whole because the playbook allows it for an enabling statute and section-level slicing is not decided; the owner may prefer slicing it to the sections above."
+
+- id: "sc-code-11-ch-53"
+  sha256: "28196c18bdf49f062b9222a9cfad7a2fe6a03dcab1fcdd8d14d17197220e1a09"
+  url: "https://www.scstatehouse.gov/code/t11c053.php"
+  format: "html"
+  citation: "S.C. Code Title 11, Chapter 53"
+  title: "Code of Laws, Title 11, Chapter 53. South Carolina Enterprise Information System"
+  doc_type: "statute"
+  jurisdiction: "south-carolina"
+  issuing_body: "South Carolina General Assembly (Legislative Council)"
+  tags: [governance, funding, oversight]
+  recheck: "monthly"
+  why_relevant: "The statute that mandates the South Carolina Enterprise Information System (SCEIS), the state's shared enterprise resource system, for all agencies except lump-sum agencies and the legislative branch: agency special accounts for implementation costs, the SCEIS Oversight Committee, the implementation schedule and its reporting, and the State Office of Human Resources' authority to adapt human resource processes to the system."
+
+- id: "sc-code-30-ch-2"
+  sha256: "5bb36add33815ba91f0b84e0ea9820e49936289897564cb6ba7a5505f3be441b"
+  url: "https://www.scstatehouse.gov/code/t30c002.php"
+  format: "html"
+  citation: "S.C. Code Title 30, Chapter 2"
+  title: "Code of Laws, Title 30, Chapter 2. Family and Personal Identifying Information Privacy Protection"
+  doc_type: "statute"
+  jurisdiction: "south-carolina"
+  issuing_body: "South Carolina General Assembly (Legislative Council)"
+  tags: [data, cybersecurity, digital-services]
+  recheck: "monthly"
+  why_relevant: "The privacy statute that binds public bodies. Article 1, the Family Privacy Protection Act of 2002, requires every state agency, board, commission, institution and department to develop privacy policies and procedures limiting collection of personal information, and governs the posting of the privacy policy on web sites and the release of personal information. Article 3 limits the collection, use and disclosure of social security numbers by public bodies and, in section 30-2-310, requires the secure disposition of records and of information technology hardware or storage media (the Department of Administration's SCDIS-501 procedure is issued under it). The page prints the whole chapter, so Article 5 (the Law Enforcement Personal Privacy Protection Act) and Article 7 (the Judicial Personal Privacy Protection Act), which let officers and judges have personal contact information in public records restricted, ride along. One section on the page is not yet in force: SECTION 30-2-60, 'Removal of public records' (eviction filings and records to be removed from the public index seven years after final disposition), prints 'Section effective January 1, 2027.' (2026 Act No. 214, H.4270); the chapter is taken whole, as the page prints it."
+
+- id: "sc-eo-2017-08"
+  sha256: "7400215ed48b255d23604642ed63b43ff0810a8c2dc545ac056c87cb13749a7a"
+  url: "https://governor.sc.gov/sites/governor/files/Documents/Executive-Orders/EO-2017-08.pdf"
+  format: "pdf"
+  citation: "Executive Order No. 2017-08"
+  title: "Executive Order No. 2017-08: Establishing the South Carolina Critical Infrastructure Cybersecurity Executive Oversight Group"
+  doc_type: "executive_order"
+  jurisdiction: "south-carolina"
+  issuing_body: "Office of the Governor of South Carolina"
+  tags: [cybersecurity, governance]
+  recheck: "monthly"
+  why_relevant: "Approves the South Carolina Critical Infrastructure Cybersecurity Strategic Plan, as modified, and establishes the SC CIC Executive Oversight Group, to coordinate State and Federal agencies and private-sector and academic partners on protecting the State's critical infrastructure and key resources from cyber threats (SLED's Office of Homeland Security and fusion center, the Department of Administration, the Military Department and the Attorney General's Office took part in the working group). Text is taken from the 'Text Alternative' PDF the Governor's list links beside the filed copy."
+
+- id: "sc-eo-2022-03"
+  sha256: "4ad346fa3f8b92d59cc373781c03e239c76af4cb02f911bdfe038f48349033f7"
+  url: "https://governor.sc.gov/sites/governor/files/Documents/Executive-Orders/2022-01-12%20FINAL%20Executive%20Order%20No.%202022-03%20-%20IT%20Shared%20Services%20Plan%20Implementation.pdf"
+  format: "pdf"
+  citation: "Executive Order No. 2022-03"
+  title: "Executive Order No. 2022-03: IT Shared Services Plan Implementation"
+  doc_type: "executive_order"
+  jurisdiction: "south-carolina"
+  issuing_body: "Office of the Governor of South Carolina"
+  tags: [governance, oversight, funding, cloud-resilience, cybersecurity]
+  recheck: "monthly"
+  why_relevant: "Directs state agencies to use the IT shared services offered by the Department of Administration's Office of Technology and Information Services and to follow a shared services plan the Department develops; requires agencies to cooperate with the Department's assessment of their IT profiles, bars IT strategic, organizational, asset and software plans, planned IT projects and the IT budget from being implemented or funded without the Department's prior approval, and requires agencies to report on shared services progress and IT spending. Text is taken from the 'Text Alternative' PDF (the filed copy linked beside it is an image-only scan); the index prints the title 'IT Shared Services Plan Implementation'."
+
+- id: "sc-admin-it-shared-services-governance-overview"
+  sha256: "92f3fb5f7616ab6b35d467ec1781a955cb4b05929a8156b6306a2bb53b0fc2cb"
+  url: "https://www.admin.sc.gov/sites/admin/files/Documents/PMOOTIS/Overview_of_Shared_Services_Governance.pdf"
+  format: "pdf"
+  citation: "SC Admin: IT Shared Services Governance Overview"
+  title: "IT Shared Services Governance Overview"
+  doc_type: "policy"
+  jurisdiction: "south-carolina"
+  issuing_body: "South Carolina Department of Administration"
+  tags: [governance, oversight]
+  recheck: "monthly"
+  identity_text: "IT Shared Services Governance"
+  why_relevant: "Describes the IT shared services governance process the Department of Administration set up in spring 2016: the Executive Oversight Group, Agency Work Group, Technology Work Group and Security and Architecture Review Board, the drivers for moving to shared services and the criteria used to prioritize agency transitions. Listed by the Governance and Resources page under Governance."
+
+- id: "sc-admin-enterprise-technology-architecture-principles"
+  sha256: "1cee86bc665c0bdcd31df0d0b6b87863200441b26e64ceb33b3055979dc23463"
+  url: "https://www.admin.sc.gov/sites/admin/files/Documents/PMOOTIS/Enterprise_Technology_Architecture_Principles.pdf"
+  format: "pdf"
+  citation: "SC Admin: Enterprise Architecture Framework and Principles"
+  title: "Enterprise Architecture Framework and Principles"
+  doc_type: "standard"
+  jurisdiction: "south-carolina"
+  issuing_body: "South Carolina Department of Administration"
+  tags: [cloud-resilience, governance]
+  recheck: "monthly"
+  identity_text: "ENTERPRISE TECHNOLOGY ARCHITECTURE PRINCIPLES"
+  why_relevant: "The principles of the State's Enterprise Technology Architecture (ETA): planning horizon, scope (all IT at all state agencies), the degree of compliance sought, exceptions through governance, technology maturity and vendor position. The index names it 'Enterprise Architecture Framework and Principles'; the file prints 'Enterprise Technology Architecture Principles'."
+
+- id: "sc-admin-enterprise-technology-architecture"
+  sha256: "2223fa3a2884ae03d4f41e207925ea57a9f3115bb55e7b7c0aafe34b57a995c5"
+  url: "https://www.admin.sc.gov/sites/admin/files/Documents/PMOOTIS/Enterprise_Technology_Architecture.pdf"
+  format: "pdf"
+  citation: "SC Admin: Enterprise Technology Architecture"
+  title: "Enterprise Technology Architecture"
+  doc_type: "standard"
+  jurisdiction: "south-carolina"
+  issuing_body: "South Carolina Department of Administration"
+  tags: [cloud-resilience, governance]
+  recheck: "monthly"
+  identity_text: "Enterprise Technology Architecture"
+  why_relevant: "The Enterprise Technology Architecture for the statewide IT shared services: the RACI matrix for who sets, applies, reviews and grants exceptions to the architecture, the reference principles and the architecture itself (36 pages)."
+
+- id: "sc-admin-statewide-infosec-program-policy"
+  sha256: "ab79f26878271e71696aebaf4a4a25e3149990daef6fd6e4a58255d672dcb950"
+  url: "https://www.admin.sc.gov/sites/admin/files/Documents/PMOOTIS/SC%20Statewide%20Information%20Security%20Program%20Policy.pdf"
+  format: "pdf"
+  citation: "SC Admin DIS: Statewide Information Security Program Policy (January 1, 2026)"
+  title: "South Carolina Statewide Information Security Program Policy"
+  doc_type: "policy"
+  jurisdiction: "south-carolina"
+  issuing_body: "South Carolina Department of Administration"
+  tags: [cybersecurity, governance]
+  recheck: "monthly"
+  identity_text: "Statewide Information Security Program Policy"
+  no_text_pages: [2, 16]
+  why_relevant: "Establishes the Statewide Information Security Program (SC InfoSec Program): its authority (Provisos 93.9, 117.96, 117.102 and 117.107 of the 2025 General Appropriations Act, as the policy states), scope (all executive-branch state agencies; judicial and legislative agencies are exempt), program objectives and components, program governance and the roles shared between the Division of Information Security and agencies. Version 2.0 dated January 1, 2026, retitled from 'Information Security Program Master Policy'. PDF pages 2 (blank) and 16 have no text layer and add no text: page 16 is an image of the policy authorization block (the State Chief Information Security Officer's authorization, dated January 30, 2026, with a signature), which the text therefore lacks. Page 16 is readable: measured on 2026-11-12, page 16 alone OCRs cleanly through the shared Tesseract path (659 characters, including 'Date of Current Revision: January 1, 2026' and 'Authorized by: Ben Willis'). The two-engine procedure could not be used because of a limit in the shared OCR code, not because the page cannot be read: page 2 is blank but carries a whitespace-only text layer (an embedded font with no glyphs), so the shared check treats it as a scan that needs OCR (listing only page 16 fails with 'page 2 has no text layer'), and with pages 2 and 16 both listed ocrmypdf aborts with PriorOcrFoundError (page 2 'already has text'). See shared_changes_needed: src/ingest_ocr.py should treat a page whose text layer is only whitespace as blank, or OCR it with skip-text. Page 16 is therefore missing from the text until that change."
+
+- id: "sc-admin-mobile-device-protection-policy"
+  sha256: "fbf26ceb82e2220b5333f35491545f6ba5b87e4f392a308e8499036d997bcd09"
+  url: "https://www.admin.sc.gov/sites/admin/files/Documents/PMOOTIS/Mobile_Device_Protection_Policy.pdf"
+  format: "pdf"
+  citation: "SWM-300"
+  title: "Mobile Device Protection Policy"
+  doc_type: "policy"
+  jurisdiction: "south-carolina"
+  issuing_body: "South Carolina Department of Administration"
+  tags: [cybersecurity, procurement]
+  recheck: "monthly"
+  identity_text: "MOBILE DEVICE PROTECTION"
+  text_layer: "scanner-ocr"
+  why_relevant: "SWM-300, effective 11/2018, issued under Proviso 117.148 (Mobile Device Protection Plan) of the FY 2018-19 Appropriations Act: it describes the assignment, use and management of state-issued mobile communication devices and requires agencies to use the statewide contract for protecting state-owned mobile devices. One page. The PDF was made by an office scanner (Canon iR-ADV C5560: one full-page image, 1275 by 1650 pixels, 150 ppi) and its text layer is the scanner's own OCR, not read through the corpus's two-engine OCR procedure and not verified against the page: it renders the logo as stray characters ('J', 'a d min', '.', 'f', 'DEPARTMENT o ADMINISTRATION') and drops words (under the signature the page prints 'South Carolina Department of Administration Executive Director', the text reads 'harolina Department of Administration Executive Director'). The page prints 'Effective 11/2018', a month with no day, so effective_date is empty. See shared_changes_needed: the shared OCR path does not accept a page that already has a text layer."
+
+- id: "sc-admin-scdis-501"
+  sha256: "0cbda584b4fd5bd4852b589b782e891e937204054b1228229fb391a0b173fa7d"
+  url: "https://www.admin.sc.gov/sites/admin/files/Documents/PMOOTIS/SCDIS-501_Information_Media_Disposal_Procedure.pdf"
+  format: "pdf"
+  citation: "SCDIS-501"
+  title: "SCDIS-501 Information Media Disposal Procedure"
+  doc_type: "standard"
+  jurisdiction: "south-carolina"
+  issuing_body: "South Carolina Department of Administration"
+  tags: [cybersecurity, data]
+  recheck: "monthly"
+  identity_text: "SCDIS-501 Information Media Disposal Procedure"
+  why_relevant: "The baseline procedure, version 1.0 issued 1 July 2016, that public bodies follow before transferring or disposing of information technology hardware and storage media; each agency chooses its own tools and must ensure its service providers comply. The Governance and Resources page cites S.C. Code section 30-2-310 as the requirement."
+
+- id: "sc-admin-end-user-computing-devices-standard"
+  sha256: "479f4c156c77e334ce8a1d7448c33357339d218a616866078054ca50c13373ac"
+  url: "https://www.admin.sc.gov/sites/admin/files/Documents/PMOOTIS/End_User_Computing_Devices_Standard.pdf"
+  format: "pdf"
+  citation: "SC Admin: End-User Computing Device Standard"
+  title: "End-User Computing Device Standard"
+  doc_type: "standard"
+  jurisdiction: "south-carolina"
+  issuing_body: "South Carolina Department of Administration"
+  tags: [cloud-resilience, procurement]
+  recheck: "monthly"
+  identity_text: "End-User Computing Devices"
+  why_relevant: "IT Shared Services Standard, version 2.5, effective October 4, 2019, on desktops, laptops and tablets for state agencies: required configurations, the Technology Work Group exception request, and procurement through state term contracts. The index calls it 'End-User Computing Device Standard'."
+
+- id: "sc-admin-hyper-converged-infrastructure-standard"
+  sha256: "942af4a87e73ab80ba791237f116791ed19a9c9849b6146fa55c6d30a9396256"
+  url: "https://www.admin.sc.gov/sites/admin/files/Documents/PMOOTIS/Hyper_Converged_Infrastructure_System_Standard.pdf"
+  format: "pdf"
+  citation: "SC Admin: Hyper Converged Infrastructure System Standard"
+  title: "Hyper Converged Infrastructure System Standard"
+  doc_type: "standard"
+  jurisdiction: "south-carolina"
+  issuing_body: "South Carolina Department of Administration"
+  tags: [cloud-resilience]
+  recheck: "monthly"
+  identity_text: "Hyper Converged"
+  why_relevant: "IT Shared Services Standard, version 1.0, effective October 2, 2018, for hyper converged infrastructure systems that state agencies deploy (it applies under Proviso 117.121), with the Technology Work Group exception process and maintenance requirements."
+
+- id: "sc-admin-electronic-mail-standard"
+  sha256: "fb871a01e10a4eb48804375a74bbf38e28363bdd5a231fd877a9d8cbd30f9b2e"
+  url: "https://www.admin.sc.gov/sites/admin/files/Documents/PMOOTIS/Electronic_Mail_Standard.pdf"
+  format: "pdf"
+  citation: "SC Admin: Email Standard"
+  title: "Email Standard"
+  doc_type: "standard"
+  jurisdiction: "south-carolina"
+  issuing_body: "South Carolina Department of Administration"
+  tags: [cloud-resilience, cybersecurity]
+  recheck: "monthly"
+  identity_text: "Electronic Mail Standard"
+  why_relevant: "IT Shared Services Standard, version 1.0, effective August 8, 2018, for state agency email solutions: deployment and maintenance level, patching, and the exception process. The index calls it 'Email Standard'; the file prints 'Electronic Mail Standard'."
+
+- id: "sc-admin-data-classification-schema-guidelines"
+  sha256: "326759a20bb678ae0b5a6541c8e5b4b1e0a03485884cc66d5b682339e43e6b87"
+  url: "https://www.admin.sc.gov/sites/admin/files/Documents/PMOOTIS/Data_Classification_Schema_and_Guideline.pdf"
+  format: "pdf"
+  citation: "SC Admin EPO: Data Classification Schema and Guidelines"
+  title: "Data Classification Schema and Guidelines"
+  doc_type: "policy"
+  jurisdiction: "south-carolina"
+  issuing_body: "South Carolina Department of Administration"
+  tags: [data]
+  recheck: "monthly"
+  identity_text: "Data Classification Schema and Guidelines"
+  why_relevant: "The Enterprise Privacy Office's classification schema and guidelines (V.2.0, 07.15.15) for the data state agencies hold: an agency must know what data it holds, who may access it and where it is. Listed by the Governance and Resources page under Guidance and Guidelines (Information Privacy, Data Classification)."
+
+- id: "sc-admin-data-handling-guidelines"
+  sha256: "bf1e4516a58e31e6529e65ecb5a5a9ffc991f2341e1b91b6b498bdb11c07d45a"
+  url: "https://www.admin.sc.gov/sites/admin/files/Documents/PMOOTIS/INFO~P%24F.PDF"
+  format: "pdf"
+  citation: "SC Admin OTIS: Information Security and Privacy Data Handling Guidelines"
+  title: "Information Security and Privacy Data Handling Guidelines"
+  doc_type: "policy"
+  jurisdiction: "south-carolina"
+  issuing_body: "South Carolina Department of Administration"
+  tags: [data, cybersecurity]
+  recheck: "monthly"
+  identity_text: "Data Handling Guidelines"
+  why_relevant: "V.1.0 (01.04.2018) guidelines from the Office of Technology and Information Services on handling information security and privacy data, aligned with the Information Security Program Master Policy (now the Statewide Information Security Program Policy). 21 pages. Listed by the Governance and Resources page under Guidance and Guidelines (Information Privacy). The URL is the file name the page links, with its tilde and an encoded dollar sign."
+
+- id: "sc-admin-scdis-200"
+  sha256: ""
+  url: "https://www.admin.sc.gov/sites/admin/files/Documents/PMOOTIS/SCDIS-200_v2.0_Final.xlsx"
+  format: "xlsx"
+  citation: "SCDIS-200 (V2.0)"
+  title: "SCDIS-200 Information Security and Privacy Standards (V2.0)"
+  doc_type: "standard"
+  jurisdiction: "south-carolina"
+  issuing_body: "South Carolina Department of Administration"
+  tags: [cybersecurity, data]
+  recheck: "monthly"
+  stub: true
+  stub_reason: "The only published copy is an Excel workbook (SCDIS-200_v2.0_Final.xlsx, 99,165 bytes, fetched 2026-11-12 through the Fetcher, zip signature confirmed). This corpus has no reader for spreadsheets, and a workbook is not read by the PDF or Word path. Becomes a document when the Department publishes a text or PDF copy or the corpus reads workbooks."
+  why_relevant: "The security standards the Statewide Information Security Program Policy requires of agencies, which agencies must align their own policies to. The Governance and Resources page lists it under Standards, as an Excel workbook."
+
+- id: "sc-watch-governance-resources"
+  sha256: ""
+  url: "https://www.admin.sc.gov/services/technology-services/governance-resources"
+  format: "html"
+  citation: "SC Admin page: Governance and Resources"
+  title: "SC Admin: Governance and Resources (index)"
+  doc_type: "policy"
+  jurisdiction: "south-carolina"
+  issuing_body: "South Carolina Department of Administration"
+  tags: [governance]
+  recheck: "monthly"
+  watch_only: true
+  why_relevant: "The statewide IT policy and standards library: Governance, Strategies, Policies, Procedures, Standards, Guidance and Guidelines and Other Resources. A document added, replaced or removed raises a review-the-seed-list report."
+
+- id: "sc-watch-executive-orders"
+  sha256: ""
+  url: "https://governor.sc.gov/executive-branch/executive-orders"
+  format: "html"
+  citation: "Governor's page: Executive Orders"
+  title: "Governor: Executive Orders (index)"
+  doc_type: "executive_order"
+  jurisdiction: "south-carolina"
+  issuing_body: "Office of the Governor of South Carolina"
+  tags: [governance]
+  recheck: "monthly"
+  watch_only: true
+  why_relevant: "The Governor's list of executive orders (Governor McMaster's, from 2017-04 to the latest), one page with an Official and a Text Alternative PDF for most rows. A new order raises a review-the-seed-list report."
+
+- id: "sc-watch-ai-center-of-excellence"
+  sha256: ""
+  url: "https://www.admin.sc.gov/services/technology-services/ai-center-excellence"
+  format: "html"
+  citation: "SC Admin page: AI Center of Excellence"
+  title: "SC Admin: AI Center of Excellence (index)"
+  doc_type: "policy"
+  jurisdiction: "south-carolina"
+  issuing_body: "South Carolina Department of Administration"
+  tags: [ai]
+  recheck: "monthly"
+  watch_only: true
+  why_relevant: "The Artificial Intelligence Center of Excellence page, which links the statewide AI strategy and Proviso 117.194 (GP: AI Appropriations). The State's AI instruments are published only there."
+
+left_out:
+- text: |-
+    ---- South Carolina: found and left out (each was seen on an official page on 2026-11-12 and read through the Fetcher unless the line says otherwise; the reason is recorded here)
+- text: |-
+    Governance and Resources page (https://www.admin.sc.gov/services/technology-services/governance-resources), the Department of Administration's statewide IT policy and standards library, reconciled row by row: 26 rows (25 links and the SCDIS-210 row, which has no link). 11 are seeded as documents, 1 is a stub (SCDIS-200, an Excel workbook), 14 are left out:
+     - 'IT Governance' (Information_Technology_Governence.pdf, 12 pages, a PowerPoint export made 2023-06-13; the file prints the title 'IT Shared Services Strategic Governance'): the library lists it under Governance, but the file prints 'CONFIDENTIAL DRAFT – for discussion purposes' as the footer of two of its slides (the Agency Work Group and Technology Work Group charter slides), and a draft is not in force. It was first seeded and is now left out. OWNER DECISION: the owner may want it as the Department's published governance framework despite the footer; the sibling 'IT Shared Services Governance Overview', which carries no draft marker, is seeded.
+     - 'IT Shared Services Overview' (4 pages): an explanatory summary of the shared services effort (it cites Executive Order 2016-07 and Proviso 117.121) that states no requirement of its own. OWNER DECISION: the sibling 'IT Shared Services Governance Overview' is seeded because it establishes the governance groups and priority criteria; the owner may prefer both, or neither.
+     - Strategies group: 'State Cloud Computing Strategy' (2018), 'Statewide Strategic Information Technology Plan' (the 2022 plan, marked Current by the page) and the 2018-2020 and 2016-2018 plans: strategy and planning documents, not instruments. The 2022 plan is the plan section 1-11-10 and Executive Order 2022-03 refer to.
+     - 'SCDIS-210 Information Security Technology Standards (V2.0)': the page prints it with no link and says the standards are undergoing realignment, with initial publication targeted for July 1, 2026; no current document is published. The 2015 draft 'SCDIS-210 Information Security Technology Coverage Measurement Standards' (version 1.1 draft 5, effective 01-Jul-2017) is still served (found by web search, fetched 2026-11-12) but no page read links it and the Department says the standard is being replaced, so it is not seeded.
+     - 'Template Data Inventory Tool': a workbook guidance and template for the data inventory (12 pages); a template.
+     - 'Data Classification Auditing and Monitoring Plan Template' (version 1.5, May 1, 2014): a template.
+     - 'Privacy Threshold Analysis/Privacy Impact Assessment Guidance and Template' (Enterprise Privacy Office, February 2016, 33 pages): guidance that carries the blank assessment template. OWNER DECISION: it may be wanted as guidance; it is left out as a template.
+     - 'Training Presentation for use with PTA/PIA Guidance and Template': a training deck.
+     - 'Cisco Secure Client Deployment Instructions' (5 pages): a technical how-to for one product, not an instrument.
+     - 'Sample Language and Clauses for Acceptable Use Acknowledgements' (3 pages): sample clauses the file says are not to be used as is; a template.
+     - 'Interconnection Security Agreement (ISA) (Template)': a blank agreement.
+- text: |-
+    Files the Department serves that no page read links (found by web search for discovery only; each fetched through the Fetcher on 2026-11-12 and answering 200; the Governance and Resources page, re-read the same day, lists none of them and none is linked from a page read). Not seeded; OWNER DECISION on each, with the status reason below:
+     - 'SCDIS-201 Information Security and Privacy Incident Response Standards' (SCDIS-201_Information_Security_and_Privacy_Incident_Response_Standards.pdf; prints Version 1.0, Issued October 7, 2016, Effective July 1, 2016): it cites the 'SCDIS Information Security Program Master Policy' (now retitled the Statewide Information Security Program Policy) and SCDIS-200, and no index lists it.
+     - The 'DIS - Information Security Policy' series of the Division of Information Security, all in the /Documents/PMOOTIS/ folder: Information_Security_Policy_Handbook.pdf (19 pages, Word 2010, 'Information Security Policy Handbook', revision history 1.0 22-Oct-2014 and 1.1 03-Nov-2014); Information_Security_Policy_Data_Protection_and_Privacy.pdf (13 pages, 'v1.0 - October 30, 2013', final version February 10, 2014; the seeded Data Handling Guidelines cite 'Data Protection and Privacy v1.0, effective October 30, 2013' as their basis); Information_Security_Policy-Handbook_Appendices.pdf (81 pages, version 1.0 22-Oct-2014, sample charts and plans); IT_Risk_Strategy_Policy.pdf (10 pages, cover 'V0.1 - April 21, 2014' although its revision table says 1.0); Risk_Management_Policy.pdf (11 pages, 'v1.0 - October 15, 2013', final version February 10, 2014); Mobile_Security_Policy.pdf (11 pages, 'v1.0 - October 30, 2013', final version February 10, 2014).
+     - Status reason, OWNER DECISION: the 2013-2015 series is apparently replaced by the Statewide Information Security Program Policy (version 2.0, January 1, 2026, whose revision history begins with the 2014 'Initial draft' and says the title changed from 'Information Security Program Master Policy'), SCDIS-200 and the agencies' own policies built on it, and the current library page lists none of them; but none of the files says it is rescinded or superseded, and SCDIS-201 may still be the incident response standard in force. They are left out as not shown to be in force; the owner may want SCDIS-201 and the Data Protection and Privacy policy added.
+- text: |-
+    Other technology pages read: Information Security and Privacy, Enterprise Privacy Office FAQs, Incident Response (a process description with the Security Operations Center's contact details) and Forms and Forums publish no instrument (IT Forums lists professional associations). Shared Services Forms lists eight request forms (IT-3000A, B, C, D, G, H, J and M, including the TikTok Whitelist Request): forms. The IT Shared Services page and Cloud Services page link the IT Shared Services Catalog (a service catalog), the Cloud Services Welcome Packet and the Agency Relationship Management assignments list: not instruments. IT Planning, IT Data Collection, Data Analytics and Agency Relationship Management describe programs and link the IT data collection system (gateway.sc.gov) and proviso text on the General Assembly's site.
+- text: |-
+    Artificial intelligence: the AI Center of Excellence page links 'South Carolina State Agencies Artificial Intelligence Strategy' (June 2024, 18 pages; fetched 2026-11-12): a strategy document, not an instrument; left out. The page states the AI Center of Excellence was established in 2025 by the Department and that Proviso 117.194 (GP: AI Appropriations) requires agencies and institutions funded for AI to coordinate their AI efforts and budget requests with it. No statute on state-agency AI use was found: the chapter titles of all 63 title pages of the Code of Laws (1,311 chapter rows, read again on 2026-11-12) were scanned for these keywords, as substrings: information, technology, data, computer, cyber, privacy, artificial, digital, internet, procurement, enterprise, security, identity, record, electronic, telecommunication, software, network. 46 rows matched; none names artificial intelligence, and Title 1 chapter 11 prints no 'artificial' or 'cyber'. The rows that matched are seeded or recorded below, or are matches of the keyword with another meaning (social security, deed and real-property recording, canvass records, enterprise zones, insurance and medical records and the like) or are judged from their titles as not binding state agencies on IT: Title 7 ch. 17, Title 8 ch. 9 and ch. 30 (repealed), Title 9 ch. 3 and ch. 5, Title 11 ch. 56, Title 12 ch. 10 and ch. 24, Title 17 ch. 30 (interception of communications, criminal), Title 19 ch. 5 (public documents as evidence), Title 30 ch. 5, 6, 7, 11, 13 and 15 (recording and recordation; ch. 6 is the Uniform Real Property Electronic Recording Act, which governs county recording offices), Title 33 ch. 16, Title 35 ch. 6, Title 37 ch. 21, Title 38 ch. 13, 93 and 97, Title 39 ch. 54 and 77, Title 40 ch. 18, Title 42 ch. 19, Title 44 ch. 40 and 115, Title 54 ch. 17, Title 56 ch. 10, Title 58 ch. 42, Title 59 ch. 105 and 116, Title 60 ch. 4 (confidential library records, titles only, not fetched). The page is a watch entry.
+- text: |-
+    OWNER DECISION, appropriations provisos: the Department's own instruments cite their authority as provisos of the annual General Appropriations Act, which are not in the Code of Laws: the Statewide Information Security Program Policy names Provisos 93.9, 117.96, 117.102 and 117.107 of the 2025 Act; the Mobile Device Protection Policy names Proviso 117.148 of the FY 2018-19 Act; the shared services overview names Proviso 117.121; the IT Planning page names Proviso 117.106 of the 2026-2027 Act, the Data Collection page links Proviso 117.71 (2018 version); the AI Center of Excellence page names Proviso 117.194. They bind state agencies on IT, cybersecurity and AI, but they are temporary budget law published inside the whole Appropriations Act (a PDF of hundreds of pages), and the playbook leaves budget law out pending an owner decision on section-level slicing. None was fetched.
+- text: |-
+    Executive orders: the Governor's list (https://governor.sc.gov/executive-branch/executive-orders) was read in full: 443 orders, numbered 2017-04 to 2026-25 (Governor McMaster's; earlier administrations' orders are in the State Library's digital collection, which the page links: see Executive Order 2016-07 below). Where the index prints no title the file name was read. Two are seeded (2017-08 and 2022-03). Left out: 2022-27 'Formalizing New Statewide Cybersecurity Initiative' (the filed copy's file name reads 'Formalizing S.C. Cybersecurity Ecosystem Coordination Initiative'): it directs the Department of Commerce to coordinate a statewide cyber industry, workforce and economic development initiative with private and academic partners, and agencies to assist; OWNER DECISION, it is cybersecurity but not IT as a government function, so it is left out and may be wanted. 2025-31 'Adoption of Updated Telecommuting & Remote Work Policies & Procedures' (a human resources policy for state employees, not IT). 2019-21 'FOIA Compliance' (access to public records). 2018-59 'Transfer of Disaster Recovery to the Department of Administration' (read: it moves the disaster-recovery housing grant office, not IT). The other 437 rows are states of emergency, flags, appointments, suspensions, leave with pay, transportation waivers, elections and similar; no title or file name among them names information technology, data, cybersecurity or AI. Executive Order 2016-07 (January 2016, requiring cabinet agencies to use IT shared services) is named in the IT Shared Services Overview and is outside the Governor's list; it may still be in force and is not readable at an official source in this run. Measured 2026-11-12: the State Library's collection page the Governor's page links (https://dc.statelibrary.sc.gov/handle/10827/22) answers the Fetcher with 200 and an 827-byte page that is only a script shell ('<ds-app></ds-app>', title DSpace); the list of orders is drawn by script from the site's internal REST API, which the rules forbid calling, so no order can be read or even listed from it. OWNER DECISION: whether to add EO 2016-07 once a readable official copy is found (the owner may have one); Executive Order 2022-03 carries the shared services directive forward, which may make 2016-07 superseded in part. No rescission of 2017-08 or 2022-03 appears in the list.
+- text: |-
+    Statutes: the Code of Laws title pages (all 63) were read for chapter titles. Three chapters are seeded (Title 1 chapter 11, Title 11 chapter 53, Title 30 chapter 2). Left out: Title 11 chapter 35, 'South Carolina Consolidated Procurement Code' (a procurement code that holds the State's IT procurement provisions among many others; the playbook leaves such sections out pending an owner decision on section-level slicing; not fetched). Title 16 chapter 16, 'Computer Crime Act' (criminal law, scoped out by domain.yml; judged from its title). Title 30 chapter 4, 'Freedom of Information Act' (access to public records, not IT). Title 37 chapter 20 'Consumer Identity Theft Protection', Title 38 chapter 99 'Insurance Data Security Act' and Title 44 chapter 117 'Prescription Information Privacy Act' (judged from their titles as binding private persons or regulated industries, not state agencies; not fetched). The chapters below were fetched through the Fetcher on 2026-11-12 (200) and read:
+     - Title 26 chapter 6, 'Uniform Electronic Transactions Act' (t26c006.php): most of the chapter governs private transactions, but three sections bind government agencies on IT and data: SECTION 26-6-170 'Creation and retention of electronic records by government agencies' ('Each governmental agency of this State shall determine if, and the extent to which, it will create and retain electronic records and convert written records to electronic records'), SECTION 26-6-180 'Government agencies sending and accepting electronic records and signatures; format' (each agency decides whether to send, accept and rely on electronic records and signatures and, in consultation with the Department of Administration and giving due consideration to security, may specify their format, signature type and the control processes for preservation, integrity, security and auditability) and SECTION 26-6-195 'Service of process to e-mail address by government agency' (an agency may serve process by e-mail under Department of Administration policies and procedures). SECTION 26-6-190 'Development of standards and procedures; service of process' also directs the Department to adopt standards for the use of electronic records, electronic signatures and security procedures by public entities. OWNER DECISION on section-level slicing: the playbook leaves sections of non-IT chapters out pending that decision; the sections named are the ones to slice if the owner wants them (the whole chapter is 21 sections, 29,954 characters as read).
+     - Title 30 chapter 1, 'Public Records, Reports and Official Documents' (t30c001.php): SECTION 30-1-80 'Records management program' (the Archives establishes and administers a program for the creation, utilization, maintenance, retention, preservation and disposal of public records) and SECTION 30-1-90 (agencies assist with inventories and records schedules; no record of long-term value, 'including those filed, kept, or stored electronically', may be disposed of or erased without an approved records schedule) bind agencies on records management, which is data governance. The chapter is records law, not IT; left out pending the owner decision on section-level slicing (OWNER DECISION: sections 30-1-80 and 30-1-90).
+     - Title 26 chapter 2, 'Electronic Notaries Public' (t26c002.php): binds notaries public, electronic notary solution providers and the Secretary of State's registration of them (SECTION 26-2-20, 26-2-80, 26-2-120), not state agencies as IT users; left out.
+     - Title 48 chapter 60, 'South Carolina Manufacturer Responsibility and Consumer Convenience Information Technology Equipment Collection and Recovery Act' (t48c060.php): binds computer and television manufacturers, retailers, collectors and recoverers, with the participation and liability of counties and municipalities (SECTION 48-60-57, 48-60-62); electronic-waste recycling, not state IT management; most of it is repealed December 31, 2029 by 2022 Act No. 234, per the page's editor's note; left out.
+     Section 1-11-490, which binds agencies on breaches, is inside the seeded chapter.
+- text: |-
+    Rules: the Code of Regulations master page (current through State Register Volume 50, Issue 3, effective March 27, 2026) was read for its chapter list: it has no chapter for the Department of Administration or for an IT agency. Chapter 19, 'State Budget and Control Board' (the Department's predecessor), was read whole as its PDF (231 pages; the chapter's HTML page answered 404, so the PDF is the only copy the Fetcher could get), and is left out: Article 2, 'Information Resource Management', holds standards for 9-1-1 (Subarticle 1) and the South Carolina 211 Network certification (Subarticle 2), which domain.yml scopes out as telecom and 911 or which are not IT; the rest is travel, general services, human resources, retirement, hospital data reporting and the procurement regulations of 19-445, among them 19-445.2115 'Information Technology Procurements' (software licensing under Section 11-35-510) and 19-445.2027 'Electronic Commerce', which are procurement sections of a mixed chapter. OWNER DECISION: section-level slicing of 19-445 would add the two IT procurement regulations.
