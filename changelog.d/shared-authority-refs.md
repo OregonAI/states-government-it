@@ -1,0 +1,3 @@
+type: Added
+
+Authority-reference pass (`src/authority_refs.py`, `src/authority_forms.py`, `_meta/eval/authority-refs.json`): reads the full text of all 2,259 documents, extracts each state's citations to its own statutes, administrative rules and executive orders with a per-state table of the forms that state's documents print (42 states), and resolves each against the seed list as held, stub, left out (with the recorded reason) or not held. The not-held lists are candidates for the owner to approve, not seed entries; nothing was fetched or seeded. `python3 src/authority_refs.py --check` says whether the committed JSON is current; it is not gated and `scripts/regen.sh` does not rebuild it (owner decision, 2026-11-13).

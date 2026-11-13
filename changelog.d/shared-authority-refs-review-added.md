@@ -1,0 +1,3 @@
+type: Added
+
+Research note `docs/research/12-authority-references.md`: what the 2,259 held documents say enables them, against what we hold, for all 42 states. A totals table per state (documents read, citations found, instruments cited, held, stub, left out, not held), an extraction-recall table, 149 candidates per state grouped as seed whole, section slice of a non-IT chapter, owner scope decision and owner scope decision (new evidence) with the citing documents and one verbatim line each, an out-of-scope count per state, the cross-state patterns the counts support and the decisions the owner must make. Every candidate is UNVERIFIED: nothing was fetched or read, and no seed entry was proposed.

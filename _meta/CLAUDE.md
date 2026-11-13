@@ -48,4 +48,9 @@ every instrument that state holds or is known to have. `corpus.yml` is toolkit c
   any change to the questions or expected ids. Do not seed or edit documents to make a cell pass.
   `vaquill-baseline.json` is the outside baseline (issue #9; `src/vaquill_baseline.py`, write-up
   `docs/research/11-vaquill-baseline.md`): citations, ranks and scoring only, never Vaquill's text (CC BY-NC).
+- `eval/authority-refs.json` is written by `src/authority_refs.py` when someone runs it. It is NOT gated and NOT
+  rebuilt by `scripts/regen.sh` (owner decision, 2026-11-13), so it is a dated research result that goes stale as
+  documents change; `python3 src/authority_refs.py --check` says whether it is current. It records what each document's own text says enables it (statutes, rules, executive orders of its own
+  state), resolved against the seed list as HELD, STUB, LEFT_OUT or NOT_HELD. The NOT_HELD lists are CANDIDATES for
+  the owner to approve, not seed entries: nothing is fetched or seeded from them until the owner approves. Write-up and candidate lists: `docs/research/12-authority-references.md`.
 - `snapshots/` holds what the source served, written by the ingester. Never edit.
