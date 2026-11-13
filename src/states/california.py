@@ -645,6 +645,12 @@ def notes(src, fmt, text):
                 "navigation, footer and non-breaking spaces removed. The page's stylesheet draws each "
                 "subdivision designator, so they are written as it shows them: (a), (1), (A), (i). A list with none of the "
                 "stylesheet's classes keeps the browser's own marker (a.).")
+    if src.get("id") == "ca-eo-b-1-11":
+        return ("Text taken from the Governor's archive site page that prints the order in full. The page "
+                "holds the site menu, a 'Published' date line, the order and then a 'Latest News' list; the "
+                "document is the order alone, from its heading line through the recitals (WHEREAS), the "
+                "orders, the signature and the attestation, one line per paragraph, with markup and "
+                "non-breaking spaces removed. The menu, the date line and the news list are not the order.")
     if src["doc_type"] == "executive_order" and src["jurisdiction"] == "california":
         return ("Text taken from the Governor's archive site page that prints the order in full: the heading "
                 "line, the recitals (WHEREAS), the orders, the signature and the attestation, one line per "

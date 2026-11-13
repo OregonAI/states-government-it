@@ -1,0 +1,3 @@
+type: Added
+
+California: owner decisions of 2026-11-13 acted on. Executive Order B-1-11 (state-issued phones) added as a document from the Governor's archive page. Every other candidate was read in official bytes and declined or left unseeded with its measured reason in `left_out` (Gov. Code 11549.82 and 8898.1 are enacted by AB 1405 and SB 813, Stats. 2026, not in force until 2027-01-01, and regulate private AI auditors; 14613.7, 11145, 19130-19131, 11000, 11135, Pub. Contract Code 1102 and 6611, Civ. Code 1633.17, 3111 and 1798.82 and Executive Orders S-04-06 and S-09-09 are not IT governance; D-3-99 and S-03-10 have no readable official text).

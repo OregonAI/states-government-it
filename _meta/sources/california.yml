@@ -2938,6 +2938,18 @@ sources:
     tags: [cybersecurity, governance]
     recheck: monthly
     why_relevant: 'Executive Order B-34-15 (dated 31 August 2015 in its own text): directs the Governor''s Office of Emergency Services to establish and lead the California Cybersecurity Integration Center and orders its strategy, Cyber Incident Response Team and information sharing. The url is the Governor''s archived press-release page; it prints the order in full under ''The full text of the executive order is below'', and the document is the order from its heading to the attestation. The title is the one the CDT executive orders page prints. Statute now covers the Center (Gov. Code 8586.5, ingested above).'
+  - id: ca-eo-b-1-11
+    sha256: "858755a1c6bda3de8e5ff0ad637743a4a3063b9389b1fc51ffd8b182a6f12e05"
+    url: https://www.archive.gov.ca.gov/archive/gov39/2011/01/11/news16889/index.html
+    format: html
+    citation: Executive Order B-1-11
+    title: State-issued cell phones and smart phones (cuts and cost-effective plans)
+    doc_type: executive_order
+    jurisdiction: california
+    issuing_body: Governor of California
+    tags: [governance, procurement]
+    recheck: monthly
+    why_relevant: 'Executive Order B-1-11 (dated 11 January 2011 in its own text): orders every state agency secretary and department director, in consultation with the Department of Finance, to ''document and review all authorized cell phone and smart phone procurement and related phone, data, internet and other usage plans'' and cut the number of state-held phones by 50 percent by 1 June 2011, requiring a ''significant business need'' for each state-issued phone and the ''most appropriate and cost-effective'' plans. Owner decision 2026-11-13 (seed whole). It is the order the Department of Technology''s TL 17-02 (mobile device requests) cites. The order prints no title; this one describes it. The url is the Governor''s archived page, which prints the order in full; the document is the order from its heading to the attestation. Not on the CDT list of orders related to IT. In force: no rescinding or superseding order was found in the Governor''s archive pages or on the Department of Technology''s page, but the State Library''s order list is a search form that was not used, so this is the absence of a found rescission and not a check of a complete list; TL 17-02, in force, cites it; its one-time deadline (1 June 2011) has passed, and the order is kept as the standing authority that TL 17-02 names.'
   - id: ca-eo-n-12-23
     sha256: "452147a2da574dc3baff12222ceaf05240650242e60e61823d82f58efc54b933"
     url: https://www.gov.ca.gov/wp-content/uploads/2023/09/AI-EO-No.12-_-GGN-Signed.pdf
@@ -3211,7 +3223,8 @@ left_out:
 - text: |-
     Statutes found and not seeded (found by the table of contents' chapter headings in the bulk download, and by web search; classified by heading unless the entry says it was read):
      - Gov. Code 11135 (nondiscrimination in state-funded programs): amended in 2016 by SB 1442, the bill that added 7405; read only its opening words. General civil rights law
-       with, at most, an electronic technology provision. OWNER DECISION.
+       with, at most, an electronic technology provision. OWNER DECISION of 2026-11-13 (a provision is in scope when its own focus is the governance of state IT): read in the bulk download on 2026-11-13,
+       section 11135 prints no information technology provision at all (subdivisions (a) to (d) are the nondiscrimination right, the disability protections and the definitions of the protected bases), so it is declined.
      - Gov. Code chapter 7.5 of Part 1, Division 3, Title 2 (11790, Hawkins Data Center): the Department of Justice's data center; law-enforcement technology is out of scope.
      - Gov. Code chapter 5.8 of the same part (11549.50-11549.59, Office of Broadband and Digital Literacy): broadband is out of scope.
      - Gov. Code chapter 10 of the same part (11850-11895, FISCal, the state financial information system): a statute on one state IT system (listed in the table of contents; its
@@ -3220,9 +3233,11 @@ left_out:
      - Gov. Code 7929.200, 7929.205 and 7929.215 and the rest of the Public Records Act (7920.000 et seq.): general public-records law; only 7929.210 (information security records) is seeded.
      - Pub. Contract Code 22101-22109 (Acquisition of Electronic Data Processing): sits in Part 3, 'Contracting by Local Agencies'; local government is out of scope. Pub. Contract Code 22350-22355
        (Part 5.5, Year 2000 Problem Vendor Compliance): not read; a 1999 vendor-compliance policy. Pub. Contract Code 6611 (Innovation Procurement Sprints, named by web search results on
-       Executive Order N-04-19) was not read.
+       Executive Order N-04-19) was read on 2026-11-13 in the bulk download and declined under the owner decision of that date: it lets the Department of General Services negotiate contracts 'for goods, services,
+       information technology, and telecommunications' alike; subdivision (e) lets the Department of Technology use the process for IT and telecommunications goods and services, but the section's focus is general state procurement, not IT.
      - The general state procurement law (Pub. Contract Code 10100 et seq., 10290 et seq.) and the State Contracting Manual: left out as Oregon, Washington and Colorado left theirs out (OWNER DECISION);
-       only the IT-specific chapter (12100-12113) is seeded.
+       only the IT-specific chapter (12100-12113) is seeded. The owner's decision of 2026-11-13 approves a section of procurement law only where its own focus is state IT;
+       the candidates read on that date are recorded below.
      - Civ. Code 1798.80 et seq. (customer records, breach notice by businesses), the California Consumer Privacy Act (1798.100 et seq.), Bus. & Prof. Code 22757.10-22757.16 (Transparency in Frontier
        Artificial Intelligence Act), Civ. Code 3110-3111 (AI training data transparency), Bus. & Prof. Code 4999.8-4999.9 (AI health advice) and Health & Safety Code 1339.75 (AI in health care
        services): private-sector obligations, out of scope (the Transparency in Frontier AI Act has its own CDT initiative page; its obligated parties are developers, not state agencies).
@@ -3298,3 +3313,19 @@ left_out:
     procurement process for GenAI office productivity tools) and 'Tech Alerts' (TA-25-05) announce changes and options: covered by the watch entry for the announcements page. The SIMM/SAM revision-summary
     pages (https://www.cdt.ca.gov/policy/simm-sam-history/) list changes to the manuals; they are history, not instruments. Budget letters (Department of Finance) are outside the CDT library.
     The 'Policy/Guidelines Update' PG-001 (January 2018) and the SIMM 05A page's links to superseded letters are not seeded.
+- text: |-
+    Owner decision of 2026-11-13 (a provision of law that is not itself about IT is in scope, as a section slice, only when its own focus is the governance of state IT; the 'seed whole' candidates are approved).
+    Every candidate was read in the Legislature's bulk download (pubinfo_2025.zip, last modified Mon, 09 Nov 2026 05:26:05 GMT, read 2026-11-13) or in the Fetcher's bytes of the official page named:
+     - Gov. Code 11549.82 and Gov. Code 8898.1 (cited by Executive Order N-9-26, 'complete the requirements of ... Section 11549.82' and 'Section 8898.1'): both are in the same download (pubinfo_2025.zip) as chaptered bills, not in the law tables. AB 1405 (20250AB140594CHP, Ch. 178, Stats. 2026, chaptered 2026-09-09) adds Chapter 5.9.5 (11549.80 and following) including 11549.82 ('No later than January 1, 2029, the agency shall ... Establish an AI Auditor Registry'); SB 813 (20250SB81389CHP, Ch. 179) adds Chapter 14 (8898 and following) including 8898.1 ('On or before January 1, 2028, the agency shall ... Develop application requirements for designation as an IVO'). Both are regular statutes that take effect 2027-01-01, which is why they are absent from the LAW_* tables. Not seeded: not in force until 2027-01-01, and their focus is designating and registering private AI auditors and verification organizations, not the governance of state IT. Re-examine after 2027-01-01. No watch entry: the bills' official pages (leginfo) refuse the Fetcher and the zip is not a page to watch.
+     - Gov. Code 14613.7 (read): state agencies report 'all crimes and criminally caused property damage on state-owned or state-leased property' to the California Highway Patrol; crime reporting, no IT in it. Declined.
+     - Gov. Code 11145 (read): 'No state agency shall adopt or enforce any rule or regulation a violation of which can result in the imposition of a fine or imprisonment' unless a statute authorizes it. General administrative law, no IT. Declined (the TL 18-06 line that cites it cites it with 11546).
+     - Gov. Code 19130 and 19131 (read): personal services contracts and the State Personnel Board notice; general civil service and contracting law (IT appears only as 'agreements to service or maintain office equipment or computers' among ten conditions). Declined.
+     - Gov. Code 11000 (the definition of 'state agency') and Pub. Contract Code 1102 (the definition of 'emergency', read: 'a sudden, unexpected occurrence that poses a clear and imminent danger'): definitions of general application; the owner's decision names a definition of 'agency' as not approved. Declined.
+     - Civ. Code 1633.1 et seq. (the California Uniform Electronic Transactions Act, Title 2.5, 1633.1-1633.17): private-sector transaction law. Its one section addressed to state agencies, 1633.17 (read), says 'No state agency, board, or commission may require, prohibit, or regulate the use of an electronic signature in a transaction in which the agency, board, or commission is not a party': it limits agencies' regulation of private transactions and does not govern the state's own IT. Declined.
+     - Civ. Code 3111 (read): binds the 'developer' of a generative AI system or service to post training-data documentation; private-sector, not state agencies. Declined.
+     - Civ. Code 1798.82 (read): breach notice by 'an individual or business that conducts business in California'; businesses. The agency breach notice is 1798.29, in the Information Practices Act chapter already seeded (ca-civ-1798-1798-78). Declined.
+     - Executive Order S-04-06 (read: Cal OES copy, https://www.caloes.ca.gov/wp-content/uploads/Preparedness/Documents/S-04-06-Executive-Order.pdf, HTTP 200): emergency preparedness; its continuity plans (paragraphs 3 and 4) are Continuity of Operations/Continuity of Government plans for all functions, and the order mentions no information technology. Declined (the SAM 5300 line that cites it cites it for continuity planning).
+     - Executive Order S-09-09 (8 June 2009, state contract expenditures): no official text could be read. The Governor's order page for it was not found (the page the Fetcher read at https://www.gov.ca.gov/executive-order/12460/ is another order, N-07-19), the State Library's list is a search form (its results come from a site search endpoint, which is not used) and the CDT list does not carry it. From secondary descriptions only (not evidence): a general stop on state contracts, with an exemption for multiyear IT contracts approved by the State CIO. Not seeded: not read, and its focus is general contracting.
+     - Executive Order D-3-99 (1999; the interim IT arrangement after the Department of Information Technology sunset): no official text could be read (not on the CDT list; the Governor's current and archive sites and the State Library's list, which is a search form, do not give it; the State Library's PDFs are named by a number that no page of the corpus gives). No stub: there is no official page that names the order to give as the entry's url. Whether it is in force is not known; Gov. Code 11545 now creates the Department of Technology. Not seeded.
+     - Executive Order S-03-10: stays a stub; re-measured 2026-11-13: the CDT list row (https://www.cdt.ca.gov/policy/executive-orders-related-to-it/) names the order and links nothing, and the State Library's page is HTTP 200 now but its order list is a search form.
+     - Executive Order B-1-11 is a document (ca-eo-b-1-11, the Governor's archive page).
