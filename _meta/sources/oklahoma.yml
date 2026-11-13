@@ -6,6 +6,7 @@
 # agent and rules.ok.gov's carries content signals (ai-train=no); docs/spec.md sets robots aside for the pilot and the Fetcher does not enforce it.
 sources:
 - id: ok-62-os-34-11-2-to-34-31-2
+  sha256: "1c4e4197fda46062838339fb02ab3ae0446946d9d468a04664fee5122107b795"
   url: https://www.oklegislature.gov/OK_Statutes/CompleteTitles/os62.pdf
   format: pdf
   citation: 62 O.S. 34.11.2 to 34.31.2
@@ -25,6 +26,7 @@ sources:
   why_relevant: 'The Information Services Division of OMES and the State Chief Information Officer''s initiatives, from OMES''s list of ''62 O.S. Sections 34.11.1 through 34.33'': state IT initiatives including open documents, IT project monitoring and security breach transparency (34.11.2 to 34.11.11), the Division''s duties and authority (34.12, 34.15, 34.20), the state portal (34.24 to 34.26), the Technology Applications Review Board (34.27), accessibility of information technology (34.28 to 34.29) and software acquisition and open source preference (34.31 to 34.31.2). Sections 34.14, 34.16 to 34.18 and 34.30 are repealed (the PDF prints their notices). Sections 34.11.1 (the Chief Information Officer) and 34.32 (the standard security risk assessment) are not in this document: the PDF prints only the version of each that takes effect on January 1, 2027 (see left_out).'
   currency_note: 'Narrowed from the seeded range 34.11.1 to 34.33. Section 34.11.1 (the Chief Information Officer) and section 34.32 (standard security risk assessment) are excluded because the Legislature''s PDF prints each only as amended by Laws 2026, c. 445, § 131 and § 132 (SB 1877), eff. Jan. 1, 2027, which is not the text in force on 2026-11-12; section 34.33, which is current, follows 34.32 and is left out because a slice is one run of sections (see left_out). Currency, checked 2026-11-12 from the Legislature''s own bytes fetched that day: its statutes index (https://www.oklegislature.gov/osStatuesTitle.html) says ''The Oklahoma Constitution and Oklahoma Statutes were last updated on November 12th, 2026'', and the Title 62 PDF was created 2026-11-10 (Last-Modified Wed, 11 Nov 2026 04:58:13 GMT; 820 pages) and prints the 2026 session''s amendments (Laws 2026). The ingester refuses a slice that prints an amendment note with an effective date later than the day it runs, so no section here is a version that has not yet taken effect. OSCN, the other official copy, answered the Fetcher''s requests with a Turnstile challenge (HTTP 201, ''OSCN Turnstile'') and was not used.'
 - id: ok-62-os-34-202-to-34-210
+  sha256: "1c4e4197fda46062838339fb02ab3ae0446946d9d468a04664fee5122107b795"
   url: https://www.oklegislature.gov/OK_Statutes/CompleteTitles/os62.pdf
   format: pdf
   citation: 62 O.S. 34.202 to 34.210
@@ -41,6 +43,7 @@ sources:
   why_relevant: Section 34.203 (request for proposal for desktop support and management systems for all state agencies), 34.204 (request for proposal on moving state applications and databases to a cloud platform) and 34.210 (state data owned by the state; the CIO's standards and criteria for sharing data between agencies). Section 34.202 (thirty days' written notice of OMES policy changes affecting a state agency) rides along.
   currency_note: 'Currency, checked 2026-11-12 from the Legislature''s own bytes fetched that day: its statutes index (https://www.oklegislature.gov/osStatuesTitle.html) says ''The Oklahoma Constitution and Oklahoma Statutes were last updated on November 12th, 2026'', and the Title 62 PDF was created 2026-11-10 (Last-Modified Wed, 11 Nov 2026 04:58:13 GMT; 820 pages) and prints the 2026 session''s amendments (Laws 2026). The ingester refuses a slice that prints an amendment note with an effective date later than the day it runs, so no section here is a version that has not yet taken effect. OSCN, the other official copy, answered the Fetcher''s requests with a Turnstile challenge (HTTP 201, ''OSCN Turnstile'') and was not used.'
 - id: ok-62-os-34-43
+  sha256: "1c4e4197fda46062838339fb02ab3ae0446946d9d468a04664fee5122107b795"
   url: https://www.oklegislature.gov/OK_Statutes/CompleteTitles/os62.pdf
   format: pdf
   citation: 62 O.S. 34.43
@@ -56,6 +59,7 @@ sources:
   why_relevant: Requires every state agency to itemize its data processing expenses (personnel, equipment, supplies, planning, conversion) in its budget submitted to the Director of OMES. OMES's index lists it as 'State Agencies' Submission of Information Technology Budgets to Office of Management and Enterprise Services - Disbursements'.
   currency_note: 'Section 34.43 was last amended by Laws 2026, c. 184, § 8 (HB 3944), eff. Sept. 1, 2026: the enrolled bill (https://www.oklegislature.gov/cf_pdf/2025-26%20ENR/hB/HB3944%20ENR.PDF, fetched 2026-11-12) amends 34.43 in its section 8 and says ''This act shall become effective September 1, 2026'', and the PDF prints the amended text. Currency, checked 2026-11-12 from the Legislature''s own bytes fetched that day: its statutes index (https://www.oklegislature.gov/osStatuesTitle.html) says ''The Oklahoma Constitution and Oklahoma Statutes were last updated on November 12th, 2026'', and the Title 62 PDF was created 2026-11-10 (Last-Modified Wed, 11 Nov 2026 04:58:13 GMT; 820 pages) and prints the 2026 session''s amendments (Laws 2026). The ingester refuses a slice that prints an amendment note with an effective date later than the day it runs, so no section here is a version that has not yet taken effect. OSCN, the other official copy, answered the Fetcher''s requests with a Turnstile challenge (HTTP 201, ''OSCN Turnstile'') and was not used.'
 - id: ok-62-os-35
+  sha256: "1c4e4197fda46062838339fb02ab3ae0446946d9d468a04664fee5122107b795"
   url: https://www.oklegislature.gov/OK_Statutes/CompleteTitles/os62.pdf
   format: pdf
   citation: 62 O.S. 35.1 to 35.8
@@ -88,6 +92,7 @@ sources:
   stub_reason: 'Not shown to be in force. The Legislature''s Title 62 PDF (os62.pdf, created 2026-11-10; its statutes index was last updated 2026-11-12) prints section 36 once, as amended by Laws 2026, c. 445, § 143, eff. Jan. 1, 2027: the text refers to ''the centralized filing system provided for in Section 378 of this act'', and the enrolled bill, SB 1877 (https://www.oklegislature.gov/cf_pdf/2025-26%20ENR/SB/SB1877%20ENR.PDF, fetched 2026-11-12), says in its section 428 ''This act shall become effective January 1, 2027'' and amends 62 O.S. 36 in its section 143. The text in force on 2026-11-12 is the earlier one, which no official copy fetched in this run prints: OSCN lists it as a second version, and its two index pages (Titles 62 and 74, one request each) answered the Fetcher with a Turnstile challenge (HTTP 201, 2,303 bytes, ''OSCN Turnstile'') on 2026-11-12, which was not solved, retried against or bypassed; its section pages were not requested again. The entry carries its slice, so it becomes a document by deleting `stub` and `stub_reason` once the Legislature''s PDF prints the section in force (after 2027-01-01); the ingester refuses it until then.'
   why_relevant: Creates the Digital Transformation Program Revolving Fund for OMES's digital transformation initiatives, with monthly reports to the Legislature's leaders on expenditures and projects.
 - id: ok-62-os-41-5a-4
+  sha256: "1c4e4197fda46062838339fb02ab3ae0446946d9d468a04664fee5122107b795"
   url: https://www.oklegislature.gov/OK_Statutes/CompleteTitles/os62.pdf
   format: pdf
   citation: 62 O.S. 41.5a-4
@@ -103,6 +108,7 @@ sources:
   why_relevant: Authorizes the Information Services Division to publish the state policy on secure destruction or disposal of electronic storage media and requires OMES to remove data from surplus IT equipment before it is sold, donated or destroyed.
   currency_note: 'Currency, checked 2026-11-12 from the Legislature''s own bytes fetched that day: its statutes index (https://www.oklegislature.gov/osStatuesTitle.html) says ''The Oklahoma Constitution and Oklahoma Statutes were last updated on November 12th, 2026'', and the Title 62 PDF was created 2026-11-10 (Last-Modified Wed, 11 Nov 2026 04:58:13 GMT; 820 pages) and prints the 2026 session''s amendments (Laws 2026). The ingester refuses a slice that prints an amendment note with an effective date later than the day it runs, so no section here is a version that has not yet taken effect. OSCN, the other official copy, answered the Fetcher''s requests with a Turnstile challenge (HTTP 201, ''OSCN Turnstile'') and was not used.'
 - id: ok-74-os-3106-3-to-3106-4
+  sha256: "37f3067b612411015efdff3a5d3be4be700bf63f6fa90aa706b3e20df4153840"
   url: https://www.oklegislature.gov/OK_Statutes/CompleteTitles/os74.pdf
   format: pdf
   citation: 74 O.S. 3106.3 to 3106.4
@@ -118,6 +124,7 @@ sources:
   why_relevant: Requires public bodies to post on their websites the rules and statutes that affect them and, where a site collects personally identifiable data, the information 3106.4(C) lists. Binds state public bodies' websites.
   currency_note: 'Currency, checked 2026-11-12 from the Legislature''s own bytes fetched that day: its statutes index (https://www.oklegislature.gov/osStatuesTitle.html) says ''The Oklahoma Constitution and Oklahoma Statutes were last updated on November 12th, 2026'', and the Title 74 PDF was created 2026-11-11 (Last-Modified Wed, 11 Nov 2026 09:49:20 GMT; 1,453 pages) and prints the 2026 session''s amendments (Laws 2026). The ingester refuses a slice that prints an amendment note with an effective date later than the day it runs, so no section here is a version that has not yet taken effect. OSCN, the other official copy, answered the Fetcher''s requests with a Turnstile challenge (HTTP 201, ''OSCN Turnstile'') and was not used.'
 - id: ok-74-os-3113-1
+  sha256: "37f3067b612411015efdff3a5d3be4be700bf63f6fa90aa706b3e20df4153840"
   url: https://www.oklegislature.gov/OK_Statutes/CompleteTitles/os74.pdf
   format: pdf
   citation: 74 O.S. 3113.1

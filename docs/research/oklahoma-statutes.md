@@ -78,3 +78,37 @@ def slice_statute_pdf(raw: bytes, start: str, end_before: str) -> bytes:
                        check=True, capture_output=True)
         return dst.read_bytes()
 ```
+
+## Status 2026-11-12 (later the same day): built, with four sections held back
+
+Everything above is left as measured. What changed, measured through the toolkit Fetcher the same day:
+
+- **The Legislature's PDFs are newer than the first reading.** Its statutes index (`osStatuesTitle.html`, the page the `osStatuesTitle.aspx`
+  frame loads) now says "The Oklahoma Constitution and Oklahoma Statutes were last updated on November 12th, 2026". `os62.pdf` is 3,681,842 bytes,
+  820 pages, created 2026-11-10 (Last-Modified Wed, 11 Nov 2026 04:58:13 GMT); `os74.pdf` is 6,644,535 bytes, 1,453 pages, created 2026-11-11. Both
+  print the 2026 session's acts (`Laws 2026, c. 445` and others), so the December 2025 currency gap is closed.
+- **OSCN answered even its index pages with the Turnstile challenge** (Titles 62 and 74, one request each, HTTP 201, 2,303 bytes, "OSCN Turnstile").
+  Recorded, not solved or worked around; OSCN was not used for anything.
+- **The shared change:** `src/check_seed_list.py` accepts `{section_start, section_end_before}` on an oklahoma entry (tests in
+  `tests/test_check_seed_list.py`, documented in `_meta/sources/README.md`). One more shared edit was needed and a test shows it:
+  `src/states/__init__.py` `to_text` took every PDF whole and ignored a slice, so a sliced PDF source now goes to the state's `to_text` hook
+  (and is refused when the state has none). The cut itself is in `src/states/oklahoma.py` (whole-title PDF as the snapshot, as Colorado does);
+  the cut-pages design above was not used. Fixtures are real pages of the two PDFs (`tests/fixtures/oklahoma/title-62-pages.pdf`, `title-74-pages.pdf`).
+- **In force, section by section.** When an act takes effect after the PDF is made, the Legislature prints the section once, as it will read then.
+  Laws 2026, c. 445 is SB 1877 (the enrolled bill, fetched from `https://www.oklegislature.gov/cf_pdf/2025-26%20ENR/SB/SB1877%20ENR.PDF`, says in its
+  section 428 "This act shall become effective January 1, 2027"); its sections 131, 132, 142 and 143 amend 62 O.S. 34.11.1, 34.32, 35.9 and 36, and the PDF
+  prints each of them only in that version (the text refers to "the centralized filing system provided for in Section 378 of this act"). 34.6, which two
+  2026 acts amend, is printed as two versions, outside the seeded ranges. OSCN's "second versions" for 34.6, 34.11.1, 34.32, 35.9 and 36 are the same
+  split. No other section in the eight ranges prints an effective date after 2026-11-12 (the ingester now refuses one). 74 O.S. 13002 is now in the PDF
+  and was added by Laws 2026, c. 428, § 7, eff. July 1, 2027: not in force. 34.43 was last amended by HB 3944 (Laws 2026, c. 184, § 8, eff. Sept. 1, 2026);
+  its enrolled bill, fetched, amends it and the PDF prints the amended text.
+- **Outcome per entry.**
+
+  | entry | outcome |
+  |---|---|
+  | 62 O.S. 34.11.1 to 34.33 | narrowed to 34.11.2 to 34.31.2 (id `ok-62-os-34-11-2-to-34-31-2`); 34.11.1 and 34.32 left out (not in force), 34.33 left out for the shape of a slice (owner decision) |
+  | 62 O.S. 35.1 to 35.9 | narrowed to 35.1 to 35.8; 35.9 left out (not in force) |
+  | 62 O.S. 36 | stays a stub, with the true reason; it carries its slice and becomes a document when the PDF prints it in force |
+  | 62 O.S. 34.202 to 34.210, 34.43, 41.5a-4; 74 O.S. 3106.3 to 3106.4, 3113.1 | documents, as seeded |
+
+  Each of 34.11.1, 34.32, 35.9 and 36 becomes a document once the Legislature's PDF prints it in force (after 2027-01-01); 34.11.1 and 34.32 would then need their own entries.
