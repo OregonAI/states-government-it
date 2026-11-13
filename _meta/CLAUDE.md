@@ -46,4 +46,6 @@ every instrument that state holds or is known to have. `corpus.yml` is toolkit c
   quote each, or a `none_reason`. `baseline.json` is written by `python3 src/eval_questions.py --write-baseline`,
   never by hand and not by `regen.sh` (a regenerated baseline would accept a regression); commit it with
   any change to the questions or expected ids. Do not seed or edit documents to make a cell pass.
+  `vaquill-baseline.json` is the outside baseline (issue #9; `src/vaquill_baseline.py`, write-up
+  `docs/research/11-vaquill-baseline.md`): citations, ranks and scoring only, never Vaquill's text (CC BY-NC).
 - `snapshots/` holds what the source served, written by the ingester. Never edit.
