@@ -173,6 +173,17 @@ def statute_url(article: str, section: str) -> str:
             f"&section={section}&enactments=true")
 
 
+def section_url(src, section: str) -> str:
+    """The page of one section of a seed entry: the entry's own url with the section swapped, so an entry keeps the
+    view it was read in. The first seven documents carry `enactments=true` ('in effect as of October 1st'); that view
+    answered File Not Found for every section from 2026-11-12, and the default view prints the same law, so entries
+    added after that carry no flag."""
+    url = src.get("url") or ""
+    if "section=" not in url:
+        return statute_url(src["article"], section)
+    return re.sub(r"(section=)[^&]+", lambda m: m.group(1) + section, url, count=1)
+
+
 def section_fragment(page: bytes) -> bytes | None:
     """The `StatuteText` fragment of a section page, or None when the site answers `File Not Found`."""
     m = _FRAGMENT.search(_decode(page))
@@ -247,7 +258,7 @@ def snapshot(src, fetcher, dest: Path, refetch):
         return dest.read_bytes(), False
     parts = []
     for section in src["sections"]:
-        url = statute_url(src["article"], section)
+        url = section_url(src, section)
         frag = section_fragment(fetcher.get(url).body)
         if frag is None:
             raise ValueError(f"{src['id']}: the General Assembly's site has no section {section} (File Not Found)")
@@ -302,6 +313,14 @@ def check_identity(src, text, what_is):
             raise ValueError(f"{sid}: {what_is} is not the cited instrument: 'Executive Order "
                              f"{number and number.group(0)}' is not its heading")
         return True
+    if kind == "rule" and re.search(r"\d+\.\d+\.\d+\.\d+\s*$", src["citation"]):
+        # a single regulation: its file prints only `.05 Heading.`, so the section number comes from the citation
+        number = re.search(r"\.(\d+)\s*$", src["citation"]).group(1)
+        first = text.split("\n", 1)[0]
+        if not re.fullmatch(rf"\.{number} {re.escape(src['title'])}\.?", first):
+            raise ValueError(f"{sid}: {what_is} is not the cited instrument: '.{number} {src['title']}' is not its "
+                             f"heading (the file's first line is {first!r})")
+        return True
     if kind == "rule":
         if not text.startswith(src["title"] + "\n"):
             raise ValueError(f"{sid}: {what_is} is not the cited instrument: {src['title']!r} is not its heading")
@@ -325,8 +344,10 @@ def notes(src, fmt, text):
     if src["jurisdiction"] != "maryland" or fmt != "html":
         return None
     if src.get("sections"):
+        view = ("'in effect as of October 1st of this year' view" if "enactments=true" in src.get("url", "")
+                else "site's default view")
         return ("Text taken from the General Assembly's statute pages (mgaleg.maryland.gov, Laws, Statutes, "
-                "'in effect as of October 1st of this year' view): the site serves one section per page, so each "
+                + view + "): the site serves one section per page, so each "
                 "listed section's text was taken from its page and the sections are joined in order, a blank line "
                 "before each. The page's Previous and Next buttons are not read; the source's indentation is kept "
                 "as two spaces per level. The article line is printed once. When a page prints two versions of a section "
