@@ -1,26 +1,26 @@
 # STATUS — State Government IT Governance
 
-Generated 2026-11-12. Non-authoritative; see DISCLAIMER.md.
+Generated 2026-11-13. Non-authoritative; see DISCLAIMER.md.
 
 ## Documents by type
 
 | doc_type | count |
 |---|---|
-| policy | 957 |
+| policy | 954 |
 | standard | 726 |
-| statute | 451 |
-| executive_order | 80 |
-| rule | 52 |
+| statute | 512 |
+| executive_order | 82 |
+| rule | 57 |
 
-**Total: 2266**
+**Total: 2331**
 
 ## Source manifest
 
-2792 declared source(s) across 42 group(s) in `sources`.
+2860 declared source(s) across 42 group(s) in `sources`.
 
 ## Freshness (reverify every 90 days)
 
-2266 of 2266 document(s) overdue for re-verification.
+2331 of 2331 document(s) overdue for re-verification.
 
 | id | doc_type | last_verified |
 |---|---|---|
@@ -51,6 +51,7 @@ Generated 2026-11-12. Non-authoritative; see DISCLAIMER.md.
 | az-ars-18-552 | statute | never |
 | az-ars-26-183 | statute | never |
 | az-ars-38-448 | statute | never |
+| az-ars-41-151-16 | statute | never |
 | az-ars-41-4252 | statute | never |
 | az-ars-41-4254 | statute | never |
 | az-ars-41-4281 | statute | never |
@@ -73,6 +74,5 @@ Generated 2026-11-12. Non-authoritative; see DISCLAIMER.md.
 | ca-gov-7405 | statute | never |
 | ca-gov-7929-210 | statute | never |
 | ca-gov-8586-5 | statute | never |
-| ca-gov-8592-30-8592-50 | statute | never |
-| … | *2216 more* | |
+| … | *2281 more* | |
 

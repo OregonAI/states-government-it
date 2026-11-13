@@ -1,6 +1,6 @@
 {
  "corpus": "states-government-it",
- "n_nodes": 2266,
+ "n_nodes": 2331,
  "n_edges": 0,
  "n_edges_external": 0,
  "nodes": [
@@ -165,6 +165,12 @@
    "title": "38-448 - State employees; access to internet pornography prohibited; cause for dismissal; definitions",
    "doc_type": "statute",
    "path": "statutes/arizona/az-ars-38-448.md"
+  },
+  {
+   "id": "az-ars-41-151-16",
+   "title": "41-151.16 - Production and reproduction of records by agencies of the state and political subdivisions; admissibility; violation; classification",
+   "doc_type": "statute",
+   "path": "statutes/arizona/az-ars-41-151-16.md"
   },
   {
    "id": "az-ars-41-4252",
@@ -335,6 +341,12 @@
    "path": "statutes/colorado/co-crs-24-37-7.md"
   },
   {
+   "id": "co-crs-24-71-3-117",
+   "title": "Electronic Records and Signatures of State Agencies (Uniform Electronic Transactions Act, sections 117 to 119)",
+   "doc_type": "statute",
+   "path": "statutes/colorado/co-crs-24-71-3-117.md"
+  },
+  {
    "id": "co-crs-24-73",
    "title": "Security Breaches and Personal Information",
    "doc_type": "statute",
@@ -351,6 +363,18 @@
    "title": "Information Technology Access for Individuals Who are Blind or Visually Impaired",
    "doc_type": "statute",
    "path": "statutes/colorado/co-crs-24-85.md"
+  },
+  {
+   "id": "de-code-19-705",
+   "title": "Title 19, Section 705: Notice of monitoring of telephone transmissions, electronic mail and Internet usage",
+   "doc_type": "statute",
+   "path": "statutes/delaware/de-code-19-705.md"
+  },
+  {
+   "id": "de-code-29-515",
+   "title": "Title 29, Section 515: Microfilming and other document imaging services; appropriations and expenditures",
+   "doc_type": "statute",
+   "path": "statutes/delaware/de-code-29-515.md"
   },
   {
    "id": "de-code-29-ch-90c-subch-i",
@@ -383,10 +407,22 @@
    "path": "statutes/delaware/de-code-6-ch-12b.md"
   },
   {
+   "id": "fl-st-112-22",
+   "title": "Section 112.22. Use of applications from foreign countries of concern prohibited",
+   "doc_type": "statute",
+   "path": "statutes/florida/fl-st-112-22.md"
+  },
+  {
    "id": "fl-st-282",
    "title": "Chapter 282. Communications and Data Processing",
    "doc_type": "statute",
    "path": "statutes/florida/fl-st-282.md"
+  },
+  {
+   "id": "fl-st-501-171",
+   "title": "Section 501.171. Security of confidential personal information",
+   "doc_type": "statute",
+   "path": "statutes/florida/fl-st-501-171.md"
   },
   {
    "id": "hi-st-128b-1",
@@ -561,6 +597,12 @@
    "title": "Reporting requirements",
    "doc_type": "statute",
    "path": "statutes/hawaii/hi-st-487r-4.md"
+  },
+  {
+   "id": "hi-st-94-1-2",
+   "title": "The state archivist",
+   "doc_type": "statute",
+   "path": "statutes/hawaii/hi-st-94-1-2.md"
   },
   {
    "id": "id-code-28-51-104",
@@ -1097,6 +1139,12 @@
    "path": "statutes/kentucky/ky-krs-1-020.md"
   },
   {
+   "id": "ky-krs-186a-285",
+   "title": "Permission to connect automated system required -- Exceptions -- Notification of county attorney if vehicle is not properly insured",
+   "doc_type": "statute",
+   "path": "statutes/kentucky/ky-krs-186a-285.md"
+  },
+  {
    "id": "ky-krs-369-117",
    "title": "Creation and retention of electronic records by governmental agencies -- Conversion of written records by governmental agencies",
    "doc_type": "statute",
@@ -1631,10 +1679,40 @@
    "path": "statutes/maryland/md-sg-10-1301-to-1308.md"
   },
   {
+   "id": "md-sg-10-1501-to-1504",
+   "title": "State Government Article, §§ 10-1501 to 10-1504: Maryland Open Data Act (open data policy and the Council for Open Data)",
+   "doc_type": "statute",
+   "path": "statutes/maryland/md-sg-10-1501-to-1504.md"
+  },
+  {
+   "id": "ma-gl-214-3b",
+   "title": "General Laws, Chapter 214, Section 3B. Fair information practices of public holders; violations of chapter 66A; remedies; limitation",
+   "doc_type": "statute",
+   "path": "statutes/massachusetts/ma-gl-214-3b.md"
+  },
+  {
+   "id": "ma-gl-30-63",
+   "title": "General Laws, Chapter 30, Section 63. Notice to state secretary; specifications; report",
+   "doc_type": "statute",
+   "path": "statutes/massachusetts/ma-gl-30-63.md"
+  },
+  {
+   "id": "ma-gl-36-40",
+   "title": "General Laws, Chapter 36, Section 40. Technology purchase's by register of deeds; compatibility with other registers",
+   "doc_type": "statute",
+   "path": "statutes/massachusetts/ma-gl-36-40.md"
+  },
+  {
    "id": "ma-gl-66a",
    "title": "General Laws, Chapter 66A. Fair Information Practices",
    "doc_type": "statute",
    "path": "statutes/massachusetts/ma-gl-66a.md"
+  },
+  {
+   "id": "ma-gl-6a-7a",
+   "title": "General Laws, Chapter 6A, Section 7A. Executive office of technology services and security; approval requirement for performance of information technology functions by other executive offices; transfer of information technology resources",
+   "doc_type": "statute",
+   "path": "statutes/massachusetts/ma-gl-6a-7a.md"
   },
   {
    "id": "ma-gl-7d",
@@ -1683,6 +1761,18 @@
    "title": "SOCIAL SECURITY NUMBER PRIVACY ACT",
    "doc_type": "statute",
    "path": "statutes/michigan/mi-act-454-2004.md"
+  },
+  {
+   "id": "mi-stat-mcl-24-401-402",
+   "title": "Records Reproduction Act, sections 1 and 2 (short title, definitions; reproduction of records by governmental entities, technical standards)",
+   "doc_type": "statute",
+   "path": "statutes/michigan/mi-stat-mcl-24-401-402.md"
+  },
+  {
+   "id": "mi-stat-mcl-24-404",
+   "title": "Records Reproduction Act, section 4 (proposed technical standard)",
+   "doc_type": "statute",
+   "path": "statutes/michigan/mi-stat-mcl-24-404.md"
   },
   {
    "id": "mn-stat-13",
@@ -1829,6 +1919,60 @@
    "path": "statutes/montana/mt-mca-2-6-1501.md"
   },
   {
+   "id": "ne-rs-81-1117",
+   "title": "Information management services administrator; powers, duties, and responsibilities; Information Management Revolving Fund, Neb. Rev. Stat. 81-1117",
+   "doc_type": "statute",
+   "path": "statutes/nebraska/ne-rs-81-1117.md"
+  },
+  {
+   "id": "ne-rs-81-1120-02",
+   "title": "Communications system; terms defined, Neb. Rev. Stat. 81-1120.02",
+   "doc_type": "statute",
+   "path": "statutes/nebraska/ne-rs-81-1120-02.md"
+  },
+  {
+   "id": "ne-rs-81-1120-17",
+   "title": "Division of communications; powers and duties, Neb. Rev. Stat. 81-1120.17",
+   "doc_type": "statute",
+   "path": "statutes/nebraska/ne-rs-81-1120-17.md"
+  },
+  {
+   "id": "ne-rs-81-1120-20",
+   "title": "Joint use of communications; departments; agencies; cooperation, Neb. Rev. Stat. 81-1120.20",
+   "doc_type": "statute",
+   "path": "statutes/nebraska/ne-rs-81-1120-20.md"
+  },
+  {
+   "id": "ne-rs-81-1120-27",
+   "title": "Telecommunications system; uses; member of Legislature; long-distance calls, Neb. Rev. Stat. 81-1120.27",
+   "doc_type": "statute",
+   "path": "statutes/nebraska/ne-rs-81-1120-27.md"
+  },
+  {
+   "id": "ne-rs-84-1204-1205",
+   "title": "State Records Board; network manager for the state portal, Neb. Rev. Stat. 84-1204 to 84-1205",
+   "doc_type": "statute",
+   "path": "statutes/nebraska/ne-rs-84-1204-1205.md"
+  },
+  {
+   "id": "ne-rs-84-1205-03",
+   "title": "State agency; electronic access to public records; approval required, Neb. Rev. Stat. 84-1205.03",
+   "doc_type": "statute",
+   "path": "statutes/nebraska/ne-rs-84-1205-03.md"
+  },
+  {
+   "id": "ne-rs-84-1205-05",
+   "title": "Board; reports, Neb. Rev. Stat. 84-1205.05",
+   "doc_type": "statute",
+   "path": "statutes/nebraska/ne-rs-84-1205-05.md"
+  },
+  {
+   "id": "ne-rs-84-1228",
+   "title": "Electronic record constituting permanent record; requirements, Neb. Rev. Stat. 84-1228",
+   "doc_type": "statute",
+   "path": "statutes/nebraska/ne-rs-84-1228.md"
+  },
+  {
    "id": "ne-rs-86-5-100",
    "title": "Network Nebraska, Neb. Rev. Stat. 86-5,100",
    "doc_type": "statute",
@@ -1889,6 +2033,12 @@
    "path": "statutes/nevada/nv-nrs-242.md"
   },
   {
+   "id": "nv-nrs-281-195",
+   "title": "NRS 281.195: Access by state agency to computers assigned or loaned to officers, employees and contractors",
+   "doc_type": "statute",
+   "path": "statutes/nevada/nv-nrs-281-195.md"
+  },
+  {
    "id": "nv-nrs-603a",
    "title": "CHAPTER 603A - SECURITY AND PRIVACY OF PERSONAL INFORMATION",
    "doc_type": "statute",
@@ -1899,6 +2049,24 @@
    "title": "Chapter 21-R Department of Information Technology",
    "doc_type": "statute",
    "path": "statutes/new-hampshire/nh-st-21-r.md"
+  },
+  {
+   "id": "nh-st-294-e-17",
+   "title": "RSA 294-E:17 Creation and Retention of Electronic Records and Conversion of Written Records by Governmental Agencies",
+   "doc_type": "statute",
+   "path": "statutes/new-hampshire/nh-st-294-e-17.md"
+  },
+  {
+   "id": "nh-st-294-e-18",
+   "title": "RSA 294-E:18 Acceptance and Distribution of Electronic Records by Governmental Agencies",
+   "doc_type": "statute",
+   "path": "statutes/new-hampshire/nh-st-294-e-18.md"
+  },
+  {
+   "id": "nh-st-294-e-19",
+   "title": "RSA 294-E:19 Interoperability",
+   "doc_type": "statute",
+   "path": "statutes/new-hampshire/nh-st-294-e-19.md"
   },
   {
    "id": "nh-st-359-n",
@@ -1961,6 +2129,24 @@
    "path": "statutes/new-jersey/nj-njsa-56-8-161.md"
   },
   {
+   "id": "nm-nmsa-14-15",
+   "title": "Electronic Authentication of Documents Act",
+   "doc_type": "statute",
+   "path": "statutes/new-mexico/nm-nmsa-14-15.md"
+  },
+  {
+   "id": "nm-nmsa-14-16-17",
+   "title": "Uniform Electronic Transactions Act: electronic records of governmental agencies",
+   "doc_type": "statute",
+   "path": "statutes/new-mexico/nm-nmsa-14-16-17.md"
+  },
+  {
+   "id": "nm-nmsa-14-3-15-2",
+   "title": "Electronic authentication; substitution for signature",
+   "doc_type": "statute",
+   "path": "statutes/new-mexico/nm-nmsa-14-3-15-2.md"
+  },
+  {
    "id": "nm-nmsa-9-27",
    "title": "Department of Information Technology",
    "doc_type": "statute",
@@ -1971,6 +2157,12 @@
    "title": "Cybersecurity",
    "doc_type": "statute",
    "path": "statutes/new-mexico/nm-nmsa-9-27a.md"
+  },
+  {
+   "id": "ny-exc-170-f",
+   "title": "Executive Law section 170-f - Website accessibility; contractors and vendors",
+   "doc_type": "statute",
+   "path": "statutes/new-york/ny-exc-170-f.md"
   },
   {
    "id": "ny-stt-art-1",
@@ -1997,6 +2189,36 @@
    "path": "statutes/new-york/ny-stt-art-4.md"
   },
   {
+   "id": "nc-gs-116e",
+   "title": "General Statutes, Chapter 116E. North Carolina Longitudinal Data System",
+   "doc_type": "statute",
+   "path": "statutes/north-carolina/nc-gs-116e.md"
+  },
+  {
+   "id": "nc-gs-132-1-10",
+   "title": "General Statutes, Chapter 132, Section 132-1.10. Social security numbers and other personal identifying information",
+   "doc_type": "statute",
+   "path": "statutes/north-carolina/nc-gs-132-1-10.md"
+  },
+  {
+   "id": "nc-gs-132-6-1",
+   "title": "General Statutes, Chapter 132, Section 132-6.1. Electronic data-processing and computer databases as public records",
+   "doc_type": "statute",
+   "path": "statutes/north-carolina/nc-gs-132-6-1.md"
+  },
+  {
+   "id": "nc-gs-143-135-9",
+   "title": "General Statutes, Chapter 143, Section 143-135.9. Best Value procurements",
+   "doc_type": "statute",
+   "path": "statutes/north-carolina/nc-gs-143-135-9.md"
+  },
+  {
+   "id": "nc-gs-143-48-3",
+   "title": "General Statutes, Chapter 143, Section 143-48.3. Electronic procurement",
+   "doc_type": "statute",
+   "path": "statutes/north-carolina/nc-gs-143-48-3.md"
+  },
+  {
    "id": "nc-gs-143-art-84",
    "title": "General Statutes, Chapter 143, Article 84. Various Technology Regulations",
    "doc_type": "statute",
@@ -2007,6 +2229,18 @@
    "title": "General Statutes, Chapter 143B, Article 15. Department of Information Technology",
    "doc_type": "statute",
    "path": "statutes/north-carolina/nc-gs-143b-art-15.md"
+  },
+  {
+   "id": "nc-gs-66-58-5",
+   "title": "General Statutes, Chapter 66, Section 66-58.5. Validity of electronic signatures",
+   "doc_type": "statute",
+   "path": "statutes/north-carolina/nc-gs-66-58-5.md"
+  },
+  {
+   "id": "nd-ndcc-23-12-19",
+   "title": "Section 23-12-19 - Voluntary participation in the health information organization - Prohibition on withholding care or benefits",
+   "doc_type": "statute",
+   "path": "statutes/north-dakota/nd-ndcc-23-12-19.md"
   },
   {
    "id": "nd-ndcc-54-46",
@@ -2063,6 +2297,12 @@
    "path": "statutes/ohio/oh-orc-126-506.md"
   },
   {
+   "id": "oh-orc-1306-20",
+   "title": "State agency provisions.",
+   "doc_type": "statute",
+   "path": "statutes/ohio/oh-orc-1306-20.md"
+  },
+  {
    "id": "oh-orc-1306-21",
    "title": "Rules for state agency use of electronic records or electronic signatures.",
    "doc_type": "statute",
@@ -2105,6 +2345,12 @@
    "path": "statutes/ohio/oh-orc-ch5922.md"
   },
   {
+   "id": "ok-62-os-34-11-1-1",
+   "title": "Oklahoma Statutes Title 62, Sections 34.11.1.1 to 34.11.1.2: Chief Information Officer data sets and the Employment Security Commission IT Innovation Revolving Fund",
+   "doc_type": "statute",
+   "path": "statutes/oklahoma/ok-62-os-34-11-1-1.md"
+  },
+  {
    "id": "ok-62-os-34-11-2-to-34-31-2",
    "title": "Oklahoma Statutes Title 62, Sections 34.11.2 to 34.31.2: Information Services Division and state information technology initiatives",
    "doc_type": "statute",
@@ -2115,6 +2361,12 @@
    "title": "Oklahoma Statutes Title 62, Sections 34.202 to 34.210: OMES technology contracts and state data",
    "doc_type": "statute",
    "path": "statutes/oklahoma/ok-62-os-34-202-to-34-210.md"
+  },
+  {
+   "id": "ok-62-os-34-33",
+   "title": "Oklahoma Statutes Title 62, Section 34.33: Agreements to administer information technology and telecommunications infrastructure and security",
+   "doc_type": "statute",
+   "path": "statutes/oklahoma/ok-62-os-34-33.md"
   },
   {
    "id": "ok-62-os-34-43",
@@ -2151,6 +2403,12 @@
    "title": "Chapter 276A - Information Technology (2025 Edition)",
    "doc_type": "statute",
    "path": "statutes/oregon/or-ors-276a.md"
+  },
+  {
+   "id": "or-ors-291-034",
+   "title": "ORS 291.034: Providing technical services involving data processing",
+   "doc_type": "statute",
+   "path": "statutes/oregon/or-ors-291-034.md"
   },
   {
    "id": "pa-act-69-1999-electronic-transactions",
@@ -2207,10 +2465,28 @@
    "path": "statutes/south-carolina/sc-code-11-ch-53.md"
   },
   {
+   "id": "sc-code-11-sec-35-820",
+   "title": "Code of Laws, Section 11-35-820. Creation of Information Technology Management Office (Consolidated Procurement Code)",
+   "doc_type": "statute",
+   "path": "statutes/south-carolina/sc-code-11-sec-35-820.md"
+  },
+  {
+   "id": "sc-code-26-sec-6-170-to-195",
+   "title": "Code of Laws, Sections 26-6-170 to 26-6-195. Uniform Electronic Transactions Act: government agencies' electronic records and signatures",
+   "doc_type": "statute",
+   "path": "statutes/south-carolina/sc-code-26-sec-6-170-to-195.md"
+  },
+  {
    "id": "sc-code-30-ch-2",
    "title": "Code of Laws, Title 30, Chapter 2. Family and Personal Identifying Information Privacy Protection",
    "doc_type": "statute",
    "path": "statutes/south-carolina/sc-code-30-ch-2.md"
+  },
+  {
+   "id": "sc-code-30-sec-1-90",
+   "title": "Code of Laws, Section 30-1-90. Public records: agency records schedules and retention, electronic records included",
+   "doc_type": "statute",
+   "path": "statutes/south-carolina/sc-code-30-sec-1-90.md"
   },
   {
    "id": "sd-sdcl-1-33-bit",
@@ -2345,6 +2621,12 @@
    "path": "statutes/virginia/va-code-2-2-203-2-4.md"
   },
   {
+   "id": "va-code-2-2-203-2-5",
+   "title": "§ 2.2-203.2:5. Additional duties of the Secretary; technology programs",
+   "doc_type": "statute",
+   "path": "statutes/virginia/va-code-2-2-203-2-5.md"
+  },
+  {
    "id": "va-code-2-2-2699-5",
    "title": "§ 2.2-2699.5. Information Technology Advisory Council; membership; terms; quorum; compensation; staff",
    "doc_type": "statute",
@@ -2399,6 +2681,12 @@
    "path": "statutes/virginia/va-code-2-2-ch55-3.md"
   },
   {
+   "id": "wa-rcw-39-26-235",
+   "title": "RCW 39.26.235 - Purchase of wireless devices or services",
+   "doc_type": "statute",
+   "path": "statutes/washington/wa-rcw-39-26-235.md"
+  },
+  {
    "id": "wa-rcw-39-26-340",
    "title": "RCW 39.26.340 - Data-sharing agreements - When required",
    "doc_type": "statute",
@@ -2427,6 +2715,60 @@
    "title": "Chapter 43.105 RCW - Washington Technology Solutions",
    "doc_type": "statute",
    "path": "statutes/washington/wa-rcw-43-105.md"
+  },
+  {
+   "id": "wa-rcw-43-386-010",
+   "title": "RCW 43.386.010 - Definitions.",
+   "doc_type": "statute",
+   "path": "statutes/washington/wa-rcw-43-386-010.md"
+  },
+  {
+   "id": "wa-rcw-43-386-020",
+   "title": "RCW 43.386.020 - Notice of intent—Accountability report.",
+   "doc_type": "statute",
+   "path": "statutes/washington/wa-rcw-43-386-020.md"
+  },
+  {
+   "id": "wa-rcw-43-386-030",
+   "title": "RCW 43.386.030 - Meaningful human review—When required.",
+   "doc_type": "statute",
+   "path": "statutes/washington/wa-rcw-43-386-030.md"
+  },
+  {
+   "id": "wa-rcw-43-386-040",
+   "title": "RCW 43.386.040 - Testing—When required.",
+   "doc_type": "statute",
+   "path": "statutes/washington/wa-rcw-43-386-040.md"
+  },
+  {
+   "id": "wa-rcw-43-386-050",
+   "title": "RCW 43.386.050 - Performance differences across subpopulations—Testing and mitigation.",
+   "doc_type": "statute",
+   "path": "statutes/washington/wa-rcw-43-386-050.md"
+  },
+  {
+   "id": "wa-rcw-43-386-060",
+   "title": "RCW 43.386.060 - Training.",
+   "doc_type": "statute",
+   "path": "statutes/washington/wa-rcw-43-386-060.md"
+  },
+  {
+   "id": "wa-rcw-43-386-090",
+   "title": "RCW 43.386.090 - Exemption—Federal regulations and orders—Airports and seaports.",
+   "doc_type": "statute",
+   "path": "statutes/washington/wa-rcw-43-386-090.md"
+  },
+  {
+   "id": "wa-rcw-43-386-100",
+   "title": "RCW 43.386.100 - Exemption—Department of licensing—Drivers' licenses, permits, and identicards.",
+   "doc_type": "statute",
+   "path": "statutes/washington/wa-rcw-43-386-100.md"
+  },
+  {
+   "id": "wa-rcw-43-88-092",
+   "title": "RCW 43.88.092 - Information technology budget detail - Information technology plan - Accounting method for information technology",
+   "doc_type": "statute",
+   "path": "statutes/washington/wa-rcw-43-88-092.md"
   },
   {
    "id": "wv-code-39a-3-1",
@@ -2633,6 +2975,12 @@
    "path": "statutes/wisconsin/wi-stat-15-103.md"
   },
   {
+   "id": "wi-stat-16-61",
+   "title": "Wis. Stat. 16.61 - Records of state offices and other public records",
+   "doc_type": "statute",
+   "path": "statutes/wisconsin/wi-stat-16-61.md"
+  },
+  {
    "id": "wi-stat-16-611",
    "title": "Wis. Stat. 16.611 - State public records; optical disc and electronic storage",
    "doc_type": "statute",
@@ -2693,6 +3041,24 @@
    "path": "statutes/wisconsin/wi-stat-16-979.md"
   },
   {
+   "id": "wi-stat-19-68",
+   "title": "Wis. Stat. 19.68 - Collection of personally identifiable information from Internet users",
+   "doc_type": "statute",
+   "path": "statutes/wisconsin/wi-stat-19-68.md"
+  },
+  {
+   "id": "wi-stat-19-69",
+   "title": "Wis. Stat. 19.69 - Computer matching",
+   "doc_type": "statute",
+   "path": "statutes/wisconsin/wi-stat-19-69.md"
+  },
+  {
+   "id": "wy-ws-40-21-117",
+   "title": "Electronic records of governmental agencies (Title 40, Chapter 21, sections 117 to 119: creation and retention, acceptance and distribution, interoperability)",
+   "doc_type": "statute",
+   "path": "statutes/wyoming/wy-ws-40-21-117.md"
+  },
+  {
    "id": "wy-ws-9-2-art-25",
    "title": "Government Electronic Transactions (Title 9, Chapter 2, Article 25)",
    "doc_type": "statute",
@@ -2727,6 +3093,12 @@
    "title": "Trustworthy Electronic Document or Record Preservation",
    "doc_type": "rule",
    "path": "rules/california/ca-ccr-2-div-7-ch-15.md"
+  },
+  {
+   "id": "co-ccr-1-101-9-it-projects",
+   "title": "Procurement Rules: Information Technology Projects",
+   "doc_type": "rule",
+   "path": "rules/colorado/co-ccr-1-101-9-it-projects.md"
   },
   {
    "id": "co-ccr-8-1501-11",
@@ -2793,6 +3165,12 @@
    "title": "Subtitle 33 DEPARTMENT OF INFORMATION TECHNOLOGY",
    "doc_type": "rule",
    "path": "rules/maryland/md-comar-14-33.md"
+  },
+  {
+   "id": "md-comar-21-05-08-05",
+   "title": "Nonvisual Access Clause",
+   "doc_type": "rule",
+   "path": "rules/maryland/md-comar-21-05-08-05.md"
   },
   {
    "id": "ma-801-cmr-3",
@@ -2987,6 +3365,24 @@
    "path": "rules/oregon/or-oar-128-50.md"
   },
   {
+   "id": "sc-reg-19-445-2027",
+   "title": "Code of Regulations, 19-445.2027. Electronic Commerce (Procurement Regulations)",
+   "doc_type": "rule",
+   "path": "rules/south-carolina/sc-reg-19-445-2027.md"
+  },
+  {
+   "id": "sc-reg-19-445-2115",
+   "title": "Code of Regulations, 19-445.2115. Information Technology Procurements (Procurement Regulations)",
+   "doc_type": "rule",
+   "path": "rules/south-carolina/sc-reg-19-445-2115.md"
+  },
+  {
+   "id": "wa-wac-434-662",
+   "title": "Chapter 434-662 WAC - Preservation of electronic public records",
+   "doc_type": "rule",
+   "path": "rules/washington/wa-wac-434-662.md"
+  },
+  {
    "id": "wv-csr-163-1",
    "title": "Procedures for Sanitization, Retirement and Disposition of Information Technology Equipment",
    "doc_type": "rule",
@@ -3051,6 +3447,12 @@
    "title": "Protecting the State's Cybersecurity Interests",
    "doc_type": "executive_order",
    "path": "executive-orders/arizona/az-eo-2023-10.md"
+  },
+  {
+   "id": "ca-eo-b-1-11",
+   "title": "State-issued cell phones and smart phones (cuts and cost-effective plans)",
+   "doc_type": "executive_order",
+   "path": "executive-orders/california/ca-eo-b-1-11.md"
   },
   {
    "id": "ca-eo-b-34-15",
@@ -3195,6 +3597,12 @@
    "title": "No. 629: Establishing an Artificial Intelligence Strategic Task Force",
    "doc_type": "executive_order",
    "path": "executive-orders/massachusetts/ma-eo-629.md"
+  },
+  {
+   "id": "mi-eo-1994-13",
+   "title": "Transfer of data processing for the State's financial and personnel information systems from Treasury to Management and Budget",
+   "doc_type": "executive_order",
+   "path": "executive-orders/michigan/mi-eo-1994-13.md"
   },
   {
    "id": "mi-eo-1994-15",
@@ -4539,24 +4947,6 @@
    "title": "P1030 – Electronic Document Management",
    "doc_type": "policy",
    "path": "policies/idaho/id-ita-p1030.md"
-  },
-  {
-   "id": "id-ita-p1040",
-   "title": "P1040 – Electronic Mail and Messaging",
-   "doc_type": "policy",
-   "path": "policies/idaho/id-ita-p1040.md"
-  },
-  {
-   "id": "id-ita-p1050",
-   "title": "P1050 – Internet Use and Control",
-   "doc_type": "policy",
-   "path": "policies/idaho/id-ita-p1050.md"
-  },
-  {
-   "id": "id-ita-p1060",
-   "title": "P1060 – State-Issued IT Devices",
-   "doc_type": "policy",
-   "path": "policies/idaho/id-ita-p1060.md"
   },
   {
    "id": "id-ita-p1070",
