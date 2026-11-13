@@ -6,6 +6,8 @@ hooks it needs. Every hook is optional; a state whose sources are all PDFs and W
     to_text(raw, fmt, doc_type, slice_, host) -> str | None
         Bytes to the text committed as `<id>.txt`, for the formats this state's sources need beyond
         PDF and Word (those are shared). None: the state has no cleanup for this combination.
+        Also called for a PDF source that carries a `slice` (a document that is part of a title
+        PDF); None there is a refusal.
     check_identity(src, text, what_is) -> bool
         True when the state checked that the text is the instrument the seed entry cites (raise
         ValueError when it is not). False: use `default_identity`.
@@ -58,6 +60,14 @@ def to_text(raw: bytes, fmt: str, doc_type: str, jurisdiction: str = "oregon",
             slice_: dict | None = None, host: str = "", no_text_pages=()) -> str:
     """Bytes to the text committed as `<id>.txt` and hashed. A source this corpus has no
     cleanup for is refused: a generic tag-strip would commit navigation as law."""
+    if fmt == "pdf" and slice_:
+        # A document that is one slice of a title PDF (Oklahoma's statutes): only the state can cut it.
+        h = hook(jurisdiction, "to_text")
+        text = h(raw, fmt, doc_type, slice_, host) if h else None
+        if text is None:
+            raise ValueError(f"no PDF slice for doc_type {doc_type!r} ({jurisdiction!r}): "
+                             f"a slice would be ignored and the whole PDF committed")
+        return text
     if fmt == "pdf":
         return pdf_to_text(raw, no_text_pages)
     if fmt == "docx":

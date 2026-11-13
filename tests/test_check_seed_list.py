@@ -277,3 +277,39 @@ def test_a_watched_index_page_may_be_cited_in_the_left_out_prose(tmp_path):
     write_state(tmp_path, "oregon", [entry(watch_only=True)],
                 left_out=[{"text": "No rules: see the index page https://example.gov/x, watched."}])
     assert seed_errs(tmp_path)[1] == []
+
+
+# ---- Oklahoma slices: printed section headings of a title PDF, only on an oklahoma entry ----
+
+OK_DOMAIN = {**DOMAIN, "states": ["oregon", "oklahoma"]}
+
+
+def ok_errs(*entries):
+    return c.check({"sources": list(entries)}, OK_DOMAIN)
+
+
+def ok_entry(**kw):
+    return entry(**{"jurisdiction": "oklahoma", "format": "pdf",
+                    "slice": {"section_start": "34.43", "section_end_before": "34.44"}, **kw})
+
+
+def test_an_oklahoma_slice_names_the_first_section_and_the_heading_it_stops_before():
+    assert ok_errs(ok_entry()) == []
+    assert any("slice" in m for m in ok_errs(ok_entry(slice={"section_start": "34.43"})))
+    assert any("slice" in m for m in ok_errs(ok_entry(slice={"section_end_before": "34.44"})))
+    assert any("slice" in m for m in ok_errs(ok_entry(
+        slice={"section_start": "34.43", "section_end_before": "34.44", "title": "62"})))
+    assert any("slice" in m for m in ok_errs(ok_entry(slice={"section_start": "34.43", "section_end_before": ""})))
+    assert any("slice" in m for m in ok_errs(ok_entry(slice={"section_start": 34.43, "section_end_before": "34.44"})))
+
+
+def test_an_oklahoma_slice_belongs_only_on_an_oklahoma_entry():
+    assert any("slice" in m for m in errs(entry(slice={"section_start": "34.43", "section_end_before": "34.44"})))
+
+
+def test_oklahoma_slices_of_one_title_file_need_different_ranges():
+    a = ok_entry(url="https://example.gov/os62.pdf")
+    b = ok_entry(id="other", url="https://example.gov/os62.pdf",
+                 slice={"section_start": "36", "section_end_before": "36.1"})
+    assert ok_errs(a, b) == []
+    assert any("duplicate url" in m for m in ok_errs(a, dict(b, slice=a["slice"])))
