@@ -13,6 +13,8 @@ SC01 = (FIX / "delcode-29-c90c-sc01.html").read_bytes()
 SC03 = (FIX / "delcode-29-c90c-sc03.html").read_bytes()
 SC04 = (FIX / "delcode-29-c90c-sc04.html").read_bytes()
 C12B = (FIX / "delcode-6-c12b.html").read_bytes()
+T19C7 = (FIX / "delcode-19-c07-sc01.html").read_bytes()      # Title 19 ch. 7 subch. I, whole page, 2026-11-13
+T29C5 = (FIX / "delcode-29-c05-sc01.html").read_bytes()      # Title 29 ch. 5 subch. I, whole page, 2026-11-13
 
 
 def text(raw):
@@ -156,3 +158,96 @@ def test_a_page_without_the_title_block_has_no_version():
 
 def test_a_revision_without_a_review_date_is_still_the_revision():
     assert states.source_version("Revision Number: 4\n", "policy", "delaware", "pdf") == "Revision 4"
+
+
+# ---- section-range slices of a chapter page (owner decision 2026-11-13: IT-governance sections of other law) ----
+
+def sliced(raw, start, end):
+    return ing.to_text(raw, "html", "statute", "delaware", {"section_start": start, "section_end_before": end})
+
+
+def test_a_slice_starts_at_the_first_heading_and_keeps_the_page_heads():
+    lines = sliced(T19C7, "705", "706").splitlines()
+    assert lines[:2] == ["TITLE 19", "Labor"]
+    assert "CHAPTER 7. Employment Practices" in lines
+    assert lines[lines.index("") + 1].startswith("§ 705. Notice of monitoring")
+
+
+def test_a_slice_includes_every_section_in_range_and_excludes_the_next_section():
+    t = sliced(T29C5, "515", "518")
+    heads = [l for l in t.splitlines() if l.startswith("§ ")]
+    assert [h.split(".")[0] for h in heads] == ["§ 515", "§ 516", "§ 517"]
+    assert "§ 518." not in t and "§ 514." not in t
+
+
+def test_a_one_section_slice_holds_only_that_section_with_its_history():
+    t = sliced(T19C7, "705", "706")
+    heads = [l for l in t.splitlines() if l.startswith("§ ")]
+    assert len(heads) == 1
+    assert "(b) No employer, nor any agent or any representative of any employer, shall monitor" in t
+    assert t.rstrip().endswith("73 Del. Laws, c. 148, § 1; 73 Del. Laws, c. 403, §§ 1, 2;")
+    assert "Continuation of labor contracts" not in t and "Polygraph" not in t
+
+
+def test_a_slice_carries_no_page_furniture():
+    t = sliced(T29C5, "515", "516")
+    for furniture in ("Authenticated PDF", "Toggle navigation", "Delaware General Assembly", "Twitter"):
+        assert furniture not in t
+    assert [l for l in t.splitlines() if l.strip() in ("§ 515", "§ 516")] == []
+
+
+def test_a_slice_whose_start_or_end_is_not_on_the_page_is_refused():
+    with pytest.raises(ValueError, match="section 799"):
+        sliced(T19C7, "799", "800")
+    with pytest.raises(ValueError, match="section 799"):
+        sliced(T19C7, "705", "799")
+
+
+def test_a_slice_is_not_the_whole_page():
+    assert sliced(T19C7, "705", "706") != text(T19C7)
+    assert len(sliced(T19C7, "705", "706")) < len(text(T19C7)) // 4
+
+
+def test_slice_identity_requires_the_first_and_last_cited_sections():
+    ok = seed("19 Del. C. 705")
+    states.check_identity(ok, sliced(T19C7, "705", "706"), "html")
+    states.check_identity(seed("29 Del. C. 515 to 517"), sliced(T29C5, "515", "518"), "html")
+    with pytest.raises(ValueError, match="is not 19 Del. C. 706"):
+        states.check_identity(seed("19 Del. C. 706"), sliced(T19C7, "705", "706"), "html")
+    with pytest.raises(ValueError, match="is not 29 Del. C. 515 to 516"):
+        states.check_identity(seed("29 Del. C. 515 to 516"), sliced(T29C5, "515", "518"), "html")
+
+
+def test_slice_identity_refuses_a_repealed_section():
+    t = sliced(T29C5, "523", "524")
+    assert "[Repealed]" in t
+    with pytest.raises(ValueError, match="repealed"):
+        states.check_identity(seed("29 Del. C. 523"), t, "html")
+
+
+def test_real_709c_heading_is_a_not_yet_effective_mark():
+    from src.states import delaware
+    heading = [l for l in text(T19C7).splitlines() if l.startswith("§ 709C.")][0]
+    assert delaware._HEAD_EFFECTIVE.search(heading).groups() == ("Sep", "26", "2027")
+
+
+def test_slice_identity_refuses_a_not_yet_effective_section():
+    from src.states import delaware
+    t = "TITLE 19\nLabor\n\n§ 709C. Pay.  [Effective Jan. 1, 2099]\n(a) text\n"
+    sec = delaware._SECTIONS.fullmatch("19 Del. C. 709C")
+    with pytest.raises(ValueError, match="not in force"):
+        states.check_identity(seed("19 Del. C. 709C"), t, "html")
+    # and the date comparison itself takes today as a parameter, so no clock change can flip it
+    import datetime
+    src = seed("19 Del. C. 709C")
+    with pytest.raises(ValueError, match="not in force until 2027-09-26"):
+        delaware._check_sections(src, "TITLE 19\nLabor\n\n§ 709C. Pay.  [Effective Sept. 26, 2027]\n(a) x\n", "html", sec,
+                                 today=datetime.date(2026, 11, 13))
+    assert delaware._check_sections(src, "TITLE 19\nLabor\n\n§ 709C. Pay.  [Effective Sept. 26, 2027]\n(a) x\n", "html", sec,
+                                    today=datetime.date(2027, 10, 1))
+
+
+def test_slice_notes_name_the_range():
+    n = states.hook("delaware", "notes")(seed("19 Del. C. 705", slice={"section_start": "705", "section_end_before": "706"}),
+                                         "html", sliced(T19C7, "705", "706"))
+    assert "section 705" in n and "before the heading of section 706" in n
