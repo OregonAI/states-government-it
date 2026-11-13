@@ -1,6 +1,7 @@
 """Seam: src.authority_refs, the review pass. Each case is text copied verbatim from a committed document
 (the file is named beside it; test_every_sample_is_in_its_document keeps that true) and the resolution the
 documents themselves support. Written before the code that makes them pass."""
+import os
 from pathlib import Path
 
 import pytest
@@ -8,6 +9,14 @@ import pytest
 from src import authority_refs as ar
 
 ROOT = Path(__file__).resolve().parent.parent
+
+# NOT PART OF THE GATE (owner decision, 2026-11-13: the authority-reference pass is not gated). Every case here
+# resolves a citation against the seed lists and documents AS COMMITTED, so seeding a cited instrument, or
+# rewording a left_out record, changes the right answer and fails the case. Run them when working on the tool:
+#   AUTHORITY_REFS_LIVE=1 python3 -m pytest tests/test_authority_refs_review.py -q
+# and expect to update the samples whose instruments have since been seeded.
+pytestmark = pytest.mark.skipif(os.environ.get("AUTHORITY_REFS_LIVE") != "1",
+                                reason="resolves against the live seed lists; set AUTHORITY_REFS_LIVE=1 to run")
 
 # (state, verbatim text, document, expected [(section token, status)])
 RESOLVED = [

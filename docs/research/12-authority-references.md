@@ -774,7 +774,7 @@ The other items under "What the owner must decide" are still open. Nothing in th
 ```
 python3 src/authority_refs.py --table      # the per-state table
 python3 src/authority_refs.py --check      # the committed JSON is what the documents give
-python3 -m pytest tests/test_authority_refs.py tests/test_authority_refs_review.py -q
+AUTHORITY_REFS_LIVE=1 python3 -m pytest tests/test_authority_refs.py tests/test_authority_refs_review.py -q   # the review cases resolve against the live seed lists and are skipped without the variable
 ```
 
 The candidate lists were built from the JSON (`not_held`, `stub` and `left_out` items, each with its citing documents and verbatim quotes) and, where the tool does not read the form, from a search of the documents. The class of each was judged from the citing line alone and is UNVERIFIED.
