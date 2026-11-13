@@ -1,0 +1,3 @@
+type: Verified
+
+Louisiana: the 2026-11-13 owner scope decision (section slices whose own focus is IT governance) was applied to the citation pass's candidates. Each was read in the Legislature's section pages (R.S. 39:1594, 39:1595, 39:1600.2, 39:1556, 36:3, 39:2) and in the Administrative Code's Title 34 Part VII; none is about IT itself, so none is seeded, and the reasons are recorded in the seed list's left_out. Executive Order MJF 96-50 is not seeded because Executive Order MJF 01-14 (Louisiana Register, April 2001) made it inapplicable to contracts entered into after March 15, 2001; the order's own text was not read. No documents added.
