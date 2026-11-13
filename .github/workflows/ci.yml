@@ -95,6 +95,11 @@ jobs:
       # a cell that passes in _meta/eval/baseline.json and no longer does. It does not fail on a low pass rate.
       # The hybrid leg needs the embeddings and torch, which CI does not have; run it with --report.
       - run: python3 src/eval_questions.py --check
+      # _meta/eval/authority-refs.json: the citations each document makes to its own state's statutes, rules and
+      # executive orders, resolved against the seed list (src/authority_refs.py). Offline, reads only the committed
+      # documents and seed files, about 7 seconds. It fails when a document or seed file changed and the JSON was
+      # not rebuilt (scripts/regen.sh does it).
+      - run: python3 src/authority_refs.py --check
       # Every committed snapshot .txt and document is re-derived offline from its raw
       # snapshot (src/ingest.py --check). The PDFs go through pdftotext, a system binary.
       #
