@@ -149,3 +149,40 @@ def test_vita_page_identity_refuses_a_page_with_another_title():
 def test_effective_date_header_date_is_kept_when_the_table_row_prints_two_dates():
     # GOV 102-02 prints 'Effective Date: June 01, 2016' in its running header and 'July 24, 2009 June 01, 2016' in the table
     assert _eff("gov102-publication-designation.txt") == "2016-06-01"
+
+
+SEC_203_2_5 = (FIX / "vacode-section-2.2-203.2.5.html").read_bytes()
+SEC_225_REPEALED = (FIX / "vacode-section-2.2-225-repealed.html").read_bytes()
+SEC_2403_REPEALED = (FIX / "vacode-section-2.2-2403-repealed.html").read_bytes()
+
+
+def test_section_with_a_colon_number_reads_and_passes_its_identity_check():
+    t = text(SEC_203_2_5)
+    assert t.splitlines()[0].startswith("§ 2.2-203.2:5. Additional duties of the Secretary; technology programs")
+    assert "Review and approve the Commonwealth strategic plan for information technology" in t
+    assert t.splitlines()[-1] == "2020, c. 738."
+    states.check_identity({"id": "z", "doc_type": "statute", "jurisdiction": "virginia",
+                           "citation": "Va. Code § 2.2-203.2:5"}, t, "html")
+
+
+def test_a_repealed_range_page_is_refused_by_the_identity_check():
+    t = text(SEC_225_REPEALED)
+    assert t.startswith("§§ 2.2-225, 2.2-225.1. Repealed.")
+    with pytest.raises(ValueError):
+        states.check_identity({"id": "z", "doc_type": "statute", "jurisdiction": "virginia",
+                               "citation": "Va. Code § 2.2-225"}, t, "html")
+
+
+def test_a_single_repealed_section_page_is_refused_by_the_identity_check():
+    t = text(SEC_2403_REPEALED)
+    assert t.startswith("§ 2.2-2403. Repealed.")
+    with pytest.raises(ValueError, match="repealed"):
+        states.check_identity({"id": "z", "doc_type": "statute", "jurisdiction": "virginia",
+                               "citation": "Va. Code § 2.2-2403"}, t, "html")
+
+
+def test_a_repealed_range_page_is_refused_even_when_the_citation_is_its_first_section():
+    t = "§§ 2.2-2025 through 2.2-2030. Repealed.\nRepealed by Acts 2020, c. 423, cl. 2.\n"
+    with pytest.raises(ValueError, match="repealed"):
+        states.check_identity({"id": "z", "doc_type": "statute", "jurisdiction": "virginia",
+                               "citation": "Va. Code § 2.2-2025"}, t, "html")

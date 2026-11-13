@@ -81,6 +81,8 @@ def check_identity(src, text, what_is):
     if src["doc_type"] == "statute":
         ch = re.search(r"\bch\.\s*([\d.]+\w*)", src["citation"])
         sec = re.search(r"§\s*([\d.:\-]+\w*)", src["citation"])
+        if re.match(r"§§?\s.*\.\s*Repealed\.\s*$", first):
+            raise ValueError(f"{src['id']}: page is a repealed section, not in force ({first[:70]!r})")
         want = f"Chapter {ch.group(1)}." if ch else f"§ {sec.group(1)}." if sec else None
         if not want or not first.startswith(want + " "):
             raise ValueError(f"{src['id']}: page is not {src['citation']} (it opens {first[:60]!r})")
