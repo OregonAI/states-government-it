@@ -1,0 +1,28 @@
+NRS 281.195 Access by state agency to computers assigned or loaned to officers, employees and contractors: Requirements; exceptions; reports of inappropriate use; adoption of policies and procedures for responding to such reports.
+1. Except as otherwise provided in subsection 3, a state agency that accesses or causes to be accessed a computer of the state agency that has been assigned or loaned by the state agency to an officer, employee or contractor for the officer’s, employee’s or contractor’s exclusive or routine use in carrying out the duties of the officer’s, employee’s or contractor’s position shall notify the officer, employee or contractor of such access.
+2. The notice of access required pursuant to subsection 1 must be provided in a uniform and understandable format. The notice may be provided before or after such access occurs, but not more than 48 hours before or 48 hours after such access occurs.
+3. The head of a state agency, any state officer to whom the head of the state agency reports or the appointee or designee of either may authorize the access of a computer of the state agency without providing the notice of access otherwise required by subsections 1 and 2:
+(a) If the access occurs during the course of:
+(1) An internal investigation which is conducted within the state agency by the personnel of the state agency as authorized by law and any information concerning such access is kept in a file maintained by the state agency pertaining to the investigation; or
+(2) An investigation which is conducted by a state or federal law enforcement agency.
+(b) Except as otherwise provided in subsection 5, if the access occurs in the course of regular or routine maintenance conducted by an employee of the state agency whose duties include the regular or routine maintenance of the computers of the state agency and the state agency has adopted by regulation and implemented the procedure set forth in subsection 4.
+(c) If a state agency has adopted by regulation the procedure set forth in subsection 4 and the access occurs after recording the information required pursuant to subsection 4.
+4. A state agency may adopt by regulation a procedure to record access to computers of the state agency in a log maintained by the state agency for that purpose. If a state agency adopts such a procedure, the procedure must include, without limitation, a requirement for the recording of the following information concerning the access in the log:
+(a) The date on which the access will occur and, if known, the time at which the access will occur on that date;
+(b) As determined by the officer, appointee or designee who authorizes the access, a reasonable explanation of the exigent circumstances or other relevant considerations which justify accessing the computer without the knowledge of the officer, employee or contractor to whom the agency has assigned or loaned the computer;
+(c) The name of each person who will be authorized or required to perform the access;
+(d) The name of each person who will be allowed to examine information stored on the computer or retrieved from the computer; and
+(e) The name of each person who will be authorized or required to archive, maintain, store, transfer, transmit or destroy information retrieved from the computer.
+The log described in this subsection, and any entries in that log, are confidential and not public books or records within the meaning of NRS 239.010, but must be disclosed upon the lawful order of a court of competent jurisdiction.
+5. If an employee discovers evidence of inappropriate use while accessing a computer to perform regular or routine maintenance:
+(a) The employee shall provide the details of the alleged inappropriate use to the officer, appointee or designee who authorized the access, and to any other appropriate personnel of the state agency; and
+(b) Information concerning the access must be recorded in the log maintained by the state agency.
+6. Each state agency that has adopted a policy for the use of the computers of the state agency shall adopt policies and procedures for responding to reports of the inappropriate use of those computers, including, without limitation, provisions relating to the transfer, transmission and destruction of information.
+7. As used in this section:
+(a) “Access” includes, without limitation, adding, copying, deleting, manipulating or observing the files or other information stored on a computer, whether such actions are carried out directly or remotely.
+(b) “Inappropriate use” means the use of a computer of a state agency in a manner that:
+(1) If the state agency is an agency of the Executive Branch of State Government, violates the written policy created by the agency pursuant to NRS 242.300.
+(2) If the state agency is an agency of the Legislative or Judicial Branch of State Government, violates the policy, if any, established by that agency for the use of the computers of the agency.
+(3) Violates any state or federal law.
+(c) “State agency” means an agency, bureau, board, commission, department, division or any other unit of the Executive, Legislative or Judicial Branches of State Government.
+(Added to NRS by 2005, 671)
