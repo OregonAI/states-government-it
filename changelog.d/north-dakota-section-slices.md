@@ -1,0 +1,3 @@
+type: Source-Updated
+
+North Dakota: N.D.C.C. section 23-12-19 (opt-out from the state health information exchange created under chapter 54-59) added as a section slice of the Legislative Council's chapter 23-12 PDF, under the owner decision of 2026-11-13 that a provision in law is in scope when its own focus is the governance of state IT; the other named candidate, section 6-09-43 (Bank of North Dakota loans to private health care entities), is declined and recorded in `left_out`. The state module cuts a `{section_start, section_end_before}` slice of a Century Code chapter PDF, drops the page footers the slice crosses, and its identity check requires the slice to open and close on the cited sections and refuses a repealed or expired one.
