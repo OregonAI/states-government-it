@@ -1,0 +1,3 @@
+type: Verified
+
+West Virginia, owner decisions of 2026-11-13 applied to the authority-reference candidates. No document added. W. Va. Code 5A-8-21, 5A-8-22 and 5A-8-24 were read in the official section pages and declined (personnel and personal-information exemptions from the public-records right of access, and a law protecting officials' home addresses that binds private persons: their own focus is not state IT governance); the left-out record says so. Executive Orders 6-06, 3-17 and 7-03 stay unseeded: the Secretary of State's Executive Journal serves an order only through a POST search form and the Executive Orders page is a 404, so no official bytes could be fetched; the record now states this measurement and that existence, text and force are unconfirmed.
