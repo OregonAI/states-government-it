@@ -71,6 +71,55 @@ def test_statute_identity_is_the_article_numeral_the_citation_names():
         ing.check_identity(src_for(), statute_text(ART5, "A5"), "json")
 
 
+# ---- statute sections outside the State Technology Law (a section slice) -------------------------------
+
+SEC170F = (FIX / "exc-section-170-f.json").read_bytes()
+SLICE170F = {"section_start": "170-f", "section_end_before": "170-g"}
+SEC_URL = "https://legislation.nysenate.gov/api/3/laws/EXC?full=true&fromLocation=170-F&toLocation=170-F"
+
+
+def test_section_slice_is_the_one_section_from_its_first_heading_without_the_next_section():
+    t = ing.to_text(SEC170F, "json", "statute", NY, SLICE170F)
+    lines = t.splitlines()
+    assert lines[0] == "  § 170-f. Website accessibility; contractors and vendors. Each"
+    assert "Web Content Accessibility" in t and "\\n" not in t
+    assert "170-g" not in t and "Collection of demographic" not in t        # the next section is not in it
+    assert t.endswith("successor standards.\n")                              # the section's last words, no furniture
+    assert all(l == l.rstrip() for l in lines)
+
+
+def test_section_slice_refuses_a_tree_that_is_not_the_section_it_names():
+    with pytest.raises(ValueError, match="not the section"):
+        ing.to_text(SEC170F, "json", "statute", NY, {"section_start": "170-g", "section_end_before": "170-h"})
+    with pytest.raises(ValueError, match="not the section"):
+        ing.to_text(SEC170F.replace(b'"lawId" : "EXC"', b'"lawId" : "XYZ"'), "json", "statute", NY, SLICE170F)
+    with pytest.raises(ValueError, match="not a law tree"):
+        ing.to_text(b'{"success": false}', "json", "statute", NY, SLICE170F)
+
+
+def test_section_slice_refuses_a_section_the_api_marks_repealed():
+    with pytest.raises(ValueError, match="repealed"):
+        ing.to_text(SEC170F.replace(b'"repealed" : false', b'"repealed" : true'), "json", "statute", NY, SLICE170F)
+
+
+def test_section_identity_is_the_law_and_section_the_citation_names():
+    src = src_for(citation="Executive Law section 170-f", url=SEC_URL, slice=SLICE170F)
+    text = ing.to_text(SEC170F, "json", "statute", NY, SLICE170F)
+    ing.check_identity(src, text, "json")
+    with pytest.raises(ValueError, match="not the cited instrument"):
+        ing.check_identity({**src, "citation": "Executive Law section 170-g"}, text, "json")
+    with pytest.raises(ValueError, match="not the cited instrument"):
+        ing.check_identity({**src, "citation": "State Finance Law section 170-f"}, text, "json")
+    with pytest.raises(ValueError, match="not the cited instrument"):
+        ing.check_identity({**src, "url": SEC_URL.replace("laws/EXC", "laws/STF")}, text, "json")
+
+
+def test_section_notes_say_one_section_was_cut_from_the_api_tree():
+    s = ing.conversion_notes(src_for(slice=SLICE170F, citation="Executive Law section 170-f", url=SEC_URL),
+                             "json", "x")
+    assert "section" in s and "key" in s
+
+
 # ---- rules: ITS's own page of a NYCRR part ------------------------------------------------
 
 def test_rule_text_is_the_part_without_site_navigation_or_footer():

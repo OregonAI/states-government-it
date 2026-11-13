@@ -18,6 +18,9 @@ from src.ingest_common import _clean_line, _decode, _squash
 API_HOST = "legislation.nysenate.gov"
 LAW = "STT"                    # the State Technology Law: the only law this state holds; the seed slice names the article
 KEY_FILE = "~/.config/oregonai/ny_openleg_key"
+# Laws outside the State Technology Law from which one section is seeded (owner decision 2026-11-13: a provision whose
+# own focus is the governance of state IT); lawId -> the name the citation uses
+SECTION_LAWS = {"EXC": "Executive Law"}
 ROMAN = {1: "I", 2: "II", 3: "III", 4: "IV", 5: "V", 6: "VI", 7: "VII", 8: "VIII", 9: "IX", 10: "X"}
 
 
@@ -37,6 +40,8 @@ def law_tree_to_text(raw: bytes, slice_: dict | None) -> str:
     &toLocation=<loc>`): the article's own text, then each section's text in source order. The API stores a
     line break as the two characters backslash and n; they become line breaks. Nothing else is changed."""
     slice_ = slice_ or {}
+    if "section_start" in slice_:
+        return section_to_text(raw, slice_)
     try:
         tree = json.loads(raw)
         root = tree["result"]["documents"]
@@ -56,6 +61,32 @@ def law_tree_to_text(raw: bytes, slice_: dict | None) -> str:
     if len(blocks) < 2:
         raise ValueError("not a law tree: the article has no section text")
     return "\n\n".join(blocks) + "\n"
+
+
+def section_to_text(raw: bytes, slice_: dict) -> str:
+    """One section of a consolidated law from the API's law tree (`laws/<law>?full=true&fromLocation=<section>
+    &toLocation=<section>`): the section's own text, and nothing before or after it. The slice names the section
+    (`section_start`) and the section that follows it (`section_end_before`, which is not in the text). The API stores
+    a line break as the two characters backslash and n; they become line breaks."""
+    try:
+        tree = json.loads(raw)
+        root = tree["result"]["documents"]
+        law = tree["result"]["info"]["lawId"]
+        text = root["text"]
+    except (ValueError, KeyError, TypeError):
+        raise ValueError("not a law tree: the API did not answer with the section's document tree") from None
+    want = slice_["section_start"]
+    if law not in SECTION_LAWS or root.get("docType") != "SECTION" or \
+            str(root.get("locationId", "")).upper() != want.upper() or (root.get("documents") or {}).get("items"):
+        raise ValueError(f"not the section the seed entry cites ({want}): the API answered {law} "
+                         f"{root.get('docType')} {root.get('locationId')}")
+    if root.get("repealed"):
+        raise ValueError(f"section {want} is marked repealed by the API: not in force")
+    lines = [l.rstrip() for l in text.replace("\\n", "\n").split("\n")]
+    out = "\n".join(lines).strip("\n")
+    if not out.strip():
+        raise ValueError("not a law tree: the section has no text")
+    return out + "\n"
 
 
 def its_page_to_text(raw: bytes) -> str:
@@ -90,6 +121,17 @@ def to_text(raw, fmt, doc_type, slice_, host):
 
 def check_identity(src, text, what_is):
     kind = src["doc_type"]
+    if kind == "statute" and (src.get("slice") or {}).get("section_start"):
+        sec = src["slice"]["section_start"]
+        first = next((l.strip() for l in text.splitlines() if l.strip()), "")
+        law = re.search(r"/laws/([A-Z]+)\b", src.get("url") or "")
+        name = SECTION_LAWS.get(law.group(1)) if law else None
+        cited = re.fullmatch(rf"(.+?) section {re.escape(sec)}", src["citation"], flags=re.I)
+        opens = re.match(rf"\*?\s*§ {re.escape(sec)}\.", first, flags=re.I)
+        if not (name and cited and cited.group(1) == name and opens):
+            raise ValueError(f"{src['id']}: {what_is} is not the cited instrument: {src['citation']!r} is not "
+                             f"the law and section the text opens with ({first[:60]!r})")
+        return True
     if kind == "statute":
         m = re.search(r"\bArticle\s+(\d+)\b", src["citation"])
         first = next((l.strip() for l in text.splitlines() if l.strip()), "")
@@ -130,6 +172,13 @@ def source_version(text, doc_type, fmt):
 
 
 def notes(src, fmt, text):
+    if src["doc_type"] == "statute" and (src.get("slice") or {}).get("section_start"):
+        return ("Text from the Senate's Open Legislation API (legislation.nysenate.gov/api/3/laws), one section of a "
+                "consolidated law of a chapter that is not itself about information technology, seeded as a section "
+                "because the section's own subject is the governance of state IT; exactly as the API returns it, "
+                "with the API's line break (the two characters backslash and n) written as a line break and trailing "
+                "spaces removed. The API needs a key; the key is added to the request only and is not in the "
+                "snapshot or this document.")
     if src["doc_type"] == "statute":
         return ("Text from the Senate's Open Legislation API (legislation.nysenate.gov/api/3/laws), one article "
                 "of the State Technology Law per document: the article's own text, then each section's text in "
