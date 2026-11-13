@@ -36,7 +36,7 @@ def source_version(text, doc_type, fmt):
 def extra_notes(src, fmt, text, eff, version):
     """A seed entry's `currency_note` (what is and is not known about whether the text is current) is printed in the curator notes."""
     note = (src.get("currency_note") or "").strip()
-    slice_note = notes_for_slice(src) if src.get("slice") and src["doc_type"] == "statute" else ""
+    slice_note = notes_for_slice(src, text) if src.get("slice") and src["doc_type"] == "statute" else ""
     return f"{slice_note} {note}" if note and slice_note else (f" {note}" if note else slice_note)
 
 
@@ -152,12 +152,13 @@ def check_identity(src, text, what_is):
     return True
 
 
-def notes_for_slice(src) -> str:
+def notes_for_slice(src, text: str) -> str:
     sl = src.get("slice") or {}
     return (f" The source is the Legislature's file for the whole of Title {src['citation'].split()[0]} (the PDF is the "
             f"snapshot); this document is the sections from the heading of section {sl.get('section_start')} to the "
             f"line before the heading of section {sl.get('section_end_before')}, as the PDF prints them: section "
             f"headings, text, the amendment notes under each section, and the page footer where a page break falls "
-            f"inside a section. Where a section has more than one version, the Legislature prints a `See the "
-            f"following versions` heading and each version with its own act and effective date; both are kept "
-            f"as printed.")
+            f"inside a section."
+            + (" Where a section has more than one version, the Legislature prints a `See the following versions` "
+               "heading and each version with its own act and effective date; both are kept as printed."
+               if "See the following versions" in text else ""))

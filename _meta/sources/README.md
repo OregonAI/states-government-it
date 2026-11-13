@@ -34,4 +34,17 @@ key reference the single manifest carried before it was split.
 #                           # prints, which the ingester requires before it writes anything. Used
 #                           # when the printed title differs from `title` and the policy number is
 #                           # not printed. Without it: the citation's policy number, else the title.
+#     slice: {}             # optional: the document is part of the file at `url` (several entries may
+#                           # share one url when their slices differ). Three shapes, by state:
+#                           #   colorado:   {article: "73"} or {article: "33.5", part: "19"}
+#                           #   california: {code: GOV, path: "3.3.1.8"} or {code: GOV, section: "7405"}
+#                           #   oklahoma:   {section_start: "34.43", section_end_before: "34.44"}
 ```
+
+**Oklahoma statute slice.** The Legislature serves each title as one PDF (`os62.pdf`, `os74.pdf`), which is the snapshot;
+`section_start` is the printed number of the first section (the heading line `§62-34.43. ...`) and `section_end_before` the
+number of the section whose heading ends the slice (that section is not in it). Both are strings, and the ranges of two
+entries of one title must differ. The state module cuts the text from the title's body headings (contents entries, with their
+dot leaders, are skipped), requires both headings to be there, requires the slice to open and close on the sections the
+`citation` names, and refuses a slice that prints an amendment note whose effective date is after the day it is run (the
+Legislature prints a section once, as it will read, when an act takes effect later: that is not the law in force).
