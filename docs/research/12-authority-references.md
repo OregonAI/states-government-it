@@ -2,6 +2,8 @@
 
 Status: 2026-11-12, branch `research/authority-references`. **Every instrument named below as missing is UNVERIFIED**: this pass fetched nothing, read no cited instrument, and changed no document, snapshot or seed file. Each line is a candidate for the owner to approve or decline before any fetch. Generated figures come from `_meta/eval/authority-refs.json` (`python3 src/authority_refs.py`; `--table` prints the per-state table).
 
+**Update, same day, after rebasing onto `main`:** the figures and lists in this note were computed at 2,259 documents. PR #65 then turned seven Oklahoma statute stubs into documents (2,266 documents), and `_meta/eval/authority-refs.json` was regenerated for that. The note was not recomputed. The only entry it changes is Oklahoma's "new evidence" item: 62 O.S. 34.11.2 to 34.31.2, 35.1 to 35.8 and 74 O.S. 3113.1 are now held; 34.11.1, 34.32, 35.9 and 36 are still not held because the only official text is not in force until 2027-01-01.
+
 ## The idea and the method
 
 Policies and standards cite the rules and statutes that enable them, and rules cite statutes. Reading every document we hold for the instruments it cites, and comparing them with what we hold, finds missing material without any search. Before this pass `_meta/graph.json` had 2,259 nodes and no edges: nobody had read the documents for what they cite.

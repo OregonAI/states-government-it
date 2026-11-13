@@ -9,11 +9,11 @@
  },
  "totals": {
   "states": 42,
-  "documents": 2259,
+  "documents": 2266,
   "statute": {
-   "held": 4041,
-   "stub": 413,
-   "left_out": 531,
+   "held": 4313,
+   "stub": 6,
+   "left_out": 666,
    "not_held": 3048
   },
   "rule": {
@@ -30,8 +30,8 @@
   },
   "not_held_instruments": 1118,
   "not_held_unverified_instruments": 6,
-  "stub_instruments": 22,
-  "left_out_instruments": 146
+  "stub_instruments": 16,
+  "left_out_instruments": 148
  },
  "states": {
   "alaska": {
@@ -31602,7 +31602,7 @@
    "not_held_unverified": []
   },
   "oklahoma": {
-   "documents": 143,
+   "documents": 150,
    "documents_citing_state_instruments": 141,
    "forms": [
     {
@@ -31623,9 +31623,9 @@
    ],
    "citations": {
     "statute": {
-     "held": 0,
-     "stub": 407,
-     "left_out": 9,
+     "held": 272,
+     "stub": 0,
+     "left_out": 144,
      "not_held": 33
     },
     "rule": {
@@ -31643,16 +31643,16 @@
    },
    "distinct_instruments": {
     "cited": 39,
-    "held": 1,
-    "stub": 11,
-    "left_out": 6,
+    "held": 9,
+    "stub": 1,
+    "left_out": 8,
     "not_held": 21
    },
    "document_instrument_pairs": {
     "statute": {
-     "held": 0,
-     "stub": 393,
-     "left_out": 7,
+     "held": 264,
+     "stub": 0,
+     "left_out": 136,
      "not_held": 30
     },
     "rule": {
@@ -31681,38 +31681,38 @@
    "history_renumbered_citations": {},
    "rolled_up_chapter_citations": 0,
    "extraction": {
-    "probable_citations": 358,
+    "probable_citations": 411,
     "read": 328,
-    "missed": 30,
-    "share_read": 0.916,
+    "missed": 83,
+    "share_read": 0.798,
     "unreliable_kinds": [],
     "notes": "",
     "missed_examples": [
      {
-      "document": "ok-oac-260-15",
-      "text": "provision of Title 62, Section 34.28 and Section 508 of the Rehabilitation Act (29 U.S.C. 794d),"
+      "document": "ok-62-os-34-11-2-to-34-31-2",
+      "text": "prominently featured on the portal system referenced in Section 34.24 of this title and if"
      },
      {
-      "document": "ok-memo-it-reporting-requirements",
-      "text": "enhancement Plans for enhancement of state regents           statewide telecommunications\n                  telecommunications network.                      network. (§34.23)"
+      "document": "ok-62-os-34-11-2-to-34-31-2",
+      "text": "prominently featured on the portal system referenced in Section 34.24 of this title."
      },
      {
-      "document": "ok-memo-it-reporting-requirements",
-      "text": "each member of the state system of\n                                                                   entities and state agencies. (§34.23)"
+      "document": "ok-62-os-34-11-2-to-34-31-2",
+      "text": "34.24.1 of this title. Each exemption shall be renewed on an annual basis."
      },
      {
-      "document": "ok-memo-it-reporting-requirements",
-      "text": "6                 enforcement-data communications\n      enhancement                                                  network. (§34.23)"
+      "document": "ok-62-os-34-11-2-to-34-31-2",
+      "text": "state agency pursuant to Section 3113.1 of Title 74 of the Oklahoma Statutes or any other"
      },
      {
-      "document": "ok-memo-it-reporting-requirements",
-      "text": "the public common school system of the        entities and state agencies. (§34.23)"
+      "document": "ok-62-os-34-11-2-to-34-31-2",
+      "text": "into any agreement as required in this subsection or as required in Section 35.4 of this title,"
      }
     ]
    },
    "seed": {
-    "held_instruments_with_a_citable_form": 2,
-    "stub_instruments_with_a_citable_form": 10,
+    "held_instruments_with_a_citable_form": 9,
+    "stub_instruments_with_a_citable_form": 3,
     "watch_only_entries": 9,
     "index_stubs": [],
     "uncitable": [],
@@ -32163,6 +32163,11 @@
        "authority_context": false,
        "text": "align with state policies, security standards and strategic priorities. See 74 O.S. 85.5, 62"
       }
+     ],
+     "held_in_same_chapter": [
+      "ok-62-os-34-11-2-to-34-31-2",
+      "ok-62-os-34-202-to-34-210",
+      "ok-62-os-34-43"
      ]
     },
     {
@@ -32330,178 +32335,38 @@
    ],
    "stub": [
     {
-     "instrument": "62 O.S. 35.8",
-     "kind": "statute",
-     "code": "OS",
-     "chapter": "62/35",
+     "instrument": "OAC 260:115",
+     "kind": "rule",
+     "code": "OAC",
+     "chapter": "260:115",
      "citing_documents": [
-      "ok-memo-it-reporting-requirements",
-      "ok-pol-information-security-ppg",
-      "ok-pol-it-risk-management",
-      "ok-std-acceptable-use",
-      "ok-std-accessibility-of-information-and-communication-technology",
-      "ok-std-account-management",
-      "ok-std-administrator-account",
-      "ok-std-agency-electronic-information-request",
-      "ok-std-agile-software-development",
-      "ok-std-annual-review-of-it-standards",
-      "ok-std-api-management",
-      "ok-std-application-authentication",
-      "ok-std-application-delivery-controller",
-      "ok-std-application-security",
-      "ok-std-application-software-support",
-      "ok-std-automated-local-profile-lifecycle-management",
-      "ok-std-automated-testing",
-      "ok-std-azure-virtual-desktop",
-      "ok-std-b2c-identity",
-      "ok-std-batch-file-transfer",
-      "ok-std-board-member-accounts",
-      "ok-std-branch-policy",
-      "ok-std-bring-your-own-device-cell-phone",
-      "ok-std-business-continuity-and-disaster-recovery",
-      "ok-std-caching",
-      "ok-std-change-management",
-      "ok-std-chromebook-exception",
-      "ok-std-cloud-tagging-labeling",
-      "ok-std-code-escrow",
-      "ok-std-collaborative-computing-devices-and-applications",
-      "ok-std-confidential-technology",
-      "ok-std-configuration-management",
-      "ok-std-continuous-deployment",
-      "ok-std-contractor-requirements",
-      "ok-std-cross-channel-communications-marketing-solutions",
-      "ok-std-custom-application-development-for-agile-methodology",
-      "ok-std-custom-application-development-for-waterfall-methodology",
-      "ok-std-data-encryption",
-      "ok-std-data-retention",
-      "ok-std-data-security",
-      "ok-std-data-storage",
-      "ok-std-defects-tracking",
-      "ok-std-desktop-shortcut-icon",
-      "ok-std-development-continuous-integration-and-continuous-delivery",
-      "ok-std-devops",
-      "ok-std-digital-forensics",
-      "ok-std-digital-public-facing-identity",
-      "ok-std-dod-information-network",
-      "ok-std-dsr",
-      "ok-std-early-and-ongoing-engagement-in-major-it-projects",
-      "ok-std-electronic-signature",
-      "ok-std-email-acceptable-use",
-      "ok-std-email-protection",
-      "ok-std-endpoint-protection-and-connectivity",
-      "ok-std-exchanges-of-information-and-software",
-      "ok-std-firewall-security",
-      "ok-std-geographic-information-system",
-      "ok-std-giant-it-project-management",
-      "ok-std-graphic-design-software",
-      "ok-std-hardware-support",
-      "ok-std-help-desk-management",
-      "ok-std-hr-investigation",
-      "ok-std-human-capital-management",
-      "ok-std-hypervisor-technology",
-      "ok-std-identity-management",
-      "ok-std-international-network-traffic",
-      "ok-std-international-travel",
-      "ok-std-internet-protocol-address-allocation",
-      "ok-std-it-operations-command-center",
-      "ok-std-it-project-management",
-      "ok-std-kiosk-workstation",
-      "ok-std-least-functionality",
-      "ok-std-lincoln-data-center-and-whitespace",
-      "ok-std-linux-server",
-      "ok-std-mobile-device-platform",
-      "ok-std-mobile-services",
-      "ok-std-naming-convention",
-      "ok-std-network-acceptable-use",
-      "ok-std-network-routing-and-switching",
-      "ok-std-non-production-server-shut-down-schedule",
-      "ok-std-offshore-data-storage",
-      "ok-std-oklahoma-ui-ux",
-      "ok-std-password-requirements",
-      "ok-std-payment-processing",
-      "ok-std-peer-code-review",
-      "ok-std-permitted-technology",
-      "ok-std-personal-device",
-      "ok-std-physical-security",
-      "ok-std-printer-management",
-      "ok-std-problem-management",
-      "ok-std-productivity-software-support",
-      "ok-std-prohibited-technology",
-      "ok-std-records-management-imaging",
-      "ok-std-reference-architecture",
-      "ok-std-reporting-data-analytics-and-business-intelligence",
-      "ok-std-reporting-lost-or-stolen-digital-assets",
-      "ok-std-robotic-process-automation",
-      "ok-std-salesforce-development-and-administration",
-      "ok-std-security-awareness-training",
-      "ok-std-security-incident-response",
-      "ok-std-security-services",
-      "ok-std-server-backup",
-      "ok-std-service-account",
-      "ok-std-servicenow-work-ticket-update-schedule",
-      "ok-std-sharepoint",
-      "ok-std-simulated-phishing-campaign",
-      "ok-std-site-to-site-vpn-encryption",
-      "ok-std-software-architecture",
-      "ok-std-software-licensing",
-      "ok-std-ssl-inspection",
-      "ok-std-state-strategy-for-business-analytics",
-      "ok-std-statewide-hosted-contact-center",
-      "ok-std-statewide-network-labeling",
-      "ok-std-supply-chain-security",
-      "ok-std-system-acceptable-use",
-      "ok-std-tagging-governance",
-      "ok-std-ticket-management",
-      "ok-std-unused-firewall-rule",
-      "ok-std-use-of-ai-agents-and-agentic-systems",
-      "ok-std-use-of-ai-in-oklahoma-state-government",
-      "ok-std-use-of-system-utilities",
-      "ok-std-version-control-and-hosting",
-      "ok-std-vlan-extension",
-      "ok-std-vulnerability-management",
-      "ok-std-web-content-management-system",
-      "ok-std-website-development-lifecycle",
-      "ok-std-wifi",
-      "ok-std-workday-security",
-      "ok-std-workstation"
+      "ok-std-use-of-ai-in-oklahoma-state-government"
      ],
      "citing_issuing_bodies": [
       "Office of Management and Enterprise Services, Information Services"
      ],
-     "citations": 132,
-     "authority_context_documents": 128,
-     "authority_context_citations": 130,
+     "citations": 1,
+     "authority_context_documents": 0,
+     "authority_context_citations": 0,
      "statute_cross_references": 0,
-     "passing_citations": 2,
+     "passing_citations": 1,
      "sections_cited": [
-      "62/35.1-35.9",
-      "62/35.3",
-      "62/35.3.3",
-      "62/35.5",
-      "62/35.8"
+      "260:115-1-1"
      ],
      "quotes": [
       {
-       "document": "ok-memo-it-reporting-requirements",
-       "authority_context": true,
-       "text": "ATTACHMENT B: Statutory definition of IT assets at 62 O.S. §35.3:"
-      },
-      {
-       "document": "ok-memo-it-reporting-requirements",
-       "authority_context": true,
-       "text": "Statutory definition of IT position at 62 O.S. §35.3.3:"
-      },
-      {
-       "document": "ok-pol-information-security-ppg",
-       "authority_context": true,
-       "text": "Chief Information Officer in accordance with Title 62 O.S. §§ 34.11.1 and 34.12 and Title 62 O.S."
+       "document": "ok-std-use-of-ai-in-oklahoma-state-government",
+       "authority_context": false,
+       "text": "O.S.34.1 et seq., and OAC 260:115-1-1"
       }
      ],
      "seed_ids": [
-      "ok-62-os-35"
+      "ok-oac-260-115"
      ],
-     "reason": "Text of record: the Oklahoma State Courts Network's (OSCN) 'Oklahoma Statutes Citationized' serves one section per page; all 66 section pages requested in one run through the Fetcher, and a repeat request a few minutes later, answered HTTP 201 and 2,309 bytes, a Cloudflare Turnstile page ('OSCN Turnstile', a form with a challenge widget, no statute text); that is a challenge and was not solved, retried against or bypassed. The one page that answered (CiteID 463648, section 35.1, HTTP 200, 15,232 bytes) was an early request. The Legislature's own copy, one PDF per title (https://www.oklegislature.gov/OK_Statutes/CompleteTitles/os62.pdf: 2,798,279 bytes, 687 pages; os74.pdf: 5,271,337 bytes, 1,289 pages), was fetched and its text read: it is a whole title, dated December 2025 (the Legislature's index page says 'The Oklahoma Constitution and Oklahoma Statutes were last updated on November 18th, 2025'), and the shared code cannot take a range of it: src/check_seed_list.py accepts a `slice` only in the Colorado (article, part) and California shapes, so an Oklahoma title-PDF slice such as {section_start, section_end_before} fails the seed check. That is the one shared blocker: with such a shape the whole title file would be the snapshot (so the drift hash matches), the state module would cut the range in its to_text hook as Colorado does, and the seed check already allows one url under different slices (docs/research/oklahoma-statutes.md). The Legislature's December 2025 PDF predates the 2026 session amendments, so a slice would still need a currency check."
-    },
+     "reason": "OMES's PDF of the chapter (Title260Chapter115.pdf, PDF modification date 30 Aug 2022) is out of date: its latest amendment note is 38 Ok Reg 1870, eff 9-11-21, while OMES's own later copy, CentralPurchasingAdminRules.pdf ('Last revised April 11, 2024', which calls itself an unofficial copy), shows 260:115-1-1 and 260:115-7-3 amended at 39 Ok Reg 1163, eff 9-11-22, and the two texts differ in substance (the supplier-notification paragraph, the bid-bond subsections and the verification of registration with the Secretary of State). The official rules portal https://rules.ok.gov/ answered the Fetcher HTTP 403 on '/' and '/code', so the current text of record cannot be read; the April 2024 copy is unofficial and itself dated. Whether to take it is an OWNER DECISION."
+    }
+   ],
+   "left_out": [
     {
      "instrument": "62 O.S. 34.11.1",
      "kind": "statute",
@@ -32665,328 +32530,8 @@
        "text": "Office of Management and Enterprise Services (“OMES”) that is set forth in 62 O.S. §§34.11.1"
       }
      ],
-     "seed_ids": [
-      "ok-62-os-34-11-1-to-34-33"
-     ],
-     "reason": "Text of record: the Oklahoma State Courts Network's (OSCN) 'Oklahoma Statutes Citationized' serves one section per page; all 66 section pages requested in one run through the Fetcher, and a repeat request a few minutes later, answered HTTP 201 and 2,309 bytes, a Cloudflare Turnstile page ('OSCN Turnstile', a form with a challenge widget, no statute text); that is a challenge and was not solved, retried against or bypassed. The one page that answered (CiteID 463648, section 35.1, HTTP 200, 15,232 bytes) was an early request. The Legislature's own copy, one PDF per title (https://www.oklegislature.gov/OK_Statutes/CompleteTitles/os62.pdf: 2,798,279 bytes, 687 pages; os74.pdf: 5,271,337 bytes, 1,289 pages), was fetched and its text read: it is a whole title, dated December 2025 (the Legislature's index page says 'The Oklahoma Constitution and Oklahoma Statutes were last updated on November 18th, 2025'), and the shared code cannot take a range of it: src/check_seed_list.py accepts a `slice` only in the Colorado (article, part) and California shapes, so an Oklahoma title-PDF slice such as {section_start, section_end_before} fails the seed check. That is the one shared blocker: with such a shape the whole title file would be the snapshot (so the drift hash matches), the state module would cut the range in its to_text hook as Colorado does, and the seed check already allows one url under different slices (docs/research/oklahoma-statutes.md). The Legislature's December 2025 PDF predates the 2026 session amendments, so a slice would still need a currency check. The Legislature's PDF prints these as sections 34.11.1.1 to 34.33 of Title 62 in that order."
+     "reason": "- Statutes tab: a sentence naming 62 O.S. 34.11.1 through 34.33, 62 O.S. 35.1 through 35.9 and OAC Title 260 chapter 115; the first two are seeded as documents narrowed to the sections shown in force, the third is seeded; see the Statutes item below."
     },
-    {
-     "instrument": "62 O.S. 34.12",
-     "kind": "statute",
-     "code": "OS",
-     "chapter": "62/34",
-     "citing_documents": [
-      "ok-pol-information-security-ppg",
-      "ok-pol-isd-procurement",
-      "ok-std-acceptable-use",
-      "ok-std-accessibility-of-information-and-communication-technology",
-      "ok-std-account-management",
-      "ok-std-administrator-account",
-      "ok-std-agile-software-development",
-      "ok-std-annual-review-of-it-standards",
-      "ok-std-api-management",
-      "ok-std-application-authentication",
-      "ok-std-application-delivery-controller",
-      "ok-std-application-security",
-      "ok-std-application-software-support",
-      "ok-std-automated-local-profile-lifecycle-management",
-      "ok-std-automated-testing",
-      "ok-std-azure-virtual-desktop",
-      "ok-std-b2c-identity",
-      "ok-std-batch-file-transfer",
-      "ok-std-board-member-accounts",
-      "ok-std-branch-policy",
-      "ok-std-bring-your-own-device-cell-phone",
-      "ok-std-business-continuity-and-disaster-recovery",
-      "ok-std-caching",
-      "ok-std-change-management",
-      "ok-std-chromebook-exception",
-      "ok-std-cloud-tagging-labeling",
-      "ok-std-code-escrow",
-      "ok-std-collaborative-computing-devices-and-applications",
-      "ok-std-confidential-technology",
-      "ok-std-configuration-management",
-      "ok-std-continuous-deployment",
-      "ok-std-contractor-requirements",
-      "ok-std-cross-channel-communications-marketing-solutions",
-      "ok-std-custom-application-development-for-agile-methodology",
-      "ok-std-custom-application-development-for-waterfall-methodology",
-      "ok-std-data-encryption",
-      "ok-std-data-retention",
-      "ok-std-data-security",
-      "ok-std-data-storage",
-      "ok-std-defects-tracking",
-      "ok-std-desktop-shortcut-icon",
-      "ok-std-development-continuous-integration-and-continuous-delivery",
-      "ok-std-devops",
-      "ok-std-digital-forensics",
-      "ok-std-digital-public-facing-identity",
-      "ok-std-dod-information-network",
-      "ok-std-dsr",
-      "ok-std-early-and-ongoing-engagement-in-major-it-projects",
-      "ok-std-electronic-signature",
-      "ok-std-email-acceptable-use",
-      "ok-std-email-protection",
-      "ok-std-endpoint-protection-and-connectivity",
-      "ok-std-exchanges-of-information-and-software",
-      "ok-std-firewall-security",
-      "ok-std-geographic-information-system",
-      "ok-std-giant-it-project-management",
-      "ok-std-graphic-design-software",
-      "ok-std-hardware-support",
-      "ok-std-help-desk-management",
-      "ok-std-hr-investigation",
-      "ok-std-human-capital-management",
-      "ok-std-hypervisor-technology",
-      "ok-std-identity-management",
-      "ok-std-international-network-traffic",
-      "ok-std-international-travel",
-      "ok-std-internet-protocol-address-allocation",
-      "ok-std-it-operations-command-center",
-      "ok-std-it-project-management",
-      "ok-std-kiosk-workstation",
-      "ok-std-least-functionality",
-      "ok-std-lincoln-data-center-and-whitespace",
-      "ok-std-linux-server",
-      "ok-std-mobile-device-platform",
-      "ok-std-mobile-services",
-      "ok-std-naming-convention",
-      "ok-std-network-acceptable-use",
-      "ok-std-network-routing-and-switching",
-      "ok-std-non-production-server-shut-down-schedule",
-      "ok-std-offshore-data-storage",
-      "ok-std-oklahoma-ui-ux",
-      "ok-std-password-requirements",
-      "ok-std-payment-processing",
-      "ok-std-peer-code-review",
-      "ok-std-permitted-technology",
-      "ok-std-personal-device",
-      "ok-std-physical-security",
-      "ok-std-printer-management",
-      "ok-std-problem-management",
-      "ok-std-productivity-software-support",
-      "ok-std-prohibited-technology",
-      "ok-std-records-management-imaging",
-      "ok-std-reference-architecture",
-      "ok-std-reporting-data-analytics-and-business-intelligence",
-      "ok-std-reporting-lost-or-stolen-digital-assets",
-      "ok-std-robotic-process-automation",
-      "ok-std-salesforce-development-and-administration",
-      "ok-std-security-awareness-training",
-      "ok-std-security-incident-response",
-      "ok-std-security-services",
-      "ok-std-server-backup",
-      "ok-std-service-account",
-      "ok-std-servicenow-work-ticket-update-schedule",
-      "ok-std-sharepoint",
-      "ok-std-simulated-phishing-campaign",
-      "ok-std-site-to-site-vpn-encryption",
-      "ok-std-software-architecture",
-      "ok-std-software-licensing",
-      "ok-std-ssl-inspection",
-      "ok-std-state-strategy-for-business-analytics",
-      "ok-std-statewide-hosted-contact-center",
-      "ok-std-statewide-network-labeling",
-      "ok-std-supply-chain-security",
-      "ok-std-system-acceptable-use",
-      "ok-std-tagging-governance",
-      "ok-std-ticket-management",
-      "ok-std-unused-firewall-rule",
-      "ok-std-use-of-ai-agents-and-agentic-systems",
-      "ok-std-use-of-ai-in-oklahoma-state-government",
-      "ok-std-use-of-system-utilities",
-      "ok-std-version-control-and-hosting",
-      "ok-std-vlan-extension",
-      "ok-std-vulnerability-management",
-      "ok-std-web-content-management-system",
-      "ok-std-website-development-lifecycle",
-      "ok-std-wifi",
-      "ok-std-workday-security",
-      "ok-std-workstation"
-     ],
-     "citing_issuing_bodies": [
-      "Office of Management and Enterprise Services, Information Services"
-     ],
-     "citations": 132,
-     "authority_context_documents": 127,
-     "authority_context_citations": 132,
-     "statute_cross_references": 0,
-     "passing_citations": 0,
-     "sections_cited": [
-      "62/34.12"
-     ],
-     "quotes": [
-      {
-       "document": "ok-pol-information-security-ppg",
-       "authority_context": true,
-       "text": "Chief Information Officer in accordance with Title 62 O.S. §§ 34.11.1 and 34.12 and Title 62 O.S."
-      },
-      {
-       "document": "ok-pol-isd-procurement",
-       "authority_context": true,
-       "text": "Office of Management and Enterprise Services (“OMES”) that is set forth in 62 O.S. §§34.11.1"
-      },
-      {
-       "document": "ok-std-acceptable-use",
-       "authority_context": true,
-       "text": "This standard shall take effect upon publication and is made pursuant to Title 62 O.S. §§"
-      }
-     ],
-     "seed_ids": [
-      "ok-62-os-34-11-1-to-34-33"
-     ],
-     "reason": "Text of record: the Oklahoma State Courts Network's (OSCN) 'Oklahoma Statutes Citationized' serves one section per page; all 66 section pages requested in one run through the Fetcher, and a repeat request a few minutes later, answered HTTP 201 and 2,309 bytes, a Cloudflare Turnstile page ('OSCN Turnstile', a form with a challenge widget, no statute text); that is a challenge and was not solved, retried against or bypassed. The one page that answered (CiteID 463648, section 35.1, HTTP 200, 15,232 bytes) was an early request. The Legislature's own copy, one PDF per title (https://www.oklegislature.gov/OK_Statutes/CompleteTitles/os62.pdf: 2,798,279 bytes, 687 pages; os74.pdf: 5,271,337 bytes, 1,289 pages), was fetched and its text read: it is a whole title, dated December 2025 (the Legislature's index page says 'The Oklahoma Constitution and Oklahoma Statutes were last updated on November 18th, 2025'), and the shared code cannot take a range of it: src/check_seed_list.py accepts a `slice` only in the Colorado (article, part) and California shapes, so an Oklahoma title-PDF slice such as {section_start, section_end_before} fails the seed check. That is the one shared blocker: with such a shape the whole title file would be the snapshot (so the drift hash matches), the state module would cut the range in its to_text hook as Colorado does, and the seed check already allows one url under different slices (docs/research/oklahoma-statutes.md). The Legislature's December 2025 PDF predates the 2026 session amendments, so a slice would still need a currency check. The Legislature's PDF prints these as sections 34.11.1.1 to 34.33 of Title 62 in that order."
-    },
-    {
-     "instrument": "62 O.S. 34.28",
-     "kind": "statute",
-     "code": "OS",
-     "chapter": "62/34",
-     "citing_documents": [
-      "ok-oac-260-15",
-      "ok-std-accessibility-of-information-and-communication-technology"
-     ],
-     "citing_issuing_bodies": [
-      "Office of Management and Enterprise Services",
-      "Office of Management and Enterprise Services, Information Services"
-     ],
-     "citations": 4,
-     "authority_context_documents": 2,
-     "authority_context_citations": 3,
-     "statute_cross_references": 0,
-     "passing_citations": 1,
-     "sections_cited": [
-      "62/34.28"
-     ],
-     "quotes": [
-      {
-       "document": "ok-oac-260-15",
-       "authority_context": true,
-       "text": "Board of Career and Technology Education and Technology Center school districts. [62 O.S.,"
-      },
-      {
-       "document": "ok-oac-260-15",
-       "authority_context": true,
-       "text": "technical standard categories of Section 508 in accordance with 62 O.S. §34.28. Information"
-      },
-      {
-       "document": "ok-std-accessibility-of-information-and-communication-technology",
-       "authority_context": true,
-       "text": "This standard also incorporates applicable provisions of the ADA, Title 62 O.S. § 34.28 and the"
-      }
-     ],
-     "seed_ids": [
-      "ok-62-os-34-11-1-to-34-33"
-     ],
-     "reason": "Text of record: the Oklahoma State Courts Network's (OSCN) 'Oklahoma Statutes Citationized' serves one section per page; all 66 section pages requested in one run through the Fetcher, and a repeat request a few minutes later, answered HTTP 201 and 2,309 bytes, a Cloudflare Turnstile page ('OSCN Turnstile', a form with a challenge widget, no statute text); that is a challenge and was not solved, retried against or bypassed. The one page that answered (CiteID 463648, section 35.1, HTTP 200, 15,232 bytes) was an early request. The Legislature's own copy, one PDF per title (https://www.oklegislature.gov/OK_Statutes/CompleteTitles/os62.pdf: 2,798,279 bytes, 687 pages; os74.pdf: 5,271,337 bytes, 1,289 pages), was fetched and its text read: it is a whole title, dated December 2025 (the Legislature's index page says 'The Oklahoma Constitution and Oklahoma Statutes were last updated on November 18th, 2025'), and the shared code cannot take a range of it: src/check_seed_list.py accepts a `slice` only in the Colorado (article, part) and California shapes, so an Oklahoma title-PDF slice such as {section_start, section_end_before} fails the seed check. That is the one shared blocker: with such a shape the whole title file would be the snapshot (so the drift hash matches), the state module would cut the range in its to_text hook as Colorado does, and the seed check already allows one url under different slices (docs/research/oklahoma-statutes.md). The Legislature's December 2025 PDF predates the 2026 session amendments, so a slice would still need a currency check. The Legislature's PDF prints these as sections 34.11.1.1 to 34.33 of Title 62 in that order."
-    },
-    {
-     "instrument": "74 O.S. 3113.1",
-     "kind": "statute",
-     "code": "OS",
-     "chapter": "74/3113",
-     "citing_documents": [
-      "ok-memo-it-reporting-requirements",
-      "ok-pol-hipaa-hitech",
-      "ok-std-dsr"
-     ],
-     "citing_issuing_bodies": [
-      "Office of Management and Enterprise Services, Information Services"
-     ],
-     "citations": 4,
-     "authority_context_documents": 1,
-     "authority_context_citations": 1,
-     "statute_cross_references": 0,
-     "passing_citations": 3,
-     "sections_cited": [
-      "74/3113.1"
-     ],
-     "quotes": [
-      {
-       "document": "ok-memo-it-reporting-requirements",
-       "authority_context": true,
-       "text": "state agency pursuant to 74 O.S. §3113.1"
-      },
-      {
-       "document": "ok-pol-hipaa-hitech",
-       "authority_context": false,
-       "text": "c.   Appendix E – Incident Management Procedure\n                            d.   74 O.S. §3113.1"
-      },
-      {
-       "document": "ok-pol-hipaa-hitech",
-       "authority_context": false,
-       "text": "c.    Appendix E – Incident Management Procedure\n                         d.    74 O.S. § 3113.1"
-      }
-     ],
-     "seed_ids": [
-      "ok-74-os-3113-1"
-     ],
-     "reason": "Text of record: the Oklahoma State Courts Network's (OSCN) 'Oklahoma Statutes Citationized' serves one section per page; all 66 section pages requested in one run through the Fetcher, and a repeat request a few minutes later, answered HTTP 201 and 2,309 bytes, a Cloudflare Turnstile page ('OSCN Turnstile', a form with a challenge widget, no statute text); that is a challenge and was not solved, retried against or bypassed. The one page that answered (CiteID 463648, section 35.1, HTTP 200, 15,232 bytes) was an early request. The Legislature's own copy, one PDF per title (https://www.oklegislature.gov/OK_Statutes/CompleteTitles/os62.pdf: 2,798,279 bytes, 687 pages; os74.pdf: 5,271,337 bytes, 1,289 pages), was fetched and its text read: it is a whole title, dated December 2025 (the Legislature's index page says 'The Oklahoma Constitution and Oklahoma Statutes were last updated on November 18th, 2025'), and the shared code cannot take a range of it: src/check_seed_list.py accepts a `slice` only in the Colorado (article, part) and California shapes, so an Oklahoma title-PDF slice such as {section_start, section_end_before} fails the seed check. That is the one shared blocker: with such a shape the whole title file would be the snapshot (so the drift hash matches), the state module would cut the range in its to_text hook as Colorado does, and the seed check already allows one url under different slices (docs/research/oklahoma-statutes.md). The Legislature's December 2025 PDF predates the 2026 session amendments, so a slice would still need a currency check."
-    },
-    {
-     "instrument": "62 O.S. 34.20",
-     "kind": "statute",
-     "code": "OS",
-     "chapter": "62/34",
-     "citing_documents": [
-      "ok-std-it-project-management"
-     ],
-     "citing_issuing_bodies": [
-      "Office of Management and Enterprise Services, Information Services"
-     ],
-     "citations": 1,
-     "authority_context_documents": 1,
-     "authority_context_citations": 1,
-     "statute_cross_references": 0,
-     "passing_citations": 0,
-     "sections_cited": [
-      "62/34.20"
-     ],
-     "quotes": [
-      {
-       "document": "ok-std-it-project-management",
-       "authority_context": true,
-       "text": "• 62 O.S. § 34.20, Additional Powers and Duties of Information Services Division of Office"
-      }
-     ],
-     "seed_ids": [
-      "ok-62-os-34-11-1-to-34-33"
-     ],
-     "reason": "Text of record: the Oklahoma State Courts Network's (OSCN) 'Oklahoma Statutes Citationized' serves one section per page; all 66 section pages requested in one run through the Fetcher, and a repeat request a few minutes later, answered HTTP 201 and 2,309 bytes, a Cloudflare Turnstile page ('OSCN Turnstile', a form with a challenge widget, no statute text); that is a challenge and was not solved, retried against or bypassed. The one page that answered (CiteID 463648, section 35.1, HTTP 200, 15,232 bytes) was an early request. The Legislature's own copy, one PDF per title (https://www.oklegislature.gov/OK_Statutes/CompleteTitles/os62.pdf: 2,798,279 bytes, 687 pages; os74.pdf: 5,271,337 bytes, 1,289 pages), was fetched and its text read: it is a whole title, dated December 2025 (the Legislature's index page says 'The Oklahoma Constitution and Oklahoma Statutes were last updated on November 18th, 2025'), and the shared code cannot take a range of it: src/check_seed_list.py accepts a `slice` only in the Colorado (article, part) and California shapes, so an Oklahoma title-PDF slice such as {section_start, section_end_before} fails the seed check. That is the one shared blocker: with such a shape the whole title file would be the snapshot (so the drift hash matches), the state module would cut the range in its to_text hook as Colorado does, and the seed check already allows one url under different slices (docs/research/oklahoma-statutes.md). The Legislature's December 2025 PDF predates the 2026 session amendments, so a slice would still need a currency check. The Legislature's PDF prints these as sections 34.11.1.1 to 34.33 of Title 62 in that order."
-    },
-    {
-     "instrument": "OAC 260:115",
-     "kind": "rule",
-     "code": "OAC",
-     "chapter": "260:115",
-     "citing_documents": [
-      "ok-std-use-of-ai-in-oklahoma-state-government"
-     ],
-     "citing_issuing_bodies": [
-      "Office of Management and Enterprise Services, Information Services"
-     ],
-     "citations": 1,
-     "authority_context_documents": 0,
-     "authority_context_citations": 0,
-     "statute_cross_references": 0,
-     "passing_citations": 1,
-     "sections_cited": [
-      "260:115-1-1"
-     ],
-     "quotes": [
-      {
-       "document": "ok-std-use-of-ai-in-oklahoma-state-government",
-       "authority_context": false,
-       "text": "O.S.34.1 et seq., and OAC 260:115-1-1"
-      }
-     ],
-     "seed_ids": [
-      "ok-oac-260-115"
-     ],
-     "reason": "OMES's PDF of the chapter (Title260Chapter115.pdf, PDF modification date 30 Aug 2022) is out of date: its latest amendment note is 38 Ok Reg 1870, eff 9-11-21, while OMES's own later copy, CentralPurchasingAdminRules.pdf ('Last revised April 11, 2024', which calls itself an unofficial copy), shows 260:115-1-1 and 260:115-7-3 amended at 39 Ok Reg 1163, eff 9-11-22, and the two texts differ in substance (the supplier-notification paragraph, the bid-bond subsections and the verification of registration with the Secretary of State). The official rules portal https://rules.ok.gov/ answered the Fetcher HTTP 403 on '/' and '/code', so the current text of record cannot be read; the April 2024 copy is unofficial and itself dated. Whether to take it is an OWNER DECISION."
-    }
-   ],
-   "left_out": [
     {
      "instrument": "51 O.S. 24A.1",
      "kind": "statute",
@@ -33087,6 +32632,34 @@
       }
      ],
      "reason": "Left out: 62 O.S. 34.3 to 34.10 (OMES's creation, director and general fiscal powers, listed on OMES's Laws & Rules page; budget and state finance law, not IT), 34.11 (central accounting), 34.34 to 34.100 (budget, allotment and payment law; 34.43 alone is seeded), 34.200 to 34.201, 34.301 to 34.501, 45.1 to 45.10 (program performance budgeting), 46 to 49 (taxpayer transparency, funds), 62 O.S."
+    },
+    {
+     "instrument": "62 O.S. 35.9",
+     "kind": "statute",
+     "code": "OS",
+     "chapter": "62/35",
+     "citing_documents": [
+      "ok-memo-it-reporting-requirements"
+     ],
+     "citing_issuing_bodies": [
+      "Office of Management and Enterprise Services, Information Services"
+     ],
+     "citations": 1,
+     "authority_context_documents": 0,
+     "authority_context_citations": 0,
+     "statute_cross_references": 0,
+     "passing_citations": 1,
+     "sections_cited": [
+      "62/35.1-35.9"
+     ],
+     "quotes": [
+      {
+       "document": "ok-memo-it-reporting-requirements",
+       "authority_context": false,
+       "text": "Coordination Act (62 O.S. § 35.1-35.9) and the Information Services Act (62 O.S. §"
+      }
+     ],
+     "reason": "- Statutes tab: a sentence naming 62 O.S. 34.11.1 through 34.33, 62 O.S. 35.1 through 35.9 and OAC Title 260 chapter 115; the first two are seeded as documents narrowed to the sections shown in force, the third is seeded; see the Statutes item below."
     }
    ],
    "not_held_unverified": []
