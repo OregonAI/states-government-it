@@ -106,7 +106,7 @@ Everything above is left as measured. What changed, measured through the toolkit
 
   | entry | outcome |
   |---|---|
-  | 62 O.S. 34.11.1 to 34.33 | narrowed to 34.11.2 to 34.31.2 (id `ok-62-os-34-11-2-to-34-31-2`); 34.11.1 and 34.32 left out (not in force), 34.33 left out for the shape of a slice (owner decision) |
+  | 62 O.S. 34.11.1 to 34.33 | narrowed to 34.11.2 to 34.31.2 (id `ok-62-os-34-11-2-to-34-31-2`); 34.11.1 and 34.32 left out (not in force), 34.33 left out for the shape of a slice; OWNER DECISION pending whether to seed it as its own entry (34.33 to 34.34) |
   | 62 O.S. 35.1 to 35.9 | narrowed to 35.1 to 35.8; 35.9 left out (not in force) |
   | 62 O.S. 36 | stays a stub, with the true reason; it carries its slice and becomes a document when the PDF prints it in force |
   | 62 O.S. 34.202 to 34.210, 34.43, 41.5a-4; 74 O.S. 3106.3 to 3106.4, 3113.1 | documents, as seeded |
