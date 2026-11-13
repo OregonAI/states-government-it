@@ -1,0 +1,38 @@
+19–445.2027.                Electronic Commerce.
+A. ‘‘Electronic commerce’’ means electronic techniques for accomplishing business transactions in-
+cluding electronic mail or messaging, World Wide Web technology, electronic bulletin boards,
+purchase cards, electronic funds transfer, and electronic data interchange.
+B.     General.
+  (1) The State may use electronic commerce whenever practicable or cost-effective. The use of terms
+commonly associated with paper transactions (e.g., ‘‘copy,’’ ‘‘document,’’ ‘‘page,’’ ‘‘printed,’’ ‘‘sealed
+envelope,’’ and ‘‘stamped’’) shall not be interpreted to restrict the use of electronic commerce. The
+responsible procurement officer may supplement electronic transactions by using other media to meet
+the requirements of any contract action governed by the Consolidated Procurement Code (e.g.,
+transmit hard copy of drawings).
+  (2) Agencies may exercise broad discretion in selecting the information technology that will be used
+in conducting electronic commerce. However, the head of each agency shall ensure that systems,
+technologies, procedures, and processes used by the agency to conduct electronic commerce-
+    (a) Are implemented uniformly throughout the agency, to the maximum extent practicable;
+       (b) Are implemented only after considering the full or partial use of existing infrastructures;
+       (c) Facilitate access to State acquisition opportunities by as many persons as practicable, including
+     small businesses, minority business enterprises, and socially and economically disadvantaged small
+     businesses;
+      (d) Include a means of providing widespread public notice of acquisition opportunities and a
+     means of responding to notices or solicitations electronically;
+       (e) Comply with applicable standards that broaden interoperability and ease the electronic
+     interchange of information; and
+       (f) Are capable of ensuring authentication and confidentiality commensurate with the risk and
+     magnitude of the harm from loss, misuse, or unauthorized access to or modification of the
+     information.
+  (3) Agencies using the procurement functionality of the South Carolina Enterprise Information
+System are deemed to have complied with subsection (B)(2) of this regulation.
+  (4) Consistent with provisions of the Uniform Electronic Transactions Act, Sections 26–6–10, et seq.,
+agencies may accept electronic signatures and records in connection with State contracts.
+C. Submission of Offers by Electronic Commerce. Subject to all other applicable regulations (e.g.,
+R.19–445.2045 and -2050), the responsible procurement officer may authorize use of electronic
+
+commerce for submission of bids and proposals. If electronic submissions are authorized, the solicita-
+tion shall specify the electronic commerce method(s) that offerors may use. Offers submitted by
+electronic commerce shall be considered only if the electronic commerce method was specifically
+stipulated or permitted by the solicitation.
+HISTORY: Added by SCSR 44–4 Doc. No. 4861, eff April 24, 2020.
