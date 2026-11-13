@@ -99,3 +99,51 @@ def test_an_order_is_identified_by_the_number_line_the_order_prints_not_by_the_c
         florida.check_identity(EO, EO_PAGE_ONE.replace("22-216", "22-217"), "PDF")
     with pytest.raises(ValueError, match="not the cited instrument"):
         florida.check_identity({k: v for k, v in EO.items() if k != "identity_text"}, EO_PAGE_ONE, "PDF")
+
+
+# ---- one section per page (the Legislature serves each section on its own page) ----------------------------
+# Fixtures are real bytes of the 2026 pages for s. 112.22 and s. 501.171, with the site's menus and footer.
+S11222 = (FIX / "s-112.22.html").read_bytes()
+S501171 = (FIX / "s-501.171.html").read_bytes()
+SEC = {"id": "fl-st-112-22", "jurisdiction": "florida", "doc_type": "statute",
+       "citation": "Section 112.22, Florida Statutes", "title": "Section 112.22. Use of applications from foreign countries of concern prohibited"}
+
+
+def test_a_section_page_becomes_the_edition_title_and_chapter_lines_then_the_section():
+    lines = [l for l in florida.statute_html_to_text(S11222).splitlines() if l]
+    assert lines[:3] == ["The 2026 Florida Statutes", "Title X PUBLIC OFFICERS, EMPLOYEES, AND RECORDS",
+                         "CHAPTER 112 PUBLIC OFFICERS AND EMPLOYEES: GENERAL PROVISIONS"]
+    assert lines[3].startswith("112.22 Use of applications from foreign countries of concern prohibited. —")
+
+
+def test_a_section_page_keeps_every_subsection_paragraph_and_the_history_line_and_no_furniture():
+    text = florida.statute_html_to_text(S11222)
+    lines = text.splitlines()
+    assert "(4) The department shall adopt rules necessary to administer this section." in lines
+    assert any(l.startswith("(2)(a) A public employer shall do all of the following:") for l in lines)
+    assert "History. — s. 1, ch. 2023-32; s. 13, ch. 2026-14." in lines
+    assert text.count("112.22 Use of applications") == 1
+    for leak in ("<", ">", "&#x", "View Entire Chapter", "Online Sunshine", "Privacy Statement", "Copyright", "SCFilter", "\t"):
+        assert leak not in text
+
+
+def test_a_section_page_ends_with_its_history_line():
+    assert florida.statute_html_to_text(S501171).rstrip().splitlines()[-1].startswith("History. — s. 3, ch. 2014-189")
+    assert "(2) REQUIREMENTS FOR DATA SECURITY. — Each covered entity, governmental entity, or third-party agent shall take reasonable measures to protect and secure data in electronic form containing personal information." in florida.statute_html_to_text(S501171)
+
+
+def test_the_identity_check_accepts_the_cited_section_and_refuses_another_or_a_chapter_page():
+    text = florida.statute_html_to_text(S11222)
+    assert florida.check_identity(SEC, text, "") is True
+    with pytest.raises(ValueError, match="not Section 112.23"):
+        florida.check_identity({**SEC, "citation": "Section 112.23, Florida Statutes"}, text, "")
+    with pytest.raises(ValueError, match="not Section 112.22"):
+        florida.check_identity(SEC, florida.statute_html_to_text(CH282), "")
+    with pytest.raises(ValueError, match="not Chapter 282"):
+        florida.check_identity(SRC, text, "")
+
+
+def test_a_section_page_is_read_by_the_shared_flow_and_carries_the_edition():
+    text = ing.to_text(S11222, "html", "statute", "florida")
+    assert florida.source_version(text, "statute", "html") == "2026 Florida Statutes"
+    assert "section" in florida.notes(SEC, "html", text).casefold()
