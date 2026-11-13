@@ -379,9 +379,9 @@ left_out:
        people by social behaviour, not IT, data or AI as a government function. Borderline; OWNER DECISION.
      - 63A-12 Archives and Records Service and Management of Government Records (section list read): records management and the
        Government Records Office; 63A-12-117 sets technical standards for digital authentication systems. General records law, as other states'
-       records acts were treated; OWNER DECISION on whether to seed 63A-12 and 63G-2 (Government Records Access and Management Act, chapter title read).
+       records acts were treated; Whether to seed 63A-12 and 63G-2 (Government Records Access and Management Act, chapter title read) is now governed by the owner decisions of 2026-11-13 (see the last bullet of the 2026-11-13 record).
      - 63A-1 Department of Government Operations (section list read): the department the Division sits in; no IT subject in its section headings.
-     - 63G-6a Utah Procurement Code (chapter title only): procurement code sections inside a non-IT chapter, left out pending the owner's decision on section-level slicing.
+     - 63G-6a Utah Procurement Code (chapter title only): procurement code sections inside a non-IT chapter, left out in the first pass; the owner decisions of 2026-11-13 now govern it (IT-focused sections are approved; a later pass will read them).
      - 63D-3 Unauthorized Access to Information Technology (Title 63D chapter list only): a criminal statute; crimes are out of scope.
      - 46-4 Uniform Electronic Transactions Act (chapter title only): general commercial and governmental e-records law, not read.
      - Title 53 and Title 67 chapter lists were read for IT, cybersecurity and AI chapters: none found other than those named above.
@@ -436,3 +436,18 @@ left_out:
     offers entities under 63A-19, in two-column layout; it presents itself as guidance. Borderline; OWNER DECISION. Its templates (privacy policy,
     notices, data sharing agreement, incident response, privacy impact assessment), the maturity model spreadsheet and infographics are forms and
     guidance, not instruments.
+- text: |-
+    Owner decisions of 2026-11-13, applied to Utah's candidates from the authority-reference pass (docs/research/12). Each section was read in the Legislature's chapter XML, fetched through
+    the toolkit Fetcher (C63J-1_1800010118000101.xml, 220,173 bytes; C63G-2_1800010118000101.xml, 315,066 bytes), and tested for whether its own focus is the governance of state IT.
+     - 63J-1-201 (Governor's proposed budget to Legislature; contents, preparation): declined. It governs the Governor's whole budget submission; no word of the section is about technology, software,
+       computers or IT spending (its only hits for 'information' and 'data' are budget information and the Governor's analysis). A general budget provision, not IT governance.
+     - 63J-1-410 (Internal service funds; governance and review): declined. It sets rate, review and reporting rules for every state internal service fund agency (its own examples include the
+       Division of Fleet Operations); it never names information technology or the Division of Technology Services. 63A-16-103(2) gives the Division internal service fund status by citing it (and the CIO rate-approval subsection of 63A-16 cites it too, for Legislature approval of rates); that
+       does not make the section's focus IT.
+     - 63G-2-206 (GRAMA, Sharing records): declined. It lets any governmental entity provide private, controlled or protected records to other governmental entities, the federal government or another state,
+       and names no IT subject; the Cyber Center's shared-record duty is in 63A-16 (held). The general records-access law applies to IT along with everything else.
+     - R895-7 (Acceptable Use of Information Technology Resources, stub ut-rule-r895-7): approved as a seed-whole candidate; re-measured 2026-11-13 and the obstacle is not gone. adminrules.utah.gov
+       still serves a JavaScript shell (HTTP 200) and its rule-page paths (/public/rule/R895-7/Current%20Rules, /public/rule/R895-7/, /public/search/R895-7/Current%20Rules) answer HTTP 404 to the Fetcher; the Office
+       documents no bulk file or API for the code. The official Utah State Bulletin holds only the 2014 filing of the rule, not its current text (the rule has since been amended), so it stays a stub.
+     - The other adjacent candidates this record names (63G-6a IT purchasing sections, 63A-12 records including 63A-12-117, 46-4 electronic signatures, 63G-15) were not among the citation pass's candidates for Utah and
+       were not read for this seeding. These chapters were not candidates in docs/research/12's Utah section; the owner decision of 2026-11-13 now governs them (their IT-focused sections are approved), and a later pass will read them. The earlier 'pending the owner's decision' wording above is stale.
