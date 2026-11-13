@@ -4,8 +4,9 @@
 chapter on browse-statutes.php) serves one chapter as a run of `<div class="printwidth">` blocks, one per section:
 a bold `number.` and caption, one `<p>` per paragraph, then a `source` div (the session laws, and an
 `Operative Date:` line when a later act sets one). A document is a run of sections of that page, named in the seed
-entry as `slice: {article: <first section>, part: <last section>}` (the seed check allows only the keys `article`
-and `part`; here they are the first and the last section number, inclusive). The policy library (nitc.nebraska.gov)
+entry as `slice: {article: <first section>, part: <last section>}` (here the first and the last section number, inclusive) or,
+for a provision of a chapter that is not an IT chapter, by the shared shape `slice: {section_start,
+section_end_before}` (the last section is the one before `section_end_before`, which is not in the text). The policy library (nitc.nebraska.gov)
 serves PDFs, which the shared reader handles."""
 from __future__ import annotations
 
@@ -15,7 +16,7 @@ from src import states
 from src.ingest_common import BlockParser, _decode
 
 _BLOCK = '<div class="printwidth">'
-_NUMBER = r"\d+-\d+(?:[.,]\d+)?"
+_NUMBER = r"\d+-\d+(?:,\d+)?(?:\.\d+)?"      # 86-5,100  81-1120.02  49-14,101.01
 _HEAD = re.compile(rf"<strong>\s*({_NUMBER})\.")
 
 
@@ -44,20 +45,28 @@ def statute_html_to_text(raw: bytes, slice_: dict | None) -> str:
     """The slice's sections to text: one line per paragraph, the heading (number and caption) on one line, the
     `Source:` line and the `Operative Date:` line kept, a blank line before each section after the first. Nothing
     inside a section is dropped; links, markup and the page's style sheet are."""
-    if not slice_ or not slice_.get("article") or not slice_.get("part"):
-        raise ValueError("a Nebraska statute entry needs a slice: {article: <first section>, part: <last section>}")
+    keys = set(slice_ or {})
+    if keys == {"article", "part"} and all(slice_.values()):
+        first, last_inclusive, end_before = slice_["article"], slice_["part"], None
+    elif keys == {"section_start", "section_end_before"} and all(slice_.values()):
+        first, last_inclusive, end_before = slice_["section_start"], None, slice_["section_end_before"]
+    else:
+        raise ValueError("a Nebraska statute entry needs a slice: {article: <first section>, part: <last section>} or "
+                         "{section_start: <first section>, section_end_before: <next section>}")
     secs = _sections(_decode(raw))
     if not secs:
         raise ValueError("no statute text: the page holds no section blocks (the layout changed, or this is not a "
                          "chapter page)")
     numbers = [n for n, _ in secs]
-    first, last = slice_["article"], slice_["part"]
-    for want in (first, last):
+    for want in (first, last_inclusive or end_before):
         if numbers.count(want) != 1:
             raise ValueError(f"the page holds section {want} {numbers.count(want)} times: the slice would be a guess")
-    a, b = numbers.index(first), numbers.index(last)
-    if a > b:
-        raise ValueError(f"slice runs backwards: {first} comes after {last}")
+    a = numbers.index(first)
+    b = numbers.index(last_inclusive) if last_inclusive else numbers.index(end_before) - 1
+    if last_inclusive and a > b:
+        raise ValueError(f"slice runs backwards: {first} comes after {last_inclusive}")
+    if end_before and b < a:
+        raise ValueError(f"slice is empty or runs backwards: {end_before} does not come after {first}")
     lines: list[str] = []
     for _, block in secs[a:b + 1]:
         if lines:
@@ -100,6 +109,10 @@ def check_identity(src, text, what_is):
     if not cited:
         raise ValueError(f"{src['id']}: citation {src['citation']!r} names no section")
     heads = [m.group(1) for m in re.finditer(rf"^({_NUMBER})\. ", text, flags=re.M)]
+    start = (src.get("slice") or {}).get("section_start")
+    if start and heads[:1] != [start]:
+        raise ValueError(f"{src['id']}: page is not {src['citation']}: the slice starts at section {start} but the text "
+                         f"opens with {heads[:1]} (the instrument is not the cited one)")
     if not heads or heads[0] != cited[0] or heads[-1] != cited[-1]:
         raise ValueError(f"{src['id']}: page is not {src['citation']}: the text runs from section "
                          f"{heads[:1]} to {heads[-1:]} (the instrument is not the cited one)")
@@ -156,9 +169,12 @@ def extra_notes(src, fmt, text, eff, version):
 
 def notes(src, fmt, text):
     if src["doc_type"] == "statute" and src["jurisdiction"] == "nebraska":
-        return ("Text taken from the Legislature's print-friendly chapter page, cut to the sections the citation names "
-                "(first and last inclusive): each section's number and caption, its paragraphs, its session-law source "
-                "line and any Operative Date line, one line per paragraph. Links, markup and the page's style sheet "
-                "removed. A blank line precedes each section after the first. A section the page prints as repealed "
-                "stays as printed.")
+        sl = src.get("slice") or {}
+        cut = ("cut to the sections the citation names (first and last inclusive)" if "article" in sl else
+               f"cut from section {sl.get('section_start')} up to, and not including, section {sl.get('section_end_before')} "
+               "(the sections the citation names)")
+        return ("Text taken from the Legislature's print-friendly chapter page, " + cut + ": each section's number and "
+                "caption, its paragraphs, its session-law source line and any Operative Date line, one line per paragraph. "
+                "Links, markup and the page's style sheet removed. A blank line precedes each section after the first. "
+                "A section the page prints as repealed stays as printed.")
     return None

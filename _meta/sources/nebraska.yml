@@ -4,7 +4,8 @@
 # chapter pages), the NITC Standards and Guidelines index and all 122 files it links, the Governor's executive-order index (309 order rows, 304 linked,
 # all governors) and the orders read, the NITC legal and commission pages, the OCIO site (cio.nebraska.gov), rules.nebraska.gov.
 # Statute entries are slices of the Legislature's whole-chapter page: `slice: {article: <first section>, part: <last section>}` (the seed
-# check allows only these two keys; here they are the first and last section number, inclusive). A drift run reports any change on the
+# check allows these two keys; here they are the first and last section number, inclusive). Provisions of non-IT chapters (81, 84, owner decision
+# 2026-11-13) use the shared shape slice: {section_start, section_end_before} (the end section is not in the document). A drift run reports any change on the
 # chapter page against every slice of it: chapter 86 also holds telecommunications law, so such a report is not necessarily an IT change.
 sources:
   - id: ne-rs-86-501-530
@@ -1477,6 +1478,123 @@ sources:
     recheck: monthly
     watch_only: true
     why_relevant: "The Commission's rulemaking page; the watch sees new notices, drafts and chapters."
+  - id: ne-rs-81-1117
+    sha256: "920c6dab2677d1c6c7b3430958283d671320ffe53aadc7ba1b721621883cc6df"
+    url: "https://nebraskalegislature.gov/laws/display-chapters.php?chapter=81"
+    format: html
+    citation: "Neb. Rev. Stat. section 81-1117"
+    title: "Information management services administrator; powers, duties, and responsibilities; Information Management Revolving Fund, Neb. Rev. Stat. 81-1117"
+    doc_type: statute
+    jurisdiction: nebraska
+    issuing_body: "Nebraska Legislature"
+    tags: [governance, procurement, oversight, funding]
+    slice: {section_start: "81-1117", section_end_before: "81-1117.01"}
+    recheck: monthly
+    why_relevant: "A section of the State Administrative Departments chapter that governs state IT: \"No state agency shall hire, purchase, lease, or rent any information management item listed in subsection (1) of this section without the written approval of the information management services administrator\" (subsection (2)(e)); the administrator, subject to review and approval by the Chief Information Officer, reviews agency computer applications and information management installations, sets the system of charges for information management services and the Information Management Revolving Fund, and defines standards and common data elements and approves or disapproves separate data banks. Printed with Laws 2026, LB905 (Operative Date: July 1, 2026, already passed). Owner scope decision 2026-11-13 (IT governance provision of a non-IT chapter). Cited by NITC 1-204 and 1-205."
+  - id: ne-rs-81-1120-02
+    sha256: "920c6dab2677d1c6c7b3430958283d671320ffe53aadc7ba1b721621883cc6df"
+    url: "https://nebraskalegislature.gov/laws/display-chapters.php?chapter=81"
+    format: html
+    citation: "Neb. Rev. Stat. section 81-1120.02"
+    title: "Communications system; terms defined, Neb. Rev. Stat. 81-1120.02"
+    doc_type: statute
+    jurisdiction: nebraska
+    issuing_body: "Nebraska Legislature"
+    tags: [governance]
+    slice: {section_start: "81-1120.02", section_end_before: "81-1120.03"}
+    recheck: monthly
+    why_relevant: "Defines the terms of the act that governs the state's communications system: the division is \"the division of communications of the office of Chief Information Officer\" and the communications system is \"the total communications facilities and equipment owned, leased, or used by all departments, agencies, and subdivisions of state government\". It says who the IT authority is and what its system covers; NITC 1-101 takes its definition of communications from it. Owner scope decision 2026-11-13 (IT governance provision of a non-IT chapter)."
+  - id: ne-rs-81-1120-17
+    sha256: "920c6dab2677d1c6c7b3430958283d671320ffe53aadc7ba1b721621883cc6df"
+    url: "https://nebraskalegislature.gov/laws/display-chapters.php?chapter=81"
+    format: html
+    citation: "Neb. Rev. Stat. section 81-1120.17"
+    title: "Division of communications; powers and duties, Neb. Rev. Stat. 81-1120.17"
+    doc_type: statute
+    jurisdiction: nebraska
+    issuing_body: "Nebraska Legislature"
+    tags: [governance, procurement]
+    slice: {section_start: "81-1120.17", section_end_before: "81-1120.18"}
+    recheck: monthly
+    why_relevant: "Powers and duties of the Office of Chief Information Officer's division of communications over the state's communications systems: \"To coordinate the purchase, lease, and use of communications services equipment and facilities for state government\", \"approve all purchases and contracts for such communications activities\", consolidate agency radio and telephone systems, and standardize policies for their use so that systems in the domain of public safety or security are not compromised. Printed with Laws 2026, LB905 (Operative Date: July 1, 2026, already passed). Cited by NITC 1-204. Owner scope decision 2026-11-13 (IT governance provision of a non-IT chapter)."
+  - id: ne-rs-81-1120-20
+    sha256: "920c6dab2677d1c6c7b3430958283d671320ffe53aadc7ba1b721621883cc6df"
+    url: "https://nebraskalegislature.gov/laws/display-chapters.php?chapter=81"
+    format: html
+    citation: "Neb. Rev. Stat. section 81-1120.20"
+    title: "Joint use of communications; departments; agencies; cooperation, Neb. Rev. Stat. 81-1120.20"
+    doc_type: statute
+    jurisdiction: nebraska
+    issuing_body: "Nebraska Legislature"
+    tags: [governance, procurement]
+    slice: {section_start: "81-1120.20", section_end_before: "81-1120.21"}
+    recheck: monthly
+    why_relevant: "Binds state agencies to \"coordinate all communications services or facilities procurement through the Director of Communications\" and to cooperate in consolidating and jointly using communications systems: the procurement review of the Office of the Chief Information Officer that NITC 1-204 rests on. Owner scope decision 2026-11-13 (IT governance provision of a non-IT chapter)."
+  - id: ne-rs-81-1120-27
+    sha256: "920c6dab2677d1c6c7b3430958283d671320ffe53aadc7ba1b721621883cc6df"
+    url: "https://nebraskalegislature.gov/laws/display-chapters.php?chapter=81"
+    format: html
+    citation: "Neb. Rev. Stat. section 81-1120.27"
+    title: "Telecommunications system; uses; member of Legislature; long-distance calls, Neb. Rev. Stat. 81-1120.27"
+    doc_type: statute
+    jurisdiction: nebraska
+    issuing_body: "Nebraska Legislature"
+    tags: [governance, cybersecurity]
+    slice: {section_start: "81-1120.27", section_end_before: "81-1120.28"}
+    recheck: monthly
+    why_relevant: "Sets what state employees and officials may use the state's IT for: \"The facilities of the state's telecommunications systems are provided for the conduct of state business\", with personal use of the state's telecommunications systems, cellular telephones, electronic handheld devices or computers limited to essential personal business kept to a minimum; subsection (2) governs how a legislator's long-distance call records are shown in an audit. NITC 7-101 cites it (81-1120.27(1)). Owner scope decision 2026-11-13 (IT governance provision of a non-IT chapter)."
+  - id: ne-rs-84-1204-1205
+    sha256: "725a049c533510db3d503ba65da59922af3d9587f586b342de301efad6b39a75"
+    url: "https://nebraskalegislature.gov/laws/display-chapters.php?chapter=84"
+    format: html
+    citation: "Neb. Rev. Stat. sections 84-1204 to 84-1205"
+    title: "State Records Board; network manager for the state portal, Neb. Rev. Stat. 84-1204 to 84-1205"
+    doc_type: statute
+    jurisdiction: nebraska
+    issuing_body: "Nebraska Legislature"
+    tags: [governance, digital-services, funding]
+    slice: {section_start: "84-1204", section_end_before: "84-1205.01"}
+    recheck: monthly
+    why_relevant: "The Records Management Act's two sections that govern the state's electronic access to public records: the State Records Board shall \"Develop and maintain the portal for providing electronic access to public records or electronic information and services\", \"Provide appropriate oversight of a network manager\", approve fees and may grant funds to an agency \"for the development of programs and technology\" (84-1204); the board may contract a network manager who provides the portal's infrastructure and runs it (84-1205). The rest of the Act (general records management, retention schedules, microfilm) is left out (see left_out). Owner scope decision 2026-11-13 (IT governance provision of a records chapter)."
+  - id: ne-rs-84-1205-03
+    sha256: "725a049c533510db3d503ba65da59922af3d9587f586b342de301efad6b39a75"
+    url: "https://nebraskalegislature.gov/laws/display-chapters.php?chapter=84"
+    format: html
+    citation: "Neb. Rev. Stat. section 84-1205.03"
+    title: "State agency; electronic access to public records; approval required, Neb. Rev. Stat. 84-1205.03"
+    doc_type: statute
+    jurisdiction: nebraska
+    issuing_body: "Nebraska Legislature"
+    tags: [governance, procurement, digital-services]
+    slice: {section_start: "84-1205.03", section_end_before: "84-1205.04"}
+    recheck: monthly
+    why_relevant: "A state agency that wants to enter an agreement \"with a private vendor or the network manager to provide electronic access to public records or electronic information and services for a fee\" must request the State Records Board's approval and include the contract and \"any security provisions for the protection of confidential or sensitive records\"; courts and the Legislature report instead. Owner scope decision 2026-11-13 (IT governance provision of a records chapter)."
+  - id: ne-rs-84-1205-05
+    sha256: "725a049c533510db3d503ba65da59922af3d9587f586b342de301efad6b39a75"
+    url: "https://nebraskalegislature.gov/laws/display-chapters.php?chapter=84"
+    format: html
+    citation: "Neb. Rev. Stat. section 84-1205.05"
+    title: "Board; reports, Neb. Rev. Stat. 84-1205.05"
+    doc_type: statute
+    jurisdiction: nebraska
+    issuing_body: "Nebraska Legislature"
+    tags: [governance, oversight]
+    slice: {section_start: "84-1205.05", section_end_before: "84-1205.06"}
+    recheck: monthly
+    why_relevant: "The State Records Board \"shall provide annual reports to the Executive Board of the Legislative Council and Nebraska Information Technology Commission\" on the portal and electronic access to public records: the oversight reporting line of the state portal to the IT Commission. Owner scope decision 2026-11-13 (IT governance provision of a records chapter)."
+  - id: ne-rs-84-1228
+    sha256: "725a049c533510db3d503ba65da59922af3d9587f586b342de301efad6b39a75"
+    url: "https://nebraskalegislature.gov/laws/display-chapters.php?chapter=84"
+    format: html
+    citation: "Neb. Rev. Stat. section 84-1228"
+    title: "Electronic record constituting permanent record; requirements, Neb. Rev. Stat. 84-1228"
+    doc_type: statute
+    jurisdiction: nebraska
+    issuing_body: "Nebraska Legislature"
+    tags: [data, cybersecurity]
+    slice: {section_start: "84-1228", section_end_before: "84-1229"}
+    recheck: monthly
+    why_relevant: "An electronic record that a statute makes the permanent record must be copied to a protected backup file within five working days; \"Adequate protective technology shall be used by the keeper of the records to protect the backup file from electrical surges and from unauthorized tampering\" and the backup kept in a separate location. A records-retention duty on electronic records. Owner scope decision 2026-11-13 (IT governance provision of a records chapter)."
 
 left_out:
 - text: "---- Nebraska: found and left out (each was seen on an official page on 2026-11-12 and read through the Fetcher; the reason is recorded here)"
@@ -1491,7 +1609,13 @@ left_out:
 - text: |-
     Statutes in chapter 86 left out (the sections of the chapter page, read in full as the chapter index and the chapter page): 86-101 to 86-166 and 86-201 to 86-299 and 86-2,100 to 86-2,117 (telecommunications regulation, telephone solicitation, pay-per-call, interception of communications, pen registers: telecom and law enforcement, out of scope), 86-574 to 86-598 (dark fiber and public-power retail telecommunications), 86-601 to 86-610 (telegraph companies), 86-612 to 86-643 (Uniform Electronic Transactions Act: it governs electronic records in private and government transactions alike; the sections that speak to state agencies are 86-611 and 86-644, seeded; OWNER DECISION on the rest), 86-701 to 86-711, 86-801 to 86-806, 86-901 to 86-905 (rights-of-way, wireless, prepaid surcharge), 86-1032 to 86-1086 (911 service, out of scope), 86-1201 to 86-1244 (small wireless facilities), 86-1301 to 86-1313, 86-5,102 to 86-5,109, 86-1401 to 86-1406, 86-1501 to 86-1507, 86-1601 to 86-1611 (broadband grants and deregulation, out of scope), 86-1701 to 86-1705 (social media platforms and minors: binds companies).
      - 86-1801 to 86-1807, the Conversational Artificial Intelligence Safety Act (Laws 2026, LB525; the last section read prints 'Operative Date: July 1, 2027'): binds the 'operator' of a conversational AI service ('person' means a natural person or legal entity) toward minor account holders, enforced by the Attorney General. Not a law on state agencies' use of AI. Left out.
-- text: "Statute sections inside chapters that are not IT chapters, left out under the playbook rule pending the owner's decision on section-level slicing (OWNER DECISION for the whole line): Chapter 81 (State Administrative Departments): 81-1117 (information management services administrator), 81-1117.02 to 81-1117.04 (release of computer file data), 81-1120.01 to 81-1120.29 (the communications system and the division of communications of the Office of Chief Information Officer; 81-1120.03 creates the division); chapter 84 (Public Officers): 84-1201 to 84-1228 (the Records Management Act, including 84-1228 and 84-1229 on electronic records) and 84-712.05 (public records exceptions, whose subsection (26) covers records on the nature, location or function of cybersecurity and is the authority for 209 NAC 1). These sections were seen in the chapter indexes (browse-chapters.php?chapter=81, 84) and not read as text. NITC section 1-RD-01 cites 81-1117, 81-1120.17, 81-1120.20 and 84-1201 to 84-1228 as related statutes."
+- text: |-
+    Statute sections inside chapters that are not IT chapters (owner decision 2026-11-13: a provision is in scope as a section slice when its own focus is the governance of state IT; the earlier reason, "pending the owner's decision on section-level slicing", is superseded). Each candidate was read in the Legislature's print-friendly chapter pages (display-chapters.php?chapter=49, 81, 84, fetched through the Fetcher 2026-11-13). Seeded: 81-1117, 81-1120.02, 81-1120.17, 81-1120.20, 81-1120.27, 84-1204 to 84-1205, 84-1205.03, 84-1205.05, 84-1228. Left out, each with the words that decide it:
+     - 49-14,101.01 (financial gain; gift of travel or lodging) and 49-14,101.02 (use of public resources for campaigning), Nebraska Political Accountability and Disclosure Act: ethics law. 101.02 bars use of "personnel, property, resources, or funds under the official care and control of a public official" for "campaigning for or against the nomination or election of a candidate or the qualification, passage, or defeat of a ballot question"; it governs political activity by officials and employees, and IT is one of the resources it applies to along with everything else. 101.01 has one subsection (3) on use of "a telecommunication system, a cellular telephone, an electronic handheld device, or a computer under the control of a government body", but the section's subject is financial gain and gifts, and the state-IT personal-use rule itself is 81-1120.27 (seeded). Not IT governance; declined. NITC 7-101 cites it for its ballot-question prohibition.
+     - 84-1201 (legislative intent), 84-1202 (terms), 84-1203 (Secretary of State as State Records Administrator), 84-1206 to 84-1207.01, 84-1208 to 84-1219, 84-1222, 84-1224 to 84-1226 (the Records Management Act: the records management program, essential records, preservation duplicates, retention and disposition schedules, the State Archives, microfilm): the Act governs the records of state and local agencies in every form (84-1202 defines "record" as "any book, document, paper, photograph, microfilm, sound recording, magnetic storage medium, optical storage medium, or other material regardless of physical form"), so these sections apply to electronic records along with everything else and their focus is records management, not IT. Declined. 84-1204 and 84-1205 (the state portal), 84-1205.03, 84-1205.05 and 84-1228 are seeded because their own subject is the state's electronic access, portal and electronic records. 84-1227 (Records Management Cash Fund) funds "records management services and assistance to state and local agencies" and, among other uses, "development and maintenance of the portal": a mixed records fund, declined. 84-1205 .01, .04 and .06 and 84-1221, 84-1223 print as repealed.
+     - 84-1205.02 (Board; establish fees for electronic access through the portal): the page prints the section as amended by Laws 2026, LB1236, § 21 with "Operative Date: January 1, 2027"; the only official text is not in force until then, so it is not seeded (the text in force today is not served). Re-check after 2027-01-01.
+     - 84-1229 (school districts and educational service units may keep records as electronic records): not an NITC candidate and school districts are local government, out of scope.
+     - 81-1117.02 to 81-1117.04 (release of computer file data), 81-1120.01, 81-1120.03, 81-1120.15, 81-1120.16, 81-1120.18, 81-1120.19, 81-1120.22 to 81-1120.26, 81-1120.28 and 81-1120.29 (the rest of the communications system act and its revolving fund) and 84-712.05 (public records exceptions; subsection (26) covers cybersecurity records) were seen in the chapter pages and indexes and are not among the candidates the owner's decision covers (81-1117.02 to 81-1117.04 were read and concern the release of computer file data held by the Chief Information Officer, so they look like IT governance, but nothing lists them): not approved, left for the owner. Chapter 81 sections 81-1120.04 to 81-1120.14 print as "Transferred to section 81-1120.17" and so on (the seeded sections are their new homes).
 - text: "Other statutes seen and left out: 79-1338 to 79-1342 (K-12 Education Cybersecurity Act: K-12 is out of scope); 87-1201 (liability of a private entity after a cybersecurity event: binds private entities); 81-6,127 and 81-6,128 (Health Information Technology Board: health, not state IT); 86-5,109 and the rest of the broadband acts. LB1096 (Laws 2026, approved April 16, 2026; the Governor's press release of July 25, 2026 and the enrolled bill were read): its section 6 bars a 'governmental entity' that owns, operates, manages or oversees critical infrastructure (the 911 system, a communication infrastructure system, a cybersecurity system, a high voltage electric grid, a hazardous waste treatment system, a water treatment facility) from knowingly entering a contract with a company that is a foreign principal if it would allow remote or direct access to or control of critical infrastructure. It is chiefly infrastructure law and its codified section number was not found in the chapter indexes read (chapters 3, 13, 18, 19, 23, 28, 32, 50, 60, 61, 71, 73, 79, 81, 84, 85, 86, 87); its amendments to 86-125 and 84-712.05 are in the chapter pages. OWNER DECISION whether it is in scope. No statute on state agencies' use of AI, and no statute for state agency cybersecurity programs, was found: the chapter 86 page, the chapter 84, 87 and 81 indexes were searched for 'artificial intelligence', 'cybersecurity', 'information security', 'automated' and 'algorithm'; the statewide AI and cybersecurity rules are the NITC policy sections 8-609 and chapter 8."
 - text: "Executive orders: the Governor's index (http://govdocs.nebraska.gov/docs/pilot/pubs/eoindex.html, linked from governor.nebraska.gov) lists 309 orders of all governors (311 table rows: one page-chrome row and one column-header row are not orders; 304 of the 309 carry a file link), and every one of the 309 order rows was read. One is seeded (25-04). Left out: 23-05 'Enhancing Broadband Security' (Feb. 22, 2023, read: bars broadband grant funding to providers using equipment on the FCC Covered List; broadband, out of scope, though its subject is cyber-security of networks; OWNER DECISION) and 23-02 'Enhancing Broadband Deployment Coordination' (read: creates the Office of the Broadband Coordinator; broadband); 26-17 'Responsible Administration of State Economic Development Incentives Under the ImagiNE Nebraska Act' and 26-22 (economic development, not state IT; the data-center content of 26-17 binds incentives, not agency IT); 26-24 'Enhancing Statewide Radio Systems for Public Safety' (public safety radio, out of scope); 97-7 'Create Nebraska Information Technology Commission' (Nov. 19, 1997): a scan (Adobe Paper Capture, 128,886 bytes fetched 2026-11-12 through the Fetcher from govdocs.nebraska.gov/docs/pilot/pubs/eofiles/97-7.pdf, garbled text layer, RC4-encrypted like 96-1 so the shared OCR procedure would refuse it); superseded: the Commission it created is now created by statute, Neb. Rev. Stat. 86-515 (seeded in ne-rs-86-501-530, whose text reads 'The Nebraska Information Technology Commission is created'), so the order is not an instrument in force. 96-1 'Create Information Resources Cabinet' (Jan. 10, 1996) is a stub (ne-eo-96-1: OCR refused, encrypted scan). The index shows no order rescinding 25-04. The other rows are emergency relief, burn bans, motor carrier waivers, bonds allocations, appointments and similar and were judged by title (none concerns state IT, data or AI)."
 - text: "Administrative rules: the Secretary of State's rules portal (rules.nebraska.gov) is a script shell (803 bytes, no text). 209 NAC 1 (Commission) is a stub. The Secretary of State's digital-signature rules that 86-611 calls for (found in search as Title 437, chapter 8, on a Justia page, which is not an official source) were not found on any official page and are not seeded; no other title of the Nebraska Administrative Code was found for the Office of the CIO or the Commission (the Commission's NITC legal page lists only 209 NAC 1). The NITC standards are adopted by the Commission as 'Technical Standards and Guidelines', not as rules."
