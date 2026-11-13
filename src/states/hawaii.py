@@ -6,7 +6,8 @@ A section file is page furniture around one `<div class="WordSection1">`: the se
 runs, so the number can arrive split across tags: `§</b><b>27G-</b><b>3`), then one `<p>` per paragraph, each wrapped
 at about 80 columns by the Word export, then empty `&nbsp;` paragraphs. The Previous/Next links and the analytics
 script follow the block and are dropped with the rest of the page. A section is one document: the seed list names the
-sections of chapters 27, 27G, 128B, 487J, 487N and 487R it holds; the PDFs of the library need nothing here."""
+sections of chapters 27, 27G, 94, 103D, 128B, 487J, 487N and 487R it holds (chapters 94 and 103D are outside the IT chapters:
+one section of each whose own focus is IT governance, by the owner decision of 2026-11-13); the PDFs of the library need nothing here."""
 from __future__ import annotations
 
 import html

@@ -94,3 +94,42 @@ def test_statute_notes_say_the_compilation_predates_the_2026_session_laws():
     note = states.hook("hawaii", "notes")(src("Hawaii Revised Statutes section 27-43"), "html", "x")
     assert "January 2026" in note and "before the 2026 session laws" in note
     assert "not reflected" in note
+
+
+# ---- sections of chapters outside chapter 27 (owner decision 2026-11-13: a section whose own focus is IT governance) ----
+S941_2 = (FIX / "hrs-94-1.2.htm").read_bytes()
+S103D1006 = (FIX / "hrs-103d-1006.htm").read_bytes()
+S103D215 = (FIX / "hrs-103d-215.htm").read_bytes()
+
+
+def test_a_section_of_chapter_94_keeps_its_numbered_list_and_drops_the_furniture():
+    lines = stat(S941_2).splitlines()
+    assert lines[0].startswith("[§94-1.2] The state archivist. The department of accounting and general services shall")
+    assert lines[1].startswith("(1) Administer the state archives, records management, and digital archives programs")
+    assert any(l.startswith("(3) Issue guidelines and standards, including those applicable to computer hardware") for l in lines)
+    assert lines[-1].startswith("(5) Request and obtain an electronic copy") and lines[-1].endswith("[L 2013, c 88, pt of §1]")
+    for junk in ("Previous", "Next", "cloudflare", "&nbsp;"):
+        assert junk not in stat(S941_2)
+
+
+def test_a_section_of_the_procurement_code_is_one_document_with_a_letter_in_its_chapter_number():
+    lines = stat(S103D1006).splitlines()
+    assert lines[0].startswith("§103D-1006 Software development businesses. (a) In any expenditure of public funds for software development")
+    assert lines[-1].startswith("(b) This section shall not apply when precluded by federal requirements")
+    assert len(lines) == 2
+
+
+def test_the_procurement_automation_fund_section_is_one_document_with_its_fund_purpose_words():
+    lines = stat(S103D215).splitlines()
+    assert lines[0].startswith("[§103D-215] State procurement automation system special fund; transaction fee. (a) There is established")
+    assert lines[-1].startswith("(b) The state procurement automation special fund shall be expended")
+    assert "administration, management, operation, maintenance, and upgrade of the procurement automation system" in lines[-1]
+    states.check_identity(src("Hawaii Revised Statutes section 103D-215"), stat(S103D215))
+
+
+def test_the_identity_check_reads_chapter_numbers_with_a_letter_or_a_decimal_section():
+    for cite, text in (("Hawaii Revised Statutes section 103D-1006", stat(S103D1006)),
+                       ("Hawaii Revised Statutes section 94-1.2", stat(S941_2))):
+        states.check_identity(src(cite), text)
+    with pytest.raises(ValueError):
+        states.check_identity(src("Hawaii Revised Statutes section 94-1.1"), stat(S941_2), "the page")
