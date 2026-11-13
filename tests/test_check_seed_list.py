@@ -303,13 +303,46 @@ def test_an_oklahoma_slice_names_the_first_section_and_the_heading_it_stops_befo
     assert any("slice" in m for m in ok_errs(ok_entry(slice={"section_start": 34.43, "section_end_before": "34.44"})))
 
 
-def test_an_oklahoma_slice_belongs_only_on_an_oklahoma_entry():
-    assert any("slice" in m for m in errs(entry(slice={"section_start": "34.43", "section_end_before": "34.44"})))
-
-
 def test_oklahoma_slices_of_one_title_file_need_different_ranges():
     a = ok_entry(url="https://example.gov/os62.pdf")
     b = ok_entry(id="other", url="https://example.gov/os62.pdf",
                  slice={"section_start": "36", "section_end_before": "36.1"})
     assert ok_errs(a, b) == []
     assert any("duplicate url" in m for m in ok_errs(a, dict(b, slice=a["slice"])))
+
+
+# ---- the section-range slice is allowed on any state; another state's shape is not ----
+
+def test_a_section_range_slice_is_allowed_on_an_entry_of_any_state():
+    rng = {"section_start": "12", "section_end_before": "13"}
+    assert errs(entry(slice=rng)) == []
+    assert errs(entry(jurisdiction="washington", slice=rng)) == []
+    assert ok_errs(ok_entry(slice=rng)) == []
+    assert errs(entry(jurisdiction="washington", format="pdf", slice=rng)) == []
+
+
+def test_a_section_range_slice_keeps_its_rules_on_every_state():
+    for bad in ({"section_start": "12"}, {"section_end_before": "13"},
+                {"section_start": "12", "section_end_before": ""},
+                {"section_start": 12, "section_end_before": "13"},
+                {"section_start": "12", "section_end_before": "13", "article": "1"}):
+        assert any("slice" in m for m in errs(entry(jurisdiction="washington", slice=bad)))
+
+
+def test_section_range_slices_of_one_file_need_different_ranges_on_any_state():
+    a = entry(url="https://example.gov/t.htm", slice={"section_start": "1", "section_end_before": "2"})
+    b = dict(a, id="other", slice={"section_start": "2", "section_end_before": "3"})
+    assert errs(a, b) == []
+    assert any("duplicate url" in m for m in errs(a, dict(b, slice=a["slice"])))
+    assert any("duplicate url" in m for m in errs(a, dict(b, slice=None)))
+
+
+def test_an_oklahoma_entry_cannot_carry_another_states_slice_shape():
+    # these would pass the check and crash the ingester, whose Oklahoma hook reads only section_start/_end_before
+    assert any("slice" in m for m in ok_errs(ok_entry(slice={"article": "73"})))
+    assert any("slice" in m for m in ok_errs(ok_entry(slice={"article": "73", "part": "1"})))
+    assert any("slice" in m for m in ok_errs(ok_entry(slice={"code": "GOV", "section": "1"})))
+
+
+def test_a_california_entry_stays_limited_to_its_own_slice_shape():
+    assert any("slice" in m for m in ca_errs(ca_entry(slice={"section_start": "1", "section_end_before": "2"})))

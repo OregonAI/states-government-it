@@ -35,13 +35,19 @@ key reference the single manifest carried before it was split.
 #                           # when the printed title differs from `title` and the policy number is
 #                           # not printed. Without it: the citation's policy number, else the title.
 #     slice: {}             # optional: the document is part of the file at `url` (several entries may
-#                           # share one url when their slices differ). Three shapes, by state:
+#                           # share one url when their slices differ). Three shapes:
+#                           #   any state:  {section_start: "34.43", section_end_before: "34.44"}  (a section range)
 #                           #   colorado:   {article: "73"} or {article: "33.5", part: "19"}
 #                           #   california: {code: GOV, path: "3.3.1.8"} or {code: GOV, section: "7405"}
-#                           #   oklahoma:   {section_start: "34.43", section_end_before: "34.44"}
 ```
 
-**Oklahoma statute slice.** The Legislature serves each title as one PDF (`os62.pdf`, `os74.pdf`), which is the snapshot;
+**Section-range slice (any state).** Where the official site serves a whole chapter or title per file, a document may be
+the provision, not the chapter: `slice: {section_start, section_end_before}`, both required, non-empty strings, no other key.
+The check accepts it on an entry of any state (not California, which keeps its own shape); the state's `to_text` hook cuts it
+and its identity check confirms it, test-first. A state whose hook does not cut a slice is refused by the ingester (a sliced PDF
+or HTML source is never read whole), and the check refuses another state's shape (an `article` slice on an Oklahoma entry).
+Where the site serves one page per section, seed the section pages and no slice is needed. Oklahoma is the worked example: the
+Legislature serves each title as one PDF (`os62.pdf`, `os74.pdf`), which is the snapshot;
 `section_start` is the printed number of the first section (the heading line `§62-34.43. ...`) and `section_end_before` the
 number of the section whose heading ends the slice (that section is not in it). Both are strings, and the ranges of two
 entries of one title must differ. The state module cuts the text from the title's body headings (contents entries, with their

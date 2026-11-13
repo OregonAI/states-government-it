@@ -91,3 +91,30 @@ def test_the_whole_flow_uses_the_hooks():
     text = states.to_text(CH5D, "html", "statute", "new-hampshire")
     states.check_identity(CH_SRC, text)
     assert states.effective_date(text, "statute", "new-hampshire") is None
+
+
+# ---- section pages of a non-IT chapter (RSA 294-E:17 to :19, owner decision 2026-11-13) ----
+SEC18 = (FX / "section-294-e-18.html").read_bytes()
+SEC19 = (FX / "section-294-e-19.html").read_bytes()
+S18_SRC = {"id": "nh-st-294-e-18", "jurisdiction": "new-hampshire", "doc_type": "statute", "citation": "RSA 294-E:18",
+           "title": "RSA 294-E:18 Acceptance and Distribution of Electronic Records by Governmental Agencies",
+           "format": "html"}
+
+
+def test_a_section_page_of_a_non_it_chapter_is_that_section_only():
+    lines = nh.statute_html_to_text(SEC18).splitlines()
+    assert lines[:2] == ["TITLE XXVII CORPORATIONS, ASSOCIATIONS, AND PROPRIETORS OF COMMON LANDS",
+                         "CHAPTER 294-E UNIFORM ELECTRONIC TRANSACTIONS ACT"]
+    assert lines[3] == "294-E:18 Acceptance and Distribution of Electronic Records by Governmental Agencies. –"
+    assert sum(1 for l in lines if l[:6] == "294-E:") == 1          # no other section rides along
+    assert lines[-1].startswith("Source. 2001, 265:1.")
+    for leak in ("Hide metadata", "<", "&#150;", "Section 294-E:18\n"):
+        assert leak not in "\n".join(lines)
+
+
+def test_the_identity_check_tells_one_section_page_from_the_next():
+    text = nh.statute_html_to_text(SEC18)
+    assert nh.check_identity(S18_SRC, text, "page") is True
+    with pytest.raises(ValueError):
+        nh.check_identity({**S18_SRC, "citation": "RSA 294-E:19"}, text, "page")
+    assert nh.check_identity({**S18_SRC, "citation": "RSA 294-E:19"}, nh.statute_html_to_text(SEC19), "page") is True

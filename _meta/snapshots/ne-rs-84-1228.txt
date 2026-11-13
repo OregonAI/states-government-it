@@ -1,0 +1,3 @@
+84-1228. Electronic record constituting permanent record; requirements.
+Any electronic record authorized by statute to constitute the permanent record shall be electronically reproduced onto a protected backup file within five working days of the creation of the permanent record. Adequate protective technology shall be used by the keeper of the records to protect the backup file from electrical surges and from unauthorized tampering. The backup file shall be kept in a separate location from the permanent record to minimize the risk of destruction of both copies.
+Source: Laws 1999, LB 234, § 14; Laws 2006, LB 921, § 12.

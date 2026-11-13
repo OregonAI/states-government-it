@@ -23,6 +23,24 @@ sources:
       Portal (276A.270-276A.276) and GIS (276A.500-276A.515). The source serves the whole chapter as one
       page, so the broadband sections (276A.400-276A.424, out of scope) come with it.'
 
+  # ---- Statute: provisions of chapters that are mostly not IT law (owner decision 2026-11-13: a provision whose own
+  # focus is the governance of state government IT is in scope as a section slice). Each is the lines from one heading
+  # to the next, cut by src/states/oregon.py from the Legislature's page for the whole chapter.
+  - id: or-ors-291-034
+    sha256: "ffd5bfaea034cedece11bd58934df30e05d993b6b787789c5f3e6b3ba1968a09"
+    url: https://www.oregonlegislature.gov/bills_laws/ors/ors291.html
+    format: html
+    citation: ORS 291.034
+    title: 'ORS 291.034: Providing technical services involving data processing'
+    doc_type: statute
+    jurisdiction: oregon
+    issuing_body: Oregon Legislative Assembly; published by the Legislative Counsel Committee
+    tags: [governance, funding]
+    recheck: monthly
+    slice: {section_start: '291.034', section_end_before: '291.035'}
+    why_relevant: 'Owner-approved provision of the State Financial Administration chapter (chapter 291). It is about the State CIO''s IT services to state agencies: "The State Chief Information Officer may provide technical services to state agencies for data processing systems development and developing data processing methods and applications in a manner that is consistent with the State Chief Information Officer''s rules, policies and standards", charged to the agency served, with the money deposited in the State Information Technology Operating Fund.'
+    currency_note: 'Read from the Legislature''s page for ORS chapter 291 (2025 Edition) fetched through the Fetcher on 2026-11-13. The section is printed with its text and history note [1965 c.365 §4; 2015 c.807 §40], with no repeal, renumbering or later-operative note.'
+
   # ---- Administrative rules: OAR chapter 128, Office of the State CIO (division 10, broadband, is left out)
   - id: or-oar-128-20
     sha256: "cba43395b02555e6fdb6e332e707d7804e1bfae3e7d7381a502fc6cfb3dedce7"
@@ -849,20 +867,51 @@ left_out:
        (https://www.oregon.gov/gov/eo/eo_18-05.pdf). Public records are a records-management matter
        rather than IT governance. OWNER DECISION: not seeded, no text read to decide.
 - text: |-
-    Statute outside chapter 276A (each page fetched from oregonlegislature.gov, 2025 Edition). All pass
-    the inclusion test as state-agency IT procurement and governance, but the ingester mirrors a whole
-    chapter per page, and each chapter is mostly unrelated law (ch. 291 about 26,000 words; ch. 279A
-    and 279B about 19,500 each). OWNER DECISION whether partial-chapter statutes enter, and how
-    (a whole-chapter mirror, or provision-level entries with oversight/procurement tags):
-     - ORS 291.032 'Providing technical services involving management and organization' and ORS 291.034
-       'Providing technical services involving data processing' (chapter 291, https://www.oregonlegislature.gov/bills_laws/ors/ors291.html).
-     - ORS 291.042 'Copyright, patent or other use of state data processing programs, information or
-       materials; disposition of moneys collected' (chapter 291).
-     - ORS 291.047 'Public contract approval by Attorney General; exemptions; rules': the Attorney General
-       approves information technology contracts calling for payment in excess of $75,000 (chapter 291).
-     - ORS 279A.050 'Procurement authority': the State CIO may review any solicitation document for
-       procuring information technology or telecommunications before it issues
-       (https://www.oregonlegislature.gov/bills_laws/ors/ors279A.html).
-     - ORS 279B.030(4): materials from a cost analysis for IT services go to the State CIO, who adopts
-       rules (https://www.oregonlegislature.gov/bills_laws/ors/ors279B.html).
+    Statute outside chapter 276A. Each page was fetched from oregonlegislature.gov (2025 Edition) and the sections
+    read on 2026-11-13. OWNER DECISION 2026-11-13: a provision that is not itself about IT is in scope, as a section
+    slice, when the provision's own focus is the governance of state government IT; a general provision that merely
+    applies to IT along with everything else is not. Seeded as a slice (ORS chapter 291, cut by src/states/oregon.py):
+    ORS 291.034 (the State CIO's data processing technical services to agencies; or-ors-291-034). Read and declined
+    (the owner may overrule any of them):
+     - ORS 291.042 'Copyright, patent or other use of state data processing programs, information or materials;
+       disposition of moneys collected': read, and its focus IS IT governance (the State CIO "may hold copyrights and
+       obtain patents on copyrightable or patentable data processing programs, information or materials that a state
+       agency develops, publishes or produces"). Not seeded only because it is not a candidate in any group of
+       docs/research/12 for Oregon, so the 2026-11-13 approval does not reach it. OWNER DECISION: confirm it and it can
+       be seeded as the slice {section_start: '291.042', section_end_before: '291.044'} (the slice code and a test on it
+       exist); the slice ends with the page's pointer 'Note: See note under 291.040.', and the note itself (291.040 and
+       291.042 enacted but not added to chapter 291) is printed under 291.040, outside it.
+     The following were declined because their focus is not IT:
+     - ORS 291.032 'Providing technical services involving management and organization': management-improvement
+       consulting by DAS, or by the State CIO "for purposes related to information and telecommunications technology";
+       the subject is management consulting in general.
+     - ORS 291.015 (DAS fiscal responsibilities), 291.016 (administrative and organizational surveys) and 291.018
+       (research and administrative reports): DAS powers over state administration and fiscal affairs; 291.016 and
+       291.018 add the State CIO for IT purposes in one clause, which is IT applied along with everything else.
+     - ORS 291.026 (DAS examines agency records and financial affairs): a financial-audit power, not IT.
+     - ORS 291.047 'Public contract approval by Attorney General' (with the definitions in 291.045): legal-sufficiency
+       review of all personal services, architectural and engineering, and large public contracts; information
+       technology contracts over $75,000 are one class among them.
+     - ORS 279A.050 'Procurement authority' (https://www.oregonlegislature.gov/bills_laws/ors/ors279A.html): allocates
+       procurement authority among DAS, Transportation, the Secretary of State, the Treasurer and a dozen other agencies;
+       the State CIO's delegated IT procurement authority and solicitation review are three of its provisions (2)(b),
+       (7)(b) and (7)(c), in a section whose focus is the whole state's procurement authority.
+     - ORS 279B.030 'Demonstration that procurement will cost less than performing service with own personnel'
+       (https://www.oregonlegislature.gov/bills_laws/ors/ors279B.html): CLOSE CALL FOR THE OWNER. The printed title
+       ends '...; analysis for procurement related to information technology; rules', and subsection (4) is IT
+       oversight: a state contracting agency sends its cost analysis for services 'related to information technology'
+       to the State CIO and the Legislative Fiscal Office, and (4)(c) says the State CIO 'shall adopt rules and develop
+       policies for incorporating materials the State Chief Information Officer receives under paragraph (a) of this
+       subsection into the oversight functions that the State Chief Information Officer exercises under ORS 276A.206
+       and the planning functions that the State Chief Information Officer exercises under ORS 276A.233 and 276A.236'.
+       Declined because subsections (1) to (3), the body of the section, are a cost-analysis duty for every services
+       procurement over $250,000, with exemptions for local bodies; IT is one subsection of it. If the owner reads the
+       title's IT clause as the section's own focus, it can be seeded as a slice or whole.
+     - ORS 184.305 (creation and purpose of DAS) and 184.340 (DAS rule-making power): the department's general
+       organization and rule power, not IT governance.
+     - ORS 646A.600 to 646A.628, Oregon Consumer Information Protection Act: breach notice, security freezes and
+       safeguards for personal information, addressed to any "person" (the definition includes a public body) in
+       consumer-protection law; the general private-and-public law, not a duty on state IT as such.
+     - ORS 219.110: the citing policy (107-004-160) prints it, but the Legislature's site has no chapter 219 page
+       (https://www.oregonlegislature.gov/bills_laws/ors/ors219.html answered 404 on 2026-11-13); nothing to read.
 - text: OAR chapter 128 division 10 (broadband) is left out, noted at the top of the rules section.

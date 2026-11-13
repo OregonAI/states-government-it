@@ -1,0 +1,37 @@
+14-3-15.2. Electronic authentication; substitution for signature.
+   Whenever there is a requirement for a signature on any document, electronic
+authentication that meets the standards promulgated by the commission may be
+substituted.
+
+History: Laws 1995, ch. 27, § 1.
+
+                                      ANNOTATIONS
+
+Cross references. — For format of rules filings under State Rules Act, see 14-4-3
+NMSA 1978.
+
+For electronic filing of report of campaign expenditures and contributions, see 1-19-31
+NMSA 1978.
+
+For electronic filing under Taxation and Revenue Department Act, see 9-11-6.4 NMSA
+1978.
+
+For electronic filing of annual statement by insurer, see 59A-5-29 NMSA 1978.
+
+For electronic copies and abstracts of motor vehicle records, see 66-2-7 NMSA 1978.
+
+For electronic filing of title applications for motor vehicle titles, see 66-3-201 NMSA
+1978.
+
+For use of electronic versions of uniform traffic citations in the issuance of citations, see
+66-8-128 NMSA 1978.
+
+For submission of required information to the Motor Vehicle Division of penalty
+assessments under municipal programs via electronic means, see 66-8-130 NMSA
+1978.
+
+For electronic filing of abstract of record in cases involving violations of Motor Vehicle
+Code, see 66-8-135 NMSA 1978.
+
+For the Electronic Authentication of Documents Act, see Chapter 14, Article 15 NMSA
+1978.

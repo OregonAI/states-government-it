@@ -1,0 +1,66 @@
+14-16-17. Creation and retention of electronic records and
+conversion of written records by governmental agencies.
+   Each governmental agency of this state shall determine whether, and the extent to
+which, it will create and retain electronic records and convert written records to
+electronic records.
+
+History: Laws 2001, ch. 131, § 17.
+
+14-16-18. Acceptance and distribution of electronic records by
+governmental agencies.
+    The state records administrator shall issue rules for the implementation of the
+provisions of the Uniform Electronic Transactions Act that shall apply to all
+governmental agencies; provided that a governmental agency, giving due consideration
+to security, may instead issue its own rules that specify:
+
+   A. the manner and format in which the electronic records must be created,
+generated, sent, communicated, received and stored and the systems established for
+those purposes;
+
+    B. if electronic records must be signed by electronic means, the type of electronic
+signature required, the manner and format in which the electronic signature must be
+affixed to the electronic record and the identity of, or criteria that must be met by, any
+third party used by a person filing a document to facilitate the process;
+
+   C. control processes and procedures as appropriate to ensure adequate
+preservation, disposition, integrity, security, confidentiality and auditability of electronic
+records; and
+
+   D. any other required attributes for electronic records that are specified for
+corresponding nonelectronic records or reasonably necessary under the circumstances.
+
+History: Laws 2001, ch. 131, § 18; 2013, ch. 214, § 10.
+
+                                       ANNOTATIONS
+
+The 2013 amendment, effective June 14, 2013, made governmental agencies subject
+to the Uniform Electronic Transactions Act; deleted former Subsection (a), which gave
+governmental agencies the option to use electronic records; in former Subsection (b),
+deleted "To the extent that a governmental agency uses electronic records and
+electronic signatures under Subsection (a), the"; at the beginning of the introductory
+sentence, added "The state records administrator shall issue rules for the
+implementation of the provisions of the Uniform Electronic Transactions Act that shall
+apply to all governmental agencies; provided that" and after "consideration to security,
+may", added "instead issue its own rules that"; and deleted former Subsection (c), which
+provided that the Uniform Electronic Transactions Act did not require governmental
+agencies to use electronic records or signatures.
+
+14-16-19. Interoperability.
+    The governmental agency of this state which adopts standards pursuant to Section
+18 [14-16-18 NMSA 1978] may encourage and promote consistency and interoperability
+with similar requirements adopted by other governmental agencies of this and other
+states and the federal government and nongovernmental persons interacting with
+governmental agencies of this state. If appropriate, those standards may specify
+differing levels of standards from which governmental agencies of this state may choose
+in implementing the most appropriate standard for a particular application.
+
+History: Laws 2001, ch. 131, § 19.
+
+                                       ANNOTATIONS
+
+Severability. — Laws 2001, ch. 131, § 20 provided that if any provision of the Uniform
+Electronic Transactions Act or its application to any person or circumstance is held
+invalid, the invalidity does not affect other provisions or applications of the act which can
+
+be given effect without the invalid provision or application, and to this end the provisions
+of the act are severable.

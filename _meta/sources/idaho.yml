@@ -334,49 +334,6 @@ sources:
   recheck: "monthly"
   identity_text: "P1030 – ELECTRONIC CONTENT MANAGEMENT"
   why_relevant: "Item of the ITA statewide policies, standards and guidelines library (ita.idaho.gov/policies), category '1000 - General, Policies', a policy. The library's own summary: \"ITA Policy P1030 outlines the management of electronic documents, ensuring compliance with state records management policies and statutes.\""
-- id: "id-ita-p1040"
-  sha256: "3b3e6a42bafc66cb294cc0025bd96000f5fc02d2f5843cd91bd814368d58a607"
-  url: "https://ita.idaho.gov/wp-content/uploads/2025/07/p1040.pdf"
-  format: "pdf"
-  citation: "ITA Policy P1040"
-  title: "P1040 – Electronic Mail and Messaging"
-  doc_type: "policy"
-  jurisdiction: "idaho"
-  issuing_body: "Idaho Technology Authority (ITA)"
-  tags:
-  - "governance"
-  - "data"
-  recheck: "monthly"
-  identity_text: "P1040 – EMAIL AND ELECTRONIC MESSAGING"
-  why_relevant: "Item of the ITA statewide policies, standards and guidelines library (ita.idaho.gov/policies), category '1000 - General, Policies', a policy. The library's own summary: \"ITA Policy P1040 ensures proper and efficient use of Idaho’s email and messaging systems by employees, promoting ethical and lawful communication.\""
-- id: "id-ita-p1050"
-  sha256: "13047ad7a0362ce64cb88f0331491190249f5ce3ea9d01c867a423fecf80cf7e"
-  url: "https://ita.idaho.gov/wp-content/uploads/2025/07/p1050-ADA.pdf"
-  format: "pdf"
-  citation: "ITA Policy P1050"
-  title: "P1050 – Internet Use and Control"
-  doc_type: "policy"
-  jurisdiction: "idaho"
-  issuing_body: "Idaho Technology Authority (ITA)"
-  tags:
-  - "governance"
-  recheck: "monthly"
-  identity_text: "P1050 – INTERNET USE AND CONTROL"
-  why_relevant: "Item of the ITA statewide policies, standards and guidelines library (ita.idaho.gov/policies), category '1000 - General, Policies', a policy. The library's own summary: \"ITA Policy P1050 ensures responsible and secure internet use, monitoring, and filtering to protect state resources and enhance productivity.\""
-- id: "id-ita-p1060"
-  sha256: "06f8fc221def7c4005dd28f6ff20c961c6942e32def2fcdc565fccbb2fb18852"
-  url: "https://ita.idaho.gov/wp-content/uploads/2025/07/p1060.pdf"
-  format: "pdf"
-  citation: "ITA Policy P1060"
-  title: "P1060 – State-Issued IT Devices"
-  doc_type: "policy"
-  jurisdiction: "idaho"
-  issuing_body: "Idaho Technology Authority (ITA)"
-  tags:
-  - "governance"
-  recheck: "monthly"
-  identity_text: "P1060 – STATE-ISSUED IT DEVICES"
-  why_relevant: "Item of the ITA statewide policies, standards and guidelines library (ita.idaho.gov/policies), category '1000 - General, Policies', a policy. The library's own summary: \"ITA Policy P1060 outlines the expectations for the use of state-issued IT devices, ensuring proper management and security.\""
 - id: "id-ita-p1070"
   sha256: "80a94818b12802ce3cc58cc19986ecfb42e23d291baa3094e57a1eef869f3dc7"
   url: "https://ita.idaho.gov/wp-content/uploads/2025/07/p1070.pdf"
@@ -2024,6 +1981,20 @@ sources:
 
 left_out:
 - text: '---- Idaho: found and left out (each was seen on an official page on 2026-11-11; the reason is recorded here)'
+- text: |-
+    ITA P1040 "Electronic Mail and Messaging" (https://ita.idaho.gov/wp-content/uploads/2025/07/p1040.pdf), P1050 "Internet Use and Control"
+    (https://ita.idaho.gov/wp-content/uploads/2025/07/p1050-ADA.pdf) and P1060 "State-Issued IT Devices"
+    (https://ita.idaho.gov/wp-content/uploads/2025/07/p1060.pdf) were seeded and are removed: not in force, by owner decision 2026-11-13
+    (the three ITA policies that rest on the lapsed Executive Order 2005-22). Idaho Code 67-802 ends every executive order within four
+    years unless renewed, and no order before 2019 is on the Governor's list. What each held copy prints. P1050: the Authority section
+    prints "Authority:   Idaho Code § 67-833" followed on its own line by "Executive Order 2005-22", and its revision history prints
+    "11/15/06 – Updated Authority section to reference Executive Order 2005-22." P1040: the Authority section prints
+    "Authority: Idaho Code § 67-833(3)" and the order appears only in the revision-history row "11/15/06 – Updated Authority section to
+    reference Executive Order 2005-22."; a row "07/16/14 – Updates Section I. Authority to be consistent with Idaho statute." follows
+    it later. P1060: the Authority section prints "Authority: Idaho Code § 67-833"; the order appears only in the revision-history row
+    "11/15/06 – Updated Authority section to reference Executive Order 2005-22.", and a row "07/16/14 – Updated Section I. Authority to be
+    consistent with Idaho statute." is later. For P1040 and P1060 the current Authority line names only the statute, so the owner may
+    reverse this decision for those two; it is applied as written.
 - text: |-
     Rules: none seeded, NOT RESOLVED. A search lead (not an official page) named IDAPA 15.07.01, "Rules Governing Billing
     Procedures of the Office of Information Technology Services". The Administrative Rules Coordinator's 2018 archive

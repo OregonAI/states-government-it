@@ -208,3 +208,88 @@ def test_the_download_widget_the_repeated_references_and_the_hidden_category_lab
         t = ing.to_text(raw, "html", kind, "massachusetts").splitlines()
         assert t[0] != t[1]
         assert not any("Table of Contents" in l or "×" in l for l in t)
+
+
+# ---- one section of a chapter (the Legislature serves one page per section) ------------------------------------
+
+CH6A = "https://malegislature.gov/Laws/GeneralLaws/PartI/TitleII/Chapter6A"
+SEC7A = f"{CH6A}/Section7A"
+PAGES6A = {CH6A: (FIX / "6a-chapter.html").read_bytes(), SEC7A: (FIX / "6a-section-7a.html").read_bytes()}
+SRC7A = {"id": "ma-gl-6a-7a", "jurisdiction": "massachusetts", "doc_type": "statute", "url": SEC7A,
+         "citation": "G.L. c. 6A, § 7A", "title": "General Laws, Chapter 6A, Section 7A"}
+
+
+def section(tmp_path, src=SRC7A, pages=PAGES6A):
+    f = FakeFetcher(pages)
+    raw, _ = ma.snapshot(src, f, tmp_path / "x.html", False)
+    return raw, f
+
+
+def test_a_section_entry_is_bundled_from_its_chapter_page_and_its_own_page_only(tmp_path):
+    raw, f = section(tmp_path)
+    assert f.asked == [CH6A, SEC7A]
+
+
+def test_a_section_document_is_the_chapter_heading_and_that_one_section_and_nothing_else(tmp_path):
+    raw, _ = section(tmp_path)
+    text = ing.to_text(raw, "html", "statute", "massachusetts")
+    lines = text.splitlines()
+    assert lines[0] == "Chapter 6A EXECUTIVE OFFICES"
+    assert lines[2].startswith("Section 7A: Executive office of technology services and security;")
+    assert lines[3].startswith("Section 7A. The executive office of technology services and security is the commonwealth's lead information technology organization.")
+    assert text.count("\nSection ") == 2 and "Section 8" not in text
+    for leak in ("<", "Print Page", "Search the Legislature", "Skip to Content", "Helpful Massachusetts Links"):
+        assert leak not in text
+
+
+def test_a_section_the_chapters_table_of_contents_does_not_link_is_refused(tmp_path):
+    src = {**SRC7A, "url": f"{CH6A}/Section999", "citation": "G.L. c. 6A, § 999"}
+    with pytest.raises(ValueError, match="does not link"):
+        ma.snapshot(src, FakeFetcher({**PAGES6A, src["url"]: PAGES6A[SEC7A]}), tmp_path / "x.html", False)
+
+
+def test_a_section_must_be_the_section_cited(tmp_path):
+    raw, _ = section(tmp_path)
+    text = ing.to_text(raw, "html", "statute", "massachusetts")
+    ing.check_identity(SRC7A, text, "html")
+    with pytest.raises(ValueError, match="section"):
+        ing.check_identity({**SRC7A, "citation": "G.L. c. 6A, § 109"}, text, "html")
+    with pytest.raises(ValueError, match="chapter"):
+        ing.check_identity({**SRC7A, "citation": "G.L. c. 7D, § 7A"}, text, "html")
+
+
+def test_a_whole_chapter_text_is_not_the_section_cited(tmp_path):
+    raw, _ = bundle(tmp_path)
+    text = ing.to_text(raw, "html", "statute", "massachusetts")
+    with pytest.raises(ValueError, match="section"):
+        ing.check_identity({**SRC66A, "citation": "G.L. c. 66A, § 2"}, text, "html")
+
+
+def _bundle_of(tmp_path, number, fixture):
+    url = f"{CH6A}/Section{number}"
+    toc = PAGES6A[CH6A]
+    src = {**SRC7A, "url": url, "citation": f"G.L. c. 6A, § {number}"}
+    f = FakeFetcher({CH6A: toc, url: (FIX / fixture).read_bytes()})
+    raw, _ = ma.snapshot(src, f, tmp_path / "x.html", False)
+    return raw
+
+
+def test_a_repealed_section_is_refused_by_its_heading_caption(tmp_path):
+    # the real c. 6A s. 8 page: the repeal is in the heading caption and the body is empty
+    raw = _bundle_of(tmp_path, "8", "6a-section-8-repealed.html")
+    with pytest.raises(ValueError, match="repealed"):
+        ing.to_text(raw, "html", "statute", "massachusetts")
+
+
+def test_a_section_printing_a_text_of_section_effective_bracket_is_refused(tmp_path):
+    # the real c. 6A s. 109 page: a bracket line announces a version that takes effect on a later date
+    raw = _bundle_of(tmp_path, "109", "6a-section-109-not-yet-effective.html")
+    with pytest.raises(ValueError, match="effective"):
+        ing.to_text(raw, "html", "statute", "massachusetts")
+
+
+def test_a_section_entry_note_describes_one_section_and_a_chapter_entry_note_the_whole_chapter():
+    sec = ma.notes({**SRC7A}, "html", "")
+    assert "one cited section page" in sec and "each section page" not in sec
+    chap = ma.notes({**SRC66A}, "html", "")
+    assert "each section page" in chap

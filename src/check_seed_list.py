@@ -28,6 +28,8 @@ ROOT = Path(__file__).resolve().parent.parent
 REQUIRED = ("id", "url", "format", "citation", "title", "doc_type", "jurisdiction", "tags",
             "why_relevant")
 CA_SLICE_CODES = {"GOV", "CIV", "PCC"}   # the codes src/ingest.py's CA_CODES maps to (a test keeps them equal)
+# states whose only slice shape is the section range (their hook reads no other)
+ARTICLE_REFUSED = {"oklahoma"}
 FORMATS = {"html", "pdf", "doc", "docx", "xlsx", "json", "xml", "txt"}
 
 
@@ -89,22 +91,26 @@ def check(manifest: dict, domain: dict) -> list[str]:
         urls.add(key)
         if "slice" in e and e["slice"] is not None:
             ok_strings = isinstance(sl, dict) and all(isinstance(v, str) and v for v in sl.values())
-            is_ca = e.get("jurisdiction") == "california"
-            colorado = (not is_ca and ok_strings and not _blank(sl.get("article"))
-                        and not set(sl) - {"article", "part"})
+            juris = e.get("jurisdiction")
+            is_ca = juris == "california"
+            # a section range of one file (a title PDF, a chapter page): the printed number of the first
+            # section and of the section whose heading ends the slice (that section is not in it); a state's
+            # to_text hook cuts it, and the ingester refuses a state whose hook does not (src/states)
+            section_range = (not is_ca and ok_strings and set(sl) == {"section_start", "section_end_before"})
+            # a Colorado-style article (and optionally part) of a title file; Oklahoma's hook reads only
+            # the section range, so an article slice there would pass this check and crash the ingester
+            colorado = (not is_ca and juris not in ARTICLE_REFUSED and ok_strings
+                        and not _blank(sl.get("article")) and not set(sl) - {"article", "part"})
             # a California slice of the Legislature's bulk download: a code the ingester knows and
             # exactly one of a table-of-contents path or a section number; only California entries
             california = (is_ca and ok_strings and sl.get("code") in CA_SLICE_CODES
                           and set(sl) <= {"code", "path", "section"}
                           and len(set(sl) & {"path", "section"}) == 1)
-            # an Oklahoma slice of a Legislature title PDF: the printed number of the first section and
-            # of the section whose heading ends the slice (that section is not in it); only Oklahoma entries
-            oklahoma = (e.get("jurisdiction") == "oklahoma" and ok_strings
-                        and set(sl) == {"section_start", "section_end_before"})
-            if not (colorado or california or oklahoma):
-                bad("slice must be a mapping with article (and optionally part), or, on a california entry, "
-                    f"with code (one of {sorted(CA_SLICE_CODES)}) and exactly one of path or section, as strings, "
-                    "or, on an oklahoma entry, with section_start and section_end_before, as strings")
+            if not (colorado or california or section_range):
+                bad("slice must be a mapping with section_start and section_end_before, as strings, "
+                    "or with article (and optionally part), as strings (not on a california or oklahoma entry), or, "
+                    f"on a california entry, with code (one of {sorted(CA_SLICE_CODES)}) and exactly one of path "
+                    "or section, as strings")
         url = e.get("url")
         if isinstance(url, str) and not url.startswith(("http://", "https://")):
             bad(f"url is not http(s): {url}")

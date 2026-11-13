@@ -4,10 +4,16 @@ Hooks are described in src/states/__init__.py.
 A statute page is not one section: the site serves a window of neighbouring sections around the one
 asked for. The page names the section it was asked for in its `<title>` ("Wisconsin Legislature: 16.971"),
 and only the elements the page itself tags with that section are the text (a seed entry needs no `slice`,
-which the shared seed check does not allow for this state). An administrative-code page is the whole chapter."""
+which the shared seed check does not allow for this state). An administrative-code page is the whole chapter.
+
+A section whose page is cut off by the end of the window (s. 16.61) is a slice of the Legislature's chapter PDF
+(/document/statutes/16.pdf, one file per chapter, two columns): `slice: {section_start, section_end_before}`, the
+printed numbers of the first section and of the section whose heading ends the slice. The PDF is read in column order
+(not `-layout`), the page header, footer and running head are dropped, and a word hyphenated at a line end is joined."""
 from __future__ import annotations
 
 import re
+import subprocess
 
 from src.ingest_common import _clean_line, _decode
 from src.states import UNHANDLED
@@ -91,9 +97,73 @@ def legis_html_to_text(raw: bytes, doc_type: str) -> str:
     return "\n".join(lines) + "\n"
 
 
+# ---- statutes: one slice of the Legislature's chapter PDF ------------------------------------
+
+_HEADING = re.compile(r"^(\d+\.\d+[a-z]*) [A-Z\u201c]")      # "16.611 State public records"; not "16.611 (2)" or "16.61;"
+_PAGE_HEADER = re.compile(r"^Updated (2023-24|23-24) Wis\. Stats\.")
+_FOOTER_1 = re.compile(r"^\d{4}-\d{2} Wisconsin Statutes updated through ")
+_FOOTER_2 = re.compile(r"^after .*, are designated by NOTES\. \(Published \d{1,2}-\d{1,2}-\d{2}\)$")
+
+
+def slice_headings(lines: list[str]) -> list[tuple[int, str]]:
+    """(line index, section number) of every line that opens a section: a number, a space and a capital."""
+    return [(i, m.group(1)) for i, line in enumerate(lines) if (m := _HEADING.match(line))]
+
+
+def _chapter_pdf_lines(raw: bytes) -> tuple[list[str], str]:
+    """The chapter PDF's body lines in reading order, with the page furniture removed, and the Legislature's
+    certification line (the page footer, which is the same on every page)."""
+    proc = subprocess.run(["pdftotext", "-", "-"], input=raw, capture_output=True, check=False)
+    if proc.returncode != 0:
+        raise ValueError("pdftotext could not read the Wisconsin statute chapter PDF")
+    text = proc.stdout.decode("utf-8", "replace").replace("\f", "\n")
+    lines = [_clean_line(l) for l in text.splitlines()]
+    lines = [l for l in lines if l]
+    title = next((lines[i + 1] for i, l in enumerate(lines[:-1]) if re.fullmatch(r"CHAPTER \d+[A-Z]?", l)), "")
+    body, cert = [], ""
+    for line in lines:
+        if _FOOTER_1.match(line):
+            cert = cert or line
+        elif _FOOTER_2.match(line):
+            if cert and not cert.endswith(")"):
+                cert = f"{cert} {line}"
+        elif (_PAGE_HEADER.match(line) or re.fullmatch(r"\d{1,3}", line) or re.fullmatch(r"\d+\.\d+[a-z]*", line)
+              or (title and line == title)):
+            continue
+        else:
+            body.append(line)
+    return body, cert
+
+
+def slice_chapter(raw: bytes, start: str, end_before: str) -> str:
+    """The lines from the heading of section `start` to the line before the heading of `end_before`, then the
+    certification line. Both headings must be there, once each as a heading, and in that order."""
+    lines, cert = _chapter_pdf_lines(raw)
+    heads = slice_headings(lines)
+    first = [i for i, num in heads if num == start]
+    if len(first) != 1:
+        raise ValueError(f"section {start} is printed {len(first)} times as a heading in the chapter PDF "
+                         "(the layout changed, the section was renumbered, or the slice is wrong)")
+    stop = next((i for i, num in heads if num == end_before and i > first[0]), None)
+    if stop is None:
+        raise ValueError(f"heading {end_before} does not follow section {start} in the chapter PDF: "
+                         "the slice would be a guess")
+    out: list[str] = []
+    for line in lines[first[0]:stop]:
+        if out and re.search(r"[a-z]-$", out[-1]) and re.match(r"[a-z]", line):
+            out[-1] = out[-1][:-1] + line           # a word hyphenated at the end of a line
+        else:
+            out.append(line)
+    if not cert:
+        raise ValueError("the Wisconsin chapter PDF prints no certification line: the layout changed")
+    return "\n".join(out + [cert]) + "\n"
+
+
 # ---- hooks (see src/states/__init__.py) ----------------------------------------
 
 def to_text(raw, fmt, doc_type, slice_, host):
+    if fmt == "pdf" and doc_type == "statute" and slice_:
+        return slice_chapter(raw, slice_["section_start"], slice_["section_end_before"])
     if fmt == "html" and doc_type in ("statute", "rule"):
         return legis_html_to_text(raw, doc_type)
     return None
@@ -143,6 +213,13 @@ def source_version(text, doc_type, fmt):
 
 
 def notes(src, fmt, text):
+    if src["doc_type"] == "statute" and fmt == "pdf":
+        return ("Text taken from the Legislature's chapter PDF, cut to this section: from its heading to the line "
+                "before the next section's heading, read in column order (pdftotext, not -layout). Page headers, "
+                "footers and running heads removed, and a word hyphenated at the end of a line joined. The last "
+                "line is the Legislature's own certification line for the edition. The Legislature's page for "
+                "this section serves it only in part (the page ends inside the section), so the chapter PDF is "
+                "the text of record.")
     if src["doc_type"] == "statute":
         return ("Text taken from the Legislature's statute page. The page serves a window of neighbouring "
                 f"sections; only the elements it tags as the section it was asked for are kept, one line per "

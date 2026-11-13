@@ -1,0 +1,3 @@
+type: Added
+
+Nevada added: 1 statute section slice, NRS 281.195 (nv-nrs-281-195, access by a state agency to computers it assigns or loans to officers, employees and contractors), cut from the Legislative Counsel Bureau's whole-chapter NRS 281 page under the owner's 2026-11-13 decision that a provision of a non-IT chapter is in scope when its own focus is state IT governance. The Nevada module reads the section-range slice (`section_start`, `section_end_before`), skipping the contents entry and the group heading, and refuses a repealed or `[Effective ...]` section. The left-out record notes the chapters (NRS 333, 719) the decision could reach that were not named candidates and were not read.

@@ -114,3 +114,25 @@ def test_a_slice_that_prints_an_amendment_not_yet_in_effect_is_refused():
     with pytest.raises(ValueError, match="2999-01-01"):
         states.check_identity(src, text, "pdf")
     states.check_identity(src, text.replace("2999", "2026"), "pdf")
+
+
+# ---- 34.33: a section whose heading wraps to a second line and whose text crosses a page break ----
+T62_3433 = (FIX / "title-62-pages-34-33.pdf").read_bytes()    # contents pages 1-2 and body pages 80-81 of the November 2026 PDF
+SRC_3433 = {"id": "ok-62-os-34-33", "jurisdiction": "oklahoma", "doc_type": "statute", "format": "pdf",
+            "citation": "62 O.S. 34.33", "title": "x",
+            "slice": {"section_start": "34.33", "section_end_before": "34.34"}}
+
+
+def test_a_section_with_a_wrapped_heading_starts_at_its_heading_and_stops_before_the_next_section():
+    text = cut(T62_3433, "34.33", "34.34")
+    lines = text.splitlines()
+    assert lines[0] == "§62-34.33. Agreements to administer information technology and"
+    assert lines[1] == "telecommunications infrastructure and security."
+    assert "§62-34.34." not in text and "Preparation of budget by Director" not in text
+    assert lines[-1].startswith("Added by Laws 2007, c. 205, § 1") or "Laws 2012, c. 304, § 365." in lines[-1]
+    assert "nine thousand (9,000) square feet" in text          # the text after the page break is in
+    assert "...." not in text                                    # the contents entry is not taken for the heading
+
+
+def test_the_section_slice_passes_the_identity_check():
+    states.check_identity(SRC_3433, cut(T62_3433, "34.33", "34.34"), "pdf")

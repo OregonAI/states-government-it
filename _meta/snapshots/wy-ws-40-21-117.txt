@@ -1,0 +1,63 @@
+     40-21-117. Creation and retention of electronic records
+and conversion of written records by government agencies.
+
+Each governmental agency shall determine whether, and the extent
+to which, a governmental agency will create and retain
+electronic records and convert written records to electronic
+records.
+
+     40-21-118. Acceptance and distribution of electronic
+records by governmental agencies.
+
+     (a) Except as otherwise provided in W.S. 40-21-112(f),
+each governmental agency of this state shall determine whether,
+and the extent to which, governmental agency will send and
+accept electronic records and electronic signatures to and from
+other persons and otherwise create, generate, communicate,
+store, process, use and rely upon electronic records and
+electronic signatures.
+
+     (b) To the extent that a governmental agency uses
+electronic records and electronic signatures under subsection
+(a) of this section, the department of enterprise technology
+services shall promulgate rules in accordance with the Wyoming
+Administrative Procedure Act to specify for state agencies:
+
+          (i) The manner and format in which the electronic
+records must be created, generated, sent, communicated, received
+and stored and the systems established for those purposes;
+
+          (ii) If electronic records must be signed by
+electronic means, the type of electronic signature required, the
+manner and format in which the electronic signature must be
+affixed to the electronic record and the identity of, or
+criteria that must be met by, any third party used by a person
+filing a document to facilitate the process;
+
+          (iii) Control processes and procedures as appropriate
+to ensure adequate preservation, disposition, integrity,
+security, confidentiality and auditability of electronic
+records; and
+
+          (iv) Any other required attributes for electronic
+records which are specified for corresponding nonelectronic
+records or reasonably necessary under the circumstances.
+
+     (c) Except as otherwise provided in W.S. 40-21-112(f),
+this act does not require a governmental agency of this state to
+
+use or permit the use of electronic records or electronic
+signatures.
+
+    40-21-119.    Interoperability.
+
+The department of enterprise technology services in adopting
+standards pursuant to W.S. 40-21-118 may encourage and promote
+consistency and interoperability with similar requirements
+adopted by other governmental agencies of this and other states
+and the federal government and nongovernmental persons
+interacting with governmental agencies of this state. If
+appropriate, those standards may specify differing levels of
+standards from which governmental agencies of this state may
+choose in implementing the most appropriate standard for a
+particular application.

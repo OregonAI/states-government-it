@@ -9,6 +9,7 @@ the last section the page prints that section's first history citation once more
 repeat is not read. The menus, the breadcrumb, the section index at the top (`ul.chaptersections`) and the footer are not read."""
 from __future__ import annotations
 
+import datetime
 import re
 from html.parser import HTMLParser
 
@@ -125,12 +126,41 @@ class _Code(HTMLParser):
             self.cur.append(data)
 
 
-def delcode_to_text(raw: bytes) -> str:
+_SECTION_HEAD = re.compile(r"^§ (\d+[A-Z]?(?:-\d+[A-Z]?)?)\.")
+
+
+def _cut(head: list[str], body: list[str], start: str, end_before: str) -> list[str]:
+    """The sections from the heading of `start` up to, not including, the heading of `end_before`. `body` holds one
+    section per blank-line-separated block, each opening on its `§ N.` heading. The page heads are kept."""
+    blocks, cur = [], []
+    for line in body + [""]:
+        if line:
+            cur.append(line)
+        elif cur:
+            blocks.append(cur)
+            cur = []
+    numbers = [(_SECTION_HEAD.match(b[0]) or [None, None])[1] for b in blocks]
+    for n in (start, end_before):
+        if n not in numbers:
+            raise ValueError(f"slice: section {n} has no heading on the page (the page changed, the section was "
+                             f"renumbered, or the slice is wrong)")
+    i, j = numbers.index(start), numbers.index(end_before)
+    if i >= j:
+        raise ValueError(f"slice: section {start} does not come before section {end_before} on the page")
+    out: list[str] = []
+    for b in blocks[i:j]:
+        out += ([""] if out else []) + b
+    return head + [""] + out
+
+
+def delcode_to_text(raw: bytes, slice_: dict | None = None) -> str:
     p = _Code()
     p.feed(raw.decode("utf-8", errors="replace"))
     p.close()
     if not p.sections or not p.out:
         raise ValueError("Delaware Code page has no code body: the page layout changed or this is not a code page")
+    if slice_:
+        return "\n".join(_cut(p.head, p.out, slice_["section_start"], slice_["section_end_before"])) + "\n"
     return "\n".join(p.head + [""] + p.out) + "\n"
 
 
@@ -138,11 +168,14 @@ def delcode_to_text(raw: bytes) -> str:
 
 def to_text(raw, fmt, doc_type, slice_, host):
     if fmt == "html" and doc_type == "statute":
-        return delcode_to_text(raw)
+        return delcode_to_text(raw, slice_)
     return None
 
 
 _CITE = re.compile(r"^(\d+) Del\. C\. ch\. (\w+)(?:, subch\. ([IVX]+))?")
+_SECTIONS = re.compile(r"(\d+) Del\. C\. (\d+[A-Z]?(?:-\d+[A-Z]?)?)(?: to (\d+[A-Z]?(?:-\d+[A-Z]?)?))?")
+_HEAD_EFFECTIVE = re.compile(r"\[Effective ([A-Z][a-z]{2})[a-z]*\.? (\d{1,2}), (\d{4})\]")
+_MON = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]
 _WORDS = ("zero one two three four five six seven eight nine ten eleven twelve thirteen fourteen fifteen sixteen "
           "seventeen eighteen nineteen").split()
 _TENS = {2: "twenty", 3: "thirty", 4: "forty", 5: "fifty", 6: "sixty", 7: "seventy", 8: "eighty", 9: "ninety"}
@@ -154,9 +187,30 @@ def _number_words(n: int) -> str:
     return _TENS[n // 10] + (f" {_WORDS[n % 10]}" if n % 10 else "")
 
 
+def _check_sections(src, text, what_is, sec, today=None):
+    """A section slice is the cited one when its title is the cited title, it opens on the first cited section's
+    heading and its last heading is the last cited section, and no heading is a repeal or a not-yet-effective mark."""
+    title, first, last = sec.group(1), sec.group(2), sec.group(3) or sec.group(2)
+    lines = text.splitlines()
+    heads = [m.group(1) for l in lines if (m := _SECTION_HEAD.match(l))]
+    if f"TITLE {title}" not in lines or not heads or heads[0] != first or heads[-1] != last:
+        raise ValueError(f"{src['id']}: {what_is} is not {src['citation']}: the slice opens on "
+                         f"{heads[0] if heads else None!r} and its last heading is {heads[-1] if heads else None!r}")
+    for l in lines:
+        if _SECTION_HEAD.match(l) and "[Repealed]" in l:
+            raise ValueError(f"{src['id']}: {l.split('.')[0]} is printed as repealed: not in force")
+        if _SECTION_HEAD.match(l) and (e := _HEAD_EFFECTIVE.search(l)):
+            d = datetime.date(int(e.group(3)), _MON.index(e.group(1)) + 1, int(e.group(2)))
+            if d > (today or datetime.date.today()):
+                raise ValueError(f"{src['id']}: {l.split('.')[0]} is not in force until {d.isoformat()}")
+    return True
+
+
 def check_identity(src, text, what_is):
     if src["jurisdiction"] != "delaware":
         return False
+    if src["doc_type"] == "statute" and (sec := _SECTIONS.fullmatch(src["citation"])):
+        return _check_sections(src, text, what_is, sec)
     if src["doc_type"] == "statute":
         m = _CITE.match(src["citation"])
         if not m:
@@ -206,7 +260,11 @@ def source_version(text, doc_type, fmt):
 
 def notes(src, fmt, text):
     if fmt == "html" and src["doc_type"] == "statute":
-        return ("Text taken from the Delaware Code Online page on delcode.delaware.gov (the Division of Research of the "
+        sl = src.get("slice") or {}
+        cut = (f"This document is the sections from the heading of section {sl['section_start']} to the line before the "
+               f"heading of section {sl['section_end_before']} of the page, cut here; the page's other sections are "
+               f"not in it. " if sl else "")
+        return cut + ("Text taken from the Delaware Code Online page on delcode.delaware.gov (the Division of Research of the "
                 "General Assembly): the title, chapter and subchapter heads, then each section's heading, "
                 "paragraphs, history citations and any repeal note, one line per paragraph, indented by the "
                 "page's paragraph level. The menus, the breadcrumb, the section index at the top of the page and "

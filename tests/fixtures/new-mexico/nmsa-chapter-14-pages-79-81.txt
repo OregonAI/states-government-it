@@ -1,0 +1,135 @@
+   E. Subject to any confidentiality provisions of law, any state agency may permit
+another state agency access to all or any portion of a computerized database created
+by a state agency.
+
+    F. If information contained in a database is searched, manipulated or retrieved or a
+copy of the database is made for any private or nonpublic use, a fee shall be charged
+by the state agency permitting access or use of the database.
+
+    G. Except as authorized by law or rule of the commission, any person who reveals
+to any unauthorized person information contained in a computer database or who uses
+or permits the unauthorized use or access of any computer database is guilty of a
+misdemeanor, and upon conviction the court shall sentence that person to jail for a
+definite term not to exceed one year or to payment of a fine not to exceed five thousand
+dollars ($5,000) or both. That person shall not be employed by the state for a period of
+five years after the date of conviction.
+
+History: Laws 1986, ch. 81, § 9; 1993, ch. 197, § 11; 1978 Comp., § 15-1-9, amended
+and recompiled as 1978 Comp., § 14-3-15.1 by Laws 1995, ch. 110, § 8.
+
+                                    ANNOTATIONS
+
+Repeals. — Laws 1986, ch. 81, § 15 repealed former 15-1-9 NMSA 1978, as enacted
+by Laws 1984, ch. 64, § 12, relating to records contained in information systems
+databases, effective May 21, 1986. Laws 1986, ch. 81, § 9 enacted a new 15-1-9 NMSA
+1978.
+
+Recompilations. — Laws 1995, ch. 110, § 8 recompiled and amended former 15-1-9
+NMSA 1978 as 14-3-1 NMSA 1978, effective July 1, 1995.
+
+Cross references. — For electronic authentication and substitution for signature, see
+14-3-15.2 NMSA 1978.
+
+For format of rules filings under State Rules Act, see 14-4-3 NMSA 1978.
+
+For Computer Crimes Act, see 30-45-1 to 30-45-7 NMSA 1978.
+
+The 1995 amendment, effective July 1, 1995, renumbered the section; substituted
+"administrator" for "secretary" and made a minor stylistic change in Subsection B;
+deleted "with the approval of the secretary" following "database" in Subsection C;
+deleted "secretary and the" preceding "state agency" in Paragraph (2) of Subsection C;
+deleted "the commission and" following "writing by" in Paragraph (4) of Subsection C;
+deleted "the secretary and" preceding "the state agency"; substituted the language
+beginning with "the agencies shall enter" and ending with "the lead agency" for "a single
+state agency shall be designated by the secretary" in Subsection D; deleted "to be
+prescribed by rule of the secretary" following "a fee" in Subsection F; and substituted
+"commission" for "secretary" in Subsection G.
+The 1993 amendment, effective July 1, 1993, substituted "commission" for "council" in
+Paragraph (4) of Subsection C and made minor stylistic changes in Subsections A, C
+and G.
+
+Subsection C is statute of very specific application. Crutchfield v. Taxation &
+Revenue Dep’t, 2005-NMCA-022, 137 N.M. 26, 106 P.3d 1273.
+
+Intent of Subsection C. — The legislature, in enacting Subsection C of this section,
+intended to permit state agencies to specifically limit public use of a certain type of
+record. Crutchfield v. Taxation & Revenue Dep’t, 2005-NMCA-022, 137 N.M. 26, 106
+P.3d 1273.
+
+Computerized database of public record. — There is no intent on the part of the
+legislature with respect to Subsection C of this section that that statute and the policy
+underlying it, and not the Inspection of Public Records Act and the policies underlying it,
+apply to a copy of a medium containing a computerized database of a public record.
+Crutchfield v. Taxation & Revenue Dep’t, 2005-NMCA-022, 137 N.M. 26, 106 P.3d
+1273.
+
+Waiver of rights under Subsection C. — That the department of taxation & revenue
+has decided to provide, free of charge, portions of its database piecemeal on the
+website while at the same time placing restrictions on or even denying use to persons
+requesting the entire database for commercial use does not require a finding that the
+department waived its rights under Subsection C of this section. Crutchfield v. Taxation
+& Revenue Dep’t, 2005-NMCA-022, 137 N.M. 26, 106 P.3d 1273.
+
+Access to abbreviations and terms used in electronic database. — Where trial
+court did not err in upholding the department of taxation and revenue’s rejection
+pursuant to Subsection C of this section of plaintiff’s electronic database request, there
+is no basis in which plaintiff is entitled to the records that contained abbreviations and
+terms used by the department in categorizing and sorting the severance tax data on its
+electronic database. Crutchfield v. Taxation & Revenue Dep’t, 2005-NMCA-022, 137
+N.M. 26, 106 P.3d 1273.
+
+Am. Jur. 2d, A.L.R. and C.J.S. references. — 50 Am. Jur. 2d Larceny § 67 et seq.; 66
+Am. Jur. 2d Records and Recording Laws §§ 1 to 3, 10, 12 to 15, 19.
+
+Enforceability by mandamus of right to inspect public records, 60 A.L.R. 1356, 169
+A.L.R. 653.
+
+Proof of public records kept or stored on electronic computing equipment, 71 A.L.R.3d
+232.
+
+Criminal liability for theft of, interference with or unauthorized use of, computer
+programs, files, or systems, 51 A.L.R.4th 971.
+52A C.J.S. Larceny § 129(2); 76 C.J.S. Records § 1 et seq.
+
+14-3-15.2. Electronic authentication; substitution for signature.
+   Whenever there is a requirement for a signature on any document, electronic
+authentication that meets the standards promulgated by the commission may be
+substituted.
+
+History: Laws 1995, ch. 27, § 1.
+
+                                      ANNOTATIONS
+
+Cross references. — For format of rules filings under State Rules Act, see 14-4-3
+NMSA 1978.
+
+For electronic filing of report of campaign expenditures and contributions, see 1-19-31
+NMSA 1978.
+
+For electronic filing under Taxation and Revenue Department Act, see 9-11-6.4 NMSA
+1978.
+
+For electronic filing of annual statement by insurer, see 59A-5-29 NMSA 1978.
+
+For electronic copies and abstracts of motor vehicle records, see 66-2-7 NMSA 1978.
+
+For electronic filing of title applications for motor vehicle titles, see 66-3-201 NMSA
+1978.
+
+For use of electronic versions of uniform traffic citations in the issuance of citations, see
+66-8-128 NMSA 1978.
+
+For submission of required information to the Motor Vehicle Division of penalty
+assessments under municipal programs via electronic means, see 66-8-130 NMSA
+1978.
+
+For electronic filing of abstract of record in cases involving violations of Motor Vehicle
+Code, see 66-8-135 NMSA 1978.
+
+For the Electronic Authentication of Documents Act, see Chapter 14, Article 15 NMSA
+1978.
+
+14-3-16. Attorney general may replevin state records.
+   On behalf of the state and the administrator, the attorney general may replevin any
+papers, books, correspondence or other public records which were formerly part of the
+records or files of any public office in the territory or state of New Mexico, and which the

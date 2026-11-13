@@ -58,6 +58,21 @@ sources:
     slice: {article: "A4"}
     why_relevant: "State agencies that use automated employment decision-making tools must publish a list of them annually (401-402); section 402-a asks the same of covered local entities and rides along. Sections 402 and 402-a carry sunset notes the text prints (effective until, and repealed, July 1, 2028)."
 
+  # ---- A section of a non-IT chapter, seeded as a section slice (owner decision 2026-11-13: the provision's own focus is state IT governance)
+  - id: "ny-exc-170-f"
+    sha256: "ed51a0d0706545bd2aa4029d1a0292cdf063e7e8a81e17376634a1585a523d6c"
+    url: "https://legislation.nysenate.gov/api/3/laws/EXC?full=true&fromLocation=170-F&toLocation=170-F"
+    format: "json"
+    citation: "Executive Law section 170-f"
+    title: "Executive Law section 170-f - Website accessibility; contractors and vendors"
+    doc_type: "statute"
+    jurisdiction: "new-york"
+    issuing_body: "New York State Legislature; served by the New York State Senate Open Legislation API"
+    tags: [digital-services, procurement]
+    recheck: "monthly"
+    slice: {section_start: "170-f", section_end_before: "170-g"}
+    why_relevant: "Web accessibility as a condition of state contracts: \"Each contractor, subcontractor, vendor, consultant, or other person providing services pursuant to a state contract shall be required to conform any website provided by such contractor ... in relation to and for the purpose of the provision of such services to the most current version of the Web Content Accessibility Guidelines\". The section's own subject is the accessibility of the websites through which state services are provided, so it is IT governance inside the Executive Law (article 7, miscellaneous provisions), a chapter that is not about IT; seeded as the one section under the owner decision of 2026-11-13. Active from 2023-06-02 in the API, with no repeal or not-yet-effective note."
+
   # ---- Rules and executive orders
   - id: "ny-nycrr-551"
     sha256: "0301fca4618fb813307080e7694f4e4caf6a2c93fedb5fb2c30791dd7f3ae6e9"
@@ -1030,15 +1045,57 @@ left_out:
     501-504; article 5 is left out as repealed, see below); the chapter has no other. Searching the Open Legislation API (documented public search, terms 'artificial
     intelligence', 'automated decision', 'cybersecurity', 'chief information officer', 'information technology services') found
     these outside it, left out:
-     - State Finance Law 163-e and 165 and General Municipal Law 103-h (restrictions on purchasing technology that poses a
-       security threat; General Municipal Law 103-h is the local-government twin): sections inside the procurement chapters.
-       The playbook leaves such sections out pending an owner decision on section-level slicing. OWNER DECISION.
-     - Executive Law 711-c (cybersecurity incident reviews, Division of Homeland Security and Emergency Services, article 26):
-       a section of the Executive Law, not an IT chapter; same pending decision. OWNER DECISION.
+     - State Finance Law 163-e (restriction on purchasing technology that poses a security threat; ITS keeps the list): read in the
+       API on 2026-11-13, it is an IT-governance section and inside the owner's decision of 2026-11-13, but it is NOT IN FORCE:
+       the section and the API's 2026-02-20 version print 'NB Effective December 19, 2027' (the 2026-01-09 version printed the
+       same date). It becomes a document when that date has passed and the API stops printing the note.
+       State Finance Law 163 (purchasing services and commodities) is the general procurement section (about 53,000 characters,
+       nearly all of it purchasing method, thresholds and set-asides): its focus is not IT, so it is not approved by the
+       2026-11-13 decision.
+       State Finance Law 165 (purchasing restrictions; API activeDate 2025-03-28, no NB or repeal note, read 2026-11-13) holds
+       one provision inside decision 1: subdivision 9, "End point device security", whose paragraph (b) reads "The commissioner
+       and all state agencies, when procuring end point devices, shall be consistent with any relevant standards, guidelines, or
+       guidance developed as part of the National Institute of Standards and Technology (NIST) Cybersecurity Framework". The rest
+       of section 165 is not IT (tropical hardwood, New York food, Northern Ireland, apparel, mercury-free vehicles). NOT SEEDED
+       for a mechanical reason: the only slice shape the seed check accepts is a section range, which cannot cut subdivision 9
+       out of section 165, and seeding the whole section would put non-IT text under an IT approval. It becomes a document if a
+       subdivision slice is added to the shared seed check, or if the owner decides to seed the whole of section 165 for its
+       subdivision 9.
+       General Municipal Law 103-h (the local-government twin of 163-e) binds local governments: out of scope.
+     - Executive Law 711-c (cybersecurity incident reviews): read 2026-11-13; it directs the commissioner of the Division of
+       Homeland Security and Emergency Services to review "each cybersecurity incident report and notice and explanation of
+       ransom payment submitted pursuant to sections ... nine hundred ninety-five-b and nine hundred ninety-five-c of the general
+       municipal law", that is, reports by municipal corporations and public authorities. It governs incident reporting by local
+       governments and a homeland-security review of them, not state agencies' own IT: declined under the decision.
      - General Municipal Law article 19-C (995-a to 995-c, cybersecurity incident reporting by municipal corporations and
        public authorities): local government, out of scope.
-     - Public Officers Law article 6-A (the Personal Privacy Protection Law, the statute 9 NYCRR Part 551 implements): named in
-       the rule and the ITS pages, not fetched; a data-privacy article of a non-IT chapter, same pending decision. OWNER DECISION.
+     - Public Officers Law article 6-A (sections 91 to 99, the Personal Privacy Protection Law, the statute 9 NYCRR Part 551
+       implements): read in the API on 2026-11-13 (articles 91-99, none repealed; sections 94, 95 and 96-a also read one by one)
+       and DECLINED under the owner decision of 2026-11-13, FLAGGED FOR THE OWNER. The article gives a data subject rights to
+       personal information in any state agency's records, in every form (section 94 "Each agency that maintains a system of
+       records shall: ... maintain in its records only such personal information which is relevant and necessary", section 95
+       access, section 96 disclosure, section 97 remedies). It does contain IT-flavoured provisions: 94(1)(g) "establish written
+       policies ... governing the responsibilities of persons pertaining to their involvement in the design, development,
+       operation or maintenance of any system of records", 94(1)(h) "establish appropriate administrative, technical and physical
+       safeguards to ensure the security of records", and 96-a(1)(c)-(d), which bars the state and its political subdivisions from
+       requiring a social security number "over the internet, unless the connection is secure or the social security account
+       number is encrypted" or to access a web site without a password or other authentication device. But each sits in a
+       provision whose own focus is personal-privacy rights in government records (section 94 is eleven duties on collection,
+       accuracy, notice, access, disclosure accounting and retention, of which two touch security; section 96-a is a
+       social-security-number rule that binds political subdivisions as well, in which two of six paragraphs concern the
+       internet), the same kind as the general open-records right of access, which the decision excludes, so neither section is
+       clearly inside decision 1. Sections 94 and 96-a could each be seeded as one section (the API serves one section per
+       request; the slice and the state module would need Public Officers Law added to the section laws) if the owner rules
+       they qualify. State IT privacy is held in State Technology Law article 2.
+     - Executive Law 206-a(11): cited as statutory authority in the history line of 9 NYCRR Part 551, but the API's consolidated
+       Executive Law (1,040 locations, read 2026-11-13) has no section 206 or 206-a (Executive Law article 10 runs 200 to 203-b,
+       then article 10-B at 209), and laws/EXC/206-A answers 404: not an instrument in force.
+     - Arts and Cultural Affairs Law 57.05 (State archives) with 8 NYCRR Part 188: read in the API on 2026-11-13; it continues the
+       state archives and the state records center and lets the Commissioner of Education authorize disposal of state records
+       ("books, papers, maps, photographs, microphotographs or other documentary materials"). It is general records law for
+       records in every form and never mentions electronic records or IT, so its focus is not IT governance and it is declined
+       under the decision of 2026-11-13 (a records section is approved only when it governs electronic records or their
+       retention). 8 NYCRR Part 188 is in the Westlaw NYCRR, which refused the Fetcher (see Part 540), so it could not be read.
      - Economic Development (Commerce) Law section 361 (Empire AI research program) and General Business Law article 47 (AI
        companion models): a research consortium and a private-sector rule, out of scope.
     Article 5 of the State Technology Law (501-504, 'Automated Decision-making In Government Agencies') is left out: the Open
@@ -1070,6 +1127,15 @@ left_out:
     out of scope), Nos. 42 and 7 of 2008-2010 (Paterson: Executive Chamber records management; personal use of state property),
     and the rest (disaster, appointments, labor, environment). No. 117's text is ITS's HTML page, because the Governor's scan failed the OCR
     gates (see its entry); ITS's HTML copy of No. 3 is left out with the order.
+- text: |-
+    Governors' continuing orders (the Executive Order 5 of 2007, 9 of 2008, 2 of 2011 and 6 of 2021 that ITS policy footnotes cite as
+    continuing Executive Order 117): Executive Order No. 6 of 2021, "Continuation and Expiration of Prior Executive Orders", read
+    on the Governor's page 2026-11-13: it orders that "all Executive Orders issued by previous Governors are hereby repealed,
+    cancelled and revoked in their entirety, with the exception of the Executive Orders set forth below", and then lists the
+    orders that continue, among them Executive Order No. 117 of January 28, 2002 ("Establishing the Position of Chief Information
+    Officer (CIO) of the State of New York", list III, item i) and No. 95. The orders of 2007, 2008 and 2011 were not read. The
+    order is a revocation and continuation list across all subjects, so its focus is not IT governance (it is evidence that
+    Order 117 is in force). Not approved by the owner decision of 2026-11-13. Order 117 itself is held.
 - text: |-
     Pages that are not instruments: ITS landing pages for Artificial Intelligence (training pilot, news and interviews; it names
     a Chief AI Officer and points to the AI policy and the inventory guidance, both seeded), Data Privacy (how to request personal

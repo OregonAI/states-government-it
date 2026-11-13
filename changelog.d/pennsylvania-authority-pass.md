@@ -1,0 +1,3 @@
+type: Verified
+
+Pennsylvania authority-reference pass (owner decisions of 2026-11-13): the three candidates were read in official bytes and none was seeded. Executive Orders 2004-8 and 2011-05 are not in force (absent from the Governor's current Index of Issuances; 4 Pa. Code prints each reserved by the next order, ending at Executive Order 2016-06, which is held; no published text). 4 Pa. Code 3.21 (an emergency-management purpose clause) and 71 P.S. 181 and 182 (general coordination among departments) are not about IT governance. The left_out record says so. No document was added or removed.

@@ -262,3 +262,66 @@ def test_a_statute_bundle_must_hold_exactly_the_sections_the_seed_lists_in_order
         states.check_identity({**STATUTE, "sections": ["3.5-2A-02", "3.5-2A-03", "3.5-2A-04"]}, text, "html")
     with pytest.raises(ValueError, match="order"):               # the same sections in another order
         states.check_identity({**STATUTE, "sections": ["3.5-2A-03", "3.5-2A-02"]}, text, "html")
+
+
+# ---- section pages in the site's default view, and a single COMAR regulation ------------------
+
+SEC_10_1502 = (FIX / "mga-section-10-1502-default-view.html").read_bytes()
+COMAR_21_05_08_05 = (FIX / "comar-21-05-08-05.html").read_bytes()
+
+
+def test_a_seed_url_without_the_enactments_flag_is_fetched_as_it_is_written_with_the_section_swapped():
+    """The site's `enactments=true` view ('in effect as of October 1st') stopped answering on 2026-11-12 (every section
+    says File Not Found); the default view prints the same law. A new entry's url carries no flag, and the snapshot
+    keeps the form the entry's url has."""
+    old = "https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=gsf&section=3.5-2A-02&enactments=true"
+    new = "https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=gsg&section=10-1501"
+    assert maryland.section_url({"article": "gsf", "url": old}, "3.5-2A-03") == maryland.statute_url("gsf", "3.5-2A-03")
+    assert maryland.section_url({"article": "gsg", "url": new}, "10-1502") == new.replace("10-1501", "10-1502")
+
+
+def test_the_snapshot_of_a_default_view_entry_fetches_the_default_view_pages(tmp_path):
+    cfg = make_corpus(tmp_path, [])
+    calls = []
+    base = "https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=gsg&section="
+    src = {"id": "md-sg-test", "jurisdiction": "maryland", "doc_type": "statute", "format": "html", "article": "gsg",
+           "sections": ["10-1502"], "url": base + "10-1502", "citation": "Md. Code, State Gov’t § 10-1502",
+           "title": "Policy"}
+    with make_fetcher(cfg, {base + "10-1502": (200, SEC_10_1502)}, calls) as f:
+        raw, fresh = maryland.snapshot(src, f, tmp_path / "snap.html", False)
+    assert fresh and calls == [base + "10-1502"] and maryland.SECTION_MARK + base + "10-1502" in raw.decode()
+    text = maryland.statute_to_text(raw)
+    assert text.startswith("Article - State Government\n\n§10–1502.\nIt is the policy of the State that open data be machine readable")
+    states.check_identity(src, text, "html")
+
+
+def test_a_single_regulation_file_is_its_heading_then_its_paragraphs_with_no_page_furniture():
+    text = maryland.comar_to_text(COMAR_21_05_08_05)
+    lines = text.splitlines()
+    assert lines[0] == ".05 Nonvisual Access Clause."
+    assert lines[1].startswith("A. Except as provided in §B of this regulation, the following clause is a mandatory provision")
+    assert "  (1) The information and communication technology is not available with nonvisual access because the "\
+           "essential elements of the information and communication technology are visual and nonvisual equivalence "\
+           "cannot be developed; or" in lines
+    for furniture in ("Skip to main content", "Toggle mobile menu", "Library of Maryland Regulations", "Creative Commons"):
+        assert furniture not in text
+
+
+def test_a_regulation_cited_by_section_must_print_that_section_as_its_heading():
+    rule = {"id": "md-comar-21-05-08-05", "jurisdiction": "maryland", "doc_type": "rule", "citation": "COMAR 21.05.08.05",
+            "title": "Nonvisual Access Clause"}
+    text = maryland.comar_to_text(COMAR_21_05_08_05)
+    states.check_identity(rule, text, "html")
+    with pytest.raises(ValueError, match="not the cited instrument"):
+        states.check_identity({**rule, "citation": "COMAR 21.05.08.06"}, text, "html")
+    with pytest.raises(ValueError, match="not the cited instrument"):
+        states.check_identity({**rule, "title": "Arrearages"}, text, "html")
+
+
+def test_the_conversion_note_names_the_view_the_entry_was_read_in():
+    old = {"jurisdiction": "maryland", "doc_type": "statute", "sections": ["3.5-101"],
+           "url": maryland.statute_url("gsf", "3.5-101")}
+    new = {**old, "url": "https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=gsg&section=10-1501"}
+    assert "'in effect as of October 1st of this year' view" in maryland.notes(old, "html", "")
+    assert "October 1st" not in maryland.notes(new, "html", "")
+    assert "default view" in maryland.notes(new, "html", "")

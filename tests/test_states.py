@@ -150,3 +150,42 @@ def test_ci_runs_the_same_loads_command_as_the_gate():
     import pathlib
     ci = (pathlib.Path(states.__file__).parents[2] / ".github" / "workflows" / "ci.yml").read_text()
     assert f'- run: python3 -c "{_loads_command()}"' in ci
+
+
+# ---- a slice the state cannot cut is refused, never ignored ----
+
+SLICER = textwrap.dedent('''
+    def to_text(raw, fmt, doc_type, slice_, host):
+        if fmt == "html" and slice_:
+            return raw.decode().split(slice_["section_end_before"])[0].split(slice_["section_start"], 1)[1]
+        return raw.decode() if fmt == "html" else None
+''')
+RANGE = {"section_start": "S1", "section_end_before": "S3"}
+
+
+def test_a_sliced_pdf_in_a_state_with_no_to_text_hook_is_refused():
+    with pytest.raises(ValueError, match="no PDF slice"):
+        ing.to_text(b"%PDF-1.4", "pdf", "statute", "nowhere", RANGE)
+
+
+def test_a_sliced_pdf_the_states_hook_declines_is_refused(neverland):
+    states.modules(refresh=True)
+    with pytest.raises(ValueError, match="no PDF slice"):
+        ing.to_text(b"%PDF-1.4", "pdf", "statute", neverland, RANGE)
+
+
+def test_a_sliced_html_source_the_hook_would_ingest_whole_is_refused(neverland):
+    states.modules(refresh=True)
+    assert ing.to_text(b"s1 a s2 b", "html", "statute", neverland) == "S1 A S2 B"
+    with pytest.raises(ValueError, match="no HTML slice"):
+        ing.to_text(b"s1 a s2 b", "html", "statute", neverland, RANGE)
+
+
+def test_a_sliced_html_source_the_hook_cuts_is_read_as_the_slice(tmp_path, monkeypatch):
+    (tmp_path / "sliceland.py").write_text(SLICER)
+    monkeypatch.setattr(states, "__path__", [*states.__path__, str(tmp_path)])
+    monkeypatch.setattr(states, "_modules", None)
+    try:
+        assert ing.to_text(b"S1 a S2 b S3 c", "html", "statute", "sliceland", RANGE) == " a S2 b "
+    finally:
+        monkeypatch.setattr(states, "_modules", None)

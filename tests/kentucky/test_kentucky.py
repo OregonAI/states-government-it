@@ -133,3 +133,13 @@ def test_no_policy_or_standard_identity_accepts_another_documents_bytes():
                 continue
             accepted.append((e["id"], other))
     assert accepted == []
+
+
+def test_a_section_in_a_non_it_chapter_is_identified_by_its_own_number():
+    raw = (FIX / "krs-186a-285.pdf").read_bytes()
+    t = text(raw, "statute")
+    assert t.startswith("186A.285")
+    assert "executive director of the Commonwealth" in t
+    states.check_identity(src(citation="KRS 186A.285", id="ky-t3"), t)
+    with pytest.raises(ValueError, match="is not"):
+        states.check_identity(src(citation="KRS 186A.28"), t)

@@ -189,3 +189,77 @@ def test_an_order_is_the_cited_number_or_it_is_refused():
         states.check_identity(eo(citation="Executive Order No. 2"), EO24, "pdf")           # 24 is not 2
     with pytest.raises(ValueError, match="not the cited instrument"):
         states.check_identity(eo(citation="Executive Order No. 25"), EO24, "pdf")
+
+
+# ---- statute sections and a chapter served as their own pages (owner decision 2026-11-13) --------------------
+# Real bytes fetched 2026-11-13 from the General Assembly's BySection and ByChapter pages.
+
+SEC_483 = (FIX / "ncgs-143-48.3-section.html").read_bytes()
+SEC_1326 = (FIX / "ncgs-132-6.1-section.html").read_bytes()
+CH_116E = (FIX / "ncgs-116e-chapter.html").read_bytes()
+
+
+def test_a_section_page_is_the_section_alone_one_line_per_paragraph():
+    t = text(SEC_483, "statute")
+    lines = t.splitlines()
+    assert lines[0] == "§ 143-48.3. Electronic procurement."
+    assert lines[1].startswith("(a) The Department of Administration shall develop and maintain electronic")
+    assert t.rstrip().endswith("2018-12, s. 15.)")
+    assert "\n\n" not in t                                   # one section: no blank line is added before it
+    for leak in ("<", ">", "font-family", "\xa0", "DOCTYPE"):
+        assert leak not in t
+
+
+def test_a_section_with_a_repealed_subsection_keeps_the_line_as_published():
+    assert "(b) Repealed by Session Laws 2017-10, s. 2.9(a), effective July 1, 2017." in text(SEC_1326, "statute")
+
+
+def test_a_chapter_page_is_the_chapter_line_title_and_sections_with_a_blank_line_before_each():
+    t = text(CH_116E, "statute")
+    assert t.splitlines()[:3] == ["Chapter 116E.", "North Carolina Longitudinal Data System", ""]
+    assert "\n\n§ 116E-3: Repealed by Session Laws 2016-94, s. 7.14(d), effective July 1, 2016.\n" in t
+    assert "(a) There is created the North Carolina Longitudinal Data System. The System shall be located " \
+           "administratively within the Department of Information Technology." in t
+
+
+def test_the_section_page_must_be_the_cited_section():
+    states.check_identity(src(citation="G.S. 143-48.3"), text(SEC_483, "statute"), "html")
+    with pytest.raises(ValueError, match="not G.S. 143-48.4"):
+        states.check_identity(src(citation="G.S. 143-48.4"), text(SEC_483, "statute"), "html")
+    with pytest.raises(ValueError, match="not G.S. 143-48"):          # a prefix of the number is not the number
+        states.check_identity(src(citation="G.S. 143-48"), text(SEC_483, "statute"), "html")
+    with pytest.raises(ValueError, match="not G.S. 132-6.1"):
+        states.check_identity(src(citation="G.S. 132-6.1"), text(SEC_483, "statute"), "html")
+
+
+def test_the_chapter_page_must_be_the_cited_chapter():
+    states.check_identity(src(citation="G.S. 116E"), text(CH_116E, "statute"), "html")
+    with pytest.raises(ValueError, match="not G.S. 116"):
+        states.check_identity(src(citation="G.S. 116"), text(CH_116E, "statute"), "html")
+    with pytest.raises(ValueError, match="not G.S. 116E"):
+        states.check_identity(src(citation="G.S. 116E"), text(SEC_483, "statute"), "html")
+
+
+def test_a_statute_page_with_no_heading_and_no_section_is_still_refused():
+    with pytest.raises(ValueError, match="no statute text"):
+        text(b"<html><body><p>Page not found</p></body></html>", "statute")
+
+
+def test_conversion_notes_name_a_section_page():
+    n = ing.conversion_notes(src(citation="G.S. 143-48.3"), "html", text(SEC_483, "statute"))
+    assert "General Assembly's section page" in n
+    assert "the section's caption, subsections and session-law history" in n
+    assert "article" not in n and "chapter number" not in n      # a section page prints no article or chapter line
+
+
+def test_conversion_notes_name_a_chapter_page():
+    n = ing.conversion_notes(src(citation="G.S. 116E"), "html", text(CH_116E, "statute"))
+    assert "General Assembly's chapter page" in n
+    assert "the chapter number and title, then each section" in n
+    assert "article" not in n
+
+
+def test_conversion_notes_name_an_article_page():
+    n = ing.conversion_notes(src(), "html", text(ART84, "statute"))
+    assert "General Assembly's article page" in n
+    assert "the article number and title, then each section" in n
