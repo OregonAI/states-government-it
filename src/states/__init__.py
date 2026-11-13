@@ -74,6 +74,17 @@ def to_text(raw: bytes, fmt: str, doc_type: str, jurisdiction: str = "oregon",
         return docx_to_text(raw)
     h = hook(jurisdiction, "to_text")
     text = h(raw, fmt, doc_type, slice_, host) if h else None
+    if text is not None and slice_ and fmt == "html":
+        # A hook that never reads the slice returns the whole page for a sliced entry. Whole means the
+        # same text without the slice (or a hook that cannot read the page unsliced, which is one that
+        # needs the slice): refuse the former, so a slice is never silently dropped.
+        try:
+            whole = h(raw, fmt, doc_type, None, host)
+        except ValueError:
+            whole = None
+        if whole == text:
+            raise ValueError(f"no HTML slice for doc_type {doc_type!r} ({jurisdiction!r}): "
+                             f"the state's to_text ignores the slice and would commit the whole page")
     if text is None:
         raise ValueError(f"no to_text for format {fmt!r} with doc_type {doc_type!r}"
                          + ("" if h else f" ({jurisdiction!r} has no module in src/states/)"))
