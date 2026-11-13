@@ -760,6 +760,15 @@ What the counts support:
 6. **Whether to extend the bare-number reader** to the states where it is not read (recall table above). It costs a per-state review of false positives and surfaces statute cross-references, most of them out of scope.
 7. **Not-in-force citations** (Idaho 2005-22, 2006-05 and 2001-07, Iowa 8A.204): no seed entry; whether the documents that still cite them should be flagged is the owner's call.
 
+## Owner decisions, 2026-11-13
+
+1. **Procurement provisions and records-retention provisions tied to state IT are in scope.** IT provisions inside procurement law and records-retention law may be seeded as section slices.
+2. **The 15 "seed whole" candidates are approved** for verification against the official source and ingest.
+3. **Idaho:** the three ITA policies that rest on the lapsed Executive Order 2005-22 (`id-ita-p1040`, `id-ita-p1050`, `id-ita-p1060`) are treated as not in force.
+4. **No gate.** `src/authority_refs.py --check` is not run by `scripts/gates.sh` or CI, and `scripts/regen.sh` does not rebuild `_meta/eval/authority-refs.json`. The JSON is a dated result; re-run the tool to refresh it.
+
+The other items under "What the owner must decide" are still open. Nothing in this PR acts on decisions 1 to 3; that work follows in its own PR.
+
 ## Reproduce
 
 ```
