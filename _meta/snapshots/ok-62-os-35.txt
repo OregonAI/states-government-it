@@ -1,0 +1,529 @@
+§62-35.1. Information Technology Consolidation and Coordination
+Act.
+     Sections 2 through 9 of this act shall be known and may be cited as the “Information
+Technology Consolidation and Coordination Act”.
+
+Added by Laws 2011, c. 296, § 1.
+
+§62-35.2. Legislative intent.
+    It is the intent of the Legislature, through enactment of the Information Technology
+Consolidation and Coordination Act, to:
+
+     1. Reform and consolidate the information technology structure, operations and
+purchasing procedures of the state to ensure that state government promotes and
+encourages private sector growth in a competitive global economy;
+
+    2. Move state government forward with respect to electronic purchasing, billing and
+payment services, and other transactions, to ensure that the state delivers essential public
+
+Oklahoma Statutes - Title 62. Public Finance                                                Page 170
+
+services to its citizens in the most efficient manner at the lowest possible cost to
+taxpayers;
+
+      3. Streamline and consolidate systems for financial and administrative services, with
+particular emphasis on combining the seventy-six financial systems, twenty-two unique
+employee time and record-keeping systems, seventeen types of document imaging
+systems, thirty data center locations and one hundred twenty-nine electronic mail and
+smart phone services used by the state; and
+
+     4. Coordinate and require central approval of state agency information technology
+purchases and projects to enable the Chief Information Officer to assess the needs and
+capabilities of state agencies.
+
+Added by Laws 2011, c. 296, § 2.
+
+§62-35.3. Definitions.
+    As used in the Information Technology Consolidation and Coordination Act:
+
+     1. “Appropriated state agency” means any state agency that receives funding through
+the annual legislative appropriations process;
+
+      2. “Information technology assets” means any equipment or interconnected system
+or subsystem of equipment that is used in the acquisition, storage, manipulation,
+management, movement, control, display, switching, interchange, transmission, or
+reception of data or information. The term shall include computers, ancillary equipment,
+software, firmware and similar procedures, services, including support services and
+consulting services, software development, and related resources, and shall further
+include telecommunications fiber networks used for conveying electronic communication
+or information systems to multiple physical locations;
+
+      3. “Information technology position” means a classified or unclassified position in
+the following functional areas:
+
+                a.      applications programming,
+
+                b.      EDP audit,
+
+                c.      data examination,
+
+                d.      computer applications,
+
+                e.      computer data entry,
+
+Oklahoma Statutes - Title 62. Public Finance                                                Page 171
+
+                f.      computer networking,
+
+                g.      computer operations,
+
+                h.      computer programming,
+
+                i.      computer security,
+
+                j.      computer software design,
+
+                k.      web applications,
+
+                l.      database analysis,
+
+                m.      data management analysis,
+
+                n.      database development,
+
+                o.      database programming,
+
+                p.      software design/development,
+
+                q.      help desk,
+
+                r.      imaging,
+
+                s.      systems analysis,
+
+                t.      systems application planning,
+
+                u.      systems application,
+
+                v.      systems administration,
+
+                w.      systems coordination,
+
+                x.      systems integration,
+
+                y.      systems operation,
+
+                z.      systems planning/development,
+
+              aa.       systems programming,
+
+              bb.       systems engineering,
+
+              cc.       systems service specialist,
+
+              dd.       systems support,
+
+              ee.       network administration,
+
+Oklahoma Statutes - Title 62. Public Finance            Page 172
+
+              ff.       network management,
+
+              gg.       network technical,
+
+              hh.       operating systems specialist,
+
+              ii.       systems program manager,
+
+              jj.       telecommunications, whether data or voice,
+
+              kk.       software training, and
+
+              ll.       technology development or support;
+
+     4. “Nonappropriated state agency” means any state agency that does not receive
+funding through the annual legislative appropriations process;
+
+      5. “Shared services” means those state agency functions which are or could be
+provided through:
+
+                a.      the services and systems specified in subsection A of Section 35.6 of
+                        this title, and
+
+                b.      the programs, services, software, or processes specified in subsection
+                        B of Section 35.6 of this title; and
+
+      6. “State agency” means any office, elected or appointed officer, bureau, board,
+commission, counsel, unit, division, body, authority, or institution of the executive branch
+of state government excluding institutions within The Oklahoma State System of Higher
+Education, the Oklahoma Municipal Power Authority, the Oklahoma State Regents for
+Higher Education, the Oklahoma State Bureau of Investigation, the District Attorneys
+Council, the Office of the Attorney General, the Office of the State Auditor and Inspector,
+and the telecommunications network known as OneNet.
+
+Added by Laws 2011, c. 296, § 3. Amended by Laws 2012, c. 304, § 413; Laws 2013, c. 358,
+§ 20, eff. July 1, 2013; Laws 2021, c. 347, § 1, emerg. eff. April 28, 2021; Laws 2025, c. 393, §
+1, emerg. eff. May 26, 2025.
+
+§62-35.4. Information technology assets - Approval of Chief
+Information Officer.
+      No state agency shall expend or encumber any funds for the purchase, lease, lease-
+purchase, lease with option to purchase, rental or other procurement of any information
+technology assets without the prior written approval of the Chief Information Officer except
+the following:
+
+Oklahoma Statutes - Title 62. Public Finance                                                  Page 173
+
+      1. A purchase less than or equal to Five Thousand Dollars ($5,000.00) if such product
+is purchased using a state purchase card and the product is listed on either the Approved
+Hardware or Approved Software list located on the Office of Management and Enterprise
+Services website; or
+
+     2. A purchase over Five Thousand Dollars ($5,000.00) and less than or equal to
+Twenty-five Thousand Dollars ($25,000.00) if such product is purchased using a state
+purchase card, the product is listed on an information technology or telecommunications
+statewide contract, and the product is listed on either the Approved Hardware or Approved
+Software list located on the Office of Management and Enterprise Services website.
+
+Added by Laws 2011, c. 296, § 4. Amended by Laws 2013, c. 358, § 21, eff. July 1, 2013;
+Laws 2017, c. 384, § 4, eff. July 1, 2017.
+
+§62-35.5. Integral information technology assets - Information
+technology positions - Assessment.
+      A. 1. All state agencies shall provide to the Chief Information Officer a list of
+information technology assets of the agency which are integral to agency-specific
+applications or functions and a list of information technology positions which are directly
+associated with the assets. The agency shall further provide the reference to federal or
+state statutory or constitutional provisions which require it to perform the applications or
+functions.
+
+      2. If the Chief Information Officer disputes the identification of assets or positions
+provided by a state agency as being integral to agency-specific applications or functions,
+the Director of the Office of Management and Enterprise Services shall make the final
+determination.
+
+      B. Not later than December 1 of each year, the Chief Information Officer shall modify
+the assessment required by subsection D of Section 34.11.1 of this title to include
+identification of:
+
+      1. All information technology assets of all state agencies, which are not integral to
+agency-specific applications or functions, and the transfer of which to the Information
+Services Division of the Office of Management and Enterprise Services and the Chief
+Information Officer would result in a cost savings to the taxpayers of this state or improved
+efficiency of state government operations, including all furniture, equipment, vehicles,
+supplies, records, current and future liabilities, fund balances, encumbrances, obligations,
+and indebtedness associated with the information technology assets;
+
+Oklahoma Statutes - Title 62. Public Finance                                               Page 174
+
+     2. All information technology positions associated with the information technology
+assets identified pursuant to paragraph 1 of this subsection. The assessment shall identify
+the amount of compensation and related liabilities for accrued sick leave, annual leave,
+holidays, unemployment benefits, and workers' compensation benefits for the positions;
+
+      3. The amount of savings to the taxpayers of this state resulting from the provisions of
+the Information Technology Consolidation and Coordination Act; and
+
+      4. Any changes in law required or any changes to the amount of state appropriations
+or other state funds associated with the transfer of the information technology assets or
+positions.
+
+      C. The information technology assets and positions of each appropriated state
+agency identified pursuant to this section shall be transferred as part of the consolidation
+of information technology operations of the state agency to the Information Services
+Division of the Office of Management and Enterprise Services when determined by the
+Information Services Division. The costs of operation, maintenance, licensing and service
+of the information technology assets shall remain the responsibility of the state agency
+from which the assets are transferred until the state agency information technology
+operations are consolidated in the Information Services Division, unless otherwise agreed
+to by the state agency and the Information Services Division. Appropriate conveyances
+and other documents shall be executed to effectuate the transfer of the information
+technology assets and positions to the Information Services Division of the Office of
+Management and Enterprise Services.
+
+      D. The Chief Information Officer shall recommend changes to the Director of the
+Office of Management and Enterprise Services and the Governor for inclusion in the next
+executive budget to be submitted to the Legislature.
+
+      E. The Information Services Division shall provide shared services to each state
+agency and shall bill agencies for those shared services at an estimated cost to provide the
+services. The estimated cost shall include the full cost of the services, including materials,
+depreciation related to capital costs, labor, and administrative expenses of the Information
+Services Division of the Office of Management and Enterprise Services in connection with
+the operation of the data center and Information Services Division operations and shall
+include expenses associated with acquiring, installing, and operating information
+technology and telecommunications infrastructure, hardware and software for use by state
+agencies. The Information Services Division shall publish a schedule of costs for each
+available shared service and shall enter into an agreement with each state agency for the
+shared services that will be provided to the agency. The aggregated cost of shared services
+
+Oklahoma Statutes - Title 62. Public Finance                                               Page 175
+
+to be provided to each state agency shall be budgeted annually as a separate line item
+through each state agency. State agencies shall process request for payments as provided
+for under the agreement entered into with the Information Services Division in a timely
+manner. If payments are deemed to be delinquent for shared services provided to a state
+agency, the Information Services Division may request the Division of Central Accounting
+and Reporting of the Office of Management and Enterprise Services to create vouchers and
+process payments to the Information Services Division against the funds of the delinquent
+state agency. If the state agency for which shared services were provided disputes the
+provision of shared services in accordance with its agreement with the Information
+Services Division, no voucher shall be processed against the funds of the delinquent
+agency until the dispute over services has been resolved, at which point a voucher may be
+processed in accordance with the terms of the dispute resolution.
+
+      F. The Information Services Division of the Office of Management and Enterprise
+Services shall succeed to any contractual rights, easement rights, lease rights, and other
+similar rights and responsibilities related to the information technology assets that are
+transferred as provided for in this section and incurred by an appropriated state agency.
+
+Added by Laws 2011, c. 296, § 5. Amended by Laws 2012, c. 304, § 414; Laws 2013, c. 15, §
+62, emerg. eff. April 8, 2013; Laws 2013, c. 358, § 22, eff. July 1, 2013.
+
+NOTE: Laws 2012, c. 292, § 4 repealed by Laws 2013, c. 15, § 63, emerg. eff. April 8, 2013.
+
+§62-35.6. Required information technology services and
+programs.
+      A. All appropriated and nonappropriated state agencies shall be required to use the
+following information technology services and systems operated and maintained by the
+Office of Management and Enterprise Services for all agency functions:
+
+       1. Data Service Center of the Information Services Division;
+
+       2. Networking services;
+
+       3. Communication or intercommunication systems;
+
+       4. Electronic mail systems; and
+
+       5. Data and network security systems.
+
+      B. All appropriated and nonappropriated state agencies shall be required to
+exclusively use the following programs, services, software and processes provided through
+the Integrated Central Financial System known as CORE and as implemented by the Office
+
+Oklahoma Statutes - Title 62. Public Finance                                             Page 176
+
+of Management and Enterprise Services and shall not utilize any programs, services,
+software or processes that are duplicative of the following:
+
+       1. Payroll;
+
+       2. Employee leave system;
+
+       3. Human resources;
+
+       4. Accounts receivable;
+
+       5. Accounts payable;
+
+       6. Purchasing system;
+
+       7. Budgeting system;
+
+       8. Enterprise Learning Management (ELM);
+
+       9. Budget request system;
+
+       10. Asset management; and
+
+       11. Projects, grants and contracts, which includes federal billing.
+
+      C. The Chief Information Officer shall have the authority to enforce the provisions of
+this section.
+
+Added by Laws 2011, c. 296, § 6. Amended by Laws 2012, c. 304, § 415; Laws 2013, c. 358,
+§ 23, eff. July 1, 2013.
+
+§62-35.6.1. Criminal Justice Information Systems Center for
+Excellence.
+      A. In order to comply with Executive Orders and federal and state statutory and
+regulatory requirements related to the criminal justice information system, to support
+agencies within the Oklahoma Safety and Security Cabinet, and to accomplish the
+purposes of the Information Services Division of the Office of Management and Enterprise
+Services, there is hereby established the "Criminal Justice Information Systems Center for
+Excellence" to provide shared infrastructure services for such agencies. The Criminal
+Justice Information Systems Center for Excellence shall be under the administrative
+control of the Chief Information Officer.
+
+     B. In establishing and operating the Criminal Justice Information Systems Center for
+Excellence through the Information Services Division, the Chief Information Officer shall
+collaborate with agencies subject to criminal justice information system requirements.
+
+Oklahoma Statutes - Title 62. Public Finance                                              Page 177
+
+The Chief Information Officer, in conjunction with the Commissioner of Public Safety, shall
+establish an appropriate governance model for priorities, shared services and systems for
+the Criminal Justice Information Systems Center for Excellence. The Chief Information
+Officer may utilize the Criminal Justice Information Systems Center for Excellence to
+accomplish such other purposes as may be necessary for the administration of the duties
+of the Information Services Division that are related to stringent federal or state data
+security requirements, provided the security of investigative and law enforcement
+information and support systems is not jeopardized.
+
+Added by Laws 2015, c. 174, § 1, eff. Nov. 1, 2015.
+
+§62-35.6.2. Land Mobile Radio Public Safety Interoperability
+Cooperative
+       A. In order to comply with Executive Orders and federal and state statutory and
+regulatory requirements related to interoperable public safety communications and to
+support the critical mission and purposes of the agencies within the Oklahoma Safety and
+Security Cabinet, the Transportation Cabinet and the Finance, Administration and
+Information Technology Cabinet, there is hereby established the Land Mobile Radio Public
+Safety Interoperability Cooperative. The Land Mobile Radio Public Safety Interoperability
+Cooperative shall be governed by a committee initially consisting of the Secretary of
+Finance, Administration and Information Technology or designee, the Secretary of
+Transportation or designee and the Secretary of Safety and Security or designee. The
+Cooperative is established to focus on unifying, stabilizing and enhancing the
+infrastructure and capabilities for land mobile radio public safety system communications
+for the State of Oklahoma and shall include representatives of other public radio system
+boards or committees along with future voting or non-voting public entity members as
+deemed appropriate, nominated and agreed to by vote of the committee members defined
+in this paragraph.
+
+      B. 1. In establishing and operating the Land Mobile Radio Public Safety
+Interoperability Cooperative, the committee shall collaborate with other public agencies,
+public entities and other interested parties having public safety radio communications
+requirements and resources.
+
+      2. The Cooperative shall establish an appropriate governance model for determining
+priorities, leveraging state-owned or other shared services and infrastructure, identifying
+existing and new resources and directing new investments to facilitate reliable, statewide
+and fully operational public safety radio communications to serve the purposes described.
+
+Oklahoma Statutes - Title 62. Public Finance                                            Page 178
+
+     3. In support of the requirements of the Oklahoma Homeland Security Act, the
+Oklahoma Information Services Act and the Information Technology Consolidation and
+Coordination Act, the Cooperative shall have the following duties:
+
+                a.      enable cost savings to the State of Oklahoma through unification and
+                        enhancement of current land mobile radio public safety systems,
+
+                b.      sustain existing interoperability of land mobile public safety radio
+                        systems,
+
+                c.      recommend standards and protocols for land mobile radio public
+                        safety systems,
+
+                d.      recommend standards to become P25 compliant and other common
+                        radio interoperability standards, and
+
+                e.      establish service metrics to ensure reliable land mobile public safety
+                        services statewide in support of state, local and first responders.
+
+      C. Actions, decisions and operation of the Land Mobile Radio Public Safety
+Interoperability Cooperative shall be performed in compliance with, in support of and
+secondary to all statutory duties, requirements, responsibilities and authority provided to
+the Office of Management and Enterprise Services and the Oklahoma Office of Homeland
+Security; however, the resources and mechanisms available to Cooperative members by
+ownership or through agreement may be collectively utilized to carry out the provisions of
+this statute.
+
+Added by Laws 2016, c. 123, § 1, eff. Nov. 1, 2016.
+
+§62-35.7. Exemptions and extensions.
+      A. A state agency may apply to the Chief Information Officer for an exemption from
+any provisions of the Information Technology Consolidation and Coordination Act or for an
+extension of any deadline specified in the Act, if it determines that compliance with the
+provisions of the Act would:
+      1. Cause it to be in violation of federal law or regulations or in violation of any
+provision of the Oklahoma Constitution or statutes;
+       2. Result in a loss of federal funds to the state; or
+     3. Create an impediment to the performance of a unique agency function that is not
+duplicated by another state agency and is required by the Oklahoma Statutes or
+Constitution or by federal law.
+
+Oklahoma Statutes - Title 62. Public Finance                                                   Page 179
+
+      B. Any state agency applying for an exemption or extension pursuant to this section
+shall provide written documentation of the circumstances to the Chief Information Officer.
+After reviewing the documentation, the Chief Information Officer shall grant or deny the
+application. If the state agency disputes the decision of the Chief Information Officer, the
+Director of the Office of Management and Enterprise Services shall make the final
+determination as to whether the exemption or extension will be granted.
+Added by Laws 2011, c. 296, § 7. Amended by Laws 2012, c. 304, § 416.
+
+§62-35.7a. State agencies — Employing technology personnel —
+Memo of understanding with Chief Information Officer — Audit.
+     A. Except as otherwise provided by the Information Technology Consolidation and
+Coordination Act, any state agency may employ information technology personnel to
+develop and implement the agency’s technology strategy, provided that the agency
+remains subject to the standards, policies, and oversight established by the Chief
+Information Officer of this state for the purposes of data integrity and security.
+
+      B. A state agency may employ information technology personnel pursuant to this
+section if it first enters into a memorandum of understanding with the Chief Information
+Officer detailing, at a minimum:
+
+       1. The specific positions and job descriptions that the agency plans to hire;
+
+       2. The qualifications of the positions;
+
+     3. Agreement by the state agency to be bound by the standards, policies, and
+oversight set forth by the Chief Information Officer for security and data integrity purposes;
+and
+
+     4. Any other terms deemed necessary by the Chief Information Officer or the state
+agency.
+
+       No information technology personnel shall be hired or retained by the state agency
+until a memorandum of understanding has been fully executed by both the Chief
+Information Officer and the state agency.
+
+      C. The Chief Information Officer, at his or her discretion, may audit the state agency’s
+compliance with the provisions of the memorandum of understanding and any other
+requirements of this section.
+
+     D. The authorization described in this section shall not be construed as a waiver or
+exemption of any other provisions of the Information Technology Consolidation and
+Coordination Act.
+
+Oklahoma Statutes - Title 62. Public Finance                                                Page 180
+
+Added by Laws 2025, c. 393, § 2, emerg. eff. May 26, 2025.
+
+§62-35.8. Security standards.
+      A. Notwithstanding any other provision of law, the provisions of the Information
+Technology Consolidation and Coordination Act shall operate to maintain or increase
+security standards and shall not jeopardize confidentiality or compliance with state or
+federal laws or regulations. The State Governmental Technology Applications Review
+Board shall consider and approve security protocols which shall be followed by employees
+of the Information Services Division of the Office of Management and Enterprise Services
+who are assigned to service law enforcement agencies. The Board shall make
+recommendations to state officers and employees related to continuity of criminal justice
+information system security protocols.
+
+       B. Notwithstanding the provisions of Section 35.5 of this title, the transfer of
+information technology assets and positions of the Department of Public Safety shall occur
+prior to the transfer of assets and positions of other public safety agencies.
+
+      C. Unless otherwise provided for in law, the transfer of information technology assets
+and positions of any state agency pursuant to the Information Technology Consolidation
+and Coordination Act shall not act to transfer to the Information Services Division of the
+Office of Management and Enterprise Services or to the Chief Information Officer the
+duties of a state agency to keep, maintain and open to any person all records of the agency
+in compliance with the Oklahoma Open Records Act. Each state agency shall continue to
+be responsible for records created by, received by, under the authority of, or coming into
+the custody, control or possession of the agency including the duty to organize and
+categorize the records in a retrievable form and the duty to respond to requests for records,
+even if the records have been transmitted to or stored by the Information Services Division
+of the Office of Management and Enterprise Services or the Chief Information Officer.
+
+       D. State employees who are members of the Teachers' Retirement System of
+Oklahoma and are transferred pursuant to the Information Technology Consolidation and
+Coordination Act may elect to continue their participation in the Teachers' Retirement
+System of Oklahoma in lieu of participating in the Oklahoma Public Employees Retirement
+System. Any transferred employee who wishes to make such election shall do so in writing
+within thirty (30) days of the effective date of this act. If any transferred employee has
+already started participating in the Oklahoma Public Employees Retirement System, the
+employee may make an election to return to the Teachers' Retirement System of Oklahoma
+if the election is made in writing within thirty (30) days of the effective date of this act. In
+the event a transferred employee who has already begun participating in the Oklahoma
+
+Oklahoma Statutes - Title 62. Public Finance                                                 Page 181
+
+Public Employees Retirement System elects to return to the Teachers' Retirement System
+of Oklahoma, the Oklahoma Public Employees Retirement System shall transfer the
+service credit and contributions to the Teachers' Retirement System of Oklahoma for any
+credit that accrued after the initial transfer. The election to continue or return to
+participation in the Teachers' Retirement System of Oklahoma pursuant to this subsection
+shall be irrevocable and shall be effective until the employment with the Office of
+Management and Enterprise Services is terminated.
+
+Added by Laws 2011, c. 296, § 8. Amended by Laws 2012, c. 292, § 5; Laws 2013, c. 15, §
+64, emerg. eff. April 8, 2013; Laws 2013, c. 227, § 14, eff. Nov. 1, 2013; Laws 2013, c. 358, §
+24, eff. July 1, 2013.
+
+NOTE: Laws 2012, c. 304, § 417 repealed by Laws 2013, c. 15, § 65, emerg. eff. April 8,
+2013.
