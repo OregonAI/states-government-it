@@ -46,6 +46,62 @@ sources:
     article: 27A
   found_via: Named on DoIT's cybersecurity program page ('Cybersecurity Act, Sections 9-27A-1 to 9-27A-5, NMSA 1978'); text read in the same Chapter 9 PDF as the DoIT Act.
   why_relevant: 'The Cybersecurity Act (2023): creates the Office of Cybersecurity and the state chief information security officer, its powers and duties including a centralized cybersecurity and data breach reporting process for agencies and political subdivisions (9-27A-3), and the cybersecurity advisory committee (9-27A-5). The source serves the whole of Chapter 9 as one PDF; this document is Article 27A of it, with the Compilation Commission''s annotations.'
+- id: nm-nmsa-14-3-15-2
+  sha256: "3c22c989b5fae351953a59f4fea784e9a0159e3d472489b9f9b4943136a24559"
+  url: https://nmonesource.com/nmos/nmsa/en/4383/1/document.do
+  format: json
+  citation: NMSA 1978, 14-3-15.2
+  title: Electronic authentication; substitution for signature
+  doc_type: statute
+  jurisdiction: new-mexico
+  issuing_body: New Mexico Legislature; published by the New Mexico Compilation Commission (NMOneSource.com)
+  tags:
+  - digital-services
+  - governance
+  recheck: monthly
+  slice:
+    section_start: 14-3-15.2
+    section_end_before: 14-3-16
+  found_via: 'Cited by the held rule 1.12.7 NMAC (scope: ''to implement the electronic signature authority pursuant to the Public Records Act, Section 14-3-15.2 NMSA 1978''); owner decision 2026-11-13 (a provision whose own focus is the governance of state IT is in scope as a section slice). Text read in the Chapter 14 PDF, the ''Chapter 14 NMSA 1978'' document link of NMOneSource item 4383.'
+  why_relevant: 'Section 14-3-15.2 of the Public Records Act, one sentence: ''Whenever there is a requirement for a signature on any document, electronic authentication that meets the standards promulgated by the commission may be substituted.'' In the Public Records Act ''commission'' means the state commission of public records (14-3-2), so the section makes the standards of that commission the test for substituting electronic authentication for a signature. The focus is IT governance: the section names the state commission of public records (14-3-2(C)) as the body whose standards decide when electronic authentication may replace a signature, and the electronic signature rule 1.12.7 NMAC (State Commission of Public Records and State Records Administrator) is issued under it. The sections around it, on records in general, are not in this document. Currency, checked 2026-11-13 from bytes fetched that day through the Fetcher: NMOneSource''s item page for Chapter 14 (https://nmonesource.com/nmos/nmsa/en/item/4383/index.do) sits under ''Current New Mexico Statutes Annotated 1978'' and the site prints ''Website last modified: 11/12/2026''; the chapter PDF (252 pages) was created 2026-10-27. The section prints no repeal or not-yet-effective marker.'
+- id: nm-nmsa-14-15
+  sha256: "406faec4bc7f41ff435b3eb2ae77354d78378990b445825d2069cd786673e689"
+  url: https://nmonesource.com/nmos/nmsa/en/4383/1/document.do
+  format: json
+  citation: NMSA 1978, 14-15-1 to 14-15-6
+  title: Electronic Authentication of Documents Act
+  doc_type: statute
+  jurisdiction: new-mexico
+  issuing_body: New Mexico Legislature; published by the New Mexico Compilation Commission (NMOneSource.com)
+  tags:
+  - digital-services
+  - governance
+  - data
+  recheck: monthly
+  slice:
+    section_start: 14-15-1
+    section_end_before: 14-16-1
+  found_via: Cited by the held rule 1.12.7 NMAC and by 14-3-15.2 NMSA 1978 ('For the Electronic Authentication of Documents Act, see Chapter 14, Article 15'); owner decision 2026-11-13. Text read in the Chapter 14 PDF, the 'Chapter 14 NMSA 1978' document link of NMOneSource item 4383.
+  why_relevant: 'The Electronic Authentication of Documents Act, the whole of Article 15 (14-15-1 to 14-15-6): its purpose is ''a centralized technical approach to authenticating electronic documents'' and ''electronic filing of documents with government agencies and ... efficient delivery of government services by means of reliable, secure electronic records and document transactions'' (14-15-2); it provides that ''the information technology commission shall adopt rules and standards to accomplish the purposes'' of the Act (14-15-5) and that the information technology management office may contract for services under it, subject to the Procurement Code (14-15-6). The whole article is IT governance of electronic authentication; 14-15-4 is printed ''Repealed.'' with its repeal note. Currency, checked 2026-11-13 from bytes fetched that day through the Fetcher: NMOneSource''s item page for Chapter 14 (https://nmonesource.com/nmos/nmsa/en/item/4383/index.do) sits under ''Current New Mexico Statutes Annotated 1978'' and the site prints ''Website last modified: 11/12/2026''; the chapter PDF (252 pages) was created 2026-10-27. The sections print no repeal or not-yet-effective marker (14-15-4 alone is printed ''Repealed.'', with its repeal note). The sections still name the information technology commission and office that no longer exist (Chapter 15, Article 1C is repealed): the Compilation Commission prints the text as current law and it is held as printed.'
+- id: nm-nmsa-14-16-17
+  sha256: "565222dc7e56c21a6b58980ce823a309ae7feea25e1ce98f7104c43bdccc2a89"
+  url: https://nmonesource.com/nmos/nmsa/en/4383/1/document.do
+  format: json
+  citation: NMSA 1978, 14-16-17 to 14-16-19
+  title: 'Uniform Electronic Transactions Act: electronic records of governmental agencies'
+  doc_type: statute
+  jurisdiction: new-mexico
+  issuing_body: New Mexico Legislature; published by the New Mexico Compilation Commission (NMOneSource.com)
+  tags:
+  - digital-services
+  - data
+  - governance
+  recheck: monthly
+  slice:
+    section_start: 14-16-17
+    section_end_before: 14-16-20
+  found_via: Cited by the held rule 1.12.7 NMAC (the New Mexico Uniform Electronic Transactions Act, Section 14-16-1 et seq NMSA 1978); owner decision 2026-11-13. Text read in the Chapter 14 PDF, the 'Chapter 14 NMSA 1978' document link of NMOneSource item 4383. Only the three sections addressed to governmental agencies are held; see left_out.
+  why_relevant: 'Sections 14-16-17 to 14-16-19 of the Uniform Electronic Transactions Act, the three sections addressed to state agencies: each governmental agency of this state ''shall determine whether, and the extent to which, it will create and retain electronic records and convert written records to electronic records'' (14-16-17); the state records administrator issues rules for all governmental agencies, or an agency, ''giving due consideration to security'', issues its own rules on the format and systems for electronic records, the type of electronic signature, and ''control processes and procedures ... to ensure adequate preservation, disposition, integrity, security, confidentiality and auditability of electronic records'' (14-16-18, the authority of 1.12.7 NMAC); and the interoperability of those standards (14-16-19). Currency, checked 2026-11-13 from bytes fetched that day through the Fetcher: NMOneSource''s item page for Chapter 14 (https://nmonesource.com/nmos/nmsa/en/item/4383/index.do) sits under ''Current New Mexico Statutes Annotated 1978'' and the site prints ''Website last modified: 11/12/2026''; the chapter PDF (252 pages) was created 2026-10-27. The sections print no repeal or not-yet-effective marker.'
 - id: nm-nmac-1-12-1
   sha256: "c49399450a0ef63429431ca1ee572f63c09213013a78f1238a2a5acd8e74d326"
   url: https://www.doit.nm.gov/files/docs/1.12.1-GeneralProvisions.pdf
@@ -721,7 +777,7 @@ left_out:
      - Included: Chapter 9 Article 27 (Department of Information Technology Act) and Article 27A (Cybersecurity Act). Article 27 sits in Chapter 9 with unrelated departments, so each entry is an article slice; the Commission's annotations come with the text.
      - Chapter 15 Article 1C (Information Technology Management Act, the commission and the CIO office before DoIT): the chapter PDF prints 'Information Technology Management (Repealed.)' with only repealed-section notes. Nothing in force.
      - Chapter 57 Article 12C (Data Breach Notification Act, 57-12C-1 to 57-12C-12): duties are placed on 'a person' that owns or licenses personal identifying information, and the Act's definitions do not define 'person' or name state agencies. Not shown to bind state agencies in the bytes read: left out. OWNER DECISION (may bind agencies as persons; section-level reading needed).
-     - Chapter 14 (Records, Rules, Legal Notices, Oaths), Articles 3 (Public Records), 15 (Electronic Authentication of Documents) and 16 (Uniform Electronic Transactions): electronic records and signatures; non-IT chapter, mostly records law; left out pending the owner's decision on section-level slicing (playbook). Chapter 13 (Public Purchases and Property): the Procurement Code; its hits for 'information technology' were references to DoIT's sunshine portal, the old commission and one telecommunications phrase; left out for the same reason.
+     - Chapter 14 (Records, Rules, Legal Notices, Oaths), Articles 3 (Public Records), 15 (Electronic Authentication of Documents) and 16 (Uniform Electronic Transactions): first left out pending the owner's decision on section-level slicing. SUPERSEDED on 2026-11-13: the owner approved a provision outside an IT chapter as a section slice when its own focus is the governance of state IT; the provisions that pass that test are now documents (nm-nmsa-14-3-15-2, nm-nmsa-14-15, nm-nmsa-14-16-17) and the rest of the chapter, with the reasons, is in the 2026-11-13 record below. Chapter 13 (Public Purchases and Property): the Procurement Code; its hits for 'information technology' were references to DoIT's sunshine portal, the old commission and one telecommunications phrase; left out because that read found no section whose own focus is state IT purchasing. It was not re-read on 2026-11-13: it was not a candidate of the authority-references pass, and the owner's decision approves only the candidates.
      - Chapter 10 (Public Officers and Employees; the chapter PDF fetched through the Fetcher, NMOneSource item 4364, searched the same way) Article 16D, Sunshine Portal Transparency Act (10-16D-1 to 10-16D-6): the Department of Information Technology, with the Department of Finance and Administration, develops, operates and maintains the 'sunshine portal' web site that publishes the state's financial information (10-16D-3), and works with the Public Education Department on the school data extract (10-16D-6). Left out: the duty is DoIT's, but the subject is publication of financial transparency data, not governance of the state's own IT. OWNER DECISION (digital-services scope): the article could be seeded as a slice like Article 27 (the slice code reads any 'ARTICLE nn' heading). The same chapter's Article 16E, One-Stop Business Portal Act (10-16E-1 to 10-16E-4), likewise gives DoIT a public web portal for business transactions with state agencies: left out for the same reason and the same decision. No other Chapter 10 hit: 'information technology' otherwise appears only in a retirement-system provision (the system's own IT) and cross references to DoIT; no 'cybersecurity', 'artificial intelligence' or 'automated decision'.
      - AI: no statute on state-agency use of AI found. The word 'artificial intelligence' appears once in the five chapters read (Chapters 9, 13, 14, 15 and 57; Chapter 10 has none), in a Chapter 9 list of sectors for technology innovation prizes (economic development: out of scope). nmlegis.gov shows SB 68 of the 2026 session ('Artificial Intelligence Government Use Act', public bodies' AI policies and training) as 'Died (API.)', action postponed indefinitely: a bill never enacted, out of scope.
 - text: |-
@@ -734,3 +790,11 @@ left_out:
     IT Strategic Planning page (read): FY25-27 and FY2021-2023 statewide IT strategic plans, DoIT annual plans FY21 to FY26 and the FY28 agency plan guidance templates and calendar: strategy documents, templates and a calendar, left out.
 - text: |-
     Executive orders: the Governor's current page (2026 and 2025 lists, 160 and 417 rows by link text, plus the 'Amending And Rescinding Executive Orders' list) and the archive (2019 to 2024, 221 rows for 2024, 147 for 2023, 164 for 2022, 68 for 2021, 85 for 2020, 36 for 2019, by link text) were read and every title searched for technology, cyber, data, artificial, information, digital, computer, software, internet, privacy, broadband, network and electronic. IT, cybersecurity or data orders found: 2024-011 and 2022-141 (documents). Left out on the inclusion test: 2020-015 and 2020-039 (temporary permission of notarial acts through audio-visual technology, a COVID-era notary rule, not IT as a government function) and 2021-048 (collection of voluntary self-identification data on sexual orientation and gender identity, a personnel-data practice, not IT governance; OWNER DECISION). No order on AI found. The Governor's pages do not carry orders before 2019, so 2008-011 comes from DoIT's page only; whether it was revoked could not be checked there.
+- text: |-
+    Owner decision 2026-11-13 (a provision whose own focus is the governance of state government IT is in scope as a section slice) applied to the New Mexico candidates of the authority-references pass (docs/research/12), each read in the Chapter 14 PDF (NMOneSource item 4383, the 'Chapter 14 NMSA 1978' document link, 252 pages, fetched 2026-11-13 through the Fetcher):
+     - 14-3-15.2 (Public Records Act, electronic authentication; substitution for signature): seeded as nm-nmsa-14-3-15-2. The section is solely about electronic authentication and who sets its standards ('the commission' is the state commission of public records, 14-3-2); 1.12.7 NMAC is issued under it.
+     - Article 15, Electronic Authentication of Documents Act (14-15-1 to 14-15-6): seeded whole as nm-nmsa-14-15; every section is about electronic authentication and the IT commission's and office's powers over it (14-15-4 is repealed and printed as such).
+     - Article 16, Uniform Electronic Transactions Act, 14-16-17 to 14-16-19 (agencies decide whether to create and retain electronic records, the state records administrator's rules for all agencies or an agency's own rules on the format, systems, signature type and security of electronic records, and interoperability): seeded as nm-nmsa-14-16-17.
+     - Article 16, 14-16-1 to 14-16-16 (short title, definitions, scope, variation by agreement, legal recognition of electronic records and signatures, notarization, retention of electronic records, admissibility, automated transactions, time and place of sending, transferable records): left out. A general law of electronic transactions between any parties (it applies to a 'person', which includes any individual, company or governmental agency, 14-16-2); it governs how electronic records and signatures are treated in commerce and in court, not how the state governs its own IT. The retention section (14-16-12) applies to 'a person', not to agencies, and reserves to a governmental agency the power to add its own requirements (14-16-12(g)).
+     - Article 16, 14-16-20 and 14-16-21 (a governmental agency may provide by rule for an applicant to satisfy by electronic means its requirements for certifications, permits, registrations and licenses; the two sections are near-identical, enacted by Laws 2013, ch. 30 and ch. 68): left out. A permission to an agency to make licensing available online, not a rule on how the state's IT is governed, bought, secured or overseen.
+     - Public Records Act sections other than 14-3-15.2 (for example 14-3-15.1, records of state agencies and copy fees for computerized databases): not candidates of the authority-references pass and not approved; not seeded.

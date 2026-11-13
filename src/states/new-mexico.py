@@ -10,7 +10,13 @@ article out of the bundle's pages. Nothing in the slice is edited: annotations a
 A rule PDF opens with a Register header line or with the TITLE/CHAPTER/PART lines; the shared check looks for the
 seed title in upper or lower case anywhere, so the part heading is read here instead. A standard prints its code in
 its own spelling ("NDT-STD008.001" for N-STD-008), so the code is compared by kind and number. An executive order
-is a scan read by OCR: its heading line must carry the number, a mention of it in the body does not count."""
+is a scan read by OCR: its heading line must carry the number, a mention of it in the body does not count.
+
+A statute entry is one of two slices of a chapter PDF. `slice: {article: "27"}` is a whole article (Chapter 9). `slice:
+{section_start, section_end_before}` (the shared section-range shape, used for Chapter 14) is the run of sections from
+the heading of `section_start` to the heading of `section_end_before`, which is not in it: the heading is the printed
+line `14-15-1. Short title.`, and a line that merely begins with a section number (a cross reference in an annotation,
+`14-3-15.2 NMSA 1978.`) is not one. The bundle keeps the pages that hold the range; `to_text` cuts the lines."""
 from __future__ import annotations
 
 import hashlib
@@ -23,7 +29,9 @@ from src.ingest_common import _LIGATURES, _squash, paragraph_html_to_text
 from src.states import UNHANDLED
 
 _FORMAT = "nmos-chapter-slice/1"
+_FORMAT_SECTIONS = "nmos-section-slice/1"
 _ARTICLE = re.compile(r"^ARTICLE \d+[A-Z]?$")
+_SECTION_HEAD = re.compile(r"^(\d+[A-Z]?-\d+[A-Z]?-\d+(?:\.\d+)?[A-Za-z]?)\. (?=\S)")
 _TITLE_BLOCK = 1500
 _RULE_BLOCK = 700
 
@@ -64,6 +72,46 @@ def slice_bundle(pages: list[str], article: str, url: str, chapter_sha256: str) 
     return (json.dumps(doc, ensure_ascii=False, indent=1) + "\n").encode("utf-8")
 
 
+def _section_heads(lines: list[str]) -> list[tuple[int, str]]:
+    """(line index, printed section number) of every line that is a section heading `14-15-1. Short title.`"""
+    return [(i, m.group(1)) for i, l in enumerate(lines) if (m := _SECTION_HEAD.match(l))]
+
+
+def _section_range(lines: list[str], start: str, end_before: str) -> tuple[int, int]:
+    """Line indexes [first, stop) of the sections from `start` to the heading of `end_before`."""
+    heads = _section_heads(lines)
+    firsts = [i for i, num in heads if num == start]
+    if len(firsts) != 1:
+        raise ValueError(f"section {start} is printed {len(firsts)} times as a heading in the chapter PDF "
+                         f"(the layout changed, the section was renumbered, or the slice is wrong)")
+    stop = next((i for i, num in heads if num == end_before and i > firsts[0]), None)
+    if stop is None:
+        raise ValueError(f"heading {end_before} does not follow section {start} in the chapter PDF: "
+                         f"the slice would be a guess")
+    return firsts[0], stop
+
+
+def slice_bundle_sections(pages: list[str], start: str, end_before: str, url: str, chapter_sha256: str) -> bytes:
+    """The pages of the chapter that hold the sections from `start` to the heading of `end_before`, as the JSON
+    bundle that becomes the snapshot."""
+    lines_of = [[l.rstrip() for l in p.splitlines()] for p in pages]
+    flat = [l for ls in lines_of for l in ls]
+    first_line, stop_line = _section_range(flat, start, end_before)
+    first = last = None
+    seen = 0
+    for n, ls in enumerate(lines_of):
+        if first is None and seen + len(ls) > first_line:
+            first = n
+        if seen + len(ls) > stop_line:
+            last = n
+            break
+        seen += len(ls)
+    doc = {"format": _FORMAT_SECTIONS, "url": url, "chapter_sha256": chapter_sha256, "chapter_pages": len(pages),
+           "section_start": start, "section_end_before": end_before, "first_page": first + 1,
+           "last_page": last + 1, "pages": pages[first:last + 1]}
+    return (json.dumps(doc, ensure_ascii=False, indent=1) + "\n").encode("utf-8")
+
+
 def snapshot(src, fetcher, dest: Path, refetch):
     if src["doc_type"] != "statute":
         return None
@@ -72,14 +120,38 @@ def snapshot(src, fetcher, dest: Path, refetch):
     raw = fetcher.get(src["url"]).body
     if not raw.startswith(b"%PDF"):
         raise ValueError(f"{src['id']}: the chapter source did not serve a PDF")
-    bundle = slice_bundle(_pdf_pages(raw), src["slice"]["article"], src["url"], hashlib.sha256(raw).hexdigest())
+    sha, pages = hashlib.sha256(raw).hexdigest(), _pdf_pages(raw)
+    sl = src["slice"]
+    if "section_start" in sl:
+        bundle = slice_bundle_sections(pages, sl["section_start"], sl["section_end_before"], src["url"], sha)
+    else:
+        bundle = slice_bundle(pages, sl["article"], src["url"], sha)
     dest.parent.mkdir(parents=True, exist_ok=True)
     dest.write_bytes(bundle)
     return bundle, True
 
 
+def _sections_to_text(doc: dict, slice_: dict | None) -> str:
+    start = (slice_ or {}).get("section_start") or doc["section_start"]
+    end_before = (slice_ or {}).get("section_end_before") or doc["section_end_before"]
+    lines = [l.rstrip() for l in "\n".join(doc["pages"]).translate(str.maketrans(_LIGATURES)).replace("\f", "\n").split("\n")]
+    first, stop = _section_range(lines, start, end_before)
+    cut = lines[first:stop]
+    while cut and not cut[-1].strip():
+        cut.pop()
+    # the heading of the next article (`ARTICLE 16` and its caption) is printed just before that article's first section
+    tail = [i for i, l in enumerate(cut) if _ARTICLE.match(l)]
+    if tail and all(l.strip() for l in cut[tail[-1]:]) and len(cut) - tail[-1] <= 2:
+        cut = cut[:tail[-1]]
+    while cut and not cut[-1].strip():
+        cut.pop()
+    return re.sub(r"\n{3,}", "\n\n", "\n".join(cut)).strip("\n") + "\n"
+
+
 def _bundle_to_text(raw: bytes, slice_: dict | None) -> str:
     doc = json.loads(raw)
+    if doc.get("format") == _FORMAT_SECTIONS:
+        return _sections_to_text(doc, slice_)
     if doc.get("format") != _FORMAT:
         raise ValueError("not a New Mexico slice bundle")
     article = (slice_ or {}).get("article") or doc["article"]
@@ -107,10 +179,37 @@ def _fail(src, what_is, msg):
     raise ValueError(f"{src['id']}: {what_is} is not the cited instrument: {msg}")
 
 
+_SEC_CITATION = re.compile(r"NMSA 1978, (\d+[A-Z]?-\d+[A-Z]?-\d+(?:\.\d+)?[A-Za-z]?)"
+                           r"(?: to (\d+[A-Z]?-\d+[A-Z]?-\d+(?:\.\d+)?[A-Za-z]?))?")
+
+
+def _check_sections(src, text):
+    """A section slice is the cited one when it opens on the heading of the first cited section and the last
+    section heading it holds is the last cited one; for one section its printed caption is the seed title."""
+    cite = _SEC_CITATION.fullmatch(src["citation"])
+    if not cite:
+        raise ValueError(f"{src['id']}: citation {src['citation']!r} is not 'NMSA 1978, n-n-n' or "
+                         f"'NMSA 1978, n-n-n to n-n-n'")
+    first, last = cite.group(1), cite.group(2) or cite.group(1)
+    lines = text.splitlines()
+    heads = [(m.group(1), l) for l in lines if (m := _SECTION_HEAD.match(l))]
+    if not heads or heads[0][0] != first or heads[-1][0] != last:
+        got = (heads[0][0], heads[-1][0]) if heads else None
+        raise ValueError(f"{src['id']}: page is not {src['citation']} (its first and last section headings are {got})")
+    if first == last:
+        caption = _SECTION_HEAD.sub("", heads[0][1]).rstrip(".")
+        if _squash(src["title"]).casefold().rstrip(".") != _squash(caption).casefold():
+            raise ValueError(f"{src['id']}: the section's printed caption {caption!r} is not the seed title "
+                             f"{src['title']!r} (title mismatch)")
+    return True
+
+
 def check_identity(src, text, what_is):
     if src["jurisdiction"] != "new-mexico":
         return False
     kind = src["doc_type"]
+    if kind == "statute" and "section_start" in (src.get("slice") or {}):
+        return _check_sections(src, text)
     if kind == "statute":
         art = re.search(r"article\s+(\d+[A-Z]?)\b", src["citation"], flags=re.I)
         lines = text.splitlines()
@@ -174,9 +273,13 @@ def source_version(text, doc_type, fmt):
 
 def notes(src, fmt, text):
     if fmt == "json" and src["doc_type"] == "statute":
-        return ("Text taken from the whole-chapter PDF of Chapter 9 of the New Mexico Statutes Annotated 1978 that the "
-                "New Mexico Compilation Commission publishes on NMOneSource.com, cut at the article's heading line "
-                "and the next article's heading line. The Commission's annotations (effective dates, temporary "
+        sections = "section_start" in (src.get("slice") or {})
+        found = re.match(r"NMSA 1978, (\d+)", src["citation"]) if sections else re.search(r"chapter (\d+)", src["citation"])
+        chapter = found.group(1) if found else "9"          # the article slices are all of Chapter 9
+        cut = ("cut at the heading line of the first section and the heading line of the section that follows the "
+               "last one" if sections else "cut at the article's heading line and the next article's heading line")
+        return (f"Text taken from the whole-chapter PDF of Chapter {chapter} of the New Mexico Statutes Annotated 1978 that the "
+                f"New Mexico Compilation Commission publishes on NMOneSource.com, {cut}. The Commission's annotations (effective dates, temporary "
                 "provisions, cross references) and each section's history line are printed with the sections and "
                 "kept as printed. The chapter PDF prints no page headers or footers and no edition date.")
     if fmt == "html" and src["doc_type"] == "rule":

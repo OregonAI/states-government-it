@@ -118,6 +118,141 @@ def test_snapshot_hook_leaves_other_entries_to_the_shared_fetch():
     assert NM.snapshot({"doc_type": "policy", "url": "x"}, None, Path("x"), False) is None
 
 
+# ---- statute section slices (Chapter 14: records, electronic authentication, UETA) ----------------
+# Fixtures are pages 79-81 and 235-252 of the Chapter 14 PDF (NMOneSource item 4383, fetched 2026-11-13): the
+# Public Records Act section 14-3-15.2 with the sections around it, and Articles 15 and 16 from the start of
+# Article 15 to the end of the chapter.
+
+PRA = (FIX / "nmsa-chapter-14-pages-79-81.txt").read_text(encoding="utf-8").split("\f")
+ART15_16 = (FIX / "nmsa-chapter-14-pages-235-252.txt").read_text(encoding="utf-8").split("\f")
+
+
+def section_bundle(pages, start, end_before):
+    return NM.slice_bundle_sections(pages, start, end_before, url="https://example.test/ch14",
+                                    chapter_sha256="0" * 64)
+
+
+def section_text(pages, start, end_before):
+    return ing.to_text(section_bundle(pages, start, end_before), "json", "statute", "new-mexico",
+                       {"section_start": start, "section_end_before": end_before})
+
+
+def test_one_section_slice_starts_at_its_heading_and_stops_before_the_next_section():
+    t = section_text(PRA, "14-3-15.2", "14-3-16")
+    lines = t.splitlines()
+    assert lines[0] == "14-3-15.2. Electronic authentication; substitution for signature."
+    assert "electronic authentication that meets the standards promulgated by the commission" in " ".join(t.split())
+    assert "History: Laws 1995, ch. 27, § 1." in t
+    assert not any(l.startswith("14-3-16.") for l in lines)
+    assert "Attorney general may replevin" not in t
+
+
+def test_a_cross_reference_that_begins_a_line_is_not_taken_for_the_heading():
+    # the annotations of 14-3-15.1 print a line "14-3-15.2 NMSA 1978." before the real heading
+    assert "14-3-15.2 NMSA 1978." in "\n".join(PRA)
+    t = section_text(PRA, "14-3-15.2", "14-3-16")
+    assert "Records of state agencies" not in t and "Crutchfield" not in t
+
+
+def test_a_slice_of_several_sections_includes_each_one_and_drops_the_next_articles_heading():
+    t = section_text(ART15_16, "14-15-1", "14-16-1")
+    heads = [l.split(".")[0] for l in t.splitlines() if l.startswith("14-15-")]
+    assert heads == ["14-15-1", "14-15-2", "14-15-3", "14-15-4", "14-15-5", "14-15-6"]
+    assert t.splitlines()[0] == "14-15-1. Short title."
+    assert "ARTICLE 16" not in t and "Uniform Electronic Transactions" not in t
+    assert "14-16-1." not in t
+    assert t.rstrip().endswith("substituted \"rules\" for \"regulations\".")
+
+
+def test_the_last_sections_of_the_chapter_slice_to_the_end_of_the_range():
+    t = section_text(ART15_16, "14-16-17", "14-16-20")
+    heads = [l for l in t.splitlines() if l.startswith("14-16-")]
+    assert [h.split(".")[0] for h in heads] == ["14-16-17", "14-16-18", "14-16-19"]
+    assert "Each governmental agency of this state shall determine" in t
+    assert "Interoperability" in t
+    assert "Electronic certifications, permits" not in t and "14-16-16" not in t
+
+
+def test_section_slice_text_has_no_form_feeds_trailing_spaces_or_blank_runs():
+    for pages, a, b in ((PRA, "14-3-15.2", "14-3-16"), (ART15_16, "14-15-1", "14-16-1")):
+        t = section_text(pages, a, b)
+        assert "\f" not in t and all(l == l.rstrip() for l in t.splitlines()) and "\n\n\n" not in t
+        assert not t.startswith("\n") and t.endswith("\n") and not t.endswith("\n\n")
+
+
+def test_section_bundle_holds_only_the_pages_of_the_range_and_says_where_it_came_from():
+    doc = json.loads(section_bundle(ART15_16, "14-16-17", "14-16-20"))
+    assert doc["format"] == "nmos-section-slice/1" and doc["url"] == "https://example.test/ch14"
+    assert (doc["section_start"], doc["section_end_before"]) == ("14-16-17", "14-16-20")
+    assert len(doc["pages"]) == doc["last_page"] - doc["first_page"] + 1 < len(ART15_16)
+
+
+def test_a_section_that_is_not_in_the_chapter_or_not_followed_by_the_end_is_refused():
+    with pytest.raises(ValueError, match="14-99-1"):
+        section_bundle(ART15_16, "14-99-1", "14-99-2")
+    with pytest.raises(ValueError, match="does not follow"):
+        section_bundle(ART15_16, "14-16-17", "14-15-1")
+
+
+def test_a_start_printed_twice_as_a_heading_is_refused():
+    with pytest.raises(ValueError, match="printed 2 times"):
+        section_bundle(ART15_16 + ART15_16, "14-15-1", "14-16-1")
+
+
+def test_the_range_cut_from_a_bundle_must_match_the_seed_slice():
+    raw = section_bundle(ART15_16, "14-16-17", "14-16-20")
+    with pytest.raises(ValueError, match="14-15-1"):
+        ing.to_text(raw, "json", "statute", "new-mexico", {"section_start": "14-15-1", "section_end_before": "14-16-1"})
+
+
+SEC = {"id": "nm-nmsa-14-3-15-2", "jurisdiction": "new-mexico", "doc_type": "statute",
+       "citation": "NMSA 1978, 14-3-15.2", "title": "Electronic authentication; substitution for signature",
+       "slice": {"section_start": "14-3-15.2", "section_end_before": "14-3-16"}}
+RANGE = {"id": "nm-nmsa-14-15", "jurisdiction": "new-mexico", "doc_type": "statute",
+         "citation": "NMSA 1978, 14-15-1 to 14-15-6", "title": "Electronic Authentication of Documents Act",
+         "slice": {"section_start": "14-15-1", "section_end_before": "14-16-1"}}
+
+
+def test_section_identity_accepts_the_cited_sections_and_refuses_others():
+    states.check_identity(SEC, section_text(PRA, "14-3-15.2", "14-3-16"), "json")
+    states.check_identity(RANGE, section_text(ART15_16, "14-15-1", "14-16-1"), "json")
+    with pytest.raises(ValueError, match="not NMSA 1978, 14-15-1 to 14-15-5"):
+        states.check_identity({**RANGE, "citation": "NMSA 1978, 14-15-1 to 14-15-5"},
+                              section_text(ART15_16, "14-15-1", "14-16-1"), "json")
+    with pytest.raises(ValueError, match="not NMSA 1978, 14-3-15.1"):
+        states.check_identity({**SEC, "citation": "NMSA 1978, 14-3-15.1"}, section_text(PRA, "14-3-15.2", "14-3-16"), "json")
+
+
+def test_section_identity_refuses_a_single_section_whose_caption_is_not_the_seed_title():
+    with pytest.raises(ValueError, match="title"):
+        states.check_identity({**SEC, "title": "Something else"}, section_text(PRA, "14-3-15.2", "14-3-16"), "json")
+
+
+def test_section_identity_refuses_a_citation_it_cannot_read():
+    with pytest.raises(ValueError, match="citation"):
+        states.check_identity({**SEC, "citation": "NMSA 1978, chapter 14"}, section_text(PRA, "14-3-15.2", "14-3-16"), "json")
+
+
+def test_snapshot_hook_builds_a_section_bundle_from_the_chapter_pdf(tmp_path, monkeypatch):
+    class Fetched:
+        body = b"%PDF fake chapter"
+
+    class Fake:
+        def get(self, url):
+            return Fetched()
+
+    monkeypatch.setattr(NM, "_pdf_pages", lambda raw: ART15_16)
+    src = {**RANGE, "url": "https://example.test/ch14"}
+    raw, fresh = NM.snapshot(src, Fake(), tmp_path / "nm-nmsa-14-15.json", False)
+    doc = json.loads(raw)
+    assert fresh and doc["format"] == "nmos-section-slice/1" and doc["section_start"] == "14-15-1"
+
+
+def test_notes_name_the_chapter_of_the_slice():
+    assert "Chapter 14" in NM.notes(SEC, "json", "")
+    assert "Chapter 9" in NM.notes(STAT, "json", "") and "Chapter 14" not in NM.notes(STAT, "json", "")
+
+
 # ---- rules ---------------------------------------------------------------------------------------
 
 RULE7 = {"id": "nm-nmac-1-12-7", "jurisdiction": "new-mexico", "doc_type": "rule",
