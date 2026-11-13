@@ -14,6 +14,7 @@ import re
 from src.ingest_common import _clean_line, _decode, paragraph_html_to_text
 
 _SECTION = re.compile(r"^§ \S+\.\s")
+_REPEALED_SECTION = re.compile(r"^§ \S+:\s")      # chapter pages print "§ 116E-3: Repealed by ..."
 _RULE = re.compile(r"^09 NCAC \d+\w+ \.\d+")
 
 
@@ -30,12 +31,14 @@ def statute_html_to_text(raw: bytes) -> str:
     """One article page to text: one line per source paragraph, then a blank line before each section and each
     part heading, nothing inside a section dropped (repealed-section lines and the session-law history stay)."""
     lines = _blocks(raw)
-    if not lines or not re.match(r"^Article \w+\.$", lines[0]) or not any(_SECTION.match(l) for l in lines):
-        raise ValueError("no statute text: the page has no article heading and sections (the layout changed, "
-                         "or this is not an article page)")
+    if not lines or not any(_SECTION.match(l) for l in lines) \
+            or not (re.match(r"^(Article|Chapter) \w+\.$", lines[0]) or _SECTION.match(lines[0])):
+        raise ValueError("no statute text: the page has no article, chapter or section heading and sections "
+                         "(the layout changed, or this is not a statute page)")
     out: list[str] = []
     for i, line in enumerate(lines):
-        if i > 1 and (_SECTION.match(line) or re.match(r"^Part \w+\. ", line)):
+        if i > 1 and (_SECTION.match(line) or re.match(r"^Part \w+\. ", line)
+                      or (lines[0].startswith("Chapter ") and _REPEALED_SECTION.match(line))):
             out.append("")
         out.append(line)
     return "\n".join(out) + "\n"
@@ -88,6 +91,8 @@ def to_text(raw, fmt, doc_type, slice_, host):
 
 
 _ARTICLE = re.compile(r"^G\.S\. (?P<ch>\w+), Article (?P<art>\w+)$")
+_CHAPTER = re.compile(r"^G\.S\. (?P<ch>\d+[A-Z]?)$")
+_SECTION_CITE = re.compile(r"^G\.S\. (?P<sec>\d+[A-Z]?-[\w.]+)$")
 _SUBCHAPTER = re.compile(r"Subchapter (?P<sub>\w+)$", re.I)
 
 
@@ -97,6 +102,16 @@ def check_identity(src, text, what_is):
     if src["doc_type"] == "statute":
         m = _ARTICLE.match(src["citation"])
         lines = text.splitlines()
+        whole = _CHAPTER.match(src["citation"])
+        one = _SECTION_CITE.match(src["citation"])
+        if whole or one:
+            # a chapter page (its first line is "Chapter 116E.") or a single section page (its first section is
+            # the cited one); the cited number must be the printed number, not a prefix of it
+            ok = bool(lines) and (lines[0] == f"Chapter {whole.group('ch')}." if whole
+                                  else lines[0].startswith(f"§ {one.group('sec')}. "))
+            if not ok:
+                raise ValueError(f"{src['id']}: page is not {src['citation']} (chapter or section mismatch)")
+            return True
         first = next((l for l in lines if _SECTION.match(l)), "")
         if not m or not lines or lines[0] != f"Article {m.group('art')}." \
                 or not first.startswith(f"§ {m.group('ch')}-"):
@@ -120,10 +135,20 @@ def notes(src, fmt, text):
     if src["jurisdiction"] != "north-carolina":
         return None
     if src["doc_type"] == "statute":
+        first = text.lstrip().splitlines()[0] if text.strip() else ""
+        tail = " The page's head and style sheet removed."
+        if first.startswith("§"):
+            return ("Text taken from the General Assembly's section page: the section's caption, subsections and "
+                    "session-law history, one line per paragraph." + tail + " Subsections printed as repealed keep "
+                    "their line as published.")
+        if first.startswith("Chapter "):
+            return ("Text taken from the General Assembly's chapter page: the chapter number and title, then each "
+                    "section's caption, subsections and session-law history, one line per paragraph." + tail +
+                    " A blank line precedes each section. Sections printed as repealed keep their line as published.")
         return ("Text taken from the General Assembly's article page: the article number and title, then each "
-                "section's caption, subsections and session-law history, one line per paragraph. The page's head "
-                "and style sheet removed. A blank line precedes each section and each part heading. Sections "
-                "printed as repealed keep their line as published.")
+                "section's caption, subsections and session-law history, one line per paragraph." + tail +
+                " A blank line precedes each section and each part heading. Sections printed as repealed keep "
+                "their line as published.")
     if src["doc_type"] == "rule":
         return ("Text taken from the Office of Administrative Hearings' page for the subchapter (Windows-1252 "
                 "Word HTML): the subchapter and section lines as printed, then each rule's number and caption, "
