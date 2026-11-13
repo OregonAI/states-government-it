@@ -56,6 +56,9 @@ def _heading(page: str) -> tuple[str, str, int]:
     return _clean_line(re.sub(r"<[^>]+>", "", label)).rstrip(":"), _clean_line(re.sub(r"<[^>]+>", "", cap)), m.end()
 
 
+_VERSION_NOTE = re.compile(r"\[Text of section\b.*\beffective\b", re.I)
+
+
 def statute_bundle_to_text(raw: bytes) -> str:
     """`Chapter 7D CAPTION`, then each section: a blank line, `Section n: caption`, and the section's paragraphs, one
     line each. The page's menus, search form, buttons and footer are not the law."""
@@ -66,10 +69,28 @@ def statute_bundle_to_text(raw: bytes) -> str:
         label, cap, end = _heading(page)
         stop = page.find('<script src="/bundles/enhancedInteractions', end)
         body = _lines(page[end:stop if stop > 0 else len(page)])
+        if re.match(r"repealed\b", cap, re.I):      # the site prints a repeal in the heading caption and leaves the body empty
+            raise ValueError(f"{label}: the section is repealed ({cap})")
+        if body and _VERSION_NOTE.match(body[0]):
+            raise ValueError(f"{label}: the page announces a version with its own effective date ({body[0][:120]}): "
+                             "not yet in force, or two versions; review by hand")
         if not body:
             raise ValueError(f"{label}: no law text on the page: the layout changed")
         out += ["", f"{label}: {cap}"] + body
     return "\n".join(out) + "\n"
+
+
+_SECTION_URL = re.compile(r"^(https?://.+/Chapter\w+)/Section(\w+)$")
+
+
+def section_bundle(fetcher, url: str) -> bytes:
+    """One section of a chapter: the chapter's table-of-contents page (it gives the chapter heading, and a section the
+    chapter does not link is refused) and then the section's own page, each preceded by its marker line."""
+    chapter, number = _SECTION_URL.match(url).groups()
+    toc = fetcher.get(chapter).body
+    if not any(l.endswith(f"/Section{number}") for l in _SECTION_LINK.findall(_decode(toc))):
+        raise ValueError(f"{url}: the chapter page does not link Section {number}: renumbered or repealed")
+    return _MARK + chapter.encode() + b" -->\n" + toc + b"\n" + _MARK + url.encode() + b" -->\n" + fetcher.get(url).body
 
 
 def snapshot(src, fetcher, dest, refetch):
@@ -77,7 +98,7 @@ def snapshot(src, fetcher, dest, refetch):
         return None
     if dest.is_file() and not refetch:
         return dest.read_bytes(), False
-    raw = chapter_bundle(fetcher, src["url"])
+    raw = section_bundle(fetcher, src["url"]) if _SECTION_URL.match(src["url"]) else chapter_bundle(fetcher, src["url"])
     dest.parent.mkdir(parents=True, exist_ok=True)
     dest.write_bytes(raw)
     return raw, True
@@ -142,6 +163,11 @@ def check_identity(src, text, what_is):
         chapter = re.search(r"c\.\s*(\w+)", cite)
         if not chapter or not text.startswith(f"Chapter {chapter.group(1)} "):
             raise ValueError(f"{src['id']}: page is not {cite} (chapter mismatch)")
+        wanted = re.search(r"§\s*(\w+)", cite)
+        if wanted:      # a one-section entry: the text must hold that section and no other
+            found = re.findall(r"^Section (\w+): ", text, re.M)
+            if found != [wanted.group(1)]:
+                raise ValueError(f"{src['id']}: text is not {cite} (section mismatch: it holds sections {found})")
         return True
     if src["doc_type"] == "rule":
         number = _RULE_NO.search(cite)
@@ -178,11 +204,16 @@ def notes(src, fmt, text):
     if src["jurisdiction"] != "massachusetts" or fmt != "html":
         return None
     if src["doc_type"] == "statute":
+        tail = (" as `Section n: caption` and the section's paragraphs, one line each. Menus, search form, buttons and "
+                "footer removed. The site says its General Laws are an unofficial version; the printed Official Edition "
+                "governs.")
+        if _SECTION_URL.match(src["url"]):
+            return ("Text taken from the General Laws pages on malegislature.gov, which the Legislature serves one section "
+                    "per page: the chapter page's heading and the one cited section page (the chapter's table of contents "
+                    "was checked to link it; the other sections are not part of this document)," + tail)
         return ("Text taken from the General Laws pages on malegislature.gov, which the Legislature serves one section "
                 "per page: the chapter page's heading, then each section page the chapter's table of contents links, in "
-                "its order, as `Section n: caption` and the section's paragraphs, one line each. Menus, search form, "
-                "buttons and footer removed. The site says its General Laws are an unofficial version; the printed "
-                "Official Edition governs.")
+                "its order," + tail)
     return ("Text taken from the mass.gov page: from the page header (category, title, and the date, issuer, organization, "
             "referenced-sources, Mass Register and rescission lines it prints) to the end of its content column, one line "
             "per block; the cells of a version table are joined with ' | '. The table-of-contents widget, the visually "
