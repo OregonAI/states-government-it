@@ -21,6 +21,7 @@ FedRAMP, Pub. L.) are counted per state and are never candidates.
 from __future__ import annotations
 
 import argparse
+import dataclasses
 import json
 import re
 import sys
@@ -81,7 +82,7 @@ def split_q(tok: str):
 
 DES = re.compile(r"(?i:(?P<ch>chapters?|ch\.?|chap\.?|articles?|art\.?|parts?|subchapters?|subch\.?|"
                  r"division|div\.?)|(?P<ti>titles?|tit\.?)|(?P<sc>§§?|sections?|secs?\.?|ss?\.|subsections?))\s*,?\s*")
-MID = re.compile(r"[ \t,:.;]*(?:\n[ \t]*)?[ \t,:.;]*(?:\([A-Za-z&.]{2,8}\)[ \t,:.;]*)?")
+MID = re.compile(r"[ \t,:;]*(?:\.[ \t]*(?!\n|$))?[ \t,:;]*(?:\n[ \t]*)?[ \t,:.;]*(?:\([A-Za-z&.]{2,8}\)[ \t,:.;]*)?")
 SUB = re.compile(r"(?:\s*\(\s?[\w.]{1,8}\s?\)|\s+(?:and|or)\s+\(\s?[\w.]{1,8}\s?\))*")
 SECSYM = re.compile(r"(?:(?<!§)§§?|(?<![\w§])(?i:sections?|secs?\.|ss?\.))\s*")
 CHAPWORD = re.compile(r"(?<![\w])(?i:chapters?|ch\.)\s*")
@@ -96,7 +97,7 @@ class Compiled:
         self.code = code
         self.prefix = re.compile(r"(?<![\w.])(?:" + X(code.prefix) + ")")
         self.sec = re.compile("(?:" + X(code.sec) + r")(?!\d)")
-        self.chap = re.compile("(?:" + X(code.chap) + r")(?![\dA-Za-z.]\d|\d)") if code.chap else None
+        self.chap = re.compile("(?:" + X(code.chap) + r")(?![\dA-Za-z.]\d|\d|[A-Za-z])") if code.chap else None
         self.short = re.compile(r"\d{1,6}[A-Za-z]?(?:\.\d+)*") if code.short else None
         self.range_end = re.compile(r"\d{1,6}[A-Za-z]{0,2}(?:\.\d+)?")
         self.suffix = re.compile(r"[ \t,)\]]*(?:\n[ \t]*)?(?:of\s+the\s+|of\s+)?(?:" + X(code.suffix) + ")") if code.suffix else None
@@ -104,9 +105,9 @@ class Compiled:
         self.anchor = re.compile(r"(?<![\w.])(?:" + X(code.prefix) + ")" + AUDIT_NEXT)   # audit: a code name followed by a number
         self.suffix_anchor = (re.compile(r"(?<=\d)[ \t,)\]]*(?:\n[ \t]*)?(?:of\s+the\s+|of\s+)?(?P<n>" + X(code.suffix) + ")")
                               if code.suffix else None)
-        rep = r"(?:" + X(code.prefix) + r")[\s,:.]*(?:§§?|(?i:sections?))?\s*"
+        rep = (r"(?:" + X(code.prefix) + r")(?:[ \t,:;]|\.(?![ \t]*(?:\n|$)))*(?:\n[ \t]*)?(?:§§?|(?i:sections?))?\s*")
         self.sep = re.compile(r"\s*(?:(?P<r>\bto\b|\bthrough\.?|\bthru\b|" + DASH + r")|(?P<l>,|;|&|\band\b|\bor\b))\s*"
-                              r"(?:(?:and|or)\s+)?(?:(?:§§?|(?i:sections?|secs?\.|ss?\.))\s*)?(?P<rp>" + rep + r")?")
+                              r"(?:(?:and|or)\s+)?(?P<sw>(?:§§?|(?i:sections?|secs?\.|ss?\.))\s*)?(?P<rp>" + rep + r")?")
 
 
 def _expand_end(start: str, end: str, rx_full, code: Code) -> str:
@@ -120,6 +121,15 @@ def _expand_end(start: str, end: str, rx_full, code: Code) -> str:
     return (f"{qs}/" if qs else "") + s[: idx + 1] + end
 
 
+def _sep_qual(m: re.Match, code: Code) -> str | None:
+    """The qualifier a repeated code name carries inside a list ("62 O.S. §34.11.1 and 74 O.S. §85.5": 74)."""
+    q = next((v for k, v in m.groupdict().items() if k.startswith("q") and v), None)
+    if not q:
+        return None
+    q = re.sub(r"\s+", " ", q).strip()
+    return code.qnorm(q) if code.qnorm else q.replace(" ", "").upper()
+
+
 def parse_list(text: str, pos: int, cc: Compiled, level: str, q: str | None):
     """Section (or chapter) tokens listed from `pos`: [(tok, end_or_None)], and where the list stopped."""
     code = cc.code
@@ -127,8 +137,8 @@ def parse_list(text: str, pos: int, cc: Compiled, level: str, q: str | None):
     m = rx.match(text, pos)
     if not m:
         return [], pos
-    fix = str.upper if level == "chapter" else (lambda t: t)
-    out = [[fix(canon(m.group())), None]]
+    fix = str.upper if level == "chapter" else (code.tokfix or (lambda t: t))
+    out = [[fix(canon(m.group())), None, q]]
     p = SUB.match(text, m.end()).end()
     last = p
     first_tok = out[0][0]
@@ -137,29 +147,49 @@ def parse_list(text: str, pos: int, cc: Compiled, level: str, q: str | None):
         if not s:
             break
         q2 = s.end()
+        if level == "chapter" and s.group("sw"):     # "chapter 15 and section 901": the section is not another chapter
+            break
+        if s.group("rp") and cc.suffix and re.search(r"(?:§|(?i:sections?))\s*$", s.group("rp")):   # "..., 60203, Government Code; section 102235, Health ...":
+            break                                           # the repeated name closes the list; it does not open the next
+        nq = _sep_qual(s, code) if s.group("rp") else None
         if s.group("r"):
             if out[-1][1] is not None:
                 break
             m2 = rx.match(text, q2) or (None if s.group("rp") else cc.range_end.match(text, q2))
             if not m2:
                 break
-            out[-1][1] = _expand_end(out[-1][0], m2.group(), rx, code)
+            end = _expand_end(out[-1][0], m2.group(), rx, code)
+            lo = out[-1][0]
+            if level == "section" and sortkey(split_q(end)[1]) < sortkey(split_q(lo)[1]):
+                # a "range" that runs backwards: "74 O.S. § 840-8.1" is one hyphenated section, and a source's own typo
+                # ("7923.75-7923.55") is two sections, not a range
+                if re.fullmatch(r"\d+", split_q(lo)[1]) and "." in m2.group():
+                    out[-1][0] = lo + "-" + canon(m2.group())
+                else:
+                    out.append([fix(canon(m2.group())), None, nq or q])
+            else:
+                out[-1][1] = end
         else:
             m2 = rx.match(text, q2)
             if m2:
-                out.append([fix(canon(m2.group())), None])
+                tok = canon(m2.group())
+                if level == "section" and re.fullmatch(r"\d{1,2}", tok) and re.match(r"\.\s+[A-Z]", text[m2.end():m2.end() + 4]):
+                    break    # "Civil Code Section 1798.24; 6. If the form ...": a list number, not a section
+                out.append([fix(tok), None, nq or q])
             elif cc.short:
                 m2 = cc.short.match(text, q2)
                 if not m2:
                     break
                 lead = first_tok.split(code.short)[0] + code.short
-                out.append([lead + canon(m2.group()), None])
+                out.append([lead + canon(m2.group()), None, nq or q])
             else:
                 break
+        if nq:
+            q = nq
         p = SUB.match(text, m2.end()).end()
         last = p
-    qual = (lambda t: f"{q}/{t}") if q else (lambda t: t)
-    return [(qual(a), qual(b) if b else None) for a, b in out], last
+    qual = lambda t, qq: f"{qq}/{t}" if qq and t else t
+    return [(qual(a, qq), qual(b, qq) if b else None) for a, b, qq in out], last
 
 
 def _qual(m: re.Match, code: Code) -> str | None:
@@ -244,8 +274,14 @@ def _compiled(state: str):
     return _FORMS_CACHE[state]
 
 
+FOOTER = re.compile(r"(?m)^[ \t]*" + DASH + r"[ \t]*\d{1,3}[ \t]*" + DASH + r"[ \t]*$")
+
+
 def _norm_text(text: str) -> str:
-    return text.replace("\u200b", " ").replace("\xa0", " ")
+    """Same length as the original: zero-width and non-breaking spaces become spaces, and a page-number line
+    ("-2-") is blanked, so it can never be read as the end of a range."""
+    text = text.replace("\u200b", " ").replace("\xa0", " ")
+    return FOOTER.sub(lambda m: " " * len(m.group()), text)
 
 
 def prepare(text: str) -> str:
@@ -281,11 +317,19 @@ def _after_prefix(text: str, cc: Compiled, found: list) -> None:
             if dm.group("ti"):
                 continue     # "Title 1, Chapter 206": a title is not the chapter that follows it
             if dm.group("ch"):
-                if not cc.chap:
+                if not cc.chap or (code.chap_words and not re.match(code.chap_words, dm.group("ch"), re.I)):
                     continue
                 level = "chapter"
             pos = dm.end()
         toks, end = parse_list(text, pos, cc, level, q if not code.q_is_chapter else None)
+        if level == "chapter" and toks and code.chapter is None and not code.q_is_chapter:
+            sm = re.compile(r"\s*,\s*(?:§§?|(?i:sections?))\s*").match(text, end)   # "1 MRSA, Chapter 14, §533"
+            if sm:                                                                        # the section is the citation
+                level = "section"
+                toks, end = parse_list(text, sm.end(), cc, "section", q)
+        if not toks and level == "chapter":     # "Iowa Code Chapter 8A.201" is a section
+            level = "section"
+            toks, end = parse_list(text, pos, cc, "section", q if not code.q_is_chapter else None)
         if not toks and level == "section" and cc.chap and code.chap_bare:
             level = "chapter"
             toks, end = parse_list(text, pos, cc, "chapter", q)
@@ -312,6 +356,9 @@ def _after_designator(text: str, cc: Compiled, found: list) -> None:
         if level == "chapter" and not cc.chap:
             continue
         toks, end = parse_list(text, dm.end(), cc, level, code.q_default)
+        if code.bare_sec and level == "section" and not (cc.suffix and cc.suffix.match(text, end)):
+            toks = [(a, b) for a, b in toks if re.fullmatch(code.bare_sec, split_q(a)[1])
+                    and (b is None or re.fullmatch(code.bare_sec, split_q(b)[1]))]
         if not toks:
             continue
         sm = cc.suffix.match(text, end) if cc.suffix else None
@@ -323,6 +370,18 @@ def _after_designator(text: str, cc: Compiled, found: list) -> None:
             continue
         for a, b in toks:
             found.append(Cite(code.kind, ns_of(code), level, a, b, dm.start(), stop))
+
+
+def _distinctive(text: str, cc: Compiled, found: list) -> None:
+    """A number of a shape no other text prints ("5-11-405") is a citation with no section sign and no code name."""
+    code = cc.code
+    if not code.bare_any:
+        return
+    rx = re.compile(r"(?<![\w.\-§/])" + X(code.bare_any) + r"(?![\w\-]|\.\d)")
+    for m in rx.finditer(text):
+        toks, end = parse_list(text, m.start(), cc, "section", code.q_default)
+        for a, b in toks:
+            found.append(Cite(code.kind, ns_of(code), "section", a, b, m.start(), end))
 
 
 def _section_before_name(text: str, cc: Compiled, found: list) -> None:
@@ -366,12 +425,33 @@ def _orders(text: str, f: StateForms, eo_num, found: list) -> None:
             found.append(Cite("eo", kind, "section", norm_eo(n), None, hm.start(), end, year, re.sub(r"\s+", "", n)))
 
 
+COMPILED_BEFORE = re.compile(r"(?i)\bExecutive\s+Orders?\s+(?:No\.?\s*)?[\w-]+(?:,\s*as\s+amended)?,?\s*(?:being\s+)?(?:Section\s+)?$")
+
+
+def _unglue(text: str, c: Cite) -> Cite:
+    """A footnote mark run into a section number ("10 MRSA § 13471"): when the document's own footnote URL names
+    the shorter section ("title10sec1347.html") and never the longer one, the last digit is the footnote's."""
+    q, sec = split_q(c.sec)
+    if c.level != "section" or c.end or not re.fullmatch(r"\d{4,6}", sec):
+        return c
+    if re.search(r"sec" + sec[:-1] + r"(?!\d)", text, re.I) and not re.search(r"sec" + sec + r"(?!\d)", text, re.I):
+        return dataclasses.replace(c, sec=(f"{q}/" if q else "") + sec[:-1])
+    return c
+
+
 def extract(state: str, text: str, masked: str | None = None) -> list[Cite]:
     """Citations in `text` to `state`'s own statutes, rules and executive orders, in text order.
     `masked` is `prepare(text)`, when the caller already has it."""
+    return extract_ignoring(state, text, masked)[0]
+
+
+def extract_ignoring(state: str, text: str, masked: str | None = None):
+    """(citations, spans the reader recognised and set aside: where an order is compiled, an old number of an order)."""
     f, ccs, eo_num = _compiled(state)
+    ignored: list = []
     text = masked if masked is not None else prepare(text)
     found: list[Cite] = []
+    custom: list[Cite] = []
     for cc in ccs:
         _after_prefix(text, cc, found)
         _after_designator(text, cc, found)
@@ -380,11 +460,24 @@ def extract(state: str, text: str, masked: str | None = None) -> list[Cite]:
             rx, fn = cc.code.custom
             for m in re.finditer(rx, text):
                 for level, tok in fn(m):
-                    found.append(Cite(cc.code.kind, ns_of(cc.code), level, tok, None, m.start(), m.end()))
+                    custom.append(Cite(cc.code.kind, ns_of(cc.code), level, tok, None, m.start(), m.end()))
     for cc in ccs:
         _section_before_name(text, cc, found)
+        _distinctive(text, cc, found)
+    if custom:   # a printed form the list grammar cannot read wins over the list reading of the same words
+        found = [c for c in found if not any(c.start < k.stop and k.start < c.stop for k in custom)] + custom
     if f.eo:
         _orders(text, f, eo_num, found)
+    if f.eo_compiled:   # "Executive Order 2002-14, MCL 18.62": where an order is compiled, not a statute
+        ignored += [(c.start, c.stop) for c in found
+                    if c.kind == "statute" and COMPILED_BEFORE.search(text[max(0, c.start - 90):c.start])]
+        found = [c for c in found if c.kind != "statute" or not COMPILED_BEFORE.search(text[max(0, c.start - 90):c.start])]
+    superseded = [c for c in found if re.match(r"(?:,\s*[A-Za-z ]{0,40})?\s*[\[(]\s*now\s", text[c.stop:c.stop + 60])]
+    if superseded:      # "1 NMAC 3.3.20 [now 1.24.20 NMAC]": the old number of the rule named beside it
+        ignored += [(c.start, c.stop) for c in superseded]
+        found = [c for c in found if c not in superseded]
+    if f.unglue:
+        found = [_unglue(text, c) if c.kind == "statute" else c for c in found]
     found.sort(key=lambda c: (c.start, -c.stop))
     out, edge = [], -1
     for c in found:
@@ -392,7 +485,7 @@ def extract(state: str, text: str, masked: str | None = None) -> list[Cite]:
             continue
         out.append(c)
         edge = max(edge, c.stop)
-    return out
+    return out, ignored
 
 
 # ---- the seed: what the corpus holds ------------------------------------------------------------------
@@ -455,6 +548,8 @@ class Seed:
     n_watch: int = 0
     indexes: list = None    # stubs of an index page (no instrument number to cite)
     uncitable: list = None  # instruments cited by date or session-law chapter, not by a form this tool reads
+    history_map: dict = None       # {(namespace, old token): (namespace, token now held)} from the held documents' history lines
+    history_ids: dict = None       # {(namespace, old token): held document id}
 
 
 def add_cover(h: Holding, state: str, c: Cite):
@@ -474,11 +569,153 @@ def add_cover(h: Holding, state: str, c: Cite):
         h.sections.add((c.code, c.sec))
 
 
-def harvest_sections(state: str, code: Code, qual: str | None, text: str) -> set:
-    cc = Compiled(code)
-    rx = re.compile(r"(?m)^[ \t]*(?:§+\s*)?(" + X(code.sec) + r")(?=[.\s:])")
+def harvest_sections(state: str, code: Code, qual: str | None, text: str, chapter: str | None = None) -> set:
+    """The section numbers a held document prints as its own headings. A heading opens a line; where the document
+    marks its headings with the section sign, only those lines count (a History line such as "73 Del. Laws, c. 86"
+    also opens with a number and is not a heading). With `chapter`, only tokens of that chapter are kept."""
     has_q = bool(re.search(r"\(\?P<q", code.prefix))
-    return {(ns_of(code), (f"{qual}/" if has_q and qual else "") + canon(m.group(1))) for m in rx.finditer(text)}
+    pre = f"{qual}/" if has_q and qual else ""
+
+    def heads(rx):
+        return {(ns_of(code), pre + canon(m.group(1))) for m in re.finditer(rx, text)}
+    sym = heads(r"(?m)^[ \t]*§+\s*(" + X(code.sec) + r")(?=[.\s:])")
+    got = sym or heads(r"(?m)^[ \t]*(" + X(code.sec) + r")(?=[.\s:])")
+    if chapter is not None:    # a heading of another chapter is a cross-reference; a code that cannot tell keeps all
+        got = {t for t in got if chapter_of(code, t[1]) in (chapter, None)}
+    return got
+
+
+def history_pairs(state: str, ns: str, rx: str, text: str, h: "Holding | None" = None) -> list:
+    """[(old token, current token)] from a held document's history lines: each old number a line prints
+    ("[Formerly 291.037]", "C2014, §8B.21") belongs to the last section heading above it."""
+    code = code_of(state, ns)
+    cc = Compiled(code)
+    heads = [(m.start(), canon(m.group(1))) for m in re.finditer(r"(?m)^[ \t]*(?:§+\s*)?(" + X(code.sec) + r")(?=[.\s:])", text)]
+    if h is not None:    # only the headings of the section(s) or chapter(s) this entry holds, not a cross-reference opening a line
+        declared = {t for c, t in h.sections if c == ns} | {t for c, lo, hi in h.ranges if c == ns for t in (lo, hi)}
+        chs = {k for c, k in h.chapters if c == ns}
+        if declared and not chs:      # a section-held entry: its own sections, not a cross-reference opening a line
+            heads = [(pos, t) for pos, t in heads if t in declared]
+        elif chs:
+            heads = [(pos, t) for pos, t in heads if chapter_of(code, t) in chs]
+    out = []
+    for m in re.finditer(rx, text):
+        above = [t for pos, t in heads if pos < m.start()]
+        if not above:
+            continue
+        for old in cc.sec.finditer(m.group(1)):
+            out.append((canon(old.group()), above[-1]))
+    return out
+
+
+def bare_cites(state: str, text: str, cites: list) -> list:
+    """Instruments a left_out record names by bare number, in the state's own shapes ("24-72 (Colorado Open Records
+    Act)", "Left out: 61.934", "JML 25-103", "No. 628"): the code, title and kind come from the nearest citation before
+    it in the item. Used for the seed's own prose only, where a number is a record of what was read and set aside."""
+    f, ccs, eo_num = _compiled(state)
+    stat = [cc for cc in ccs if cc.code.kind == "statute" and cc.code.prefix != "(?!)"]
+    spans = [(c.start, c.stop) for c in cites]
+    free = lambda a, b: not any(a < y and x < b for x, y in spans)
+    out = []
+    by_ns = {}
+    for cc in sorted(stat, key=lambda c: bool(re.search(r"\(\?P<q", c.code.prefix))):   # a code with no qualifier first
+        by_ns.setdefault(ns_of(cc.code), cc)
+    only = next(iter(by_ns.values())) if len(by_ns) == 1 else None
+
+    def context(pos):
+        prior = [c for c in cites if c.stop <= pos and c.kind == "statute"]
+        if not prior:
+            return only, None
+        c = prior[-1]
+        return by_ns.get(c.code), split_q(c.sec)[0]
+
+    def take(cc, q, start, stop_to, level):
+        toks, end = parse_list(text, start, cc, level, q or cc.code.q_default)
+        if toks:
+            for a, b in toks:
+                out.append(Cite("statute", ns_of(cc.code), level, a, b, start, end))
+            spans.append((start, end))
+        return end
+    q_rx = r"(?<![\w.\-§/])"
+    seen = set()
+    for pos_cc in stat:       # structured numbers, anywhere in the prose
+        for m in re.finditer(q_rx + "(?:" + X(pos_cc.code.bare_sec or pos_cc.code.sec) + r")(?![\w\-]|\.\d)", text):
+            cc, q = context(m.start())
+            if cc is None or m.start() in seen or not free(m.start(), m.end()):
+                continue
+            tok = canon(m.group())
+            if not re.search(r"[-.:]", tok) or len(re.sub(r"\D", "", tok)) < 4:
+                continue
+            if cc.code.q_is_chapter or (re.search(r"\(\?P<q", cc.code.prefix) and not (q or cc.code.q_default)):
+                continue
+            seen.add(m.start())
+            take(cc, q, m.start(), None, "section")
+        if pos_cc.chap and pos_cc.code.chap_bare:          # "24-72", "24-71.3": an article or chapter number
+            for m in re.finditer(q_rx + "(?:" + X(pos_cc.code.chap) + r")(?![\w\-]|\.\d)", text):
+                tok = canon(m.group())
+                if m.start() in seen or not free(m.start(), m.end()) or not re.search(r"[-.]", tok) or pos_cc.code.q_is_chapter:
+                    continue
+                if len(re.sub(r"\D", "", tok)) < 3:
+                    continue
+                cc, q = context(m.start())
+                if cc is None or ns_of(cc.code) != ns_of(pos_cc.code):
+                    continue
+                seen.add(m.start())
+                take(cc, q, m.start(), None, "chapter")
+    for cc in stat:           # "section 901" after "22 V.S.A.": a plain number the item's nearest title makes a section
+        if not re.search(r"\(\?P<q", cc.code.prefix):
+            continue
+        for m in re.finditer(r"(?<![\w§])(?i:sections?|§§?)\s*(\d{1,5}[a-z]?)\b", text):
+            c2, q = context(m.start())
+            if c2 is None or ns_of(c2.code) != ns_of(cc.code) or not q or not free(m.start(), m.end()):
+                continue
+            if m.start(1) in seen:
+                continue
+            seen.add(m.start(1))
+            out.append(Cite("statute", ns_of(cc.code), "section", f"{q}/{m.group(1)}", None, m.start(), m.end()))
+            spans.append((m.start(), m.end()))
+    for rx, fn in f.leftout_custom:    # "Chapter 15 Article 1C (Information Technology Management Act ...)"
+        for m in re.finditer(rx, text):
+            if free(m.start(), m.end()):
+                for ns, level, tok in fn(m):
+                    out.append(Cite("statute", ns, level, tok, None, m.start(), m.end()))
+                spans.append((m.start(), m.end()))
+    if f.leftout_plain_chapters:
+        for cc in stat:       # "Statute chapters seen and left out: 205A (...), 239 (Public Records: not IT)"
+            for m in re.finditer(r"(?<![\w.\-§/])(" + X(cc.code.chap or r"(?!)") + r")(?=\s*\()", text):
+                if free(m.start(), m.end()) and re.search(r"(?i)\bchapters?\b", text[max(0, m.start() - 500):m.start()]):
+                    out.append(Cite("statute", ns_of(cc.code), "chapter", canon(m.group(1)).upper(), None, m.start(), m.end()))
+                    spans.append((m.start(), m.end()))
+    if f.eo:                  # orders: "JML 25-103", "19-22", "01.01.2021.11", and "No. 628" where the state numbers plainly
+        yr = re.compile(r"(?:19|20)\d\d-(?:19|20)\d\d")
+        for m in eo_num.finditer(text):
+            tok = m.group()
+            if m.start() and re.match(r"[\w.\-§/]", text[m.start() - 1]) and not re.match(r"[A-Z]{1,3}\s", tok):
+                continue
+            if re.match(r"[\w\-]", text[m.end():m.end() + 1] or " ") or re.match(r"\.\d", text[m.end():m.end() + 2]):
+                continue
+            if not free(m.start(), m.end()) or yr.fullmatch(tok):
+                continue
+            structured = bool(re.search(r"[-.]", tok))
+            if not structured:
+                near = text[max(0, m.start() - 80):m.start()]
+                if not (f.leftout_plain_orders and re.search(r"(?i)\bno\.?\s*$|(?:orders?|:|,)\s*$", near)
+                        and re.match(r"\s*\(", text[m.end():m.end() + 3])):
+                    continue
+            for kind in f.eo_kinds:
+                out.append(Cite("eo", kind, "section", norm_eo(tok), None, m.start(), m.end(), None, re.sub(r"\s+", "", tok)))
+            spans.append((m.start(), m.end()))
+    return out
+
+
+def open_ended(text: str, c: Cite):
+    """The upper end of "147-33.72 and following" or "1798.80 et seq.": the same article, any later section."""
+    if c.kind == "eo" or c.level != "section" or c.end:
+        return None
+    if not re.match(r"\s*(?:,\s*)?(?:and\s+following\b|et\s+seq\b)", text[c.stop:c.stop + 30]):
+        return None
+    m = re.match(r"(.*[.\-])\d+[A-Za-z]?$", c.sec)
+    return m.group(1) + "999999" if m and "." in c.sec.rsplit("/", 1)[-1] else None
 
 
 def _excerpt(item: str, pos: int, stop: int, before: int = 300, after: int = 450) -> str:
@@ -508,6 +745,7 @@ def load_seed(state: str, docs: dict | None = None) -> Seed:
     data = yaml.load((SOURCES / f"{state}.yml").read_text(encoding="utf-8"), Loader=YAML_LOADER)
     forms = FORMS[state]
     holdings, unparsed, n_watch, indexes = [], [], 0, []
+    history_map, history_ids = {}, {}
     uncitable = [i for i, _ in forms.uncitable]
     for e in data.get("sources") or []:
         if e.get("watch_only"):
@@ -533,29 +771,38 @@ def load_seed(state: str, docs: dict | None = None) -> Seed:
             (indexes if status == STUB and not re.search(r"\d", cit) else unparsed).append(e["id"])
             continue
         if status == HELD and docs and e["id"] in docs and want in ("statute", "rule"):
-            partial = bool(PARTIAL_UNIT.search(cit))
             for code_id, key in list(h.chapters):
                 code = code_of(state, code_id)
+                # "chapter 9, article 27" is a whole instrument where the code's unit is the article
+                partial = any(not (code.unit_word and w.group().lower().startswith(code.unit_word[:3].lower()))
+                              for w in PARTIAL_UNIT.finditer(cit))
                 qual = split_q(key)[0]
-                got = harvest_sections(state, code, qual, docs[e["id"]])
+                got = harvest_sections(state, code, qual, docs[e["id"]], key)
                 h.harvested |= got
                 if partial and got:
                     h.chapters.discard((code_id, key))
                     toks = sorted((t for _, t in got), key=sortkey)
                     h.ranges.append((code_id, toks[0], toks[-1]))
+        if status == HELD and docs and e["id"] in docs:
+            for ns, rx in forms.history_rx:
+                for old, new in history_pairs(state, ns, rx, docs[e["id"]], h):
+                    history_map.setdefault((ns, old), (ns, new))
+                    history_ids.setdefault((ns, old), e["id"])
         holdings.append(h)
     for item in data.get("left_out") or []:
         text = str(item.get("text") or "")
-        cites = extract(state, text)
-        sect_chaps = {(c.code, chapter_of(code_of(state, c.code), c.sec)) for c in cites
+        printed = extract(state, text)
+        sect_chaps = {(c.code, chapter_of(code_of(state, c.code), c.sec)) for c in printed
                       if c.kind != "eo" and c.level == "section"}
+        cites = sorted(printed + bare_cites(state, text, printed), key=lambda c: (c.start, -c.stop))
+        cites = [dataclasses.replace(c, end=open_ended(text, c)) if open_ended(text, c) else c for c in cites]
         for c in cites:
             if c.kind != "eo" and c.level == "chapter" and (c.code, c.sec) in sect_chaps:
                 continue    # "AS 44.21 sections left out: 44.21.010 ..." names sections, not the chapter
             h = Holding(LEFT_OUT, None, text[c.start:c.stop], reason=_excerpt(text, c.start, c.stop))
             add_cover(h, state, c)
             holdings.append(h)
-    return Seed(state, holdings, unparsed, n_watch, indexes, uncitable)
+    return Seed(state, holdings, unparsed, n_watch, indexes, uncitable, history_map, history_ids)
 
 
 # ---- resolution --------------------------------------------------------------------------------------
@@ -623,20 +870,61 @@ class Resolver:
         self.state, self.seed = state, seed
         self.forms = FORMS[state]
         self.renumbered = Counter()   # (old token, token now held) -> citations resolved through the renumbering
+        self.history = Counter()      # the same, where the held documents' own history lines give the new number
+        self.rolled = Counter()       # chapter citations resolved because the chapter is held section by section
+        self.history_chapters = {}    # (namespace, old chapter) -> held document ids that took its sections
+        for (ns, old), (_ns2, _new) in (seed.history_map or {}).items():
+            ch = chapter_of(code_of(state, ns), old)
+            if ch is not None:
+                self.history_chapters.setdefault((ns, ch), set()).add(seed.history_ids[(ns, old)])
+
+    def _tried(self, code: Code, tok: str, level: str):
+        """Other numbers the same provision is known by: (code, token, level, where the corpus says so, counter)."""
+        f, ns = self.forms, ns_of(code)
+        if level == "section":
+            new = f.renumber(ns, tok) if f.renumber else None
+            if new:
+                yield code, new, level, f.renumber_evidence, self.renumbered
+            for mns, wrong, right, why in f.misprints:
+                if (mns, wrong) == (ns, tok):
+                    yield code, right, level, why, self.renumbered
+            hit = (self.seed.history_map or {}).get((ns, tok))
+            if hit:
+                yield code_of(self.state, hit[0]), hit[1], level, (
+                    f"the held {self.seed.history_ids[(ns, tok)]} prints it as its own history line"), self.history
+        ch = tok if level == "chapter" else chapter_of(code, tok)
+        for ans, old, now, why in f.aliases:
+            if ans == ns and old == ch:
+                yield code, now, "chapter", why, self.renumbered
 
     def _token(self, code: Code, tok: str, level: str) -> Resolution:
-        new = self.forms.renumber(ns_of(code), tok) if self.forms.renumber and level == "section" else None
-        if new:
-            r = self._plain(code, new, level)
-            if r.status == HELD:
-                r.reason = self.forms.renumber_evidence
-                self.renumbered[(tok, new)] += 1
+        for c2, new, lv2, why, counter in self._tried(code, tok, level):
+            r = self._plain(c2, new, lv2)
+            if r.status in (HELD, STUB):
+                if r.status == HELD:
+                    r.reason = why
+                counter[(tok, new)] += 1
                 return r
+        if level == "chapter":
+            ids = (self.history_chapters.get((ns_of(code), tok)) or set()) if ns_of(code) in self.forms.history_whole else set()
+            if ids:
+                self.history[(tok, "held under another chapter")] += 1
+                return Resolution(None, HELD, display(self.state, code, tok, "chapter"), code.kind, tok, sorted(ids),
+                                  "its sections are held under a new chapter number, and the held documents print the old one as history lines",
+                                  None, f"{ns_of(code)}:{tok}")
         return self._plain(code, tok, level)
 
     def _plain(self, code: Code, tok: str, level: str) -> Resolution:
         best = None
-        for status in (HELD, STUB, LEFT_OUT):
+        for status in (HELD, STUB, "ROLLUP", LEFT_OUT):
+            if status == "ROLLUP":     # a chapter cited as a whole, where the corpus holds this code section by section
+                hits = ([h for h in self.seed.holdings if h.status == HELD and _touches(h, code, tok)]
+                        if level == "chapter" and code.grain == "section" else [])
+                if hits:
+                    self.rolled[tok] += 1
+                    best = (HELD, hits)
+                    break
+                continue
             hits = [h for h in self.seed.holdings if h.status == status and self._holds(h, code, tok, level)]
             if hits:
                 best = (status, hits)
@@ -671,6 +959,12 @@ class Resolver:
                     for code, num, y in h.eos)]
                 if hits:
                     return Resolution(c, status, label, "eo", None, [h.seed_id for h in hits if h.seed_id], hits[0].reason, None, ident)
+            if self.forms.eo_glue and re.fullmatch(r"\d{3,}", c.sec):   # "No. 1171": order 117 and a footnote mark
+                r = self.resolve(dataclasses.replace(c, sec=c.sec[:-1], raw=(c.raw or c.sec)[:-1]))
+                if r.status == HELD:
+                    r.cite = c
+                    r.reason = "a footnote mark is run into the order number in the printed text"
+                    return r
             return Resolution(c, NOT_HELD, label, "eo", None, [], "", [], ident)
         code = code_of(self.state, c.code)
         toks = [c.sec] + ([c.end] if c.end else [])
@@ -686,7 +980,7 @@ class Resolver:
 
 def resolve_text(state: str, text: str) -> list[Resolution]:
     """Extract and resolve every citation in `text` against `state`'s real seed file."""
-    rv = Resolver(state, load_seed(state))
+    rv = Resolver(state, load_seed(state, load_texts()))
     return [rv.resolve(c) for c in extract(state, text)]
 
 
@@ -695,8 +989,11 @@ def resolve_text(state: str, text: str) -> list[Resolution]:
 CUE = re.compile(r"(?i)\b(?:pursuant\s+to|under|authority|authorized\s+by|as\s+required\s+by|required\s+by|in\s+accordance\s+with|"
                  r"accordance\s+with|established\s+(?:by|in|under)|implement\w*|enabling|mandated\s+by|"
                  r"adopted\s+(?:under|pursuant)|promulgated|references?|applicab\w+|statutory)\b")
-HEADING = re.compile(r"(?i)^\W*(?:statutory\s+|legal\s+|other\s+|statutes?/other\s+)?(?:authority|authorities|references?|"
+HEADING = re.compile(r"(?i)^\W*(?:\d+(?:\.\d+)*\.?\s*)?(?:statutory\s+|legal\s+|other\s+|compliance\s+|statutes?/other\s+)?"
+                     r"(?:authority|authorities|references?|related\s+(?:documents?|policies|standards|laws|statutes|references|information)|"
                      r"applicability|statutes?\s+implemented|law\s+implemented|legal\s+basis)\b[^.]{0,40}$")
+NUMBERED_HEADING = re.compile(r"^\W*\d+(?:\.\d+)*\.?\s+[A-Z][A-Za-z ,&/-]{2,50}$")
+BRACKET_OPEN = re.compile(r"\[\s*(?:Source:?\s*)?$")
 SENTENCE_END = re.compile(r"[.!?][\"')\]]*\s+(?=[A-Z(\[\d\"\u201c])|\n\s*\n")
 
 
@@ -711,14 +1008,23 @@ def in_authority_context(text: str, pos: int) -> bool:
     ls = text.rfind("\n", 0, pos) + 1
     if HEADING.match(text[ls:pos].strip() or "x") and len(text[ls:pos].strip()) < 60 and CUE.search(text[ls:pos]):
         return True
-    lines = [ln for ln in text[max(0, ls - 400):ls].split("\n") if ln.strip()]
-    return any(HEADING.match(ln.strip()) for ln in lines[-3:])
+    if BRACKET_OPEN.search(text[ls:pos]):      # "[Neb. Rev. Stat. § 81-1120.27(1)]": a source note in brackets
+        return True
+    lines = [ln for ln in text[max(0, ls - 3000):ls].split("\n") if ln.strip()]
+    for ln in reversed(lines[-40:]):            # a reference block runs to a heading or to prose, however long the list
+        s = ln.strip()
+        if HEADING.match(s):
+            return True
+        if len(s.split()) >= 22 or NUMBERED_HEADING.match(s):
+            return False
+    return False
 
 
 HISTORY_BEFORE = re.compile(r"(?i)\b(?:formerly|former|renumbered(?:\s+from)?|recodified(?:\s+from)?|repealed(?:\s+by)?|"
-                            r"redesignated\s+from|derived\s+from|supersed\w+)\W{0,3}(?:[A-Za-z.]+\s+){0,2}$")
-SESSION_LAW_BEFORE = re.compile(r"(?:\b(?:19|20)\d\d,?\s+(?:cc?\.|ch\.|c)\s*\d+[\w,;.\s]{0,40}|\bCode\s+(?:19|20)\d\d,?\s*)$")
+                            r"redesignated\s+from|derived\s+from|supersed\w+|rescission\s+of|rescinded\s+by)\W{0,3}(?:[A-Za-z.]+\s+){0,2}$")
+SESSION_LAW_BEFORE = re.compile(r"(?:\b(?:19|20)\d\d,?\s+(?:cc?\.|ch\.|c)\s*\d+[\w,;.\s]{0,40}\(?|\bCode\s+(?:19|20)\d\d,?\s*)$")
 HISTORY_LINE = re.compile(r"(?i)^\s*\W*(?:history|source|derived\s+from|formerly)\b")
+RULE_HISTORY_LINE = re.compile(r"^\s*\[\s*\d[\d.]*\s+[A-Z]+\s*-")   # "[1.12.1.1 NMAC - Rp/E, 1 NMAC 12.1.1, 12/02/2005]"
 
 
 def is_history_reference(doc_type: str, text: str, pos: int) -> bool:
@@ -727,6 +1033,9 @@ def is_history_reference(doc_type: str, text: str, pos: int) -> bool:
     ls = text.rfind("\n", 0, pos) + 1
     before = text[ls:pos]
     if HISTORY_BEFORE.search(before[-60:]) or SESSION_LAW_BEFORE.search(before[-90:]):
+        return True
+    le = text.find("\n", pos)
+    if RULE_HISTORY_LINE.match(text[ls:len(text) if le < 0 else le]):
         return True
     return doc_type == "statute" and bool(HISTORY_LINE.match(text[ls:pos + 1]))
 
@@ -797,12 +1106,12 @@ def load_texts() -> dict:
 
 # ---- audit: how many probable citations did the table read? ------------------------------------------
 
-def audit_text(state: str, text: str, cites: list[Cite], masked: str | None = None) -> list[int]:
+def audit_text(state: str, text: str, cites: list[Cite], masked: str | None = None, ignored=()) -> list[int]:
     """Positions where this state's code name is followed by a number and no extracted citation starts there or
     spans it: the places the table may be failing."""
     f, ccs, _ = _compiled(state)
     t = masked if masked is not None else prepare(text)
-    spans = [(c.start, c.stop) for c in cites]
+    spans = [(c.start, c.stop) for c in cites] + list(ignored)
     ignore = re.compile(f.audit_ignore) if f.audit_ignore else None
 
     def skipped(pos):
@@ -812,13 +1121,34 @@ def audit_text(state: str, text: str, cites: list[Cite], masked: str | None = No
         le = t.find("\n", pos)
         return bool(ignore.search(t[ls:len(t) if le < 0 else le]))
     miss, probable = [], 0
+    anchored = set()      # where each prefix anchor's number begins
     for cc in ccs:
         for m in cc.anchor.finditer(t):
+            anchored.add(m.end())
             if skipped(m.start()):
                 continue
             probable += 1
             if not any(a <= m.start() < b for a, b in spans):
                 miss.append(m.start())
+    # a statute number after a section sign or the word "section", whether or not a code name precedes it: this
+    # anchor does not use the forms it audits, so a form the table cannot read at all still shows as missed
+    for cc in ccs:
+        code = cc.code
+        if code.kind != "statute" or code.prefix == "(?!)":
+            continue
+        shape = code.bare_sec or code.sec
+        for m in re.finditer(r"(?<![\w§])(?:§§?|(?i:sections?|secs?\.|ss?\.))\s*(?P<n>" + X(shape) + r")(?![\d\w])", t):
+            pos = m.start("n")
+            if pos in anchored or not re.search(r"[-.:]", m.group("n")) or len(re.sub(r"\D", "", m.group("n"))) < 3:
+                continue
+            if any(o.suffix_name and o.suffix_name.search(t[pos:pos + 60]) for o in ccs):
+                continue
+            if skipped(pos):
+                continue
+            anchored.add(pos)
+            probable += 1
+            if not any(a <= pos < b for a, b in spans):
+                miss.append(pos)
     for cc in ccs:
         if cc.code.suffix and cc.suffix_name.search(t):
             for m in cc.suffix_anchor.finditer(t):
@@ -854,6 +1184,63 @@ class Agg:
         self.quotes = []     # (rank, document, authority, text)
 
 
+def _merge(dst: Agg, src: Agg) -> None:
+    dst.labels.update(src.labels)
+    dst.authority_docs |= src.authority_docs
+    dst.docs |= src.docs
+    dst.sections |= src.sections
+    dst.bodies |= src.bodies
+    dst.total += src.total
+    dst.auth += src.auth
+    dst.cross += src.cross
+    dst.passing += src.passing
+    dst.quotes += src.quotes
+
+
+def merge_same_instrument(state: str, aggs: dict) -> None:
+    """One instrument must be one row: a section named inside a range the same state cites ("16-4-203" beside
+    "16-4-201 to 16-4-205"), and an order cited both with and without its year, are merged into the longer citation."""
+    for key in list(aggs):
+        status, kind, ident = key
+        if key not in aggs:
+            continue
+        g = aggs[key]
+        c = g.r.cite
+        if kind == "eo":
+            if "@" in ident:
+                continue
+            years = [k for k in aggs if k[0] == status and k[1] == "eo" and k[2].startswith(ident + "@")]
+            if len(years) == 1:
+                _merge(aggs[years[0]], aggs.pop(key))
+        elif c is not None and c.end and c.level == "section":
+            code = code_of(state, c.code)
+            ch = chapter_of(code, c.sec)
+            if ch is None or ch != chapter_of(code, c.end):    # only a range inside one chapter names one instrument
+                continue
+            q = split_q(c.sec)[0]
+            lo, hi = sortkey(split_q(c.sec)[1]), sortkey(split_q(c.end)[1])
+            for k2 in list(aggs):
+                g2 = aggs.get(k2)
+                if k2 == key or g2 is None or k2[0] != status or k2[1] != "statute" or g2.r.cite is None:
+                    continue
+                c2 = g2.r.cite
+                if c2.code != c.code or c2.end or c2.level != "section" or split_q(c2.sec)[0] != q:
+                    continue
+                if chapter_of(code, c2.sec) == ch and lo <= sortkey(split_q(c2.sec)[1]) <= hi:
+                    _merge(g, aggs.pop(k2))
+
+
+def _self_range(state: str, c: Cite, own: list) -> bool:
+    """True when a statute cites a range that contains the statute's own section (its definitions clause)."""
+    if c.level != "section":
+        return False
+    for o in own:
+        if o.kind == "statute" and o.level == "section" and o.code == c.code and split_q(o.sec)[0] == split_q(c.sec)[0]:
+            if sortkey(split_q(c.sec)[1]) <= sortkey(split_q(o.sec)[1]) <= sortkey(split_q(c.end)[1]):
+                return True
+    return False
+
+
 def build_report() -> dict:
     all_docs = docs()
     by_state = defaultdict(list)
@@ -869,14 +1256,15 @@ def build_report() -> dict:
         counts = {k: Counter() for k in ("statute", "rule", "eo")}
         pairs = {k: defaultdict(set) for k in ("statute", "rule", "eo")}
         citing = set()
+        instruments = defaultdict(set)      # status -> {(kind, instrument key)}: distinct instruments cited
         federal = Counter()
-        probable = missed = history = 0
+        probable = missed = history = self_ranges = 0
         missed_lines = []
         for d in by_state[state]:
             masked = prepare(d.text)
-            cites = extract(state, d.text, masked)
+            cites, ignored = extract_ignoring(state, d.text, masked)
             federal.update(count_federal(d.text))
-            a = audit_text(state, d.text, cites, masked)
+            a = audit_text(state, d.text, cites, masked, ignored)
             probable += a[0]
             missed += len(a) - 1
             for pos in a[1:]:
@@ -884,11 +1272,16 @@ def build_report() -> dict:
                     missed_lines.append({"document": d.id, "text": quote(d.text, pos)})
             if cites:
                 citing.add(d.id)
+            own = extract(state, d.citation) if d.doc_type == "statute" and d.citation else []
             for c in cites:
-                if c.kind != "eo" and is_history_reference(d.doc_type, d.text, c.start):
+                if is_history_reference(d.doc_type, d.text, c.start):
                     history += 1
                     continue
+                if c.end and c.kind != "eo" and _self_range(state, c, own):
+                    self_ranges += 1      # "As used in K.S.A. 75-7201 through 75-7212": the statute's own range
+                    continue
                 r = rv.resolve(c)
+                instruments[r.status].add((r.kind, r.key))
                 counts[r.kind][r.status] += 1
                 pairs[r.kind][r.status].add((d.id, r.instrument))
                 if r.status == HELD:
@@ -914,6 +1307,7 @@ def build_report() -> dict:
                 if c.kind != "eo" and c.level == "section":
                     g.sections.add(c.sec + (f"-{split_q(c.end)[1]}" if c.end else ""))
                 g.quotes.append((from_statute, not auth, d.id, auth, quote(d.text, c.start)))
+        merge_same_instrument(state, aggs)
         st = {
             "documents": len(by_state[state]),
             "documents_citing_state_instruments": len(citing),
@@ -925,11 +1319,18 @@ def build_report() -> dict:
                            + ("/Executive Directive" if "ED" in forms.eo_kinds else ""), "kind": "eo", "grain": "order number"}])
                         if forms.eo else []),
             "citations": {k: {STATUS_KEY[s]: counts[k][s] for s in (HELD, STUB, LEFT_OUT, NOT_HELD)} for k in counts},
+            "distinct_instruments": {"cited": len(set().union(*instruments.values())) if instruments else 0,
+                                     **{STATUS_KEY[k]: len(instruments[k]) for k in (HELD, STUB, LEFT_OUT, NOT_HELD)}},
             "document_instrument_pairs": {k: {STATUS_KEY[s]: len(pairs[k][s]) for s in (HELD, STUB, LEFT_OUT, NOT_HELD)} for k in pairs},
             "federal_citations": dict(sorted(federal.items())),
             "history_note_citations_excluded": history,
+            "self_range_citations_excluded": self_ranges,
             "renumbered_citations": {"resolved": sum(rv.renumbered.values()),
                                      "evidence": forms.renumber_evidence} if rv.renumbered else {},
+            "history_renumbered_citations": ({"resolved": sum(rv.history.values()),
+                                              "evidence": "the held documents print the old number as a history line"}
+                                             if rv.history else {}),
+            "rolled_up_chapter_citations": sum(rv.rolled.values()),
             "extraction": {
                 "probable_citations": probable,
                 "read": probable - missed,

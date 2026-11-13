@@ -285,7 +285,7 @@ def test_labels_read_as_a_person_would_cite_them():
 
 
 def test_a_range_half_held_names_only_the_missing_end():
-    assert status("kentucky", "violation of KRS 61.931 to 61.934") == [("61.931", "NOT_HELD", "KRS 61.934")]
+    assert status("kentucky", "violation of KRS 61.931 to 61.934") == [("61.931", "LEFT_OUT", "KRS 61.934")]   # 61.934 is recorded as left out
 
 
 def test_a_title_is_not_read_as_the_chapter_after_it():
@@ -316,7 +316,7 @@ def test_an_old_number_the_corpus_itself_records_as_renumbered_resolves_to_the_h
     # maryland: "its older policies cite the same duties as 'SF&P 3A-301-309'"
     [m] = ar.resolve_text("maryland", "SF&P 3A-303")
     assert m.status == "HELD" and "3A-301-309" in m.reason
-    assert ar.resolve_text("maryland", "SF&P 3A-311")[0].status == "NOT_HELD"
+    assert ar.resolve_text("maryland", "SF&P 3A-311")[0].status == "HELD"    # the held bundle prints 3.5-311 too
 
 
 def test_every_state_table_reads_something_from_that_states_documents(rep):

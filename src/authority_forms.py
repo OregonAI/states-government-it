@@ -44,6 +44,10 @@ class Code:
     custom: Optional[tuple] = None  # (regex, fn(match) -> [(level, token)]) for a printed form the list grammar cannot read
     sfx_bare: bool = False       # a section number straight before the code name is a citation ("2-17-505, MCA")
     qnorm: Optional[Callable[[str], str]] = None  # canonical form of the qualifier ("Technology Law" -> "State Technology Law")
+    tokfix: Optional[Callable[[str], str]] = None  # canonical form of a printed token ("52:18a-230b" -> "52:18A-230b")
+    chap_words: Optional[str] = None  # which words ("chapter", "article") mean a chapter of this code; default: all
+    bare_sec: Optional[str] = None  # with `bare`: a stricter shape a section number must have when no code name is printed
+    bare_any: Optional[str] = None  # a statute number so distinctive it is a citation with no section sign or code name ("5-11-405")
 
 
 @dataclass(frozen=True)
@@ -60,6 +64,17 @@ class StateForms:
     renumber_evidence: str = ""  # where the corpus itself records that renumbering
     audit_ignore: Optional[str] = None   # lines that look like a citation to the audit and are page furniture
     unreliable: tuple = ()       # kinds ("statute", "rule", "eo") whose extraction the audit shows cannot be trusted
+    history_whole: tuple = ()    # namespaces whose old chapter moved entire into the held sections (Iowa 8B into 8)
+    history_rx: tuple = ()       # ((namespace, regex), ...): held documents print their old numbers ("[Formerly 291.037]"),
+    #                              group 1 holds the old token(s); each maps to the section heading above it
+    unglue: bool = False         # a footnote mark is run into a section number; the footnote's own URL names the section
+    eo_glue: bool = False        # a footnote mark is run into an order number ("No. 1171"); resolved as the held order
+    eo_compiled: bool = False    # "Executive Order 2002-14, MCL 18.62" gives where an order is compiled, not a statute
+    aliases: tuple = ()          # ((namespace, old chapter key, chapter now held or stubbed, where the corpus says so), ...)
+    leftout_custom: tuple = ()   # ((regex, fn(match) -> [(namespace, level, token)]), ...): shapes only the seed's prose prints
+    leftout_plain_chapters: bool = False  # the seed's left_out prose lists chapters as bare numbers ("239 (Public Records)")
+    leftout_plain_orders: bool = False    # ... and orders as bare numbers ("No. 628 (AI task force ...)")
+    misprints: tuple = ()        # ((namespace, printed token, intended token, evidence), ...): a source's typo for a held section
 
 
 # ---- chapter functions -------------------------------------------------------------------------------
@@ -122,11 +137,11 @@ FORMS["alaska"] = S(
 )
 FORMS["arizona"] = S(
     C("ARS", "statute", r"A\.R\.S\.|ARS|Arizona\s+Revised\s+Statutes", r"\d{1,2}~\d{3,4}(?:\.\d{2})?",
-      label="A.R.S.", chap=r"\d{1,2}", chapter=dash_n(1), grain="section"),
+      label="A.R.S.", chap=r"\d{1,2}", chapter=dash_n(1), grain="section", bare=True),
     C("AAC", "rule", r"A\.A\.C\.|Arizona\s+Administrative\s+Code", r"R\d{1,2}~\d{1,2}(?:~\d{3,4})?",
       label="A.A.C.", chapter=dash_n(2)),
 )
-_CA_SEC = r"\d{1,5}(?:\.\d{1,3}){0,2}"
+_CA_SEC = r"\d{1,6}(?:\.\d{1,3}){0,2}"
 FORMS["california"] = S(
     C("Gov", "statute", r"(?:Cal(?:ifornia|\.)\s+)?Gov(?:ernment|\.|'t)?\s+Code,?", _CA_SEC,
       label="Gov. Code", suffix=r"Gov(?:ernment|\.|'t)?\s+Code", grain="section"),
@@ -179,12 +194,13 @@ FORMS["colorado"] = S(
     ),
 )
 FORMS["delaware"] = S(
-    C("DEL", "statute", r"(?:Title\s+)?(?P<q>\d{1,2})\s+Del\.?\s*C\.?|Delaware\s+Code,?|Del\.\s*C\.",
-      r"\d{1,5}[A-Z]?(?:~\d{1,4})?(?:\.\d+)?", label="Del. C.", chap=r"\d{1,3}[A-Z]?", q_default="29",
+    C("DEL", "statute", r"(?:Title\s+)?(?P<q>\d{1,2})\s+(?:Del\.?\s*C\.?|Delaware\s+Code,?)|Delaware\s+Code,?|Del\.\s*C\.",
+      r"(?:\d{1,5}[A-Z]~\d{1,4}|\d{1,5}[A-Z]?)(?:\.\d+)?", label="Del. C.", chap=r"\d{1,3}[A-Z]?", q_default="29",
       chapter=lambda s: (re.match(r"(\d+)-", s).group(1) if "-" in s else
                          (lambda m: (m.group(1)[:-2] or m.group(1)) + m.group(2))(re.match(r"(\d+)([A-Z]?)", s))),
       unit_word="chapter"),
     notes="A Delaware citation with no title number is read as Title 29, the title that holds the DTI statute.",
+    leftout_custom=((r"Title\s+(\d{1,2})\s+Chapter\s+(\d{1,3}[A-Z]?)\b", lambda m: [("DEL", "chapter", f"{m.group(1)}/{m.group(2)}")]),),
     held_extra=(
         (re.compile(r"(\d+)\s+Del\.\s*C\.\s*ch\.\s*(\d+[A-Z]?)"),
          lambda m: [("statute", "DEL", "chapter", f"{m.group(1)}/{m.group(2)}", None)]),
@@ -193,7 +209,7 @@ FORMS["delaware"] = S(
 )
 FORMS["florida"] = S(
     C("FS", "statute", r"Florida\s+Statutes,?|F\.S\.,?|Fla\.\s*Stat\.", r"\d{1,3}\.\d{2,5}", label="F.S.",
-      chap=r"\d{1,3}", suffix=r"Florida\s+Statutes|F\.S\.|Fla\.\s*Stat\.", chapter=dot0, unit_word="chapter"),
+      chap=r"\d{1,3}", suffix=r"Florida\s+Statutes|F\.S\.|Fla\.\s*Stat\.", chapter=dot0, unit_word="chapter", bare=True),
     C("FAC", "rule", r"(?:Rule(?:s)?\s+(?:Chapter\s+)?|Chapter\s+|Ch\.\s*)(?=\d{2}[A-Z]{1,3}-\d)",
       r"\d{2}[A-Z]{1,3}~\d{1,2}(?:\.\d{3,4})?", label="F.A.C.", chap=r"\d{2}[A-Z]{1,3}~\d{1,2}",
       chapter=dot0),
@@ -218,14 +234,16 @@ FORMS["idaho"] = S(
       chapter=dot_n(3)),
 )
 FORMS["iowa"] = S(
-    C("IC", "statute", r"Iowa\s+Code(?:\s+\d{4})?,?(?:\s+Chapter\s+\d+[A-Z]?,)?|Iowa\s+Code\s+Supp\.", r"\d{1,3}[A-Z]?\.\d{1,4}[A-Za-z]?",
+    C("IC", "statute", r"Iowa\s+Code(?:\s+\d{4})?,?(?:\s+Chapter\s+\d+[A-Z]?,(?!\s*Section))?|Iowa\s+Code\s+Supp\.", r"\d{1,3}[A-Z]?\.\d{1,4}[A-Za-z]?",
       label="Iowa Code", chap=r"\d{1,3}[A-Za-z]?", chap_bare=True, suffix=r"Iowa\s+Code", chapter=dot0, grain="section"),
     C("ICSEC", "statute", r"(?!)", r"(?!)", ns="IC", label="Iowa Code", chapter=dot0,
-      custom=(r"Iowa\s+Code\s+Chapter\s+(\d{1,3}[A-Z]?),\s*Section\s+(\d{1,4})\b", lambda m: [("section", f"{m.group(1)}.{m.group(2)}")]),
+      custom=(r"Iowa\s+Code\s+Chapter\s+(\d{1,3}[A-Z]?)(?:,\s*Section\s+(\d{1,4})\b|(\.\d{1,4}[a-z]?))",
+              lambda m: [("section", f"{m.group(1)}.{m.group(2)}" if m.group(2) else m.group(1) + m.group(3))]),
       grain="section"),
     C("IAC", "rule", r"IAC|Iowa\s+Admin(?:istrative|\.)\s+Code", r"\d{1,3}~\d{1,3}(?:\.\d+)?", label="IAC",
       chap=r"\d{1,3}~\d{1,3}", chapter=dot0),
     eo_ambiguous=True, audit_ignore=r"IAC\s+\d{1,2}/\d{1,2}/\d{2}",
+    history_rx=(("IC", r"C\d{4},\s*§\s*(8B\.\d+[A-Za-z]?)"),), history_whole=("IC",),
     notes="Iowa Code section numbers are read after 'Iowa Code', with or without the edition year.",
 )
 FORMS["kansas"] = S(
@@ -256,8 +274,9 @@ FORMS["maine"] = S(
     held_extra=((re.compile(r"(\d+)\s+M\.R\.S\.\s*ch\.\s*(\d+(?:-[A-Z])?)"),
                  lambda m: [("statute", "MRS", "chapter", f"{m.group(1)}/{m.group(2)}", None)]),),
     uncitable=(("me-eo-ai-task-force-2024-12", "an order cited by its date, not a number"),),
+    unglue=True, eo_num=r"\d{1,3}\s?FY\s?\d{2}/\d{2}|(?:[A-Z]{1,3}-)?\d{1,4}(?:-\s?\d{1,4}){0,3}[A-Z]?(?![\d]|,\d{3})",
 )
-_MD_SEC = r"\d{1,2}(?:\.\d)?[A-Za-z]?~(?:\d[A-Za-z]?~)?\d{2,4}(?:\.\d+)?|\d{1,2}~\d{3,4}"
+_MD_SEC = r"\d{1,2}(?:\.\d)?[A-Za-z]?~(?:\d{1,2}[A-Za-z]?~)?\d{2,4}(?:\.\d+)?|\d{1,2}~\d{3,4}"
 FORMS["maryland"] = S(
     C("SFP", "statute", r"(?:Md\.\s*Code(?:\s*Ann\.)?,?\s*)?(?:State\s+Fin(?:ance|\.)?\s*(?:and|&)\s*Proc(?:urement|\.)?"
       r"(?:\s+Article|\s+Code(?:\s+Ann\.)?)?|SF&P|SFP)\s*,?", _MD_SEC, label="State Fin. & Proc.", grain="section"),
@@ -267,17 +286,22 @@ FORMS["maryland"] = S(
       _MD_SEC, label="General Provisions", grain="section"),
     C("COMAR", "rule", r"COMAR", r"\d{2}[A-Z]?\.\d{2}(?:\.\d{2}(?:\.\d{2})?)?", label="COMAR", chapter=dot_n(2)),
     eo_num=r"\d{2}\.\d{2}\.\d{4}\.\d{2}",
-    renumber=lambda ns, t: (m := re.fullmatch(r"3A-(30[1-9])", t)) and ns == "SFP" and "3.5-" + m.group(1) or None,
+    renumber=lambda ns, t: (m := re.fullmatch(r"3A-(\d{3})", t)) and ns == "SFP" and "3.5-" + m.group(1) or None,
     renumber_evidence=("_meta/sources/maryland.yml, md-sfp-3-5-powers-and-duties-of-the-secretary: 'its older policies cite "
-                       "the same duties as 'SF&P 3A-301-309''."),
-    notes=("Section numbers are read as printed. Older Maryland policies cite the Department of IT's duties as "
-           "'SF&P 3A-301 to 3A-309'; the seed entry md-sfp-3-5-powers-and-duties-of-the-secretary says they are the "
-           "duties held as 3.5-301 to 3.5-309, so those citations resolve to the held text."),
+                       "the same duties as 'SF&P 3A-301-309''; the held bundle prints 3.5-311 and 3.5-312 as well, and the "
+                       "regulation md-comar-14-33 cites them as 3A-311 and 3A-312."),
+    notes=("Section numbers are read as printed. Title 3A of the State Finance and Procurement Article is the held title 3.5 "
+           "(the seed entry md-sfp-3-5-powers-and-duties-of-the-secretary), so every 3A-3nn citation is looked up as 3.5-3nn; "
+           "it resolves when that section is held."),
 )
 FORMS["massachusetts"] = S(
-    C("MGL", "statute", r"(?:M\.?\s?G\.?\s?L\.?|G\.L\.|Massachusetts\s+General\s+Laws)\s*(?:c\.|ch\.|Ch\.|chapter)\s*(?P<q>\d{1,3}[A-Za-z]?)(?:\s*,)?",
+    C("MGL", "statute", r"(?:M\.?\s?G\.?\s?L\.?|G\.L\.|Mass\.\s+Gen\.\s+Laws|Massachusetts\s+General\s+Laws)\s*(?:c\.|ch\.|Ch\.|chapter)\s*(?P<q>\d{1,3}[A-Za-z]?)(?:\s*,)?",
       r"\d{1,3}[A-Z]?(?:\s?\d)?", label="M.G.L.", q_is_chapter=True, chap=r"\d{1,3}[A-Z]?"),
+    C("MGLR", "statute", r"(?!)", r"(?!)", ns="MGL", label="M.G.L.", q_is_chapter=True,
+      custom=(r"(?i:sections?)\s+(\d{1,3}[A-Z]?)\s+of\s+chapter\s+(\d{1,3}[A-Z]?)\b",
+              lambda m: [("section", f"{m.group(2)}/{m.group(1)}")])),
     C("CMR", "rule", r"(?P<q>\d{1,3})\s+CMR", r"\d{1,3}(?:\.\d{1,2})?", label="CMR", chapter=dot0, whole=r"\.00"),
+    leftout_plain_orders=True,
     notes="A chapter of the General Laws cited with no section is a chapter-level citation.",
 )
 FORMS["michigan"] = S(
@@ -287,12 +311,13 @@ FORMS["michigan"] = S(
       chapter=lambda s: s, unit_word=""),
     C("MAC", "rule", r"Admin\s+Rule:?|Mich(?:igan)?\.?\s+Admin(?:istrative)?\.?\s+Code,?", r"R\s?\d{1,3}\.\d{1,4}[a-z]?", label="Mich. Admin. Code",
       chapter=lambda s: "R" + re.match(r"R\s?(\d+)", s).group(1)),
-    eo_num=r"\d{4}~\d{1,3}",
+    eo_num=r"\d{4}~\d{1,3}", eo_compiled=True,
     notes="Public Acts are cited as 'Act 431 of 1984'; compiled-law sections as MCL; rules as 'Admin Rule: R 18.201'.",
 )
 FORMS["minnesota"] = S(
     C("MS", "statute", r"Minn(?:esota|\.)\s*Stat(?:utes|s)?\.?(?:\s+\d{4})?,?", r"\d{1,3}[A-Z]?\.\d{1,4}[a-z]?",
-      label="Minn. Stat.", chap=r"\d{1,3}[A-Z]?", chapter=dot0, unit_word="chapter"),
+      label="Minn. Stat.", chap=r"\d{1,3}[A-Z]?", chapter=dot0, unit_word="chapter", bare=True,
+      bare_sec=r"\d{1,3}[A-Z]?\.\d{2,4}[a-z]?"),
     C("MR", "rule", r"Minn(?:esota|\.)\s*(?:Rules|R\.),?(?:\s+(?:parts?))?", r"\d{4}(?:\.\d{4})?", label="Minn. R.",
       chap=r"\d{4}", chapter=dot0),
 )
@@ -304,7 +329,8 @@ FORMS["missouri"] = S(
 )
 FORMS["montana"] = S(
     C("MCA", "statute", r"Mont\.\s*Code\s*Ann\.|Montana\s+Code\s+Annotated(?:\s+\d{4})?|MCA", r"\d{1,2}~\d{1,3}~\d{1,4}",
-      label="MCA", suffix=r"MCA|Mont\.\s*Code\s*Ann\.", sfx_bare=True, chapter=dash_n(2), grain="section"),
+      label="MCA", suffix=r"MCA|Mont\.\s*Code\s*Ann\.", sfx_bare=True, chapter=dash_n(2), grain="section",
+      bare_any=r"\d{1,2}-\d{1,3}-(?!(?:19|20)\d\d(?!\d))\d{1,4}"),
     C("ARM", "rule", r"ARM", r"\d{1,2}\.\d{1,3}\.\d{1,4}", label="ARM", chapter=dot_n(2)),
     audit_ignore=r"Montana\s+Code\s+Annotated\s+\d{4}\s*$|MCA\s+\d{4}\b",
     held_extra=((re.compile(r"ARM\s+Title\s+(\d+),\s*chapter\s+(\d+)"),
@@ -320,7 +346,8 @@ FORMS["nevada"] = S(
     C("NRS", "statute", r"NRS|Nevada\s+Revised\s+Statutes", r"\d{1,3}[A-Z]?\.\d{1,5}", label="NRS",
       chap=r"\d{1,3}[A-Z]?", chap_bare=True, chapter=dot0, unit_word="chapter"),
     C("NAC", "rule", r"NAC|Nevada\s+Administrative\s+Code", r"\d{1,3}[A-Z]?\.\d{1,5}", label="NAC",
-      chap=r"\d{1,3}[A-Z]?", chapter=dot0),
+      chap=r"\d{1,3}[A-Z]?", chap_bare=True, chapter=dot0),
+    leftout_plain_chapters=True,
 )
 FORMS["new-hampshire"] = S(
     C("RSA", "statute", r"RSA|Revised\s+Statutes\s+Annotated", r"\d{1,3}(?:-[A-Z])?:\d{1,3}(?:-[a-z]){0,2}", label="RSA",
@@ -328,8 +355,9 @@ FORMS["new-hampshire"] = S(
     notes="New Hampshire administrative rules are cited by agency code (e.g. 'Saf-C 1000'); no such form was found in the held documents.",
 )
 FORMS["new-jersey"] = S(
-    C("NJSA", "statute", r"N\.J\.S\.A\.(?:\s*C\.)?|NJSA", r"\d{1,2}[A-Z]?:\d{1,3}[A-Z]?(?:~\d{1,4}(?:\.\d{1,3})?)?", label="N.J.S.A.",
-      chapter=lambda s: s.split("-")[0] if "-" in s else None, grain="section"),
+    C("NJSA", "statute", r"N\.J\.S\.A\.(?:\s*C\.)?|NJSA", r"\d{1,2}[A-Za-z]?:\d{1,3}[A-Za-z]?(?:~\d{1,4}(?:\.\d{1,3})?[a-z]?(?![a-z]))?", label="N.J.S.A.",
+      chapter=lambda s: s.split("-")[0] if "-" in s else None, grain="section",
+      tokfix=lambda t: re.sub(r"^(\d+[A-Za-z]?:\d+)([a-z])", lambda m: m.group(1) + m.group(2).upper(), t)),
     C("NJAC", "rule", r"N\.J\.A\.C\.", r"\d{1,2}:\d{1,3}[A-Z]?(?:~\d+(?:\.\d+)?)?", label="N.J.A.C.",
       chapter=lambda s: s.split("-")[0]),
     eo_ambiguous=True,
@@ -344,13 +372,17 @@ FORMS["new-mexico"] = S(
     held_extra=((re.compile(r"NMSA\s+1978,\s*chapter\s+(\d+),\s*article\s+(\d+[A-Z]?)"),
                  lambda m: [("statute", "NMSA", "chapter", f"{m.group(1)}-{m.group(2)}", None)]),),
     audit_ignore=r"NMAC\s{5,}\d*\s*$",
+    leftout_custom=((r"Chapter\s+(\d{1,2}),?\s*Article\s+(\d{1,3}[A-Z]?)\b", lambda m: [("NMSA", "chapter", f"{m.group(1)}-{m.group(2)}")]),),
+    misprints=(("NMSA", "15-5-1", "9-27-20",
+                "the held nm-nmsa-9-27 prints 'Section 15-5-1 NMSA 1978 [9-27-20 NMSA 1978]' and 'Laws 2009, ch. 146, \u00a7 10 recompiled "
+                "former 15-5-1 NMSA 1978 as 9-27-20'"),),
 )
 _NY_NAMES = r"(?P<q>(?:State\s+)?(?:Technology|Public\s+Officers|Civil\s+Service|State\s+Finance|Executive|Education|General\s+Business|Public\s+Authorities|Penal|Labor|Retirement\s+and\s+Social\s+Security|General\s+Municipal|Public\s+Service|Arts\s+and\s+Cultural\s+Affairs|Public\s+Health|Social\s+Services|Legislative|State\s+Administrative\s+Procedure|Judiciary|Tax|Vehicle\s+and\s+Traffic|Insurance|Banking|Real\s+Property|Military|Correction|Mental\s+Hygiene|Environmental\s+Conservation|Highway|Transportation|Public\s+Buildings|State\s+Law)\s+Law)"
 FORMS["new-york"] = S(
     C("NYL", "statute", _NY_NAMES + r"\s*,?", r"\d{1,4}(?:-[a-z])?", label="Law",
       chapter=lambda s: None, grain="law", qnorm=lambda q: re.sub(r"^(Technology Law)$", r"State \1", q)),
     C("NYCRR", "rule", r"(?:(?P<q>\d{1,2})\s+)?NYCRR\s+(?:Part\s+)?", r"\d{3}(?:\.\d+)?", label="NYCRR", chapter=dot0),
-    eo_ambiguous=True, unreliable=("eo",),
+    eo_ambiguous=True, unreliable=("eo",), eo_glue=True,
     held_extra=((re.compile(r"State Technology Law, Article \d \(sections ([\d-]+[a-z]?)-([\d-]+[a-z]?)\)"),
                  lambda m: [("statute", "NYL", "section", "State Technology Law/" + m.group(1), "State Technology Law/" + m.group(2))]),),
     notes=("Executive Order numbers in the PDF text carry footnote marks ('Executive Order No. 117 1'); a "
@@ -359,7 +391,8 @@ FORMS["new-york"] = S(
 )
 FORMS["north-carolina"] = S(
     C("GS", "statute", r"N\.?C\.?G\.?S\.?|G\.S\.|N\.C\.\s*Gen\.\s*Stat\.|North\s+Carolina\s+General\s+Statutes",
-      r"\d{1,3}[A-Za-z]?~\d{1,4}(?:\.\d{1,3})?[A-Z]?", label="G.S.", chap=r"\d{1,3}[A-Za-z]?", chap_bare=True, chapter=lambda s: dash_n(1)(s).upper()),
+      r"\d{1,3}[A-Za-z]?~\d{1,4}(?:\.\d{1,3})?[A-Z]?", label="G.S.", chap=r"\d{1,3}[A-Za-z]?", chap_bare=True, chapter=lambda s: dash_n(1)(s).upper(),
+      chap_words=r"chapters?|ch\."),
     C("NCAC", "rule", r"(?:\d{2}\s+)?NCAC", r"\d{2}[A-Za-z]\s?(?:\.\d{4})?", label="NCAC", chapter=lambda s: re.match(r"\d{2}[A-Za-z]", s).group().upper()),
     eo_ambiguous=True,
     held_extra=((re.compile(r"G\.S\.\s*(\d+[A-Z]?),\s*Article\s+(\d+)"),
@@ -393,6 +426,7 @@ FORMS["oregon"] = S(
       chapter=lambda s: "-".join([s.split("-")[0], s.split("-")[1].zfill(3)])),
     held_extra=((re.compile(r"OAR\s+chapter\s+(\d+),\s*division\s+(\d+)"),
                  lambda m: [("rule", "OAR", "chapter", f"{m.group(1)}-{int(m.group(2)):03d}", None)]),),
+    history_rx=(("ORS", r"\[Formerly\s+([^\]]+)\]"),),
     renumber=lambda ns, t: re.sub(r"^125-800", "128-030", t) if ns == "OAR" and t.startswith("125-800") else None,
     renumber_evidence=("_meta/sources/oregon.yml, or-oar-128-30: 'Government-wide information security rules ... "
                        "renumbered from OAR 125-800 effective 2026-05-01.'"),
@@ -442,6 +476,9 @@ FORMS["texas"] = S(
               lambda m: [("chapter", f"{m.group(1)}/{m.group(2)}")])),
     C("TAC", "rule", r"(?:(?P<q>\d{1,2})\s+)?(?:TAC|Tex\.\s*Admin\.\s*Code|Texas\s+Administrative\s+Code)", r"\d{1,4}(?:\.\d{1,4})?", label="TAC",
       chap=r"\d{1,4}", q_default="1", chapter=dot0),
+    aliases=(("TAC", "1/202", "1/477",
+              "_meta/sources/texas.yml, tx-tac-1-477: the Texas Register's Transferred Rules page for June 26, 2026 renumbers "
+              "1 TAC Chapter 202 (Information Security Standards) as Chapter 477 effective August 1, 2026."),),
     notes="A Texas Administrative Code citation with no title number is read as Title 1 (the Department of Information Resources).",
     held_extra=((re.compile(r"(\d+)\s+TAC\s+chapter\s+(\d+)"),
                  lambda m: [("rule", "TAC", "chapter", f"{m.group(1)}/{m.group(2)}", None)]),
@@ -468,6 +505,8 @@ FORMS["virginia"] = S(
     C("VAC", "rule", r"(?=\d{1,2}\s?VAC\s?\d)", r"\d{1,2}\s?VAC\s?\d{1,3}~\d{1,3}(?:~\d+)?", label="VAC",
       chapter=lambda s: "-".join(s.replace(" ", "").split("VAC")[1].split("-")[:2])),
     eo_kinds=("EO", "ED"), eo_ambiguous=True,
+    misprints=(("VA", "2-2", "2.2-2009",
+                "the source prints '\u00a72-2.2009' for \u00a72.2-2009, the CIO's duties relating to security, which the held chapter 20.1 prints"),),
     notes="Virginia section numbers do not reveal their chapter, so a held chapter covers the sections printed in its text.",
     held_extra=((re.compile(r"Va\.\s*Code\s*tit\.\s*([\d.]+),\s*ch\.\s*([\d.]+)"),
                  lambda m: [("statute", "VA", "chapter", f"{m.group(1)}/{m.group(2)}", None)]),),
@@ -478,6 +517,11 @@ FORMS["washington"] = S(
     C("WAC", "rule", r"WAC", r"\d{2,3}~\d{2,3}(?:~\d{3,4}[A-Z]?)?", label="WAC", chap=r"\d{2,3}~\d{2,3}", suffix=r"WAC",
       chapter=dash_n(2)),
     uncitable=(("wa-law-2026-c167", "a session law, cited by chapter and year rather than by code section"),),
+    misprints=(("RCW", "52.105.450", "43.105.450",
+                "the Office of Cybersecurity is RCW 43.105.450, which 32 other WaTech documents print correctly (for example wa-ea-02-06-s); "
+                "the printed 52.105 is a misprint, and 43.105 is the held chapter"),
+               ("RCW", "39.24.240", "39.34.240",
+                "_meta/sources/washington.yml records 39.24.240 as a misprint of the held RCW 39.34.240 in DATA-03 and DATA-04")),
 )
 FORMS["west-virginia"] = S(
     C("WV", "statute", r"W\.?\s?Va\.\s*Code|WV\s+Code|West\s+Virginia\s+Code", r"\d{1,3}[A-Z]?~\d{1,3}[A-Z]?~\d{1,3}[a-z]?(?:[a-z]\d+)?", label="W. Va. Code",
