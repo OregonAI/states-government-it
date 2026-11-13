@@ -5,7 +5,7 @@ from __future__ import annotations
 import re
 import urllib.parse
 
-from src.ingest_common import _MONTHS, BlockParser, _decode, _squash, paragraph_html_to_text
+from src.ingest_common import _MONTHS, BlockParser, _decode, _squash, paragraph_html_to_text, pdf_to_text
 
 
 # ---- Colorado Office of Information Technology: pages on oit.colorado.gov ---------------------
@@ -36,6 +36,49 @@ _CRS_ARTICLE = re.compile(r"ARTICLE \d+(\.\d+)?")
 _CRS_PART = re.compile(r"PART \d+(\.\d+)?")
 
 
+# A section slice: `{section_start: "24-71.3-117", section_end_before: "24-71.3-120"}`. The file prints each
+# section heading twice, in the caption list at the head of its article and again in the body, so the heading
+# is looked for inside its own article and the last printed one is the body's.
+_CRS_SECTION_NO = re.compile(r"\d+-(\d+(?:\.\d+)?)-\d+(?:\.\d+)?")
+_CRS_SECTION_HEAD = re.compile(r"\d+-\d+(?:\.\d+)?-\d+(?:\.\d+)?\. ")
+_CRS_FURNITURE = re.compile(r"(?:PART|ARTICLE) \d+(?:\.\d+)?")
+
+
+def _crs_sections(raw: bytes, slice_: dict) -> str:
+    start_no, end_no = slice_["section_start"], slice_["section_end_before"]
+    for no in (start_no, end_no):
+        if not _CRS_SECTION_NO.fullmatch(no):
+            raise ValueError(f"{no!r} is not a printed C.R.S. section number (title-article-section)")
+    article = _CRS_SECTION_NO.fullmatch(start_no).group(1)
+    all_lines = paragraph_html_to_text(raw).splitlines()
+    first = _only(all_lines, f"ARTICLE {article}", f"article {article}")
+    last = next((i for i in range(first + 1, len(all_lines)) if _CRS_ARTICLE.fullmatch(all_lines[i])),
+                len(all_lines))
+    lines = all_lines[first:last]
+
+    def body_heading(no: str) -> int:
+        hits = [i for i, line in enumerate(lines) if line.startswith(f"{no}. ")]
+        if not hits:
+            raise ValueError(f"CRS file has no heading of section {no} in article {article}: "
+                             f"the layout changed or the slice is wrong")
+        return hits[-1]
+
+    begin, stop = body_heading(start_no), None
+    if _CRS_SECTION_NO.fullmatch(end_no).group(1) == article:
+        stop = body_heading(end_no)
+        if stop <= begin:
+            raise ValueError(f"heading {end_no} does not follow section {start_no} in the title file: "
+                             f"the slice would be a guess")
+    else:
+        raise ValueError(f"section {end_no} is not in article {article}: the slice would be a guess")
+    cut = lines[begin:stop]
+    # The part (or article) heading lines that precede the next section's heading are its, not the slice's.
+    mark = next((i for i in range(len(cut) - 1, 0, -1) if _CRS_FURNITURE.fullmatch(cut[i])), None)
+    if mark is not None and not any(_CRS_SECTION_HEAD.match(line) for line in cut[mark:]):
+        cut = cut[:mark]
+    return "\n".join(cut) + "\n"
+
+
 def _only(lines: list[str], want: str, what: str) -> int:
     hits = [i for i, line in enumerate(lines) if line == want]
     if not hits:
@@ -54,9 +97,11 @@ def crs_html_to_text(raw: bytes, slice_: dict | None) -> str:
     next `PART n` body line. (The article's caption list prints `PART 19 COLORADO CYBERSECURITY`
     on one line; only the body heading is a line of its own.) Nothing inside a slice is dropped:
     caption lists, section text, source notes, editor's notes and annotations all stay."""
+    if slice_ and slice_.get("section_start"):
+        return _crs_sections(raw, slice_)
     if not slice_ or not slice_.get("article"):
         raise ValueError("a Colorado statute entry needs a slice: {article: ...} or "
-                         "{article: ..., part: ...}")
+                         "{article: ..., part: ...} or {section_start: ..., section_end_before: ...}")
     all_lines = paragraph_html_to_text(raw).splitlines()
     lines = all_lines
     start = _only(lines, f"ARTICLE {slice_['article']}", f"article {slice_['article']}")
@@ -78,6 +123,37 @@ def crs_html_to_text(raw: bytes, slice_: dict | None) -> str:
                    len(lines))
         lines = lines[start:end]
     return "\n".join(lines) + "\n"
+
+
+# A rule inside a Code of Colorado Regulations rule set: `{section_start: "R-24-103-201.5-03",
+# section_end_before: "R-24-103-201.5-04"}`, cut from the PDF's printed rule headings.
+_CO_RULE_HEAD = re.compile(r"(R-\d+-\d+-[\d.]+-\d+)\s+\S")
+_CO_PAGE_HEAD = re.compile(r"CODE OF COLORADO REGULATIONS\s+\d+ CCR \d+-\d+")
+
+
+def _ccr_rule_slice(raw: bytes, slice_: dict) -> str:
+    text = pdf_to_text(raw)
+    lines = text.splitlines()
+    cover = [" ".join(l.split()) for l in lines if l.strip()][:40]
+    if not any(re.fullmatch(r"\d+ CCR \d+-\d+", l) for l in cover):
+        raise ValueError("the PDF's cover prints no CCR number: it is not a Code of Colorado Regulations rule")
+    if re.search(r"repealed eff\.", _squash(" ".join(cover))):
+        raise ValueError("the rule set is repealed (its cover says so): not in force")
+    start_no, end_no = slice_["section_start"], slice_["section_end_before"]
+    heads = [(i, m.group(1)) for i, l in enumerate(lines) if (m := _CO_RULE_HEAD.match(l))]
+    begin = [i for i, no in heads if no == start_no]
+    if len(begin) != 1:
+        raise ValueError(f"rule {start_no} is printed {len(begin)} times as a heading in the rule set's PDF "
+                         f"(the layout changed, the rule was renumbered, or the slice is wrong)")
+    stop = next((i for i, no in heads if no == end_no and i > begin[0]), None)
+    if stop is None:
+        raise ValueError(f"heading {end_no} does not follow rule {start_no} in the PDF: the slice would be a guess")
+    cut = lines[begin[0]:stop]
+    while cut and not cut[-1].strip():
+        cut.pop()
+    if any(_CO_PAGE_HEAD.match(l) for l in cut):
+        raise ValueError(f"rule {start_no} runs across a page break: the page furniture would be in the slice")
+    return "\n".join(cut) + "\n"
 
 
 # Colorado. A Code of Colorado Regulations PDF ends with `Editor's Notes / History` lines such as `New rule eff.
@@ -188,15 +264,24 @@ def to_text(raw, fmt, doc_type, slice_, host):
         return oit_html_to_text(raw)
     if fmt == "html" and doc_type == "statute":
         return crs_html_to_text(raw, slice_)
+    if fmt == "pdf" and doc_type == "rule" and slice_:
+        return _ccr_rule_slice(raw, slice_)
     return None
 
 
 def check_identity(src, text, what_is):
+    if src["jurisdiction"] == "colorado" and src["doc_type"] == "rule" and src.get("slice"):
+        _check_co_rule_slice_identity(src, text, what_is)
+        return True
     if src["jurisdiction"] == "colorado" and src["doc_type"] == "rule":
         _check_co_rule_identity(src, text, what_is)
         return True
     if src["jurisdiction"] == "colorado" and src["doc_type"] in ("policy", "standard"):
         _check_co_policy_identity(src, text, what_is)
+        return True
+    if src["doc_type"] == "statute" and src["jurisdiction"] == "colorado" \
+            and (src.get("slice") or {}).get("section_start"):
+        _check_co_section_identity(src, text, what_is)
         return True
     if src["doc_type"] == "statute" and src["jurisdiction"] == "colorado":
         cite = re.fullmatch(r"C\.R\.S\. title \d+, article ([\d.]+)(?:, part (\d+))?", src["citation"])
@@ -211,6 +296,37 @@ def check_identity(src, text, what_is):
                              f"is not in the seed title {src['title']!r}")
         return True
     return False
+
+
+_CO_SECTION_CITE = re.compile(r"C\.R\.S\. (\d+-[\d.]+-[\d.]+)(?: to (\d+-[\d.]+-[\d.]+))?")
+
+
+def _check_co_section_identity(src: dict, text: str, what_is: str) -> None:
+    """A section slice is the cited one when it opens on the heading of the first cited section and the last
+    section heading it holds is the last cited one; a single section whose heading says (Repealed) is not law."""
+    cite = _CO_SECTION_CITE.fullmatch(src["citation"])
+    lines = text.splitlines()
+    heads = [line.split(". ")[0] for line in lines if _CRS_SECTION_HEAD.match(line)]
+    first, last = (cite.group(1), cite.group(2) or cite.group(1)) if cite else (None, None)
+    if (not cite or (src["slice"]["section_start"] != first) or not lines
+            or not lines[0].startswith(f"{first}. ") or not heads or heads[-1] != last):
+        raise ValueError(f"{src['id']}: {what_is} is not {src['citation']}: the slice opens on "
+                         f"{lines[0][:40] if lines else None!r} and its last section heading is "
+                         f"{heads[-1] if heads else None!r}")
+    if not cite.group(2) and re.search(r"\(Repealed\)", lines[0]):
+        raise ValueError(f"{src['id']}: {src['citation']} is printed as repealed: not in force")
+
+
+def _check_co_rule_slice_identity(src: dict, text: str, what_is: str) -> None:
+    """A rule slice is the cited one when the citation names the rule set the URL fetches (the file name
+    `1 CCR 101-9`) and the rule the slice opens on."""
+    cite = re.fullmatch(r"(\d+ CCR \d+-\d+), rule (R-\S+)", src["citation"])
+    named = urllib.parse.parse_qs(urllib.parse.urlsplit(src["url"]).query).get("fileName", [""])[0]
+    lines = text.splitlines()
+    if (not cite or cite.group(1) != named or src["slice"]["section_start"] != cite.group(2)
+            or not lines or not lines[0].startswith(cite.group(2) + " ")):
+        raise ValueError(f"{src['id']}: {what_is} is not the cited instrument: {src['citation']!r} is not the "
+                         f"rule the slice opens on in {named!r}")
 
 
 def effective_date(text, doc_type):
@@ -237,6 +353,14 @@ def notes(src, fmt, text):
                 "nested lists indented), with markup, the site menu, breadcrumb, side navigation of the "
                 "neighbouring guide pages, language selector, footer and scripts removed. The page prints no "
                 "document number, version or effective date.")
+    sl = src.get("slice") or {}
+    if src["doc_type"] == "statute" and src["jurisdiction"] == "colorado" and sl.get("section_start"):
+        return (f"The source is the Office of Legislative Legal Services' title file (one file for the whole of "
+                f"the title); this document is the sections from the body heading of section {sl['section_start']} "
+                f"to the line before the body heading of section {sl['section_end_before']}, one line per source "
+                f"paragraph, with markup, spacing paragraphs and non-breaking spaces removed. The part heading "
+                f"lines the file prints before the next section are not kept. Source notes, official comments, "
+                f"editor's notes and annotations are kept.")
     if src["doc_type"] == "statute" and src["jurisdiction"] == "colorado":
         return ("The source is the Office of Legislative Legal Services' title file (one file for the whole of "
                 "the title); this document is the one article (or part) named in the citation, "
@@ -253,7 +377,14 @@ def extra_notes(src, fmt, text, eff, version):
         notes += (f" OIT's page ({src.get('found_via', 'its index')}), where the list item reads "
                   f"{src.get('listed_as', 'its title')!r}, links this file as {src['oit_link']}; the text "
                   f"was fetched from Google Drive's direct-download form of the same file, {src['url']} (the source URL above).")
-    if src["jurisdiction"] == "colorado" and src["doc_type"] == "rule":
+    if src["jurisdiction"] == "colorado" and src["doc_type"] == "rule" and src.get("slice"):
+        sl = src["slice"]
+        notes += (f" The PDF is the copy the Secretary of State's page calls the official version of the rule set "
+                  f"(it governs in all cases); this document is the one rule from the printed heading of "
+                  f"{sl['section_start']} to the line before the heading of {sl['section_end_before']}. The rule "
+                  f"set's cover and its Editor's Notes History are not part of the slice, so no effective_date "
+                  f"is read; the version in force is the one the URL names (ruleVersionId).")
+    elif src["jurisdiction"] == "colorado" and src["doc_type"] == "rule":
         notes += (" The PDF is the copy the Secretary of State's page calls the official version of the rule "
                   "(it governs in all cases). Its cover's Secretary of State mark prints as a few scattered "
                   "letter fragments before the heading, kept as extracted. effective_date is the date of the "

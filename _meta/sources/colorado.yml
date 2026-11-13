@@ -1169,6 +1169,36 @@ sources:
     watch_only: true
     why_relevant: "The page that lists the official title files (HTM, PDF, DOCX) the statute entries are cut from, 'current with the changes made ... at its Second Regular Session in 2026'. Its address carries the year, so the 2027 edition will be a new page: a missing page here means the seed urls (olls.info/crs/crs2026-title-nn.htm) need moving to the new edition."
 
+  # ---- Colorado provisions of non-IT law, seeded as section slices under the owner decision of 2026-11-13
+  # ---- (a provision in law that is not itself about IT is in scope when its own focus is the governance of state
+  # ---- government IT). Each was read in the official bytes fetched through the Fetcher before it was seeded.
+  - id: co-crs-24-71-3-117
+    sha256: "19afb8ccf61a13d62f45a8cbb6ccd5e2800bd76684fe40bd07da78cc3005b1fc"
+    url: https://olls.info/crs/crs2026-title-24.htm
+    format: html
+    citation: "C.R.S. 24-71.3-117 to 24-71.3-119"
+    title: "Electronic Records and Signatures of State Agencies (Uniform Electronic Transactions Act, sections 117 to 119)"
+    doc_type: statute
+    jurisdiction: colorado
+    issuing_body: "Colorado General Assembly; published by the Office of Legislative Legal Services"
+    tags: [governance, data]
+    recheck: monthly
+    slice: {section_start: "24-71.3-117", section_end_before: "24-71.3-120"}
+    why_relevant: "The three sections of the Uniform Electronic Transactions Act addressed to state government, not the Act's general validation of electronic records (sections 101 to 116, 120, 121, which are left out). 24-71.3-117 and 24-71.3-118: each state department, board, commission, authority, institution or instrumentality may decide whether and how far it creates, retains, sends, accepts and relies on electronic records and electronic signatures, 'in accordance with the policies, standards, and guidelines set forth by the office of information technology' and, in 118, in consultation with OIT and the state archivist; 24-71.3-119: OIT may adopt those policies, standards and guidelines to promote consistency and interoperability. The official comments printed under each section stay in the text."
+  - id: co-ccr-1-101-9-it-projects
+    sha256: "db58f52af695362c7443d64a5eeaf588bb4f206f1eb6b3b2fa741c63cede1d85"
+    url: https://www.sos.state.co.us/CCR/GenerateRulePdf.do?ruleVersionId=12601&fileName=1%20CCR%20101-9
+    format: pdf
+    citation: "1 CCR 101-9, rule R-24-103-201.5-03"
+    title: "Procurement Rules: Information Technology Projects"
+    doc_type: rule
+    jurisdiction: colorado
+    issuing_body: "Department of Personnel and Administration, Division of Finance and Procurement"
+    tags: [procurement, governance]
+    recheck: monthly
+    slice: {section_start: "R-24-103-201.5-03", section_end_before: "R-24-103-201.5-04"}
+    why_relevant: "The one rule of the State Procurement Rules (1 CCR 101-9, version effective 07/01/2026, the Secretary of State's current version) addressed to information technology: formal market research is required for major information technology projects under C.R.S. 24-37-302(1)(a.5), so that the state's solicitations include the most appropriate information technology requirements. The rest of the 55-page rule set is general procurement law and is left out."
+
 # Found and left out: what was seen on an official page and not seeded, with the reason.
 left_out:
 - text: '---- Colorado found and left out (the reason is recorded here; docs/research/09 has the live pages against the August archive)'
@@ -1250,14 +1280,39 @@ left_out:
        because the part never uses those words; it is stubbed above as co-crs-24-18-pt3 (OWNER DECISION, the same as
        Washington's RCW 43.386). The general-purpose government-use instrument found is the OIT GenAI policy stubbed
        above (2-3-1707, the AI impact task force, is inside the seeded 2-3 part 17).
-     - Colorado Procurement Code (articles 101 to 112 of title 24) and 24-30-202: Oregon's and Washington's
-       procurement statutes were left out by owner decision; same here. OWNER DECISION.
-     - 24-30-209 (statewide financial and human resources information technology systems, billing, cash fund) and
-       24-75-302 (IT capital account of the capital construction fund): state budget and finance law with an IT
-       object; borderline funding provisions. OWNER DECISION.
-     - 24-72 (Colorado Open Records Act), 24-80 (state archives and records management), 24-71.3 (Uniform
-       Electronic Transactions Act), 24-71 (electronic signatures): general public-records, records and e-signature
-       law (Oregon and Washington left out their records-management rules). 24-74.1 (policies regarding data and
+     - Colorado Procurement Code (articles 101 to 112 of title 24) and 24-30-202: left out whole, as Oregon's and Washington's
+       were. Owner decision of 2026-11-13: a provision of non-IT law is in scope as a section slice when its own focus is the governance of
+       state IT. Seeded on that ground: 1 CCR 101-9 rule R-24-103-201.5-03 (information technology projects, above). Read in the title file
+       and NOT seeded because it is not a cited candidate (it would qualify on its face; the owner may add it): 24-102-208 (software
+       application contracts: a licence may not limit where a governmental body installs or runs the software).
+     - 24-30-209 (statewide financial and human resources information technology systems, billing, cash fund): IT funding, which the
+       owner decision of 2026-11-13 covers on its face; not seeded because no held document cites it (the owner may add it).
+       24-75-302 (IT capital account of the capital construction fund): DECLINED on the focus test, read 2026-11-13: the section is the
+       capital construction fund (transfers by year since 1988, assessment fees); the IT capital account is one subsection of it.
+     - Owner decision of 2026-11-13, applied to the candidates held documents cite (each read in the title file 2026-11-13):
+       SEEDED: 24-71.3-117 to 24-71.3-119 (state agencies' electronic records and signatures under OIT policy), above.
+       APPROVED AND VERIFIED BUT NOT SEEDED: 24-72-501 to 24-72-502 (part 5, privacy policies of state governmental entities: every state
+       governmental entity must create a policy for 'the collection, storage, transfer, and use of personally identifiable information' regardless
+       of 'source or medium' and publish it on its website, 24-72-502 (1), (2); in force, a 2002 part, not repealed). A seed entry for it was
+       built and ingested cleanly (slice 24-72-501 to 24-72-601) and removed, because the shared test
+       tests/test_authority_refs_review.py (LEFT_OUT case 'colorado', '(C.R.S. 24-72-501, et seq.)') pins 24-72-501 as LEFT_OUT and fails the
+       gate once it is held; the owner or the shared-file owner changes that test, then the entry is restored. DECLINED, general law that applies to IT
+       along with everything else: the rest of 24-72 (the open-records right of access and 24-72-204; 24-72-202 is CORA's general definitions section, so at the level a
+       slice can cut its focus is not IT, although its (6)(b)(X), (XI) and (XII) take an agency's information security plan under 24-37.5-404,
+       information security incident reports and information security audit and assessment reports under 24-37.5-403 (2)(d) out of 'public
+       records': specific to state IT security, so left for the owner to decide), the rest of 24-71.3
+       (the Act's general validation of electronic records), 24-71 (an electronic signature is the parties' option), 24-80 (records
+       management of every medium; its 24-80-107 on film and digital scans is not a cited candidate). DECLINED on the focus test:
+       24-34-802 and 24-34-301 (18) (the section is anti-discrimination liability and remedies; the duty to meet OIT's accessibility
+       standards is its subsection (1)(c), and the standards themselves are held as article 24-85 and 8 CCR 1501-11); 24-50-1001 to
+       24-50-1004 (fingerprint background checks for people with access to federal tax information: personnel screening, no word of
+       systems or electronic records); 1 CCR 101-1 rule 3-5, read in the bytes of the version in force (ruleVersionId 12610, effective 07/01/2026): the rule as a whole is
+       about interagency agreements between state agencies in general, so it is not clearly inside the owner decision and is left for the owner;
+       but its definition 2.3 ('Recurring Services', services OIT provides for more than two consecutive years) and section 5 say OIT bills
+       agencies for recurring services without an interagency agreement or encumbrance, lists them 90 days before the fiscal year, and
+       continues them unless the agency gives notice 60 days before: IT funding governance, which is why co-oit-delegation-of-authority-policy
+       cites it. Related, in the same rule set, rule 3-1 section 7.5: 'Information technology Commitment Vouchers require approval by the
+       Governor's Office of Information Technology' (the owner may want it). 24-74.1 (policies regarding data and
        access): about immigration enforcement information at schools, health facilities and libraries.
      - 24-37.5 parts 2, 3, 5 and 6 and many sections of part 1 are printed as (Repealed): not in force.
      - 6-1-713, 6-1-713.5 and 6-1-1301 et seq. (private-sector data protection and the Colorado Privacy Act); 18-5.5
