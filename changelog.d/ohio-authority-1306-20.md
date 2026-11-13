@@ -1,0 +1,3 @@
+type: Added
+
+Ohio: R.C. 1306.20 (state agency provisions: each state agency decides whether and how it creates, stores and relies on electronic records and signatures, and the definition of "state agency" that R.C. 1306.21 uses), read from the section's page on codes.ohio.gov. This was the one "seed whole" authority-reference candidate for Ohio (owner decision, 2026-11-13). Five candidates cited as authority by IT-06, IT-07 and IT-16 were read in the official pages and declined because their own focus is not state IT governance (R.C. 126.08, 125.02, 125.04, 149.34, 149.11); each reason, with the words quoted, is in the state's left-out record.
