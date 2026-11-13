@@ -97,9 +97,14 @@ def check(manifest: dict, domain: dict) -> list[str]:
             california = (is_ca and ok_strings and sl.get("code") in CA_SLICE_CODES
                           and set(sl) <= {"code", "path", "section"}
                           and len(set(sl) & {"path", "section"}) == 1)
-            if not (colorado or california):
+            # an Oklahoma slice of a Legislature title PDF: the printed number of the first section and
+            # of the section whose heading ends the slice (that section is not in it); only Oklahoma entries
+            oklahoma = (e.get("jurisdiction") == "oklahoma" and ok_strings
+                        and set(sl) == {"section_start", "section_end_before"})
+            if not (colorado or california or oklahoma):
                 bad("slice must be a mapping with article (and optionally part), or, on a california entry, "
-                    f"with code (one of {sorted(CA_SLICE_CODES)}) and exactly one of path or section, as strings")
+                    f"with code (one of {sorted(CA_SLICE_CODES)}) and exactly one of path or section, as strings, "
+                    "or, on an oklahoma entry, with section_start and section_end_before, as strings")
         url = e.get("url")
         if isinstance(url, str) and not url.startswith(("http://", "https://")):
             bad(f"url is not http(s): {url}")
