@@ -49,11 +49,42 @@ def rcw_html_to_text(raw: bytes) -> str:
     return "\n".join(out) + "\n"
 
 
+def wac_html_to_text(raw: bytes) -> str:
+    """The Legislature's WAC page (app.leg.wa.gov/wac) for a whole chapter (`&full=true`). The law is
+    the chapter title and, for each section, its `WAC x-y-z` number, caption, paragraphs and the
+    bracketed history line; the page's section table (a second list of every caption), the PDF and
+    HTML buttons and the footer are not. Output: `Chapter x-y WAC`, the chapter title, then each
+    section, a blank line before each. Nothing inside a section is dropped."""
+    page = _decode(raw)
+    head = re.search(r"<h1[^>]*>(.*?)</h1>.*?<h2[^>]*>(.*?)</h2>", page, flags=re.S)
+    start = page.find('id="ContentPlaceHolder1_dlSectionContent"')
+    if not head or start < 0:
+        raise ValueError("WAC page has no content region: the page layout changed")
+    end = page.find('<div class="block-dark-green">', start)
+    region = page[page.index(">", start) + 1:end if end >= 0 else len(page)]
+    region = re.sub(r"<!--.*?-->", "", region, flags=re.S)
+    region = re.sub(r"<a class=\"btn[^>]*>.*?</a>", "", region, flags=re.S)         # PDF buttons
+    region = re.sub(r"<(/?)(div|h[1-6]|p|tr)\b[^>]*>|<br\s*/?>", "\n", region, flags=re.I)
+    region = re.sub(r"<hr\s*/?>", "\n\x00", region, flags=re.I)                     # one rule before each section
+    region = re.sub(r"<[^>]+>", "", region)
+    out = [ln for ln in (_clean_line(re.sub(r"<!--.*?-->|<[^>]+>", "", g)) for g in head.groups()) if ln]
+    for raw_line in region.split("\n"):
+        marked = raw_line.startswith("\x00")
+        line = _clean_line(raw_line.replace("\x00", ""))
+        if marked and out:
+            out.append("")
+        if line:
+            out.append(f"WAC {line}" if re.fullmatch(r"\d+[A-Z]?-\d+[A-Z]?-\d+[A-Z]?", line) else line)
+    return "\n".join(out) + "\n"
+
+
 # ---- hooks (see src/states/__init__.py) ----------------------------------------
 
 def to_text(raw, fmt, doc_type, slice_, host):
     if fmt == "html" and doc_type == "statute":
         return rcw_html_to_text(raw)
+    if fmt == "html" and doc_type == "rule":
+        return wac_html_to_text(raw)
     return None
 
 
@@ -61,6 +92,12 @@ def check_identity(src, text, what_is):
     if src["doc_type"] == "statute" and src["jurisdiction"] == "washington":
         cite = src["citation"].replace("RCW chapter ", "Chapter ", 1)
         want = f"{cite} RCW" if cite.startswith("Chapter ") else cite
+        if not text.strip() or text.splitlines()[0] != want:
+            raise ValueError(f"{src['id']}: page is not {src['citation']} (title/chapter mismatch)")
+        return True
+    if src["doc_type"] == "rule" and src["jurisdiction"] == "washington":
+        cite = src["citation"].replace("WAC chapter ", "Chapter ", 1)
+        want = f"{cite} WAC" if cite.startswith("Chapter ") else cite
         if not text.strip() or text.splitlines()[0] != want:
             raise ValueError(f"{src['id']}: page is not {src['citation']} (title/chapter mismatch)")
         return True
@@ -72,4 +109,8 @@ def notes(src, fmt, text):
         return ("Text taken from the Legislature's RCW page: the citation and title, then each "
                 "section's caption, paragraphs, session-law history and notes, one line per "
                 "paragraph. Site menu, PDF buttons, the page's section list and footer removed.")
+    if src["doc_type"] == "rule" and src["jurisdiction"] == "washington":
+        return ("Text taken from the Legislature's WAC page: the chapter number and title, then each "
+                "section's number, caption, paragraphs and bracketed history line, one line per "
+                "paragraph. The page's section table, PDF and HTML buttons and footer removed.")
     return None

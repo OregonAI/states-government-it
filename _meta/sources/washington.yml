@@ -68,19 +68,102 @@ sources:
     tags: [data, cybersecurity]
     recheck: monthly
     why_relevant: "Requires a written agreement, conforming to the policies of the Office of Cybersecurity, before one public agency requests category 3 or higher data from another. The sibling of RCW 39.26.340 (agency to contractor), from the same act (2021 c 291). Cited by WaTech policies DATA-03 and POL-01. One section of the interlocal cooperation chapter."
-  - id: wa-rcw-43-386
-    url: "https://app.leg.wa.gov/rcw/default.aspx?cite=43.386&full=true"
+  - id: wa-rcw-43-386-010
+    sha256: "5014a1cb0f6c291f968e37ce2701e72011cdea5eed786e3f0107ba944840a974"
+    url: "https://app.leg.wa.gov/rcw/default.aspx?cite=43.386.010"
     format: html
-    citation: "RCW chapter 43.386"
-    title: "Chapter 43.386 RCW - Facial recognition"
+    citation: "RCW 43.386.010"
+    title: "RCW 43.386.010 - Definitions."
     doc_type: statute
     jurisdiction: washington
     issuing_body: Washington State Legislature; published by the Statute Law Committee and Code Reviser
     tags: [ai, data]
     recheck: monthly
-    stub: true
-    stub_reason: "Borderline for scope, owner decision: the chapter governs state and local agency use of facial recognition services (accountability reports, meaningful human review, testing, training) but section 43.386.070 and 43.386.080 are law-enforcement provisions, and the scope statement puts law-enforcement technology out except where a general agency-AI rule names it. The source fetched fine on 2026-11-10; the entry becomes a document if the owner takes it in."
-    why_relevant: "Washington's only enacted statute found that regulates agency use of an AI technology (facial recognition) with human review, testing and accountability-report duties. Cited by WaTech policy DATA-03."
+    why_relevant: "Definitions, including that for a state agency the 'legislative authority' is the technology services board: \"For a state agency, 'legislative authority' refers to the technology services board created in RCW 43.105.285\" (subsection 6). Fixes what a facial recognition service is when a state or local government agency uses it. One section of chapter 43.386 RCW (facial recognition), seeded as a section page under owner decision 1 of 2026-11-13; the rest of the chapter is left out, see the left-out notes. Cited by WaTech policy DATA-03."
+  - id: wa-rcw-43-386-020
+    sha256: "2759d6956bda5c3056bae8b2b1bdec79d4b8886a8847b4c6e15d7dfe8212731b"
+    url: "https://app.leg.wa.gov/rcw/default.aspx?cite=43.386.020"
+    format: html
+    citation: "RCW 43.386.020"
+    title: "RCW 43.386.020 - Notice of intent—Accountability report."
+    doc_type: statute
+    jurisdiction: washington
+    issuing_body: Washington State Legislature; published by the Statute Law Committee and Code Reviser
+    tags: [ai, data]
+    recheck: monthly
+    why_relevant: "A state agency \"using or intending to develop, procure, or use a facial recognition service must file with a legislative authority a notice of intent\" and \"must produce an accountability report\" before developing, procuring or using it, covering data security, retention, testing, training and breach notification; the report is public and updated every two years; an agency procuring the service \"must require vendors to disclose any complaints or reports of bias\". One section of chapter 43.386 RCW (facial recognition), seeded as a section page under owner decision 1 of 2026-11-13; the rest of the chapter is left out, see the left-out notes. Cited by WaTech policy DATA-03."
+  - id: wa-rcw-43-386-030
+    sha256: "b2b76fa38fbdf02d25846bbd44e55d6c526bb6310bf1ee54efe68d8e252c8bdc"
+    url: "https://app.leg.wa.gov/rcw/default.aspx?cite=43.386.030"
+    format: html
+    citation: "RCW 43.386.030"
+    title: "RCW 43.386.030 - Meaningful human review—When required."
+    doc_type: statute
+    jurisdiction: washington
+    issuing_body: Washington State Legislature; published by the Statute Law Committee and Code Reviser
+    tags: [ai, data]
+    recheck: monthly
+    why_relevant: "An agency \"using a facial recognition service to make decisions that produce legal effects concerning individuals or similarly significant effects concerning individuals must ensure that those decisions are subject to meaningful human review\": oversight of an AI technology's output in a state agency's decisions. One section of chapter 43.386 RCW (facial recognition), seeded as a section page under owner decision 1 of 2026-11-13; the rest of the chapter is left out, see the left-out notes. Cited by WaTech policy DATA-03."
+  - id: wa-rcw-43-386-040
+    sha256: "e40a34a078ddc4bdf413f3588a2ff6c8808b56df86b73bdf89867bda41cc0c15"
+    url: "https://app.leg.wa.gov/rcw/default.aspx?cite=43.386.040"
+    format: html
+    citation: "RCW 43.386.040"
+    title: "RCW 43.386.040 - Testing—When required."
+    doc_type: statute
+    jurisdiction: washington
+    issuing_body: Washington State Legislature; published by the Statute Law Committee and Code Reviser
+    tags: [ai, data]
+    recheck: monthly
+    why_relevant: "Before deploying a facial recognition service an agency \"must test the facial recognition service in operational conditions\": a testing duty on a state agency's use of an AI technology. One section of chapter 43.386 RCW (facial recognition), seeded as a section page under owner decision 1 of 2026-11-13; the rest of the chapter is left out, see the left-out notes. Cited by WaTech policy DATA-03."
+  - id: wa-rcw-43-386-050
+    sha256: "9951855f661bbde3d1533c873503501b266c66015ab9047a4eb25813ef1368fd"
+    url: "https://app.leg.wa.gov/rcw/default.aspx?cite=43.386.050"
+    format: html
+    citation: "RCW 43.386.050"
+    title: "RCW 43.386.050 - Performance differences across subpopulations—Testing and mitigation."
+    doc_type: statute
+    jurisdiction: washington
+    issuing_body: Washington State Legislature; published by the Statute Law Committee and Code Reviser
+    tags: [ai, data]
+    recheck: monthly
+    why_relevant: "An agency that deploys a facial recognition service \"must require a facial recognition service provider to make available an application programming interface or other technical capability\" for independent accuracy and bias tests: a procurement and testing duty for an AI technology. One section of chapter 43.386 RCW (facial recognition), seeded as a section page under owner decision 1 of 2026-11-13; the rest of the chapter is left out, see the left-out notes. Cited by WaTech policy DATA-03."
+  - id: wa-rcw-43-386-060
+    sha256: "940746389d89375eb1bffc18c1064fdadcc7eb1db65b2a375cc11bedbff74763"
+    url: "https://app.leg.wa.gov/rcw/default.aspx?cite=43.386.060"
+    format: html
+    citation: "RCW 43.386.060"
+    title: "RCW 43.386.060 - Training."
+    doc_type: statute
+    jurisdiction: washington
+    issuing_body: Washington State Legislature; published by the Statute Law Committee and Code Reviser
+    tags: [ai, data]
+    recheck: monthly
+    why_relevant: "An agency \"using a facial recognition service must conduct periodic training of all individuals who operate a facial recognition service or who process personal data obtained from the use of a facial recognition service\": a training duty on state agency use of an AI technology. One section of chapter 43.386 RCW (facial recognition), seeded as a section page under owner decision 1 of 2026-11-13; the rest of the chapter is left out, see the left-out notes. Cited by WaTech policy DATA-03."
+  - id: wa-rcw-43-386-090
+    sha256: "c56f279b2c9ce1049d60f40b314cb4d93dda11bcc413e63c7901c672467ff10b"
+    url: "https://app.leg.wa.gov/rcw/default.aspx?cite=43.386.090"
+    format: html
+    citation: "RCW 43.386.090"
+    title: "RCW 43.386.090 - Exemption—Federal regulations and orders—Airports and seaports."
+    doc_type: statute
+    jurisdiction: washington
+    issuing_body: Washington State Legislature; published by the Statute Law Committee and Code Reviser
+    tags: [ai, data]
+    recheck: monthly
+    why_relevant: "Bounds the duties of 43.386.020-.060: the chapter does not apply to an agency mandated to use a specific facial recognition service by federal regulation or order, which must instead \"report to a legislative authority\" (the technology services board for a state agency). Kept as the exemption that scopes those IT governance duties. One section of chapter 43.386 RCW (facial recognition), seeded as a section page under owner decision 1 of 2026-11-13; the rest of the chapter is left out, see the left-out notes. Cited by WaTech policy DATA-03."
+  - id: wa-rcw-43-386-100
+    sha256: "3fa215f5f861982a4ecb0edf477c80354fa048b3d11fb97260878727d8f9efc7"
+    url: "https://app.leg.wa.gov/rcw/default.aspx?cite=43.386.100"
+    format: html
+    citation: "RCW 43.386.100"
+    title: "RCW 43.386.100 - Exemption—Department of licensing—Drivers' licenses, permits, and identicards."
+    doc_type: statute
+    jurisdiction: washington
+    issuing_body: Washington State Legislature; published by the Statute Law Committee and Code Reviser
+    tags: [ai, data]
+    recheck: monthly
+    why_relevant: "Bounds the duties of 43.386.020-.060: \"Nothing in this chapter applies to the use of a facial recognition matching system by the department of licensing pursuant to RCW 46.20.037.\" Kept as the exemption that scopes those IT governance duties. One section of chapter 43.386 RCW (facial recognition), seeded as a section page under owner decision 1 of 2026-11-13; the rest of the chapter is left out, see the left-out notes. Cited by WaTech policy DATA-03."
   - id: wa-law-2026-c167
     url: "https://lawfilesext.leg.wa.gov/biennium/2025-26/Pdf/Bills/Session%20Laws/House/1170-S2.SL.pdf"
     format: pdf
@@ -95,7 +178,43 @@ sources:
     stub_reason: "Enacted and signed 2026-03-24 but not in force: the act takes effect 2027-02-01 and has no RCW chapter number yet (section 8 makes section 6 a new chapter in Title 42 RCW). The corpus holds in-force instruments only. Section 6 requires a government agency that makes an AI system available to interact with consumers to disclose the AI interaction; sections 1-5 bind private providers (out of scope). Becomes a document at the next code revision once in force."
     why_relevant: "Section 6 binds state and local government agencies that make an AI system available to interact with consumers: clear, plain-language disclosure before or at the time of interaction. The only enacted Washington statute found whose subject is agency disclosure of AI use."
 
-  # ---- Rules: none (see the left-out notes: WaTech's Title 143 WAC holds no IT rules)
+  # ---- Rules: WaTech has no IT rules (see the left-out notes); the one chapter held is the Secretary of State's electronic records rules
+  - id: wa-rcw-43-88-092
+    sha256: "671157c7e0c1b447891ecf6a83b02a743536e50b8bedf999019365cefc54225a"
+    url: "https://app.leg.wa.gov/rcw/default.aspx?cite=43.88.092"
+    format: html
+    citation: "RCW 43.88.092"
+    title: "RCW 43.88.092 - Information technology budget detail - Information technology plan - Accounting method for information technology"
+    doc_type: statute
+    jurisdiction: washington
+    issuing_body: Washington State Legislature; published by the Statute Law Committee and Code Reviser
+    tags: [funding, oversight]
+    recheck: monthly
+    why_relevant: "One section of the state budget law (chapter 43.88 RCW, otherwise general budgeting and left out). Its own subject is state IT spending: agencies must provide, and the office of financial management collect, 'budget detail sufficient to allow review, analysis, and documentation of all current and proposed expenditures for information technology by state agencies' (subsection 1); 'The director of Washington technology solutions shall evaluate proposed information technology expenditures and establish priority ranking categories of the proposals' (subsection 3); and the biennial budget must carry an information technology plan and technology budget (subsection 4). Taken as a section slice under owner decision 1 of 2026-11-13; the site serves one page per section, so no slice is needed. Cited by RCW 43.105."
+  - id: wa-rcw-39-26-235
+    sha256: "520094f3e9f5ef808c24ec57590b2fcbfca743403dda8ec62f36ff974013f5a4"
+    url: "https://app.leg.wa.gov/rcw/default.aspx?cite=39.26.235"
+    format: html
+    citation: "RCW 39.26.235"
+    title: "RCW 39.26.235 - Purchase of wireless devices or services"
+    doc_type: statute
+    jurisdiction: washington
+    issuing_body: Washington State Legislature; published by the Statute Law Committee and Code Reviser
+    tags: [procurement, governance]
+    recheck: monthly
+    why_relevant: "One section of the state procurement chapter (the rest is left out, see the left-out notes). Its own subject is state IT purchasing: 'State agencies that are purchasing wireless devices or services must make such purchases through the state master contract, unless the state agency provides to Washington technology solutions evidence that the state agency is securing its wireless devices or services from another source for a lower cost'. The page's history prints 'Formerly RCW 43.19.797, 43.105.410' and the last amendment 2024 c 54 s 30. Taken as a section slice under owner decision 1 of 2026-11-13."
+  - id: wa-wac-434-662
+    sha256: "ac0dd3ee4e163c2cfab028831eb4c04eb7af0edda313fd720b2b9e47068148f3"
+    url: "https://app.leg.wa.gov/wac/default.aspx?cite=434-662&full=true"
+    format: html
+    citation: "WAC chapter 434-662"
+    title: "Chapter 434-662 WAC - Preservation of electronic public records"
+    doc_type: rule
+    jurisdiction: washington
+    issuing_body: Office of the Secretary of State (state archivist); published by the Legislature's Code Reviser
+    tags: [data, governance]
+    recheck: monthly
+    why_relevant: "The Secretary of State's rules for state and local agencies' electronic records, issued under chapters 40.14, 42.56 and 43.105 RCW: 'Electronic records must be retained in electronic format and remain usable, searchable, retrievable and authentic for the length of the designated retention period' (434-662-040); retention, disposition and transfer of electronic records to the digital archives, authentication and chain of custody, encryption, metadata, website management and email management (434-662-030 to 434-662-150). Whole chapter; every section is about electronic records. In force: all 13 sections are current on the Legislature's WAC page (2026-11-13), the latest filed WSR 08-21-073. Taken under owner decision 1 of 2026-11-13 (records provisions whose focus is state electronic records). Cited by WaTech policies DATA-01-03-G, EA-01-01-G and SEC-11-01-G."
 
   # ---- Executive orders (Governor's Active list; all five are text PDFs)
   - id: wa-eo-24-01
@@ -1810,8 +1929,19 @@ left_out:
     (https://app.leg.wa.gov/wac/default.aspx?cite=143, watched below). RCW 43.105.057 only says the agency
     "shall adopt rules as necessary". WaTech sets IT requirements by policy and standard, not by WAC. The
     official bulk route for rules is the open directory https://lawfilesext.leg.wa.gov/law/WAC/; it was not needed.
-     - Chapter 434-662 WAC (Secretary of State, preservation of electronic public records) was found by search
-       only (a lead, not fetched): records-management rules, the same category Oregon left out. OWNER DECISION.
+     - Chapter 434-662 WAC (Secretary of State, preservation of electronic public records): no longer left out.
+       Owner decision 1 of 2026-11-13 takes in provisions whose own focus is governance of state IT, and every
+       section of this chapter is about electronic records; read in full on 2026-11-13 and seeded as wa-wac-434-662.
+     - Records rules left out on 2026-11-13 after reading them (owner decision 1 tests the provision's own focus):
+       chapter 434-615 WAC (custody of public records: 434-615-010, -020 and -030 govern ownership, custody and
+       transfer of public records of every medium, no word of IT) and chapter 434-660 WAC (one section, 434-660-010
+       'Statutory authority': the state archivist shall adopt standards for the accuracy and durability of
+       'photographic, optical, electronic or other images' of public records; a statement of rulemaking authority
+       over image media, not a rule on state IT).
+     - WAC 292-110-010 (Executive Ethics Board, 'Use of state resources'), left out 2026-11-13: it governs the use of
+       all state resources ('funds, facilities, tools, property, and their time'); only subsections (3)(a)(v) and (4)
+       mention information systems and electronic records. A general provision that applies to IT along with
+       everything else, so owner decision 1 does not reach it.
 - text: |-
     Policy library items not seeded:
      - EA - 183.20.10 'Identity Management User Authentication Standard (Rescinded 8/13/2026)': the library
@@ -1840,8 +1970,13 @@ left_out:
     Executive orders, in scope but not seeded (read in full on 2026-11-10; all are Active):
      - 16-07 'Building a Modern Work Environment': telework and mobile workforce; WaTech is told to provide shared
        technology services, but the order is about HR and workplace strategy. Borderline. OWNER DECISION.
-     - 25-06 'Transforming Customer Experience and Service Delivery in State Government Operations': digital-first
-       service delivery and WaTech partnership, but a customer-experience order. Borderline. OWNER DECISION.
+     - 25-06 'Transforming Customer Experience and Service Delivery in State Government Operations' (09/03/2025,
+       Active on the Governor's list): re-read in full on 2026-11-13 and still left out. Its purpose clause
+       (section 1) is 'to improve customer experience throughout state government'; it creates the Your Washington
+       office and customer-experience reporting duties for cabinet agencies. Its IT content (section 5: WA.gov as a
+       central portal with WaTech, 'one front door', a data-sharing presumption in 5(c)) is a priority-action list
+       inside a service-delivery order, and it directs no IT purchase, approval, funding, security or oversight.
+       Owner decision 1 asks whether the provision's own focus is the governance of state IT; here it is not.
      - 25-05 'Data Center Workgroup': about data centers as an industry and their electricity use (Department
        of Revenue leads), not state IT. 16-06 'State Agency Enterprise Risk Management': mentions information
        systems once; general risk management.
@@ -1854,14 +1989,43 @@ left_out:
        AI. Orders were screened by title; the ten above that could be IT were read.
 - text: |-
     Statutes not seeded:
-     - Chapter 39.26 RCW (state procurement) apart from section 39.26.340, and the other procurement chapters:
-       Oregon's procurement statutes were left out by owner decision; same here. OWNER DECISION.
+     - Chapter 39.26 RCW (state procurement) apart from sections 39.26.340 and 39.26.235 (seeded: owner decision 1
+       of 2026-11-13 takes in IT sections of a procurement code, and the site serves one page per section), and the
+       other procurement chapters. Sections of 39.26 read on 2026-11-13 and left out because their focus is not IT:
+       39.26.100 (exemptions: a list of unrelated exemptions of which subsections (2) data center and (7) small IT
+       purchases are two), 39.26.090 (director's duties; subsection (3) on IT purchasing processes is one of many)
+       and 39.26.265 (a preference for electronic products meeting environmental standards: environmental policy).
      - RCW 42.56.420 (public records exemptions for security information) and the rest of chapter 42.56:
        cited by WaTech policy SEC-01; the IT-specific part is a few subsections of a general exemption section.
      - RCW 39.24.240 is a misprint of RCW 39.34.240 in policies DATA-03 and DATA-04 (app.leg.wa.gov returns
        a page with no section content for cite=39.24.240). The correct section, 39.34.240 'Data requests -
        When written agreement required', is seeded above.
-     - Chapters 40.14 (records retention) and 43.88 (budget): records management and budgeting, general law.
+     - Chapter 40.14 RCW (records retention): general records law, not among the candidates the owner's decision of
+       2026-11-13 was applied to; left out. Chapter 43.88 RCW (budget) apart from section 43.88.092 (seeded: its own
+       subject is state IT spending, owner decision 1 of 2026-11-13): general budgeting.
+     - Chapter 19.360 RCW (electronic signatures, state and local agencies), cited by SEC-11-01-G as 'RCW 19.360.020(4)':
+       every section (19.360.010 to 19.360.060) is shown on the Legislature's chapter page as 'Repealed by 2020 c 57
+       § 90'. Not in force, so not seeded (read 2026-11-13). The citing policy prints a repealed citation.
+       The in-force successor is the Uniform Electronic Transactions Act of the same act (2020 c 57, chapter 1.80 RCW):
+       RCW 1.80.160 (2020 c 57 § 17, 'Creation and retention of electronic records ... by governmental agencies') and
+       RCW 1.80.170 (2020 c 57 § 18, 'Acceptance and distribution of electronic records by governmental agencies': an
+       agency decides whether to use electronic signatures and may specify formats, systems and security controls).
+       Both read in force through the Fetcher 2026-11-13. They are not listed candidates and are not seeded; they
+       are the agency-addressed electronic-records and e-signature sections SEC-11-01-G relies on today, so an owner
+       question (see the report).
+     - RCW 43.386.070 and 43.386.080 (facial recognition, law enforcement and courts), left out 2026-11-13 (chapter
+       43.386 RCW is served by the site one page per section, so the chapter is not taken whole): 070(1) discloses
+       use to criminal defendants and 070(3) has judges report surveillance warrants to the administrator for the
+       courts; 080(4)-(7) bind law enforcement on body worn cameras, probable cause, sketches and image
+       manipulation. The focus is law enforcement and the courts, not state IT governance (domain.yml out_of_scope:
+       law-enforcement technology). Borderline, named for the owner: 070(2) (records of use kept sufficient for
+       public auditing) and 080(1)-(3) (warrant, exigency and viewpoint limits on any agency's use of the service).
+       RCW 43.386.900 (findings) and 43.386.901 (effective date, 2021-07-01): context only, not governance.
+     - RCW 38.52.030 and 38.52.040 (emergency management; 38.52.040(4) creates the cybersecurity advisory
+       committee), left out 2026-11-13: the sections are about the emergency management council and director, and
+       the committee advises 'industry and public sectors across all critical infrastructure sectors', so the focus
+       is not the governance of state government IT. The held chapter 43.105 carries the WaTech side of that
+       collaboration.
      - The 2024 act that created the Washington State AI Task Force (E2SSB 5838): a temporary study body
        referred to by search results; text not read, and it is not codified in the RCW chapters seeded here.
      - 2026 c 9 (HB 2606, Office of Privacy and Data Protection performance measures and duties; effective

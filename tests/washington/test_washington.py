@@ -106,3 +106,56 @@ def test_rcw_text_stops_before_the_page_footer():
     for page in (RCW_CH, RCW_SEC):
         t = ing.to_text(page, "html", "statute", "washington")
         assert "Legislative Hotline" not in t and "TTY" not in t and "Disclaimer" not in t
+
+
+# ---- Washington WAC chapter pages (app.leg.wa.gov/wac), the whole chapter on one page -----------
+# Fixture: the real page the Legislature served on 2026-11-13 (chapter 434-662 WAC), with its header,
+# section table and footer.
+WAC_CH = (FIX / "wac-434-662-chapter.html").read_bytes()
+WA_RULE = {"id": "wa-wac-434-662", "doc_type": "rule", "jurisdiction": "washington",
+           "citation": "WAC chapter 434-662", "title": "Chapter 434-662 WAC - Preservation of electronic public records"}
+
+
+def test_wac_chapter_text_has_title_then_every_section_in_source_order():
+    t = ing.to_text(WAC_CH, "html", "rule", "washington")
+    lines = t.splitlines()
+    assert lines[0] == "Chapter 434-662 WAC"
+    assert lines[1] == "PRESERVATION OF ELECTRONIC PUBLIC RECORDS"
+    heads = [ln for ln in lines if ln.startswith("WAC 434-662-")]
+    assert heads == [f"WAC 434-662-{n}" for n in
+                     "010 020 030 040 050 055 060 070 090 100 110 140 150".split()]
+    assert lines[lines.index("WAC 434-662-010") + 1] == "Purpose."
+    assert lines[lines.index("WAC 434-662-150") + 1] == "Email management."
+    assert "Printing and retaining a hard copy is not a substitute" in t
+
+
+def test_wac_chapter_text_keeps_history_lines_and_drops_page_furniture():
+    t = ing.to_text(WAC_CH, "html", "rule", "washington")
+    lines = t.splitlines()
+    assert any(ln.startswith("[Statutory Authority: RCW 40.14.020(6)") and "WSR 08-21-073, § 434-662-150" in ln
+               for ln in lines)
+    assert lines[-1].endswith("effective 1/1/10.]")                   # the last section ends the text
+    assert lines.count("Purpose.") == 1                              # the page's own section table is not text
+    assert "<" not in t and "&amp;" not in t and "\xa0" not in t
+    for furniture in ("PDF", "HTML", "Legislative questions or comments", "Call the Legislative Hotline"):
+        assert furniture not in lines
+    assert "Hotline" not in t
+
+
+def test_wac_page_without_a_content_region_is_refused():
+    with pytest.raises(ValueError, match="content region"):
+        ing.to_text(b"<html><body><p>Not found</p></body></html>", "html", "rule", "washington")
+
+
+def test_wa_rule_chapter_page_must_be_the_cited_chapter():
+    text = ing.to_text(WAC_CH, "html", "rule", "washington")
+    ing.check_identity(WA_RULE, text)
+    with pytest.raises(ValueError, match="not WAC chapter 434-615"):
+        ing.check_identity(dict(WA_RULE, citation="WAC chapter 434-615"), text)
+    with pytest.raises(ValueError, match="not WAC chapter 434-66"):
+        ing.check_identity(dict(WA_RULE, citation="WAC chapter 434-66"), text)
+
+
+def test_wa_rule_conversion_notes_describe_the_wac_page():
+    notes = ing.conversion_notes(WA_RULE, "html", "")
+    assert "WAC" in notes and "section table" in notes
