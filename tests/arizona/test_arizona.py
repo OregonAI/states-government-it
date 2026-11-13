@@ -149,3 +149,22 @@ def test_an_order_takes_the_date_its_page_prints_as_effective_and_a_statute_none
 def test_the_order_notes_describe_the_page_reading():
     note = arizona.notes(EO_SRC, "html", arizona.order_html_to_text(EO))
     assert "order page" in note and "numbering" in note
+
+
+S15116 = (FIX / "ars-41-151-16.htm").read_bytes()
+SRC15116 = {"id": "az-ars-41-151-16", "jurisdiction": "arizona", "doc_type": "statute", "citation": "A.R.S. 41-151.16",
+            "title": "41-151.16 - Production and reproduction of records by agencies of the state and political subdivisions; "
+                     "admissibility; violation; classification"}
+
+
+def test_a_dotted_section_number_is_read_and_confirmed():
+    text = arizona.section_html_to_text(S15116)
+    assert text.splitlines()[0].startswith("41-151.16. Production and reproduction of records")
+    assert "digital imaging or other electronic media" in text
+    assert arizona.check_identity(SRC15116, text, "the page") is True
+
+
+def test_the_neighbouring_dotted_section_is_not_accepted_for_it():
+    text = arizona.section_html_to_text(S15116)
+    with pytest.raises(ValueError):
+        arizona.check_identity({**SRC15116, "citation": "A.R.S. 41-151.15"}, text, "the page")

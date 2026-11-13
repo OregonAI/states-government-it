@@ -1,0 +1,3 @@
+type: Added
+
+Arizona added: 1 statute, A.R.S. 41-151.16 (state agencies' digital imaging and electronic reproduction of records; director's approval of methods, storage and equipment), seeded as a section page under the owner decision of 2026-11-13 that a provision whose own focus is the governance of state IT is in scope. Declined after reading the sections at azleg.gov, with the reasons in the left-out record: A.R.S. 44-7012 (electronic records retention for any person, general private law) and A.R.S. 41-151, 41-151.12 to 41-151.15 and 41-151.17 to 41-151.19 (general records law). The left-out reason for the records-law group is updated.
