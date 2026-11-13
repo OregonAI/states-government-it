@@ -8,11 +8,11 @@ Generated 2026-11-12. Non-authoritative; see DISCLAIMER.md.
 |---|---|
 | policy | 957 |
 | standard | 726 |
-| statute | 444 |
+| statute | 451 |
 | executive_order | 80 |
 | rule | 52 |
 
-**Total: 2259**
+**Total: 2266**
 
 ## Source manifest
 
@@ -20,7 +20,7 @@ Generated 2026-11-12. Non-authoritative; see DISCLAIMER.md.
 
 ## Freshness (reverify every 90 days)
 
-2259 of 2259 document(s) overdue for re-verification.
+2266 of 2266 document(s) overdue for re-verification.
 
 | id | doc_type | last_verified |
 |---|---|---|
@@ -74,5 +74,5 @@ Generated 2026-11-12. Non-authoritative; see DISCLAIMER.md.
 | ca-gov-7929-210 | statute | never |
 | ca-gov-8586-5 | statute | never |
 | ca-gov-8592-30-8592-50 | statute | never |
-| … | *2209 more* | |
+| … | *2216 more* | |
 

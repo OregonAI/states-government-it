@@ -1,6 +1,6 @@
 {
  "corpus": "states-government-it",
- "n_nodes": 2259,
+ "n_nodes": 2266,
  "n_edges": 0,
  "n_edges_external": 0,
  "nodes": [
@@ -2103,6 +2103,48 @@
    "title": "Civilian Cyber Security Reserve Forces",
    "doc_type": "statute",
    "path": "statutes/ohio/oh-orc-ch5922.md"
+  },
+  {
+   "id": "ok-62-os-34-11-2-to-34-31-2",
+   "title": "Oklahoma Statutes Title 62, Sections 34.11.2 to 34.31.2: Information Services Division and state information technology initiatives",
+   "doc_type": "statute",
+   "path": "statutes/oklahoma/ok-62-os-34-11-2-to-34-31-2.md"
+  },
+  {
+   "id": "ok-62-os-34-202-to-34-210",
+   "title": "Oklahoma Statutes Title 62, Sections 34.202 to 34.210: OMES technology contracts and state data",
+   "doc_type": "statute",
+   "path": "statutes/oklahoma/ok-62-os-34-202-to-34-210.md"
+  },
+  {
+   "id": "ok-62-os-34-43",
+   "title": "Oklahoma Statutes Title 62, Section 34.43: State agencies' submission of information technology budgets",
+   "doc_type": "statute",
+   "path": "statutes/oklahoma/ok-62-os-34-43.md"
+  },
+  {
+   "id": "ok-62-os-35",
+   "title": "Oklahoma Statutes Title 62, Sections 35.1 to 35.8: Information Technology Consolidation and Coordination Act",
+   "doc_type": "statute",
+   "path": "statutes/oklahoma/ok-62-os-35.md"
+  },
+  {
+   "id": "ok-62-os-41-5a-4",
+   "title": "Oklahoma Statutes Title 62, Section 41.5a-4: Destruction or disposal of electronic storage media",
+   "doc_type": "statute",
+   "path": "statutes/oklahoma/ok-62-os-41-5a-4.md"
+  },
+  {
+   "id": "ok-74-os-3106-3-to-3106-4",
+   "title": "Oklahoma Statutes Title 74, Sections 3106.3 to 3106.4: Oklahoma Government Website Information Act",
+   "doc_type": "statute",
+   "path": "statutes/oklahoma/ok-74-os-3106-3-to-3106-4.md"
+  },
+  {
+   "id": "ok-74-os-3113-1",
+   "title": "Oklahoma Statutes Title 74, Section 3113.1: Disclosure of breach of security of computerized personal information",
+   "doc_type": "statute",
+   "path": "statutes/oklahoma/ok-74-os-3113-1.md"
   },
   {
    "id": "or-ors-276a",
