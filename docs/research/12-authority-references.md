@@ -762,7 +762,7 @@ What the counts support:
 
 ## Owner decisions, 2026-11-13
 
-1. **Procurement provisions and records-retention provisions tied to state IT are in scope.** IT provisions inside procurement law and records-retention law may be seeded as section slices.
+1. **Procurement provisions and records-retention provisions tied to state IT are in scope.** IT provisions inside procurement law and records-retention law may be seeded as section slices. Widened the same day: "I approve the other adjacent subjects as long as its focus is regarding the governance of IT". So a provision in any non-IT chapter (budget, organization, records, e-signature, privacy, accessibility and the like) may be seeded as a section slice when the provision's own focus is the governance of state IT; a general provision that merely also applies to IT is not approved.
 2. **The 15 "seed whole" candidates are approved** for verification against the official source and ingest.
 3. **Idaho:** the three ITA policies that rest on the lapsed Executive Order 2005-22 (`id-ita-p1040`, `id-ita-p1050`, `id-ita-p1060`) are treated as not in force.
 4. **No gate.** `src/authority_refs.py --check` is not run by `scripts/gates.sh` or CI, and `scripts/regen.sh` does not rebuild `_meta/eval/authority-refs.json`. The JSON is a dated result; re-run the tool to refresh it.
